@@ -1,0 +1,5 @@
+.DS_Store
+extracted/
+*.zip
+.claude/logs/
+logs/

@@ -1,0 +1,9 @@
+El campo IA se partió hoy entre los que le dijeron sí al Pentágono y Anthropic, el único que se negó, mientras en producción el 91% de los agentes autónomos resulta explotable.
+
+Anthropic comprometió 200.000 millones a Google Cloud y rechazó los contratos militares que firmaron Google, OpenAI, Microsoft y xAI el mismo día.
+
+Los trabajadores de DeepMind votaron sindicalizarse con 98% de apoyo, detonados exactamente por esa distinción entre IA comercial y IA militar.
+
+Un estudio sobre 847 despliegues reales encontró que el 91% de los agentes autónomos en producción cae ante ataques que encadenan herramientas para escalar privilegios y exfiltrar datos.
+
+OpenAI publicó un blueprint de política para IA en salud que pide relajar los requisitos de evidencia clínica en la FDA — prestale atención si te importa quién termina escribiendo las reglas del sector en los próximos dos años.

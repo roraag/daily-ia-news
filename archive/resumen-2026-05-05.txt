@@ -1,0 +1,5 @@
+La IA recibe hoy la mayor inversión de su historia y al mismo tiempo el escrutinio más duro: regulación que se mueve desde el ejecutivo, evidencia de resultados reales que empieza a crujir.
+La Casa Blanca estudia revisar modelos frontier antes de lanzarlos, con Mythos como detonante explícito en todos los artículos.
+Anthropic lanzó Opus 4.7 con reducción del 50% en sycophancy y una feature que hace que el modelo verifique sus propias respuestas antes de entregártelas.
+Topol cierra la semana con una revisión sistemática que concluye que los LLMs no tienen evidencia de mejorar outcomes clínicos más allá de tareas administrativas.
+Prestá atención al silencio público de Anthropic ante la Casa Blanca: siempre tuvieron política activa con Washington, y que no haya statement sugiere que la conversación está pasando en privado, lo que puede ser muy bueno o una señal de que Mythos los puso en una posición incómoda que no quieren amplificar.

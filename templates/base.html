@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Daily IA News — {{DATE}}</title>
+<style>
+  :root {
+    --bg: #fdfcf8;
+    --fg: #1a1a1a;
+    --muted: #666;
+    --border: #e5e5e0;
+    --accent: #2952a3;
+    --accent-soft: #eef2fa;
+    --tag-tech: #2952a3;
+    --tag-business: #6b4a1f;
+    --tag-health: #1e6e3a;
+    --tesis-bg: #fff8e7;
+    --tesis-border: #d4b04e;
+    --watch-bg: #f4eef8;
+    --watch-border: #8b5cb8;
+    --bolsillo-bg: #eaf6ee;
+    --bolsillo-border: #2f8a4a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1a1a1a;
+      --fg: #e8e8e4;
+      --muted: #999;
+      --border: #333;
+      --accent: #7fa8d9;
+      --accent-soft: #1f2937;
+      --tag-tech: #7fa8d9;
+      --tag-business: #c9a876;
+      --tag-health: #7fc998;
+      --tesis-bg: #2a2516;
+      --tesis-border: #b89742;
+      --watch-bg: #261c2e;
+      --watch-border: #b07ed6;
+      --bolsillo-bg: #1a2a1f;
+      --bolsillo-border: #5fb077;
+    }
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--fg);
+    font-size: 18px;
+    line-height: 1.6;
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    min-height: 100vh;
+  }
+  body.sidebar-collapsed { grid-template-columns: 0 1fr; }
+  aside {
+    border-right: 1px solid var(--border);
+    padding: 1.5rem 1rem;
+    overflow: hidden;
+    transition: all 0.2s;
+  }
+  aside h2 { font-size: 0.85rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; margin-bottom: 0.75rem; }
+  .calendar-nav { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; }
+  .calendar-nav button { background: none; border: none; color: var(--muted); cursor: pointer; font-size: 1rem; }
+  .calendar-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 2px; font-size: 0.85rem; }
+  .calendar-grid .day { aspect-ratio: 1; display: flex; align-items: center; justify-content: center; color: var(--muted); border-radius: 3px; }
+  .calendar-grid .day.has-news { color: var(--fg); font-weight: 600; cursor: pointer; }
+  .calendar-grid .day.has-news:hover { background: var(--border); }
+  .calendar-grid .day.today { outline: 2px solid var(--accent); }
+  .calendar-grid .dow { color: var(--muted); font-size: 0.7rem; text-transform: uppercase; }
+  main { padding: 2rem 3rem; max-width: 820px; }
+  header { margin-bottom: 2rem; display: flex; flex-direction: column; gap: 1rem; }
+  .title { font-family: "IBM Plex Serif", Georgia, serif; font-size: 2rem; font-weight: 600; }
+  .date { color: var(--muted); font-size: 1rem; }
+  .controls { display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center; }
+  .chip {
+    padding: 0.4rem 0.8rem;
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    background: none;
+    color: var(--fg);
+    cursor: pointer;
+    font-size: 0.85rem;
+  }
+  .chip.active { background: var(--accent); color: white; border-color: var(--accent); }
+
+  /* Tesis del día */
+  .tesis-dia {
+    background: var(--tesis-bg);
+    border-left: 4px solid var(--tesis-border);
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 4px;
+  }
+  .tesis-dia .seccion-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--tesis-border);
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+  .tesis-dia .tesis-text {
+    font-family: "IBM Plex Serif", Georgia, serif;
+    font-size: 1.1rem;
+    line-height: 1.55;
+  }
+  .tesis-dia .tesis-text strong { font-weight: 700; }
+
+  /* Section heading entre bloques */
+  .section-heading {
+    font-family: "IBM Plex Serif", Georgia, serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid var(--border);
+  }
+
+  /* Lista de noticias */
+  .news-list { display: flex; flex-direction: column; }
+  .news-item { padding: 1.5rem 0; border-bottom: 1px solid var(--border); cursor: pointer; }
+  .news-item:last-child { border-bottom: none; }
+  .news-header { display: flex; gap: 1rem; align-items: baseline; }
+  .news-number { font-family: "IBM Plex Serif", Georgia, serif; color: var(--muted); font-size: 1.1rem; min-width: 2rem; }
+  .news-title-wrap { flex: 1; }
+  .news-title { font-family: "IBM Plex Serif", Georgia, serif; font-size: 1.35rem; font-weight: 600; line-height: 1.3; }
+  .news-tag { display: inline-block; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; margin-left: 0.5rem; font-weight: 500; }
+  .news-tag.tech { color: var(--tag-tech); }
+  .news-tag.business { color: var(--tag-business); }
+  .news-tag.health { color: var(--tag-health); }
+  .news-summary { color: var(--muted); margin-top: 0.5rem; font-size: 1rem; }
+  .news-detail { display: none; margin-top: 1rem; padding-left: 3rem; }
+  .news-item.expanded .news-detail { display: block; }
+  .news-detail h4 { font-size: 0.8rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; margin-top: 1rem; margin-bottom: 0.4rem; }
+  .news-detail h4:first-child { margin-top: 0; }
+  .news-detail h4.angle-heading { color: var(--accent); }
+  .news-detail ul { padding-left: 1.2rem; }
+  .news-detail li { margin-bottom: 0.3rem; }
+  .news-detail .source-link { color: var(--accent); text-decoration: none; font-size: 0.9rem; }
+  .news-detail .source-link:hover { text-decoration: underline; }
+  .news-detail .actions { display: flex; gap: 0.6rem; align-items: center; flex-wrap: wrap; margin-top: 1rem; }
+  .copy-prompt-btn {
+    background: var(--accent-soft);
+    color: var(--accent);
+    border: 1px solid var(--accent);
+    border-radius: 16px;
+    padding: 0.35rem 0.9rem;
+    font-size: 0.85rem;
+    cursor: pointer;
+    font-family: inherit;
+  }
+  .copy-prompt-btn:hover { background: var(--accent); color: white; }
+  .copy-prompt-btn.copied { background: var(--bolsillo-border); color: white; border-color: var(--bolsillo-border); }
+
+  /* Anthropic Watch */
+  .seccion-watch {
+    background: var(--watch-bg);
+    border-left: 4px solid var(--watch-border);
+    padding: 1.25rem 1.5rem;
+    margin-top: 2.5rem;
+    border-radius: 4px;
+  }
+  .seccion-watch .seccion-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--watch-border);
+    font-weight: 700;
+    margin-bottom: 0.6rem;
+  }
+  .seccion-watch h3 {
+    font-family: "IBM Plex Serif", Georgia, serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+  }
+  .seccion-watch p { margin-bottom: 0.8rem; }
+  .seccion-watch ul { margin: 0.4rem 0 0.8rem 1.2rem; }
+  .seccion-watch li { margin-bottom: 0.3rem; }
+
+  /* El Bolsillo */
+  .seccion-bolsillo {
+    background: var(--bolsillo-bg);
+    border-left: 4px solid var(--bolsillo-border);
+    padding: 1.25rem 1.5rem;
+    margin-top: 2rem;
+    border-radius: 4px;
+  }
+  .seccion-bolsillo .seccion-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--bolsillo-border);
+    font-weight: 700;
+    margin-bottom: 0.6rem;
+  }
+  .seccion-bolsillo h3 {
+    font-family: "IBM Plex Serif", Georgia, serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+  }
+  .seccion-bolsillo ul { margin: 0.4rem 0 0.8rem 1.2rem; }
+  .seccion-bolsillo li { margin-bottom: 0.4rem; }
+  .seccion-bolsillo .patron { font-style: italic; color: var(--muted); margin-top: 0.6rem; }
+
+  /* El resto — breves */
+  .seccion-resto {
+    margin-top: 2.5rem;
+    padding-top: 1rem;
+    border-top: 1px dashed var(--border);
+  }
+  .seccion-resto .seccion-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+  }
+  .seccion-resto .seccion-sub {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  .resto-list { display: flex; flex-direction: column; gap: 0.6rem; }
+  .resto-item { padding: 0.6rem 0; border-bottom: 1px dotted var(--border); font-size: 0.95rem; line-height: 1.5; }
+  .resto-item:last-child { border-bottom: none; }
+  .resto-item strong { font-weight: 600; }
+  .resto-item .resto-meta { display: inline-flex; gap: 0.5rem; align-items: center; margin-left: 0.4rem; flex-wrap: wrap; }
+  .resto-item .resto-meta a { color: var(--accent); text-decoration: none; font-size: 0.85rem; }
+  .resto-item .resto-meta a:hover { text-decoration: underline; }
+  .resto-item .copy-prompt-btn { padding: 0.2rem 0.6rem; font-size: 0.75rem; }
+
+  footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.85rem; }
+  @media (max-width: 800px) {
+    body { grid-template-columns: 1fr; font-size: 17px; }
+    aside { display: none; }
+    main {
+      padding: 1.25rem 1rem;
+      padding-left: max(1rem, env(safe-area-inset-left));
+      padding-right: max(1rem, env(safe-area-inset-right));
+      padding-bottom: max(1.5rem, env(safe-area-inset-bottom));
+      max-width: 100%;
+    }
+    /* Filtros y toggle de calendario no aportan en mobile/Telegram */
+    .controls { display: none; }
+    header { margin-bottom: 1.25rem; gap: 0.5rem; }
+    .title { font-size: 1.7rem; }
+    /* Nivel A expandido siempre, sin click-to-toggle */
+    .news-item { cursor: default; padding: 1.25rem 0; }
+    .news-item .news-detail { display: block; padding-left: 0; margin-top: 0.75rem; }
+    .news-number { display: none; }
+    .news-title { font-size: 1.2rem; }
+    .news-detail h4 { margin-top: 0.9rem; }
+    .news-detail .actions { margin-top: 1.1rem; }
+    /* Tap targets >= 44px para "Llevame a Claude" en Nivel A */
+    .news-detail .copy-prompt-btn {
+      min-height: 44px;
+      padding: 0.7rem 1rem;
+      font-size: 0.95rem;
+      width: 100%;
+      text-align: center;
+      border-radius: 10px;
+    }
+    /* En "El resto" el botón sigue inline pero con touch decente */
+    .resto-item .copy-prompt-btn {
+      min-height: 32px;
+      padding: 0.35rem 0.75rem;
+      font-size: 0.8rem;
+    }
+    /* Compactar bloques destacados en pantalla angosta */
+    .tesis-dia, .seccion-watch, .seccion-bolsillo { padding: 1rem 1.1rem; }
+    .tesis-dia .tesis-text { font-size: 1.05rem; }
+    .section-heading { font-size: 1.25rem; margin-top: 2rem; }
+  }
+</style>
+</head>
+<body>
+
+<aside>
+  <h2>Histórico</h2>
+  <div class="calendar-nav">
+    <button id="prev-month">‹</button>
+    <span id="calendar-title">Abril 2026</span>
+    <button id="next-month">›</button>
+  </div>
+  <div class="calendar-grid" id="calendar"></div>
+</aside>
+
+<main>
+  <header>
+    <div>
+      <div class="title">Daily IA News</div>
+      <div class="date">{{DATE}}</div>
+    </div>
+    <div class="controls">
+      <button class="chip active" data-filter="all">Todos</button>
+      <button class="chip" data-filter="tech">Tech</button>
+      <button class="chip" data-filter="business">Negocio</button>
+      <button class="chip" data-filter="health">Salud</button>
+      <button class="chip" id="toggle-sidebar" style="margin-left: auto;">📅</button>
+    </div>
+  </header>
+
+  {{TESIS_DIA}}
+
+  <h2 class="section-heading">Lo que importa hoy</h2>
+  <div class="news-list" id="news-list">
+    {{NEWS_ITEMS}}
+  </div>
+
+  {{ANTHROPIC_WATCH}}
+
+  {{BOLSILLO}}
+
+  {{EL_RESTO}}
+
+  <footer>
+    {{TOTAL_COUNT}} noticias curadas. Daily IA News — tu redactor personal de IA.
+  </footer>
+</main>
+
+<script>
+  // ARCHIVE_DATA_START
+  const ARCHIVE_DATA = {{ARCHIVE_DATA}};
+  // ARCHIVE_DATA_END
+  const CURRENT_DATE_ISO = "{{DATE_ISO}}";
+  const IN_ARCHIVE = window.location.pathname.includes('/archive/');
+
+  document.querySelectorAll('.news-item').forEach(item => {
+    item.addEventListener('click', (e) => {
+      if (e.target.closest('.copy-prompt-btn') || e.target.closest('a')) return;
+      item.classList.toggle('expanded');
+    });
+  });
+
+  async function copyPromptToClipboard(text) {
+    try {
+      if (navigator.clipboard && window.isSecureContext) {
+        await navigator.clipboard.writeText(text);
+        return true;
+      }
+    } catch (e) { /* sigue al fallback */ }
+    try {
+      const ta = document.createElement('textarea');
+      ta.value = text;
+      ta.setAttribute('readonly', '');
+      ta.style.position = 'fixed';
+      ta.style.top = '0';
+      ta.style.left = '0';
+      ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.focus();
+      ta.select();
+      ta.setSelectionRange(0, text.length);
+      const ok = document.execCommand('copy');
+      document.body.removeChild(ta);
+      return ok;
+    } catch (e) {
+      return false;
+    }
+  }
+
+  document.querySelectorAll('.copy-prompt-btn').forEach(btn => {
+    btn.addEventListener('click', async (e) => {
+      e.stopPropagation();
+      const prompt = btn.dataset.prompt || '';
+      const original = btn.textContent;
+      const ok = await copyPromptToClipboard(prompt);
+      btn.textContent = ok ? '✓ Copiado — pegá en Claude' : 'No se pudo copiar';
+      btn.classList.add('copied');
+      setTimeout(() => { btn.textContent = original; btn.classList.remove('copied'); }, 2400);
+    });
+  });
+
+  document.querySelectorAll('.chip[data-filter]').forEach(chip => {
+    chip.addEventListener('click', () => {
+      document.querySelectorAll('.chip[data-filter]').forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+      const filter = chip.dataset.filter;
+      document.querySelectorAll('.news-item').forEach(item => {
+        item.style.display = (filter === 'all' || item.dataset.category === filter) ? '' : 'none';
+      });
+    });
+  });
+
+  document.getElementById('toggle-sidebar').addEventListener('click', () => {
+    document.body.classList.toggle('sidebar-collapsed');
+  });
+
+  const MONTHS_ES = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
+  let currentMonth = new Date(CURRENT_DATE_ISO + 'T12:00:00');
+
+  function hrefForDate(iso) {
+    const latest = ARCHIVE_DATA.dates[ARCHIVE_DATA.dates.length - 1];
+    if (iso === latest) {
+      return IN_ARCHIVE ? '../index.html' : 'index.html';
+    }
+    return IN_ARCHIVE ? `${iso}.html` : `archive/${iso}.html`;
+  }
+
+  function renderCalendar(date) {
+    const year = date.getFullYear();
+    const month = date.getMonth();
+    document.getElementById('calendar-title').textContent = `${MONTHS_ES[month]} ${year}`;
+    const firstDay = new Date(year, month, 1).getDay();
+    const daysInMonth = new Date(year, month + 1, 0).getDate();
+    const grid = document.getElementById('calendar');
+    grid.innerHTML = '';
+    ['D','L','M','M','J','V','S'].forEach(d => {
+      const el = document.createElement('div');
+      el.className = 'dow';
+      el.textContent = d;
+      grid.appendChild(el);
+    });
+    for (let i = 0; i < firstDay; i++) {
+      const el = document.createElement('div');
+      el.className = 'day';
+      grid.appendChild(el);
+    }
+    for (let d = 1; d <= daysInMonth; d++) {
+      const el = document.createElement('div');
+      el.className = 'day';
+      el.textContent = d;
+      const iso = `${year}-${String(month+1).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
+      if (ARCHIVE_DATA.dates && ARCHIVE_DATA.dates.includes(iso)) {
+        el.classList.add('has-news');
+        el.addEventListener('click', () => { window.location.href = hrefForDate(iso); });
+      }
+      if (iso === CURRENT_DATE_ISO) el.classList.add('today');
+      grid.appendChild(el);
+    }
+  }
+  document.getElementById('prev-month').addEventListener('click', () => {
+    currentMonth.setMonth(currentMonth.getMonth() - 1);
+    renderCalendar(currentMonth);
+  });
+  document.getElementById('next-month').addEventListener('click', () => {
+    currentMonth.setMonth(currentMonth.getMonth() + 1);
+    renderCalendar(currentMonth);
+  });
+  renderCalendar(currentMonth);
+</script>
+</body>
+</html>

@@ -1,0 +1,364 @@
+# Pool de fuentes para Daily IA News
+#
+# Dos bloques:
+#   sources: medios y blogs editoriales (producen noticias)
+#   voices:  panel humano (founders / especialistas / críticos — producen takes y señales)
+#
+# Categorías de sources: tech | business | health
+# Peso: 1 (básico) a 3 (alta prioridad). Pondera en el ranking.
+# Language: en | es
+
+sources:
+  # ===== TECH / IA GENERAL (~40%) =====
+  - name: TechCrunch AI
+    url: https://techcrunch.com/category/artificial-intelligence/
+    rss: https://techcrunch.com/category/artificial-intelligence/feed/
+    category: tech
+    weight: 2
+    language: en
+
+  - name: The Verge AI
+    url: https://www.theverge.com/ai-artificial-intelligence
+    rss: https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
+    category: tech
+    weight: 2
+    language: en
+
+  - name: Ars Technica
+    url: https://arstechnica.com/ai/
+    rss: https://feeds.arstechnica.com/arstechnica/technology-lab
+    category: tech
+    weight: 2
+    language: en
+
+  - name: MIT Technology Review
+    url: https://www.technologyreview.com/topic/artificial-intelligence/
+    rss: https://www.technologyreview.com/feed/
+    category: tech
+    weight: 3
+    language: en
+
+  - name: VentureBeat AI
+    url: https://venturebeat.com/category/ai/
+    rss: https://venturebeat.com/category/ai/feed/
+    category: tech
+    weight: 2
+    language: en
+
+  - name: Anthropic Blog
+    url: https://www.anthropic.com/news
+    rss: null  # sin RSS oficial; usar fallback Google News
+    category: tech
+    weight: 3
+    language: en
+    notes: prioridad alta — alimenta Anthropic Watch
+
+  - name: Anthropic Engineering
+    url: https://www.anthropic.com/engineering
+    rss: null  # sin RSS oficial; scraping del listing
+    category: tech
+    weight: 3
+    language: en
+    notes: posts técnicos, alimenta Anthropic Watch
+
+  - name: Anthropic Careers
+    url: https://www.anthropic.com/jobs
+    rss: null  # listing scraping; nuevos jobs = señal de hacia dónde van
+    category: tech
+    weight: 2
+    language: en
+    notes: leer SOLO los jobs publicados en últimos 7 días — para Anthropic Watch
+
+  - name: OpenAI Blog
+    url: https://openai.com/blog
+    rss: https://openai.com/blog/rss.xml
+    category: tech
+    weight: 3
+    language: en
+
+  - name: Google DeepMind
+    url: https://deepmind.google/discover/blog/
+    rss: https://deepmind.google/blog/rss.xml
+    category: tech
+    weight: 3
+    language: en
+
+  - name: Hugging Face Blog
+    url: https://huggingface.co/blog
+    rss: https://huggingface.co/blog/feed.xml
+    category: tech
+    weight: 2
+    language: en
+
+  - name: Import AI (Jack Clark)
+    url: https://importai.substack.com/
+    rss: https://importai.substack.com/feed
+    category: tech
+    weight: 3
+    language: en
+    notes: además de fuente, Jack Clark figura como voz (founder Anthropic)
+
+  - name: TLDR AI
+    url: https://tldr.tech/ai
+    rss: null
+    category: tech
+    weight: 2
+    language: en
+
+  # ===== NEGOCIO / IA APLICADA (~30%) =====
+  - name: Harvard Business Review - AI
+    url: https://hbr.org/topic/artificial-intelligence
+    rss: null
+    category: business
+    weight: 3
+    language: en
+
+  - name: MIT Sloan Management Review
+    url: https://sloanreview.mit.edu/topic/artificial-intelligence/
+    rss: https://sloanreview.mit.edu/feed/
+    category: business
+    weight: 3
+    language: en
+
+  - name: Stratechery
+    url: https://stratechery.com/
+    rss: https://stratechery.com/feed/
+    category: business
+    weight: 3
+    language: en
+
+  - name: Platformer
+    url: https://www.platformer.news/
+    rss: https://www.platformer.news/rss/
+    category: business
+    weight: 3
+    language: en
+    notes: contrapeso editorial a Stratechery — cuando coinciden, take robusto
+
+  - name: McKinsey Insights - AI
+    url: https://www.mckinsey.com/capabilities/quantumblack/our-insights
+    rss: null
+    category: business
+    weight: 2
+    language: en
+
+  - name: The Information
+    url: https://www.theinformation.com/
+    rss: null  # paywall fuerte; sólo accesible preview + newsletter público
+    category: business
+    weight: 2
+    language: en
+    notes: paywall
+
+  # ===== IA EN SALUD (~30%) =====
+  - name: STAT News - Health Tech
+    url: https://www.statnews.com/category/health-tech/
+    rss: https://www.statnews.com/category/health-tech/feed/
+    category: health
+    weight: 3
+    language: en
+
+  - name: Fierce Healthcare
+    url: https://www.fiercehealthcare.com/ai-and-machine-learning
+    rss: https://www.fiercehealthcare.com/rss/xml
+    category: health
+    weight: 2
+    language: en
+
+  - name: NEJM AI
+    url: https://ai.nejm.org/
+    rss: null
+    category: health
+    weight: 3
+    language: en
+
+  - name: Healthcare IT News
+    url: https://www.healthcareitnews.com/taxonomy/term/23086
+    rss: https://www.healthcareitnews.com/home/feed
+    category: health
+    weight: 2
+    language: en
+
+# ============================================================
+# PANEL HUMANO — voces, no medios
+# ============================================================
+# El panel NO produce noticias. Produce dos cosas:
+#   1) Takes que se citan dentro del "ángulo editorial" de noticias existentes.
+#   2) Señales tempranas para Anthropic Watch y El Bolsillo.
+#
+# Si una voz no dijo nada relevante en las últimas 24h → no aparece. Cero relleno.
+#
+# Cascada de fetch por voz (ver prompts/daily-pipeline.md):
+#   - Si tiene blog/RSS: WebFetch al RSS (lo más confiable, 90%+).
+#   - Si no: Nitter (nitter.net/handle/rss) → xcancel.com/handle → Google News
+#     con query `"@handle" (AI OR Anthropic OR OpenAI)`.
+# ============================================================
+
+voices:
+  # ===== FOUNDERS / quien mueve mercado (10) =====
+  - name: Sam Altman
+    role: founder
+    affiliation: OpenAI (CEO)
+    x_handle: sama
+    blog: null
+    rss: null
+
+  - name: Greg Brockman
+    role: founder
+    affiliation: OpenAI (President)
+    x_handle: gdb
+    blog: null
+    rss: null
+
+  - name: Dario Amodei
+    role: founder
+    affiliation: Anthropic (CEO)
+    x_handle: DarioAmodei
+    blog: https://www.darioamodei.com/
+    rss: null
+    notes: prioridad máxima para Anthropic Watch
+
+  - name: Mike Krieger
+    role: founder
+    affiliation: Anthropic (CPO)
+    x_handle: mikeyk
+    blog: null
+    rss: null
+    notes: prioridad alta para Anthropic Watch
+
+  - name: Jack Clark
+    role: founder
+    affiliation: Anthropic (Policy)
+    x_handle: jackclarkSF
+    blog: https://importai.substack.com/
+    rss: https://importai.substack.com/feed
+    notes: prioridad alta para Anthropic Watch
+
+  - name: Demis Hassabis
+    role: founder
+    affiliation: Google DeepMind (CEO)
+    x_handle: demishassabis
+    blog: null
+    rss: null
+
+  - name: Yann LeCun
+    role: founder
+    affiliation: Meta (Chief AI Scientist)
+    x_handle: ylecun
+    blog: null
+    rss: null
+    notes: doble valor — founder y crítico declarado de los LLMs
+
+  - name: Elon Musk
+    role: founder
+    affiliation: xAI (CEO)
+    x_handle: elonmusk
+    blog: null
+    rss: null
+    notes: usar con parsimonia — mucho ruido, alguna señal
+
+  - name: Aravind Srinivas
+    role: founder
+    affiliation: Perplexity (CEO)
+    x_handle: AravSrinivas
+    blog: null
+    rss: null
+    notes: alimenta El Bolsillo — habla todo el día de monetización
+
+  - name: DeepSeek (oficial)
+    role: founder
+    affiliation: DeepSeek
+    x_handle: deepseek_ai
+    blog: null
+    rss: null
+    notes: cuenta corporativa; Liang Wenfeng no tiene cuenta pública estable
+
+  # ===== ESPECIALISTAS / los que entienden y explican (6) =====
+  - name: Andrej Karpathy
+    role: specialist
+    affiliation: ex-OpenAI / ex-Tesla (Eureka Labs)
+    x_handle: karpathy
+    blog: https://karpathy.bearblog.dev/
+    rss: https://karpathy.bearblog.dev/feed/
+    notes: el comunicador técnico más claro del mundo
+
+  - name: Ethan Mollick
+    role: specialist
+    affiliation: Wharton (One Useful Thing)
+    x_handle: emollick
+    blog: https://www.oneusefulthing.org/
+    rss: https://www.oneusefulthing.org/feed
+    notes: uso aplicado y productividad — encaja con tus obsesiones
+
+  - name: Simon Willison
+    role: specialist
+    affiliation: Independent (creador Datasette)
+    x_handle: simonw
+    blog: https://simonwillison.net/
+    rss: https://simonwillison.net/atom/everything/
+    notes: lector más lúcido del ecosistema, escribe diario
+
+  - name: François Chollet
+    role: specialist
+    affiliation: ARC Prize (creador Keras)
+    x_handle: fchollet
+    blog: https://fchollet.substack.com/
+    rss: https://fchollet.substack.com/feed
+    notes: anti-hype técnico con autoridad
+
+  - name: Nathan Lambert
+    role: specialist
+    affiliation: Allen Institute (Interconnects)
+    x_handle: natolambert
+    blog: https://www.interconnects.ai/
+    rss: https://www.interconnects.ai/feed
+    notes: post-training, RLHF, lo que pasa adentro de los modelos
+
+  - name: Dan Shipper
+    role: specialist
+    affiliation: Every (CEO)
+    x_handle: danshipper
+    blog: https://every.to/
+    rss: https://every.to/feed.xml
+    notes: uso de Claude en flujos reales de trabajo
+
+  # ===== CRÍTICOS / el contrapeso (5) =====
+  - name: Gary Marcus
+    role: critic
+    affiliation: NYU emérito
+    x_handle: GaryMarcus
+    blog: https://garymarcus.substack.com/
+    rss: https://garymarcus.substack.com/feed
+    notes: escéptico clásico, predicciones a veces erradas pero hace pensar
+
+  - name: Ed Zitron
+    role: critic
+    affiliation: EZPR (Where's Your Ed At)
+    x_handle: edzitron
+    blog: https://www.wheresyoured.at/
+    rss: https://www.wheresyoured.at/rss/
+    notes: anti-hype financiero — oro para El Bolsillo
+
+  - name: Helen Toner
+    role: critic
+    affiliation: Georgetown CSET (ex-board OpenAI)
+    x_handle: hlntnr
+    blog: null
+    rss: null
+    notes: política y gobernanza con info de adentro
+
+  - name: Emily Bender
+    role: critic
+    affiliation: U. of Washington (lingüista)
+    x_handle: emilymbender
+    blog: null
+    rss: null
+    notes: "stochastic parrots" — la objeción técnica más sólida
+
+  - name: Meredith Whittaker
+    role: critic
+    affiliation: Signal Foundation (Presidenta)
+    x_handle: mer__edith
+    blog: null
+    rss: null
+    notes: crítica del modelo de negocio Big Tech IA

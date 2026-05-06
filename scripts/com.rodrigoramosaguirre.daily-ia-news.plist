@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.rodrigoramosaguirre.daily-ia-news</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>/Users/rodrigoramosaguirre/DAILY-IA-NEWS/scripts/run-daily.sh</string>
+    </array>
+
+    <!-- StartInterval cada hora: con la guarda idempotente del script,
+         corre una sola vez por día apenas la Mac esté despierta. -->
+    <key>StartInterval</key>
+    <integer>3600</integer>
+
+    <key>RunAtLoad</key>
+    <false/>
+
+    <key>StandardOutPath</key>
+    <string>/Users/rodrigoramosaguirre/DAILY-IA-NEWS/logs/launchd.out.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/rodrigoramosaguirre/DAILY-IA-NEWS/logs/launchd.err.log</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/Users/rodrigoramosaguirre/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+        <key>HOME</key>
+        <string>/Users/rodrigoramosaguirre</string>
+    </dict>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/rodrigoramosaguirre/DAILY-IA-NEWS</string>
+</dict>
+</plist>

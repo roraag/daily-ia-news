@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily IA News — sábado 2 de mayo de 2026</title>
+<style>
+  :root {
+    --bg: #fdfcf8;
+    --fg: #1a1a1a;
+    --muted: #666;
+    --border: #e5e5e0;
+    --accent: #2952a3;
+    --accent-soft: #eef2fa;
+    --tag-tech: #2952a3;
+    --tag-business: #6b4a1f;
+    --tag-health: #1e6e3a;
+    --tesis-bg: #fff8e7;
+    --tesis-border: #d4b04e;
+    --watch-bg: #f4eef8;
+    --watch-border: #8b5cb8;
+    --bolsillo-bg: #eaf6ee;
+    --bolsillo-border: #2f8a4a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1a1a1a;
+      --fg: #e8e8e4;
+      --muted: #999;
+      --border: #333;
+      --accent: #7fa8d9;
+      --accent-soft: #1f2937;
+      --tag-tech: #7fa8d9;
+      --tag-business: #c9a876;
+      --tag-health: #7fc998;
+      --tesis-bg: #2a2516;
+      --tesis-border: #b89742;
+      --watch-bg: #261c2e;
+      --watch-border: #b07ed6;
+      --bolsillo-bg: #1a2a1f;
+      --bolsillo-border: #5fb077;
+    }
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--fg);
+    font-size: 18px;
+    line-height: 1.6;
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    min-height: 100vh;
+  }
+  body.sidebar-collapsed { grid-template-columns: 0 1fr; }
+  aside {
+    border-right: 1px solid var(--border);
+    padding: 1.5rem 1rem;
+    overflow: hidden;
+    transition: all 0.2s;
+  }
+  aside h2 { font-size: 0.85rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; margin-bottom: 0.75rem; }
+  .calendar-nav { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; }
+  .calendar-nav button { background: none; border: none; color: var(--muted); cursor: pointer; font-size: 1rem; }
+  .calendar-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 2px; font-size: 0.85rem; }
+  .calendar-grid .day { aspect-ratio: 1; display: flex; align-items: center; justify-content: center; color: var(--muted); border-radius: 3px; }
+  .calendar-grid .day.has-news { color: var(--fg); font-weight: 600; cursor: pointer; }
+  .calendar-grid .day.has-news:hover { background: var(--border); }
+  .calendar-grid .day.today { outline: 2px solid var(--accent); }
+  .calendar-grid .dow { color: var(--muted); font-size: 0.7rem; text-transform: uppercase; }
+  main { padding: 2rem 3rem; max-width: 820px; }
+  header { margin-bottom: 2rem; display: flex; flex-direction: column; gap: 1rem; }
+  .title { font-family: "IBM Plex Serif", Georgia, serif; font-size: 2rem; font-weight: 600; }
+  .date { color: var(--muted); font-size: 1rem; }
+  .controls { display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center; }
+  .chip {
+    padding: 0.4rem 0.8rem;
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    background: none;
+    color: var(--fg);
+    cursor: pointer;
+    font-size: 0.85rem;
+  }
+  .chip.active { background: var(--accent); color: white; border-color: var(--accent); }
+
+  /* Tesis del día */
+  .tesis-dia {
+    background: var(--tesis-bg);
+    border-left: 4px solid var(--tesis-border);
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 4px;
+  }
+  .tesis-dia .seccion-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--tesis-border);
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+  .tesis-dia .tesis-text {
+    font-family: "IBM Plex Serif", Georgia, serif;
+    font-size: 1.1rem;
+    line-height: 1.55;
+  }
+  .tesis-dia .tesis-text strong { font-weight: 700; }
+
+  /* Section heading entre bloques */
+  .section-heading {
+    font-family: "IBM Plex Serif", Georgia, serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid var(--border);
+  }
+
+  /* Lista de noticias */
+  .news-list { display: flex; flex-direction: column; }
+  .news-item { padding: 1.5rem 0; border-bottom: 1px solid var(--border); cursor: pointer; }
+  .news-item:last-child { border-bottom: none; }
+  .news-header { display: flex; gap: 1rem; align-items: baseline; }
+  .news-number { font-family: "IBM Plex Serif", Georgia, serif; color: var(--muted); font-size: 1.1rem; min-width: 2rem; }
+  .news-title-wrap { flex: 1; }
+  .news-title { font-family: "IBM Plex Serif", Georgia, serif; font-size: 1.35rem; font-weight: 600; line-height: 1.3; }
+  .news-tag { display: inline-block; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; margin-left: 0.5rem; font-weight: 500; }
+  .news-tag.tech { color: var(--tag-tech); }
+  .news-tag.business { color: var(--tag-business); }
+  .news-tag.health { color: var(--tag-health); }
+  .news-summary { color: var(--muted); margin-top: 0.5rem; font-size: 1rem; }
+  .news-detail { display: none; margin-top: 1rem; padding-left: 3rem; }
+  .news-item.expanded .news-detail { display: block; }
+  .news-detail h4 { font-size: 0.8rem; text-transform: uppercase; color: var(--muted); letter-spacing: 0.05em; margin-top: 1rem; margin-bottom: 0.4rem; }
+  .news-detail h4:first-child { margin-top: 0; }
+  .news-detail h4.angle-heading { color: var(--accent); }
+  .news-detail ul { padding-left: 1.2rem; }
+  .news-detail li { margin-bottom: 0.3rem; }
+  .news-detail .source-link { color: var(--accent); text-decoration: none; font-size: 0.9rem; }
+  .news-detail .source-link:hover { text-decoration: underline; }
+  .news-detail .actions { display: flex; gap: 0.6rem; align-items: center; flex-wrap: wrap; margin-top: 1rem; }
+  .copy-prompt-btn {
+    background: var(--accent-soft);
+    color: var(--accent);
+    border: 1px solid var(--accent);
+    border-radius: 16px;
+    padding: 0.35rem 0.9rem;
+    font-size: 0.85rem;
+    cursor: pointer;
+    font-family: inherit;
+  }
+  .copy-prompt-btn:hover { background: var(--accent); color: white; }
+  .copy-prompt-btn.copied { background: var(--bolsillo-border); color: white; border-color: var(--bolsillo-border); }
+
+  /* Anthropic Watch */
+  .seccion-watch {
+    background: var(--watch-bg);
+    border-left: 4px solid var(--watch-border);
+    padding: 1.25rem 1.5rem;
+    margin-top: 2.5rem;
+    border-radius: 4px;
+  }
+  .seccion-watch .seccion-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--watch-border);
+    font-weight: 700;
+    margin-bottom: 0.6rem;
+  }
+  .seccion-watch h3 {
+    font-family: "IBM Plex Serif", Georgia, serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+  }
+  .seccion-watch p { margin-bottom: 0.8rem; }
+  .seccion-watch ul { margin: 0.4rem 0 0.8rem 1.2rem; }
+  .seccion-watch li { margin-bottom: 0.3rem; }
+
+  /* El Bolsillo */
+  .seccion-bolsillo {
+    background: var(--bolsillo-bg);
+    border-left: 4px solid var(--bolsillo-border);
+    padding: 1.25rem 1.5rem;
+    margin-top: 2rem;
+    border-radius: 4px;
+  }
+  .seccion-bolsillo .seccion-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--bolsillo-border);
+    font-weight: 700;
+    margin-bottom: 0.6rem;
+  }
+  .seccion-bolsillo h3 {
+    font-family: "IBM Plex Serif", Georgia, serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+  }
+  .seccion-bolsillo ul { margin: 0.4rem 0 0.8rem 1.2rem; }
+  .seccion-bolsillo li { margin-bottom: 0.4rem; }
+  .seccion-bolsillo .patron { font-style: italic; color: var(--muted); margin-top: 0.6rem; }
+
+  /* El resto — breves */
+  .seccion-resto {
+    margin-top: 2.5rem;
+    padding-top: 1rem;
+    border-top: 1px dashed var(--border);
+  }
+  .seccion-resto .seccion-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+  }
+  .seccion-resto .seccion-sub {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  .resto-list { display: flex; flex-direction: column; gap: 0.6rem; }
+  .resto-item { padding: 0.6rem 0; border-bottom: 1px dotted var(--border); font-size: 0.95rem; line-height: 1.5; }
+  .resto-item:last-child { border-bottom: none; }
+  .resto-item strong { font-weight: 600; }
+  .resto-item .resto-meta { display: inline-flex; gap: 0.5rem; align-items: center; margin-left: 0.4rem; flex-wrap: wrap; }
+  .resto-item .resto-meta a { color: var(--accent); text-decoration: none; font-size: 0.85rem; }
+  .resto-item .resto-meta a:hover { text-decoration: underline; }
+  .resto-item .copy-prompt-btn { padding: 0.2rem 0.6rem; font-size: 0.75rem; }
+
+  footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.85rem; }
+  @media (max-width: 800px) {
+    body { grid-template-columns: 1fr; }
+    aside { display: none; }
+    main { padding: 1.5rem 1rem; }
+  }
+</style>
+</head>
+<body>
+
+<aside>
+  <h2>Histórico</h2>
+  <div class="calendar-nav">
+    <button id="prev-month">‹</button>
+    <span id="calendar-title">Mayo 2026</span>
+    <button id="next-month">›</button>
+  </div>
+  <div class="calendar-grid" id="calendar"></div>
+</aside>
+
+<main>
+  <header>
+    <div>
+      <div class="title">Daily IA News</div>
+      <div class="date">sábado 2 de mayo de 2026</div>
+    </div>
+    <div class="controls">
+      <button class="chip active" data-filter="all">Todos</button>
+      <button class="chip" data-filter="tech">Tech</button>
+      <button class="chip" data-filter="business">Negocio</button>
+      <button class="chip" data-filter="health">Salud</button>
+      <button class="chip" id="toggle-sidebar" style="margin-left: auto;">📅</button>
+    </div>
+  </header>
+
+  <div class="tesis-dia">
+    <div class="seccion-label">La tesis del día</div>
+    <div class="tesis-text">Tres cosas pasaron hoy que no deberían caber juntas. Musk confesó bajo juramento que copió los modelos de su rival. La NSA empezó a usar el modelo que Anthropic no quiso lanzar al público para hackear Microsoft. Y dos hospitales en EEUU pusieron IA a trabajar en serio, sin anuncios de prensa.<br><strong>El discurso y la realidad operan en frecuencias distintas</strong>, y hoy la diferencia fue particularmente visible. xAI también lanzó un modelo 40% más barato mientras su CEO declaraba en el tribunal. No sé si admirar la coordinación o preocuparme por ella.</div>
+  </div>
+
+  <h2 class="section-heading">Lo que importa hoy</h2>
+  <div class="news-list" id="news-list">
+
+    <div class="news-item" data-category="business">
+      <div class="news-header">
+        <div class="news-number">1</div>
+        <div class="news-title-wrap">
+          <div class="news-title">Musk confesó bajo juramento que copió los modelos de OpenAI. El juicio ya tiene su momento. <span class="news-tag business">Negocio</span></div>
+          <div class="news-summary">La primera semana del juicio del siglo dejó una confesión que nadie esperaba del acusador: el propio Musk admitió que xAI entrena Grok usando modelos de OpenAI.</div>
+        </div>
+      </div>
+      <div class="news-detail">
+        <h4>Lo que pasó</h4>
+        <ul>
+          <li>Musk declaró que xAI "destila" (aprende del output de otro modelo) los modelos de OpenAI para entrenar Grok. Dijo que es "práctica estándar en la industria". OpenAI no comentó.</li>
+          <li>También testificó que Altman y Brockman lo engañaron cuando cofundó OpenAI. El abogado de OpenAI sostuvo que Musk nunca quiso que fuera non-profit de verdad — solo quería controlarlo.</li>
+          <li>En juego: el IPO de OpenAI valuado en ~1 billón de dólares y el de xAI vía SpaceX valuado en 1,75 billones para junio.</li>
+        </ul>
+        <h4 class="angle-heading">El ángulo que nadie te va a dar</h4>
+        <p>El nivel de ironía es difícil de ignorar sin un esfuerzo deliberado. Musk demanda a OpenAI por haber traicionado su misión sin fines de lucro. Al mismo tiempo, su empresa entrenó Grok usando los modelos del demandado. Destilación es una técnica legal — "estándar", dice Musk — pero declararlo bajo juramento en un caso donde acusás de mala fe al otro es, en el mejor de los casos, una jugada valiente. Gary Marcus publicó hoy que el 80% del código que "escribe la IA" no equivale a software robusto. La misma lógica aplica acá: una empresa puede declarar que es más ética que la competencia, pero eso no hace que lo sea. Ninguno de los dos es el héroe del cuento.</p>
+        <h4>Para vos</h4>
+        <p>Si en ASESP evaluás herramientas de IA — y tarde o temprano lo harás — este juicio te da el primer antecedente judicial claro sobre propiedad intelectual de modelos. Los contratos de uso de APIs de IA incluyen cláusulas sobre re-entrenamiento y destilación. Vale la pena que alguien las lea antes de firmar.</p>
+        <h4>Fuente</h4>
+        <a class="source-link" href="https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/" target="_blank" rel="noopener">technologyreview.com</a>
+        <div class="actions">
+          <button class="copy-prompt-btn" data-prompt="Profundizá esta noticia: https://www.technologyreview.com/2026/05/01/1136800/musk-v-altman-week-1-musk-says-he-was-duped-warns-ai-could-kill-us-all-and-admits-that-xai-distills-openais-models/. Foco: qué implica legalmente que xAI haya destilado modelos de OpenAI, y si eso crea precedente para otros casos de entrenamiento con outputs de modelos competidores. Contexto del lector: PM en mutualista de salud uruguaya, fan de Anthropic. No me expliques qué es un LLM.">Llevame a Claude con esto →</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="news-item" data-category="tech">
+      <div class="news-header">
+        <div class="news-number">2</div>
+        <div class="news-title-wrap">
+          <div class="news-title">La NSA usa el modelo de Anthropic que nadie puede descargar para hackear Microsoft <span class="news-tag tech">Tech</span></div>
+          <div class="news-summary">Mythos, el modelo que Anthropic no quiso lanzar al público por considerarlo demasiado peligroso, ya está en manos de la inteligencia norteamericana buscando vulnerabilidades reales.</div>
+        </div>
+      </div>
+      <div class="news-detail">
+        <h4>Lo que pasó</h4>
+        <ul>
+          <li>La NSA está testeando Mythos para identificar vulnerabilidades zero-day (fallas no conocidas) en software de Microsoft y otras empresas de infraestructura crítica. En testing interno, Mythos encontró miles de fallas en sistemas operativos y navegadores.</li>
+          <li>Anthropic distribuyó Mythos solo a ~40 organizaciones seleccionadas. Los socios incluyen AWS, Apple, Google, Microsoft y Cisco. Comprometió 100 millones de dólares en créditos de uso y 4 millones en donaciones a organizaciones de seguridad open source.</li>
+          <li>El marco se llama Project Glasswing: seguridad proactiva del software crítico usando IA antes de que lo hagan los actores maliciosos.</li>
+        </ul>
+        <h4 class="angle-heading">El ángulo que nadie te va a dar</h4>
+        <p>Anthropic le dijo no al Pentágono hace 10 días (lo cubrimos, un juez lo avaló). Pero la NSA no es el Pentágono — tiene otra misión, otro mandato legal, y aparentemente acceso a Mythos. La distinción que Anthropic traza entre "defensa ofensiva" y "seguridad proactiva" es real pero delgada. Simon Willison evaluó esta semana que el UK AI Safety Institute encontró en GPT-5.5 capacidades de ciberseguridad "comparables a Mythos". Si eso es cierto, la ventana de exclusividad del modelo más capaz del mundo para encontrar vulnerabilidades ya se está cerrando. Mientras tanto, el modelo opera en producción con medio gobierno norteamericano mirando — sin que nadie del público sepa exactamente qué encontró.</p>
+        <h4>Para vos</h4>
+        <p>ASESP maneja datos de 200.000 socios. El tipo de vulnerabilidades que Mythos encuentra en minutos tardaría meses en ser descubierto por un equipo humano. No es alarmismo: el riesgo de ciberseguridad con IA ya no es hipotético. Vale preguntarle a los IT de ASESP si tienen un plan para este escenario — y si auditan sus sistemas con alguna frecuencia.</p>
+        <h4>Fuente</h4>
+        <a class="source-link" href="https://www.bloomberg.com/news/articles/2026-04-30/nsa-testing-anthropic-s-mythos-to-find-flaws-in-microsoft-tech" target="_blank" rel="noopener">bloomberg.com</a>
+        <div class="actions">
+          <button class="copy-prompt-btn" data-prompt="Profundizá esta noticia: https://www.bloomberg.com/news/articles/2026-04-30/nsa-testing-anthropic-s-mythos-to-find-flaws-in-microsoft-tech. Foco: qué es exactamente lo que puede hacer Mythos que otros modelos no pueden en ciberseguridad, y qué implica el Project Glasswing para la seguridad de software en organizaciones medianas que manejan datos de salud. Contexto del lector: PM en mutualista de salud uruguaya, fan de Anthropic. No me expliques qué es un LLM.">Llevame a Claude con esto →</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="news-item" data-category="health">
+      <div class="news-header">
+        <div class="news-number">3</div>
+        <div class="news-title-wrap">
+          <div class="news-title">Cleveland Clinic y Beth Israel pusieron IA a trabajar en serio. No es demo, es producción. <span class="news-tag health">Salud</span></div>
+          <div class="news-summary">Dos sistemas hospitalarios grandes de EEUU cruzaron la barrera del piloto. Uno optimiza operaciones de alto volumen; el otro escala su asistente de escritura médica a toda la red.</div>
+        </div>
+      </div>
+      <div class="news-detail">
+        <h4>Lo que pasó</h4>
+        <ul>
+          <li>Cleveland Clinic pilotea con Luminai para que IA optimice flujos administrativos hospitalarios de alto volumen. No es diagnóstico: es operación interna compleja.</li>
+          <li>Beth Israel Lahey Health (Boston) desplegó Heidi — asistente de documentación médica — en todo el sistema. Salió de un piloto exitoso de 6 meses con 1.000 proveedores. Ahora es sistema-wide.</li>
+          <li>El mismo día, Aidoc levantó 150 millones de dólares de Goldman Sachs para escalar su modelo base de IA clínica. La inversión va a la capa de aplicación, no solo a los modelos base.</li>
+        </ul>
+        <h4 class="angle-heading">El ángulo que nadie te va a dar</h4>
+        <p>Lo que llama la atención no son los sistemas en sí — Heidi y Luminai son conocidos en el sector. Lo que llama la atención es la palabra "sistema-wide": no 50 médicos en un departamento, sino toda la red hospitalaria. Ethan Mollick lleva meses diciendo que "la frontera de la IA sigue siendo dentada pero avanza". Estos tres casos son la cara práctica de esa frase. Algunos sistemas de salud dejaron de esperar la IA perfecta y empezaron a usar la IA suficientemente buena. La brecha con los sistemas de salud latinoamericanos se agranda cada trimestre, y el gap ya es visible a simple vista.</p>
+        <h4>Para vos</h4>
+        <p>En ASESP, un despliegue como Heidi — asistente de documentación médica para reducir la carga administrativa de los profesionales — encaja exactamente con lo que una mutualista de 200.000 socios necesita. El equivalente uruguayo no existe todavía. Ahí hay una conversación que podés tener con Alfredo Torres con evidencia concreta en la mano: esto ya funciona a escala en hospitales comparables. No como hipótesis.</p>
+        <h4>Fuente</h4>
+        <a class="source-link" href="https://www.fiercehealthcare.com/ai-and-machine-learning/beth-israel-lahey-health-rolls-out-heidi-ai-scribe-rollout" target="_blank" rel="noopener">fiercehealthcare.com</a>
+        <div class="actions">
+          <button class="copy-prompt-btn" data-prompt="Profundizá esta noticia: https://www.fiercehealthcare.com/ai-and-machine-learning/beth-israel-lahey-health-rolls-out-heidi-ai-scribe-rollout. Foco: qué métricas reportaron en el piloto de 6 meses con 1.000 proveedores, qué cuesta implementar algo similar, y qué implica un despliegue parecido para una mutualista de salud de 200.000 socios en Uruguay. Contexto del lector: PM en mutualista de salud uruguaya, fan de Anthropic. No me expliques qué es un LLM.">Llevame a Claude con esto →</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="news-item" data-category="tech">
+      <div class="news-header">
+        <div class="news-number">4</div>
+        <div class="news-title-wrap">
+          <div class="news-title">xAI bajó el precio de Grok 4.3 un 40% y lanzó clonación de voz. El mismo día del juicio. <span class="news-tag tech">Tech</span></div>
+          <div class="news-summary">Mientras Musk declaraba en Oakland, xAI publicó un modelo 40% más barato que su predecesor y una API que clona voces en menos de 2 minutos. Difícil creer que es coincidencia.</div>
+        </div>
+      </div>
+      <div class="news-detail">
+        <h4>Lo que pasó</h4>
+        <ul>
+          <li>Grok 4.3 salió al API a 1,25 dólares por millón de tokens de entrada y 2,50 de salida — un 40% menos que Grok 4.2 (que costaba 2/6 dólares). Ventana de contexto de 1 millón de tokens.</li>
+          <li>xAI lanzó también una API de clonación de voz: voz personalizada en menos de 2 minutos, biblioteca de 80+ voces en 28 idiomas. El TTS (conversión de texto a voz) sale a 4,20 dólares por millón de caracteres.</li>
+          <li>El modelo no bate a Claude Opus 4.7 en benchmarks. La jugada es de precio, no de capacidad.</li>
+        </ul>
+        <h4 class="angle-heading">El ángulo que nadie te va a dar</h4>
+        <p>Ed Zitron publicó ayer que la economía de las suscripciones de IA nunca funcionó — GitHub Copilot perdía más de 20 dólares por usuario antes de pasar a cobro por token. xAI está corriendo la misma jugada en dirección contraria: primero bajar el precio para ganar cuota, después ver si los márgenes se sostienen. DeepSeek lo hizo con V4 a 1,74 dólares por millón de tokens. Ahora xAI con 1,25. Si esto sigue, la infraestructura de modelos se va a parecer cada vez más a AWS en 2010: carísima al principio, absurdamente barata después — y sostenible solo para quienes tienen la escala para subsidiar la pérdida inicial.</p>
+        <h4>Para vos</h4>
+        <p>Si en ASESP llegás a evaluar APIs de modelos para procesar texto médico o documentación de socios — algo plausible en el mediano plazo — estos precios ya son conversables. 1,25 dólares por millón de tokens procesando documentos de socios es terreno de piloto real, no de presupuesto de investigación. Vale tenerlo en mente cuando llegue la conversación con IT o con Natalia.</p>
+        <h4>Fuente</h4>
+        <a class="source-link" href="https://venturebeat.com/technology/xai-launches-grok-4-3-at-an-aggressively-low-price-and-a-new-fast-powerful-voice-cloning-suite" target="_blank" rel="noopener">venturebeat.com</a>
+        <div class="actions">
+          <button class="copy-prompt-btn" data-prompt="Profundizá esta noticia: https://venturebeat.com/technology/xai-launches-grok-4-3-at-an-aggressively-low-price-and-a-new-fast-powerful-voice-cloning-suite. Foco: qué implica la guerra de precios en APIs de modelos para organizaciones que evalúan adoptar IA en procesos internos, y cómo se compara Grok 4.3 con Claude y GPT-4o para procesamiento de documentos de salud. Contexto del lector: PM en mutualista de salud uruguaya. No me expliques qué es un LLM.">Llevame a Claude con esto →</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="seccion-watch">
+    <div class="seccion-label">Anthropic Watch</div>
+    <h3>El modelo que no querían lanzar ya está en manos de la NSA. Y Anthropic lo sabía.</h3>
+    <ul>
+      <li>La NSA usa Mythos para cazar vulnerabilidades zero-day en software de Microsoft y otras empresas de infraestructura crítica. Acceso controlado: solo ~40 organizaciones, incluyendo AWS, Apple, Google, Microsoft y Cisco.</li>
+      <li>Project Glasswing es el marco: 100 millones de dólares en créditos de uso comprometidos + 4 millones en donaciones a organizaciones de seguridad open source para defender infraestructura antes de que lo hagan actores maliciosos.</li>
+      <li>Anthropic publicó dos case studies esta semana: cómo los equipos legales usan Claude para revisar contratos, y cómo la gente pide orientación personal a Claude. Contenido de marca, pero útil para ver qué casos de uso están priorizando en la comunicación pública.</li>
+      <li>Sin posts de Dario Amodei, Mike Krieger ni Jack Clark en las últimas 24 horas.</li>
+    </ul>
+    <p>Mi lectura: Anthropic rechazó al Pentágono (armas ofensivas), pero abrió Mythos a la NSA bajo el paraguas de "seguridad defensiva". La distinción existe y tiene base legal. Lo que me llama la atención es la velocidad silenciosa de esto: Mythos no tiene release público, pero ya opera en producción con múltiples agencias de gobierno norteamericano. La política de distribución controlada avanza más rápido de lo que la comunicación pública de Anthropic sugiere. Eso puede ser una virtud o una señal de alerta, dependiendo del día.</p>
+  </div>
+
+  <div class="seccion-bolsillo">
+    <div class="seccion-label">El Bolsillo · quién hizo plata hoy con IA</div>
+    <h3>Tres movidas de dinero y un modelo que baja el precio para molestar.</h3>
+    <ul>
+      <li><strong>xAI</strong>: Grok 4.3 API a 1,25 dólares por millón de tokens de entrada — 40% menos que su predecesor. No ganó en capacidad; compitió en margen. Voice cloning API a 4,20/millón de caracteres, 80+ voces en 28 idiomas.</li>
+      <li><strong>Aidoc</strong>: 150 millones de Goldman Sachs para escalar su modelo base de IA clínica. El dinero serio empieza a ir a la capa de aplicación en salud, no solo a los modelos base.</li>
+      <li><strong>Beth Israel / Heidi</strong>: sin cheque publicado, pero con algo que vale más a corto plazo — un contrato enterprise sistema-wide. Revenue recurrente real y señal de madurez del mercado de IA clínica.</li>
+      <li><strong>Anthropic/Glasswing</strong>: 100 millones en créditos comprometidos + 4 millones en donaciones. Inversión defensiva con retorno en reputación institucional y acceso a datos de vulnerabilidad que ningún otro lab tiene.</li>
+    </ul>
+    <p class="patron"><em>Patrón de la semana: la carrera de precios en APIs de modelos llegó a 1,25 dólares por millón de tokens. Quien depende de márgenes en modelo-como-servicio tiene un problema que se agrava cada 30 días. Quien tiene distribución en salud o gobierno, en cambio, duerme bien.</em></p>
+  </div>
+
+  <div class="seccion-resto">
+    <div class="seccion-label">El resto · breves del día</div>
+    <div class="seccion-sub">6 noticias que no entraron al desarrollo principal pero merecen estar en el radar.</div>
+    <div class="resto-list">
+
+      <div class="resto-item">
+        <strong>El Pentágono firma con Nvidia, Microsoft y AWS para IA en redes clasificadas.</strong> Anthropic dijo que no; ellos dijeron que sí. El vacío se llenó rápido.
+        <span class="resto-meta">
+          <a href="https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/" target="_blank" rel="noopener">→ techcrunch.com</a>
+          <button class="copy-prompt-btn" data-prompt="Profundizá esta noticia: https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/. Foco: qué implica para el mercado de IA que el Pentágono diversifique proveedores después del rechazo de Anthropic, y qué escala tienen estos contratos en dólares. Contexto: PM en mutualista de salud uruguaya. No me expliques qué es un LLM.">Llevame a Claude →</button>
+        </span>
+      </div>
+
+      <div class="resto-item">
+        <strong>Meta compra Assured Robot Intelligence para sus ambiciones en humanoides.</strong> Otro lab de SF que desaparece absorbido por una Big Tech. El mercado de adquisiciones de IA no para.
+        <span class="resto-meta">
+          <a href="https://techcrunch.com/2026/05/01/meta-buys-robotics-startup-to-bolster-its-humanoid-ai-ambitions/" target="_blank" rel="noopener">→ techcrunch.com</a>
+        </span>
+      </div>
+
+      <div class="resto-item">
+        <strong>Gary Marcus: que el 80% del código lo escriba IA no significa que sea software bueno.</strong> Compilar no es lo mismo que mantener. La métrica que usa OpenAI no mide lo que dice medir.
+        <span class="resto-meta">
+          <a href="https://garymarcus.substack.com/p/a-model-that-produces-code-which" target="_blank" rel="noopener">→ garymarcus.substack.com</a>
+          <button class="copy-prompt-btn" data-prompt="Profundizá esta noticia: https://garymarcus.substack.com/p/a-model-that-produces-code-which. Foco: qué métricas usa OpenAI para decir que &quot;la IA escribe el 80% del código&quot;, por qué Gary Marcus las critica, y si hay métricas mejores para evaluar calidad real del código generado. Contexto: PM en mutualista de salud uruguaya. No me expliques qué es un LLM.">Llevame a Claude →</button>
+        </span>
+      </div>
+
+      <div class="resto-item">
+        <strong>MCP tiene una falla de ejecución de comandos que los equipos de seguridad deberían conocer.</strong> El protocolo que conecta agentes con herramientas externas tiene una superficie de ataque no trivial.
+        <span class="resto-meta">
+          <a href="https://venturebeat.com/security/mcp-command-execution-flaw-what-security-teams-need-to-know/" target="_blank" rel="noopener">→ venturebeat.com</a>
+        </span>
+      </div>
+
+      <div class="resto-item">
+        <strong>Platformer: ya sabemos qué tipo de burbuja es la IA. Se parece a los ferrocarriles.</strong> Actualización del análisis de ayer — ahora con el marco conceptual más claro. Vale la segunda lectura.
+        <span class="resto-meta">
+          <a href="https://www.platformer.news/ai-bubble-railroad-mythos-openai-trial/" target="_blank" rel="noopener">→ platformer.news</a>
+        </span>
+      </div>
+
+      <div class="resto-item">
+        <strong>Google DeepMind presenta su modelo de co-clínico.</strong> IA que trabaja junto al médico, no en lugar de él. El framing importa tanto como el modelo.
+        <span class="resto-meta">
+          <a href="https://deepmind.google/blog/ai-co-clinician/" target="_blank" rel="noopener">→ deepmind.google</a>
+          <button class="copy-prompt-btn" data-prompt="Profundizá esta noticia: https://deepmind.google/blog/ai-co-clinician/. Foco: qué diferencia hay entre un modelo de IA &quot;co-clínico&quot; y uno que reemplaza al médico, qué casos de uso tienen hoy, y qué implicaciones tiene para mutualistas de salud latinoamericanas. Contexto: PM en mutualista de salud uruguaya. No me expliques qué es un LLM.">Llevame a Claude →</button>
+        </span>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    10 noticias curadas. Daily IA News — tu redactor personal de IA.
+  </footer>
+</main>
+
+<script>
+  // ARCHIVE_DATA_START
+  const ARCHIVE_DATA = {"dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06"], "recent_titles": ["Anthropic creo una empresa con Blackstone, Goldman y H&F. La IA ya tiene corredor de seguros.", "Clark apuesta a que en 2028 la IA investiga sola. El cofundo Anthropic. No es un tweet.", "La IA supera a los medicos de urgencias, dice Harvard. Eso no es lo que pregunte, dice Marcus.", "Sierra llega a 15.800 millones vendiendo call centers con IA. Bret Taylor cobra caro, justificado.", "Cerebras va a bolsa a 26.600 millones. OpenAI le presto 1.000 millones para llegar hasta aca.", "Trump prohibio Anthropic en el gobierno. 48 horas despues ya quiere volver atras.", "OpenAI quiere salir a bolsa. GPT-5.5 llego sin fanfarria.", "Karpathy habla de Software 3.0: los LLMs como nueva capa de programacion.", "DeepMind lanzo el co-clinico de IA. Dos hospitales desplegaron scribes a escala real.", "Dawkins dice que Claude es consciente. Marcus le responde que es el mismo error de siempre.", "Musk dijo bajo juramento que xAI copio modelos de OpenAI. El capitulo mas raro del juicio.", "Un LLM de OpenAI supera a medicos en diagnostico. La semana pasada la IA los empeoraba.", "Platformer y Marcus dicen lo mismo el mismo dia: esto puede ser la mayor burbuja de capital de la historia.", "Stripe le da billetera a los agentes de IA. Ahora pueden comprar por vos, con tu plata.", "La NSA usa el modelo de Anthropic que nadie puede descargar para hackear Microsoft", "Anthropic le pone 200.000 millones a Google y les dice no al Pentagono. Las dos cosas juntas.", "Trump ya no se rie de los doomers de IA. Ahora el es uno.", "Los empleados de DeepMind votaron sindicalizarse. El motivo: el Pentagono.", "847 agentes autonomos desplegados, 91% vulnerables. Marcus lo llamo shitshow.", "OpenAI quiere escribir las reglas de la IA en salud. STAT dice que el saco le queda perfecto."], "days": {"2026-04-17": {"count": 6, "sources": ["openai.com", "techcrunch.com", "hbr.org", "fiercehealthcare.com", "statnews.com"]}, "2026-04-18": {"count": 6, "sources": ["openai.com", "techcrunch.com", "technologyreview.com", "pwc.com", "hbr.org", "statnews.com"]}, "2026-04-19": {"count": 5, "sources": ["techcrunch.com", "nejm.org", "openai.com", "theverge.com"]}, "2026-04-20": {"count": 6, "sources": ["gizchina.com", "theinformation.com", "thenextweb.com", "techcrunch.com", "nvidia.com", "gallup.com"]}, "2026-04-21": {"count": 6, "sources": ["techcrunch.com", "arstechnica.com", "theverge.com", "sloanreview.mit.edu", "importai.substack.com", "healthcareitnews.com"]}, "2026-04-22": {"count": 7, "sources": ["theinformation.com", "fiercehealthcare.com", "venturebeat.com", "theverge.com", "techcrunch.com"]}, "2026-04-23": {"count": 6, "sources": ["blog.mozilla.org", "statnews.com", "blog.google", "openai.com", "anthropic.com", "mckinsey.com"]}, "2026-04-24": {"count": 6, "sources": ["techcrunch.com", "anthropic.com", "axios.com", "theverge.com", "hbr.org", "statnews.com"]}, "2026-04-25": {"count": 5, "sources": ["platformer.news", "technologyreview.com", "statnews.com", "wheresyoured.at", "techcrunch.com"], "tesis": "Meta vigilo a sus empleados con keyloggers para entrenar IA y despues los echo."}, "2026-04-26": {"count": 5, "sources": ["wheresyoured.at", "techcrunch.com", "blog.google", "theguardian.com", "statnews.com"], "tesis": "La brecha entre la apuesta financiera y la aplicacion real no termina de cerrar."}, "2026-04-27": {"count": 5, "sources": ["abcnews.com", "alignment.anthropic.com", "ai.nejm.org", "wheresyoured.at", "openai.com"], "tesis": "La batalla de hoy no es entre modelos. Es entre quien dibuja los limites."}, "2026-04-28": {"count": 6, "sources": ["openai.com", "techcrunch.com", "technologyreview.com", "theverge.com", "fiercehealthcare.com", "arstechnica.com"], "tesis": "OpenAI rompe la exclusividad con Microsoft el mismo dia que el juicio Musk-Altman arranca en Oakland."}, "2026-04-29": {"count": 6, "sources": ["importai.substack.com", "anthropic.com", "theinformation.com", "asanify.com", "techcrunch.com", "statnews.com"], "tesis": "Anthropic tiene agentes que superan a sus investigadores de alineacion, y un paper dice que razonar mas genera mas alucinaciones. El campo avanza mas rapido de lo que entiende."}, "2026-04-30": {"count": 5, "sources": ["cnbc.com", "techcrunch.com", "openai.com", "simonwillison.net", "statnews.com"], "tesis": "Anthropic casi supera a OpenAI en valuacion mientras Amazon y Google demuestran que el dinero de la infraestructura IA ya existe."}, "2026-05-01": {"count": 5, "sources": ["techcrunch.com", "theinformation.com", "statnews.com", "platformer.news", "garymarcus.substack.com"], "tesis": "Anthropic esta a 48 horas de cerrar la ronda mas grande de la historia de la IA a $900.000 millones de valuacion, mientras los criticos mas articulados del sector se preguntan si es la mayor mala asignacion de capital de la historia."}, "2026-05-02": {"count": 4, "sources": ["technologyreview.com", "bloomberg.com", "fiercehealthcare.com", "venturebeat.com"], "tesis": "Musk confeso bajo juramento que copio los modelos de OpenAI. La NSA empezo a usar Mythos de Anthropic para hackear Microsoft. Y dos hospitales pusieron IA a escala real sin anuncios."}, "2026-05-03": {"count": 5, "sources": ["theverge.com", "openai.com", "karpathy.bearblog.dev", "deepmind.google", "garymarcus.substack.com"], "tesis": "Trump prohibio Anthropic en el gobierno y 48h despues quiere reincorporarla. OpenAI prepara el IPO. Karpathy critica el codigo que genera la IA. El dinero se mueve mas rapido que la evidencia tecnica."}, "2026-05-04": {"count": 5, "sources": ["anthropic.com", "importai.substack.com", "statnews.com", "techcrunch.com", "cnbc.com"], "tesis": "Hoy el capital le gano a la tecnica. Anthropic y OpenAI salieron a buscar dinero de Wall Street para que los fondos de PE los vendan dentro de sus portfolios. Y Jack Clark estimo en 60% la probabilidad de que la IA investigue sola para 2028."}, "2026-05-05": {"count": 5, "sources": ["axios.com", "anthropic.com", "statnews.com", "arstechnica.com", "wheresyoured.at"], "tesis": "Hoy se mueven dos palancas al mismo tiempo. Anthropic lanza Opus 4.7 y la Casa Blanca considera revisar los modelos antes de que salgan al mercado."}, "2026-05-06": {"count": 5, "sources": ["theinformation.com", "platformer.news", "fortune.com", "garymarcus.substack.com", "statnews.com"], "tesis": "Hoy el campo IA se partio en dos. Anthropic comete 200.000 millones a Google Cloud y es el unico lab que le dice no al Pentagono. Los trabajadores de DeepMind se sindicalizan por exactamente esa distincion."}}};
+  // ARCHIVE_DATA_END
+  const CURRENT_DATE_ISO = "2026-05-02";
+  const IN_ARCHIVE = window.location.pathname.includes('/archive/');
+
+  document.querySelectorAll('.news-item').forEach(item => {
+    item.addEventListener('click', (e) => {
+      if (e.target.closest('.copy-prompt-btn') || e.target.closest('a')) return;
+      item.classList.toggle('expanded');
+    });
+  });
+
+  document.querySelectorAll('.copy-prompt-btn').forEach(btn => {
+    btn.addEventListener('click', async (e) => {
+      e.stopPropagation();
+      const prompt = btn.dataset.prompt || '';
+      try {
+        await navigator.clipboard.writeText(prompt);
+        const original = btn.textContent;
+        btn.textContent = '✓ Copiado — pegá en Claude';
+        btn.classList.add('copied');
+        setTimeout(() => { btn.textContent = original; btn.classList.remove('copied'); }, 2200);
+      } catch (err) {
+        btn.textContent = 'Error al copiar';
+      }
+    });
+  });
+
+  document.querySelectorAll('.chip[data-filter]').forEach(chip => {
+    chip.addEventListener('click', () => {
+      document.querySelectorAll('.chip[data-filter]').forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+      const filter = chip.dataset.filter;
+      document.querySelectorAll('.news-item').forEach(item => {
+        item.style.display = (filter === 'all' || item.dataset.category === filter) ? '' : 'none';
+      });
+    });
+  });
+
+  document.getElementById('toggle-sidebar').addEventListener('click', () => {
+    document.body.classList.toggle('sidebar-collapsed');
+  });
+
+  const MONTHS_ES = ['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
+  let currentMonth = new Date(CURRENT_DATE_ISO + 'T12:00:00');
+
+  function hrefForDate(iso) {
+    const latest = ARCHIVE_DATA.dates[ARCHIVE_DATA.dates.length - 1];
+    if (iso === latest) {
+      return IN_ARCHIVE ? '../index.html' : 'index.html';
+    }
+    return IN_ARCHIVE ? `${iso}.html` : `archive/${iso}.html`;
+  }
+
+  function renderCalendar(date) {
+    const year = date.getFullYear();
+    const month = date.getMonth();
+    document.getElementById('calendar-title').textContent = `${MONTHS_ES[month]} ${year}`;
+    const firstDay = new Date(year, month, 1).getDay();
+    const daysInMonth = new Date(year, month + 1, 0).getDate();
+    const grid = document.getElementById('calendar');
+    grid.innerHTML = '';
+    ['D','L','M','M','J','V','S'].forEach(d => {
+      const el = document.createElement('div');
+      el.className = 'dow';
+      el.textContent = d;
+      grid.appendChild(el);
+    });
+    for (let i = 0; i < firstDay; i++) {
+      const el = document.createElement('div');
+      el.className = 'day';
+      grid.appendChild(el);
+    }
+    for (let d = 1; d <= daysInMonth; d++) {
+      const el = document.createElement('div');
+      el.className = 'day';
+      el.textContent = d;
+      const iso = `${year}-${String(month+1).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
+      if (ARCHIVE_DATA.dates && ARCHIVE_DATA.dates.includes(iso)) {
+        el.classList.add('has-news');
+        el.addEventListener('click', () => { window.location.href = hrefForDate(iso); });
+      }
+      if (iso === CURRENT_DATE_ISO) el.classList.add('today');
+      grid.appendChild(el);
+    }
+  }
+  document.getElementById('prev-month').addEventListener('click', () => {
+    currentMonth.setMonth(currentMonth.getMonth() - 1);
+    renderCalendar(currentMonth);
+  });
+  document.getElementById('next-month').addEventListener('click', () => {
+    currentMonth.setMonth(currentMonth.getMonth() + 1);
+    renderCalendar(currentMonth);
+  });
+  renderCalendar(currentMonth);
+</script>
+</body>
+</html>
