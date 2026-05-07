@@ -1,11 +1,6 @@
 {
-  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06"],
+  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07"],
   "recent_titles": [
-    "Anthropic creo una empresa con Blackstone, Goldman y H&F. La IA ya tiene corredor de seguros.",
-    "Clark apuesta a que en 2028 la IA investiga sola. El cofundo Anthropic. No es un tweet.",
-    "La IA supera a los medicos de urgencias, dice Harvard. Eso no es lo que pregunte, dice Marcus.",
-    "Sierra llega a 15.800 millones vendiendo call centers con IA. Bret Taylor cobra caro, justificado.",
-    "Cerebras va a bolsa a 26.600 millones. OpenAI le presto 1.000 millones para llegar hasta aca.",
     "Trump prohibio Anthropic en el gobierno. 48 horas despues ya quiere volver atras.",
     "OpenAI quiere salir a bolsa. GPT-5.5 llego sin fanfarria.",
     "Karpathy habla de Software 3.0: los LLMs como nueva capa de programacion.",
@@ -20,7 +15,11 @@
     "Trump ya no se rie de los doomers de IA. Ahora el es uno.",
     "Los empleados de DeepMind votaron sindicalizarse. El motivo: el Pentagono.",
     "847 agentes autonomos desplegados, 91% vulnerables. Marcus lo llamo shitshow.",
-    "OpenAI quiere escribir las reglas de la IA en salud. STAT dice que el saco le queda perfecto."
+    "Code w/ Claude: Anthropic dobla limites, suma a SpaceX y lanza agentes que suenan",
+    "Zitron lo pone en numeros: la demanda de IA que justifica todo es financiamiento circular",
+    "DeepSeek cierra su primera ronda a 45.000 millones. El dinero es del Estado chino.",
+    "La ex-CTO de OpenAI declaro que no podia confiar en las palabras de Sam Altman",
+    "Color Health consiguio la certificacion ASCO. La clinica de cancer ya es virtual con IA."
   ],
   "days": {
     "2026-04-17": {
@@ -114,6 +113,11 @@
       "count": 5,
       "sources": ["theinformation.com", "platformer.news", "fortune.com", "garymarcus.substack.com", "statnews.com"],
       "tesis": "Hoy el campo IA se partio en dos. Anthropic comete 200.000 millones a Google Cloud y es el unico lab que le dice no al Pentagono. Los trabajadores de DeepMind se sindicalizan por exactamente esa distincion."
+    },
+    "2026-05-07": {
+      "count": 5,
+      "sources": ["anthropic.com", "wheresyoured.at", "techcrunch.com", "statnews.com", "simonwillison.net"],
+      "tesis": "Anthropic hizo su evento mas grande de developer tools el mismo dia que Zitron mostro que toda esa capacidad es financiamiento circular. DeepSeek cierra su primera ronda con el Estado chino."
     }
   }
 }
