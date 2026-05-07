@@ -119,23 +119,6 @@ if [ $EXIT_CODE -eq 0 ] && [ -f "${PROJECT_DIR}/archive/${FECHA_ISO}.html" ] && 
     || echo "WARN: copia local falló (no bloquea)" >> "$LOG_FILE"
 fi
 
-# Push a GitHub Pages -> https://roraag.github.io/daily-ia-news/
-if [ $EXIT_CODE -eq 0 ] && [ -f "${PROJECT_DIR}/archive/${FECHA_ISO}.html" ]; then
-  echo "[$(date '+%H:%M:%S')] Push a GitHub Pages..." >> "$LOG_FILE"
-  cd "$PROJECT_DIR"
-  git add -A >> "$LOG_FILE" 2>&1
-  if git diff --cached --quiet; then
-    echo "[$(date '+%H:%M:%S')] git: nada para commitear" >> "$LOG_FILE"
-  else
-    git commit -m "Daily: ${FECHA_ISO}" >> "$LOG_FILE" 2>&1
-    if git push origin main >> "$LOG_FILE" 2>&1; then
-      echo "[$(date '+%H:%M:%S')] Push OK -> https://roraag.github.io/daily-ia-news/" >> "$LOG_FILE"
-    else
-      echo "WARN: git push falló (no bloquea)" >> "$LOG_FILE"
-    fi
-  fi
-fi
-
 {
   echo ""
   echo "=========================================="
