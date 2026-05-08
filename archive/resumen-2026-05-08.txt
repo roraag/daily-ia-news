@@ -1,0 +1,11 @@
+Daily IA News — viernes 8 de mayo de 2026
+
+Musk le cedió a Anthropic el datacenter Colossus que construyó para pelearle: 300 megawatts, 220.000 GPUs en Memphis. En febrero los llamaba "odiadores de la civilización occidental". Hoy dice que nadie le activó el detector de malos. El acuerdo incluye una cláusula: Musk puede reclamar la capacidad si la IA de Anthropic "causa daño a la humanidad" — definido por Musk.
+
+OpenAI estrenó publicidad en ChatGPT. El modelo de suscripción solo no alcanza para cubrir el gasto en cómputo. Al mismo tiempo, The Information reveló que el acuerdo de 10GW de chips con Broadcom se anunció sin tener resuelto el financiamiento. Gary Marcus lo resume: "they hadn't figured out how OpenAI would pay for it".
+
+GPT-5.5 ya está disponible, con nuevos modelos de voz en tiempo real que razonan, traducen y transcriben en la misma llamada.
+
+Un estudio de Columbia en The Lancet documenta un aumento pronunciado de citas bibliográficas inventadas en papers médicos. El mecanismo: IA que alucina referencias que nadie verifica antes de publicar.
+
+Anthropic Watch: Mozilla usó Claude Mythos para corregir 423 vulnerabilidades en Firefox durante abril. Tres publicaciones de investigación nuevas: Natural Language Autoencoders, donación de herramienta de alineación open-source, y áreas de foco del Instituto Anthropic.
