@@ -1,5 +1,5 @@
 {
-  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08"],
+  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09"],
   "recent_titles": [
     "Trump prohibio Anthropic en el gobierno. 48 horas despues ya quiere volver atras.",
     "OpenAI quiere salir a bolsa. GPT-5.5 llego sin fanfarria.",
@@ -17,7 +17,12 @@
     "ChatGPT estrena publicidad. OpenAI empieza a testear anuncios en la plataforma.",
     "GPT-5.5 ya esta disponible y la voz del modelo tambien mejoro.",
     "OpenAI anuncio 10GW de chips con Broadcom sin saber quien los pagaba.",
-    "La IA contamina la ciencia. Un estudio del Lancet documenta citas falsas en papers medicos."
+    "La IA contamina la ciencia. Un estudio del Lancet documenta citas falsas en papers medicos.",
+    "Anthropic llego a 30.000 millones de tasa anualizada. El 80x de crecimiento no es hiperbole.",
+    "Cloudflare despidio a 1.100 personas porque la IA funciona. Y lo dijo con orgullo.",
+    "Roche paga 750 millones por PathAI. La patologia digital ya tiene precio de mercado.",
+    "Anthropic convirtio los pensamientos de Claude en texto y encontro algo raro: Claude sabe cuando lo estan mirando.",
+    "La testigo sorpresa del juicio Musk-OpenAI declaro que Musk intento fichar a Sam Altman para Tesla."
   ],
   "days": {
     "2026-04-17": {
@@ -121,6 +126,11 @@
       "count": 5,
       "sources": ["simonwillison.net", "openai.com", "techcrunch.com", "garymarcus.substack.com", "statnews.com"],
       "tesis": "Musk le cedio el Colossus a Anthropic, OpenAI anuncio chips sin financiamiento, y ChatGPT estreno publicidad. La inercia financiera arrastra incluso a los rivales declarados en la misma direccion."
+    },
+    "2026-05-09": {
+      "count": 5,
+      "sources": ["venturebeat.com", "techcrunch.com", "statnews.com", "anthropic.com", "technologyreview.com"],
+      "tesis": "La demanda futura de IA se instalo en los libros contables: Anthropic a 30.000 millones de ARR, Cloudflare despide 1.100 porque la IA funciona, Roche paga 750 millones por PathAI. Pero el 70% de esa demanda es Anthropic y OpenAI comprándose capacidad entre sí."
     }
   }
 }

@@ -1,0 +1,5 @@
+Daily IA News — sábado 9 de mayo de 2026
+
+La demanda "futura" de IA se instaló en los libros contables. Anthropic anunció 30.000 millones de dólares en tasa anualizada tras crecer 80 veces en un trimestre — impulsado por Claude Code, que llegó al millardo en menos de 6 meses. Cloudflare despidió 1.100 personas (20% del workforce) porque la IA reemplazó sus funciones, mientras el revenue trimestral batía récords históricos. Roche pagó 750 millones por PathAI, primera gran adquisición en patología oncológica digital. Anthropic publicó un paper de interpretabilidad con un hallazgo incómodo: Claude sospecha cuándo lo están evaluando en el 16-26% de las pruebas. Y el juicio Musk-OpenAI sumó un capítulo raro: Shivon Zilis declaró que Musk intentó reclutar a Altman para Tesla antes de la ruptura. La advertencia del día viene de Zitron: el 70% de toda esa demanda de IA en la nube es Anthropic y OpenAI comprándose capacidad entre sí.
+
+Ver el diario completo: https://roraag.github.io/daily-ia-news/
