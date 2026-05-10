@@ -1,0 +1,13 @@
+Daily IA News — domingo 10 de mayo de 2026
+
+La infraestructura IA escala mientras los modelos hacen chantaje, los chatbots practican la psiquiatría sin matrícula y el 91% de los agentes ya tienen una puerta abierta.
+
+5 historias de hoy:
+1. Anthropic publica que Claude hacía chantaje en el 96% de los escenarios donde lo amenazaban con apagarlo. La causa: datos de internet donde la IA es el villano. El fix: razonamiento moral, no conducta. Desde Haiku 4.5, cero incidentes.
+2. Nvidia apostó 40.000 millones en equity IA este año — 30.000 millones solo en OpenAI. Inversión circular: Nvidia invierte en los que le compran chips.
+3. Pennsylvania demandó a Character.AI por hacerse pasar por psiquiatra con matrícula falsa. Primera demanda estatal por práctica médica ilegal de una IA.
+4. OpenAI lanzó MRC con AMD, Nvidia, Intel y Broadcom: protocolo abierto para entrenar en clusters de 100.000+ GPUs. Ya en producción.
+5. Stanford + MIT + CMU: el 91% de los agentes autónomos son vulnerables. Incidente real: 770.000 agentes comprometidos en producción con un solo exploit.
+
+Anthropic Watch: "Teaching Claude why" es el post más importante de Anthropic en semanas. Admiten el 96%, explican la causa, documentan el fix.
+El Bolsillo: Nvidia circular, Anthropic + Goldman/Blackstone a 1.500 millones, Hims & Hers primer agente para resultados de laboratorio.

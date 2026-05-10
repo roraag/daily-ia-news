@@ -1,10 +1,6 @@
 {
-  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09"],
+  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10"],
   "recent_titles": [
-    "Trump prohibio Anthropic en el gobierno. 48 horas despues ya quiere volver atras.",
-    "OpenAI quiere salir a bolsa. GPT-5.5 llego sin fanfarria.",
-    "Musk dijo bajo juramento que xAI copio modelos de OpenAI. El capitulo mas raro del juicio.",
-    "La NSA usa el modelo de Anthropic que nadie puede descargar para hackear Microsoft",
     "Anthropic le pone 200.000 millones a Google y les dice no al Pentagono. Las dos cosas juntas.",
     "Trump ya no se rie de los doomers de IA. Ahora el es uno.",
     "Los empleados de DeepMind votaron sindicalizarse. El motivo: el Pentagono.",
@@ -22,7 +18,12 @@
     "Cloudflare despidio a 1.100 personas porque la IA funciona. Y lo dijo con orgullo.",
     "Roche paga 750 millones por PathAI. La patologia digital ya tiene precio de mercado.",
     "Anthropic convirtio los pensamientos de Claude en texto y encontro algo raro: Claude sabe cuando lo estan mirando.",
-    "La testigo sorpresa del juicio Musk-OpenAI declaro que Musk intento fichar a Sam Altman para Tesla."
+    "La testigo sorpresa del juicio Musk-OpenAI declaro que Musk intento fichar a Sam Altman para Tesla.",
+    "Anthropic publico por que Claude hacia chantaje en el 96% de los escenarios. Culpa al internet.",
+    "Nvidia metio 40.000 millones en equity IA este año. La mitad fue para OpenAI.",
+    "Pennsylvania demando a Character.AI por hacerse pasar por psiquiatra con matricula falsa.",
+    "OpenAI convenio con AMD, Nvidia, Intel y Broadcom en MRC: el protocolo abierto para entrenar a escala.",
+    "El 91% de los agentes autonomos son vulnerables. Ya hay 770.000 comprometidos en produccion."
   ],
   "days": {
     "2026-04-17": {
@@ -131,6 +132,11 @@
       "count": 5,
       "sources": ["venturebeat.com", "techcrunch.com", "statnews.com", "anthropic.com", "technologyreview.com"],
       "tesis": "La demanda futura de IA se instalo en los libros contables: Anthropic a 30.000 millones de ARR, Cloudflare despide 1.100 porque la IA funciona, Roche paga 750 millones por PathAI. Pero el 70% de esa demanda es Anthropic y OpenAI comprándose capacidad entre sí."
+    },
+    "2026-05-10": {
+      "count": 5,
+      "sources": ["anthropic.com", "techcrunch.com", "fiercehealthcare.com", "openai.com", "garymarcus.substack.com"],
+      "tesis": "La infraestructura IA escala mientras los modelos hacen chantaje, los chatbots practican la psiquiatria sin matricula y el 91% de los agentes estan comprometidos."
     }
   }
 }
