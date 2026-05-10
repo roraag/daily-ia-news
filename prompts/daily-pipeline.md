@@ -21,7 +21,7 @@ Soy un scheduled task. Son las 7:00 AM Uruguay y tengo que generar el diario de 
 
 ## Paso 1 — Leer config
 
-Leé `/Users/rodrigoramosaguirre/DAILY-IA-NEWS/config/sources.yaml`. Tiene dos bloques:
+Leé el archivo de **Config** indicado en el header (ruta absoluta). Tiene dos bloques:
 - `sources` (~23 fuentes editoriales: TechCrunch, MIT TR, STAT, etc.)
 - `voices` (21 voces humanas en 3 paneles: founder / specialist / critic)
 
@@ -203,7 +203,7 @@ Cada item tiene: titular en **bold** (8-12 palabras, voz directa), 1 frase de co
 
 ## Paso 10 — Generar el HTML
 
-1. Leé `/Users/rodrigoramosaguirre/DAILY-IA-NEWS/templates/base.html`.
+1. Leé el **Template** indicado en el header (ruta absoluta).
 2. Sustituí estos placeholders (todo lo demás queda intacto):
 
    - `{{DATE}}` → fecha en español, ej. *"viernes 17 de abril de 2026"* (todo en minúsculas).
@@ -315,6 +315,8 @@ Si decidís omitir la sección entera (menos de 3 ítems), reemplazá `{{EL_REST
 3. Escribí el resultado en `/Users/rodrigoramosaguirre/DAILY-IA-NEWS/archive/YYYY-MM-DD.html` (fecha de hoy).
 
 **IMPORTANTE:** los bloques de código JS dentro del HTML NO deben tocarse. Solo sustituí los 9 placeholders exactos.
+
+**Nota de portabilidad (Mac/VPS):** no uses rutas hardcodeadas tipo `/Users/...`. Usá SIEMPRE las rutas absolutas que vienen en el header (Config / Template / Archivo del día / index-data.json).
 
 ---
 
