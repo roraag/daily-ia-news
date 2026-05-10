@@ -312,7 +312,7 @@ El botón "Llevame a Claude" es **opcional** en El resto: incluilo solo si la no
 
 Si decidís omitir la sección entera (menos de 3 ítems), reemplazá `{{EL_RESTO}}` por cadena vacía.
 
-3. Escribí el resultado en `/Users/rodrigoramosaguirre/DAILY-IA-NEWS/archive/YYYY-MM-DD.html` (fecha de hoy).
+3. Escribí el resultado en el **Archivo del día a generar** indicado en el header (ruta absoluta).
 
 **IMPORTANTE:** los bloques de código JS dentro del HTML NO deben tocarse. Solo sustituí los 9 placeholders exactos.
 
@@ -357,7 +357,7 @@ El contenido tiene que ser HTML simple: `<h2>`, `<h3>`, `<p>`, `<ul><li>`, `<a .
 
 ## Paso 11 — Actualizar `index.html`
 
-Copiá el HTML generado a `/Users/rodrigoramosaguirre/DAILY-IA-NEWS/index.html`. La home siempre muestra el último día.
+Copiá el HTML generado a la ruta **Home del dashboard** indicada en el header. La home siempre muestra el último día.
 
 ---
 
@@ -381,6 +381,8 @@ Estructura esperada:
 - Agregá la fecha de hoy a `dates` si no está.
 - Agregá los `title_es` de hoy a `recent_titles`. Mantené solo titulares de los últimos 7 días.
 - Agregá entrada a `days` con `count`, `sources` (dominios usados), y `tesis` (1ra oración de la tesis del día).
+
+**Nota:** `index-data.json` es el archivo **Metadata histórico** indicado en el header.
 
 ---
 
