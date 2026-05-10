@@ -812,6 +812,93 @@ Señal de tracción: AMD sponsoreó el hackathon donde salió OncoAgent. <a href
 
     setActive('daily');
   })();
+
+  // IA Práctica: convertir el bloque “Casos prácticos” en cards visuales
+  // sin exigir al generador un HTML complejo.
+  (function practicalCards() {
+    const panel = document.getElementById('tab-practical');
+    if (!panel) return;
+    const shell = panel.querySelector('.practical-shell');
+    if (!shell) return;
+
+    // Encontrar el <h3> “Casos prácticos” (match flexible)
+    const h3s = Array.from(shell.querySelectorAll('h3'));
+    const casosH3 = h3s.find(h => (h.textContent || '').trim().toLowerCase().startsWith('casos pr'));
+    if (!casosH3) return;
+
+    // Recolectar nodos desde el primer <p><strong>... hasta antes del próximo <h3>
+    let cursor = casosH3.nextElementSibling;
+    const chunks = [];
+    let current = [];
+
+    function flush() {
+      if (current.length) chunks.push(current), current = [];
+    }
+
+    while (cursor) {
+      if (cursor.tagName === 'H3') break;
+
+      const isCaseP = cursor.tagName === 'P' && cursor.querySelector('strong');
+      if (isCaseP) {
+        flush();
+        current.push(cursor);
+      } else if (current.length) {
+        // Agregar listas y párrafos que pertenezcan al caso
+        if (cursor.tagName === 'UL' || cursor.tagName === 'P') current.push(cursor);
+      }
+      cursor = cursor.nextElementSibling;
+    }
+    flush();
+    if (!chunks.length) return;
+
+    // Construir cards y reemplazar el bloque original
+    const cardsWrap = document.createElement('div');
+    cardsWrap.className = 'practical-cards';
+
+    chunks.forEach(nodes => {
+      const p = nodes[0];
+      const strong = p.querySelector('strong');
+      const title = strong ? strong.textContent.trim() : 'Caso práctico';
+
+      // Extraer “Por qué importa” del propio <p> si existe
+      const metaMatch = (p.innerText || '').split(/
+|<br\s*\/?\s*>/i);
+      let meta = '';
+      // Heurística: buscar “Por qué importa:” dentro del texto del párrafo
+      const t = (p.textContent || '').replace(/\s+/g, ' ').trim();
+      const idx = t.toLowerCase().indexOf('por qué importa');
+      if (idx !== -1) {
+        meta = t.slice(idx).replace(/^por qué importa:\s*/i, '').trim();
+      }
+
+      const card = document.createElement('div');
+      card.className = 'practical-card';
+
+      const h = document.createElement('div');
+      h.className = 'practical-card-title';
+      h.textContent = title;
+      card.appendChild(h);
+
+      if (meta) {
+        const m = document.createElement('div');
+        m.className = 'meta';
+        m.innerHTML = `<em>Por qué importa:</em> ${meta}`;
+        card.appendChild(m);
+      }
+
+      // Agregar el resto de nodos (clonados) excepto el <strong> del primer párrafo
+      nodes.forEach((n, i) => {
+        if (i === 0) return; // ya usamos el título/meta
+        card.appendChild(n.cloneNode(true));
+      });
+
+      cardsWrap.appendChild(card);
+    });
+
+    // Insertar cards inmediatamente después del h3 y remover los nodos originales
+    shell.insertBefore(cardsWrap, casosH3.nextElementSibling);
+    chunks.flat().forEach(n => n.remove());
+  })();
 </script>
 </body>
 </html>

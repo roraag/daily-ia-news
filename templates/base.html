@@ -138,6 +138,29 @@
   .practical-shell a { color: var(--accent); text-decoration: none; }
   .practical-shell a:hover { text-decoration: underline; }
 
+  /* Practical cards (built via JS from the generated HTML) */
+  .practical-cards { display: flex; flex-direction: column; gap: 0.9rem; margin-top: 0.4rem; }
+  .practical-card {
+    padding: 1.1rem 1.2rem;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: var(--bg);
+  }
+  .practical-card-title {
+    font-family: "IBM Plex Serif", Georgia, serif;
+    font-size: 1.15rem;
+    font-weight: 600;
+    line-height: 1.25;
+    margin-bottom: 0.4rem;
+  }
+  .practical-card .meta {
+    color: var(--muted);
+    font-size: 0.95rem;
+    margin-bottom: 0.65rem;
+  }
+  .practical-card .meta em { font-style: italic; }
+  .practical-card ul { margin-top: 0.4rem; }
+
   /* Tesis del día */
   .tesis-dia {
     background: var(--tesis-bg);

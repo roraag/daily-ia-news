@@ -347,6 +347,11 @@ Esta solapa existe en el template y se muestra como tab “IA Práctica”. Obje
 
 4) **Playbook/Template del día (máx 10 líneas)** (checklist o prompt reusable)
 
+4-bis) **Company of One (1 ejemplo)** (obligatorio, aunque sea corto)
+- Un ejemplo real (persona/empresa) o un “patrón replicable” de alguien usando IA para operar con equipo mínimo.
+- Tiene que responder: qué hace, cómo usa IA, y qué podés copiar vos.
+- Ideal: 1 caso por semana en profundidad; el resto de los días, una viñeta corta.
+
 5) **Para Uruguay / Río de la Plata (0–2 ítems)** (solo si encaja)
 
 6) **Radar (solo links) (2 links)**: lectura larga (link + 2 bullets máximo)
