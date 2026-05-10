@@ -32,19 +32,42 @@ CANONICAL_SCRIPT = """
     });
   });
 
+  async function copyPromptToClipboard(text) {
+    try {
+      if (navigator.clipboard && window.isSecureContext) {
+        await navigator.clipboard.writeText(text);
+        return true;
+      }
+    } catch (e) { /* fallback */ }
+    try {
+      const ta = document.createElement('textarea');
+      ta.value = text;
+      ta.setAttribute('readonly', '');
+      ta.style.position = 'fixed';
+      ta.style.top = '0';
+      ta.style.left = '0';
+      ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.focus();
+      ta.select();
+      ta.setSelectionRange(0, text.length);
+      const ok = document.execCommand('copy');
+      document.body.removeChild(ta);
+      return ok;
+    } catch (e) {
+      return false;
+    }
+  }
+
   document.querySelectorAll('.copy-prompt-btn').forEach(btn => {
     btn.addEventListener('click', async (e) => {
       e.stopPropagation();
       const prompt = btn.dataset.prompt || '';
-      try {
-        await navigator.clipboard.writeText(prompt);
-        const original = btn.textContent;
-        btn.textContent = '✓ Copiado — pegá en Claude';
-        btn.classList.add('copied');
-        setTimeout(() => { btn.textContent = original; btn.classList.remove('copied'); }, 2200);
-      } catch (err) {
-        btn.textContent = 'Error al copiar';
-      }
+      const original = btn.textContent;
+      const ok = await copyPromptToClipboard(prompt);
+      btn.textContent = ok ? '✓ Copiado — pegá en Claude' : 'No se pudo copiar';
+      btn.classList.add('copied');
+      setTimeout(() => { btn.textContent = original; btn.classList.remove('copied'); }, 2400);
     });
   });
 
@@ -115,6 +138,27 @@ CANONICAL_SCRIPT = """
     renderCalendar(currentMonth);
   });
   renderCalendar(currentMonth);
+
+  // Tabs: Daily vs Práctica (fallback: sin JS se ven ambas)
+  (function initTabs() {
+    const tabs = Array.from(document.querySelectorAll('.view-tab'));
+    const panels = Array.from(document.querySelectorAll('[data-tab-panel]'));
+    if (!tabs.length || panels.length < 2) return;
+
+    document.body.classList.add('tabs-enabled');
+
+    function setActive(tabName) {
+      tabs.forEach(t => t.setAttribute('aria-selected', t.dataset.tab === tabName ? 'true' : 'false'));
+      panels.forEach(p => p.classList.toggle('active', p.dataset.tabPanel === tabName));
+      document.body.classList.toggle('tab-practical', tabName === 'practical');
+    }
+
+    tabs.forEach(t => {
+      t.addEventListener('click', () => setActive(t.dataset.tab));
+    });
+
+    setActive('daily');
+  })();
 """
 
 

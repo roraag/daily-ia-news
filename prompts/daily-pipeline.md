@@ -215,6 +215,7 @@ Cada item tiene: titular en **bold** (8-12 palabras, voz directa), 1 frase de co
    - `{{ANTHROPIC_WATCH}}` → bloque HTML completo de la sección.
    - `{{BOLSILLO}}` → bloque HTML completo de la sección.
    - `{{EL_RESTO}}` → bloque HTML completo de la sección "El resto" (o cadena vacía si la omitís).
+   - `{{PRACTICAL_CONTENT}}` → contenido HTML completo para la solapa **IA Práctica** (ver debajo). Si por alguna razón hoy no lo podés generar con calidad, escribí un bloque corto explicando “Sin señal suficiente hoy” y 2 links útiles.
 
 ### Bloque tesis del día
 
@@ -313,7 +314,42 @@ Si decidís omitir la sección entera (menos de 3 ítems), reemplazá `{{EL_REST
 
 3. Escribí el resultado en `/Users/rodrigoramosaguirre/DAILY-IA-NEWS/archive/YYYY-MM-DD.html` (fecha de hoy).
 
-**IMPORTANTE:** los bloques de código JS dentro del HTML NO deben tocarse. Solo sustituí los 8 placeholders exactos.
+**IMPORTANTE:** los bloques de código JS dentro del HTML NO deben tocarse. Solo sustituí los 9 placeholders exactos.
+
+---
+
+## Paso 10-bis — Generar “IA Práctica” (segunda solapa)
+
+Esta solapa existe en el template y se muestra como tab “IA Práctica”. Objetivo: máxima utilidad práctica para el trabajo de Rodrigo mañana. Menos drama frontier, más casos y cosas accionables.
+
+**Reglas duras (no negociables):**
+- Evitá “frontier drama” (OpenAI/Anthropic/Nvidia safety/política) salvo impacto práctico inmediato. Máximo 1 ítem.
+- Todo ítem debe responder “¿Qué hago con esto?” en 1–2 bullets.
+- Corto, sin walls of text. Si algo es largo: link + 2 bullets.
+- Startups: mínimo 2 por día. Ideal 1 LATAM si hay señal real; si no, decilo explícito.
+- Incluir “Para Uruguay / Río de la Plata” solo si aplica de verdad.
+
+**Formato fijo (dentro de `{{PRACTICAL_CONTENT}}`):**
+
+1) **Hoy en 60 segundos (3 bullets)**
+
+2) **Casos prácticos (3–5 ítems)** (salud/comercial/ops/datos). Cada ítem:
+- Título (máx 10 palabras)
+- Por qué importa (1 línea)
+- Qué hago mañana (1–2 bullets concretos)
+- Link fuente
+
+3) **Startups aplicadas (2–3 ítems)** (LATAM + mundo). Cada una:
+- Qué hace / para quién / por qué es diferente (2–3 bullets)
+- Señal de tracción (si existe) + link
+
+4) **Playbook/Template del día (máx 10 líneas)** (checklist o prompt reusable)
+
+5) **Para Uruguay / Río de la Plata (0–2 ítems)** (solo si encaja)
+
+6) **Radar (solo links) (2 links)**: lectura larga (link + 2 bullets máximo)
+
+El contenido tiene que ser HTML simple: `<h2>`, `<h3>`, `<p>`, `<ul><li>`, `<a ...>`.
 
 ---
 

@@ -240,6 +240,61 @@
     aside { display: none; }
     main { padding: 1.5rem 1rem; }
   }
+
+  /* Tabs (Daily IA News / IA Práctica) */
+  .view-tabs {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+  }
+  .view-tab {
+    padding: 0.45rem 0.9rem;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: none;
+    color: var(--fg);
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  .view-tab[aria-selected="true"] {
+    background: var(--accent);
+    color: white;
+    border-color: var(--accent);
+  }
+  .tab-panel { display: block; }
+  body.tabs-enabled .tab-panel { display: none; }
+  body.tabs-enabled .tab-panel.active { display: block; }
+  body.tab-practical .controls { display: none; }
+
+  .practical-shell {
+    padding: 1.25rem 1.5rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: rgba(0,0,0,0.02);
+  }
+  @media (prefers-color-scheme: dark) {
+    .practical-shell { background: rgba(255,255,255,0.03); }
+  }
+  .practical-shell h2 {
+    font-family: "IBM Plex Serif", Georgia, serif;
+    font-size: 1.35rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+  }
+  .practical-shell h3 {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    color: var(--muted);
+    letter-spacing: 0.06em;
+    margin-top: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  .practical-shell ul { padding-left: 1.2rem; }
+  .practical-shell li { margin-bottom: 0.35rem; }
+  .practical-shell a { color: var(--accent); text-decoration: none; }
+  .practical-shell a:hover { text-decoration: underline; }
+
 </style>
 </head>
 <body>
@@ -267,8 +322,12 @@
       <button class="chip" data-filter="health">Salud</button>
       <button class="chip" id="toggle-sidebar" style="margin-left: auto;">📅</button>
     </div>
+    <nav class="view-tabs" aria-label="Vista">
+      <button class="view-tab" type="button" data-tab="daily" aria-selected="true">Daily IA News</button>
+      <button class="view-tab" type="button" data-tab="practical" aria-selected="false">IA Práctica</button>
+    </nav>
   </header>
-
+  <section class="tab-panel active" id="tab-daily" data-tab-panel="daily">
   <div class="tesis-dia">
     <div class="seccion-label">La tesis del día</div>
     <div class="tesis-text">Anthropic está a 48 horas de cerrar la ronda de capital más grande de la historia de la IA, a $900.000 millones de valuación, superando a OpenAI. <strong>El mismo día</strong>, los críticos más articulados del sector se preguntan si todo esto es la mayor mala asignación de capital de la historia. El juicio Musk-Altman agrega un capítulo nuevo: xAI usó modelos de OpenAI para entrenar Grok, confesado bajo juramento. Hoy la IA parece simultáneamente el negocio del siglo y el error del siglo.</div>
@@ -504,6 +563,15 @@
   <footer>
     5 noticias curadas. Daily IA News — tu redactor personal de IA.
   </footer>
+  </section>
+
+  <section class="tab-panel" id="tab-practical" data-tab-panel="practical">
+    <div class="practical-shell">
+      <h2>IA Práctica</h2>
+      <p>Esta solapa se empieza a generar automáticamente a partir de ahora. En días anteriores puede aparecer vacía.</p>
+      <p>Si querés, puedo regenerar días viejos más adelante, pero primero estabilicemos el formato.</p>
+    </div>
+  </section>
 </main>
 
 <script>
@@ -520,19 +588,42 @@
     });
   });
 
+  async function copyPromptToClipboard(text) {
+    try {
+      if (navigator.clipboard && window.isSecureContext) {
+        await navigator.clipboard.writeText(text);
+        return true;
+      }
+    } catch (e) { /* fallback */ }
+    try {
+      const ta = document.createElement('textarea');
+      ta.value = text;
+      ta.setAttribute('readonly', '');
+      ta.style.position = 'fixed';
+      ta.style.top = '0';
+      ta.style.left = '0';
+      ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.focus();
+      ta.select();
+      ta.setSelectionRange(0, text.length);
+      const ok = document.execCommand('copy');
+      document.body.removeChild(ta);
+      return ok;
+    } catch (e) {
+      return false;
+    }
+  }
+
   document.querySelectorAll('.copy-prompt-btn').forEach(btn => {
     btn.addEventListener('click', async (e) => {
       e.stopPropagation();
       const prompt = btn.dataset.prompt || '';
-      try {
-        await navigator.clipboard.writeText(prompt);
-        const original = btn.textContent;
-        btn.textContent = '✓ Copiado — pegá en Claude';
-        btn.classList.add('copied');
-        setTimeout(() => { btn.textContent = original; btn.classList.remove('copied'); }, 2200);
-      } catch (err) {
-        btn.textContent = 'Error al copiar';
-      }
+      const original = btn.textContent;
+      const ok = await copyPromptToClipboard(prompt);
+      btn.textContent = ok ? '✓ Copiado — pegá en Claude' : 'No se pudo copiar';
+      btn.classList.add('copied');
+      setTimeout(() => { btn.textContent = original; btn.classList.remove('copied'); }, 2400);
     });
   });
 
@@ -603,6 +694,27 @@
     renderCalendar(currentMonth);
   });
   renderCalendar(currentMonth);
+
+  // Tabs: Daily vs Práctica (fallback: sin JS se ven ambas)
+  (function initTabs() {
+    const tabs = Array.from(document.querySelectorAll('.view-tab'));
+    const panels = Array.from(document.querySelectorAll('[data-tab-panel]'));
+    if (!tabs.length || panels.length < 2) return;
+
+    document.body.classList.add('tabs-enabled');
+
+    function setActive(tabName) {
+      tabs.forEach(t => t.setAttribute('aria-selected', t.dataset.tab === tabName ? 'true' : 'false'));
+      panels.forEach(p => p.classList.toggle('active', p.dataset.tabPanel === tabName));
+      document.body.classList.toggle('tab-practical', tabName === 'practical');
+    }
+
+    tabs.forEach(t => {
+      t.addEventListener('click', () => setActive(t.dataset.tab));
+    });
+
+    setActive('daily');
+  })();
 </script>
 </body>
 </html>

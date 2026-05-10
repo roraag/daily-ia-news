@@ -84,6 +84,60 @@
   }
   .chip.active { background: var(--accent); color: white; border-color: var(--accent); }
 
+  /* Tabs (Daily IA News / IA Práctica) */
+  .view-tabs {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+  }
+  .view-tab {
+    padding: 0.45rem 0.9rem;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: none;
+    color: var(--fg);
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  .view-tab[aria-selected="true"] {
+    background: var(--accent);
+    color: white;
+    border-color: var(--accent);
+  }
+  .tab-panel { display: block; }
+  body.tabs-enabled .tab-panel { display: none; }
+  body.tabs-enabled .tab-panel.active { display: block; }
+  body.tab-practical .controls { display: none; }
+
+  .practical-shell {
+    padding: 1.25rem 1.5rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: rgba(0,0,0,0.02);
+  }
+  @media (prefers-color-scheme: dark) {
+    .practical-shell { background: rgba(255,255,255,0.03); }
+  }
+  .practical-shell h2 {
+    font-family: "IBM Plex Serif", Georgia, serif;
+    font-size: 1.35rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+  }
+  .practical-shell h3 {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    color: var(--muted);
+    letter-spacing: 0.06em;
+    margin-top: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  .practical-shell ul { padding-left: 1.2rem; }
+  .practical-shell li { margin-bottom: 0.35rem; }
+  .practical-shell a { color: var(--accent); text-decoration: none; }
+  .practical-shell a:hover { text-decoration: underline; }
+
   /* Tesis del día */
   .tesis-dia {
     background: var(--tesis-bg);
@@ -303,24 +357,36 @@
       <button class="chip" data-filter="health">Salud</button>
       <button class="chip" id="toggle-sidebar" style="margin-left: auto;">📅</button>
     </div>
+    <nav class="view-tabs" aria-label="Vista">
+      <button class="view-tab" type="button" data-tab="daily" aria-selected="true">Daily IA News</button>
+      <button class="view-tab" type="button" data-tab="practical" aria-selected="false">IA Práctica</button>
+    </nav>
   </header>
 
-  {{TESIS_DIA}}
+  <section class="tab-panel active" id="tab-daily" data-tab-panel="daily">
+    {{TESIS_DIA}}
 
-  <h2 class="section-heading">Lo que importa hoy</h2>
-  <div class="news-list" id="news-list">
-    {{NEWS_ITEMS}}
-  </div>
+    <h2 class="section-heading">Lo que importa hoy</h2>
+    <div class="news-list" id="news-list">
+      {{NEWS_ITEMS}}
+    </div>
 
-  {{ANTHROPIC_WATCH}}
+    {{ANTHROPIC_WATCH}}
 
-  {{BOLSILLO}}
+    {{BOLSILLO}}
 
-  {{EL_RESTO}}
+    {{EL_RESTO}}
 
-  <footer>
-    {{TOTAL_COUNT}} noticias curadas. Daily IA News — tu redactor personal de IA.
-  </footer>
+    <footer>
+      {{TOTAL_COUNT}} noticias curadas. Daily IA News — tu redactor personal de IA.
+    </footer>
+  </section>
+
+  <section class="tab-panel" id="tab-practical" data-tab-panel="practical">
+    <div class="practical-shell">
+      {{PRACTICAL_CONTENT}}
+    </div>
+  </section>
 </main>
 
 <script>
@@ -443,6 +509,27 @@
     renderCalendar(currentMonth);
   });
   renderCalendar(currentMonth);
+
+  // Tabs: Daily vs Práctica (fallback: sin JS se ven ambas)
+  (function initTabs() {
+    const tabs = Array.from(document.querySelectorAll('.view-tab'));
+    const panels = Array.from(document.querySelectorAll('[data-tab-panel]'));
+    if (!tabs.length || panels.length < 2) return;
+
+    document.body.classList.add('tabs-enabled');
+
+    function setActive(tabName) {
+      tabs.forEach(t => t.setAttribute('aria-selected', t.dataset.tab === tabName ? 'true' : 'false'));
+      panels.forEach(p => p.classList.toggle('active', p.dataset.tabPanel === tabName));
+      document.body.classList.toggle('tab-practical', tabName === 'practical');
+    }
+
+    tabs.forEach(t => {
+      t.addEventListener('click', () => setActive(t.dataset.tab));
+    });
+
+    setActive('daily');
+  })();
 </script>
 </body>
 </html>
