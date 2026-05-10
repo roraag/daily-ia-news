@@ -208,7 +208,6 @@ CANONICAL_SCRIPT = """
       const title = strong ? strong.textContent.trim() : 'Caso práctico';
 
       // Extraer “Por qué importa” del propio <p> si existe
-      const metaMatch = (p.innerText || '').split(/\n|<br\s*\/?\s*>/i);
       let meta = '';
       // Heurística: buscar “Por qué importa:” dentro del texto del párrafo
       const t = (p.textContent || '').replace(/\s+/g, ' ').trim();
