@@ -1,17 +1,9 @@
-Daily IA News — lunes 11 de mayo de 2026
+La guerra de IA dejó de ser por benchmarks: Apple abre Siri a Claude y Gemini en junio, el FMI advierte que esos mismos modelos pueden colapsar el sistema financiero global, y hoy el que gana no es el que razona mejor sino el que llega primero a dos mil millones de dispositivos.
 
-La tesis del día: La IA ya no compite por quien razona mejor. Compite por quien llega antes a dos mil millones de dispositivos, y por quien puede hacer colapsar un banco central si la usa mal.
+Apple negocia dejar elegir entre Claude, Gemini o ChatGPT como cerebro de Siri: el que pierda la posición privilegiada en el iPhone pierde distribución masiva de golpe, y la decisión llega en WWDC junio.
 
-1. Apple podría dejar elegir entre Claude, Gemini o ChatGPT para Siri en iOS 27. La decisión llega en WWDC junio. Si Apple abre el ecosistema, la guerra de modelos pasa a ser una guerra de distribución masiva — y Anthropic tiene los modelos pero no la distribución.
+El FMI formalizó el riesgo sistémico: un ataque coordinado con IA puede comprometer múltiples instituciones financieras simultáneamente, más rápido de lo que los equipos de seguridad pueden responder.
 
-2. Project Glasswing escala a geopolítica. Corea del Sur negocia acceso, India exige que los modelos de Anthropic se alojen en suelo local, Australia ordena reforzar defensas financieras. Anthropic creó el problema (Mythos) y ahora lidera la solución (Glasswing).
+Codex de OpenAI completó el primer ciclo económico autónomo documentado: encontró trabajo disponible, hizo la tarea de bug bounty y cobró 16,88 dólares sin supervisión humana.
 
-3. El FMI advierte que un ciberataque coordinado con IA podría generar una crisis financiera global. El mecanismo: atacar múltiples instituciones simultáneamente, más rápido de lo que los equipos de seguridad pueden responder.
-
-4. Codex de OpenAI ganó $16,88 solo en tareas de bug bounty. Sam Altman lo anunció mientras estaba con su hijo. Es el primer ciclo económico completo completado por un agente de IA sin supervisión humana.
-
-5. En Utah, un chatbot de IA ya renueva recetas para 200 medicamentos crónicos sin supervisión clínica. La junta médica alertó sobre riesgos. Un experto de Penn propone un marco federal de 4 puntos para licenciar IA médica.
-
-El Bolsillo: Hut 8 firmó un lease de 9.800 millones de dólares en Texas para convertir capacidad de minería Bitcoin en data center de IA (acciones +35%). Alphabet emitió bonos en yenes para financiar expansión IA global. Apple liquidó 250M en demandas por Siri.
-
-https://roraag.github.io/daily-ia-news/
+Prestale atención al silencio de Anthropic: Dario Amodei, Mike Krieger y Jack Clark estuvieron sin posts públicos en la semana con más cobertura sobre la empresa en meses, justo mientras Corea, India y Australia negocian acceso a Glasswing en reuniones de Estado, y el acceso no autorizado a Mythos sigue sin comentario oficial.
