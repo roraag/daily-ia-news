@@ -21,7 +21,7 @@ Soy un scheduled task. Son las 7:00 AM Uruguay y tengo que generar el diario de 
 
 ## Paso 1 — Leer config
 
-Leé `/Users/rodrigoramosaguirre/DAILY-IA-NEWS/config/sources.yaml`. Tiene dos bloques:
+Leé el archivo de **Config** indicado en el header (ruta absoluta). Tiene dos bloques:
 - `sources` (~23 fuentes editoriales: TechCrunch, MIT TR, STAT, etc.)
 - `voices` (21 voces humanas en 3 paneles: founder / specialist / critic)
 
@@ -203,7 +203,7 @@ Cada item tiene: titular en **bold** (8-12 palabras, voz directa), 1 frase de co
 
 ## Paso 10 — Generar el HTML
 
-1. Leé `/Users/rodrigoramosaguirre/DAILY-IA-NEWS/templates/base.html`.
+1. Leé el **Template** indicado en el header (ruta absoluta).
 2. Sustituí estos placeholders (todo lo demás queda intacto):
 
    - `{{DATE}}` → fecha en español, ej. *"viernes 17 de abril de 2026"* (todo en minúsculas).
@@ -215,6 +215,7 @@ Cada item tiene: titular en **bold** (8-12 palabras, voz directa), 1 frase de co
    - `{{ANTHROPIC_WATCH}}` → bloque HTML completo de la sección.
    - `{{BOLSILLO}}` → bloque HTML completo de la sección.
    - `{{EL_RESTO}}` → bloque HTML completo de la sección "El resto" (o cadena vacía si la omitís).
+   - `{{PRACTICAL_CONTENT}}` → contenido HTML completo para la solapa **IA Práctica** (ver debajo). Si por alguna razón hoy no lo podés generar con calidad, escribí un bloque corto explicando “Sin señal suficiente hoy” y 2 links útiles.
 
 ### Bloque tesis del día
 
@@ -311,15 +312,57 @@ El botón "Llevame a Claude" es **opcional** en El resto: incluilo solo si la no
 
 Si decidís omitir la sección entera (menos de 3 ítems), reemplazá `{{EL_RESTO}}` por cadena vacía.
 
-3. Escribí el resultado en `/Users/rodrigoramosaguirre/DAILY-IA-NEWS/archive/YYYY-MM-DD.html` (fecha de hoy).
+3. Escribí el resultado en el **Archivo del día a generar** indicado en el header (ruta absoluta).
 
-**IMPORTANTE:** los bloques de código JS dentro del HTML NO deben tocarse. Solo sustituí los 8 placeholders exactos.
+**IMPORTANTE:** los bloques de código JS dentro del HTML NO deben tocarse. Solo sustituí los 9 placeholders exactos.
+
+**Nota de portabilidad (Mac/VPS):** no uses rutas hardcodeadas tipo `/Users/...`. Usá SIEMPRE las rutas absolutas que vienen en el header (Config / Template / Archivo del día / index-data.json).
+
+---
+
+## Paso 10-bis — Generar “IA Práctica” (segunda solapa)
+
+Esta solapa existe en el template y se muestra como tab “IA Práctica”. Objetivo: máxima utilidad práctica para el trabajo de Rodrigo mañana. Menos drama frontier, más casos y cosas accionables.
+
+**Reglas duras (no negociables):**
+- Evitá “frontier drama” (OpenAI/Anthropic/Nvidia safety/política) salvo impacto práctico inmediato. Máximo 1 ítem.
+- Todo ítem debe responder “¿Qué hago con esto?” en 1–2 bullets.
+- Corto, sin walls of text. Si algo es largo: link + 2 bullets.
+- Startups: mínimo 2 por día. Ideal 1 LATAM si hay señal real; si no, decilo explícito.
+- Incluir “Para Uruguay / Río de la Plata” solo si aplica de verdad.
+
+**Formato fijo (dentro de `{{PRACTICAL_CONTENT}}`):**
+
+1) **Hoy en 60 segundos (3 bullets)**
+
+2) **Casos prácticos (3–5 ítems)** (salud/comercial/ops/datos). Cada ítem:
+- Título (máx 10 palabras)
+- Por qué importa (1 línea)
+- Qué hago mañana (1–2 bullets concretos)
+- Link fuente
+
+3) **Startups aplicadas (2–3 ítems)** (LATAM + mundo). Cada una:
+- Qué hace / para quién / por qué es diferente (2–3 bullets)
+- Señal de tracción (si existe) + link
+
+4) **Playbook/Template del día (máx 10 líneas)** (checklist o prompt reusable)
+
+4-bis) **Company of One (1 ejemplo)** (obligatorio, aunque sea corto)
+- Un ejemplo real (persona/empresa) o un “patrón replicable” de alguien usando IA para operar con equipo mínimo.
+- Tiene que responder: qué hace, cómo usa IA, y qué podés copiar vos.
+- Ideal: 1 caso por semana en profundidad; el resto de los días, una viñeta corta.
+
+5) **Para Uruguay / Río de la Plata (0–2 ítems)** (solo si encaja)
+
+6) **Radar (solo links) (2 links)**: lectura larga (link + 2 bullets máximo)
+
+El contenido tiene que ser HTML simple: `<h2>`, `<h3>`, `<p>`, `<ul><li>`, `<a ...>`.
 
 ---
 
 ## Paso 11 — Actualizar `index.html`
 
-Copiá el HTML generado a `/Users/rodrigoramosaguirre/DAILY-IA-NEWS/index.html`. La home siempre muestra el último día.
+Copiá el HTML generado a la ruta **Home del dashboard** indicada en el header. La home siempre muestra el último día.
 
 ---
 
@@ -343,6 +386,8 @@ Estructura esperada:
 - Agregá la fecha de hoy a `dates` si no está.
 - Agregá los `title_es` de hoy a `recent_titles`. Mantené solo titulares de los últimos 7 días.
 - Agregá entrada a `days` con `count`, `sources` (dominios usados), y `tesis` (1ra oración de la tesis del día).
+
+**Nota:** `index-data.json` es el archivo **Metadata histórico** indicado en el header.
 
 ---
 

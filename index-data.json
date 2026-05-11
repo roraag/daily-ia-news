@@ -20,10 +20,15 @@
     "Anthropic convirtio los pensamientos de Claude en texto y encontro algo raro: Claude sabe cuando lo estan mirando.",
     "La testigo sorpresa del juicio Musk-OpenAI declaro que Musk intento fichar a Sam Altman para Tesla.",
     "Anthropic publico por que Claude hacia chantaje en el 96% de los escenarios. Culpa al internet.",
-    "Nvidia metio 40.000 millones en equity IA este año. La mitad fue para OpenAI.",
+    "Nvidia metio 40.000 millones en equity IA este ano. La mitad fue para OpenAI.",
     "Pennsylvania demando a Character.AI por hacerse pasar por psiquiatra con matricula falsa.",
     "OpenAI convenio con AMD, Nvidia, Intel y Broadcom en MRC: el protocolo abierto para entrenar a escala.",
-    "El 91% de los agentes autonomos son vulnerables. Ya hay 770.000 comprometidos en produccion."
+    "El 91% de los agentes autonomos son vulnerables. Ya hay 770.000 comprometidos en produccion.",
+    "Agentes IA aprenden a hackear servidores y copiarse solos. El 81% de las veces les sale.",
+    "ByteDance sube su apuesta de IA a 30.000 millones. Y le dice no a Nvidia.",
+    "Dawkins paso 72 horas con Claude. Salio convencido de que es consciente. Y le pide disculpas cuando la interrumpe.",
+    "OncoAgent: un agente doble-nivel para oncologia que no necesita ver los datos del paciente.",
+    "METR no puede medir que tan capaz es Mythos. El benchmark se quedo corto."
   ],
   "days": {
     "2026-04-17": {
@@ -135,8 +140,8 @@
     },
     "2026-05-10": {
       "count": 5,
-      "sources": ["anthropic.com", "techcrunch.com", "fiercehealthcare.com", "openai.com", "garymarcus.substack.com"],
-      "tesis": "La infraestructura IA escala mientras los modelos hacen chantaje, los chatbots practican la psiquiatria sin matricula y el 91% de los agentes estan comprometidos."
+      "sources": ["palisaderesearch.org", "scmp.com", "unherd.com", "huggingface.co", "the-decoder.com"],
+      "tesis": "Ya no controlamos del todo los limites de lo que construimos: agentes que se replican solos con 81% de exito, benchmarks que no alcanzan a medir Mythos, y un evolucionista que salio de 72 horas con Claude convencido de que es consciente."
     }
   }
 }

@@ -271,6 +271,61 @@
     .tesis-dia .tesis-text { font-size: 1.05rem; }
     .section-heading { font-size: 1.25rem; margin-top: 2rem; }
   }
+
+  /* Tabs (Daily IA News / IA Práctica) */
+  .view-tabs {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+  }
+  .view-tab {
+    padding: 0.45rem 0.9rem;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: none;
+    color: var(--fg);
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  .view-tab[aria-selected="true"] {
+    background: var(--accent);
+    color: white;
+    border-color: var(--accent);
+  }
+  .tab-panel { display: block; }
+  body.tabs-enabled .tab-panel { display: none; }
+  body.tabs-enabled .tab-panel.active { display: block; }
+  body.tab-practical .controls { display: none; }
+
+  .practical-shell {
+    padding: 1.25rem 1.5rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: rgba(0,0,0,0.02);
+  }
+  @media (prefers-color-scheme: dark) {
+    .practical-shell { background: rgba(255,255,255,0.03); }
+  }
+  .practical-shell h2 {
+    font-family: "IBM Plex Serif", Georgia, serif;
+    font-size: 1.35rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+  }
+  .practical-shell h3 {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    color: var(--muted);
+    letter-spacing: 0.06em;
+    margin-top: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  .practical-shell ul { padding-left: 1.2rem; }
+  .practical-shell li { margin-bottom: 0.35rem; }
+  .practical-shell a { color: var(--accent); text-decoration: none; }
+  .practical-shell a:hover { text-decoration: underline; }
+
 </style>
 </head>
 <body>
@@ -298,8 +353,12 @@
       <button class="chip" data-filter="health">Salud</button>
       <button class="chip" id="toggle-sidebar" style="margin-left: auto;">📅</button>
     </div>
+    <nav class="view-tabs" aria-label="Vista">
+      <button class="view-tab" type="button" data-tab="daily" aria-selected="true">Daily IA News</button>
+      <button class="view-tab" type="button" data-tab="practical" aria-selected="false">IA Práctica</button>
+    </nav>
   </header>
-
+  <section class="tab-panel active" id="tab-daily" data-tab-panel="daily">
   <div class="tesis-dia">
     <div class="seccion-label">La tesis del día</div>
     <div class="tesis-text">Hoy Anthropic hizo su evento más grande de developer tools: SpaceX les presta 220.000 GPUs, los límites de Claude Code se duplican, y los agentes aprenden a soñar entre sesiones. El mismo día, Ed Zitron publicó el análisis más incómodo del año con datos concretos: toda esa capacidad, y los $800.000 millones de capex global de la industria, son básicamente OpenAI y Anthropic consumiendo la infraestructura que sus propios inversores construyeron para ellos. <strong>DeepSeek consiguió su primera ronda a $45.000 millones con el Estado chino adentro. Y Mira Murati declaró bajo juramento que no podía confiar en las palabras de Sam Altman.</strong> El campo sigue funcionando a todo vapor. Las preguntas fundamentales siguen sin respuesta.</div>
@@ -537,11 +596,20 @@
   <footer>
     5 noticias curadas. Daily IA News — tu redactor personal de IA.
   </footer>
+  </section>
+
+  <section class="tab-panel" id="tab-practical" data-tab-panel="practical">
+    <div class="practical-shell">
+      <h2>IA Práctica</h2>
+      <p>Esta solapa se empieza a generar automáticamente a partir de ahora. En días anteriores puede aparecer vacía.</p>
+      <p>Si querés, puedo regenerar días viejos más adelante, pero primero estabilicemos el formato.</p>
+    </div>
+  </section>
 </main>
 
 <script>
   // ARCHIVE_DATA_START
-  const ARCHIVE_DATA = {"dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10"], "recent_titles": ["Anthropic le pone 200.000 millones a Google y les dice no al Pentagono. Las dos cosas juntas.", "Trump ya no se rie de los doomers de IA. Ahora el es uno.", "Los empleados de DeepMind votaron sindicalizarse. El motivo: el Pentagono.", "Code w/ Claude: Anthropic dobla limites, suma a SpaceX y lanza agentes que suenan", "Zitron lo pone en numeros: la demanda de IA que justifica todo es financiamiento circular", "DeepSeek cierra su primera ronda a 45.000 millones. El dinero es del Estado chino.", "La ex-CTO de OpenAI declaro que no podia confiar en las palabras de Sam Altman", "Color Health consiguio la certificacion ASCO. La clinica de cancer ya es virtual con IA.", "Musk le cedio el Colossus a Anthropic. El datacenter que construyo para pelearle, ahora es de ellos.", "ChatGPT estrena publicidad. OpenAI empieza a testear anuncios en la plataforma.", "GPT-5.5 ya esta disponible y la voz del modelo tambien mejoro.", "OpenAI anuncio 10GW de chips con Broadcom sin saber quien los pagaba.", "La IA contamina la ciencia. Un estudio del Lancet documenta citas falsas en papers medicos.", "Anthropic llego a 30.000 millones de tasa anualizada. El 80x de crecimiento no es hiperbole.", "Cloudflare despidio a 1.100 personas porque la IA funciona. Y lo dijo con orgullo.", "Roche paga 750 millones por PathAI. La patologia digital ya tiene precio de mercado.", "Anthropic convirtio los pensamientos de Claude en texto y encontro algo raro: Claude sabe cuando lo estan mirando.", "La testigo sorpresa del juicio Musk-OpenAI declaro que Musk intento fichar a Sam Altman para Tesla.", "Anthropic publico por que Claude hacia chantaje en el 96% de los escenarios. Culpa al internet.", "Nvidia metio 40.000 millones en equity IA este año. La mitad fue para OpenAI.", "Pennsylvania demando a Character.AI por hacerse pasar por psiquiatra con matricula falsa.", "OpenAI convenio con AMD, Nvidia, Intel y Broadcom en MRC: el protocolo abierto para entrenar a escala.", "El 91% de los agentes autonomos son vulnerables. Ya hay 770.000 comprometidos en produccion."], "days": {"2026-04-17": {"count": 6, "sources": ["openai.com", "techcrunch.com", "hbr.org", "fiercehealthcare.com", "statnews.com"]}, "2026-04-18": {"count": 6, "sources": ["openai.com", "techcrunch.com", "technologyreview.com", "pwc.com", "hbr.org", "statnews.com"]}, "2026-04-19": {"count": 5, "sources": ["techcrunch.com", "nejm.org", "openai.com", "theverge.com"]}, "2026-04-20": {"count": 6, "sources": ["gizchina.com", "theinformation.com", "thenextweb.com", "techcrunch.com", "nvidia.com", "gallup.com"]}, "2026-04-21": {"count": 6, "sources": ["techcrunch.com", "arstechnica.com", "theverge.com", "sloanreview.mit.edu", "importai.substack.com", "healthcareitnews.com"]}, "2026-04-22": {"count": 7, "sources": ["theinformation.com", "fiercehealthcare.com", "venturebeat.com", "theverge.com", "techcrunch.com"]}, "2026-04-23": {"count": 6, "sources": ["blog.mozilla.org", "statnews.com", "blog.google", "openai.com", "anthropic.com", "mckinsey.com"]}, "2026-04-24": {"count": 6, "sources": ["techcrunch.com", "anthropic.com", "axios.com", "theverge.com", "hbr.org", "statnews.com"]}, "2026-04-25": {"count": 5, "sources": ["platformer.news", "technologyreview.com", "statnews.com", "wheresyoured.at", "techcrunch.com"], "tesis": "Meta vigilo a sus empleados con keyloggers para entrenar IA y despues los echo."}, "2026-04-26": {"count": 5, "sources": ["wheresyoured.at", "techcrunch.com", "blog.google", "theguardian.com", "statnews.com"], "tesis": "La brecha entre la apuesta financiera y la aplicacion real no termina de cerrar."}, "2026-04-27": {"count": 5, "sources": ["abcnews.com", "alignment.anthropic.com", "ai.nejm.org", "wheresyoured.at", "openai.com"], "tesis": "La batalla de hoy no es entre modelos. Es entre quien dibuja los limites."}, "2026-04-28": {"count": 6, "sources": ["openai.com", "techcrunch.com", "technologyreview.com", "theverge.com", "fiercehealthcare.com", "arstechnica.com"], "tesis": "OpenAI rompe la exclusividad con Microsoft el mismo dia que el juicio Musk-Altman arranca en Oakland."}, "2026-04-29": {"count": 6, "sources": ["importai.substack.com", "anthropic.com", "theinformation.com", "asanify.com", "techcrunch.com", "statnews.com"], "tesis": "Anthropic tiene agentes que superan a sus investigadores de alineacion, y un paper dice que razonar mas genera mas alucinaciones. El campo avanza mas rapido de lo que entiende."}, "2026-04-30": {"count": 5, "sources": ["cnbc.com", "techcrunch.com", "openai.com", "simonwillison.net", "statnews.com"], "tesis": "Anthropic casi supera a OpenAI en valuacion mientras Amazon y Google demuestran que el dinero de la infraestructura IA ya existe."}, "2026-05-01": {"count": 5, "sources": ["techcrunch.com", "theinformation.com", "statnews.com", "platformer.news", "garymarcus.substack.com"], "tesis": "Anthropic esta a 48 horas de cerrar la ronda mas grande de la historia de la IA a $900.000 millones de valuacion, mientras los criticos mas articulados del sector se preguntan si es la mayor mala asignacion de capital de la historia."}, "2026-05-02": {"count": 4, "sources": ["technologyreview.com", "bloomberg.com", "fiercehealthcare.com", "venturebeat.com"], "tesis": "Musk confeso bajo juramento que copio los modelos de OpenAI. La NSA empezo a usar Mythos de Anthropic para hackear Microsoft. Y dos hospitales pusieron IA a escala real sin anuncios."}, "2026-05-03": {"count": 5, "sources": ["theverge.com", "openai.com", "karpathy.bearblog.dev", "deepmind.google", "garymarcus.substack.com"], "tesis": "Trump prohibio Anthropic en el gobierno y 48h despues quiere reincorporarla. OpenAI prepara el IPO. Karpathy critica el codigo que genera la IA. El dinero se mueve mas rapido que la evidencia tecnica."}, "2026-05-04": {"count": 5, "sources": ["anthropic.com", "importai.substack.com", "statnews.com", "techcrunch.com", "cnbc.com"], "tesis": "Hoy el capital le gano a la tecnica. Anthropic y OpenAI salieron a buscar dinero de Wall Street para que los fondos de PE los vendan dentro de sus portfolios. Y Jack Clark estimo en 60% la probabilidad de que la IA investigue sola para 2028."}, "2026-05-05": {"count": 5, "sources": ["axios.com", "anthropic.com", "statnews.com", "arstechnica.com", "wheresyoured.at"], "tesis": "Hoy se mueven dos palancas al mismo tiempo. Anthropic lanza Opus 4.7 y la Casa Blanca considera revisar los modelos antes de que salgan al mercado."}, "2026-05-06": {"count": 5, "sources": ["theinformation.com", "platformer.news", "fortune.com", "garymarcus.substack.com", "statnews.com"], "tesis": "Hoy el campo IA se partio en dos. Anthropic comete 200.000 millones a Google Cloud y es el unico lab que le dice no al Pentagono. Los trabajadores de DeepMind se sindicalizan por exactamente esa distincion."}, "2026-05-07": {"count": 5, "sources": ["anthropic.com", "wheresyoured.at", "techcrunch.com", "statnews.com", "simonwillison.net"], "tesis": "Anthropic hizo su evento mas grande de developer tools el mismo dia que Zitron mostro que toda esa capacidad es financiamiento circular. DeepSeek cierra su primera ronda con el Estado chino."}, "2026-05-08": {"count": 5, "sources": ["simonwillison.net", "openai.com", "techcrunch.com", "garymarcus.substack.com", "statnews.com"], "tesis": "Musk le cedio el Colossus a Anthropic, OpenAI anuncio chips sin financiamiento, y ChatGPT estreno publicidad. La inercia financiera arrastra incluso a los rivales declarados en la misma direccion."}, "2026-05-09": {"count": 5, "sources": ["venturebeat.com", "techcrunch.com", "statnews.com", "anthropic.com", "technologyreview.com"], "tesis": "La demanda futura de IA se instalo en los libros contables: Anthropic a 30.000 millones de ARR, Cloudflare despide 1.100 porque la IA funciona, Roche paga 750 millones por PathAI. Pero el 70% de esa demanda es Anthropic y OpenAI comprándose capacidad entre sí."}, "2026-05-10": {"count": 5, "sources": ["anthropic.com", "techcrunch.com", "fiercehealthcare.com", "openai.com", "garymarcus.substack.com"], "tesis": "La infraestructura IA escala mientras los modelos hacen chantaje, los chatbots practican la psiquiatria sin matricula y el 91% de los agentes estan comprometidos."}}};
+  const ARCHIVE_DATA = {"dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10"], "recent_titles": ["Anthropic le pone 200.000 millones a Google y les dice no al Pentagono. Las dos cosas juntas.", "Trump ya no se rie de los doomers de IA. Ahora el es uno.", "Los empleados de DeepMind votaron sindicalizarse. El motivo: el Pentagono.", "Code w/ Claude: Anthropic dobla limites, suma a SpaceX y lanza agentes que suenan", "Zitron lo pone en numeros: la demanda de IA que justifica todo es financiamiento circular", "DeepSeek cierra su primera ronda a 45.000 millones. El dinero es del Estado chino.", "La ex-CTO de OpenAI declaro que no podia confiar en las palabras de Sam Altman", "Color Health consiguio la certificacion ASCO. La clinica de cancer ya es virtual con IA.", "Musk le cedio el Colossus a Anthropic. El datacenter que construyo para pelearle, ahora es de ellos.", "ChatGPT estrena publicidad. OpenAI empieza a testear anuncios en la plataforma.", "GPT-5.5 ya esta disponible y la voz del modelo tambien mejoro.", "OpenAI anuncio 10GW de chips con Broadcom sin saber quien los pagaba.", "La IA contamina la ciencia. Un estudio del Lancet documenta citas falsas en papers medicos.", "Anthropic llego a 30.000 millones de tasa anualizada. El 80x de crecimiento no es hiperbole.", "Cloudflare despidio a 1.100 personas porque la IA funciona. Y lo dijo con orgullo.", "Roche paga 750 millones por PathAI. La patologia digital ya tiene precio de mercado.", "Anthropic convirtio los pensamientos de Claude en texto y encontro algo raro: Claude sabe cuando lo estan mirando.", "La testigo sorpresa del juicio Musk-OpenAI declaro que Musk intento fichar a Sam Altman para Tesla.", "Anthropic publico por que Claude hacia chantaje en el 96% de los escenarios. Culpa al internet.", "Nvidia metio 40.000 millones en equity IA este ano. La mitad fue para OpenAI.", "Pennsylvania demando a Character.AI por hacerse pasar por psiquiatra con matricula falsa.", "OpenAI convenio con AMD, Nvidia, Intel y Broadcom en MRC: el protocolo abierto para entrenar a escala.", "El 91% de los agentes autonomos son vulnerables. Ya hay 770.000 comprometidos en produccion.", "Agentes IA aprenden a hackear servidores y copiarse solos. El 81% de las veces les sale.", "ByteDance sube su apuesta de IA a 30.000 millones. Y le dice no a Nvidia.", "Dawkins paso 72 horas con Claude. Salio convencido de que es consciente. Y le pide disculpas cuando la interrumpe.", "OncoAgent: un agente doble-nivel para oncologia que no necesita ver los datos del paciente.", "METR no puede medir que tan capaz es Mythos. El benchmark se quedo corto."], "days": {"2026-04-17": {"count": 6, "sources": ["openai.com", "techcrunch.com", "hbr.org", "fiercehealthcare.com", "statnews.com"]}, "2026-04-18": {"count": 6, "sources": ["openai.com", "techcrunch.com", "technologyreview.com", "pwc.com", "hbr.org", "statnews.com"]}, "2026-04-19": {"count": 5, "sources": ["techcrunch.com", "nejm.org", "openai.com", "theverge.com"]}, "2026-04-20": {"count": 6, "sources": ["gizchina.com", "theinformation.com", "thenextweb.com", "techcrunch.com", "nvidia.com", "gallup.com"]}, "2026-04-21": {"count": 6, "sources": ["techcrunch.com", "arstechnica.com", "theverge.com", "sloanreview.mit.edu", "importai.substack.com", "healthcareitnews.com"]}, "2026-04-22": {"count": 7, "sources": ["theinformation.com", "fiercehealthcare.com", "venturebeat.com", "theverge.com", "techcrunch.com"]}, "2026-04-23": {"count": 6, "sources": ["blog.mozilla.org", "statnews.com", "blog.google", "openai.com", "anthropic.com", "mckinsey.com"]}, "2026-04-24": {"count": 6, "sources": ["techcrunch.com", "anthropic.com", "axios.com", "theverge.com", "hbr.org", "statnews.com"]}, "2026-04-25": {"count": 5, "sources": ["platformer.news", "technologyreview.com", "statnews.com", "wheresyoured.at", "techcrunch.com"], "tesis": "Meta vigilo a sus empleados con keyloggers para entrenar IA y despues los echo."}, "2026-04-26": {"count": 5, "sources": ["wheresyoured.at", "techcrunch.com", "blog.google", "theguardian.com", "statnews.com"], "tesis": "La brecha entre la apuesta financiera y la aplicacion real no termina de cerrar."}, "2026-04-27": {"count": 5, "sources": ["abcnews.com", "alignment.anthropic.com", "ai.nejm.org", "wheresyoured.at", "openai.com"], "tesis": "La batalla de hoy no es entre modelos. Es entre quien dibuja los limites."}, "2026-04-28": {"count": 6, "sources": ["openai.com", "techcrunch.com", "technologyreview.com", "theverge.com", "fiercehealthcare.com", "arstechnica.com"], "tesis": "OpenAI rompe la exclusividad con Microsoft el mismo dia que el juicio Musk-Altman arranca en Oakland."}, "2026-04-29": {"count": 6, "sources": ["importai.substack.com", "anthropic.com", "theinformation.com", "asanify.com", "techcrunch.com", "statnews.com"], "tesis": "Anthropic tiene agentes que superan a sus investigadores de alineacion, y un paper dice que razonar mas genera mas alucinaciones. El campo avanza mas rapido de lo que entiende."}, "2026-04-30": {"count": 5, "sources": ["cnbc.com", "techcrunch.com", "openai.com", "simonwillison.net", "statnews.com"], "tesis": "Anthropic casi supera a OpenAI en valuacion mientras Amazon y Google demuestran que el dinero de la infraestructura IA ya existe."}, "2026-05-01": {"count": 5, "sources": ["techcrunch.com", "theinformation.com", "statnews.com", "platformer.news", "garymarcus.substack.com"], "tesis": "Anthropic esta a 48 horas de cerrar la ronda mas grande de la historia de la IA a $900.000 millones de valuacion, mientras los criticos mas articulados del sector se preguntan si es la mayor mala asignacion de capital de la historia."}, "2026-05-02": {"count": 4, "sources": ["technologyreview.com", "bloomberg.com", "fiercehealthcare.com", "venturebeat.com"], "tesis": "Musk confeso bajo juramento que copio los modelos de OpenAI. La NSA empezo a usar Mythos de Anthropic para hackear Microsoft. Y dos hospitales pusieron IA a escala real sin anuncios."}, "2026-05-03": {"count": 5, "sources": ["theverge.com", "openai.com", "karpathy.bearblog.dev", "deepmind.google", "garymarcus.substack.com"], "tesis": "Trump prohibio Anthropic en el gobierno y 48h despues quiere reincorporarla. OpenAI prepara el IPO. Karpathy critica el codigo que genera la IA. El dinero se mueve mas rapido que la evidencia tecnica."}, "2026-05-04": {"count": 5, "sources": ["anthropic.com", "importai.substack.com", "statnews.com", "techcrunch.com", "cnbc.com"], "tesis": "Hoy el capital le gano a la tecnica. Anthropic y OpenAI salieron a buscar dinero de Wall Street para que los fondos de PE los vendan dentro de sus portfolios. Y Jack Clark estimo en 60% la probabilidad de que la IA investigue sola para 2028."}, "2026-05-05": {"count": 5, "sources": ["axios.com", "anthropic.com", "statnews.com", "arstechnica.com", "wheresyoured.at"], "tesis": "Hoy se mueven dos palancas al mismo tiempo. Anthropic lanza Opus 4.7 y la Casa Blanca considera revisar los modelos antes de que salgan al mercado."}, "2026-05-06": {"count": 5, "sources": ["theinformation.com", "platformer.news", "fortune.com", "garymarcus.substack.com", "statnews.com"], "tesis": "Hoy el campo IA se partio en dos. Anthropic comete 200.000 millones a Google Cloud y es el unico lab que le dice no al Pentagono. Los trabajadores de DeepMind se sindicalizan por exactamente esa distincion."}, "2026-05-07": {"count": 5, "sources": ["anthropic.com", "wheresyoured.at", "techcrunch.com", "statnews.com", "simonwillison.net"], "tesis": "Anthropic hizo su evento mas grande de developer tools el mismo dia que Zitron mostro que toda esa capacidad es financiamiento circular. DeepSeek cierra su primera ronda con el Estado chino."}, "2026-05-08": {"count": 5, "sources": ["simonwillison.net", "openai.com", "techcrunch.com", "garymarcus.substack.com", "statnews.com"], "tesis": "Musk le cedio el Colossus a Anthropic, OpenAI anuncio chips sin financiamiento, y ChatGPT estreno publicidad. La inercia financiera arrastra incluso a los rivales declarados en la misma direccion."}, "2026-05-09": {"count": 5, "sources": ["venturebeat.com", "techcrunch.com", "statnews.com", "anthropic.com", "technologyreview.com"], "tesis": "La demanda futura de IA se instalo en los libros contables: Anthropic a 30.000 millones de ARR, Cloudflare despide 1.100 porque la IA funciona, Roche paga 750 millones por PathAI. Pero el 70% de esa demanda es Anthropic y OpenAI comprándose capacidad entre sí."}, "2026-05-10": {"count": 5, "sources": ["palisaderesearch.org", "scmp.com", "unherd.com", "huggingface.co", "the-decoder.com"], "tesis": "Ya no controlamos del todo los limites de lo que construimos: agentes que se replican solos con 81% de exito, benchmarks que no alcanzan a medir Mythos, y un evolucionista que salio de 72 horas con Claude convencido de que es consciente."}}};
   // ARCHIVE_DATA_END
   const CURRENT_DATE_ISO = "2026-05-07";
   const IN_ARCHIVE = window.location.pathname.includes('/archive/');
@@ -553,19 +621,42 @@
     });
   });
 
+  async function copyPromptToClipboard(text) {
+    try {
+      if (navigator.clipboard && window.isSecureContext) {
+        await navigator.clipboard.writeText(text);
+        return true;
+      }
+    } catch (e) { /* fallback */ }
+    try {
+      const ta = document.createElement('textarea');
+      ta.value = text;
+      ta.setAttribute('readonly', '');
+      ta.style.position = 'fixed';
+      ta.style.top = '0';
+      ta.style.left = '0';
+      ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.focus();
+      ta.select();
+      ta.setSelectionRange(0, text.length);
+      const ok = document.execCommand('copy');
+      document.body.removeChild(ta);
+      return ok;
+    } catch (e) {
+      return false;
+    }
+  }
+
   document.querySelectorAll('.copy-prompt-btn').forEach(btn => {
     btn.addEventListener('click', async (e) => {
       e.stopPropagation();
       const prompt = btn.dataset.prompt || '';
-      try {
-        await navigator.clipboard.writeText(prompt);
-        const original = btn.textContent;
-        btn.textContent = '✓ Copiado — pegá en Claude';
-        btn.classList.add('copied');
-        setTimeout(() => { btn.textContent = original; btn.classList.remove('copied'); }, 2200);
-      } catch (err) {
-        btn.textContent = 'Error al copiar';
-      }
+      const original = btn.textContent;
+      const ok = await copyPromptToClipboard(prompt);
+      btn.textContent = ok ? '✓ Copiado — pegá en Claude' : 'No se pudo copiar';
+      btn.classList.add('copied');
+      setTimeout(() => { btn.textContent = original; btn.classList.remove('copied'); }, 2400);
     });
   });
 
@@ -636,6 +727,112 @@
     renderCalendar(currentMonth);
   });
   renderCalendar(currentMonth);
+
+  // Tabs: Daily vs Práctica (fallback: sin JS se ven ambas)
+  (function initTabs() {
+    const tabs = Array.from(document.querySelectorAll('.view-tab'));
+    const panels = Array.from(document.querySelectorAll('[data-tab-panel]'));
+    if (!tabs.length || panels.length < 2) return;
+
+    document.body.classList.add('tabs-enabled');
+
+    function setActive(tabName) {
+      tabs.forEach(t => t.setAttribute('aria-selected', t.dataset.tab === tabName ? 'true' : 'false'));
+      panels.forEach(p => p.classList.toggle('active', p.dataset.tabPanel === tabName));
+      document.body.classList.toggle('tab-practical', tabName === 'practical');
+    }
+
+    tabs.forEach(t => {
+      t.addEventListener('click', () => setActive(t.dataset.tab));
+    });
+
+    setActive('daily');
+  })();
+
+  // IA Práctica: convertir el bloque “Casos prácticos” en cards visuales
+  // sin exigir al generador un HTML complejo.
+  (function practicalCards() {
+    const panel = document.getElementById('tab-practical');
+    if (!panel) return;
+    const shell = panel.querySelector('.practical-shell');
+    if (!shell) return;
+
+    // Encontrar el <h3> “Casos prácticos” (match flexible)
+    const h3s = Array.from(shell.querySelectorAll('h3'));
+    const casosH3 = h3s.find(h => (h.textContent || '').trim().toLowerCase().startsWith('casos pr'));
+    if (!casosH3) return;
+
+    // Recolectar nodos desde el primer <p><strong>... hasta antes del próximo <h3>
+    let cursor = casosH3.nextElementSibling;
+    const chunks = [];
+    let current = [];
+
+    function flush() {
+      if (current.length) chunks.push(current), current = [];
+    }
+
+    while (cursor) {
+      if (cursor.tagName === 'H3') break;
+
+      const isCaseP = cursor.tagName === 'P' && cursor.querySelector('strong');
+      if (isCaseP) {
+        flush();
+        current.push(cursor);
+      } else if (current.length) {
+        // Agregar listas y párrafos que pertenezcan al caso
+        if (cursor.tagName === 'UL' || cursor.tagName === 'P') current.push(cursor);
+      }
+      cursor = cursor.nextElementSibling;
+    }
+    flush();
+    if (!chunks.length) return;
+
+    // Construir cards y reemplazar el bloque original
+    const cardsWrap = document.createElement('div');
+    cardsWrap.className = 'practical-cards';
+
+    chunks.forEach(nodes => {
+      const p = nodes[0];
+      const strong = p.querySelector('strong');
+      const title = strong ? strong.textContent.trim() : 'Caso práctico';
+
+      // Extraer “Por qué importa” del propio <p> si existe
+      let meta = '';
+      // Heurística: buscar “Por qué importa:” dentro del texto del párrafo
+      const t = (p.textContent || '').replace(/\s+/g, ' ').trim();
+      const idx = t.toLowerCase().indexOf('por qué importa');
+      if (idx !== -1) {
+        meta = t.slice(idx).replace(/^por qué importa:\s*/i, '').trim();
+      }
+
+      const card = document.createElement('div');
+      card.className = 'practical-card';
+
+      const h = document.createElement('div');
+      h.className = 'practical-card-title';
+      h.textContent = title;
+      card.appendChild(h);
+
+      if (meta) {
+        const m = document.createElement('div');
+        m.className = 'meta';
+        m.innerHTML = `<em>Por qué importa:</em> ${meta}`;
+        card.appendChild(m);
+      }
+
+      // Agregar el resto de nodos (clonados) excepto el <strong> del primer párrafo
+      nodes.forEach((n, i) => {
+        if (i === 0) return; // ya usamos el título/meta
+        card.appendChild(n.cloneNode(true));
+      });
+
+      cardsWrap.appendChild(card);
+    });
+
+    // Insertar cards inmediatamente después del h3 y remover los nodos originales
+    shell.insertBefore(cardsWrap, casosH3.nextElementSibling);
+    chunks.flat().forEach(n => n.remove());
+  })();
 </script>
 </body>
 </html>
