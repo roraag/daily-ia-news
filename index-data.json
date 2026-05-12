@@ -1,5 +1,5 @@
 {
-  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11"],
+  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12"],
   "recent_titles": [
     "DeepSeek cierra su primera ronda a 45.000 millones. El dinero es del Estado chino.",
     "La ex-CTO de OpenAI declaro que no podia confiar en las palabras de Sam Altman",
@@ -28,7 +28,11 @@
     "Project Glasswing es geopolitica: Corea quiere entrar, India quiere alojar los modelos.",
     "El FMI dice que un ciberataque con IA alcanzaria para generar una crisis financiera global.",
     "Codex de OpenAI gano sus primeros 16,88 dolares solo en tareas de seguridad informatica.",
-    "Un medico IA ya renueva recetas en Utah sin licencia. La regulacion busca alcanzarlo."
+    "Un medico IA ya renueva recetas en Utah sin licencia. La regulacion busca alcanzarlo.",
+    "El primer zero-day hecho con IA llego. Y el mismo dia, OpenAI lanzo la defensa.",
+    "OpenAI armo una empresa de 14.000 millones para que vos no tengas que entender la IA.",
+    "GM despidio 600 tecnicos IT. No los reemplazo con IA, los reemplazo con gente que entiende IA.",
+    "La AMA publico el manual contra la IA que se hace pasar por medico. Ya era hora."
   ],
   "days": {
     "2026-04-17": {
@@ -147,6 +151,11 @@
       "count": 5,
       "sources": ["theapplepost.com", "anthropic.com", "computerweekly.com", "openai.com", "statnews.com"],
       "tesis": "La IA ya no compite por benchmarks. Compite por quien llega antes a dos mil millones de dispositivos y por quien puede hacer colapsar un banco central si la usa mal."
+    },
+    "2026-05-12": {
+      "count": 4,
+      "sources": ["bloomberg.com", "openai.com", "techcrunch.com", "fiercehealthcare.com"],
+      "tesis": "Hoy la IA jugo en los dos lados del tablero al mismo tiempo: el primer zero-day con IA confirmado, y la defensa lanzada el mismo dia. El mundo corporativo ya empeza a reorganizarse alrededor de ella."
     }
   }
 }
