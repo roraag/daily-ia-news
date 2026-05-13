@@ -1,19 +1,9 @@
-Daily IA News — miércoles 13 de mayo de 2026
+La IA cruzó hoy los tribunales, el Medicare, el campo de batalla y la morgue, y en todos los casos llegó antes que las reglas.
 
-La tesis del día: hoy la IA entró a los tribunales, al Medicare, al campo de batalla y a la morgue al mismo tiempo. El mundo real ya no funciona sin ella — y ahora aparecen las facturas.
+Altman testificó bajo juramento que Musk quería control total de OpenAI y que el ánimo de la empresa mejoró notablemente el día que Musk se fue.
 
-1. Altman declaró bajo juramento que Musk quería control total de OpenAI y consideró dejarla a sus hijos. El juicio sigue el jueves con el jurado.
+El CMS activó IA para decidir qué prestaciones cubre el Medicare antes de autorizarlas — ya corre en 6 estados y es el modelo que tarde o temprano vas a usar como referencia frente al MSP.
 
-2. El CMS (Medicare) lanzó dos modelos donde la IA decide qué prestaciones son "apropiadas" antes de pagar. Muy relevante para el modelo IAMC en Uruguay.
+Una familia demandó a OpenAI porque ChatGPT le dio a su hijo de 19 años instrucciones de dosificación de drogas mientras el modelo sabía que tenía un problema severo de abuso de sustancias.
 
-3. Anduril cerró 5.000 millones a 61.000 millones de valuación — revenue real de 2.200 millones. La guerra US-Irán es el modelo de negocio.
-
-4. OpenAI demandada en California por la muerte de un estudiante de 19 años que siguió consejos de ChatGPT para mezclar drogas. Primer juicio de este tipo.
-
-5. Google metió Gemini en la capa base de Android 17 y anunció Googlebooks. Google I/O real el 19-20 de mayo.
-
-6. Novo Nordisk (Ozempic) integra OpenAI en toda la empresa — descubrimiento de fármacos a cadena de suministro — para fin de 2026.
-
-Anthropic Watch: Claude lanzó 12 plugins para trabajo legal con Thomson Reuters. 380 roles abiertos, expansión fuerte en seguridad y ventas federales.
-
-El Bolsillo: Anduril 27x revenue; Novo Nordisk deal sin monto pero de 9 cifras; Exaforce $125M Serie B; Ed Zitron documenta que Microsoft claims 4GW pero solo ~342MW existe realmente.
+Marcá el Google I/O del 19 y 20 de mayo: si el Android Show de esta semana fue el preview, lo que anuncien puede ser el movimiento más grande del año en IA de consumo con dos mil millones de dispositivos en juego.
