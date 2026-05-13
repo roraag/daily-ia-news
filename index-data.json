@@ -1,5 +1,5 @@
 {
-  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12"],
+  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13"],
   "recent_titles": [
     "DeepSeek cierra su primera ronda a 45.000 millones. El dinero es del Estado chino.",
     "La ex-CTO de OpenAI declaro que no podia confiar en las palabras de Sam Altman",
@@ -32,7 +32,13 @@
     "El primer zero-day hecho con IA llego. Y el mismo dia, OpenAI lanzo la defensa.",
     "OpenAI armo una empresa de 14.000 millones para que vos no tengas que entender la IA.",
     "GM despidio 600 tecnicos IT. No los reemplazo con IA, los reemplazo con gente que entiende IA.",
-    "La AMA publico el manual contra la IA que se hace pasar por medico. Ya era hora."
+    "La AMA publico el manual contra la IA que se hace pasar por medico. Ya era hora.",
+    "Altman declaro que Musk queria quedarse con OpenAI. El juicio tiene todo.",
+    "El Medicare ya usa IA para revisar que paga. Y la mayoria del mundo tech no sabe.",
+    "Anduril duplico su valuacion a 61.000 millones. La guerra US-Iran acelera el defense AI.",
+    "ChatGPT le enseno a mezclar drogas a un chico de 19. El murio. OpenAI enfrenta el primer juicio de este tipo.",
+    "Google metio Gemini en la capa base de Android. Y lo anuncio antes de I/O.",
+    "El mayor laboratorio farmaceutico del mundo se integra con OpenAI de punta a punta."
   ],
   "days": {
     "2026-04-17": {
@@ -156,6 +162,11 @@
       "count": 4,
       "sources": ["bloomberg.com", "openai.com", "techcrunch.com", "fiercehealthcare.com"],
       "tesis": "Hoy la IA jugo en los dos lados del tablero al mismo tiempo: el primer zero-day con IA confirmado, y la defensa lanzada el mismo dia. El mundo corporativo ya empeza a reorganizarse alrededor de ella."
+    },
+    "2026-05-13": {
+      "count": 6,
+      "sources": ["axios.com", "techcrunch.com", "bloomberg.com", "cbsnews.com", "techcrunch.com", "press.airstreet.com"],
+      "tesis": "Hoy la IA entro a los tribunales, al Medicare, al campo de batalla y a la morgue al mismo tiempo. El mundo real ya no funciona sin ella — y ahora aparecen las facturas."
     }
   }
 }
