@@ -1,14 +1,6 @@
 {
-  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13"],
+  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14"],
   "recent_titles": [
-    "DeepSeek cierra su primera ronda a 45.000 millones. El dinero es del Estado chino.",
-    "La ex-CTO de OpenAI declaro que no podia confiar en las palabras de Sam Altman",
-    "Color Health consiguio la certificacion ASCO. La clinica de cancer ya es virtual con IA.",
-    "Musk le cedio el Colossus a Anthropic. El datacenter que construyo para pelearle, ahora es de ellos.",
-    "ChatGPT estrena publicidad. OpenAI empieza a testear anuncios en la plataforma.",
-    "GPT-5.5 ya esta disponible y la voz del modelo tambien mejoro.",
-    "OpenAI anuncio 10GW de chips con Broadcom sin saber quien los pagaba.",
-    "La IA contamina la ciencia. Un estudio del Lancet documenta citas falsas en papers medicos.",
     "Anthropic llego a 30.000 millones de tasa anualizada. El 80x de crecimiento no es hiperbole.",
     "Cloudflare despidio a 1.100 personas porque la IA funciona. Y lo dijo con orgullo.",
     "Roche paga 750 millones por PathAI. La patologia digital ya tiene precio de mercado.",
@@ -38,7 +30,12 @@
     "Anduril duplico su valuacion a 61.000 millones. La guerra US-Iran acelera el defense AI.",
     "ChatGPT le enseno a mezclar drogas a un chico de 19. El murio. OpenAI enfrenta el primer juicio de este tipo.",
     "Google metio Gemini en la capa base de Android. Y lo anuncio antes de I/O.",
-    "El mayor laboratorio farmaceutico del mundo se integra con OpenAI de punta a punta."
+    "El mayor laboratorio farmaceutico del mundo se integra con OpenAI de punta a punta.",
+    "Anthropic fue a buscar a las PyMEs. Quince recetas, siete integraciones, diez ciudades.",
+    "Mini Shai-Hulud infecto 84 paquetes npm. OpenAI estuvo adentro.",
+    "Cisco tuvo el mejor trimestre de su historia y despidio 4.000 personas el mismo dia.",
+    "Google Gemini te da el numero de telefono de alguien. Sin permiso. Sin avisar.",
+    "Los medicos no le creen a la IA. Las enfermeras tampoco, pero menos."
   ],
   "days": {
     "2026-04-17": {
@@ -167,6 +164,11 @@
       "count": 6,
       "sources": ["axios.com", "techcrunch.com", "bloomberg.com", "cbsnews.com", "techcrunch.com", "press.airstreet.com"],
       "tesis": "Hoy la IA entro a los tribunales, al Medicare, al campo de batalla y a la morgue al mismo tiempo. El mundo real ya no funciona sin ella — y ahora aparecen las facturas."
+    },
+    "2026-05-14": {
+      "count": 5,
+      "sources": ["anthropic.com", "openai.com", "cnbc.com", "technologyreview.com", "fiercehealthcare.com"],
+      "tesis": "El consenso de que hay que adoptar IA llego antes que la confianza. Anthropic fue a buscar a las PyMEs el mismo dia que Ramp confirmo que ya supera a OpenAI en clientes empresariales."
     }
   }
 }
