@@ -1,0 +1,9 @@
+La IA dejó de esperar que el usuario llegara: Anthropic salió a buscar a las PyMEs con 15 workflows listos y superó a OpenAI en adopción empresarial por primera vez en la historia, mientras el mercado premia el récord histórico de Cisco con despidos masivos el mismo día.
+
+Anthropic lanzó Claude for Small Business con 15 skills integradas en QuickBooks, HubSpot y DocuSign, y los datos de Ramp sobre 50.000 empresas confirman que ya tiene más clientes que OpenAI, cuando hace 12 meses tenía menos de un tercio.
+
+Un gusano de supply chain infectó 84 paquetes npm del ecosistema TanStack y comprometió dispositivos de OpenAI, todo sin romper nada: el atacante esperó dentro del pipeline legítimo de CI/CD.
+
+Cisco reportó el mejor trimestre de su historia y despidió 4.000 personas el mismo día, y la acción cerró 17% arriba: el mercado ya no castiga la reestructuración para pivotar a IA, la premia.
+
+Prestá atención al reporte Elsevier sobre médicos: la mayoría dice que la IA les agrega carga en vez de quitarla, y eso aplica directo a cualquier piloto que propongas en ASESP.
