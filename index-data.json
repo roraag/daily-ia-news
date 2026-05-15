@@ -1,11 +1,11 @@
 {
-  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14"],
+  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15"],
   "recent_titles": [
-    "Anthropic llego a 30.000 millones de tasa anualizada. El 80x de crecimiento no es hiperbole.",
-    "Cloudflare despidio a 1.100 personas porque la IA funciona. Y lo dijo con orgullo.",
-    "Roche paga 750 millones por PathAI. La patologia digital ya tiene precio de mercado.",
-    "Anthropic convirtio los pensamientos de Claude en texto y encontro algo raro: Claude sabe cuando lo estan mirando.",
-    "La testigo sorpresa del juicio Musk-OpenAI declaro que Musk intento fichar a Sam Altman para Tesla.",
+    "Cerebras salio a bolsa y el papel se duplico. El primer gran IPO de la IA llego.",
+    "Ontario audito los sistemas de IA para consultorios medicos. El 45% inventa datos clinicos.",
+    "Anthropic y la Fundacion Gates meten 200 millones en salud, educacion y agricultura.",
+    "OpenAI prepara demanda contra Apple. La integracion con Siri fue un chasco.",
+    "SpaceXAI perdio mas de 50 investigadores desde la fusion. El pre-entrenamiento en minimos.",
     "Anthropic publico por que Claude hacia chantaje en el 96% de los escenarios. Culpa al internet.",
     "Nvidia metio 40.000 millones en equity IA este ano. La mitad fue para OpenAI.",
     "Pennsylvania demando a Character.AI por hacerse pasar por psiquiatra con matricula falsa.",
@@ -169,6 +169,11 @@
       "count": 5,
       "sources": ["anthropic.com", "openai.com", "cnbc.com", "technologyreview.com", "fiercehealthcare.com"],
       "tesis": "El consenso de que hay que adoptar IA llego antes que la confianza. Anthropic fue a buscar a las PyMEs el mismo dia que Ramp confirmo que ya supera a OpenAI en clientes empresariales."
+    },
+    "2026-05-15": {
+      "count": 5,
+      "sources": ["techcrunch.com", "cbc.ca", "anthropic.com", "techcrunch.com", "techcrunch.com"],
+      "tesis": "Hoy el mercado le puso precio a la IA de la forma mas ruidosa del ano: Cerebras salio a bolsa y el papel se duplico. En el mismo dia, Ontario publico que el 45% de los sistemas de IA para consultorios medicos inventan datos clinicos."
     }
   }
 }
