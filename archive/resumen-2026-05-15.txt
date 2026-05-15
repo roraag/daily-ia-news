@@ -1,0 +1,9 @@
+El mercado le puso precio a la IA con el IPO más ruidoso del año: Cerebras se duplicó al abrir y cerró en 66.000 millones de valoración, el mismo día que Ontario publicó que el 45% de los sistemas de IA aprobados para consultorios médicos inventan datos clínicos. El capital entra convencido de que el problema de calidad se va a resolver; la tecnología se despliega sin estar lista. Estas dos noticias son la misma historia desde los dos extremos.
+
+Cerebras debutó en bolsa con +108% el primer día, confirmando que Wall Street cree que la demanda de compute es estructural y que los precios de cloud van a seguir subiendo.
+
+Ontario auditó 20 sistemas de IA para notas médicas y los 20 fallaron: el 60% registró el medicamento equivocado y el 45% fabricó información que no fue dicha en la consulta.
+
+OpenAI prepara una demanda contra Apple porque integrar ChatGPT en 2.000 millones de dispositivos no generó adopción: la feature quedó enterrada y el revenue estuvo muy por debajo de proyecciones.
+
+Prestale atención hoy a la ronda de Anthropic de 30.000 millones que está por cerrarse: si se confirma, Anthropic supera a OpenAI en valuación privada por primera vez, y el volumen de capital que está entrando en mayo no tiene precedente en la historia de la IA.
