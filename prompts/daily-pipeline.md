@@ -35,7 +35,7 @@ Para cada `source`, cascada de 3 niveles. **No te rindas en el primer intento**:
 
 1. **Nivel 1 — RSS directo** (si `rss` no es null): `WebFetch` al feed, parseá items últimas 24h.
 2. **Nivel 2 — Google News RSS** (fallback universal):
-   `https://news.google.com/rss/search?q=site:DOMINIO+(AI+OR+%22artificial+intelligence%22)+when:1d&hl=en-US&gl=US`
+   `https://news.google.com/rss/search?q=site:DOMINIO+(AI+OR+%22artificial+intelligence%22+OR+%22machine+learning%22+OR+LLM+OR+%22large+language+model%22+OR+generative+OR+Gemini+OR+Claude+OR+ChatGPT+OR+agent+OR+%22on-device%22+OR+browser+OR+privacy+OR+telemetry)+when:1d&hl=en-US&gl=US`
    Reemplazá `DOMINIO` por el dominio base. Google News indexa casi todo y nunca bloquea.
 3. **Nivel 3 — WebSearch:** `site:DOMINIO AI when:1d`.
 
@@ -74,7 +74,9 @@ Si una voz no produjo nada relevante en 24h, no aparece. Cero relleno.
 
 Descartá noticias que:
 - No sean de las últimas 24h.
-- No mencionen IA, modelos, LLM, machine learning, agente, GPT, Claude, Gemini, etc.
+- No tengan señal de IA **ni** de plataforma donde IA se mete de costado.
+  - Señal “IA directa”: IA, modelos, LLM, machine learning, agente, GPT, Claude, Gemini, etc.
+  - Señal “IA indirecta pero relevante”: on-device, browser/Chrome/Safari/Edge, weights, WebGPU, privacy/telemetry/policy, enterprise policy/admin controls.
 - Sean **storyline ya cubierto** sin novedad real. Chequeá `recent_titles` en `index-data.json`. Pero **ojo con la deduplicación ciega**: si una noticia es la **siguiente capítulo** de una saga (ej. nueva pista en el caso Anthropic Mythos), NO la descartes — marcala como "actualización" en lugar de descartarla.
 
 **Heurística práctica:** si el título nuevo agrega un dato concreto (nombre, número, decisión) que el viejo no tenía, es nuevo. Si solo es rehash, descartar.
@@ -83,12 +85,23 @@ Descartá noticias que:
 
 ## Paso 5 — Cluster y ranking
 
+### Paso 5.0 — Taggear por tema (radar)
+
+Antes de scorear, asigná a cada cluster 0–3 tags temáticos (heurística por título+excerpt):
+- `agents_memory` (agent, dreaming, reflection, memory, replay, evals en background, tool-use)
+- `browser_on_device` (Chrome, browser, on-device, Nano, weights, WebGPU, local inference)
+- `security_privacy_policy` (privacy, telemetry, policy, compliance, regulation, export controls)
+- `open_source` (open-source, weights released, GitHub release, HF model, llama.cpp, vLLM)
+- `hardware_infra` (NVIDIA, chips, HBM, inference cost, datacenter, edge)
+
+Los tags se usan para dos cosas: bonus de score y cobertura mínima (para que no se escape la clase de noticia aunque no sea “modelo frontier”).
+
 **Antes de rankear, agrupá candidatos por similitud temática** (clusters). Si 4 fuentes cubren el mismo deal, son 1 cluster con consenso fuerte, no 4 noticias.
 
 Para cada cluster, score:
 
 ```
-score = magnitud * 2 + relevancia_tematica * 1.5 + weight_fuente_max + consenso_bonus + diversidad_bonus + obsesion_rodrigo_bonus
+score = magnitud * 2 + relevancia_tematica * 1.5 + weight_fuente_max + consenso_bonus + diversidad_bonus + company_diversity_bonus + topic_bonus + obsesion_rodrigo_bonus
 ```
 
 - **magnitud (1-5):** lanzamiento de modelo frontier o anuncio corporate grande = 5; release incremental = 3; rumor = 1.
@@ -96,6 +109,8 @@ score = magnitud * 2 + relevancia_tematica * 1.5 + weight_fuente_max + consenso_
 - **weight_fuente_max:** el peso más alto entre las fuentes del cluster.
 - **consenso_bonus:** +1 por cada fuente extra que cubre el mismo cluster (cap +3).
 - **diversidad_bonus:** +2 si ningún titular del top final tiene ese dominio principal; 0 si ya hay 1; -10 si ya hay 2.
+- **company_diversity_bonus:** 0 por defecto. -6 si el top final ya tiene 2 clusters del mismo “actor” (Anthropic/OpenAI/Google/Meta/Microsoft/Apple/NVIDIA). +2 si el actor todavía no apareció.
+- **topic_bonus:** +2 si el cluster tiene tag `browser_on_device` o `agents_memory` o `security_privacy_policy`; +1 si `open_source` o `hardware_infra`.
 - **obsesion_rodrigo_bonus:** +2 si el cluster toca alguno de: Anthropic, monetización IA, productividad con IA, IA en mutualistas/salud uruguaya, deals con dinero concreto.
 
 Ordená por score desc.
@@ -103,6 +118,10 @@ Ordená por score desc.
 **Sin cuota fija.** El diario tiene dos niveles de profundidad:
 
 - **Nivel A — "Lo que importa hoy"**: noticias que merecen tesis + ángulo + para vos + prompt pre-armado. Entran las que **superan score 12 Y suman algo único al diario** (no rehash, no duplicado angular). Pueden ser 3 algunos días, 7 otros. Si dudás entre incluir o no, **no la incluyas en Nivel A** — pasala a Nivel B. Restricciones: máx 2 del mismo dominio, al menos 1 de cada categoría (tech/business/health) si hay candidatos.
+
+  **Restricción extra anti-sesgo:** si hay candidatos con score ≥ 10 que NO sean de Anthropic/OpenAI, asegurá mínimo **2** de esos en Nivel A (salvo día muerto).
+
+  **Cobertura por radar:** si existe algún cluster taggeado `browser_on_device` o `agents_memory` con score ≥ 10, tiene que aparecer al menos en Nivel B (y si score ≥ 12, preferí subirlo a Nivel A salvo duplicación fuerte).
 
 - **Nivel B — "El resto"** (ver Paso 9-bis): el resto de los candidatos con score ≥ 8 que no entraron a Nivel A. Una línea cada uno, sin desarrollo. Capá en 12 para no inflar.
 

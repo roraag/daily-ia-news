@@ -83,12 +83,52 @@ sources:
     weight: 3
     language: en
 
+  - name: Google AI Blog
+    url: https://ai.googleblog.com/
+    rss: https://ai.googleblog.com/feeds/posts/default
+    category: tech
+    weight: 3
+    language: en
+    notes: noticias y posts de producto; mejor cobertura que DeepMind para cosas tipo Gemini en producto
+
+  - name: Chrome Developers Blog
+    url: https://developer.chrome.com/blog/
+    rss: https://developer.chrome.com/static/blog/feed.xml
+    category: tech
+    weight: 3
+    language: en
+    notes: clave para señales tipo on-device en Chrome, WebGPU, privacidad y cambios de plataforma
+
+  - name: Apple Machine Learning Research
+    url: https://machinelearning.apple.com/
+    rss: https://machinelearning.apple.com/rss.xml
+    category: tech
+    weight: 2
+    language: en
+    notes: papers y updates de Apple; buen contrapeso a OpenAI/Anthropic
+
+  - name: NVIDIA Blog - Deep Learning
+    url: https://blogs.nvidia.com/blog/category/deep-learning/
+    rss: https://blogs.nvidia.com/category/deep-learning/feed/
+    category: tech
+    weight: 2
+    language: en
+    notes: infra y hardware; señales de edge/on-device, stacks y benchmarks
+
   - name: Hugging Face Blog
     url: https://huggingface.co/blog
     rss: https://huggingface.co/blog/feed.xml
     category: tech
     weight: 2
     language: en
+
+  - name: EFF - Updates
+    url: https://www.eff.org/
+    rss: https://www.eff.org/rss/updates.xml
+    category: tech
+    weight: 2
+    language: en
+    notes: privacidad/seguridad; sirve para todo lo on-device/telemetría/políticas
 
   - name: Import AI (Jack Clark)
     url: https://importai.substack.com/
