@@ -7,16 +7,11 @@ Diario personal de IA generado todos los días a las 7:00 AM hora Uruguay. **No 
 - Abrí `index.html` en cualquier navegador. Siempre muestra el último día generado.
 - El pipeline corre automático todos los días a las 7:00 AM (hora Uruguay) vía launchd + claude CLI.
 
-## Vistas (tabs)
+## Vistas
 
-Cada página diaria tiene 2 solapas:
+Cada página diaria muestra una sola vista: **Daily IA News**.
 
-- **Daily IA News**: el diario original (default).
-- **IA Práctica**: una vista paralela enfocada en casos reales + playbooks + startups (LATAM + mundo) + ángulo Uruguay/Río de la Plata.
-
-Notas:
-- Si el navegador no ejecuta JS, se muestran ambas secciones una debajo de la otra (fallback).
-- Para días viejos, “IA Práctica” puede aparecer con un placeholder hasta que se regenere con el pipeline.
+(La pestaña “IA Práctica” se eliminó: no generó valor sostenido.)
 
 ## Estructura editorial del diario
 
@@ -35,7 +30,7 @@ Cada día el medio publica 5 bloques:
 - `config/sources.yaml` — pool con dos bloques:
   - `sources` (23 medios editoriales: TechCrunch, MIT TR, STAT, HBR, Stratechery, Platformer, Anthropic Blog/Engineering/Careers, etc.)
   - `voices` (panel humano de 21 personas en 3 paneles: 10 founders, 6 especialistas, 5 críticos)
-- `templates/base.html` — plantilla con placeholders (`{{TESIS_DIA}}`, `{{NEWS_ITEMS}}`, `{{ANTHROPIC_WATCH}}`, `{{BOLSILLO}}`, `{{EL_RESTO}}`, `{{DATE}}`, `{{DATE_ISO}}`, `{{TOTAL_COUNT}}`, `{{ARCHIVE_DATA}}`, `{{PRACTICAL_CONTENT}}`).
+- `templates/base.html` — plantilla con placeholders (`{{TESIS_DIA}}`, `{{NEWS_ITEMS}}`, `{{ANTHROPIC_WATCH}}`, `{{BOLSILLO}}`, `{{EL_RESTO}}`, `{{DATE}}`, `{{DATE_ISO}}`, `{{TOTAL_COUNT}}`, `{{ARCHIVE_DATA}}`).
 - `prompts/daily-pipeline.md` — el prompt completo. 13 pasos. Define voz, secciones, criterios de ranking, panel humano.
 - `prompts/manual-run.md` — versión de debug manual.
 - `scripts/run-daily.sh` — script bash que dispara launchd. Acepta fecha opcional para recuperar días perdidos: `bash scripts/run-daily.sh 2026-04-18`.
