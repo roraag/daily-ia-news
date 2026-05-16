@@ -190,6 +190,30 @@ sources:
     language: en
     notes: paywall
 
+  - name: CNBC - AI
+    url: https://www.cnbc.com/artificial-intelligence/
+    rss: null
+    category: business
+    weight: 2
+    language: en
+    notes: muy citado en WhatsApp Mundo IA; buen termómetro de mercado/empresas
+
+  - name: The Next Web
+    url: https://thenextweb.com/
+    rss: https://thenextweb.com/feed
+    category: business
+    weight: 2
+    language: en
+    notes: aparece seguido en newsletters/curación; buen contrapeso europeo
+
+  - name: Forbes - AI
+    url: https://www.forbes.com/ai/
+    rss: null
+    category: business
+    weight: 1
+    language: en
+    notes: señal de mainstream business + robótica; baja prioridad pero no dejar afuera
+
   # ===== IA EN SALUD (~30%) =====
   - name: STAT News - Health Tech
     url: https://www.statnews.com/category/health-tech/
@@ -218,6 +242,30 @@ sources:
     category: health
     weight: 2
     language: en
+
+  - name: Infobae - Tecnología
+    url: https://www.infobae.com/tecno/
+    rss: null
+    category: tech
+    weight: 1
+    language: es
+    notes: fuente recurrente en WhatsApp (LATAM/ES); baja prioridad pero incluida
+
+  - name: Microsoft Security Blog
+    url: https://www.microsoft.com/en-us/security/blog/
+    rss: null
+    category: tech
+    weight: 2
+    language: en
+    notes: agentes, compliance y seguridad; suele tener señales antes que los medios
+
+  - name: Google Blog
+    url: https://blog.google/
+    rss: https://blog.google/rss/
+    category: tech
+    weight: 2
+    language: en
+    notes: producto + policy + health; aparece en curación tipo Mundo IA
 
 # ============================================================
 # PANEL HUMANO — voces, no medios
