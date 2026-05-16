@@ -1,0 +1,9 @@
+El mundo institucional tomó posición en la IA desde todos los frentes a la vez: mercado, geopolítica, salud y doctrina religiosa se movieron en el mismo período de 72 horas.
+
+Anthropic le ganó el mercado enterprise a OpenAI por primera vez en la historia: 34,4% contra 32,3% de adopción en empresas de EEUU, cuadruplicando su base en un año con Claude Code como única palanca.
+
+Trump y Xi acordaron un protocolo bilateral para controlar el acceso a modelos frontier, detonado directamente por el riesgo que representa Mythos, el cibermodelo de Anthropic capaz de atacar infraestructura crítica.
+
+JAMA certificó que los escribas de IA ahorran 16 minutos de documentación por consulta médica en 1.800 clínicos de cinco centros académicos, el estudio observacional más grande publicado hasta ahora en el tema.
+
+Seguí de cerca a Ed Zitron esta semana: por primera vez hizo el ejercicio con números reales y documentó que los compromisos de compute de Anthropic y OpenAI necesitan que la demanda siga creciendo al ritmo actual para sostenerse. Si estás evaluando contratos de IA a largo plazo, ahora es el momento de negociar flexibilidad.
