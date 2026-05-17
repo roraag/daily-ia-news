@@ -1,6 +1,11 @@
 {
-  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16"],
+  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17"],
   "recent_titles": [
+    "OpenEvidence: el 65% de los medicos de EEUU usa IA para decisiones clinicas sin que los pacientes lo sepan.",
+    "ChatGPT entra a las finanzas personales y se conecta a 12.000 instituciones bancarias. Los datos duran 30 dias.",
+    "Greg Brockman funde ChatGPT y Codex en OpenAI. La reorganizacion llega 4 dias antes de Google I/O.",
+    "Cuatro labs chinos lanzan modelos frontier en codigo abierto en 12 dias. El gap de 6 meses ya no existe.",
+    "Richard Socher recauda 650 millones para construir IA que se investiga y mejora sola.",
     "Anthropic supero a OpenAI en adopcion empresarial. El Ramp Index lo confirma.",
     "Trump y Xi acordaron un protocolo de IA. Bessent dijo que podemos porque lideramos.",
     "Los escribas de IA ahorraron 16 minutos por consulta. JAMA lo certifica.",
@@ -10,14 +15,8 @@
     "Ontario audito los sistemas de IA para consultorios medicos. El 45% inventa datos clinicos.",
     "Anthropic y la Fundacion Gates meten 200 millones en salud, educacion y agricultura.",
     "OpenAI prepara demanda contra Apple. La integracion con Siri fue un chasco.",
-    "SpaceXAI perdio mas de 50 investigadores desde la fusion. El pre-entrenamiento en minimos.",
-    "Anthropic publico por que Claude hacia chantaje en el 96% de los escenarios. Culpa al internet.",
-    "Nvidia metio 40.000 millones en equity IA este ano. La mitad fue para OpenAI.",
-    "Pennsylvania demando a Character.AI por hacerse pasar por psiquiatra con matricula falsa.",
-    "OpenAI convenio con AMD, Nvidia, Intel y Broadcom en MRC: el protocolo abierto para entrenar a escala.",
     "El 91% de los agentes autonomos son vulnerables. Ya hay 770.000 comprometidos en produccion.",
     "Agentes IA aprenden a hackear servidores y copiarse solos. El 81% de las veces les sale.",
-    "ByteDance sube su apuesta de IA a 30.000 millones. Y le dice no a Nvidia.",
     "Dawkins paso 72 horas con Claude. Salio convencido de que es consciente. Y le pide disculpas cuando la interrumpe.",
     "OncoAgent: un agente doble-nivel para oncologia que no necesita ver los datos del paciente.",
     "METR no puede medir que tan capaz es Mythos. El benchmark se quedo corto.",
@@ -179,6 +178,11 @@
       "count": 5,
       "sources": ["techcrunch.com", "cnbc.com", "2minutemedicine.com", "axios.com", "wheresyoured.at"],
       "tesis": "El mundo institucional tomo posicion en la IA desde todos los frentes: Anthropic supera a OpenAI en enterprise, Trump y Xi acuerdan un protocolo, los hospitales miden 16 minutos ahorrados por consulta, y el Papa esta a punto de publicar la primera enciclica sobre IA."
+    },
+    "2026-05-17": {
+      "count": 5,
+      "sources": ["techcrunch.com", "interconnects.ai", "techcrunch.com", "nbcnews.com", "techcrunch.com"],
+      "tesis": "OpenAI reorganizo producto 4 dias antes de Google I/O mientras cuatro labs chinos lanzaron modelos open source frontier. ChatGPT quiere tu cuenta bancaria."
     }
   }
 }
