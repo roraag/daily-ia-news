@@ -12,12 +12,12 @@ Lector único: Rodrigo. Idioma: español rioplatense. Sin emojis. Sin tú/aquí.
 
 Solo dos lugares (la copia local de Mac fue eliminada el 2026-05-06):
 
-- **Producción**: `/home/openclaw/DAILY-IA-NEWS` en `openclaw-rodri` (VPS Hetzner, accesible vía Tailscale). Acá corre el cron diario, se genera el HTML, se envía por Telegram y se pushea a GitHub. Acceso: `ssh root@openclaw-rodri`.
+- **Producción**: `/home/openclaw/DAILY-IA-NEWS` en `openclaw-rodri` (VPS Hetzner, accesible vía Tailscale `100.113.124.21`). Acá corre el cron diario, se genera el HTML y se pushea a GitHub. Acceso: `ssh openclaw@100.113.124.21`.
 - **GitHub**: `https://github.com/roraag/daily-ia-news` (público). Espejo del server, actualizado por el cron al final de cada corrida.
 
 **No hay copia local de desarrollo.** Para editar:
-- Cambios chicos: `ssh root@openclaw-rodri` y editar directo con vim.
-- Cambios grandes: `git clone git@github.com:roraag/daily-ia-news.git` en cualquier máquina, editar, `git push`, después `ssh root@openclaw-rodri 'cd /home/openclaw/DAILY-IA-NEWS && sudo -u openclaw git pull'` para que el server tenga la versión nueva antes de la próxima corrida.
+- Cambios chicos: `ssh openclaw@100.113.124.21` y editar directo con vim.
+- Cambios grandes: `git clone git@github.com:roraag/daily-ia-news.git` en cualquier máquina, editar, `git push`, después `ssh openclaw@100.113.124.21 'cd /home/openclaw/DAILY-IA-NEWS && git pull'` para que el server tenga la versión nueva antes de la próxima corrida.
 
 ## Publicación: GitHub Pages
 
@@ -31,13 +31,12 @@ Solo dos lugares (la copia local de Mac fue eliminada el 2026-05-06):
 | Tarea | Mecanismo | Hora UYT |
 |---|---|---|
 | Genera el día (Claude + push a GitHub) | `cron` user `openclaw` → `scripts/run-daily-vps.sh` | 6:00 AM |
-| Envía resumen por Telegram | systemd user timer `daily-ia-news-send.timer` | 6:50 AM (con retry 7:20) |
 
-El envío de Telegram es un proceso aparte (`/home/openclaw/scripts/daily-ia-news-send.sh`), no es parte de este repo.
+**No hay envío directo del daily** (Telegram / WhatsApp / mail). Hasta 2026-05-09 había un envío por Telegram via systemd user timer `daily-ia-news-send.timer` + script `/home/openclaw/scripts/daily-ia-news-send.sh` (bot `@rodri_pa_bot`), pero se discontinuó porque la lectura cotidiana se hace por GitHub Pages. El timer está `disabled`; el script queda en disco pero no se ejecuta. Para reactivarlo: re-enable el timer y verificar que el token en `~/secrets/telegram.yaml` sigue válido.
 
 ## Scripts en `scripts/`
 
-- `run-daily-vps.sh` — **el activo**. Linux, locale `es_ES.UTF-8`, copia output a `/home/openclaw/daily-ia-news/` para Telegram, hace git push a GitHub al final.
+- `run-daily-vps.sh` — **el activo**. Linux, locale `es_ES.UTF-8`, copia output a `/home/openclaw/daily-ia-news/` (espejo local para que Lucho/Hermes lo pueda leer si hace falta), hace `git push` a GitHub al final.
 - `sync-archive-data.py` — actualiza el JS `ARCHIVE_DATA` en TODOS los HTML del histórico cada vez que se genera un día nuevo (para que el calendario lateral muestre todos los días). El JS canónico de este script DEBE matchear el del template — si tocás `templates/base.html`, tocá este script también.
 - `run-daily.sh` y `com.rodrigoramosaguirre.daily-ia-news.plist` — **legacy Mac**, ya no se usan. Quedan en el repo por referencia histórica; se pueden eliminar.
 
@@ -45,23 +44,19 @@ El envío de Telegram es un proceso aparte (`/home/openclaw/scripts/daily-ia-new
 
 ```bash
 # Disparar manualmente la corrida (fecha de hoy)
-ssh root@openclaw-rodri 'sudo -u openclaw bash /home/openclaw/DAILY-IA-NEWS/scripts/run-daily-vps.sh'
+ssh openclaw@100.113.124.21 'bash /home/openclaw/DAILY-IA-NEWS/scripts/run-daily-vps.sh'
 
 # Regenerar un día específico
-ssh root@openclaw-rodri 'sudo -u openclaw bash -c "rm -f /home/openclaw/DAILY-IA-NEWS/archive/2026-05-06.html && bash /home/openclaw/DAILY-IA-NEWS/scripts/run-daily-vps.sh 2026-05-06"'
+ssh openclaw@100.113.124.21 'rm -f /home/openclaw/DAILY-IA-NEWS/archive/2026-05-06.html && bash /home/openclaw/DAILY-IA-NEWS/scripts/run-daily-vps.sh 2026-05-06'
 
 # Ver log de la última corrida
-ssh root@openclaw-rodri 'tail -50 /home/openclaw/DAILY-IA-NEWS/logs/run-$(date +%Y-%m-%d).log'
+ssh openclaw@100.113.124.21 'tail -50 /home/openclaw/DAILY-IA-NEWS/logs/run-$(date +%Y-%m-%d).log'
 
-# Ver estado de los timers (cron + telegram)
-ssh root@openclaw-rodri 'crontab -u openclaw -l && systemctl --machine=openclaw@ --user list-timers'
-
-# Cambiar hora de envío de Telegram
-ssh root@openclaw-rodri 'sudo -u openclaw vim /home/openclaw/.config/systemd/user/daily-ia-news-send.timer'
-# Después: sudo -u openclaw bash -c 'systemctl --user daemon-reload && systemctl --user restart daily-ia-news-send.timer'
+# Ver crontab activo
+ssh openclaw@100.113.124.21 'crontab -l'
 
 # Pull rápido en el server después de pushear cambios desde otra máquina
-ssh root@openclaw-rodri 'cd /home/openclaw/DAILY-IA-NEWS && sudo -u openclaw git pull'
+ssh openclaw@100.113.124.21 'cd /home/openclaw/DAILY-IA-NEWS && git pull'
 ```
 
 ## Arquitectura del pipeline (cómo se genera un día)
@@ -71,9 +66,9 @@ ssh root@openclaw-rodri 'cd /home/openclaw/DAILY-IA-NEWS && sudo -u openclaw git
 1. **Idempotencia**: si `archive/YYYY-MM-DD.html` ya existe, sale sin hacer nada.
 2. **Llamada a Claude**: `claude --print --model sonnet` con `prompts/daily-pipeline.md` + header con paths absolutos. Claude tiene `Read Write Edit Bash Glob Grep WebFetch WebSearch` permitidos. Lee `config/sources.yaml`, fetchea, rankea, genera HTML usando `templates/base.html` con 9 placeholders (`{{TESIS_DIA}}`, `{{NEWS_ITEMS}}`, `{{ANTHROPIC_WATCH}}`, `{{BOLSILLO}}`, `{{EL_RESTO}}`, `{{DATE}}`, `{{DATE_ISO}}`, `{{TOTAL_COUNT}}`, `{{ARCHIVE_DATA}}`).
 3. **Sync archive data**: `scripts/sync-archive-data.py` actualiza el JS `ARCHIVE_DATA` en TODOS los HTML del histórico.
-4. **Resumen ejecutivo**: segunda llamada a Claude que lee el HTML del día y genera `archive/resumen-YYYY-MM-DD.txt` plano de 5-7 líneas para Telegram.
-5. **Copia local**: HTML + resumen se copian a `/home/openclaw/daily-ia-news/` (donde el script de Telegram los lee).
-6. **Git push**: commit con mensaje `Daily: YYYY-MM-DD` y push a `origin main` → trigger automático de GitHub Pages.
+4. **Resumen ejecutivo**: segunda llamada a Claude que lee el HTML del día y genera `archive/resumen-YYYY-MM-DD.txt` plano de 5-7 líneas. Originalmente para Telegram; hoy queda como artefacto disponible (lo puede leer Lucho si se lo pedís por WhatsApp / Telegram desde Hermes).
+5. **Copia local**: HTML + resumen se copian a `/home/openclaw/daily-ia-news/` (espejo accesible localmente, fuera del repo git).
+6. **Git push**: commit con mensaje `Daily: YYYY-MM-DD` y push a `origin main` → trigger automático de GitHub Pages (`https://roraag.github.io/daily-ia-news/`, ~1-2 min de latencia).
 
 ## Cascadas de fetch (definidas en el prompt)
 
