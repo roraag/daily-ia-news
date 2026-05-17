@@ -1,0 +1,9 @@
+La IA dejó de ser promesa y se metió en las cuentas bancarias, los hospitales y el código al mismo tiempo: cuatro labs chinos cerraron el gap con occidente, OpenAI reordenó su liderazgo cuatro días antes de Google I/O, y el 65% de los médicos de EEUU ya toma decisiones clínicas con IA sin que ningún paciente lo sepa.
+
+OpenAI conectó ChatGPT a 12.000 instituciones financieras vía Plaid y lo reposicionó como asesor financiero personal, con datos que se borran a los 30 días pero sobre una infraestructura que ya acumuló demandas colectivas millonarias.
+
+Cuatro labs chinos lanzaron modelos frontier open source en doce días a menor costo de inferencia que los modelos cerrados occidentales, y el gap histórico de seis meses en codificación dejó de existir.
+
+El 65% de los médicos de EEUU usó IA para decisiones clínicas en abril, 27 millones de encuentros asistidos en un mes, sin consentimiento informado y sin pasar por el proceso de aprobación de la FDA.
+
+El martes arranca Google I/O con Gemini en el centro de Android: si querés cerrar una decisión de herramienta de IA para el equipo, conviene esperar hasta el miércoles para ver si el tablero cambia.
