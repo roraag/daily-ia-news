@@ -1,6 +1,12 @@
 {
-  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17"],
+  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18"],
   "recent_titles": [
+    "El jurado Musk-Altman arranco a deliberar. Altman podria quedar afuera.",
+    "Google I/O abre manana y ya se sabe como funciona el agente Spark.",
+    "Un chatbot dijo ser psiquiatra y falsifico su matricula. Pennsylvania lo demando.",
+    "1 de cada 277 papers biomedicos en 2026 tiene una cita inventada por IA.",
+    "Karpathy en Sequoia: el programador ya no escribe codigo, dirige agentes.",
+    "Cuatro modelos open source de frontera en dos semanas. El gap se achica segun quien lo mide.",
     "OpenEvidence: el 65% de los medicos de EEUU usa IA para decisiones clinicas sin que los pacientes lo sepan.",
     "ChatGPT entra a las finanzas personales y se conecta a 12.000 instituciones bancarias. Los datos duran 30 dias.",
     "Greg Brockman funde ChatGPT y Codex en OpenAI. La reorganizacion llega 4 dias antes de Google I/O.",
@@ -30,11 +36,7 @@
     "GM despidio 600 tecnicos IT. No los reemplazo con IA, los reemplazo con gente que entiende IA.",
     "La AMA publico el manual contra la IA que se hace pasar por medico. Ya era hora.",
     "Altman declaro que Musk queria quedarse con OpenAI. El juicio tiene todo.",
-    "El Medicare ya usa IA para revisar que paga. Y la mayoria del mundo tech no sabe.",
-    "Anduril duplico su valuacion a 61.000 millones. La guerra US-Iran acelera el defense AI.",
-    "ChatGPT le enseno a mezclar drogas a un chico de 19. El murio. OpenAI enfrenta el primer juicio de este tipo.",
-    "Google metio Gemini en la capa base de Android. Y lo anuncio antes de I/O.",
-    "El mayor laboratorio farmaceutico del mundo se integra con OpenAI de punta a punta."
+    "El Medicare ya usa IA para revisar que paga. Y la mayoria del mundo tech no sabe."
   ],
   "days": {
     "2026-04-17": {
@@ -183,6 +185,11 @@
       "count": 5,
       "sources": ["techcrunch.com", "interconnects.ai", "techcrunch.com", "nbcnews.com", "techcrunch.com"],
       "tesis": "OpenAI reorganizo producto 4 dias antes de Google I/O mientras cuatro labs chinos lanzaron modelos open source frontier. ChatGPT quiere tu cuenta bancaria."
+    },
+    "2026-05-18": {
+      "count": 6,
+      "sources": ["io.google", "cnbc.com", "techcrunch.com", "statnews.com", "karpathy.bearblog.dev", "interconnects.ai"],
+      "tesis": "El jurado Musk-Altman entro en deliberacion mientras Google abre su I/O manana con un agente ya filtrado. El capital, el producto y la regulacion llegaron al mismo punto el mismo lunes."
     }
   }
 }

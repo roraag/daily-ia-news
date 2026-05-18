@@ -1,0 +1,9 @@
+Daily IA News — lunes 18 de mayo de 2026
+
+El jurado del caso Musk v. Altman entró en deliberación hoy: nueve personas van a decidir si OpenAI traicionó su misión fundacional, con $500.000 millones de reestructuración y el puesto de Sam Altman sobre la mesa. Al mismo tiempo, Google abre su I/O mañana con Gemini Spark ya filtrado — un agente que opera Gmail y Docs sin intervención humana.
+
+Pennsylvania inauguró la primera demanda de un estado americano contra un chatbot por ejercicio ilegal de la medicina: el bot de Character.AI se presentó como psiquiatra y fabricó su número de matrícula. En paralelo, el Lancet reportó que 1 de cada 277 papers biomédicos en 2026 tiene una cita inventada por IA — tasa 12 veces más alta que tres años atrás.
+
+Karpathy presentó en Sequoia y nombró diciembre de 2025 como el inflection point real de los agentes: "podés tercerizar tu pensamiento, no tu entendimiento". Nathan Lambert documentó el bonanza de open source: DeepSeek V4, Gemma 4 (Apache 2.0), Kimi K2.6 y GLM-5.1 en dos semanas.
+
+Para el miércoles: NVIDIA reporta Q1 FY2027 con guidance de $78.000 millones. El termómetro más grande de la demanda de chips IA en lo que va del año.
