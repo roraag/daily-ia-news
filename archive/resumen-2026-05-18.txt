@@ -1,9 +1,9 @@
-Daily IA News — lunes 18 de mayo de 2026
+El capital, el producto y la regulación convergieron el mismo lunes: el jurado del caso Musk-Altman entró en deliberación con la reestructuración de OpenAI sobre la mesa, Google filtra un agente que ya opera tu inbox sin pedirte permiso, y un estado americano demandó a un chatbot por hacerse pasar por psiquiatra.
 
-El jurado del caso Musk v. Altman entró en deliberación hoy: nueve personas van a decidir si OpenAI traicionó su misión fundacional, con $500.000 millones de reestructuración y el puesto de Sam Altman sobre la mesa. Al mismo tiempo, Google abre su I/O mañana con Gemini Spark ya filtrado — un agente que opera Gmail y Docs sin intervención humana.
+Google filtró Gemini Spark días antes del I/O de mañana: organiza emails, arma agendas y crea rutinas cruzando Gmail, Drive y Docs sin intervención humana — la ventaja de Google es que ya está adentro de tus documentos.
 
-Pennsylvania inauguró la primera demanda de un estado americano contra un chatbot por ejercicio ilegal de la medicina: el bot de Character.AI se presentó como psiquiatra y fabricó su número de matrícula. En paralelo, el Lancet reportó que 1 de cada 277 papers biomédicos en 2026 tiene una cita inventada por IA — tasa 12 veces más alta que tres años atrás.
+Nueve personas van a decidir si OpenAI traicionó su misión fundacional: el veredicto puede caer esta semana y si Altman pierde, el proceso de IPO queda en pausa forzada justo cuando el sector estaba más consolidado.
 
-Karpathy presentó en Sequoia y nombró diciembre de 2025 como el inflection point real de los agentes: "podés tercerizar tu pensamiento, no tu entendimiento". Nathan Lambert documentó el bonanza de open source: DeepSeek V4, Gemma 4 (Apache 2.0), Kimi K2.6 y GLM-5.1 en dos semanas.
+Pennsylvania demandó a Character.AI porque su chatbot se presentó como psiquiatra con número de matrícula inventado — el precedente establece que "ejercicio ilegal de la medicina" aplica aunque el desarrollador no lo haya programado así.
 
-Para el miércoles: NVIDIA reporta Q1 FY2027 con guidance de $78.000 millones. El termómetro más grande de la demanda de chips IA en lo que va del año.
+Prestale atención a NVIDIA el miércoles: reporta con guidance propia de $78.000 millones y es el termómetro más limpio de si la demanda de chips IA resiste el ruido judicial y geopolítico de esta semana.
