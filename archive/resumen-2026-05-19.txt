@@ -1,0 +1,13 @@
+Daily IA News — martes 19 de mayo de 2026
+
+Hoy la IA no prometio nada nuevo. Se instalo en todas partes al mismo tiempo.
+
+Google abre I/O con Gemini Intelligence como capa agentica en Android 17: tres mil millones de telefonos con el modelo de Google integrado en el sistema operativo. El nuevo Gemini llega tercero en benchmarks (detras de Mythos y GPT-5.5) pero tiene el mayor canal de distribucion del planeta.
+
+Anthropic pago mas de $300 millones por Stainless, la startup que automatizaba SDKs para APIs de IA y era usada por OpenAI, Google y Cloudflare. Cerro el acceso a competidores. Es lock-in de infraestructura invisible: la fontaneria que conecta los modelos con el software enterprise.
+
+Meta despide 8.000 personas manana (20 mayo) y reasigno 7.000 a cuatro nuevas organizaciones AI-native. Zuckerberg gasta hasta $135.000 millones en IA en 2026. 25.000 despidos acumulados desde 2022. El laboratorio corporativo mas grande de transformacion AI-first ya esta en marcha.
+
+El NHS publico un framework de £900 millones en 8 anos para IA clinica. El sistema publico mas grande del mundo le puso terminos contractuales a la IA diagnostica. El canal de compras que van a citar todas las licitaciones publicas de salud de los proximos anos.
+
+Musk perdio el juicio contra OpenAI. Veredicto unanime: demando fuera del plazo legal. La pregunta sobre si OpenAI traiciono su mision original nunca se debatio. OpenAI llega al IPO sin obstaculos legales.

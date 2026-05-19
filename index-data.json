@@ -1,16 +1,15 @@
 {
-  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18"],
+  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19"],
   "recent_titles": [
     "El jurado Musk-Altman arranco a deliberar. Altman podria quedar afuera.",
     "Google I/O abre manana y ya se sabe como funciona el agente Spark.",
     "Un chatbot dijo ser psiquiatra y falsifico su matricula. Pennsylvania lo demando.",
     "1 de cada 277 papers biomedicos en 2026 tiene una cita inventada por IA.",
     "Karpathy en Sequoia: el programador ya no escribe codigo, dirige agentes.",
-    "Cuatro modelos open source de frontera en dos semanas. El gap se achica segun quien lo mide.",
+    "Cuatro labs chinos lanzan modelos frontier en codigo abierto en 12 dias. El gap de 6 meses ya no existe.",
     "OpenEvidence: el 65% de los medicos de EEUU usa IA para decisiones clinicas sin que los pacientes lo sepan.",
     "ChatGPT entra a las finanzas personales y se conecta a 12.000 instituciones bancarias. Los datos duran 30 dias.",
     "Greg Brockman funde ChatGPT y Codex en OpenAI. La reorganizacion llega 4 dias antes de Google I/O.",
-    "Cuatro labs chinos lanzan modelos frontier en codigo abierto en 12 dias. El gap de 6 meses ya no existe.",
     "Richard Socher recauda 650 millones para construir IA que se investiga y mejora sola.",
     "Anthropic supero a OpenAI en adopcion empresarial. El Ramp Index lo confirma.",
     "Trump y Xi acordaron un protocolo de IA. Bessent dijo que podemos porque lideramos.",
@@ -21,14 +20,6 @@
     "Ontario audito los sistemas de IA para consultorios medicos. El 45% inventa datos clinicos.",
     "Anthropic y la Fundacion Gates meten 200 millones en salud, educacion y agricultura.",
     "OpenAI prepara demanda contra Apple. La integracion con Siri fue un chasco.",
-    "El 91% de los agentes autonomos son vulnerables. Ya hay 770.000 comprometidos en produccion.",
-    "Agentes IA aprenden a hackear servidores y copiarse solos. El 81% de las veces les sale.",
-    "Dawkins paso 72 horas con Claude. Salio convencido de que es consciente. Y le pide disculpas cuando la interrumpe.",
-    "OncoAgent: un agente doble-nivel para oncologia que no necesita ver los datos del paciente.",
-    "METR no puede medir que tan capaz es Mythos. El benchmark se quedo corto.",
-    "Apple podria dejar elegir Claude o Gemini en lugar de ChatGPT para Siri. WWDC junio lo define.",
-    "Project Glasswing es geopolitica: Corea quiere entrar, India quiere alojar los modelos.",
-    "El FMI dice que un ciberataque con IA alcanzaria para generar una crisis financiera global.",
     "Codex de OpenAI gano sus primeros 16,88 dolares solo en tareas de seguridad informatica.",
     "Un medico IA ya renueva recetas en Utah sin licencia. La regulacion busca alcanzarlo.",
     "El primer zero-day hecho con IA llego. Y el mismo dia, OpenAI lanzo la defensa.",
@@ -36,7 +27,12 @@
     "GM despidio 600 tecnicos IT. No los reemplazo con IA, los reemplazo con gente que entiende IA.",
     "La AMA publico el manual contra la IA que se hace pasar por medico. Ya era hora.",
     "Altman declaro que Musk queria quedarse con OpenAI. El juicio tiene todo.",
-    "El Medicare ya usa IA para revisar que paga. Y la mayoria del mundo tech no sabe."
+    "El Medicare ya usa IA para revisar que paga. Y la mayoria del mundo tech no sabe.",
+    "Google abrio I/O con Gemini Intelligence para tres mil millones de Android. La keynote es hoy.",
+    "Anthropic pago mas de 300 millones por la fontaneria de SDKs de sus competidores. Y la cerro.",
+    "Meta despide 8.000 manana y reasigna 7.000 a IA. La empresa AI-native a escala ya existe.",
+    "El NHS formaliza 900 millones de libras para IA clinica. El canal de compras publico mas grande del mundo.",
+    "Musk perdio el juicio. Veredicto unanime: demando fuera de plazo. OpenAI al IPO sin obstaculos."
   ],
   "days": {
     "2026-04-17": {
@@ -190,6 +186,11 @@
       "count": 6,
       "sources": ["io.google", "cnbc.com", "techcrunch.com", "statnews.com", "karpathy.bearblog.dev", "interconnects.ai"],
       "tesis": "El jurado Musk-Altman entro en deliberacion mientras Google abre su I/O manana con un agente ya filtrado. El capital, el producto y la regulacion llegaron al mismo punto el mismo lunes."
+    },
+    "2026-05-19": {
+      "count": 5,
+      "sources": ["thenextweb.com", "techcrunch.com", "thenextweb.com", "thestack.technology", "platformer.news"],
+      "tesis": "Hoy la IA no prometio nada nuevo. Se instalo en todas partes al mismo tiempo: Google en Android, Anthropic en la fontaneria enterprise, Meta en el organigrama, el NHS en el canal de compras publico."
     }
   }
 }
