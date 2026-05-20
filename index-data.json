@@ -1,5 +1,5 @@
 {
-  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19"],
+  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20"],
   "recent_titles": [
     "El jurado Musk-Altman arranco a deliberar. Altman podria quedar afuera.",
     "Google I/O abre manana y ya se sabe como funciona el agente Spark.",
@@ -22,17 +22,15 @@
     "OpenAI prepara demanda contra Apple. La integracion con Siri fue un chasco.",
     "Codex de OpenAI gano sus primeros 16,88 dolares solo en tareas de seguridad informatica.",
     "Un medico IA ya renueva recetas en Utah sin licencia. La regulacion busca alcanzarlo.",
-    "El primer zero-day hecho con IA llego. Y el mismo dia, OpenAI lanzo la defensa.",
-    "OpenAI armo una empresa de 14.000 millones para que vos no tengas que entender la IA.",
-    "GM despidio 600 tecnicos IT. No los reemplazo con IA, los reemplazo con gente que entiende IA.",
-    "La AMA publico el manual contra la IA que se hace pasar por medico. Ya era hora.",
-    "Altman declaro que Musk queria quedarse con OpenAI. El juicio tiene todo.",
-    "El Medicare ya usa IA para revisar que paga. Y la mayoria del mundo tech no sabe.",
     "Google abrio I/O con Gemini Intelligence para tres mil millones de Android. La keynote es hoy.",
     "Anthropic pago mas de 300 millones por la fontaneria de SDKs de sus competidores. Y la cerro.",
     "Meta despide 8.000 manana y reasigna 7.000 a IA. La empresa AI-native a escala ya existe.",
     "El NHS formaliza 900 millones de libras para IA clinica. El canal de compras publico mas grande del mundo.",
-    "Musk perdio el juicio. Veredicto unanime: demando fuera de plazo. OpenAI al IPO sin obstaculos."
+    "Musk perdio el juicio. Veredicto unanime: demando fuera de plazo. OpenAI al IPO sin obstaculos.",
+    "Google declaro que el buscador que conoces ya no existe. Gemini 3.5 Flash construye sistemas operativos solo.",
+    "Karpathy eligio a Anthropic para volver a la investigacion de modelos de frontera.",
+    "Zitron documento lo que nadie quiere admitir: la IA gasta 3 dolares por cada 1 que gana.",
+    "OpenEvidence lleva su IA clinica a los hospitales con 12.000 millones de valuacion."
   ],
   "days": {
     "2026-04-17": {
@@ -100,7 +98,7 @@
     "2026-05-01": {
       "count": 5,
       "sources": ["techcrunch.com", "theinformation.com", "statnews.com", "platformer.news", "garymarcus.substack.com"],
-      "tesis": "Anthropic esta a 48 horas de cerrar la ronda mas grande de la historia de la IA a $900.000 millones de valuacion, mientras los criticos mas articulados del sector se preguntan si es la mayor mala asignacion de capital de la historia."
+      "tesis": "Anthropic esta a 48 horas de cerrar la ronda mas grande de la historia de la IA a 900.000 millones de valuacion, mientras los criticos mas articulados del sector se preguntan si es la mayor mala asignacion de capital de la historia."
     },
     "2026-05-02": {
       "count": 4,
@@ -191,6 +189,11 @@
       "count": 5,
       "sources": ["thenextweb.com", "techcrunch.com", "thenextweb.com", "thestack.technology", "platformer.news"],
       "tesis": "Hoy la IA no prometio nada nuevo. Se instalo en todas partes al mismo tiempo: Google en Android, Anthropic en la fontaneria enterprise, Meta en el organigrama, el NHS en el canal de compras publico."
+    },
+    "2026-05-20": {
+      "count": 4,
+      "sources": ["techcrunch.com", "wheresyoured.at", "statnews.com", "importai.substack.com", "openai.com", "blog.google", "fiercehealthcare.com"],
+      "tesis": "Karpathy se fue a Anthropic el mismo dia que Google mato el buscador. Los dos movimientos apuntan en la misma direccion: el futuro es un agente que actua."
     }
   }
 }
