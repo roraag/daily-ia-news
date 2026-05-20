@@ -1,3 +1,9 @@
-Daily IA News — miércoles 20 de mayo de 2026
+Google mató su buscador, Karpathy eligió Anthropic, y Zitron publicó los números que nadie quería ver juntos: la IA apuesta todo a los agentes mientras la economía detrás de esa apuesta todavía no cierra.
 
-Karpathy se une a Anthropic para liderar un sub-equipo de pre-training que usa Claude para acelerar la investigación de modelos, el movimiento de talento más significativo en la industria en meses. El mismo día, Google I/O presentó Gemini 3.5 Flash (4x más rápido, construye sistemas operativos solo), Gemini Omni, y rediseñó Search por primera vez en 25 años — apostando todo a agentes que actúan, no chatbots que responden. Ed Zitron publicó su análisis más documentado sobre la economía del sector: $800.000 millones invertidos, Anthropic gasta $3 por cada $1 que genera, y el 50% del backlog de los hyperscalers son OpenAI y Anthropic comprándose capacidad entre sí. En salud, OpenEvidence ($12.000 millones de valuación, 650.000 médicos) presentó su expansión a hospitales en el STAT Summit. En Anthropic Watch: KPMG integra Claude para sus 276.000 empleados globales, y la empresa publicó una iniciativa para incorporar voces filosóficas y religiosas al desarrollo de los valores de Claude.
+Google rediseñó Search por primera vez en 25 años y lanzó Gemini 3.5 Flash, que construyó un sistema operativo completo solo en vivo: la apuesta es un agente que actúa, no un chat que responde.
+
+Karpathy se sumó al equipo de pre-training de Anthropic para liderar el sub-equipo que usa Claude para acelerar la investigación de los propios modelos.
+
+Zitron midió lo que nadie quería medir: Anthropic gasta $3 por cada $1 que genera, Zillow quemará el 50% de su utilidad neta en tokens este año, y más del 50% del backlog de los hyperscalers es OpenAI y Anthropic comprándose infraestructura entre sí.
+
+Prestá atención a OpenEvidence: 650.000 médicos ya la usan de forma informal y la empresa acaba de ir por contratos institucionales, ese es exactamente el proceso que puede llegar a ASESP antes de que tengas el criterio listo.
