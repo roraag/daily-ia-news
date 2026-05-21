@@ -1,13 +1,10 @@
 {
-  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20"],
+  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21"],
   "recent_titles": [
     "El jurado Musk-Altman arranco a deliberar. Altman podria quedar afuera.",
     "Google I/O abre manana y ya se sabe como funciona el agente Spark.",
-    "Un chatbot dijo ser psiquiatra y falsifico su matricula. Pennsylvania lo demando.",
-    "1 de cada 277 papers biomedicos en 2026 tiene una cita inventada por IA.",
     "Karpathy en Sequoia: el programador ya no escribe codigo, dirige agentes.",
     "Cuatro labs chinos lanzan modelos frontier en codigo abierto en 12 dias. El gap de 6 meses ya no existe.",
-    "OpenEvidence: el 65% de los medicos de EEUU usa IA para decisiones clinicas sin que los pacientes lo sepan.",
     "ChatGPT entra a las finanzas personales y se conecta a 12.000 instituciones bancarias. Los datos duran 30 dias.",
     "Greg Brockman funde ChatGPT y Codex en OpenAI. La reorganizacion llega 4 dias antes de Google I/O.",
     "Richard Socher recauda 650 millones para construir IA que se investiga y mejora sola.",
@@ -19,7 +16,6 @@
     "Cerebras salio a bolsa y el papel se duplico. El primer gran IPO de la IA llego.",
     "Ontario audito los sistemas de IA para consultorios medicos. El 45% inventa datos clinicos.",
     "Anthropic y la Fundacion Gates meten 200 millones en salud, educacion y agricultura.",
-    "OpenAI prepara demanda contra Apple. La integracion con Siri fue un chasco.",
     "Codex de OpenAI gano sus primeros 16,88 dolares solo en tareas de seguridad informatica.",
     "Un medico IA ya renueva recetas en Utah sin licencia. La regulacion busca alcanzarlo.",
     "Google abrio I/O con Gemini Intelligence para tres mil millones de Android. La keynote es hoy.",
@@ -30,7 +26,12 @@
     "Google declaro que el buscador que conoces ya no existe. Gemini 3.5 Flash construye sistemas operativos solo.",
     "Karpathy eligio a Anthropic para volver a la investigacion de modelos de frontera.",
     "Zitron documento lo que nadie quiere admitir: la IA gasta 3 dolares por cada 1 que gana.",
-    "OpenEvidence lleva su IA clinica a los hospitales con 12.000 millones de valuacion."
+    "OpenEvidence lleva su IA clinica a los hospitales con 12.000 millones de valuacion.",
+    "Anthropic llega al primer trimestre rentable. Los numeros son de otro planeta.",
+    "Un modelo de OpenAI resolvio una conjetura matematica abierta desde 1946.",
+    "Jensen Huang encontro un mercado de 200.000 millones en CPUs para agentes.",
+    "Anthropic le paga 1.250 millones por mes a Musk por sus servidores.",
+    "El Congreso quiere votar para detener la IA que decide tratamientos en Medicare."
   ],
   "days": {
     "2026-04-17": {
@@ -194,6 +195,11 @@
       "count": 4,
       "sources": ["techcrunch.com", "wheresyoured.at", "statnews.com", "importai.substack.com", "openai.com", "blog.google", "fiercehealthcare.com"],
       "tesis": "Karpathy se fue a Anthropic el mismo dia que Google mato el buscador. Los dos movimientos apuntan en la misma direccion: el futuro es un agente que actua."
+    },
+    "2026-05-21": {
+      "count": 5,
+      "sources": ["techcrunch.com", "openai.com", "simonwillison.net", "fiercehealthcare.com", "garymarcus.substack.com"],
+      "tesis": "Hoy llegaron las primeras pruebas de vida economica para la IA — y tambien llegaron las facturas."
     }
   }
 }
