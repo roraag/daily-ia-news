@@ -1,9 +1,9 @@
-Daily IA News — viernes 22 de mayo de 2026
+La semana cierra con OpenAI yendo al IPO y la rentabilidad de Anthropic públicamente en disputa, mientras Trump le sacó el freno de mano a los labs en materia de supervisión de modelos peligrosos.
 
-La semana de Google I/O cierra con OpenAI yendo al IPO (valuación objetivo: un billón de dólares, presentación confidencial hoy) mientras Zitron y Marcus cuestionan si la rentabilidad de Anthropic del Q2 es real o un artefacto de un descuento puntual de SpaceX.
+OpenAI presentó en confidencial ante la SEC su IPO a valuación de un billón de dólares, con Goldman y Morgan Stanley a bordo y debut esperado en septiembre.
 
-Trump frenó la orden ejecutiva que obligaba a compartir modelos avanzados con el gobierno antes del lanzamiento — la única medida de oversight concreto sobre modelos como Mythos y GPT-5.5 Cyber. Los demócratas, mientras tanto, fuerzan el voto para terminar con WISeR, el programa de Medicare que usa IA para aprobar o denegar tratamientos.
+Trump frenó la orden que obligaba a compartir modelos avanzados con el gobierno 14 a 90 días antes del lanzamiento, dejando sin revisión externa los sistemas que ya pueden hackear infraestructura crítica.
 
-En negocios: Hark levantó 700 millones en Serie A (6.000M de valuación, sin producto público) con NVIDIA, AMD y Qualcomm como inversores. Jensen Huang elevó su estimación de gasto en IA a 3-4 billones de dólares — "el billón era demasiado bajo". Workday subió 14% y Lenovo casi duplicó ingresos de IA.
+Zitron y Marcus cuestionan que la primera ganancia operativa de Anthropic sea real: el descuento puntual de SpaceX en cómputo podría ser mayor que los 559 millones proyectados, y los números del CFO ante un tribunal no cuadran con los comunicados públicos.
 
-Anthropic Watch: feature "dreaming" en Code with Claude (agentes que acumulan memoria entre runs), en conversaciones con Microsoft para el chip Maia 200, y sin actividad pública de Dario ni de Krieger.
+Prestá atención al voto del Senado contra WISeR, el sistema de IA que aprueba y deniega tratamientos en Medicare, el caso más directo para pensar qué pasa cuando nadie audita el algoritmo que decide si un paciente recibe atención.
