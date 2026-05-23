@@ -1,0 +1,11 @@
+Daily IA News — Resumen 23 de mayo de 2026
+
+Hoy Anthropic publicó el primer update de Project Glasswing: el modelo Mythos encontró más de 10.000 vulnerabilidades críticas en proyectos open source, algunas con 27 años de antigüedad. Es el movimiento más estratégico de Anthropic en meses.
+
+DeepSeek anunció que va a construir su propio harness para competir con Claude Code. La guerra ya no es de modelos — es de ecosistemas completos. V4 Flash ya corre a 0,14 dólares por millón de tokens.
+
+OpenAI reportó Q1 2026: 5.700 millones en ingresos y 6.950 millones en pérdidas. Margen operativo de -122%. El IPO apunta a un billón de dólares con ese balance sobre la mesa.
+
+La Casa Blanca aprobó en secreto 9.000 millones para que las agencias de espionaje compren chips Grace Blackwell y se pongan al día en IA. El mayor comprador de IA del mundo ya no es una empresa.
+
+Illinois aprobó 52-5 un proyecto de regulación de modelos de frontera: auditorías externas, transparencia y umbral de 500 millones en ingresos. Se suma a NY y CA como estándar nacional de facto.

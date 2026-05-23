@@ -1,11 +1,6 @@
 {
-  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22"],
+  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23"],
   "recent_titles": [
-    "Richard Socher recauda 650 millones para construir IA que se investiga y mejora sola.",
-    "Anthropic supero a OpenAI en adopcion empresarial. El Ramp Index lo confirma.",
-    "Trump y Xi acordaron un protocolo de IA. Bessent dijo que podemos porque lideramos.",
-    "Los escribas de IA ahorraron 16 minutos por consulta. JAMA lo certifica.",
-    "El Papa Leon XIV va a publicar la primera enciclica de la historia sobre IA.",
     "Zitron pregunto en voz alta lo que nadie quiere responder: y si esto es una burbuja?",
     "Cerebras salio a bolsa y el papel se duplico. El primer gran IPO de la IA llego.",
     "Ontario audito los sistemas de IA para consultorios medicos. El 45% inventa datos clinicos.",
@@ -30,7 +25,12 @@
     "Hark levanta 700 millones en Serie A. El fundador de Figure.AI quiere la interfaz universal.",
     "Trump freno la orden que obligaba a compartir modelos con el gobierno antes del lanzamiento.",
     "Zitron y Marcus cuestionan la rentabilidad de Anthropic. El descuento de SpaceX no cierra.",
-    "Los democratas fuerzan el voto para terminar con la IA que deniega tratamientos en Medicare."
+    "Los democratas fuerzan el voto para terminar con la IA que deniega tratamientos en Medicare.",
+    "Anthropic encontro 10.000 bugs criticos que llevaban decadas sin verse. Project Glasswing.",
+    "DeepSeek va a clonar el harness de Claude Code. La guerra ya no es de modelos.",
+    "OpenAI gano 5.700 millones y perdio 6.950 millones en el primer trimestre.",
+    "La Casa Blanca aprobo en secreto 9.000 millones para que el espionaje se ponga al dia en IA.",
+    "Illinois le pone precio a construir IA de frontera: auditorias, transparencia y 500 millones de facturacion."
   ],
   "days": {
     "2026-04-17": {
@@ -138,7 +138,7 @@
     "2026-05-09": {
       "count": 5,
       "sources": ["venturebeat.com", "techcrunch.com", "statnews.com", "anthropic.com", "technologyreview.com"],
-      "tesis": "La demanda futura de IA se instalo en los libros contables: Anthropic a 30.000 millones de ARR, Cloudflare despide 1.100 porque la IA funciona, Roche paga 750 millones por PathAI. Pero el 70% de esa demanda es Anthropic y OpenAI comprándose capacidad entre sí."
+      "tesis": "La demanda futura de IA se instalo en los libros contables: Anthropic a 30.000 millones de ARR, Cloudflare despide 1.100 porque la IA funciona, Roche paga 750 millones por PathAI. Pero el 70% de esa demanda es Anthropic y OpenAI comprandose capacidad entre si."
     },
     "2026-05-10": {
       "count": 5,
@@ -204,6 +204,11 @@
       "count": 5,
       "sources": ["qz.com", "techcrunch.com", "statnews.com", "wheresyoured.at", "garymarcus.substack.com"],
       "tesis": "La semana de Google I/O cierra con OpenAI yendo al IPO mientras Zitron y Marcus cuestionan si la rentabilidad de Anthropic es real."
+    },
+    "2026-05-23": {
+      "count": 5,
+      "sources": ["anthropic.com", "the-decoder.com", "wheresyoured.at", "gvwire.com", "capitolnewsillinois.com"],
+      "tesis": "Anthropic encontro 10.000 bugs que los humanos no vimos en decadas. OpenAI perdio 6.950 millones en un trimestre. DeepSeek va a clonarle el harness a Claude Code. El campo avanza — el negocio todavia no cierra."
     }
   }
 }
