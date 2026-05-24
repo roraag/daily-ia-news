@@ -1,11 +1,6 @@
 {
-  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23"],
+  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24"],
   "recent_titles": [
-    "Zitron pregunto en voz alta lo que nadie quiere responder: y si esto es una burbuja?",
-    "Cerebras salio a bolsa y el papel se duplico. El primer gran IPO de la IA llego.",
-    "Ontario audito los sistemas de IA para consultorios medicos. El 45% inventa datos clinicos.",
-    "Anthropic y la Fundacion Gates meten 200 millones en salud, educacion y agricultura.",
-    "Codex de OpenAI gano sus primeros 16,88 dolares solo en tareas de seguridad informatica.",
     "Un medico IA ya renueva recetas en Utah sin licencia. La regulacion busca alcanzarlo.",
     "Google abrio I/O con Gemini Intelligence para tres mil millones de Android. La keynote es hoy.",
     "Anthropic pago mas de 300 millones por la fontaneria de SDKs de sus competidores. Y la cerro.",
@@ -30,7 +25,11 @@
     "DeepSeek va a clonar el harness de Claude Code. La guerra ya no es de modelos.",
     "OpenAI gano 5.700 millones y perdio 6.950 millones en el primer trimestre.",
     "La Casa Blanca aprobo en secreto 9.000 millones para que el espionaje se ponga al dia en IA.",
-    "Illinois le pone precio a construir IA de frontera: auditorias, transparencia y 500 millones de facturacion."
+    "Illinois le pone precio a construir IA de frontera: auditorias, transparencia y 500 millones de facturacion.",
+    "Google lanzo Gemini Omni, el primer modelo que acepta y genera texto imagen audio y video en un flujo.",
+    "El Papa publica manana su enciclica sobre IA. Co-fundador de Anthropic en el estrado.",
+    "Bristol Myers Squibb le da Claude a 30.000 empleados de pharma. De R&D a comercial.",
+    "McKinsey y PwC echaron a sus asistentes ejecutivas. Sin ruido, sin conferencia de prensa."
   ],
   "days": {
     "2026-04-17": {
@@ -209,6 +208,11 @@
       "count": 5,
       "sources": ["anthropic.com", "the-decoder.com", "wheresyoured.at", "gvwire.com", "capitolnewsillinois.com"],
       "tesis": "Anthropic encontro 10.000 bugs que los humanos no vimos en decadas. OpenAI perdio 6.950 millones en un trimestre. DeepSeek va a clonarle el harness a Claude Code. El campo avanza — el negocio todavia no cierra."
+    },
+    "2026-05-24": {
+      "count": 4,
+      "sources": ["cybernews.com", "ncronline.org", "biospace.com", "bloomberg.com"],
+      "tesis": "Hoy la IA entro a tres habitaciones sin llamar. Google lanzo Gemini Omni. El Vaticano anuncio que manana publica su enciclica sobre IA con un co-fundador de Anthropic en el estrado. Y McKinsey y PwC echaron a sus asistentes ejecutivas sin hacer ruido."
     }
   }
 }
