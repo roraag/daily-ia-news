@@ -1,12 +1,5 @@
-Lunes 25 de mayo de 2026 — Daily IA News
-
-Hoy la IA se discutió en tres idiomas distintos y ninguno escuchó al otro: el Vaticano publicó su primera encíclica sobre IA eligiendo a Anthropic como referente ético, Microsoft le canceló Claude Code a sus ingenieros porque la herramienta les comía mercado a su propio producto, y el FT publicó que los guardrails de Meta y Google se saltan en minutos.
-
-Las 4 noticias del día:
-1. El Papa publicó "Magnifica Humanitas" con Christopher Olah (Anthropic) en el estrado — primera encíclica papal sobre IA, Anthropic es el único lab mencionado como referente ético.
-2. Microsoft cancela Claude Code para su división Experiences & Devices (efecto al 30 de junio). Uber quemó su presupuesto anual de IA de 3.400 millones en 4 meses. El partnership de inversión con Anthropic sigue intacto.
-3. Paper del ICLR 2026: guardrails de modelos Llama y Gemma se suprimen en minutos con "nullspace steering". Tasa de éxito del 92% en ataques multi-turno.
-4. ResLens: modelo de lenguaje genómico que detecta genes de resistencia antibiótica fuera de las bases de datos estándar. Publicado en npj Antimicrobials and Resistance.
-
-Anthropic Watch: día paradójico — validados por el Vaticano, reactivados por la Casa Blanca en el contrato NSA, y cortados internamente por Microsoft.
-El Bolsillo: los tokens cuestan cuando el uso es real. Zoom: 20x ROI en 18 meses sobre su inversión en Anthropic.
+El campo debatió ética, dinero y seguridad de la IA en tres conversaciones paralelas que no se escuchan entre sí.
+El Vaticano eligió a Christopher Olah de Anthropic para presentar su primera encíclica sobre IA, validando a Anthropic como el estándar ético del campo por encima de OpenAI, Google y Meta.
+Microsoft canceló las licencias de Claude Code a sus propios ingenieros para proteger a GitHub Copilot, confirmando que la herramienta de Anthropic fue tan buena que su mayor inversor prefirió apagarla.
+Investigadores del ICLR 2026 saltaron los guardrails de Llama y Gemma en minutos con herramientas públicas, el mismo día en que el Vaticano pedía que esos guardrails fueran imprescindibles.
+Prestá atención a la tensión entre validación institucional y costo real de uso: el Q3 va a resolver en qué dirección cae Anthropic.
