@@ -1,0 +1,12 @@
+Lunes 25 de mayo de 2026 — Daily IA News
+
+Hoy la IA se discutió en tres idiomas distintos y ninguno escuchó al otro: el Vaticano publicó su primera encíclica sobre IA eligiendo a Anthropic como referente ético, Microsoft le canceló Claude Code a sus ingenieros porque la herramienta les comía mercado a su propio producto, y el FT publicó que los guardrails de Meta y Google se saltan en minutos.
+
+Las 4 noticias del día:
+1. El Papa publicó "Magnifica Humanitas" con Christopher Olah (Anthropic) en el estrado — primera encíclica papal sobre IA, Anthropic es el único lab mencionado como referente ético.
+2. Microsoft cancela Claude Code para su división Experiences & Devices (efecto al 30 de junio). Uber quemó su presupuesto anual de IA de 3.400 millones en 4 meses. El partnership de inversión con Anthropic sigue intacto.
+3. Paper del ICLR 2026: guardrails de modelos Llama y Gemma se suprimen en minutos con "nullspace steering". Tasa de éxito del 92% en ataques multi-turno.
+4. ResLens: modelo de lenguaje genómico que detecta genes de resistencia antibiótica fuera de las bases de datos estándar. Publicado en npj Antimicrobials and Resistance.
+
+Anthropic Watch: día paradójico — validados por el Vaticano, reactivados por la Casa Blanca en el contrato NSA, y cortados internamente por Microsoft.
+El Bolsillo: los tokens cuestan cuando el uso es real. Zoom: 20x ROI en 18 meses sobre su inversión en Anthropic.
