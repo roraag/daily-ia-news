@@ -1,11 +1,9 @@
-Daily IA News — martes 26 de mayo de 2026
+Hoy el campo de la IA operó en cuatro idiomas que no se escuchan entre sí: el Vaticano pidió "desarmar" la IA con Anthropic de aliado, China encerró a sus mejores investigadores privados como si fueran físicos nucleares, CISA quedó afuera del modelo más peligroso del mundo por razones políticas, y ClickUp despidió al 22% mientras Altman decía en Asia que no hay apocalipsis laboral.
 
-El día arrancó con Anthropic en el Vaticano y terminó con China cerrándole las fronteras a sus mejores investigadores de IA. En el medio: ClickUp despidió al 22% de su plantel y desplegó 3.000 agentes internos, mientras Sam Altman dijo desde Asia que no hay apocalipsis laboral. Las dos cosas son ciertas al mismo tiempo.
+Anthropic eligió públicamente al Papa por encima de Trump: Chris Olah presentó la encíclica en Roma el mismo martes que la empresa litiga activamente contra la Casa Blanca por el veto federal.
 
-La noticia del día es el posicionamiento de Anthropic: co-fundador Chris Olah presentó la encíclica papal Magnifica Humanitas en Roma mientras la empresa litiga contra el White House de Trump. La elección es declarada. El costo también.
+ClickUp deployó 3.000 agentes internos y mandó a casa al 22% de su personal: los trabajos que se llevan primero son exactamente los que dominan el backoffice de cualquier mutualista.
 
-CISA, la agencia de ciberseguridad de EEUU, no tiene acceso a Mythos — el modelo de Anthropic más peligroso que existe — por razones políticas. 40 corporaciones privadas sí. El gap es real y nadie lo está cerrando.
+China selló a su top talento de IA con restricciones de viaje y ByteDance sumó equity de retención: primer tratamiento de físicos nucleares aplicado a ingenieros de software, con consecuencias reales para el ritmo de mejora de los modelos open source que compiten con Claude en precio.
 
-China trata a sus investigadores de IA como activos estratégicos nacionales: restricciones de viaje al sector privado, DeepSeek ya incluido. ByteDance responde con equity. Primer movimiento de este tipo fuera del ámbito nuclear en la historia.
-
-El Bolsillo registra hoy bancos europeos pagando precios enterprise por Claude, consultores de IA a 25.000 dólares por día, y talento de IA con doble candado: estatal y corporativo.
+La brecha entre quién tiene acceso a las herramientas más poderosas y quién no ya no es técnica sino política, y vale la pena preguntarte hoy dónde queda AGESIC en ese mapa antes de que la pregunta sea urgente.
