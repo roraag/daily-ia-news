@@ -1,14 +1,6 @@
 {
-  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25"],
+  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26"],
   "recent_titles": [
-    "Google abrio I/O con Gemini Intelligence para tres mil millones de Android. La keynote es hoy.",
-    "Anthropic pago mas de 300 millones por la fontaneria de SDKs de sus competidores. Y la cerro.",
-    "Meta despide 8.000 manana y reasigna 7.000 a IA. La empresa AI-native a escala ya existe.",
-    "El NHS formaliza 900 millones de libras para IA clinica. El canal de compras publico mas grande del mundo.",
-    "Musk perdio el juicio. Veredicto unanime: demando fuera de plazo. OpenAI al IPO sin obstaculos.",
-    "Google declaro que el buscador que conoces ya no existe. Gemini 3.5 Flash construye sistemas operativos solo.",
-    "Karpathy eligio a Anthropic para volver a la investigacion de modelos de frontera.",
-    "Zitron documento lo que nadie quiere admitir: la IA gasta 3 dolares por cada 1 que gana.",
     "OpenEvidence lleva su IA clinica a los hospitales con 12.000 millones de valuacion.",
     "Anthropic llega al primer trimestre rentable. Los numeros son de otro planeta.",
     "Un modelo de OpenAI resolvio una conjetura matematica abierta desde 1946.",
@@ -32,7 +24,11 @@
     "El Papa publico Magnifica Humanitas y eligio a Anthropic como voz etica. El Vaticano tomo partido.",
     "Microsoft cancelo Claude Code para sus ingenieros. El enemigo era su propio GitHub Copilot.",
     "Los guardrails de Meta y Google se saltan en minutos. El FT lo publico en portada.",
-    "ResLens detecta resistencia antibiotica que los tests estandar no ven."
+    "ResLens detecta resistencia antibiotica que los tests estandar no ven.",
+    "Anthropic fue al Vaticano a hablar de etica. La Casa Blanca no estaba invitada.",
+    "ClickUp despidio al 22% en el mismo dia que Altman dijo que no hay apocalipsis laboral.",
+    "La agencia de ciberseguridad de EEUU no tiene el modelo que hackea todo. Sus adversarios quizas si.",
+    "China cerro la salida a sus mejores investigadores de IA del sector privado."
   ],
   "days": {
     "2026-04-17": {
@@ -221,6 +217,11 @@
       "count": 4,
       "sources": ["npr.org", "windowscentral.com", "govinfosecurity.com", "news-medical.net"],
       "tesis": "Hoy la IA se discutio en tres idiomas distintos y ninguno escucho al otro."
+    },
+    "2026-05-26": {
+      "count": 4,
+      "sources": ["washingtonpost.com", "techcrunch.com", "axios.com", "bloomberg.com"],
+      "tesis": "Hoy el campo se fragmento en cuatro idiomas distintos: Roma, Beijing, Washington y Silicon Valley — y ninguno escucho a los otros."
     }
   }
 }
