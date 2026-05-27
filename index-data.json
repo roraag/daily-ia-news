@@ -1,12 +1,6 @@
 {
-  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26"],
+  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27"],
   "recent_titles": [
-    "OpenEvidence lleva su IA clinica a los hospitales con 12.000 millones de valuacion.",
-    "Anthropic llega al primer trimestre rentable. Los numeros son de otro planeta.",
-    "Un modelo de OpenAI resolvio una conjetura matematica abierta desde 1946.",
-    "Jensen Huang encontro un mercado de 200.000 millones en CPUs para agentes.",
-    "Anthropic le paga 1.250 millones por mes a Musk por sus servidores.",
-    "El Congreso quiere votar para detener la IA que decide tratamientos en Medicare.",
     "OpenAI presenta en confidencial su IPO. Valuacion objetivo: un billon de dolares.",
     "Hark levanta 700 millones en Serie A. El fundador de Figure.AI quiere la interfaz universal.",
     "Trump freno la orden que obligaba a compartir modelos con el gobierno antes del lanzamiento.",
@@ -28,7 +22,12 @@
     "Anthropic fue al Vaticano a hablar de etica. La Casa Blanca no estaba invitada.",
     "ClickUp despidio al 22% en el mismo dia que Altman dijo que no hay apocalipsis laboral.",
     "La agencia de ciberseguridad de EEUU no tiene el modelo que hackea todo. Sus adversarios quizas si.",
-    "China cerro la salida a sus mejores investigadores de IA del sector privado."
+    "China cerro la salida a sus mejores investigadores de IA del sector privado.",
+    "Uber quemo el presupuesto de IA en cuatro meses. El COO dice que no cierra.",
+    "Jack Clark hablo en Stanford y puso fecha: 2028, IA disena su sucesora.",
+    "Vulnerabilidad critica en Starlette. Millones de agentes IA, expuestos.",
+    "ByteDance considera gastar 70.000 millones en IA. El numero hace ruido.",
+    "Stanford le pregunta a los pacientes antes de instalar IA. Cosa rara."
   ],
   "days": {
     "2026-04-17": {
@@ -222,6 +221,11 @@
       "count": 4,
       "sources": ["washingtonpost.com", "techcrunch.com", "axios.com", "bloomberg.com"],
       "tesis": "Hoy el campo se fragmento en cuatro idiomas distintos: Roma, Beijing, Washington y Silicon Valley — y ninguno escucho a los otros."
+    },
+    "2026-05-27": {
+      "count": 5,
+      "sources": ["fortune.com", "importai.substack.com", "arstechnica.com", "bloomberg.com", "statnews.com"],
+      "tesis": "El mercado IA se partio al medio: los que usan IA cuestionan el ROI mientras los que construyen infraestructura apuestan como si el mercado fuera infinito."
     }
   }
 }

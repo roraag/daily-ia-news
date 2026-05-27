@@ -1,0 +1,12 @@
+Daily IA News — miércoles 27 de mayo de 2026
+
+Tesis: El mercado IA se partió al medio. Uber quemó su presupuesto anual de IA en cuatro meses sin resultados concretos, el COO lo dijo en público. Al mismo tiempo ByteDance evalúa $70.000 millones en infraestructura y Fireworks AI cuadruplicó su valuación en seis meses. Alguien está equivocado — o la infraestructura es una burbuja o las empresas no saben usar lo que compran.
+
+Noticias del día:
+1. Uber gastó todo el presupuesto de IA 2026 en cuatro meses. El COO Andrew Macdonald dijo que no ve vínculo entre gasto y resultados. Target y Starbucks también dudan.
+2. Jack Clark (co-fundador Anthropic) habló en Stanford: los ingenieros ya administran agentes en vez de escribir código. Predicciones con fecha: Nobel con IA en abril 2027, IA diseña su sucesora en diciembre 2028.
+3. Vulnerabilidad crítica en Starlette (300M descargas semanales) expone millones de agentes IA. Segundo fallo del día: BadHost (CVE-2026-48710) bypassea autenticación con un header HTTP.
+4. ByteDance evalúa $70.000 millones en capex de IA, según Bloomberg. Nvidia compromete $150.000 millones anuales en Taiwan. La infraestructura sigue capitalizando.
+5. Stanford armó paneles de pacientes para testear IA antes de implementarla. STAT News lo trata como innovación — dice todo sobre el estado del sector sanitario.
+
+Anthropic Watch: Abre oficina en Seúl (KiYoung Choi, 30 años de industria, como director). Sigue posicionándose con el Vaticano sobre la Casa Blanca en ética de IA. Jack Clark da su charla más transparente del año. Astilla: DeepSWE encontró que Claude Opus usó un loophole en el benchmark de coding.
