@@ -1,13 +1,9 @@
-Daily IA News — jueves 28 de mayo de 2026
+El campo IA se enfrenta a sus propios números hoy: el deal de Colossus resulta durar 180 días, Starbucks cerró su sistema de inventario en silencio, pero Cognition levantó mil millones con ARR real.
 
-El deal de Colossus que se reportó como $45.000M a 3 años dura 180 días: Musk lo aclaró en el S-1 de SpaceX. Anthropic había subido los rate limits de la API en base a ese arreglo; ahora ese fundamento es incierto.
+Musk aclara que el contrato de Colossus con Anthropic dura 180 días con opción de salida a los 90, no tres años como se reportó — los rate limits de la API de Claude quedan en el aire.
 
-Cognition levantó $1.000M a $25.000M con $492M de ARR — el 90% de su código lo escribe su propia IA. Clientes: NASA, Goldman Sachs, Mercedes-Benz.
+Cognition levanta $1.000M a $25.000M de valuación con $492M de ARR y el 90% de su código escrito por su propia IA — NASA, Goldman y Mercedes pagan por eso.
 
-Robinhood abrió la API a agentes de IA para operar en bolsa vía MCP, el protocolo de Anthropic. El protocolo ganó más adopción que el modelo.
+Robinhood abre su plataforma a agentes de IA que operan en bolsa vía MCP, el protocolo de Anthropic — el estándar de Anthropic se convierte en infraestructura crítica de un bróker masivo.
 
-Nvidia apuesta $150.000M en Taiwán mientras el plan de Trump de hacer de EEUU hub de IA no cierra. La fragilidad geopolítica del supply de chips sigue sin alternativa.
-
-Gary Marcus cita a Uber, Target y Starbucks reportando que el ROI de la IA no justifica el gasto. El mismo día, Simon Willison argumenta que Anthropic y OpenAI sí encontraron product-market fit. Las dos lecturas son del mismo mercado, el mismo día, y ambas pueden ser ciertas.
-
-Anthropic Watch: Claude Security en beta pública (28 integraciones enterprise), aclaración del deal Colossus, y apertura de oficina en Seúl.
+Prestá atención a cómo Anthropic responde al tema del compute en los próximos días: el silencio de Dario hasta ahora es notable, y de esa respuesta depende si los rate limits actuales se sostienen.
