@@ -1,5 +1,5 @@
 {
-  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27"],
+  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28"],
   "recent_titles": [
     "OpenAI presenta en confidencial su IPO. Valuacion objetivo: un billon de dolares.",
     "Hark levanta 700 millones en Serie A. El fundador de Figure.AI quiere la interfaz universal.",
@@ -27,7 +27,13 @@
     "Jack Clark hablo en Stanford y puso fecha: 2028, IA disena su sucesora.",
     "Vulnerabilidad critica en Starlette. Millones de agentes IA, expuestos.",
     "ByteDance considera gastar 70.000 millones en IA. El numero hace ruido.",
-    "Stanford le pregunta a los pacientes antes de instalar IA. Cosa rara."
+    "Stanford le pregunta a los pacientes antes de instalar IA. Cosa rara.",
+    "Musk dice que el deal del Colossus dura 180 dias, no tres anos. Anthropic tiene que conseguir otro plan.",
+    "Cognition, $1.000M y el 90% del codigo lo escribe la IA. Clientes: NASA, Goldman, Mercedes.",
+    "Robinhood habilita agentes de IA para operar en bolsa. El protocolo es MCP.",
+    "Nvidia apuesta $150.000M en Taiwan mientras el plan de Trump de hub de IA no cierra.",
+    "El creador de Claude Code dice que el titulo software engineer desaparece este ano.",
+    "Uber, Target y Starbucks dicen que la IA no da el ROI. Marcus apila la evidencia."
   ],
   "days": {
     "2026-04-17": {
@@ -226,6 +232,11 @@
       "count": 5,
       "sources": ["fortune.com", "importai.substack.com", "arstechnica.com", "bloomberg.com", "statnews.com"],
       "tesis": "El mercado IA se partio al medio: los que usan IA cuestionan el ROI mientras los que construyen infraestructura apuestan como si el mercado fuera infinito."
+    },
+    "2026-05-28": {
+      "count": 6,
+      "sources": ["thenextweb.com", "techcrunch.com", "techcrunch.com", "arstechnica.com", "platformer.news", "garymarcus.substack.com"],
+      "tesis": "Hoy el campo IA tiene una conversacion incomoda con sus propios numeros: el deal de Colossus dura 180 dias, Starbucks cerro su sistema de inventario, y Cognition levanto mil millones con 492 millones de ARR."
     }
   }
 }
