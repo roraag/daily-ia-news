@@ -1,3 +1,9 @@
-Daily IA News — viernes 29 de mayo de 2026
+Anthropic rozó el billón de valuación en un solo día: 65.000 millones levantados, Opus 4.8 lanzado y Mythos anunciado para semanas — mientras el resto del mundo tampoco se quedó quieto.
 
-Hoy Anthropic hizo todo al mismo tiempo: levantó 65.000 millones en Serie H a una valuación de 965.000 millones — superando a OpenAI por primera vez — y en el mismo día lanzó Opus 4.8 (más honesto, con Dynamic Workflows para correr cientos de agentes en paralelo) y anunció que Mythos llega para todos los clientes en las próximas semanas. Illinois aprobó la primera ley de IA con dientes reales en EEUU, con auditorías independientes obligatorias y penalidades de hasta 3 millones por violación, efectiva en enero 2027. Apple firmó con Google para reconstruir Siri sobre Gemini en iOS 27, pagando cerca de mil millones de dólares anuales — irónico para la empresa que vende privacidad. Un paper de arxiv midió que los LLMs siguen incorporando información falsa aunque se les avise explícitamente que es incorrecta, con implicaciones directas para el uso clínico. Penn Medicine y K Health desplegaron agentes de IA en urgencias virtuales con expansión planeada a atención primaria. Gary Marcus publicó hoy que los números no cierran para los IPOs de Anthropic, OpenAI y Cerebras — el aviso llegó el mismo día del hito de valuación de Anthropic.
+Anthropic cerró la Serie H a 965.000 millones de valuación, primera vez que supera a OpenAI en capitalización de mercado privado.
+
+Opus 4.8 estrena Dynamic Workflows y corre cientos de subagentes en paralelo, con fast mode tres veces más barato que antes.
+
+Illinois aprobó la primera ley de IA con dientes reales en EEUU: auditorías independientes obligatorias y multas de hasta 3 millones por violación, entra en vigor enero 2027.
+
+Prestá atención a la tensión: Gary Marcus publicó hoy que los números de los IPOs de Anthropic y OpenAI no cierran, exactamente el mismo día del hito de 965.000 millones. Los dos pueden estar describiendo partes distintas del mismo elefante.
