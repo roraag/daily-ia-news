@@ -1,11 +1,6 @@
 {
-  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28"],
+  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29"],
   "recent_titles": [
-    "OpenAI presenta en confidencial su IPO. Valuacion objetivo: un billon de dolares.",
-    "Hark levanta 700 millones en Serie A. El fundador de Figure.AI quiere la interfaz universal.",
-    "Trump freno la orden que obligaba a compartir modelos con el gobierno antes del lanzamiento.",
-    "Zitron y Marcus cuestionan la rentabilidad de Anthropic. El descuento de SpaceX no cierra.",
-    "Los democratas fuerzan el voto para terminar con la IA que deniega tratamientos en Medicare.",
     "Anthropic encontro 10.000 bugs criticos que llevaban decadas sin verse. Project Glasswing.",
     "DeepSeek va a clonar el harness de Claude Code. La guerra ya no es de modelos.",
     "OpenAI gano 5.700 millones y perdio 6.950 millones en el primer trimestre.",
@@ -29,11 +24,17 @@
     "ByteDance considera gastar 70.000 millones en IA. El numero hace ruido.",
     "Stanford le pregunta a los pacientes antes de instalar IA. Cosa rara.",
     "Musk dice que el deal del Colossus dura 180 dias, no tres anos. Anthropic tiene que conseguir otro plan.",
-    "Cognition, $1.000M y el 90% del codigo lo escribe la IA. Clientes: NASA, Goldman, Mercedes.",
+    "Cognicion, $1.000M y el 90% del codigo lo escribe la IA. Clientes: NASA, Goldman, Mercedes.",
     "Robinhood habilita agentes de IA para operar en bolsa. El protocolo es MCP.",
     "Nvidia apuesta $150.000M en Taiwan mientras el plan de Trump de hub de IA no cierra.",
     "El creador de Claude Code dice que el titulo software engineer desaparece este ano.",
-    "Uber, Target y Starbucks dicen que la IA no da el ROI. Marcus apila la evidencia."
+    "Uber, Target y Starbucks dicen que la IA no da el ROI. Marcus apila la evidencia.",
+    "Anthropic levanto 65.000 millones y ya vale mas que OpenAI. Por ahora.",
+    "Opus 4.8: mas honesto cuando se equivoca, puede correr cientos de agentes en paralelo.",
+    "Illinois aprobo la primera ley de IA con dientes reales en EEUU. Entra en 2027.",
+    "Apple firmo con Google para meter Gemini en el iPhone. Siri piensa en servidores de Google.",
+    "Los LLMs siguen creyendo una mentira aunque les digas que es mentira. Paper lo midio.",
+    "Penn Medicine y K Health despliegan agentes clinicos en urgencias virtuales."
   ],
   "days": {
     "2026-04-17": {
@@ -237,6 +238,11 @@
       "count": 6,
       "sources": ["thenextweb.com", "techcrunch.com", "techcrunch.com", "arstechnica.com", "platformer.news", "garymarcus.substack.com"],
       "tesis": "Hoy el campo IA tiene una conversacion incomoda con sus propios numeros: el deal de Colossus dura 180 dias, Starbucks cerro su sistema de inventario, y Cognition levanto mil millones con 492 millones de ARR."
+    },
+    "2026-05-29": {
+      "count": 6,
+      "sources": ["anthropic.com", "nbcnews.com", "techcrunch.com", "arstechnica.com", "fiercehealthcare.com"],
+      "tesis": "Hoy Anthropic hizo tres cosas al mismo tiempo: levanto 65.000 millones, lanzo Opus 4.8 y anuncio que Mythos llega en semanas. El mercado respondio con 965.000 millones de valuacion — mas que OpenAI, primera vez que pasa."
     }
   }
 }
