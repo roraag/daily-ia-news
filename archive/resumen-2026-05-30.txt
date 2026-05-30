@@ -1,0 +1,11 @@
+Daily IA News — 30 de mayo de 2026
+
+La tesis del día: tres movimientos simultáneos ponen IA dentro de los dispositivos y datos más íntimos. Apple reveló que Siri va a correr modelos destilados de Gemini on-device — sin mandar datos a Google. Microsoft lanzó Copilot Health en preview con acceso a 50.000 proveedores de salud de EE.UU. y arquitectura HIPAA-compliant. OpenAI habilitó Codex para controlar Windows desde el celular con un QR.
+
+Groq, el startup de chips que competía con Nvidia, le vendió sus patentes de hardware por $20.000M y ahora levanta $650M para reinventarse como nube de inferencia.
+
+En salud: Boston Children's diagnosticó 40+ enfermedades raras con IA de OpenAI. OpenAI lanzó Rosalind Biodefense para gobiernos y laboratorios nacionales.
+
+Anthropic Watch: run-rate reportado en $47.000M (de $9.000M a fines de 2025). En conversaciones con Microsoft para usar chips Maia 200 en Azure — la demanda del Q1 creció 80x sobre lo planificado.
+
+El número incómodo del día (Ed Zitron): OpenAI necesita $852.000M en cashflow hasta 2030 solo para pagar sus compromisos de compute. Margen operativo no-GAAP de -122% en Q1.
