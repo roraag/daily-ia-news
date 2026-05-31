@@ -1,0 +1,11 @@
+Daily IA News — domingo 31 de mayo de 2026
+
+Tesis: SoftBank comprometió €75.000 millones para centros de datos en Francia mientras Zitron publicó que OpenAI quemó con margen operativo de -122% en Q1 2026 y Nvidia tiene 1 millón de GPUs almacenadas. La infraestructura y la rentabilidad apuntan en direcciones opuestas.
+
+1. SoftBank le pone €75.000 millones a Francia. 5 GW de capacidad nueva. La apuesta de infra IA más grande en Europa hasta ahora.
+2. Zitron publicó los números de la burbuja: OpenAI a -122% de margen operativo, ChatGPT en 905M usuarios (95M lejos del objetivo), Nvidia almacenando 1M de GPUs.
+3. GitHub Copilot pasó a cobrar por token. Los devs llaman al fin de la era dorada del subsidio Microsoft.
+4. ITBench-AA: los mejores modelos frontier no llegan al 50% en tareas básicas de IT empresarial. El hype de los agentes choca con los benchmarks.
+5. Boston Children's Hospital diagnosticó 40 enfermedades raras con IA de OpenAI que los médicos no habían detectado.
+
+Anthropic Watch: run-rate en $47.000 millones anuales (de $9.000M en diciembre). KPMG firmó alianza global. Sandbox docs publicados. Founders sin posts públicos.
