@@ -1,13 +1,9 @@
-Daily IA News — lunes 1 de junio de 2026
+El hardware y el negocio convergieron en la misma dirección hoy: Nvidia presentó el primer chip para correr agentes en una laptop sin cloud y en el mismo día GitHub empezó a cobrarle a cada developer por los tokens que esos agentes queman.
 
-Tesis del día: el hardware y el modelo de negocio tomaron la misma decisión al mismo tiempo. Nvidia anunció RTX Spark en Computex: un chip ARM+Blackwell que corre modelos de 120.000 millones de parámetros en una laptop sin cloud. En el mismo día, GitHub cambió el modelo de precio de Copilot y empezó a cobrar por token. Los agentes ya no son promesa — son un problema de silicio y de plata.
+Nvidia lanzó RTX Spark en Computex, su primer CPU propio para el mercado de consumo, un superchip ARM que corre modelos de 120.000 millones de parámetros en local sin pagar por API, con laptops de Dell, HP y Microsoft en camino para otoño.
 
-Noticia 1 (Tech): Nvidia entró al mercado de PCs con RTX Spark, primer chip ARM diseñado para agentes de IA locales. 128 GB de memoria unificada, 1 petaflop de inferencia, sin depender de APIs en la nube. Dell, HP, Lenovo, ASUS y Microsoft Surface lanzarán laptops en otoño 2026.
+GitHub Copilot pasó a cobrar por token desde hoy, terminando con el precio fijo y transfiriendo el riesgo de consumo directo a los equipos de desarrollo; la primera factura con números reales llega en julio.
 
-Noticia 2 (Negocio): GitHub Copilot pasó a cobrar por token desde hoy. Fin del precio fijo. Los 26 millones de usuarios ahora pagan según lo que queman — agentes, revisiones de PR, tareas en background. Code completions siguen ilimitados.
+General Catalyst desplegó herramientas de su portfolio de VC en Summa Health a ocho meses de comprar el hospital, instalando un conflicto de interés estructural donde el CIO no elige la mejor herramienta sino la del dueño.
 
-Noticia 3 (Salud): General Catalyst usa a Summa Health como laboratorio de su portfolio de VC. 8 meses después de la adquisición, el hospital ya corre llamadas de IA para preparar pacientes quirúrgicos y orientarlos al alta. El modelo VC+hospital en acción.
-
-Anthropic Watch: modo consolidación post-Serie H. Cowork para finanzas (nuevo caso de uso enterprise), apertura de oficinas en Milán y Seúl, Chris Olah en el evento de la encíclica papal. Dario y Mike en silencio.
-
-El Bolsillo: el buffet de IA a precio fijo era una ficción subsidiada. Esta semana se empezó a cobrar la deuda — y Nvidia le dio una salida de emergencia justo cuando llegó la factura.
+Prestá atención a Anthropic: están en modo consolidación post-Serie H, abriendo oficinas en Milán y Seúl sin ruido y mostrando adopción enterprise real en finanzas, sin que Dario, Mike ni Jack hayan dicho una sola palabra en dos días.
