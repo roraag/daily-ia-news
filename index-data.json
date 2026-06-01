@@ -1,9 +1,6 @@
 {
-  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31"],
+  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31", "2026-06-01"],
   "recent_titles": [
-    "Microsoft cancelo Claude Code para sus ingenieros. El enemigo era su propio GitHub Copilot.",
-    "Los guardrails de Meta y Google se saltan en minutos. El FT lo publico en portada.",
-    "ResLens detecta resistencia antibiotica que los tests estandar no ven.",
     "Anthropic fue al Vaticano a hablar de etica. La Casa Blanca no estaba invitada.",
     "ClickUp despidio al 22% en el mismo dia que Altman dijo que no hay apocalipsis laboral.",
     "La agencia de ciberseguridad de EEUU no tiene el modelo que hackea todo. Sus adversarios quizas si.",
@@ -33,7 +30,10 @@
     "Zitron publico los numeros de la burbuja: OpenAI quemo con margen negativo del 122% en el primer trimestre.",
     "GitHub Copilot paso a cobrar por token y los devs dicen adios a la era dorada.",
     "Los mejores modelos frontier no llegan al 50% en tareas basicas de IT empresarial.",
-    "Boston Children diagnostico 40 enfermedades raras que los medicos no vieron, con IA de OpenAI."
+    "Boston Children diagnostico 40 enfermedades raras que los medicos no vieron, con IA de OpenAI.",
+    "Nvidia entro al mercado de PCs con RTX Spark: el primer chip ARM para correr agentes sin cloud.",
+    "GitHub Copilot cobra por token desde hoy. Se termino el todo-incluido para developers.",
+    "General Catalyst usa a Summa Health como laboratorio. Los pacientes son el experimento."
   ],
   "days": {
     "2026-04-17": {
@@ -251,7 +251,12 @@
     "2026-05-31": {
       "count": 5,
       "sources": ["techcrunch.com", "wheresyoured.at", "techcrunch.com", "huggingface.co", "openai.com"],
-      "tesis": "SoftBank apuesta €75.000 millones en centros de datos en Francia mientras Zitron publica que OpenAI quemo al -122% de margen operativo en el primer trimestre. La infraestructura y la rentabilidad apuntan en direcciones opuestas."
+      "tesis": "SoftBank apuesta 75.000 millones en centros de datos en Francia mientras Zitron publica que OpenAI quemo al -122% de margen operativo en el primer trimestre. La infraestructura y la rentabilidad apuntan en direcciones opuestas."
+    },
+    "2026-06-01": {
+      "count": 3,
+      "sources": ["nvidia.com", "github.blog", "statnews.com"],
+      "tesis": "Nvidia construyo el chip para correr agentes sin cloud el mismo dia que GitHub cobro la primera factura real por los tokens que queman esos agentes."
     }
   }
 }

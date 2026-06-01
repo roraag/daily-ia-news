@@ -1,0 +1,13 @@
+Daily IA News — lunes 1 de junio de 2026
+
+Tesis del día: el hardware y el modelo de negocio tomaron la misma decisión al mismo tiempo. Nvidia anunció RTX Spark en Computex: un chip ARM+Blackwell que corre modelos de 120.000 millones de parámetros en una laptop sin cloud. En el mismo día, GitHub cambió el modelo de precio de Copilot y empezó a cobrar por token. Los agentes ya no son promesa — son un problema de silicio y de plata.
+
+Noticia 1 (Tech): Nvidia entró al mercado de PCs con RTX Spark, primer chip ARM diseñado para agentes de IA locales. 128 GB de memoria unificada, 1 petaflop de inferencia, sin depender de APIs en la nube. Dell, HP, Lenovo, ASUS y Microsoft Surface lanzarán laptops en otoño 2026.
+
+Noticia 2 (Negocio): GitHub Copilot pasó a cobrar por token desde hoy. Fin del precio fijo. Los 26 millones de usuarios ahora pagan según lo que queman — agentes, revisiones de PR, tareas en background. Code completions siguen ilimitados.
+
+Noticia 3 (Salud): General Catalyst usa a Summa Health como laboratorio de su portfolio de VC. 8 meses después de la adquisición, el hospital ya corre llamadas de IA para preparar pacientes quirúrgicos y orientarlos al alta. El modelo VC+hospital en acción.
+
+Anthropic Watch: modo consolidación post-Serie H. Cowork para finanzas (nuevo caso de uso enterprise), apertura de oficinas en Milán y Seúl, Chris Olah en el evento de la encíclica papal. Dario y Mike en silencio.
+
+El Bolsillo: el buffet de IA a precio fijo era una ficción subsidiada. Esta semana se empezó a cobrar la deuda — y Nvidia le dio una salida de emergencia justo cuando llegó la factura.
