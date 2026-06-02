@@ -1,0 +1,11 @@
+Daily IA News — martes 2 de junio de 2026
+
+Anthropic presentó el borrador S-1 en la SEC para salir a bolsa. Valuación: $965.000 millones. ARR de $47.000 millones — de $9.000 millones en diciembre de 2025 (+422% en 6 meses). El roadshow empieza pronto.
+
+Florida demandó a OpenAI y Sam Altman en la primera demanda estatal de este tipo: 83 páginas conectando ChatGPT con el tiroteo en la FSU, el suicidio de Adam Raine, y 7 familias más. Teoría legal: consumer protection.
+
+Alphabet levanta $80.000 millones para financiar su capex de IA de $180-190.000 millones en 2026. Berkshire Hathaway pone $10.000 millones. Big tech total en IA este año: ~$700.000 millones.
+
+Un modelo de razonamiento de OpenAI resolvió la conjetura de distancia unitaria de Paul Erdős (1946), usando teoría de números algebraicos. Ochenta años sin resolver, verificado por matemáticos externos.
+
+Seoul National University Hospital y Harvard publicaron en Nature Medicine el primer hospital virtual del mundo para validar IA clínica sin arriesgar pacientes. Dos motores: síntomas virtuales y workflow hospitalario en tiempo real.
