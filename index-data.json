@@ -1,5 +1,5 @@
 {
-  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31", "2026-06-01", "2026-06-02"],
+  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03"],
   "recent_titles": [
     "Jack Clark hablo en Stanford y puso fecha: 2028, IA disena su sucesora.",
     "Vulnerabilidad critica en Starlette. Millones de agentes IA, expuestos.",
@@ -32,7 +32,12 @@
     "Florida le pone una demanda historica a OpenAI: varios muertos, ChatGPT en el medio.",
     "Google necesita $80.000 millones mas para construir mas IA. Berkshire Hathaway acepto.",
     "Un modelo de OpenAI resolvio la conjetura de Erdos. Llevaba 80 anos abierta.",
-    "El primer hospital virtual para testear IA medica antes de que llegue a un paciente."
+    "El primer hospital virtual para testear IA medica antes de que llegue a un paciente.",
+    "Anthropic le da Mythos a NATO y 150 organizaciones de infraestructura critica. Ya encontraron 23.000 vulnerabilidades.",
+    "Microsoft construyo su propio modelo de razonamiento sin tocar datos de OpenAI. Dice que supera a Sonnet 4.6.",
+    "Uber quemo todo su presupuesto de IA en cuatro meses. El COO dice que la conexion con el negocio no esta ahi todavia.",
+    "Trump firmo su decreto de supervision de IA. La industria gano: es voluntario y tiene 30 dias, no 90.",
+    "Mayo Clinic y Microsoft van a construir un modelo frontier de IA medica. Lo va a poseer Mayo."
   ],
   "days": {
     "2026-04-17": {
@@ -235,7 +240,7 @@
     "2026-05-28": {
       "count": 6,
       "sources": ["thenextweb.com", "techcrunch.com", "techcrunch.com", "arstechnica.com", "platformer.news", "garymarcus.substack.com"],
-      "tesis": "Hoy el campo IA tiene una conversacion incomoda con sus propios numeros: el deal de Colossus dura 180 dias, Starbucks cerro su sistema de inventario, y Cognition levanto mil millones con 492 millones de ARR."
+      "tesis": "Hoy el campo IA tiene una conversacion incomoda con sus propios numeros: el deal de Colossus dura 180 dias, Starbucks cerro su sistema de inventario, y Cognicion levanto mil millones con 492 millones de ARR."
     },
     "2026-05-29": {
       "count": 6,
@@ -261,6 +266,11 @@
       "count": 5,
       "sources": ["techcrunch.com", "openai.com", "mobihealthnews.com", "arstechnica.com", "techcrunch.com"],
       "tesis": "Anthropic presenta el S-1 para ir a bolsa a $965.000 millones el mismo dia que Google levanta $80.000 millones y Florida demanda a OpenAI por muertes reales."
+    },
+    "2026-06-03": {
+      "count": 5,
+      "sources": ["anthropic.com", "blogs.microsoft.com", "techcrunch.com", "thenextweb.com", "news.microsoft.com"],
+      "tesis": "Microsoft presento su primer modelo propio en Build 2026 y Anthropic expande Mythos a NATO, mientras Uber no puede justificar su gasto de IA en cuatro meses."
     }
   }
 }

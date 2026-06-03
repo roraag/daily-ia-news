@@ -1,0 +1,11 @@
+Daily IA News — miércoles 3 de junio de 2026
+
+Microsoft salió en Build 2026 con su primer modelo propio de razonamiento (MAI-Thinking-1, 35B parámetros activos), entrenado sin datos de OpenAI. Dice que supera a Sonnet 4.6 en evaluaciones ciegas y lanzó también Project Solara (OS para agentes) y Scout (primer agente personal enterprise real).
+
+Anthropic expandió Project Glasswing a 150 nuevas organizaciones — incluyen NATO, Samsung, Okta y ENISA — para usar Mythos Preview en auditorías de ciberseguridad de infraestructura crítica. Los primeros 50 socios ya encontraron 23.000 vulnerabilidades potenciales, 6.000+ confirmadas críticas.
+
+Uber quemó todo su presupuesto anual de IA en cuatro meses y puso un cap de $1.500/mes por ingeniero. El COO admitió que no puede trazar el gasto a ningún resultado medible. Ed Zitron publicó "AI Doesn't Have ROI" el mismo día.
+
+Trump firmó el decreto de supervisión de IA: revisiones voluntarias de 30 días (antes era 90 obligatorias). La industria ganó el pulso.
+
+Mayo Clinic y Microsoft anunciaron en Build 2026 un modelo frontier de IA para razonamiento clínico. El dato clave: la propiedad del modelo queda en Mayo Clinic, no en Microsoft.
