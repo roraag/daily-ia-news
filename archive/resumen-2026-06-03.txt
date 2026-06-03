@@ -1,11 +1,7 @@
-Daily IA News — miércoles 3 de junio de 2026
+El campo IA avanza a dos velocidades simultáneas: Microsoft y Anthropic construyen sus modelos más ambiciosos mientras Uber demuestra que nadie sabe cómo justificarlos en una planilla de resultados.
 
-Microsoft salió en Build 2026 con su primer modelo propio de razonamiento (MAI-Thinking-1, 35B parámetros activos), entrenado sin datos de OpenAI. Dice que supera a Sonnet 4.6 en evaluaciones ciegas y lanzó también Project Solara (OS para agentes) y Scout (primer agente personal enterprise real).
+Anthropic abre Mythos a NATO y 150 organizaciones de infraestructura crítica antes de que sea público, convirtiendo el modelo más potente del campo en su propio sistema de defensa.
+Microsoft declara independencia de OpenAI en Build 2026 con MAI-Thinking-1, su primer modelo propio de razonamiento entrenado desde cero, apuntando al mismo tier enterprise donde compite Anthropic.
+Uber agota su presupuesto anual de IA en cuatro meses y su COO admite en voz alta que no puede trazar el gasto a ningún resultado medible para el negocio.
 
-Anthropic expandió Project Glasswing a 150 nuevas organizaciones — incluyen NATO, Samsung, Okta y ENISA — para usar Mythos Preview en auditorías de ciberseguridad de infraestructura crítica. Los primeros 50 socios ya encontraron 23.000 vulnerabilidades potenciales, 6.000+ confirmadas críticas.
-
-Uber quemó todo su presupuesto anual de IA en cuatro meses y puso un cap de $1.500/mes por ingeniero. El COO admitió que no puede trazar el gasto a ningún resultado medible. Ed Zitron publicó "AI Doesn't Have ROI" el mismo día.
-
-Trump firmó el decreto de supervisión de IA: revisiones voluntarias de 30 días (antes era 90 obligatorias). La industria ganó el pulso.
-
-Mayo Clinic y Microsoft anunciaron en Build 2026 un modelo frontier de IA para razonamiento clínico. El dato clave: la propiedad del modelo queda en Mayo Clinic, no en Microsoft.
+Prestá atención al acuerdo Mayo Clinic-Microsoft: la cláusula que le da propiedad del modelo a Mayo puede convertirse en el benchmark de negociación para cualquier organización de salud que tenga datos propios.
