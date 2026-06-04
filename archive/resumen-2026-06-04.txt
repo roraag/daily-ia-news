@@ -1,0 +1,11 @@
+Daily IA News — jueves 4 de junio de 2026
+
+Hoy es un día de infraestructura. Microsoft diseñó un sistema operativo para agentes (Project Solara, basado en Android), Google lanzó Gemma 4 12B —modelo multimodal que corre en una laptop de 16GB sin cloud, licencia Apache 2.0—, y ChatGPT cruzó los 1.000 millones de usuarios activos en 2,5 años, un récord histórico.
+
+Anthropic publicó un año de datos sobre ciberamenazas con IA: el 56% de los actores graves ya la usa en sus operaciones. Los behaviores más riesgosos —IA orquestando ataques sin intervención humana— todavía no están catalogados en MITRE ATT&CK.
+
+En salud: los pacientes empezaron a grabar sus propias consultas con apps como VisitRecall y Advoca Health, en espejo de los ambient scribes que ya usan los médicos. Nadie está regulando qué pasa cuando las dos transcripciones difieren.
+
+En negocios: Amazon despidió 30.000 personas y comprometió $200.000 millones en data centers de IA; sus ingenieros protestaron en el Concejo Municipal de Seattle, que frenó nuevas construcciones por un año. SoftBank cayó 11% en bolsa por dudas de liquidez post-apuesta a OpenAI.
+
+Anthropic Watch: semana de empresa. LLM ATT&CK Navigator publicado, Claude Partner Network con Services Track y Partner Hub, Project Glasswing expandido a 150 organizaciones en 15+ países.

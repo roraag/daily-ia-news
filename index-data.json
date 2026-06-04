@@ -1,12 +1,6 @@
 {
-  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03"],
+  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04"],
   "recent_titles": [
-    "Jack Clark hablo en Stanford y puso fecha: 2028, IA disena su sucesora.",
-    "Vulnerabilidad critica en Starlette. Millones de agentes IA, expuestos.",
-    "ByteDance considera gastar 70.000 millones en IA. El numero hace ruido.",
-    "Stanford le pregunta a los pacientes antes de instalar IA. Cosa rara.",
-    "Musk dice que el deal del Colossus dura 180 dias, no tres anos. Anthropic tiene que conseguir otro plan.",
-    "Cognicion, $1.000M y el 90% del codigo lo escribe la IA. Clientes: NASA, Goldman, Mercedes.",
     "Robinhood habilita agentes de IA para operar en bolsa. El protocolo es MCP.",
     "Nvidia apuesta $150.000M en Taiwan mientras el plan de Trump de hub de IA no cierra.",
     "El creador de Claude Code dice que el titulo software engineer desaparece este ano.",
@@ -37,7 +31,13 @@
     "Microsoft construyo su propio modelo de razonamiento sin tocar datos de OpenAI. Dice que supera a Sonnet 4.6.",
     "Uber quemo todo su presupuesto de IA en cuatro meses. El COO dice que la conexion con el negocio no esta ahi todavia.",
     "Trump firmo su decreto de supervision de IA. La industria gano: es voluntario y tiene 30 dias, no 90.",
-    "Mayo Clinic y Microsoft van a construir un modelo frontier de IA medica. Lo va a poseer Mayo."
+    "Mayo Clinic y Microsoft van a construir un modelo frontier de IA medica. Lo va a poseer Mayo.",
+    "Anthropic mapeo un ano de hackers usando IA. El 56% de los actores graves ya la usa.",
+    "Google Gemma 4 12B: modelo multimodal open source que corre en una laptop de 16GB.",
+    "ChatGPT llego a 1.000 millones de usuarios mensuales. Tardo 2 anos y medio.",
+    "Microsoft Project Solara: un Android para agentes, no para apps.",
+    "Los pacientes empezaron a grabar sus propias consultas con IA. Los medicos no estaban listos.",
+    "Amazon despide 30.000 y pone $200.000M en data centers de IA. Sus ingenieros fueron al Concejo Municipal."
   ],
   "days": {
     "2026-04-17": {
@@ -271,6 +271,11 @@
       "count": 5,
       "sources": ["anthropic.com", "blogs.microsoft.com", "techcrunch.com", "thenextweb.com", "news.microsoft.com"],
       "tesis": "Microsoft presento su primer modelo propio en Build 2026 y Anthropic expande Mythos a NATO, mientras Uber no puede justificar su gasto de IA en cuatro meses."
+    },
+    "2026-06-04": {
+      "count": 6,
+      "sources": ["anthropic.com", "blog.google", "pymnts.com", "thenextweb.com", "statnews.com", "cnbc.com"],
+      "tesis": "Hoy es un dia de infraestructura: Microsoft diseno un SO para agentes, Google lanzo un modelo multimodal local, y Anthropic publico que el 56% de los actores de ciberamenaza graves ya usa IA."
     }
   }
 }
