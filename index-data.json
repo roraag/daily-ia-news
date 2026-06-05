@@ -1,5 +1,5 @@
 {
-  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04"],
+  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05"],
   "recent_titles": [
     "Robinhood habilita agentes de IA para operar en bolsa. El protocolo es MCP.",
     "Nvidia apuesta $150.000M en Taiwan mientras el plan de Trump de hub de IA no cierra.",
@@ -37,7 +37,12 @@
     "ChatGPT llego a 1.000 millones de usuarios mensuales. Tardo 2 anos y medio.",
     "Microsoft Project Solara: un Android para agentes, no para apps.",
     "Los pacientes empezaron a grabar sus propias consultas con IA. Los medicos no estaban listos.",
-    "Amazon despide 30.000 y pone $200.000M en data centers de IA. Sus ingenieros fueron al Concejo Municipal."
+    "Amazon despide 30.000 y pone $200.000M en data centers de IA. Sus ingenieros fueron al Concejo Municipal.",
+    "Anthropic lo dijo en voz alta: la IA ya los construye a ellos. Y pide un boton de pausa global.",
+    "ChatGPT actualiza tu memoria mientras no lo usas. Ahora tambien para usuarios gratis.",
+    "EEUU propone congelar las leyes de IA estatales por tres anos. El lobby de los labs gano el primer round.",
+    "El CEO de TSMC: la demanda de chips supera lo que podemos fabricar. Y va a seguir asi.",
+    "El 25% de los consultorios en EEUU ya usa IA para escuchar consultas. Ahora los pacientes traen la propia."
   ],
   "days": {
     "2026-04-17": {
@@ -276,6 +281,11 @@
       "count": 6,
       "sources": ["anthropic.com", "blog.google", "pymnts.com", "thenextweb.com", "statnews.com", "cnbc.com"],
       "tesis": "Hoy es un dia de infraestructura: Microsoft diseno un SO para agentes, Google lanzo un modelo multimodal local, y Anthropic publico que el 56% de los actores de ciberamenaza graves ya usa IA."
+    },
+    "2026-06-05": {
+      "count": 5,
+      "sources": ["anthropic.com", "openai.com", "axios.com", "finance.yahoo.com", "statnews.com"],
+      "tesis": "Anthropic documento que la IA ya escribe el 80% de su propio codigo y pidio un mecanismo global de pausa, el mismo dia que EEUU propone congelar la regulacion estatal por tres anos."
     }
   }
 }

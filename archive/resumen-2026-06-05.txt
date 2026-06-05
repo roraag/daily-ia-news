@@ -1,0 +1,13 @@
+Daily IA News — viernes 5 de junio de 2026
+
+Tesis del día: Anthropic documentó que la IA ya escribe el 80% de su propio código (subió de dígito bajo en 16 meses) y pidió un mecanismo global de pausa coordenada entre labs frontier — algo que nunca habían pedido. El mismo día, el Congreso de EEUU propuso congelar las leyes estatales de IA por tres años, TSMC admitió que no puede fabricar chips al ritmo que la industria demanda, y OpenAI desplegó "Dreaming", sistema de memoria en background para ChatGPT, ahora disponible para usuarios gratis.
+
+5 noticias del día:
+1. Anthropic RSI: Claude escribe el 80% del código de Anthropic (vs dígito bajo, 16 meses); Mythos Preview a 52x speedup; pedido de pausa global coordinada para labs frontier (anthropic.com)
+2. ChatGPT Dreaming: memoria en segundo plano que sintetiza historial; recall factual de 67,9% a 82,8%; disponible para usuarios gratuitos (openai.com)
+3. Great American AI Act: borrador bipartidista de 269 páginas preempta leyes estatales de desarrollo de IA por 3 años; grupos de safety en contra (axios.com)
+4. TSMC: CEO C.C. Wei en junta de accionistas admite que la demanda supera la capacidad; meta de 30% de chips en EEUU se aleja (finance.yahoo.com)
+5. Pacientes con IA en consultas: 25% de consultorios EEUU usa IA de escucha; ahora pacientes traen la propia; Utah Medical Board regañada por criticar chatbot (statnews.com)
+
+Anthropic Watch: día grande — post sobre construcción recursiva, $47.000M ARR (vs $9.000M en dic 2025), respuesta crítica de Gary Marcus.
+El Bolsillo: Anthropic 420%+ de crecimiento ARR en 5 meses; TSMC quiere subir precios; Uber capó gasto IA a $1.500/ingeniero/mes.
