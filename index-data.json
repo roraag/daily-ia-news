@@ -1,16 +1,6 @@
 {
-  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05"],
+  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-06"],
   "recent_titles": [
-    "Robinhood habilita agentes de IA para operar en bolsa. El protocolo es MCP.",
-    "Nvidia apuesta $150.000M en Taiwan mientras el plan de Trump de hub de IA no cierra.",
-    "El creador de Claude Code dice que el titulo software engineer desaparece este ano.",
-    "Uber, Target y Starbucks dicen que la IA no da el ROI. Marcus apila la evidencia.",
-    "Anthropic levanto 65.000 millones y ya vale mas que OpenAI. Por ahora.",
-    "Opus 4.8: mas honesto cuando se equivoca, puede correr cientos de agentes en paralelo.",
-    "Illinois aprobo la primera ley de IA con dientes reales en EEUU. Entra en 2027.",
-    "Apple firmo con Google para meter Gemini en el iPhone. Siri piensa en servidores de Google.",
-    "Los LLMs siguen creyendo una mentira aunque les digas que es mentira. Paper lo midio.",
-    "Penn Medicine y K Health despliegan agentes clinicos en urgencias virtuales.",
     "Apple confirma que Siri usara modelos destilados de Gemini corriendo en el iPhone, sin mandar datos a Google.",
     "Microsoft lanzo Copilot Health en preview: IA que conecta tu historia clinica con 50.000 proveedores.",
     "Groq levanto $650M para ser nube de inferencia, despues de venderle las patentes de chips a Nvidia por $20.000M.",
@@ -42,7 +32,12 @@
     "ChatGPT actualiza tu memoria mientras no lo usas. Ahora tambien para usuarios gratis.",
     "EEUU propone congelar las leyes de IA estatales por tres anos. El lobby de los labs gano el primer round.",
     "El CEO de TSMC: la demanda de chips supera lo que podemos fabricar. Y va a seguir asi.",
-    "El 25% de los consultorios en EEUU ya usa IA para escuchar consultas. Ahora los pacientes traen la propia."
+    "El 25% de los consultorios en EEUU ya usa IA para escuchar consultas. Ahora los pacientes traen la propia.",
+    "SpaceX cobra 920 millones por mes a Google. Anthropic paga 1.250 millones por mes. El landlord gano la guerra.",
+    "El agente de soporte de Meta entrego la cuenta del Obama White House. Sin verificacion.",
+    "La primera vacuna disenada por IA supero la prueba en humanos. Es universal para coronavirus.",
+    "Marcus responde a Anthropic dos veces: el anuncio de auto-mejora es marketing para el IPO.",
+    "El S&P 500 bloqueo el fast-track para SpaceX, OpenAI y Anthropic. Sin rentabilidad, no entran."
   ],
   "days": {
     "2026-04-17": {
@@ -286,6 +281,11 @@
       "count": 5,
       "sources": ["anthropic.com", "openai.com", "axios.com", "finance.yahoo.com", "statnews.com"],
       "tesis": "Anthropic documento que la IA ya escribe el 80% de su propio codigo y pidio un mecanismo global de pausa, el mismo dia que EEUU propone congelar la regulacion estatal por tres anos."
+    },
+    "2026-06-06": {
+      "count": 5,
+      "sources": ["techcrunch.com", "technologyreview.com", "engadget.com", "garymarcus.substack.com", "etfstream.com"],
+      "tesis": "SpaceX cobra $920M por mes a Google y $1.250M a Anthropic — el landlord gano la guerra — mientras un agente de Meta entrega cuentas sin verificacion y una vacuna disenada por IA supera su primera prueba en humanos."
     }
   }
 }
