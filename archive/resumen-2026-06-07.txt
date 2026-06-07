@@ -1,11 +1,9 @@
-Daily IA News — domingo 7 de junio de 2026
+El mercado de semiconductores se desplomó 2 billones de dólares el viernes pasado en una sola rueda: tres señales llegaron juntas y el hype de infraestructura IA acumulado en dos años empezó a romperse.
 
-El mercado de IA perdió 2 billones de dólares el viernes: el Philadelphia Semiconductor Index cayó 10,3%, Nvidia perdió 300.000 millones de capitalización, y Micron bajó 17%. Los tres triggers fueron Broadcom (guía de Q3 por debajo de expectativas), SemiAnalysis (Nvidia reduciría a la mitad la memoria de sus servidores Vera Rubin) y el propio post de Anthropic sobre auto-mejora recursiva, que el mercado leyó como señal de riesgo sistémico.
+El crash de chips borró 300.000 millones de capitalización de Nvidia en un día: Broadcom no cumplió su guía de Q3, SemiAnalysis reveló que Vera Rubin va a necesitar la mitad de la memoria prevista, y el post de Anthropic sobre auto-mejora recursiva lo leyeron como riesgo, no como logro.
 
-Trump habla de tomar equity en OpenAI vía un fondo soberano — lo que Gary Marcus interpreta como la confirmación de que la industria no tiene camino orgánico a la rentabilidad.
+Apple llega al WWDC mañana con una Siri renovada que funciona con un motor de Google adentro: sus propios modelos no dieron el nivel y eligieron subcontratar la inteligencia antes que llegar tarde.
 
-Apple llega al WWDC mañana con una Siri completamente rediseñada, alimentada por Gemini de Google. Sus propios modelos no alcanzaron el nivel necesario.
+Trump propuso que el Estado tome equity en OpenAI vía fondo soberano: si necesitás que el fisco te ponga un piso de valuación justo cuando el mercado privado duda, algo en el modelo de negocio no cierra.
 
-Nueva York aprobó por unanimidad bipartidaria una ley que prohíbe que los chatbots simulen compañerismo con menores. Va a la firma de la gobernadora Hochul.
-
-En El Resto: OpenAI lanzó Lockdown Mode contra prompt injection, Google publicó Gemma 4 QAT para laptops, Nathan Lambert deja el Allen Institute, Sriram Krishnan deja la Casa Blanca, Meta bajó su feed de noticias generadas por IA a las 24 horas, y Zitron publicó su tercer análisis de la burbuja IA.
+Nueva York aprobó por unanimidad bipartidaria una ley que prohíbe que los chatbots simulen ser amigos de menores: el ángulo que te importa es que la línea entre asistente clínico y compañero artificial la van a legislar pronto en toda la región, y un chatbot de salud que "se preocupa" por el paciente puede quedar exactamente en el centro de esa regulación.
