@@ -1,0 +1,11 @@
+Daily IA News — domingo 7 de junio de 2026
+
+El mercado de IA perdió 2 billones de dólares el viernes: el Philadelphia Semiconductor Index cayó 10,3%, Nvidia perdió 300.000 millones de capitalización, y Micron bajó 17%. Los tres triggers fueron Broadcom (guía de Q3 por debajo de expectativas), SemiAnalysis (Nvidia reduciría a la mitad la memoria de sus servidores Vera Rubin) y el propio post de Anthropic sobre auto-mejora recursiva, que el mercado leyó como señal de riesgo sistémico.
+
+Trump habla de tomar equity en OpenAI vía un fondo soberano — lo que Gary Marcus interpreta como la confirmación de que la industria no tiene camino orgánico a la rentabilidad.
+
+Apple llega al WWDC mañana con una Siri completamente rediseñada, alimentada por Gemini de Google. Sus propios modelos no alcanzaron el nivel necesario.
+
+Nueva York aprobó por unanimidad bipartidaria una ley que prohíbe que los chatbots simulen compañerismo con menores. Va a la firma de la gobernadora Hochul.
+
+En El Resto: OpenAI lanzó Lockdown Mode contra prompt injection, Google publicó Gemma 4 QAT para laptops, Nathan Lambert deja el Allen Institute, Sriram Krishnan deja la Casa Blanca, Meta bajó su feed de noticias generadas por IA a las 24 horas, y Zitron publicó su tercer análisis de la burbuja IA.

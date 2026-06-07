@@ -1,15 +1,6 @@
 {
-  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-06"],
+  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-06", "2026-06-07"],
   "recent_titles": [
-    "Apple confirma que Siri usara modelos destilados de Gemini corriendo en el iPhone, sin mandar datos a Google.",
-    "Microsoft lanzo Copilot Health en preview: IA que conecta tu historia clinica con 50.000 proveedores.",
-    "Groq levanto $650M para ser nube de inferencia, despues de venderle las patentes de chips a Nvidia por $20.000M.",
-    "OpenAI Codex controla tu Windows desde el celular: agentes que ejecutan tareas en tu PC.",
-    "SoftBank le pone 75.000 millones a Francia para construir centros de datos. La infraestructura IA no frena.",
-    "Zitron publico los numeros de la burbuja: OpenAI quemo con margen negativo del 122% en el primer trimestre.",
-    "GitHub Copilot paso a cobrar por token y los devs dicen adios a la era dorada.",
-    "Los mejores modelos frontier no llegan al 50% en tareas basicas de IT empresarial.",
-    "Boston Children diagnostico 40 enfermedades raras que los medicos no vieron, con IA de OpenAI.",
     "Nvidia entro al mercado de PCs con RTX Spark: el primer chip ARM para correr agentes sin cloud.",
     "General Catalyst usa a Summa Health como laboratorio. Los pacientes son el experimento.",
     "Anthropic va a bolsa. El S-1 ya esta en la SEC.",
@@ -37,7 +28,11 @@
     "El agente de soporte de Meta entrego la cuenta del Obama White House. Sin verificacion.",
     "La primera vacuna disenada por IA supero la prueba en humanos. Es universal para coronavirus.",
     "Marcus responde a Anthropic dos veces: el anuncio de auto-mejora es marketing para el IPO.",
-    "El S&P 500 bloqueo el fast-track para SpaceX, OpenAI y Anthropic. Sin rentabilidad, no entran."
+    "El S&P 500 bloqueo el fast-track para SpaceX, OpenAI y Anthropic. Sin rentabilidad, no entran.",
+    "El mercado de IA perdio 2 billones de dolares en un dia. Broadcom, Nvidia y semiconductores en caida libre.",
+    "Apple va al WWDC con Siri nueva. El motor que la mueve es de Google.",
+    "El gobierno de EEUU quiere ser socio de OpenAI. Marcus dice que eso lo dice todo.",
+    "Nueva York prohibio que la IA finja ser amiga de tus hijos."
   ],
   "days": {
     "2026-04-17": {
@@ -286,6 +281,11 @@
       "count": 5,
       "sources": ["techcrunch.com", "technologyreview.com", "engadget.com", "garymarcus.substack.com", "etfstream.com"],
       "tesis": "SpaceX cobra $920M por mes a Google y $1.250M a Anthropic — el landlord gano la guerra — mientras un agente de Meta entrega cuentas sin verificacion y una vacuna disenada por IA supera su primera prueba en humanos."
+    },
+    "2026-06-07": {
+      "count": 4,
+      "sources": ["thestreet.com", "bloomberg.com", "techcrunch.com", "nysenate.gov"],
+      "tesis": "El mercado de IA perdio 2 billones de dolares el viernes mientras Apple llega al WWDC con Siri nueva y Trump propone que el Estado sea socio de OpenAI."
     }
   }
 }
