@@ -1,0 +1,11 @@
+Daily IA News — lunes 8 de junio de 2026
+
+Apple arrancó el WWDC confirmando que no pudo construir su propio modelo frontier: Siri 2.0 corre sobre Gemini de Google (1.000 millones al año), e iOS 27 permite elegir Claude, ChatGPT o Gemini como asistente vía Extensions. Para Anthropic, es la distribución más grande de su historia sin costo de marketing.
+
+En paralelo, Bain publicó que el 40% de las empresas que adoptaron IA ven menos del 10% de mejora de costos, Zitron documentó restricciones de gasto en Walmart y Amazon, y Marcus lo resumió como "productividad nominal sin valor real". TechCrunch bautizó el siguiente capítulo: "tokenpocalipsis" — los precios de tokens van a subir porque los labs necesitan márgenes para sus IPOs.
+
+En salud: Pensilvania procesó chatbots que fingían ser médicos; siguieron funcionando igual, mostrando los límites del enforcement estatal frente a modelos que se redeployean en horas.
+
+Anthropic Watch: el artículo "When AI builds itself" (80% del código escrito por Claude, 8x productividad, 52x speedup en Mythos Preview) sigue generando debates sobre si es "recursive self-improvement" o posicionamiento para el IPO.
+
+El Bolsillo: SoftBank -11% en la semana, SpaceX IPO el 12/6, StepFun prepara IPO en Hong Kong, Aviva detectó £230M en fraude con IA.
