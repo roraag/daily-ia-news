@@ -1,0 +1,9 @@
+La industria de IA fue a Wall Street dos veces en una semana y reveló que no entiende del todo su propio negocio.
+
+OpenAI presentó su S-1 confidencial ante la SEC, siguiendo a Anthropic por exactamente seis días, con valuación estimada por encima de un billón de dólares y debut posible en otoño 2026.
+
+Apple confesó en el WWDC que no pudo construir un modelo frontier propio y entregó Siri a Google, en un stack donde Apple controla solo la capa de hardware.
+
+Anthropic publicó que la IA ya construye su propio código ocho veces más rápido que el promedio histórico, y Jack Clark —cofundador desde adentro— lo cubrió como advertencia, no como logro.
+
+Vigilá si en los próximos días Dario Amodei publica algo en la misma dirección que Clark; ese silencio hoy, el mismo día del IPO de OpenAI, es una elección, no un accidente.
