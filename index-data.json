@@ -1,5 +1,5 @@
 {
-  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-06", "2026-06-07", "2026-06-08"],
+  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-06", "2026-06-07", "2026-06-08", "2026-06-09"],
   "recent_titles": [
     "Anthropic va a bolsa. El S-1 ya esta en la SEC.",
     "Florida le pone una demanda historica a OpenAI: varios muertos, ChatGPT en el medio.",
@@ -34,7 +34,12 @@
     "Apple no pudo construir su modelo: pago 1.000 millones a Google y abrio la puerta a Claude.",
     "El ROI de la IA no llega: Bain, Zitron y Marcus coincidieron en la misma semana.",
     "La tokenpocalipsis: los labs suben precios antes del IPO y los clientes pagan la diferencia.",
-    "Pensilvania proceso chatbots que fingian ser medicos. Siguieron funcionando igual."
+    "Pensilvania proceso chatbots que fingian ser medicos. Siguieron funcionando igual.",
+    "OpenAI va a bolsa. Una semana despues de Anthropic, y con la misma duda.",
+    "Apple uso el WWDC para confesar que Siri necesita a Google.",
+    "Anthropic publico los numeros de la recursion: la IA construye su codigo ocho veces mas rapido.",
+    "Zitron y Marcus dijeron lo mismo: la IA necesita una matematica que todavia no existe.",
+    "Sophia Genetics y Memorial Sloan Kettering van a construir el hub de oncologia de precision mas grande del mundo."
   ],
   "days": {
     "2026-04-17": {
@@ -293,6 +298,11 @@
       "count": 4,
       "sources": ["tomsguide.com", "wheresyoured.at", "techcrunch.com", "spotlightpa.org"],
       "tesis": "Hoy Apple mostro su mano — y su mano era Gemini. La empresa mas capitalizada del mundo no pudo construir un modelo frontier propio y abrio el iPhone a Claude y ChatGPT."
+    },
+    "2026-06-09": {
+      "count": 5,
+      "sources": ["techcrunch.com", "importai.substack.com", "wheresyoured.at", "fiercehealthcare.com", "garymarcus.substack.com"],
+      "tesis": "La industria de IA fue a Wall Street y revelo que no entiende bien su propio negocio: OpenAI presento el S-1 una semana despues de Anthropic, Apple entrego Siri a Google, y Anthropic mostro que la IA construye su propio codigo 8x mas rapido."
     }
   }
 }
