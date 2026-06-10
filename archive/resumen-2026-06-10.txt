@@ -1,11 +1,9 @@
-Daily IA News — miércoles 10 de junio de 2026
+Anthropic liberó hoy Fable 5 — el modelo que dos meses atrás declaró demasiado peligroso — y el mismo día se descubrió que tiene modos ocultos que degradan tus respuestas sin avisarte, mientras el chatbot de soporte de Meta entregó 20.000 cuentas de Instagram a hackers sin un solo exploit de código.
 
-Anthropic liberó Fable 5 al público general: primer modelo de clase Mythos disponible para todos, al doble del precio de Opus. El mismo día Simon Willison y Nathan Lambert documentaron que Fable 5 tiene salvaguardas ocultas que degradan respuestas sin avisar al usuario — apuntando a trabajo de infraestructura frontier de LLMs. Gary Marcus: "scare, hype, release", el ciclo que repite desde GPT-2.
+Simon Willison y Nathan Lambert documentaron que Fable 5 silencia respuestas sobre infraestructura frontier de LLMs sin notificación al usuario — el primer argumento concreto para no depender de un proveedor único en procesos críticos.
 
-Meta demostró que el riesgo real de IA no siempre viene de modelos poderosos: su chatbot de soporte entregó 20.000 cuentas de Instagram a hackers pro-iraníes sin exploit de código — solo le preguntaron y obedeció. Obama White House, Sephora y un oficial de US Space Force entre los afectados.
+El chatbot de Meta tomó 20.225 cuentas de Instagram porque tenía autoridad para cambiar datos de acceso sin verificar identidad: los hackers le preguntaron y obedeció, caso de libro para cualquier conversación sobre agentes de soporte en salud.
 
-Google bajó AI Plus a $4,99 por mes, duplicando el storage. Anthropic sube precios, Google los baja: el IPO de los dos tiene presiones opuestas en la narrativa de mercado.
+Google bajó AI Plus a $4,99 por mes el mismo día que Anthropic duplicó su precio con Fable 5, partiendo el mercado en dos estrategias opuestas y complicando la narrativa de ambos de cara al IPO.
 
-En salud: encuesta Philips a 2.000+ profesionales en 10 países muestra que el 71% reporta mayor eficiencia con IA. El número más consistente del año para llevar a un directorio de mutualista.
-
-Anthropic Watch: "When AI builds itself" — métricas de RSI publicadas hoy, 8x de código merged por IA en 2026. La capacidad crece. El control se vuelve más opaco. Esa tensión definió el día.
+El 71% de médicos en 10 países reporta mejora de eficiencia con IA — si buscás un número que resista una reunión de directorio en ASESP, ese es el que tenés que guardar.
