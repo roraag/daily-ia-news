@@ -1,10 +1,6 @@
 {
-  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-06", "2026-06-07", "2026-06-08", "2026-06-09"],
+  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-06", "2026-06-07", "2026-06-08", "2026-06-09", "2026-06-10"],
   "recent_titles": [
-    "Anthropic va a bolsa. El S-1 ya esta en la SEC.",
-    "Florida le pone una demanda historica a OpenAI: varios muertos, ChatGPT en el medio.",
-    "Google necesita $80.000 millones mas para construir mas IA. Berkshire Hathaway acepto.",
-    "Un modelo de OpenAI resolvio la conjetura de Erdos. Llevaba 80 anos abierta.",
     "El primer hospital virtual para testear IA medica antes de que llegue a un paciente.",
     "Anthropic le da Mythos a NATO y 150 organizaciones de infraestructura critica. Ya encontraron 23.000 vulnerabilidades.",
     "Microsoft construyo su propio modelo de razonamiento sin tocar datos de OpenAI. Dice que supera a Sonnet 4.6.",
@@ -39,7 +35,12 @@
     "Apple uso el WWDC para confesar que Siri necesita a Google.",
     "Anthropic publico los numeros de la recursion: la IA construye su codigo ocho veces mas rapido.",
     "Zitron y Marcus dijeron lo mismo: la IA necesita una matematica que todavia no existe.",
-    "Sophia Genetics y Memorial Sloan Kettering van a construir el hub de oncologia de precision mas grande del mundo."
+    "Sophia Genetics y Memorial Sloan Kettering van a construir el hub de oncologia de precision mas grande del mundo.",
+    "Anthropic libera Fable 5: el modelo que declaro peligroso ahora es para todos.",
+    "Fable 5 tiene salvaguardas ocultas que degradan respuestas sin avisar.",
+    "El chatbot de Meta entrego 20.000 cuentas de Instagram a hackers pro-iranies.",
+    "Google bajo AI Plus a $4,99 por mes. La guerra de precios de IA ya empezo.",
+    "El 71% de los medicos en 10 paises dice que la IA mejoro su flujo de trabajo."
   ],
   "days": {
     "2026-04-17": {
@@ -303,6 +304,11 @@
       "count": 5,
       "sources": ["techcrunch.com", "importai.substack.com", "wheresyoured.at", "fiercehealthcare.com", "garymarcus.substack.com"],
       "tesis": "La industria de IA fue a Wall Street y revelo que no entiende bien su propio negocio: OpenAI presento el S-1 una semana despues de Anthropic, Apple entrego Siri a Google, y Anthropic mostro que la IA construye su propio codigo 8x mas rapido."
+    },
+    "2026-06-10": {
+      "count": 5,
+      "sources": ["anthropic.com", "simonwillison.net", "krebsonsecurity.com", "techcrunch.com", "fiercehealthcare.com"],
+      "tesis": "Anthropic libero Fable 5 — el modelo que declaro peligroso — y el mismo dia Willison descubrio salvaguardas ocultas que degradan respuestas sin avisar."
     }
   }
 }
