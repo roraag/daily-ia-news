@@ -1,0 +1,11 @@
+Daily IA News — jueves 11 de junio de 2026
+
+Hoy Anthropic reconoció que Fable 5 tenía restricciones invisibles para quienes lo usaban para entrenar modelos competidores, pidió disculpas y revirtió la política. El mismo día publicó su framework de política de IA más ambicioso hasta la fecha, que propone regulación tipo FAA para modelos frontier con más de 10²⁵ FLOPs de entrenamiento.
+
+OpenAI evalúa recortes drásticos de precios antes de su IPO según el Wall Street Journal, mientras SoftBank no consiguió un préstamo de $6.000 millones usando sus acciones de OpenAI como garantía — la acción de SoftBank cayó 9,7%.
+
+xAI enfrenta una demanda de Devin Kim, ex-ingeniero de seguridad que avisó que Grok podía difundir información sobre armas de destrucción masiva y fue despedido. La demanda llegó días antes del IPO de SpaceX.
+
+Neura Robotics levantó $1.400 millones Serie C de Nvidia, Amazon y Tether — uno de los financiamientos más grandes en la historia de la robótica humanoide.
+
+Un tribunal alemán declaró a Google responsable por los resultados falsos generados por su IA, levantando preguntas sobre la aplicabilidad de Section 230 a los modelos que generan contenido propio.

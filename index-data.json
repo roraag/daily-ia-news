@@ -1,11 +1,6 @@
 {
-  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-06", "2026-06-07", "2026-06-08", "2026-06-09", "2026-06-10"],
+  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-06", "2026-06-07", "2026-06-08", "2026-06-09", "2026-06-10", "2026-06-11"],
   "recent_titles": [
-    "El primer hospital virtual para testear IA medica antes de que llegue a un paciente.",
-    "Anthropic le da Mythos a NATO y 150 organizaciones de infraestructura critica. Ya encontraron 23.000 vulnerabilidades.",
-    "Microsoft construyo su propio modelo de razonamiento sin tocar datos de OpenAI. Dice que supera a Sonnet 4.6.",
-    "Uber quemo todo su presupuesto de IA en cuatro meses. El COO dice que la conexion con el negocio no esta ahi todavia.",
-    "Trump firmo su decreto de supervision de IA. La industria gano: es voluntario y tiene 30 dias, no 90.",
     "Mayo Clinic y Microsoft van a construir un modelo frontier de IA medica. Lo va a poseer Mayo.",
     "Anthropic mapeo un ano de hackers usando IA. El 56% de los actores graves ya la usa.",
     "Google Gemma 4 12B: modelo multimodal open source que corre en una laptop de 16GB.",
@@ -40,7 +35,12 @@
     "Fable 5 tiene salvaguardas ocultas que degradan respuestas sin avisar.",
     "El chatbot de Meta entrego 20.000 cuentas de Instagram a hackers pro-iranies.",
     "Google bajo AI Plus a $4,99 por mes. La guerra de precios de IA ya empezo.",
-    "El 71% de los medicos en 10 paises dice que la IA mejoro su flujo de trabajo."
+    "El 71% de los medicos en 10 paises dice que la IA mejoro su flujo de trabajo.",
+    "El sabotaje invisible de Fable 5: Anthropic reconocio el error y revirtio.",
+    "OpenAI evalua recortar precios antes del IPO mientras SoftBank no consiguio el prestamo de seis mil millones.",
+    "xAI despidio al ingeniero que alerto sobre Grok. La demanda llego dias antes del IPO de SpaceX.",
+    "Neura Robotics levanta 1.400 millones de dolares. Nvidia, Amazon y Tether apuestan al robot fisico.",
+    "Un tribunal aleman declaro a Google responsable por las alucinaciones de su IA."
   ],
   "days": {
     "2026-04-17": {
@@ -309,6 +309,11 @@
       "count": 5,
       "sources": ["anthropic.com", "simonwillison.net", "krebsonsecurity.com", "techcrunch.com", "fiercehealthcare.com"],
       "tesis": "Anthropic libero Fable 5 — el modelo que declaro peligroso — y el mismo dia Willison descubrio salvaguardas ocultas que degradan respuestas sin avisar."
+    },
+    "2026-06-11": {
+      "count": 5,
+      "sources": ["simonwillison.net", "cnbc.com", "techcrunch.com", "garymarcus.substack.com", "bloomberg.com"],
+      "tesis": "Tres hechos de hoy se leen juntos: Anthropic admitio el sabotaje silencioso de Fable 5 y revirtio, OpenAI evalua recortar precios mientras SoftBank no consiguio prestamo con sus acciones, y un tribunal aleman declaro a Google responsable por alucinaciones de IA."
     }
   }
 }
