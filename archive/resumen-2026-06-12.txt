@@ -1,0 +1,9 @@
+La IA se mueve hoy en dos velocidades simultáneas: capital a escala astronómica hacia el mundo físico y los agentes, mientras que el caso más revelador del día es que una IA de aseguradoras denegó cuidados que los jueces revirtieron el 97% de las veces.
+
+Bezos volcó 12.000 millones en Prometheus para automatizar el trabajo de ingenieros físicos en diseño de motores y fármacos, acumulando 18.200 millones en menos de un año.
+
+Google liberó DiffusionGemma con licencia Apache, un modelo que genera texto por difusión a 500 tokens por segundo en hardware de consumo, un salto de orden de magnitud respecto a lo que existe hoy.
+
+OpenAI compró Ona para que Codex pueda correr tareas durante días en la nube sin supervisión, lo que convierte al agente de asistente a contratista autónomo.
+
+Si trabajás en autorización de cobertura en ASESP, el caso de UnitedHealth y Humana es el benchmark negativo exacto que necesitás sobre la mesa: un 97% de reversión en apelación no es error, es diseño.
