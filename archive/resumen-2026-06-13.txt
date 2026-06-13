@@ -1,0 +1,11 @@
+Diario IA — sábado 13 de junio de 2026
+
+El gobierno de EE.UU. bajó Fable 5 y Mythos 5 el viernes a las 5:21 PM con una hora de aviso, invocando export controls por un jailbreak que Anthropic califica de "estrecho y no universal". La empresa cumplió pero cuestionó públicamente la decisión. Con el S-1 presentado y el IPO en proceso, los dos modelos premium que justifican la valuación de 965.000 millones quedaron offline para todos los clientes.
+
+Al mismo tiempo: 6.500 ingenieros de Meta llaman a su división Applied AI "el gulag" — fueron transferidos para generar puzzles de entrenamiento con un ultimátum join-or-quit. Más de 1.600 firmaron una petición contra el monitoreo de teclas. Zuckerberg admitió errores.
+
+En salud: Eli Lilly invirtió en Abridge y Nvidia construye con ellos el primer foundation model específico para conversaciones clínicas. Una madre canadiense demandó a OpenAI: ChatGPT recibió 12 avisos de ideación suicida de su hija sin activar ningún protocolo de escalada.
+
+Google DeepMind anunció un fondo de $10 millones porque admite que nadie sabe qué pasa cuando millones de agentes de distintas organizaciones interactúan entre sí.
+
+Tesis del día: el campo escaló más rápido de lo que sus instituciones — regulatorias, corporativas, técnicas — pueden controlar.
