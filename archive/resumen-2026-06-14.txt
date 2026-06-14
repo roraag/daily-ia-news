@@ -1,11 +1,9 @@
-Daily IA News — domingo 14 de junio de 2026
+La semana cerró con capital y regulación colisionando en el mismo fin de semana: el gobierno de EE.UU. congeló los dos modelos más potentes de Anthropic porque su propio inversor los reportó, China forzó a Meta a devolver dos mil millones en IA, y KPMG tuvo que retirar un reporte donde la IA se inventó todos los casos de éxito.
 
-El CEO de Amazon alertó al gobierno que Fable 5 podía producir info útil para ciberataques. Resultado: Anthropic tuvo que bajar sus dos modelos más potentes para todos sus clientes globalmente. La ironía: Amazon es el mayor inversor de Anthropic con $4.000 millones comprometidos.
+El CEO de Amazon reportó a Anthropic al gobierno: Fable 5 y Mythos 5 quedaron offline globalmente, justo antes del IPO a $965.000 millones, y no hay fecha de retorno.
 
-Beijing ordenó a Meta devolver su compra de $2.000 millones de Manus, startup de agentes IA china que se había registrado en Singapur para evadir la regulación. No funcionó. Los fundadores buscan $1.000 millones para recomprarla.
+Beijing le ordenó a Meta devolver Manus: el NDRC dejó en claro que cambiar de jurisdicción a Singapur no alcanza para sacar tecnología china del alcance del Estado.
 
-KPMG retiró un reporte sobre adopción de IA que había escrito con IA. Las organizaciones citadas —NHS, UBS, ferrocarriles suizos— confirmaron que los casos de éxito eran inventados.
+KPMG retiró un reporte de IA porque la IA que describía también lo escribió: el NHS, UBS y los ferrocarriles suizos confirmaron que los casos de éxito eran fabricados.
 
-SpaceX salió a bolsa a $1,77 billones (+25% el primer día), el mayor IPO de la historia. La IA fue el argumento central de valuación vía xAI y Starlink.
-
-Nueva York citó a OpenAI por publicidad, datos de menores, manejo de salud y "sycophancy" —la tendencia del modelo a decir lo que el usuario quiere escuchar, ahora categoría legal.
+Prestale atención hoy a cómo Anthropic resuelve los controles de exportación: cada hora que Fable 5 y Mythos 5 siguen offline es un argumento más para que el mercado descuente el IPO, y la tensión con Amazon como inversor y whistleblower simultáneo no tiene precedente.
