@@ -1,11 +1,6 @@
 {
-  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-06", "2026-06-07", "2026-06-08", "2026-06-09", "2026-06-10", "2026-06-11", "2026-06-12", "2026-06-13"],
+  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-06", "2026-06-07", "2026-06-08", "2026-06-09", "2026-06-10", "2026-06-11", "2026-06-12", "2026-06-13", "2026-06-14"],
   "recent_titles": [
-    "El mercado de IA perdio 2 billones de dolares en un dia. Broadcom, Nvidia y semiconductores en caida libre.",
-    "Apple va al WWDC con Siri nueva. El motor que la mueve es de Google.",
-    "El gobierno de EEUU quiere ser socio de OpenAI. Marcus dice que eso lo dice todo.",
-    "Nueva York prohibio que la IA finja ser amiga de tus hijos.",
-    "Apple no pudo construir su modelo: pago 1.000 millones a Google y abrio la puerta a Claude.",
     "El ROI de la IA no llega: Bain, Zitron y Marcus coincidieron en la misma semana.",
     "La tokenpocalipsis: los labs suben precios antes del IPO y los clientes pagan la diferencia.",
     "Pensilvania proceso chatbots que fingian ser medicos. Siguieron funcionando igual.",
@@ -33,7 +28,12 @@
     "6.500 ingenieros de Meta describen su trabajo como el gulag. Zuckerberg dijo que lo entiende.",
     "Eli Lilly invierte en Abridge y Nvidia construye el primer modelo base para conversaciones clinicas.",
     "Una madre demando a OpenAI: ChatGPT recibio 12 avisos de ideacion suicida. No alerto a nadie.",
-    "Google DeepMind pone 10 millones porque nadie sabe que pasa cuando millones de agentes se hablan entre si."
+    "Google DeepMind pone 10 millones porque nadie sabe que pasa cuando millones de agentes se hablan entre si.",
+    "El CEO de Amazon alerto al gobierno sobre Fable 5 y causo el ban global de los modelos de Anthropic.",
+    "Beijing ordeno a Meta devolver su compra de Manus por dos mil millones.",
+    "KPMG uso IA para escribir un reporte sobre IA y la IA se invento todos los casos de exito.",
+    "SpaceX salio a bolsa a 1,77 billones de dolares. La IA de Musk fue el argumento central de valuacion.",
+    "Fiscales estatales de EE.UU. investigan a OpenAI por datos de salud, menores y sycophancy."
   ],
   "days": {
     "2026-04-17": {
@@ -317,6 +317,11 @@
       "count": 5,
       "sources": ["anthropic.com", "techcrunch.com", "statnews.com", "cbsnews.com", "deepmind.google"],
       "tesis": "El gobierno de EE.UU. bajo Fable 5 y Mythos 5 el viernes con una hora de aviso, mientras Anthropic prepara su IPO a 965.000 millones de valuacion."
+    },
+    "2026-06-14": {
+      "count": 5,
+      "sources": ["bloomberg.com", "thenextweb.com", "techcrunch.com", "cnbc.com", "techcrunch.com"],
+      "tesis": "Amazon alerto al gobierno sobre Fable 5, Beijing bloqueo a Meta con Manus, y SpaceX salio a bolsa a 1,77 billones con IA como argumento."
     }
   }
 }
