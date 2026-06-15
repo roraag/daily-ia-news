@@ -21,6 +21,9 @@
     --watch-border: #8b5cb8;
     --bolsillo-bg: #eaf6ee;
     --bolsillo-border: #2f8a4a;
+    --bitcoin-bg: #fdf2e3;
+    --bitcoin-border: #f7931a;
+    --btc-down: #c0392b;
   }
   @media (prefers-color-scheme: dark) {
     :root {
@@ -39,6 +42,9 @@
       --watch-border: #b07ed6;
       --bolsillo-bg: #1a2a1f;
       --bolsillo-border: #5fb077;
+      --bitcoin-bg: #2a2114;
+      --bitcoin-border: #f7931a;
+      --btc-down: #e06c5e;
     }
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -208,6 +214,38 @@
   .seccion-bolsillo li { margin-bottom: 0.4rem; }
   .seccion-bolsillo .patron { font-style: italic; color: var(--muted); margin-top: 0.6rem; }
 
+  /* Bitcoin Watch — la única sección fuera de IA */
+  .seccion-bitcoin {
+    background: var(--bitcoin-bg);
+    border-left: 4px solid var(--bitcoin-border);
+    padding: 1.25rem 1.5rem;
+    margin-top: 2.5rem;
+    border-radius: 4px;
+  }
+  .seccion-bitcoin .seccion-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--bitcoin-border);
+    font-weight: 700;
+    margin-bottom: 0.6rem;
+  }
+  .seccion-bitcoin h3 {
+    font-family: "IBM Plex Serif", Georgia, serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.9rem;
+  }
+  .btc-metrics { display: flex; flex-wrap: wrap; gap: 0.7rem 1.6rem; margin-bottom: 1rem; }
+  .btc-metric { display: flex; flex-direction: column; min-width: 64px; }
+  .btc-metric .btc-k { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); }
+  .btc-metric .btc-v { font-family: "IBM Plex Serif", Georgia, serif; font-size: 1.2rem; font-weight: 600; }
+  .btc-metric .btc-v.btc-up { color: var(--bolsillo-border); }
+  .btc-metric .btc-v.btc-down { color: var(--btc-down); }
+  .seccion-bitcoin .btc-senales { margin-bottom: 0.6rem; }
+  .seccion-bitcoin .btc-fondo { margin-bottom: 0.6rem; }
+  .seccion-bitcoin .btc-fuente { color: var(--muted); font-size: 0.8rem; margin-top: 0.5rem; }
+
   /* El resto — breves */
   .seccion-resto {
     margin-top: 2.5rem;
@@ -274,7 +312,8 @@
       font-size: 0.8rem;
     }
     /* Compactar bloques destacados en pantalla angosta */
-    .tesis-dia, .seccion-watch, .seccion-bolsillo { padding: 1rem 1.1rem; }
+    .tesis-dia, .seccion-watch, .seccion-bolsillo, .seccion-bitcoin { padding: 1rem 1.1rem; }
+    .btc-metrics { gap: 0.6rem 1.2rem; }
     .tesis-dia .tesis-text { font-size: 1.05rem; }
     .section-heading { font-size: 1.25rem; margin-top: 2rem; }
   }
@@ -320,6 +359,8 @@
     {{BOLSILLO}}
 
     {{EL_RESTO}}
+
+    {{BITCOIN_WATCH}}
 
     <footer>
       {{TOTAL_COUNT}} noticias curadas. Daily IA News — tu redactor personal de IA.

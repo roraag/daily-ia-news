@@ -17,22 +17,24 @@ Cada página diaria muestra una sola vista: **Daily IA News**.
 
 ## Estructura editorial del diario
 
-Cada día el medio publica 5 bloques:
+Cada día el medio publica 6 bloques:
 
 1. **La tesis del día** — 2-4 oraciones que conectan las noticias del día en un hilo. Postura editorial declarada.
 2. **Lo que importa hoy** (Nivel A) — 3-7 noticias con desarrollo completo: título con voz, "Lo que pasó" (hechos crudos), **"El ángulo que nadie te va a dar"** (opinión + cita al panel humano), **"Para vos"** (acción concreta para Rodrigo), botón **"Llevame a Claude con esto"** (copia un prompt pre-armado al portapapeles).
 3. **Anthropic Watch** — sección fija dedicada a Anthropic. Posts del blog, jobs nuevos, takes de Dario / Krieger / Clark.
 4. **El Bolsillo** — quién hizo plata hoy con IA. Bullets con actor + monto + lectura. Cierra con patrón de la semana.
 5. **El resto** (Nivel B) — hasta 12 noticias menores con score ≥ 8, en una línea cada una, sin desarrollo. Para que nada con peso se pierda.
+6. **Bitcoin Watch** — la única sección fuera de la IA. Pulso de mercado (precio, dominancia, Fear & Greed), señales de alt season y una noticia de fondo. Datos vía API con fuente; señales, nunca profecías.
 
 **Sin cuota fija de noticias.** El editor (el prompt) decide cuántas entran a Nivel A según el día. Algunos días son 3 grandes + 8 breves, otros 7 grandes + 4 breves.
 
 ## Componentes
 
-- `config/sources.yaml` — pool con dos bloques:
-  - `sources` (23 medios editoriales: TechCrunch, MIT TR, STAT, HBR, Stratechery, Platformer, Anthropic Blog/Engineering/Careers, etc.)
+- `config/sources.yaml` — pool con tres bloques:
+  - `sources` (~26 medios editoriales de IA: TechCrunch, MIT TR, STAT, HBR, Stratechery, Platformer, Lenny's, Xataka, Anthropic Blog/Engineering/Careers, etc.)
   - `voices` (panel humano de 21 personas en 3 paneles: 10 founders, 6 especialistas, 5 críticos)
-- `templates/base.html` — plantilla con placeholders (`{{TESIS_DIA}}`, `{{NEWS_ITEMS}}`, `{{ANTHROPIC_WATCH}}`, `{{BOLSILLO}}`, `{{EL_RESTO}}`, `{{DATE}}`, `{{DATE_ISO}}`, `{{TOTAL_COUNT}}`, `{{ARCHIVE_DATA}}`).
+  - `crypto` (medios cripto + endpoints de datos de mercado; alimenta solo Bitcoin Watch, NO entra al ranking de IA)
+- `templates/base.html` — plantilla con placeholders (`{{TESIS_DIA}}`, `{{NEWS_ITEMS}}`, `{{ANTHROPIC_WATCH}}`, `{{BOLSILLO}}`, `{{EL_RESTO}}`, `{{BITCOIN_WATCH}}`, `{{DATE}}`, `{{DATE_ISO}}`, `{{TOTAL_COUNT}}`, `{{ARCHIVE_DATA}}`).
 - `prompts/daily-pipeline.md` — el prompt completo. 13 pasos. Define voz, secciones, criterios de ranking, panel humano.
 - `prompts/manual-run.md` — versión de debug manual.
 - `scripts/run-daily-vps.sh` — **el activo**. Bash en VPS, locale `es_ES.UTF-8`, genera HTML, resumen, copia local + `git push` a GitHub Pages al final. Acepta fecha opcional: `bash scripts/run-daily-vps.sh 2026-04-18`.

@@ -21,11 +21,15 @@ Soy un scheduled task. Son las 7:00 AM Uruguay y tengo que generar el diario de 
 
 ## Paso 1 — Leer config
 
-Leé el archivo de **Config** indicado en el header (ruta absoluta). Tiene dos bloques:
-- `sources` (~23 fuentes editoriales: TechCrunch, MIT TR, STAT, etc.)
+Leé el archivo de **Config** indicado en el header (ruta absoluta). Tiene tres bloques:
+- `sources` (~26 fuentes editoriales de IA: TechCrunch, MIT TR, STAT, Lenny's, Xataka, etc.)
 - `voices` (21 voces humanas en 3 paneles: founder / specialist / critic)
+- `crypto` (medios cripto + endpoints de datos de mercado, para la sección Bitcoin Watch)
 
-**Ojo:** estos son universos distintos. Las `sources` producen **noticias**. Las `voices` producen **takes y señales** (no son noticias por sí mismas).
+**Ojo:** son universos distintos.
+- Las `sources` producen **noticias de IA** → entran al ranking (Pasos 2-9).
+- Las `voices` producen **takes y señales** (no son noticias por sí mismas).
+- El bloque `crypto` alimenta **EXCLUSIVAMENTE** la sección Bitcoin Watch (Paso 9-ter). **NUNCA** entra al ranking de IA ni aparece en "Lo que importa hoy" / "El resto". Es lo único del diario fuera de la IA.
 
 ---
 
@@ -111,7 +115,10 @@ score = magnitud * 2 + relevancia_tematica * 1.5 + weight_fuente_max + consenso_
 - **diversidad_bonus:** +2 si ningún titular del top final tiene ese dominio principal; 0 si ya hay 1; -10 si ya hay 2.
 - **company_diversity_bonus:** 0 por defecto. -6 si el top final ya tiene 2 clusters del mismo “actor” (Anthropic/OpenAI/Google/Meta/Microsoft/Apple/NVIDIA). +2 si el actor todavía no apareció.
 - **topic_bonus:** +2 si el cluster tiene tag `browser_on_device` o `agents_memory` o `security_privacy_policy`; +1 si `open_source` o `hardware_infra`.
-- **obsesion_rodrigo_bonus:** +2 si el cluster toca alguno de: Anthropic, monetización IA, productividad con IA, IA en mutualistas/salud uruguaya, deals con dinero concreto.
+- **obsesion_rodrigo_bonus:** bonus por fit con los intereses declarados de Rodrigo (jerarquía — el más alto que aplique, no se acumulan entre sí):
+  - **+3** si toca **IA en salud / mutualistas / IAMC** (su día a día en ASESP) o **management / liderazgo / carrera comercial / ventas** (su meta: Gerente Comercial). Estos son los dos ángulos de mayor peso.
+  - **+2** si toca **Uruguay / LATAM** o **productividad / agentes / uso aplicado de IA en el trabajo**. Entran cuando la noticia es realmente buena.
+  - **+2** (se mantiene, acumulable con lo de arriba) si toca **Anthropic, monetización IA, o un deal con dinero concreto**.
 
 Ordená por score desc.
 
@@ -156,7 +163,7 @@ Para cada noticia elegida produzco esta estructura:
 - **summary:** 1-2 líneas con voz, no neutral. (~25 palabras)
 - **what_happened:** 2-3 bullets con datos crudos. Cada bullet **un dato medible**: cifras, nombres, fechas. Si podés, contextualizá con una analogía uruguaya (ej. *"5 GW = consumo de medio Uruguay"*).
 - **angle:** **EL ÁNGULO QUE NADIE TE VA A DAR**. 2-4 líneas con opinión declarada, conexión no obvia, o lectura entrelíneas. Acá uso los takes del panel humano si calzan: *"Karpathy ya advirtió esto en su último post"* / *"Para Ed Zitron esto confirma su tesis de que..."*. Esto reemplaza al viejo "por qué importa".
-- **for_rodrigo:** 1-2 líneas concretas sobre qué hacer con esto en el contexto de Rodrigo. PM en ASESP, comercial Hogar, analista de datos. Acción concreta o reflexión aplicable. Reemplaza al viejo "para quién".
+- **for_rodrigo:** 1-2 líneas concretas sobre qué hacer con esto en el contexto de Rodrigo. PM en ASESP (mutualista de salud), comercial Hogar, analista de datos, con meta de Gerente Comercial. Acción concreta o reflexión aplicable. Cuando la noticia toque **salud/mutualistas** o **management/carrera**, bajala explícitamente a su realidad: qué significaría dentro de una IAMC uruguaya, o qué le sirve para crecer hacia la gerencia. Ej: *"esto que hizo tal hospital con IA es replicable en una mutualista — anotalo para la reunión con Alfredo"*. Reemplaza al viejo "para quién".
 - **claude_prompt:** prompt pre-armado para profundizar en otro chat. Formato:
   *"Profundizá esta noticia: [URL]. Foco: [ángulo específico de esta noticia, en 1 línea]. Contexto del lector: PM en mutualista de salud uruguaya, fan de Anthropic. No me expliques qué es un LLM."*
 - **source_url, source_domain, category** (igual que antes).
@@ -220,6 +227,54 @@ Cada item tiene: titular en **bold** (8-12 palabras, voz directa), 1 frase de co
 
 ---
 
+## Paso 9-ter — Bitcoin Watch (sección fija, todos los días)
+
+La **única sección fuera de la IA**. Existe porque las inversiones de Rodrigo están todas en Bitcoin: está haciendo DCA en fase bajista y quiere leer el ciclo. Tres partes: pulso de mercado, señales de alt season, y una noticia de fondo opcional.
+
+**Regla de oro innegociable:** señales con fuente, **NUNCA profecías**. Está PROHIBIDO dar una fecha de alt season, decir "se viene", o predecir precio. Solo "esto muestran los datos hoy". Cada número lleva fuente. Si una API falla, **omití ese dato y seguí** — nunca inventes un número.
+
+### 1. Pulso de mercado — traé los datos con `curl` (Bash)
+
+Corré estos comandos (vienen del bloque `crypto.market_data` del config). Leé el JSON crudo de cada uno y extraé los campos:
+
+```bash
+curl -s --max-time 20 "https://api.coingecko.com/api/v3/coins/bitcoin?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false"
+curl -s --max-time 20 "https://api.coingecko.com/api/v3/global"
+curl -s --max-time 20 "https://api.alternative.me/fng/?limit=1"
+curl -s --max-time 20 "https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=btc"
+```
+
+- **Precio BTC**: `market_data.current_price.usd` → formato uruguayo con separador de miles (ej. 65.396 dólares).
+- **Variación 24h / 7d**: `price_change_percentage_24h` / `_7d` → redondeá a 1-2 decimales, con signo. Si es positiva, marcá la métrica con clase `btc-up`; si negativa, `btc-down`.
+- **Dominancia BTC**: `data.market_cap_percentage.btc` (un decimal, ej. 56,6%).
+- **Fear & Greed**: `data[0].value` + `data[0].value_classification` (traducí la etiqueta: Extreme Fear = "Miedo extremo", Fear = "Miedo", Neutral = "Neutral", Greed = "Codicia", Extreme Greed = "Codicia extrema").
+- **Fase del ciclo**: computá los días transcurridos desde el último halving (`crypto.ciclo.ultimo_halving` = 2024-04-20) con `date`. Reportalo como contexto factual ("a X días del halving de abril 2024"). PODÉS mencionar qué pasó en ciclos anteriores **declarándolo como pasado** ("en ciclos previos el pico llegó 12-18 meses post-halving"), pero NUNCA afirmes dónde estamos en ESTE ciclo ni qué viene.
+
+### 2. Señales de alt season
+
+Usá dominancia BTC + ratio ETH/BTC (`ethereum.btc` del cuarto curl). Lectura cualitativa honesta, sin fecha:
+- Dominancia BTC alta y/o subiendo → el dinero sigue en Bitcoin, todavía no rotó a alts.
+- Dominancia BTC cayendo + ETH/BTC subiendo → es la señal que históricamente precede al alt season (declaralo como patrón histórico, no como predicción).
+- Si conseguís el **Altcoin Season Index** (WebSearch "Altcoin Season Index blockchaincenter"), citalo con su valor (0-100; <25 = Bitcoin season, >75 = alt season). Si no lo conseguís, no pasa nada: usá dominancia + ETH/BTC.
+
+Redactá 1-2 oraciones tipo: *"Dominancia BTC en 56,6% y miedo extremo: el mercado sigue en modo Bitcoin. La rotación a alts arranca cuando la dominancia cae y el ETH/BTC se da vuelta — hoy no está pasando."*
+
+### 3. Noticia de fondo (opcional)
+
+Mirá los medios de `crypto.media` (cascada RSS → Google News `site:DOMINIO when:1d`, igual que las sources). Buscá **una sola** noticia de las últimas 24-48h que mueva la aguja: ETF, regulación, movimiento institucional grande, o macro (tasas/dólar) que pegue al precio. Una línea con link a fuente. **Si no hay nada relevante, omití esta parte** (no rellenes).
+
+### Composición final
+
+- **tagline** (1 línea): el clima del mercado hoy. Ej. *"Miedo extremo, dominancia alta: modo Bitcoin, sin señal de alt season."*
+- **métricas**: precio, 24h, 7d, dominancia, Fear & Greed.
+- **señales**: las 1-2 oraciones del punto 2.
+- **noticia de fondo**: la línea del punto 3, o vacío.
+- **fuente**: "Datos: CoinGecko + alternative.me · HH:MM UYT" (la hora de la corrida).
+
+**Si TODAS las APIs fallan** (raro): omití la sección entera (placeholder `{{BITCOIN_WATCH}}` = cadena vacía) y logueá el fallo. Un diario sin Bitcoin Watch vence a uno con números inventados.
+
+---
+
 ## Paso 10 — Generar el HTML
 
 1. Leé el **Template** indicado en el header (ruta absoluta).
@@ -234,6 +289,7 @@ Cada item tiene: titular en **bold** (8-12 palabras, voz directa), 1 frase de co
    - `{{ANTHROPIC_WATCH}}` → bloque HTML completo de la sección.
    - `{{BOLSILLO}}` → bloque HTML completo de la sección.
    - `{{EL_RESTO}}` → bloque HTML completo de la sección "El resto" (o cadena vacía si la omitís).
+   - `{{BITCOIN_WATCH}}` → bloque HTML completo de la sección Bitcoin Watch (o cadena vacía si todas las APIs fallan).
 
 ### Bloque tesis del día
 
@@ -330,9 +386,35 @@ El botón "Llevame a Claude" es **opcional** en El resto: incluilo solo si la no
 
 Si decidís omitir la sección entera (menos de 3 ítems), reemplazá `{{EL_RESTO}}` por cadena vacía.
 
+### Bloque Bitcoin Watch
+
+```html
+<div class="seccion-bitcoin">
+  <div class="seccion-label">Bitcoin Watch · lo único acá que no es IA</div>
+  <h3>{tagline}</h3>
+  <div class="btc-metrics">
+    <div class="btc-metric"><span class="btc-k">BTC</span><span class="btc-v">{precio}</span></div>
+    <div class="btc-metric"><span class="btc-k">24h</span><span class="btc-v {up_o_down}">{var24}</span></div>
+    <div class="btc-metric"><span class="btc-k">7d</span><span class="btc-v {up_o_down}">{var7d}</span></div>
+    <div class="btc-metric"><span class="btc-k">Dominancia</span><span class="btc-v">{dominancia}</span></div>
+    <div class="btc-metric"><span class="btc-k">Fear &amp; Greed</span><span class="btc-v">{fng_valor} · {fng_etiqueta}</span></div>
+  </div>
+  <p class="btc-senales"><strong>Señales:</strong> {senales}</p>
+  <p class="btc-fondo">{noticia_fondo}</p>
+  <p class="btc-fuente"><em>Datos: CoinGecko + alternative.me · {hora} UYT</em></p>
+</div>
+```
+
+Donde:
+- `{up_o_down}` es `btc-up` si la variación es positiva, `btc-down` si es negativa (pinta verde/rojo).
+- `{noticia_fondo}` es la línea del Paso 9-ter punto 3 con su `<a href=... >`. Si no hay noticia, **borrá toda la línea `<p class="btc-fondo">...</p>`** (no la dejes vacía).
+- Números en formato uruguayo (punto miles, coma decimales). Sin emojis.
+
+Si todas las APIs fallaron, reemplazá `{{BITCOIN_WATCH}}` por cadena vacía.
+
 3. Escribí el resultado en el **Archivo del día a generar** indicado en el header (ruta absoluta).
 
-**IMPORTANTE:** los bloques de código JS dentro del HTML NO deben tocarse. Solo sustituí los 9 placeholders exactos.
+**IMPORTANTE:** los bloques de código JS dentro del HTML NO deben tocarse. Solo sustituí los 10 placeholders exactos.
 
 **Nota de portabilidad (Mac/VPS):** no uses rutas hardcodeadas tipo `/Users/...`. Usá SIEMPRE las rutas absolutas que vienen en el header (Config / Template / Archivo del día / index-data.json).
 

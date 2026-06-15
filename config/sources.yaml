@@ -214,6 +214,22 @@ sources:
     language: en
     notes: señal de mainstream business + robótica; baja prioridad pero no dejar afuera
 
+  - name: Lenny's Newsletter
+    url: https://www.lennysnewsletter.com/
+    rss: https://www.lennysnewsletter.com/feed
+    category: business
+    weight: 3
+    language: en
+    notes: producto, management, carrera y growth — alimenta el ángulo management/carrera de Rodrigo (meta Gerente Comercial)
+
+  - name: a16z
+    url: https://a16z.com/
+    rss: null  # /feed/ da 404; usar fallback Google News site:a16z.com
+    category: business
+    weight: 2
+    language: en
+    notes: tendencias VC + negocio IA; aporta al ángulo management/carrera
+
   # ===== IA EN SALUD (~30%) =====
   - name: STAT News - Health Tech
     url: https://www.statnews.com/category/health-tech/
@@ -250,6 +266,14 @@ sources:
     weight: 1
     language: es
     notes: fuente recurrente en WhatsApp (LATAM/ES); baja prioridad pero incluida
+
+  - name: Xataka - Inteligencia Artificial
+    url: https://www.xataka.com/tag/inteligencia-artificial
+    rss: https://www.xataka.com/tag/inteligencia-artificial/rss2.xml
+    category: tech
+    weight: 2
+    language: es
+    notes: cobertura IA en español; alimenta el ángulo Uruguay/LATAM (complementar con WebSearch regional)
 
   - name: Microsoft Security Blog
     url: https://www.microsoft.com/en-us/security/blog/
@@ -450,3 +474,67 @@ voices:
     blog: null
     rss: null
     notes: crítica del modelo de negocio Big Tech IA
+
+# ============================================================
+# CRYPTO — fuentes y datos para la sección "Bitcoin Watch"
+# ============================================================
+# IMPORTANTE: este bloque NO entra al ranking de IA (Paso 5). NO compite por
+# aparecer en "Lo que importa hoy". Alimenta EXCLUSIVAMENTE la sección Bitcoin
+# Watch al final del diario. Misma separación de universos que sources vs voices.
+#
+# Encuadre obligatorio: señales con fuente, NUNCA profecías. No dar fecha de alt
+# season. Cada dato lleva fuente + hora. Si una API falla, omitir ese dato (no
+# inventar).
+# ============================================================
+
+crypto:
+  # ----- Medios (noticia de fondo: ETF, regulación, macro) -----
+  media:
+    - name: CoinDesk
+      url: https://www.coindesk.com/
+      rss: https://www.coindesk.com/arc/outboundfeeds/rss/
+      weight: 3
+      language: en
+
+    - name: Cointelegraph
+      url: https://cointelegraph.com/
+      rss: https://cointelegraph.com/rss
+      weight: 2
+      language: en
+
+    - name: Decrypt
+      url: https://decrypt.co/
+      rss: https://decrypt.co/feed
+      weight: 2
+      language: en
+
+    - name: Bitcoin Magazine
+      url: https://bitcoinmagazine.com/
+      rss: null  # RSS directo da 403; usar fallback Google News site:bitcoinmagazine.com
+      weight: 1
+      language: en
+
+  # ----- Datos de mercado (pulso + señales). Traer con curl (Bash). -----
+  # Validado 2026-06-14: los 3 endpoints responden el JSON esperado.
+  market_data:
+    - name: BTC precio + variaciones + market cap
+      endpoint: "https://api.coingecko.com/api/v3/coins/bitcoin?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false"
+      campos: "market_data.current_price.usd, market_data.price_change_percentage_24h, market_data.price_change_percentage_7d, market_data.market_cap.usd"
+
+    - name: Dominancia BTC y ETH
+      endpoint: "https://api.coingecko.com/api/v3/global"
+      campos: "data.market_cap_percentage.btc, data.market_cap_percentage.eth"
+
+    - name: Fear & Greed Index
+      endpoint: "https://api.alternative.me/fng/?limit=1"
+      campos: "data[0].value, data[0].value_classification"
+
+    - name: Ratio ETH/BTC
+      endpoint: "https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=btc"
+      campos: "ethereum.btc"
+
+  # ----- Contexto fijo del ciclo -----
+  ciclo:
+    ultimo_halving: "2024-04-20"   # bloque 840.000
+    proximo_halving_estimado: "~2028"
+    nota: "Computar días desde el último halving para ubicar la fase del ciclo. NO predecir precio ni fecha de alt season."

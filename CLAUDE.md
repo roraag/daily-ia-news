@@ -64,7 +64,7 @@ ssh openclaw@100.113.124.21 'cd /home/openclaw/DAILY-IA-NEWS && git pull'
 `run-daily-vps.sh` ejecuta esta cadena:
 
 1. **Idempotencia**: si `archive/YYYY-MM-DD.html` ya existe, sale sin hacer nada.
-2. **Llamada a Claude**: `claude --print --model sonnet` con `prompts/daily-pipeline.md` + header con paths absolutos. Claude tiene `Read Write Edit Bash Glob Grep WebFetch WebSearch` permitidos. Lee `config/sources.yaml`, fetchea, rankea, genera HTML usando `templates/base.html` con 9 placeholders (`{{TESIS_DIA}}`, `{{NEWS_ITEMS}}`, `{{ANTHROPIC_WATCH}}`, `{{BOLSILLO}}`, `{{EL_RESTO}}`, `{{DATE}}`, `{{DATE_ISO}}`, `{{TOTAL_COUNT}}`, `{{ARCHIVE_DATA}}`).
+2. **Llamada a Claude**: `claude --print --model sonnet` con `prompts/daily-pipeline.md` + header con paths absolutos. Claude tiene `Read Write Edit Bash Glob Grep WebFetch WebSearch` permitidos. Lee `config/sources.yaml`, fetchea, rankea, genera HTML usando `templates/base.html` con 10 placeholders (`{{TESIS_DIA}}`, `{{NEWS_ITEMS}}`, `{{ANTHROPIC_WATCH}}`, `{{BOLSILLO}}`, `{{EL_RESTO}}`, `{{BITCOIN_WATCH}}`, `{{DATE}}`, `{{DATE_ISO}}`, `{{TOTAL_COUNT}}`, `{{ARCHIVE_DATA}}`).
 3. **Sync archive data**: `scripts/sync-archive-data.py` actualiza el JS `ARCHIVE_DATA` en TODOS los HTML del histórico.
 4. **Resumen ejecutivo**: segunda llamada a Claude que lee el HTML del día y genera `archive/resumen-YYYY-MM-DD.txt` plano de 5-7 líneas. Originalmente para Telegram; hoy queda como artefacto disponible (lo puede leer Lucho si se lo pedís por WhatsApp / Telegram desde Hermes).
 5. **Copia local**: HTML + resumen se copian a `/home/openclaw/daily-ia-news/` (espejo accesible localmente, fuera del repo git).
