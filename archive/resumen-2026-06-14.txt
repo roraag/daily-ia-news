@@ -1,11 +1,5 @@
-Daily IA News — domingo 14 de junio de 2026
-
-El primer control de exportación contra un modelo de IA comercial vivo lo gatilló el CEO de la empresa que más invirtió en ese modelo: Andy Jassy (Amazon) alertó a la Casa Blanca sobre Fable 5, el modelo de Anthropic en el que Amazon tiene 4.000 millones de dólares. El Departamento de Comercio suspendió Fable 5 y Mythos 5 para todos los usuarios. Hoy Anthropic tiene personal senior en D.C. negociando la reactivación, con el IPO a 965.000 millones de valuación en juego.
-
-Mientras tanto, Mistral AI busca levantar 3.000 millones de euros a una valuación de 20.000 millones — casi el doble que hace 9 meses. El ban americano le da a Europa un argumento de ventas de IA soberana que no tenía la semana pasada.
-
-PwC publicó que la IA está subiendo los costos médicos, no bajándolos: 9% más en 2027. El mecanismo es el "upcoding" — herramientas de notas clínicas documentan con más detalle y eso permite cobrar códigos de mayor severidad sin cambiar la atención real.
-
-Google demandó a la red criminal china "Outsider Enterprise" que usó Gemini para clonar 9.000 sitios falsos y robar datos de 3,87 millones de tarjetas en 95 países.
-
-Bitcoin: 65.611 USD (+1,61% en 24h). Dominancia 56,6%. Fear & Greed: 20 (Miedo extremo). Mercado en modo Bitcoin, sin señal de rotación a alts.
+Amazon denunció el jailbreak de su propia inversión y el gobierno americano bajó Fable 5 y Mythos 5 con una hora de aviso — el primer control de exportación contra un modelo de IA comercial vivo, y lo gatilló quien puso 4.000 millones de dólares en ese modelo.
+Anthropic envía personal senior a Washington a negociar la reactivación de sus dos modelos más potentes mientras el IPO a 965.000 millones de valuación espera en el cajón.
+Mistral recibe valuación de 20.000 millones de euros — el ban americano a Anthropic le acaba de regalar el argumento de ventas que la soberanía europea no había logrado sola en dos años.
+PwC documentó que la IA está subiendo los costos médicos un 9% en 2027 porque los hospitales la usan para facturar con códigos de mayor severidad, no para mejorar la atención.
+Si en ASESP están evaluando contratar Anthropic para algo, hoy es el día para llevar al directorio el argumento de que un proveedor puede desconectarse con una hora de aviso por decisión regulatoria.
