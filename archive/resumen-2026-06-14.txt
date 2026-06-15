@@ -1,9 +1,11 @@
-La semana cerró con capital y regulación colisionando en el mismo fin de semana: el gobierno de EE.UU. congeló los dos modelos más potentes de Anthropic porque su propio inversor los reportó, China forzó a Meta a devolver dos mil millones en IA, y KPMG tuvo que retirar un reporte donde la IA se inventó todos los casos de éxito.
+Daily IA News — domingo 14 de junio de 2026
 
-El CEO de Amazon reportó a Anthropic al gobierno: Fable 5 y Mythos 5 quedaron offline globalmente, justo antes del IPO a $965.000 millones, y no hay fecha de retorno.
+El primer control de exportación contra un modelo de IA comercial vivo lo gatilló el CEO de la empresa que más invirtió en ese modelo: Andy Jassy (Amazon) alertó a la Casa Blanca sobre Fable 5, el modelo de Anthropic en el que Amazon tiene 4.000 millones de dólares. El Departamento de Comercio suspendió Fable 5 y Mythos 5 para todos los usuarios. Hoy Anthropic tiene personal senior en D.C. negociando la reactivación, con el IPO a 965.000 millones de valuación en juego.
 
-Beijing le ordenó a Meta devolver Manus: el NDRC dejó en claro que cambiar de jurisdicción a Singapur no alcanza para sacar tecnología china del alcance del Estado.
+Mientras tanto, Mistral AI busca levantar 3.000 millones de euros a una valuación de 20.000 millones — casi el doble que hace 9 meses. El ban americano le da a Europa un argumento de ventas de IA soberana que no tenía la semana pasada.
 
-KPMG retiró un reporte de IA porque la IA que describía también lo escribió: el NHS, UBS y los ferrocarriles suizos confirmaron que los casos de éxito eran fabricados.
+PwC publicó que la IA está subiendo los costos médicos, no bajándolos: 9% más en 2027. El mecanismo es el "upcoding" — herramientas de notas clínicas documentan con más detalle y eso permite cobrar códigos de mayor severidad sin cambiar la atención real.
 
-Prestale atención hoy a cómo Anthropic resuelve los controles de exportación: cada hora que Fable 5 y Mythos 5 siguen offline es un argumento más para que el mercado descuente el IPO, y la tensión con Amazon como inversor y whistleblower simultáneo no tiene precedente.
+Google demandó a la red criminal china "Outsider Enterprise" que usó Gemini para clonar 9.000 sitios falsos y robar datos de 3,87 millones de tarjetas en 95 países.
+
+Bitcoin: 65.611 USD (+1,61% en 24h). Dominancia 56,6%. Fear & Greed: 20 (Miedo extremo). Mercado en modo Bitcoin, sin señal de rotación a alts.

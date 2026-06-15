@@ -1,10 +1,6 @@
 {
   "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-06", "2026-06-07", "2026-06-08", "2026-06-09", "2026-06-10", "2026-06-11", "2026-06-12", "2026-06-13", "2026-06-14"],
   "recent_titles": [
-    "El ROI de la IA no llega: Bain, Zitron y Marcus coincidieron en la misma semana.",
-    "La tokenpocalipsis: los labs suben precios antes del IPO y los clientes pagan la diferencia.",
-    "Pensilvania proceso chatbots que fingian ser medicos. Siguieron funcionando igual.",
-    "OpenAI va a bolsa. Una semana despues de Anthropic, y con la misma duda.",
     "Apple uso el WWDC para confesar que Siri necesita a Google.",
     "Anthropic publico los numeros de la recursion: la IA construye su codigo ocho veces mas rapido.",
     "Zitron y Marcus dijeron lo mismo: la IA necesita una matematica que todavia no existe.",
@@ -12,7 +8,7 @@
     "Anthropic libera Fable 5: el modelo que declaro peligroso ahora es para todos.",
     "Fable 5 tiene salvaguardas ocultas que degradan respuestas sin avisar.",
     "El chatbot de Meta entrego 20.000 cuentas de Instagram a hackers pro-iranies.",
-    "Google bajo AI Plus a $4,99 por mes. La guerra de precios de IA ya empezo.",
+    "Google bajo AI Plus a 4,99 dolares por mes. La guerra de precios de IA ya empezo.",
     "El 71% de los medicos en 10 paises dice que la IA mejoro su flujo de trabajo.",
     "El sabotaje invisible de Fable 5: Anthropic reconocio el error y revirtio.",
     "OpenAI evalua recortar precios antes del IPO mientras SoftBank no consiguio el prestamo de seis mil millones.",
@@ -33,7 +29,11 @@
     "Beijing ordeno a Meta devolver su compra de Manus por dos mil millones.",
     "KPMG uso IA para escribir un reporte sobre IA y la IA se invento todos los casos de exito.",
     "SpaceX salio a bolsa a 1,77 billones de dolares. La IA de Musk fue el argumento central de valuacion.",
-    "Fiscales estatales de EE.UU. investigan a OpenAI por datos de salud, menores y sycophancy."
+    "Fiscales estatales de EE.UU. investigan a OpenAI por datos de salud, menores y sycophancy.",
+    "Anthropic vuela a Washington a desactivar el ban que Amazon disparo.",
+    "Mistral vale 20.000 millones de euros. Europa le pone precio a su apuesta de IA soberana.",
+    "PwC: la IA no baja los costos medicos. Los esta subiendo. 9 por ciento mas en 2027.",
+    "Google demando a la red criminal china que uso Gemini para robar 3,87 millones de tarjetas."
   ],
   "days": {
     "2026-04-17": {
@@ -319,9 +319,9 @@
       "tesis": "El gobierno de EE.UU. bajo Fable 5 y Mythos 5 el viernes con una hora de aviso, mientras Anthropic prepara su IPO a 965.000 millones de valuacion."
     },
     "2026-06-14": {
-      "count": 5,
-      "sources": ["bloomberg.com", "thenextweb.com", "techcrunch.com", "cnbc.com", "techcrunch.com"],
-      "tesis": "Amazon alerto al gobierno sobre Fable 5, Beijing bloqueo a Meta con Manus, y SpaceX salio a bolsa a 1,77 billones con IA como argumento."
+      "count": 4,
+      "sources": ["fortune.com", "techcrunch.com", "axios.com", "bloomberg.com"],
+      "tesis": "El primer control de exportacion contra un modelo de IA comercial vivo lo gatillo el CEO de la empresa que mas invirtio en ese modelo."
     }
   }
 }
