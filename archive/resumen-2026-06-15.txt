@@ -1,13 +1,9 @@
-Daily IA News — lunes 15 de junio de 2026
+La IA salió del laboratorio y nadie tiene las instituciones para manejarla: esta semana lo demostraron tres historias que parecían separadas pero no lo son.
 
-TESIS: La IA salio del laboratorio y nadie tiene las instituciones para manejarla. Un grupo vinculado al Estado chino (GTG-1002) accedio a Mythos antes del ban. El gobierno respondio con una ley de exportaciones. En paralelo, 150.000 despidos en 2026 mientras los insiders van al IPO. Y en Brasil, una IA hospitalaria le nego UCI a una paciente durante cinco dias hasta que murio.
+Un grupo estatal chino accedió a Mythos antes del ban y el gobierno de EE.UU. cerró el acceso global a los dos modelos más poderosos de Anthropic usando una ley de exportaciones de 2019, sin aviso real ni due process — la ironía es que Dario acababa de publicar el ensayo que le abrió esa puerta al ejecutivo.
 
-1. CHINA ACCEDIO A MYTHOS (tech) — GTG-1002 sospechado de acceso a Mythos antes del ban. Primera restriccion de exportacion sobre un modelo IA vivo. Anthropic en Washington negociando. Fuente: semafor.com
+La ola de despidos atribuidos a IA superó 150.000 personas en lo que va del año mientras los insiders se hacían millonarios con IPOs y los anuncios de cortes empujaban acciones al alza el mismo día.
 
-2. 150.000 DESPIDOS EN 2026 (negocio) — 44% mas rapido que el ano anterior. Block, Meta, Uber. Insiders del sector: millonarios nuevos en SpaceX. Tension social creciente. Fuente: techcrunch.com
+En Brasil, una IA hospitalaria sobrescribió el criterio médico cinco días seguidos y le negó UCI a una paciente de 32 años que terminó muriendo — el caso que mejor resume qué pasa cuando el diseño le da autoridad de decisión al modelo en lugar de solo recomendación.
 
-3. BRASIL: MUERTE POR IA HOSPITALARIA (salud) — Sistema estatal de asignacion de UCI sobrescribio el criterio medico cinco dias. Paciente murio. Familia demanda. Debate sobre autoridad de la IA vs. decision clinica. Fuente: futurism.com
-
-ANTHROPIC WATCH: Dario Amodei en Washington con su ensayo de regulacion FAA-style en una mano y a desactivar el ban en la otra. La ironia: propuso que el gobierno pudiera bloquear modelos peligrosos; el gobierno lo hizo sin el due process que el ensayo pedia.
-
-BTC: 65.640 USD / +1,91% 24h / Dominancia 56,6% / Fear & Greed: 20 (Miedo extremo). Bitcoin sube por acuerdo EEUU-Iran pero el sentimiento sigue pesimista. Sin senal de alt season.
+Prestá atención a la negociación de Anthropic en Washington esta semana: si levantan el ban antes del IPO o no va a definir si el control de exportaciones se convierte en la herramienta permanente con la que el ejecutivo regula qué modelos existen y para quién.
