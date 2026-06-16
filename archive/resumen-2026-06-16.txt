@@ -1,0 +1,15 @@
+Daily IA News — martes 16 de junio de 2026
+
+Tesis: Mientras Anthropic manda ingenieros a Washington para recuperar sus propios modelos, DeepSeek cerró 7.400 millones con el Estado chino. Las restricciones de exportación de EE.UU. no detuvieron la carrera de IA, la relanzaron con otros actores. OpenAI reveló que gastó 34.000 millones en 2025 y perdió 38.500. El campo avanza. Las cuentas no cierran.
+
+1. [TECH] Anthropic en Washington: tres días de negociaciones con Commerce Department sin acuerdo. La comunidad de ciberseguridad explicó que el "fix this code" que disparó el ban es trabajo defensivo normal. El Pentágono usó Claude después del ban — la restricción es papel mojado hacia adentro.
+
+2. [NEGOCIO] OpenAI gastó 34.000 millones en 2025 y perdió entre 38.500 y 39.000 millones. Ingresos: 13.000 millones. Microsoft se llevó 17.200 millones vía cómputo. Va al IPO igual.
+
+3. [NEGOCIO] DeepSeek levantó 7.400 millones en su primera ronda — Tencent, CATL, NetEase, JD.com y el fondo nacional de IA de China. Valuación: entre 52.000 y 59.000 millones de dólares. China tiene su campeón nacional de IA.
+
+4. [NEGOCIO] Salesforce compró Fin por 3.600 millones. Primera adquisición de agente puro a escala enterprise. Agentforce en 1.200 millones de ARR con crecimiento del 205%.
+
+5. [SALUD] Un paciente con ELA usó una interfaz cerebro-computadora más de 3.800 horas de forma completamente independiente en su hogar. Primer hito real de autonomía para BCIs fuera del laboratorio.
+
+Bitcoin Watch: BTC en 66.881 dólares (+1,90% en 24h, +5,75% en 7 días). Dominancia 56,5%. Fear & Greed: 23 — Miedo extremo. Banco de Japón subió tasas al 1%, máximo desde 1995.
