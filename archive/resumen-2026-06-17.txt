@@ -1,9 +1,9 @@
-Daily IA News — miércoles 17 de junio de 2026
+La IA dejó de ser tecnología: hoy es infraestructura geopolítica, con los tres CEOs de los labs frontier en el G7, el mayor deal de startup de la historia y el cómputo de IA ya cotizando como commodity.
 
-La IA dejó de ser tecnología. Es infraestructura geopolítica. Hoy el G7 en Évian reunió por primera vez a los CEOs de OpenAI, Anthropic y Google DeepMind junto a los presidentes del mundo. Al mismo tiempo, SpaceX cerró la mayor compra de startup de la historia pagando 60.000 millones de dólares por Cursor, el editor de código IA. Y el CME Group anunció los primeros contratos de futuros sobre poder de cómputo: el compute ya tiene mercado de commodities.
+SpaceX pagó 60.000 millones por Cursor dos días después de su IPO — la mayor compra de startup VC de todos los tiempos — y el mercado aplaudió sin importar que Cursor perdiera cuota.
 
-Las 6 noticias del día: SpaceX compra Cursor por 60.000 millones (mayor adquisición de startup VC de todos los tiempos). G7 con Altman, Amodei y Hassabis (primera vez en la historia). CME Group convierte el compute de IA en commodity financiero. NVIDIA Blackwell barre MLPerf Training 6.0 (DeepSeek-V3 en 2 minutos con 8.192 GPUs). AT&T implementa "token-minimizing": el enterprise empieza a racionar la IA. Una biotech convierte su fracaso clínico en modelo de IA.
+El CME Group va a vender poder de cómputo de IA en bolsa como si fuera crudo: primeros contratos de futuros sobre tokens, ETFs ya presentados ante la SEC, y un spread Anthropic-OpenAI tan público como el diferencial Brent-WTI.
 
-Anthropic Watch: Dario en el G7, datos de Ramp muestran que el ban les ayudó a vender más en el mercado doméstico, y lanzaron Claude Corps con 150M para nonprofits.
+AT&T empezó a racionar tokens por empleado — The Information lo bautizó "token-minimizing" — mientras solo el 13% de las empresas reporta mejoras reales de productividad tras adoptar IA.
 
-Bitcoin: 65.704 USD, -0,73% en 24h, +6,53% en 7 días. Dominancia 56,16%. Fear & Greed: 22 (Miedo extremo). Sin señal de alt season.
+Mirá el dato de AT&T de cerca: antes de que alguien en dirección te pregunte qué retorno da la IA que ya adoptaron en ASESP, tenés que tener la métrica lista.
