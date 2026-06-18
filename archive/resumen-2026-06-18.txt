@@ -1,0 +1,13 @@
+Daily IA News — jueves 18 de junio de 2026
+
+Google pagó 2.700 millones para recuperar al co-padre del Transformer hace menos de dos años. Hoy Noam Shazeer se fue a OpenAI. El talento no pertenece a nadie.
+
+China puso en Hugging Face un modelo de 753.000 millones de parámetros con licencia MIT que supera a GPT-5.5 en código por un sexto del precio. Mientras Washington debate controles de exportación, el modelo ya está descargable por cualquiera.
+
+Midjourney anunció su primer hardware: un escáner de cuerpo completo por ultrasonido en 60 segundos, calidad MRI, sin radiación. Lanzamiento en San Francisco en 2027. Las mutualistas deberían estar mirando esto ahora.
+
+Odyssey levantó $310 millones para construir "world models": IA que simula física real en lugar de lenguaje. Amazon y Jeff Dean (Chief Scientist de Google) entre los inversores.
+
+El "botsitting" tiene número: los empleados gastan 6,4 horas semanales corrigiendo errores de IA. La automatización mueve el cuello de botella pero no lo elimina.
+
+Bitcoin: 65.704 USD, -0,73% en 24h, miedo extremo (F&G: 15). La Fed con Kevin Warsh adoptó postura hawkish y los ETFs perdieron $111M. Dominancia BTC en 56,1%, sin señal de alt season.
