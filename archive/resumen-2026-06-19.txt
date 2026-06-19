@@ -1,11 +1,9 @@
-Daily IA News — viernes 19 de junio de 2026
+La IA pasó de la especulación a los hechos con URL, datos y, en el caso de Musk, coordenadas de misiles: el campo se fragmentó entre lo que la IA ya hace y lo que nadie quería admitir en voz alta.
 
-El Pentágono confirmó que Grok de Musk disparó 2.000 misiles contra Irán en 96 horas (Operación Epic Fury, feb 2026). La revelación salió en un affidavit de una demanda ambiental contra xAI, no ante el Congreso. Contrato DOD: $200M.
+El Pentágono confirmó bajo juramento que Grok de Musk coordinó 2.000 misiles contra 2.000 blancos distintos en 96 horas — la revelación salió en un affidavit de una demanda ambiental en Memphis, no ante el Congreso ni ante ninguna comisión de seguridad nacional.
 
-Anthropic publicó Project Fetch Phase Two: Claude Opus 4.7 completó tareas de robótica 38 veces más rápido que un equipo humano puro. 1.045 líneas de código funcionales al primer intento vs 10.309 de un equipo humano con IA.
+Claude completó tareas de programación de robótica 38 veces más rápido que un equipo humano puro: 9,5 minutos contra 357, con código que funcionó al primer intento y diez veces menos líneas — Anthropic lo llama "experimento de capacidades", pero los números son los de automatización de trabajo de ingeniería.
 
-Amazon va a vender sus chips Trainium fuera de AWS por primera vez. Oportunidad estimada: $50.000 millones. El chip reduce costos de inferencia un 80% vs H100 de Nvidia.
+ChatGPT diagnosticó 18 enfermedades genéticas raras en niños que habían quedado sin resolución por la medicina convencional y superó a médicos en cuatro dimensiones de evaluación clínica, con 230 millones de personas haciendo preguntas de salud por semana.
 
-OpenAI: GPT-5.5 Instant supera a médicos en respuestas de salud en 4 dimensiones. Un modelo de razonamiento diagnosticó 18 enfermedades genéticas raras que la medicina convencional no pudo resolver. 230 millones de usuarios semanales hacen preguntas de salud a ChatGPT.
-
-Google DeepMind publicó su plan para protegerse de su propia IA, usando la frase "imperfectly aligned" para describir sus propios agentes. BTC: $65.704 USD, dominancia 55,9%, Fear & Greed en 14 (Miedo extremo).
+Prestale atención a Jack Clark: el co-fundador de Policy de Anthropic publicó en Import AI que "el alineamiento no está en camino" y lanzó una ONG con ex-investigadores del UK AI Security Institute — cuando quien diseña la política de safety de uno de los labs más comprometidos con el tema lo dice así en público, no es retórica.
