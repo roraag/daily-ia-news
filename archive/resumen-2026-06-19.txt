@@ -1,0 +1,11 @@
+Daily IA News — viernes 19 de junio de 2026
+
+El Pentágono confirmó que Grok de Musk disparó 2.000 misiles contra Irán en 96 horas (Operación Epic Fury, feb 2026). La revelación salió en un affidavit de una demanda ambiental contra xAI, no ante el Congreso. Contrato DOD: $200M.
+
+Anthropic publicó Project Fetch Phase Two: Claude Opus 4.7 completó tareas de robótica 38 veces más rápido que un equipo humano puro. 1.045 líneas de código funcionales al primer intento vs 10.309 de un equipo humano con IA.
+
+Amazon va a vender sus chips Trainium fuera de AWS por primera vez. Oportunidad estimada: $50.000 millones. El chip reduce costos de inferencia un 80% vs H100 de Nvidia.
+
+OpenAI: GPT-5.5 Instant supera a médicos en respuestas de salud en 4 dimensiones. Un modelo de razonamiento diagnosticó 18 enfermedades genéticas raras que la medicina convencional no pudo resolver. 230 millones de usuarios semanales hacen preguntas de salud a ChatGPT.
+
+Google DeepMind publicó su plan para protegerse de su propia IA, usando la frase "imperfectly aligned" para describir sus propios agentes. BTC: $65.704 USD, dominancia 55,9%, Fear & Greed en 14 (Miedo extremo).
