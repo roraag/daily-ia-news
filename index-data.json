@@ -1,14 +1,6 @@
 {
-  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-06", "2026-06-07", "2026-06-08", "2026-06-09", "2026-06-10", "2026-06-11", "2026-06-12", "2026-06-13", "2026-06-14", "2026-06-15", "2026-06-16", "2026-06-17", "2026-06-18", "2026-06-19"],
+  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-06", "2026-06-07", "2026-06-08", "2026-06-09", "2026-06-10", "2026-06-11", "2026-06-12", "2026-06-13", "2026-06-14", "2026-06-15", "2026-06-16", "2026-06-17", "2026-06-18", "2026-06-19", "2026-06-20"],
   "recent_titles": [
-    "xAI despidio al ingeniero que alerto sobre Grok. La demanda llego dias antes del IPO de SpaceX.",
-    "Neura Robotics levanta 1.400 millones de dolares. Nvidia, Amazon y Tether apuestan al robot fisico.",
-    "Un tribunal aleman declaro a Google responsable por las alucinaciones de su IA.",
-    "Bezos aposto 12.000 millones a que la IA puede hacer el trabajo de un ingeniero fisico.",
-    "DiffusionGemma: Google largo un modelo open source 4 veces mas rapido. Corre en una laptop.",
-    "La IA de las aseguradoras nego rehabilitacion. Los jueces revirtieron el 97% de los casos.",
-    "OpenAI compra Ona para que Codex trabaje dias enteros en la nube.",
-    "Xiaomi lanzo MiMo Code open source. Dice que supera a Claude Code en tareas de 200 pasos.",
     "El gobierno de EE.UU. bajo los dos modelos mas poderosos de Anthropic. Con una hora de aviso.",
     "6.500 ingenieros de Meta describen su trabajo como el gulag. Zuckerberg dijo que lo entiende.",
     "Eli Lilly invierte en Abridge y Nvidia construye el primer modelo base para conversaciones clinicas.",
@@ -41,7 +33,11 @@
     "Claude resolvio tareas de robotica 38 veces mas rapido que un equipo humano. Sin iteracion.",
     "Amazon va a vender sus chips de IA fuera de AWS. La oportunidad: 50.000 millones de dolares.",
     "ChatGPT diagnostico 18 enfermedades raras que la medicina no pudo. Y supera a medicos en salud.",
-    "Google publico el plan para protegerse de su propia IA. Uso la frase imperfectly aligned."
+    "Google publico el plan para protegerse de su propia IA. Uso la frase imperfectly aligned.",
+    "El Nobel de DeepMind se va a Anthropic. Google pierde al segundo gran ficho en una semana.",
+    "Accenture cayo 20% en un dia. El peor crash de su historia. Y la culpa es de la IA.",
+    "Una startup de Miami dice que resolvio el cuello de botella de todos los LLMs. Con escepticismo incluido.",
+    "Nathan Lambert: prohibir la IA open source seria un error historico. El 90% del software mundial lo usa."
   ],
   "days": {
     "2026-04-17": {
@@ -355,6 +351,11 @@
       "count": 5,
       "sources": ["thehill.com", "anthropic.com", "techcrunch.com", "openai.com", "deepmind.google"],
       "tesis": "El Pentagono confirmo que Grok de Musk disparo 2.000 misiles contra Iran en 96 horas mientras Claude completo tareas de robotica 38x mas rapido que humanos."
+    },
+    "2026-06-20": {
+      "count": 4,
+      "sources": ["techstartups.com", "bloomberg.com", "technologyreview.com", "interconnects.ai"],
+      "tesis": "Accenture se derrumbo 20% en un dia mientras el Nobel de DeepMind elige Anthropic sobre su propio lab."
     }
   }
 }
