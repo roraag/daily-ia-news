@@ -1,0 +1,6 @@
+El Nobel de DeepMind eligió Anthropic sobre su propio lab mientras Accenture se derrumba, señalando que el mercado empieza a separar la IA que entrega resultados de la que vende transformación difusa.
+
+El Nobel de DeepMind abandonó Google para sumarse a Anthropic, días después de que el co-arquitecto de Gemini hiciera lo mismo hacia OpenAI: Google pierde talento estelar por dos frentes en una semana.
+Accenture cayó 20% en bolsa en un solo día, el peor de su historia, porque los ejecutivos corporativos no ven el ROI que la IA prometió y el mercado ya no acepta transformaciones sin métricas.
+Una startup de Miami afirma haber resuelto el cuello de botella cuadrático de los LLMs con un mecanismo de atención que costaría $8 donde Opus 4.6 cuesta $2.600, aunque ex-investigadores de OpenAI cuestionan la evidencia.
+Prestale atención al movimiento de Jumper dentro de Anthropic: si aterriza en investigación de biología o salud, el lab puede estar construyendo algo muy concreto para ciencias de la vida, y eso tiene implicancias directas para una mutualista.
