@@ -1,10 +1,6 @@
 {
-  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-06", "2026-06-07", "2026-06-08", "2026-06-09", "2026-06-10", "2026-06-11", "2026-06-12", "2026-06-13", "2026-06-14", "2026-06-15", "2026-06-16", "2026-06-17", "2026-06-18", "2026-06-19", "2026-06-20"],
+  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-06", "2026-06-07", "2026-06-08", "2026-06-09", "2026-06-10", "2026-06-11", "2026-06-12", "2026-06-13", "2026-06-14", "2026-06-15", "2026-06-16", "2026-06-17", "2026-06-18", "2026-06-19", "2026-06-20", "2026-06-21"],
   "recent_titles": [
-    "El gobierno de EE.UU. bajo los dos modelos mas poderosos de Anthropic. Con una hora de aviso.",
-    "6.500 ingenieros de Meta describen su trabajo como el gulag. Zuckerberg dijo que lo entiende.",
-    "Eli Lilly invierte en Abridge y Nvidia construye el primer modelo base para conversaciones clinicas.",
-    "Una madre demando a OpenAI: ChatGPT recibio 12 avisos de ideacion suicida. No alerto a nadie.",
     "Google DeepMind pone 10 millones porque nadie sabe que pasa cuando millones de agentes se hablan entre si.",
     "El CEO de Amazon alerto al gobierno sobre Fable 5 y causo el ban global de los modelos de Anthropic.",
     "Beijing ordeno a Meta devolver su compra de Manus por dos mil millones.",
@@ -37,7 +33,11 @@
     "El Nobel de DeepMind se va a Anthropic. Google pierde al segundo gran ficho en una semana.",
     "Accenture cayo 20% en un dia. El peor crash de su historia. Y la culpa es de la IA.",
     "Una startup de Miami dice que resolvio el cuello de botella de todos los LLMs. Con escepticismo incluido.",
-    "Nathan Lambert: prohibir la IA open source seria un error historico. El 90% del software mundial lo usa."
+    "Nathan Lambert: prohibir la IA open source seria un error historico. El 90% del software mundial lo usa.",
+    "Washington le pide a Anthropic que resuelva lo que los expertos dicen que no tiene solucion.",
+    "150 personas en el mundo tienen electrodos cerebrales implantados. Los ensayos no paran.",
+    "Jack Clark lo dice sin adornos: la alineacion de IA no esta en camino.",
+    "OpenAI en Europa: apoyo a la confiabilidad justo cuando Anthropic esta en la mira."
   ],
   "days": {
     "2026-04-17": {
@@ -356,6 +356,11 @@
       "count": 4,
       "sources": ["techstartups.com", "bloomberg.com", "technologyreview.com", "interconnects.ai"],
       "tesis": "Accenture se derrumbo 20% en un dia mientras el Nobel de DeepMind elige Anthropic sobre su propio lab."
+    },
+    "2026-06-21": {
+      "count": 4,
+      "sources": ["garymarcus.substack.com", "technologyreview.com", "importai.substack.com", "openai.com"],
+      "tesis": "El gobierno pide guardrails imposibles a Anthropic mientras Jack Clark dice que la alineacion no esta en camino."
     }
   }
 }
