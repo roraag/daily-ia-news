@@ -1,3 +1,9 @@
-Daily IA News — domingo 21 de junio de 2026
+Washington le exige a Anthropic guardrails imposibles de circunvenir mientras Jack Clark declara que la alineación para superinteligencia no está en camino — el campo avanza rápido, la gobernanza corre detrás sin saber bien qué pedirle.
 
-El gobierno de EE.UU. le pide a Anthropic guardrails imposibles de circunventar como condición para levantar el ban de Fable 5 y Mythos 5. Expertos de seguridad dicen que ese estándar no existe en ningún sistema de software. En paralelo, Jack Clark publica en Import AI 461 que la alineación para superinteligencia "no está en camino" — y lo dice gente que salió del gobierno para hacer algo al respecto. Los ensayos de interfaces cerebro-computadora siguen creciendo: ya hay 150 personas con electrodos cerebrales implantados en el mundo. Y mientras Anthropic negocia en Washington, OpenAI firma statements de apoyo a la IA confiable en Europa, posicionándose como el actor de referencia en el mercado enterprise europeo esta semana. BTC en 65.704 dólares con miedo extremo (Fear & Greed: 23) y dominancia en 56,2%: modo Bitcoin puro, sin señal de alt season.
+Trump condicionó el levantamiento del ban de Fable 5 y Mythos 5 a que Anthropic demuestre guardrails "incircunventables", un estándar que los expertos de ciberseguridad comparan con resolver P vs NP.
+
+Jack Clark lanzó Sequent, un nonprofit con meta de $100-150M, para atacar el problema de alineación para superinteligencia que ningún lab está resolviendo en serio según él mismo.
+
+OpenAI firmó un statement de apoyo al AI Act europeo con timing quirúrgico: con los modelos de Anthropic bloqueados para usuarios extranjeros, se posicionó como el proveedor frontier confiable en Europa sin gastar un peso.
+
+Seguí de cerca cómo termina la negociación de Anthropic en Washington — de ahí depende si los modelos más capaces del momento vuelven a estar disponibles o si OpenAI consolida este terreno por semanas más.
