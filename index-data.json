@@ -1,10 +1,6 @@
 {
-  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-06", "2026-06-07", "2026-06-08", "2026-06-09", "2026-06-10", "2026-06-11", "2026-06-12", "2026-06-13", "2026-06-14", "2026-06-15", "2026-06-16", "2026-06-17", "2026-06-18", "2026-06-19", "2026-06-20", "2026-06-21"],
+  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-06", "2026-06-07", "2026-06-08", "2026-06-09", "2026-06-10", "2026-06-11", "2026-06-12", "2026-06-13", "2026-06-14", "2026-06-15", "2026-06-16", "2026-06-17", "2026-06-18", "2026-06-19", "2026-06-20", "2026-06-21", "2026-06-22"],
   "recent_titles": [
-    "Google DeepMind pone 10 millones porque nadie sabe que pasa cuando millones de agentes se hablan entre si.",
-    "El CEO de Amazon alerto al gobierno sobre Fable 5 y causo el ban global de los modelos de Anthropic.",
-    "Beijing ordeno a Meta devolver su compra de Manus por dos mil millones.",
-    "KPMG uso IA para escribir un reporte sobre IA y la IA se invento todos los casos de exito.",
     "SpaceX salio a bolsa a 1,77 billones de dolares. La IA de Musk fue el argumento central de valuacion.",
     "Fiscales estatales de EE.UU. investigan a OpenAI por datos de salud, menores y sycophancy.",
     "Anthropic vuela a Washington a desactivar el ban que Amazon disparo.",
@@ -37,7 +33,11 @@
     "Washington le pide a Anthropic que resuelva lo que los expertos dicen que no tiene solucion.",
     "150 personas en el mundo tienen electrodos cerebrales implantados. Los ensayos no paran.",
     "Jack Clark lo dice sin adornos: la alineacion de IA no esta en camino.",
-    "OpenAI en Europa: apoyo a la confiabilidad justo cuando Anthropic esta en la mira."
+    "OpenAI en Europa: apoyo a la confiabilidad justo cuando Anthropic esta en la mira.",
+    "Trump dice que Anthropic ya no es amenaza. Fable 5 sigue apagado.",
+    "Samsung despliega ChatGPT Enterprise para toda su fuerza de trabajo global. El mayor deploy enterprise de OpenAI.",
+    "Insilico firma un deal de 2.500 millones con SK Biopharmaceuticals para descubrir drogas neurologicas.",
+    "El BCE dice que la IA no movio el empleo europeo. Por ahora."
   ],
   "days": {
     "2026-04-17": {
@@ -361,6 +361,11 @@
       "count": 4,
       "sources": ["garymarcus.substack.com", "technologyreview.com", "importai.substack.com", "openai.com"],
       "tesis": "El gobierno pide guardrails imposibles a Anthropic mientras Jack Clark dice que la alineacion no esta en camino."
+    },
+    "2026-06-22": {
+      "count": 4,
+      "sources": ["techcrunch.com", "openai.com", "aijourn.com", "reuters.com"],
+      "tesis": "El ban formal de Anthropic sigue vigente mientras Trump se ablanda y Samsung hace el mayor deploy enterprise de OpenAI en la historia."
     }
   }
 }
