@@ -1,0 +1,9 @@
+Hoy la IA no maduró en un frente: maduró en todos al mismo tiempo, más rápido de lo que ninguna institución puede procesar.
+
+La FDA aprobó EchoNext, un modelo que detecta 7 cardiopatías desde el ECG rutinario y llega a los médicos esta semana vía la plataforma donde ya buscan información clínica.
+
+OpenAI convirtió sus modelos en producto de ciberseguridad enterprise con IBM el mismo día que Five Eyes advirtió que las amenazas con IA frontier están a meses de distancia.
+
+Jack Clark documentó que la IA persuade mejor que expertos humanos en casi 19.000 conversaciones — y es el cofundador de Anthropic a cargo de Policy quien decide hacerlo visible en su newsletter personal.
+
+Lo que vale prestar atención hoy: MIT Technology Review reveló que fue Andy Jassy —CEO de Amazon y principal accionista de Anthropic— quien alertó al gobierno sobre Fable 5 y gatilló los controles de exportación; eso convierte la crisis regulatoria de Anthropic en una tensión estructural con su propio inversor, no en un malentendido con Washington.
