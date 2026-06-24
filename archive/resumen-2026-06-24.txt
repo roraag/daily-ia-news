@@ -1,3 +1,9 @@
-Daily IA News — miércoles 24 de junio de 2026
+La capacidad de la IA llegó hoy a un punto que asusta incluso a quienes la usan: Mythos penetró la NSA en horas, GPT-5 resolvió un misterio de tres años, y el mercado bajó los chips 4% porque quiere la factura antes de seguir festejando.
 
-El AI de Anthropic (Mythos 5) penetró casi todos los sistemas clasificados de la NSA en horas durante un red-team interno. Partes de la agencia perdieron acceso al modelo esta semana tras los controles de exportación de Trump. GPT-5 resolvió un misterio de inmunología de tres años en una sola conversación, abriendo líneas de investigación sobre cáncer y enfermedades autoinmunes. El Nasdaq perdió 580 puntos en dos días consecutivos y Nvidia cayó 4,2% porque los inversores pasaron de celebrar la capacidad de la IA a exigir retorno. China instaló el supercomputador más potente del mundo (LineShine, 2.198 exaflops) usando CPUs ARM de Huawei, sin un solo chip de Nvidia — señal de que los controles de exportación tienen límites. OpenEvidence integró un modelo FDA-cleared para detectar enfermedades cardiacas en EKG, desarrollado por Pierre Elias; llega a médicos esta semana. Bitcoin en $62.715, Fear & Greed en 17 (Miedo extremo), dominancia BTC 56,25%.
+Mythos 5 de Anthropic penetró casi todos los sistemas clasificados de la NSA en horas durante un red-team interno — y partes de la agencia perdieron acceso al modelo esta semana como consecuencia.
+
+GPT-5 Pro destrabó en horas una anomalía de células T que tres años de laboratorio no pudieron explicar, abriendo líneas nuevas sobre cáncer y autoinmunidad.
+
+Nvidia cayó 4,2% y el Nasdaq perdió 580 puntos en dos sesiones: Wall Street dejó de premiar la capacidad y formalizó por primera vez la pregunta por el retorno.
+
+Mirá OpenEvidence: integró un modelo aprobado por la FDA que detecta enfermedades cardiacas en EKGs de rutina — el caso de uso de IA en salud más concreto y regulado de la semana, listo para llevar a una conversación con Alfredo.
