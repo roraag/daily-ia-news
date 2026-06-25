@@ -1,0 +1,9 @@
+Daily IA News — jueves 25 de junio de 2026
+
+Tres frentes abiertos: Anthropic acusa a Alibaba del mayor ataque de distilación de la historia (28,8 millones de intercambios con 25.000 cuentas falsas para copiar las capacidades de Claude), OpenAI presenta su primer chip propio de inferencia —Jalapeño, diseñado con Broadcom en nueve meses—, y Google lanza computer use en Gemini 3.5 Flash disponible para cualquier desarrollador desde hoy.
+
+En salud: UC Berkeley publica en Nature que la fibrosis cardíaca difusa es la causa ignorada de 350.000 muertes súbitas anuales en EE.UU., identificada por IA. Assort Health cierra 120 millones de dólares a valuación de 1.200 millones con 20x de crecimiento en revenue en 15 meses —su plataforma de voz maneja el ciclo completo del paciente y da +115% de capacidad laboral.
+
+El CEO de AWS justifica contratar 11.000 juniors mientras Amazon recorta 30.000 puestos corporativos: el argumento es que los ingenieros ahora dirigen agentes en lugar de escribir código.
+
+Bitcoin en 61.625 dólares, -1,74% en 24 horas, Fear & Greed en 12 (miedo extremo). CoinDesk documenta que el capital institucional prefiere el AI trade sobre el crypto trade.
