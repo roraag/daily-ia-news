@@ -1,0 +1,7 @@
+Daily IA News — viernes 26 de junio de 2026
+
+Los agentes de IA crecieron 137 veces en usuarios no técnicos según un paper de OpenAI, mientras los usuarios organizacionales no técnicos crecieron 189 veces desde agosto 2025. La Casa Blanca le pidió a OpenAI que frenara el lanzamiento de GPT 5.6 por razones de ciberseguridad ofensiva — primera intervención preventiva de Trump antes de un release de modelo.
+
+La FDA otorgó la designación "breakthrough" a Cognita y Aidoc para sistemas de IA generativa que redactan informes de radiología de tórax completos. Claude creció 75% en ingresos pagos desde enero 2026 según análisis de transacciones de 28 millones de consumidores. IBM presentó arquitectura "nanostack" con 100.000 millones de transistores apilados en vertical — 50% más potente y 70% más eficiente.
+
+En Anthropic Watch: Claude Code Foundations publicado ayer; Jonas Adler y Alexander Pritzel (ex-Gemini, ex-AlphaFold) se incorporan a Anthropic. Cuatro salidas de alto perfil de Google en seis días. Bitcoin en 60.149 dólares con Fear & Greed en 13 (miedo extremo).
