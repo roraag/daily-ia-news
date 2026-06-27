@@ -1,11 +1,9 @@
-Daily IA News — sábado 27 de junio de 2026
+Washington convirtió los modelos frontier en activos de acceso controlado — tratados como semiconductores de doble uso, no como software — mientras en hospitales y oficinas los agentes ya tomaron decisiones sin que nadie lo debatiera.
 
-Washington trató la IA de punta como tecnología de exportación controlada mientras en hospitales y oficinas los agentes ya tomaron decisiones sin pedir permiso.
+El gobierno americano autorizó Mythos 5 para más de 100 empresas bajo el mismo marco legal que regula exportaciones de chips: el acceso a IA de punta dejó de ser una suscripción y pasó a ser un permiso de Estado.
 
-- Mythos 5 volvió, pero bajo control del Departamento de Comercio: más de 100 empresas y agencias autorizadas. El gobierno americano aplicó por primera vez el marco de exportación controlada a un modelo de lenguaje.
-- OpenAI presentó GPT-5.6 en tres tiers (Sol, Terra, Luna) y el gobierno también frenó su rollout inicial. OpenAI obedeció y protestó al mismo tiempo.
-- La FDA tiene el pipeline de IA médica más lleno de su historia: dos herramientas de radiología acaban de obtener designación de breakthrough. El horizonte de adopción se comprime.
-- HBR documentó que los mandos medios son los más afectados por la IA empresarial: más coordinación, sin más autoridad ni recursos.
-- Notion cerró su app de email porque los usuarios prefieren agentes de IA. Primera discontinuación de producto SaaS atribuida explícitamente a los agentes.
+La FDA tiene el pipeline de IA médica más lleno de su historia, con herramientas de IA generativa en radiología entrando por el carril de designación breakthrough: en 12-18 meses eso se convierte en disponibilidad real en clínicas.
 
-Bitcoin: 60.372 USD, +0,37% en 24h, -5,20% en 7 días. Dominancia 55,8%. Fear & Greed: 15 (Miedo extremo). BTC rebotó desde mínimos de 58.000 — los derivados siguen señalando presión adicional.
+Notion cerró su app de email porque la mayoría de sus usuarios emigró a agentes de IA — es el primer caso documentado de una empresa SaaS establecida que admite en voz alta que los agentes le reemplazaron un producto entero.
+
+Prestá atención al patrón de hoy: la política debate quién accede a los modelos más potentes, el mercado ya los está usando para decidir qué apps existen y qué roles tienen sentido. Las dos conversaciones no están sincronizadas.
