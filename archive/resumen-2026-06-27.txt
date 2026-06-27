@@ -1,0 +1,11 @@
+Daily IA News — sábado 27 de junio de 2026
+
+Washington trató la IA de punta como tecnología de exportación controlada mientras en hospitales y oficinas los agentes ya tomaron decisiones sin pedir permiso.
+
+- Mythos 5 volvió, pero bajo control del Departamento de Comercio: más de 100 empresas y agencias autorizadas. El gobierno americano aplicó por primera vez el marco de exportación controlada a un modelo de lenguaje.
+- OpenAI presentó GPT-5.6 en tres tiers (Sol, Terra, Luna) y el gobierno también frenó su rollout inicial. OpenAI obedeció y protestó al mismo tiempo.
+- La FDA tiene el pipeline de IA médica más lleno de su historia: dos herramientas de radiología acaban de obtener designación de breakthrough. El horizonte de adopción se comprime.
+- HBR documentó que los mandos medios son los más afectados por la IA empresarial: más coordinación, sin más autoridad ni recursos.
+- Notion cerró su app de email porque los usuarios prefieren agentes de IA. Primera discontinuación de producto SaaS atribuida explícitamente a los agentes.
+
+Bitcoin: 60.372 USD, +0,37% en 24h, -5,20% en 7 días. Dominancia 55,8%. Fear & Greed: 15 (Miedo extremo). BTC rebotó desde mínimos de 58.000 — los derivados siguen señalando presión adicional.
