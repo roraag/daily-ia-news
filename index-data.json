@@ -1,11 +1,6 @@
 {
-  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-06", "2026-06-07", "2026-06-08", "2026-06-09", "2026-06-10", "2026-06-11", "2026-06-12", "2026-06-13", "2026-06-14", "2026-06-15", "2026-06-16", "2026-06-17", "2026-06-18", "2026-06-19", "2026-06-20", "2026-06-21", "2026-06-22", "2026-06-23", "2026-06-24", "2026-06-25", "2026-06-26", "2026-06-27"],
+  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-06", "2026-06-07", "2026-06-08", "2026-06-09", "2026-06-10", "2026-06-11", "2026-06-12", "2026-06-13", "2026-06-14", "2026-06-15", "2026-06-16", "2026-06-17", "2026-06-18", "2026-06-19", "2026-06-20", "2026-06-21", "2026-06-22", "2026-06-23", "2026-06-24", "2026-06-25", "2026-06-26", "2026-06-27", "2026-06-28"],
   "recent_titles": [
-    "150 personas en el mundo tienen electrodos cerebrales implantados. Los ensayos no paran.",
-    "Jack Clark lo dice sin adornos: la alineacion de IA no esta en camino.",
-    "OpenAI en Europa: apoyo a la confiabilidad justo cuando Anthropic esta en la mira.",
-    "Trump dice que Anthropic ya no es amenaza. Fable 5 sigue apagado.",
-    "Samsung despliega ChatGPT Enterprise para toda su fuerza de trabajo global. El mayor deploy enterprise de OpenAI.",
     "Insilico firma un deal de 2.500 millones con SK Biopharmaceuticals para descubrir drogas neurologicas.",
     "El BCE dice que la IA no movio el empleo europeo. Por ahora.",
     "FDA aprobo EchoNext: un modelo que detecta 7 enfermedades cardiacas por ECG. Llega esta semana a los medicos.",
@@ -33,7 +28,12 @@
     "GPT-5.6 Sol: tres tiers de modelo. El gobierno lo restringio antes de que saliera.",
     "La FDA no para: el pipeline de IA medica esta en maximos historicos.",
     "Los mandos medios son los que mas sufren la IA. HBR lo documento.",
-    "Notion cerro su app de email. Los usuarios prefieren agentes."
+    "Notion cerro su app de email. Los usuarios prefieren agentes.",
+    "La mitad de los usuarios de Claude ya delegan la mitad de su trabajo. Anthropic lo documento.",
+    "Claude Code convirtio a cada ingeniero en tres. Ahora faltan los que piensan el producto.",
+    "Google lanzo la Interactions API. Ahora los agentes de Gemini tienen una interfaz unificada.",
+    "Gary Marcus declaro junio el mes en que la IA perdio el mojo. Y Anthropic publico lo contrario.",
+    "Startups asiaticas lanzan sus propios Mythos. El ban de Anthropic creo un vacio que se esta llenando."
   ],
   "days": {
     "2026-04-17": {"count": 6, "sources": ["openai.com", "techcrunch.com", "hbr.org", "fiercehealthcare.com", "statnews.com"]},
@@ -107,6 +107,7 @@
     "2026-06-24": {"count": 5, "sources": ["nextgov.com", "openai.com", "cbsnews.com", "xataka.com", "statnews.com"], "tesis": "El AI de Anthropic entro a los sistemas de la NSA en horas y GPT-5 resolvio un misterio de inmunologia. El mercado bajo los chips 4% porque quiere ver la factura."},
     "2026-06-25": {"count": 6, "sources": ["cnbc.com", "techcrunch.com", "blog.google", "statnews.com", "fiercehealthcare.com", "platformer.news"], "tesis": "Anthropic acuso a Alibaba del mayor ataque de distilacion de la historia mientras OpenAI presento su primer chip y Google democratizo computer use para cualquier desarrollador."},
     "2026-06-26": {"count": 5, "sources": ["openai.com", "statnews.com", "techcrunch.com", "techcrunch.com", "technologyreview.com"], "tesis": "Los agentes de IA crecieron 137 veces entre usuarios no tecnicos mientras la Casa Blanca frenaba el proximo lanzamiento de OpenAI por primera vez."},
-    "2026-06-27": {"count": 5, "sources": ["techcrunch.com", "openai.com", "statnews.com", "hbr.org", "arstechnica.com"], "tesis": "Washington trato la IA de punta como tecnologia de exportacion controlada mientras en hospitales y oficinas los agentes ya tomaron decisiones sin pedir permiso."}
+    "2026-06-27": {"count": 5, "sources": ["techcrunch.com", "openai.com", "statnews.com", "hbr.org", "arstechnica.com"], "tesis": "Washington trato la IA de punta como tecnologia de exportacion controlada mientras en hospitales y oficinas los agentes ya tomaron decisiones sin pedir permiso."},
+    "2026-06-28": {"count": 5, "sources": ["anthropic.com", "venturebeat.com", "blog.google", "garymarcus.substack.com", "techcrunch.com"], "tesis": "Junio termina partido en dos narraciones: Marcus declaro que la IA perdio el mojo; Anthropic publico que la mitad de sus usuarios ya delegan la mitad de su trabajo."}
   }
 }
