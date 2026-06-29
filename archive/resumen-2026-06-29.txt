@@ -1,3 +1,9 @@
-Resumen Daily IA News — lunes 29 de junio de 2026
+Hoy tres países apostaron más de un billón de dólares a infraestructura de IA en el mismo día, mientras China publicó gratis un modelo de ciberseguridad que iguala al que Washington decidió bloquear.
 
-Hoy se comprometió más de un billón de dólares para ganar la carrera de la infraestructura de IA. Corea del Sur anunció que Samsung y SK Hynix invertirán 518.000 millones de dólares para construir cuatro fábricas de chips, y Baidu sacó a bolsa en Hong Kong su brazo de semiconductores Kunlunxin a 50.000 millones de valoración. Al mismo tiempo, China publicó gratis un modelo de ciberseguridad (GLM-5.2 de Z.ai) que iguala a Claude Mythos en detección de vulnerabilidades, al cuarto del precio — una respuesta directa al ban de exportación de Mythos que impuso EE.UU. el 12 de junio. En salud: Sword Health firmó con el NHS de Portugal para dar fisioterapia con IA a los 10 millones de habitantes del país, el primer contrato de este tipo a escala nacional. Y Ford tuvo que traer de vuelta a 350 ingenieros veteranos después de que sus sistemas automáticos de control de calidad fallaran: ahorraron cientos de millones en garantías y ganaron el ranking JD Power. En Bitcoin: precio en 59.776 USD, Fear & Greed en 12 (miedo extremo), peor mes para los ETFs de BTC con 4.000 millones de salidas netas.
+Portugal contrató a Sword Health para darle fisioterapia virtual con IA a sus 10 millones de habitantes: primer contrato de IA de salud a escala nacional, y el CEO ya apunta a Medicare como próximo mercado.
+
+Samsung y SK Hynix comprometieron más de 500.000 millones de dólares en cuatro fábricas de chips: la carrera dejó de ser entre empresas y pasó a ser entre países, y define qué modelos existen y a qué precio en 2030.
+
+Ford admitió públicamente que apostó todo a la automatización, la calidad se desplomó, y tuvo que traer de vuelta 350 ingenieros veteranos para entrenar a la IA y recuperar el primer puesto en calidad.
+
+Prestale atención al dato de Pew que pasó casi sin ruido: el 49% de los estadounidenses ya usa IA seguido pero solo el 16% cree que será buena para el mundo, y el 71% desconfía de sus datos; esa brecha entre adopción y confianza es el riesgo político más subestimado para cualquier proyecto de IA en salud.
