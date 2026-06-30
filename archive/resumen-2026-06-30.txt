@@ -1,12 +1,9 @@
-Daily IA News — martes 30 de junio de 2026
+El campo de IA y trabajo muestra dos caras al mismo tiempo: las empresas que adoptan IA intensivamente contratan 10% más, pero llamarle "empleado" a tu agente baja la supervisión 44%, y la industria que publicó ambos datos juntó 500 millones para reconvertir a los trabajadores que va a desplazar.
 
-Hoy el debate de IA y trabajo no tiene una lectura limpia. Un estudio de 22.000 empresas dice que las que adoptan IA contratan 10% más, mientras MIT TR publica que si llamás "empleado" a tu agente, lo supervisás 44% menos.
+Llamar "empleado digital" a tu agente de IA reduce 44% la probabilidad de que quienes lo usen lo supervisen activamente y sube 18% los errores que pasan sin detectarse, según un experimento de la Universidad de Boston.
 
-Las 5 noticias de hoy:
-1. MIT TR: llamar "empleado" a tu agente de IA reduce la supervisión un 44% (investigación de Emma Wiles, U. Boston)
-2. Ramp/Revelio Labs: las empresas que más usan IA contratan más — 10,2% de crecimiento en headcount, puestos junior +12%
-3. NVIDIA ENPIRE: robots que aprenden solos con 99% de éxito en tareas de precisión — el loop de automejora llega al mundo físico
-4. Trase recaudó 107 millones de dólares para agentes de IA en salud — Duke los tiene procesando 5.000 faxes/mes, 7,1x más rápido que manual
-5. California firmó con Anthropic: Claude a mitad de precio para todo el gobierno estatal, mientras Washington los mantiene bloqueados
+Trase cerró un seed de 107 millones para agentes de IA en salud HIPAA-compliant: en Duke procesan 5.000 faxes por mes a 7 veces la velocidad manual, liberando 1.395 horas y 285.000 dólares al año en capacidad de staff.
 
-Bitcoin: 59.216 dólares, miedo extremo (15/100), dominancia BTC 55,5%. El yen japonés en mínimos de 40 años y Strategy abriendo la puerta a vender bitcoin mantienen el mercado bajo presión.
+California habilitó Claude a mitad de precio para todos sus empleados estatales en el mismo trimestre en que Washington declaró a Anthropic riesgo para la cadena de suministro.
+
+El patrón del Bolsillo de hoy es el que más te conviene llevar a ASESP: la inversión en IA se mueve hacia sectores regulados — salud, gobierno, defensa — lo que abre la ventana para argumentar con datos frescos.
