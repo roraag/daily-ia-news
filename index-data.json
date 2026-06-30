@@ -1,11 +1,6 @@
 {
-  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-06", "2026-06-07", "2026-06-08", "2026-06-09", "2026-06-10", "2026-06-11", "2026-06-12", "2026-06-13", "2026-06-14", "2026-06-15", "2026-06-16", "2026-06-17", "2026-06-18", "2026-06-19", "2026-06-20", "2026-06-21", "2026-06-22", "2026-06-23", "2026-06-24", "2026-06-25", "2026-06-26", "2026-06-27", "2026-06-28", "2026-06-29"],
+  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-06", "2026-06-07", "2026-06-08", "2026-06-09", "2026-06-10", "2026-06-11", "2026-06-12", "2026-06-13", "2026-06-14", "2026-06-15", "2026-06-16", "2026-06-17", "2026-06-18", "2026-06-19", "2026-06-20", "2026-06-21", "2026-06-22", "2026-06-23", "2026-06-24", "2026-06-25", "2026-06-26", "2026-06-27", "2026-06-28", "2026-06-29", "2026-06-30"],
   "recent_titles": [
-    "Groq confirmo 650 millones. Pero la historia real es el acuerdo de 20.000 millones con Nvidia.",
-    "Superpersuasion: la IA convencio mejor que expertos en casi 19.000 conversaciones. Clark lo documenta.",
-    "Z.ai lanzo GLM-5.2 y Nathan Lambert dice que es el primer modelo abierto que realmente compite para agentes.",
-    "El AI de Anthropic entro a casi todos los sistemas clasificados de la NSA en horas.",
-    "GPT-5 resolvio en horas un misterio de inmunologia que tres anos de laboratorio no pudieron.",
     "Nvidia cayo 4,2% y el mercado le puso fecha limite a la IA: ahora o nunca.",
     "China puso el supercomputador mas potente del mundo. Sin un solo chip de Nvidia.",
     "OpenEvidence suma IA aprobada por la FDA para detectar enfermedades cardiacas en un EKG.",
@@ -34,7 +29,12 @@
     "Corea del Sur aposto 649.000 millones de dolares a chips y IA. Samsung firma primero.",
     "Baidu saca a bolsa Kunlunxin, su brazo de chips de IA, con una valoracion de 50.000 millones.",
     "China publico gratis un modelo que iguala a Mythos para detectar vulnerabilidades de seguridad.",
-    "Ford tuvo que llamar a 350 veteranos porque la IA sola no controlo la calidad en manufactura."
+    "Ford tuvo que llamar a 350 veteranos porque la IA sola no controlo la calidad en manufactura.",
+    "Llamarle empleado a tu agente de IA hace que lo supervises menos. Un 44% menos.",
+    "El estudio mas anti-intuitivo del ano: las empresas que mas usan IA contratan mas, no menos.",
+    "NVIDIA construyo un sistema para que los robots aprendan solos. 99% de exito en insertar una GPU.",
+    "Trase levanto 107 millones de dolares para agentes de IA en salud. Duke ya los tiene en triaje.",
+    "California firmo con Anthropic. Claude a mitad de precio para todo el gobierno estatal."
   ],
   "days": {
     "2026-04-17": {"count": 6, "sources": ["openai.com", "techcrunch.com", "hbr.org", "fiercehealthcare.com", "statnews.com"]},
@@ -109,7 +109,8 @@
     "2026-06-25": {"count": 6, "sources": ["cnbc.com", "techcrunch.com", "blog.google", "statnews.com", "fiercehealthcare.com", "platformer.news"], "tesis": "Anthropic acuso a Alibaba del mayor ataque de distilacion de la historia mientras OpenAI presento su primer chip y Google democratizo computer use para cualquier desarrollador."},
     "2026-06-26": {"count": 5, "sources": ["openai.com", "statnews.com", "techcrunch.com", "techcrunch.com", "technologyreview.com"], "tesis": "Los agentes de IA crecieron 137 veces entre usuarios no tecnicos mientras la Casa Blanca frenaba el proximo lanzamiento de OpenAI por primera vez."},
     "2026-06-27": {"count": 5, "sources": ["techcrunch.com", "openai.com", "statnews.com", "hbr.org", "arstechnica.com"], "tesis": "Washington trato la IA de punta como tecnologia de exportacion controlada mientras en hospitales y oficinas los agentes ya tomaron decisiones sin pedir permiso."},
-    "2026-06-28": {"count": 5, "sources": ["anthropic.com", "venturebeat.com", "blog.google", "garymarcus.substack.com", "techcrunch.com"], "tesis": "Junio termina partido en dos narraciones: Marcus declaro que la IA perdio el mojo; Anthropic publico que la mitad de sus usuarios ya delegan la mitad de su trabajo."},
-    "2026-06-29": {"count": 5, "sources": ["statnews.com", "cnbc.com", "thenextweb.com", "digitaltrends.com", "techcrunch.com"], "tesis": "Corea del Sur aposto 649.000 millones a chips mientras China publico gratis un modelo que iguala a Mythos para ciberseguridad."}
+    "2026-06-28": {"count": 5, "sources": ["anthropic.com", "venturebeat.com", "blog.google", "garymarcus.substack.com", "techcrunch.com"], "tesis": "Junio termina partido en dos narrativas: Marcus declaro que la IA perdio el mojo; Anthropic publico que la mitad de sus usuarios ya delegan la mitad de su trabajo."},
+    "2026-06-29": {"count": 5, "sources": ["statnews.com", "cnbc.com", "thenextweb.com", "digitaltrends.com", "techcrunch.com"], "tesis": "Corea del Sur aposto 649.000 millones a chips mientras China publico gratis un modelo que iguala a Mythos para ciberseguridad."},
+    "2026-06-30": {"count": 5, "sources": ["technologyreview.com", "techcrunch.com", "importai.substack.com", "axios.com", "fiercehealthcare.com"], "tesis": "El debate de IA y trabajo no tiene una lectura limpia: las empresas que adoptan IA contratan mas, pero llamarle empleado a tu agente baja la supervision 44%."}
   }
 }
