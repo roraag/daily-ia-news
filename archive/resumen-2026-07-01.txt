@@ -1,0 +1,11 @@
+Daily IA News — miércoles 1 de julio de 2026
+
+El ban de 19 días sobre los modelos más poderosos de Anthropic cayó hoy. La razón oficial: la empresa "acordó detectar riesgos proactivamente". La razón real: las startups asiáticas llenaron el vacío en tiempo récord y el gobierno decidió que restringir era peor que competir.
+
+Antropic usó el momento para lanzar tres cosas al mismo tiempo: Claude Sonnet 5 ($2/M tokens de entrada, más barato y más capaz para agentes), Claude Science (workbench para investigación científica y pharma), y un programa de desarrollo propio de fármacos para enfermedades desatendidas. Cuatro movidas en 24 horas — las más activas de la empresa en meses.
+
+El New York Times publicó hoy en portada que los modelos chinos ya igualaron a Anthropic y OpenAI en capacidades técnicas. No es coincidencia: esa brecha cerrada fue el argumento que convenció al gobierno a revocar el ban.
+
+En el plano de gestión y trabajo: CNBC documentó que las empresas que despidieron empleados citando IA están arrepintiéndose — el reemplazo antes de que los sistemas estuvieran listos generó problemas de calidad y pérdida de clientes. Y Ars Technica describió un ataque que mete a los AI browsers en un "estado de sueño" donde sus guardrails dejan de funcionar — relevante para cualquier organización que evalúe estos navegadores en entornos con datos sensibles.
+
+Bitcoin: $58.887, Fear & Greed en 11 (miedo extremo). Los ETF spot tuvieron su peor mes histórico en junio, con salidas de $4.500 millones. Sin señal de rotación hacia alts.

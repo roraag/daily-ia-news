@@ -1,11 +1,6 @@
 {
-  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-06", "2026-06-07", "2026-06-08", "2026-06-09", "2026-06-10", "2026-06-11", "2026-06-12", "2026-06-13", "2026-06-14", "2026-06-15", "2026-06-16", "2026-06-17", "2026-06-18", "2026-06-19", "2026-06-20", "2026-06-21", "2026-06-22", "2026-06-23", "2026-06-24", "2026-06-25", "2026-06-26", "2026-06-27", "2026-06-28", "2026-06-29", "2026-06-30"],
+  "dates": ["2026-04-17", "2026-04-18", "2026-04-19", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-25", "2026-04-26", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-02", "2026-05-03", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-09", "2026-05-10", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-16", "2026-05-17", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-23", "2026-05-24", "2026-05-25", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-05-30", "2026-05-31", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-06", "2026-06-07", "2026-06-08", "2026-06-09", "2026-06-10", "2026-06-11", "2026-06-12", "2026-06-13", "2026-06-14", "2026-06-15", "2026-06-16", "2026-06-17", "2026-06-18", "2026-06-19", "2026-06-20", "2026-06-21", "2026-06-22", "2026-06-23", "2026-06-24", "2026-06-25", "2026-06-26", "2026-06-27", "2026-06-28", "2026-06-29", "2026-06-30", "2026-07-01"],
   "recent_titles": [
-    "Nvidia cayo 4,2% y el mercado le puso fecha limite a la IA: ahora o nunca.",
-    "China puso el supercomputador mas potente del mundo. Sin un solo chip de Nvidia.",
-    "OpenEvidence suma IA aprobada por la FDA para detectar enfermedades cardiacas en un EKG.",
-    "Anthropic acusa a Alibaba de robar las capacidades de Claude. 28 millones de intercambios.",
-    "OpenAI tiene su primer chip propio. Jalapeno. Disenado en nueve meses.",
     "Google mete computer use en Gemini Flash. Ahora cualquier desarrollador tiene un agente que ve la pantalla.",
     "Un modelo de IA descifro por que muere gente de repente del corazon. Berkeley, Nature.",
     "IA de voz que maneja el triaje de pacientes. 120 millones de dolares y 190 millones de interacciones.",
@@ -34,7 +29,13 @@
     "El estudio mas anti-intuitivo del ano: las empresas que mas usan IA contratan mas, no menos.",
     "NVIDIA construyo un sistema para que los robots aprendan solos. 99% de exito en insertar una GPU.",
     "Trase levanto 107 millones de dolares para agentes de IA en salud. Duke ya los tiene en triaje.",
-    "California firmo con Anthropic. Claude a mitad de precio para todo el gobierno estatal."
+    "California firmo con Anthropic. Claude a mitad de precio para todo el gobierno estatal.",
+    "El ban de Anthropic cayo: gobierno levanto restricciones sobre Fable 5 y Mythos. La razon real fue China.",
+    "Anthropic anuncia desarrollo propio de farmacos. Claude Science para investigadores y pharma.",
+    "Los modelos chinos ya igualaron a Anthropic y OpenAI en capacidades. NYT en portada.",
+    "Las empresas que despidieron por IA se arrepienten. CNBC lo documento.",
+    "Nuevo ataque bypasea guardrails de AI browsers y roba credenciales. Ars Technica.",
+    "La FDA insinua actualizaciones de politica de IA para dispositivos medicos."
   ],
   "days": {
     "2026-04-17": {"count": 6, "sources": ["openai.com", "techcrunch.com", "hbr.org", "fiercehealthcare.com", "statnews.com"]},
@@ -111,6 +112,7 @@
     "2026-06-27": {"count": 5, "sources": ["techcrunch.com", "openai.com", "statnews.com", "hbr.org", "arstechnica.com"], "tesis": "Washington trato la IA de punta como tecnologia de exportacion controlada mientras en hospitales y oficinas los agentes ya tomaron decisiones sin pedir permiso."},
     "2026-06-28": {"count": 5, "sources": ["anthropic.com", "venturebeat.com", "blog.google", "garymarcus.substack.com", "techcrunch.com"], "tesis": "Junio termina partido en dos narrativas: Marcus declaro que la IA perdio el mojo; Anthropic publico que la mitad de sus usuarios ya delegan la mitad de su trabajo."},
     "2026-06-29": {"count": 5, "sources": ["statnews.com", "cnbc.com", "thenextweb.com", "digitaltrends.com", "techcrunch.com"], "tesis": "Corea del Sur aposto 649.000 millones a chips mientras China publico gratis un modelo que iguala a Mythos para ciberseguridad."},
-    "2026-06-30": {"count": 5, "sources": ["technologyreview.com", "techcrunch.com", "importai.substack.com", "axios.com", "fiercehealthcare.com"], "tesis": "El debate de IA y trabajo no tiene una lectura limpia: las empresas que adoptan IA contratan mas, pero llamarle empleado a tu agente baja la supervision 44%."}
+    "2026-06-30": {"count": 5, "sources": ["technologyreview.com", "techcrunch.com", "importai.substack.com", "axios.com", "fiercehealthcare.com"], "tesis": "El debate de IA y trabajo no tiene una lectura limpia: las empresas que adoptan IA contratan mas, pero llamarle empleado a tu agente baja la supervision 44%."},
+    "2026-07-01": {"count": 6, "sources": ["techcrunch.com", "statnews.com", "nytimes.com", "cnbc.com", "arstechnica.com", "statnews.com"], "tesis": "El ban de Anthropic cayo el mismo dia que China cerro la brecha — cuando la competencia mueve al gobierno mas rapido que la seguridad, el orden de prioridades quedo visible."}
   }
 }
