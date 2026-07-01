@@ -1,11 +1,9 @@
-Daily IA News — miércoles 1 de julio de 2026
+El ban de Anthropic cayó hoy después de 19 días: China llenó el vacío y el gobierno cedió antes a la presión competitiva que a los argumentos de seguridad.
 
-El ban de 19 días sobre los modelos más poderosos de Anthropic cayó hoy. La razón oficial: la empresa "acordó detectar riesgos proactivamente". La razón real: las startups asiáticas llenaron el vacío en tiempo récord y el gobierno decidió que restringir era peor que competir.
+El mismo día, Anthropic anunció Claude Sonnet 5 ($2/M tokens de entrada), Claude Science para investigadores científicos, y un programa propio de desarrollo de fármacos — tres movidas en 24 horas aprovechando la cobertura mediática del desbloqueo.
 
-Antropic usó el momento para lanzar tres cosas al mismo tiempo: Claude Sonnet 5 ($2/M tokens de entrada, más barato y más capaz para agentes), Claude Science (workbench para investigación científica y pharma), y un programa de desarrollo propio de fármacos para enfermedades desatendidas. Cuatro movidas en 24 horas — las más activas de la empresa en meses.
+La NYT publicó en portada que los modelos chinos ya igualaron técnicamente a Anthropic y OpenAI — dato que el gobierno usó para justificar el levantamiento del ban y que reconfigura la negociación de contratos para cualquier empresa en LATAM.
 
-El New York Times publicó hoy en portada que los modelos chinos ya igualaron a Anthropic y OpenAI en capacidades técnicas. No es coincidencia: esa brecha cerrada fue el argumento que convenció al gobierno a revocar el ban.
+Las empresas que despidieron empleados citando IA ahora se arrepienten: CNBC documentó que automatizar antes de que los sistemas estuvieran listos en producción degradó calidad, atención al cliente y retención.
 
-En el plano de gestión y trabajo: CNBC documentó que las empresas que despidieron empleados citando IA están arrepintiéndose — el reemplazo antes de que los sistemas estuvieran listos generó problemas de calidad y pérdida de clientes. Y Ars Technica describió un ataque que mete a los AI browsers en un "estado de sueño" donde sus guardrails dejan de funcionar — relevante para cualquier organización que evalúe estos navegadores en entornos con datos sensibles.
-
-Bitcoin: $58.887, Fear & Greed en 11 (miedo extremo). Los ETF spot tuvieron su peor mes histórico en junio, con salidas de $4.500 millones. Sin señal de rotación hacia alts.
+Prestá atención al dato de Simon Willison sobre Sonnet 5: el tokenizador nuevo genera un 30% más de tokens por el mismo contenido, así que el precio de $2/M puede ser menos barato de lo que parece en producción real.
