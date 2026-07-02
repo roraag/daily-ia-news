@@ -1,11 +1,9 @@
-Daily IA News — jueves 2 de julio de 2026
+La IA avanzó en dos frentes opuestos hoy: Anthropic instaló al Nobel de AlphaFold en su equipo y lanzó Claude Science para descubrimiento de drogas, mientras el contragolpe social en EE.UU. bloqueó 130.000 millones de dólares en infraestructura y empujó el empleo juvenil en IA a caer 3,8% anual.
 
-Anthropic lanzó Claude Science con John Jumper (Nobel de Química 2024 por AlphaFold) a bordo: IA que ejecuta investigación científica autónoma y ya identificó candidatos a drogas para enfermedades raras. Disponible para suscriptores pagos desde el 30 de junio.
+Anthropic contrató a John Jumper (Nobel de Química 2024 por AlphaFold en DeepMind) y lanzó Claude Science, que ya identificó candidatos a drogas para una enfermedad rara sin cura accesible — la IA entra a la farmacéutica con toda la intención de quedarse.
 
-Platformer documentó el contragolpe social de la IA: 71% de los estadounidenses rechaza data centers en su zona, proyectos por 130.000 millones frenados en Q1, MacBooks 25% más caras y empleo juvenil en trabajos expuestos a IA cayendo al 3,8% anual.
+Casey Newton documentó en Platformer que el 71% de los estadounidenses rechaza tener un data center cerca, 833 grupos organizados frenan proyectos en 49 estados, las MacBooks subieron 25% y Stanford mide la caída de empleo juvenil en sectores expuestos a IA.
 
-Venice AI llegó a unicorn con 65 millones de Serie A, 70 millones de ARR y rentabilidad operativa — apostando a privacidad total: no entrena en datos de usuarios.
+Venice AI cerró una Serie A de 65 millones y llegó a unicorn con 70 millones de ARR ya operativamente rentable — apostando a privacidad sin entrenar en datos de usuarios, primer modelo IA a escala que hace plata sin quemar.
 
-MIT Technology Review: los LLMs convergen en las mismas respuestas ("el tiempo es un río", siempre el 7). El paper "Artificial Hivemind" ganó NeurIPS 2025. Springboards creó Flint para divergir deliberadamente.
-
-Anthropic Watch: cuatro movimientos en 24h — Claude Sonnet 5 (nuevo tokenizer encarece uso ~30%), Claude Science, Fable 5 global y Slack. Bitcoin: 60.432 USD, dominancia 55,7%, Fear & Greed 19 (miedo extremo).
+Si tenés integraciones con la API de Anthropic, revisá los costos antes de agosto: Sonnet 5 sale 30% más caro que el precio nominal porque el nuevo tokenizer produce más tokens tanto en inglés como en español.
