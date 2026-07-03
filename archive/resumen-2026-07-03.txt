@@ -1,0 +1,5 @@
+Daily IA News — viernes 3 de julio de 2026
+
+Zuckerberg admitió en una town hall interna que los agentes de IA de Meta avanzan más lento de lo esperado, pese a 145.000 millones de dólares de inversión en infraestructura este año. La FDA autorizó la primera IA conversacional para pacientes —UpDoc, para manejo de diabetes—, sin definir si el LLM es interfaz o tomador de decisiones clínicas. OpenAI propuso donar el 5% de su equity al fondo soberano de Trump (unos 15.000 millones); Sanders contrapropone un impuesto del 50%. Anthropic cerró los loopholes que usaban firmas chinas como Ant Financial y ByteDance para acceder a Claude mediante VPNs y ataques de destilación masiva. Microsoft lanzó "Frontier Company" con 2.500 millones y 6.000 expertos para deployment de IA en grandes empresas.
+
+Bitcoin: 61.513 dólares (+1,81% 24h), dominancia 55,6%, Fear & Greed en 21 (miedo extremo). Sin señal de rotación a altcoins.

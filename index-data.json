@@ -76,18 +76,10 @@
     "2026-06-29",
     "2026-06-30",
     "2026-07-01",
-    "2026-07-02"
+    "2026-07-02",
+    "2026-07-03"
   ],
   "recent_titles": [
-    "Google mete computer use en Gemini Flash. Ahora cualquier desarrollador tiene un agente que ve la pantalla.",
-    "Un modelo de IA descifro por que muere gente de repente del corazon. Berkeley, Nature.",
-    "IA de voz que maneja el triaje de pacientes. 120 millones de dolares y 190 millones de interacciones.",
-    "El CEO de AWS dice que hay que contratar juniors. Amazon esta cortando 30.000 puestos. Las dos cosas son ciertas.",
-    "Los agentes de IA crecieron 137 veces entre usuarios no tecnicos. OpenAI lo documento.",
-    "La FDA aprueba IA generativa que redacta informes de radiologia. El radiologo ya no es el primer lector.",
-    "La Casa Blanca frena el lanzamiento de GPT 5.6. Primera intervencion gubernamental pre-release.",
-    "Claude crece 75% en ingresos pagos desde enero. El mercado premium ya no es solo de ChatGPT.",
-    "IBM apila transistores en vertical y le saca una decada mas a la Ley de Moore.",
     "Mythos 5 vuelve. Y el gobierno decidio quien tiene acceso.",
     "GPT-5.6 Sol: tres tiers de modelo. El gobierno lo restringio antes de que saliera.",
     "La FDA no para: el pipeline de IA medica esta en maximos historicos.",
@@ -117,7 +109,12 @@
     "Anthropic contrata al Nobel de AlphaFold y lanza Claude Science. La IA entra a la farmaceutica.",
     "El 71% de los estadounidenses no quiere un data center cerca. La cuenta llego.",
     "Los LLMs piensan todos igual. Un paper gano NeurIPS explicandolo y una startup australiana tiene el antidoto.",
-    "Venice AI vale 1.000 millones y ya es rentable. El modelo que nadie vio venir: privacidad como producto."
+    "Venice AI vale 1.000 millones y ya es rentable. El modelo que nadie vio venir: privacidad como producto.",
+    "Zuckerberg admitio que los agentes de IA de Meta van mas lento de lo esperado. 145.000 millones invertidos, beneficios sin materializarse.",
+    "La FDA autorizo la primera IA que le habla directamente a pacientes con diabetes. Es interfaz o es medico?",
+    "OpenAI le ofrece el 5% de su capital al gobierno de Trump. Sanders quiere el 50%.",
+    "Anthropic cierra las puertas traseras que usaban empresas chinas para acceder a Claude.",
+    "Microsoft pone 2.500 millones en una empresa de despliegue de IA. El servicio vale mas que la plataforma."
   ],
   "days": {
     "2026-04-17": {
@@ -955,6 +952,17 @@
         "techcrunch.com"
       ],
       "tesis": "Anthropic lanzó Claude Science con el Nobel de AlphaFold mientras el 71% de los estadounidenses rechaza tener un data center cerca."
+    },
+    "2026-07-03": {
+      "count": 5,
+      "sources": [
+        "techcrunch.com",
+        "statnews.com",
+        "techcrunch.com",
+        "ft.com",
+        "techcrunch.com"
+      ],
+      "tesis": "Zuckerberg admitio que los agentes de IA van mas lento de lo esperado, mientras OpenAI, Anthropic y Microsoft negocian con los gobiernos sus terminos de operacion."
     }
   }
 }
