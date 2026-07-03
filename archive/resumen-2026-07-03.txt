@@ -1,5 +1,8 @@
-Daily IA News — viernes 3 de julio de 2026
+La industria IA ajusta expectativas en todos los frentes: los agentes prometidos no llegaron a tiempo, y las grandes empresas negocian su lugar político con gobiernos antes de que los regulen.
 
-Zuckerberg admitió en una town hall interna que los agentes de IA de Meta avanzan más lento de lo esperado, pese a 145.000 millones de dólares de inversión en infraestructura este año. La FDA autorizó la primera IA conversacional para pacientes —UpDoc, para manejo de diabetes—, sin definir si el LLM es interfaz o tomador de decisiones clínicas. OpenAI propuso donar el 5% de su equity al fondo soberano de Trump (unos 15.000 millones); Sanders contrapropone un impuesto del 50%. Anthropic cerró los loopholes que usaban firmas chinas como Ant Financial y ByteDance para acceder a Claude mediante VPNs y ataques de destilación masiva. Microsoft lanzó "Frontier Company" con 2.500 millones y 6.000 expertos para deployment de IA en grandes empresas.
+Zuckerberg reconoció ante su equipo que los agentes de Meta no aceleraron como esperaba, con 145.000 millones de dólares invertidos y cero producto concreto para mostrar.
+La FDA autorizó el primer LLM que habla directamente con pacientes —no con médicos— abriendo una pregunta sin resolver: ¿la IA decide o facilita?
+OpenAI le ofrece el 5% de su capital a Trump como compra de gobernabilidad; Sanders pide el 50% como impuesto directo sobre el sector.
+Anthropic cierra los loopholes que usaban Ant, ByteDance y Alibaba para acceder a Claude con 25.000 cuentas falsas y 29 millones de intercambios en un mes.
 
-Bitcoin: 61.513 dólares (+1,81% 24h), dominancia 55,6%, Fear & Greed en 21 (miedo extremo). Sin señal de rotación a altcoins.
+Prestale atención al caso UpDoc: si en ASESP llega una propuesta de chatbot para pacientes crónicos, la pregunta de si la IA decide o facilita no es filosófica —define qué proveedor necesitás, qué responsabilidad legal asumís y cuánto pagás.
