@@ -77,13 +77,12 @@
     "2026-06-30",
     "2026-07-01",
     "2026-07-02",
-    "2026-07-03"
+    "2026-07-03",
+    "2026-07-04"
   ],
   "recent_titles": [
     "Mythos 5 vuelve. Y el gobierno decidio quien tiene acceso.",
-    "GPT-5.6 Sol: tres tiers de modelo. El gobierno lo restringio antes de que saliera.",
     "La FDA no para: el pipeline de IA medica esta en maximos historicos.",
-    "Los mandos medios son los que mas sufren la IA. HBR lo documento.",
     "Notion cerro su app de email. Los usuarios prefieren agentes.",
     "La mitad de los usuarios de Claude ya delegan la mitad de su trabajo. Anthropic lo documento.",
     "Claude Code convirtio a cada ingeniero en tres. Ahora faltan los que piensan el producto.",
@@ -94,17 +93,14 @@
     "Corea del Sur aposto 649.000 millones de dolares a chips y IA. Samsung firma primero.",
     "Baidu saca a bolsa Kunlunxin, su brazo de chips de IA, con una valoracion de 50.000 millones.",
     "China publico gratis un modelo que iguala a Mythos para detectar vulnerabilidades de seguridad.",
-    "Ford tuvo que llamar a 350 veteranos porque la IA sola no controlo la calidad en manufactura.",
     "Llamarle empleado a tu agente de IA hace que lo supervises menos. Un 44% menos.",
     "El estudio mas anti-intuitivo del ano: las empresas que mas usan IA contratan mas, no menos.",
     "NVIDIA construyo un sistema para que los robots aprendan solos. 99% de exito en insertar una GPU.",
-    "Trase levanto 107 millones de dolares para agentes de IA en salud. Duke ya los tiene en triaje.",
     "California firmo con Anthropic. Claude a mitad de precio para todo el gobierno estatal.",
     "El ban de Anthropic cayo: gobierno levanto restricciones sobre Fable 5 y Mythos. La razon real fue China.",
     "Anthropic anuncia desarrollo propio de farmacos. Claude Science para investigadores y pharma.",
     "Los modelos chinos ya igualaron a Anthropic y OpenAI en capacidades. NYT en portada.",
     "Las empresas que despidieron por IA se arrepienten. CNBC lo documento.",
-    "Nuevo ataque bypasea guardrails de AI browsers y roba credenciales. Ars Technica.",
     "La FDA insinua actualizaciones de politica de IA para dispositivos medicos.",
     "Anthropic contrata al Nobel de AlphaFold y lanza Claude Science. La IA entra a la farmaceutica.",
     "El 71% de los estadounidenses no quiere un data center cerca. La cuenta llego.",
@@ -114,7 +110,11 @@
     "La FDA autorizo la primera IA que le habla directamente a pacientes con diabetes. Es interfaz o es medico?",
     "OpenAI le ofrece el 5% de su capital al gobierno de Trump. Sanders quiere el 50%.",
     "Anthropic cierra las puertas traseras que usaban empresas chinas para acceder a Claude.",
-    "Microsoft pone 2.500 millones en una empresa de despliegue de IA. El servicio vale mas que la plataforma."
+    "Microsoft pone 2.500 millones en una empresa de despliegue de IA. El servicio vale mas que la plataforma.",
+    "La industria farmaceutica lee las guias de la FDA peor de lo que la FDA las escribio.",
+    "Meituan abre al mundo un modelo de 1,6 billones de parametros. Entrenado en chips chinos.",
+    "Tesla pone techo de $200 por semana al gasto en IA de sus empleados. El de Grok no cuenta.",
+    "50 agentes de IA solos en una planta de energia. Woodside no pide permiso por cada operacion."
   ],
   "days": {
     "2026-04-17": {
@@ -963,6 +963,16 @@
         "techcrunch.com"
       ],
       "tesis": "Zuckerberg admitio que los agentes de IA van mas lento de lo esperado, mientras OpenAI, Anthropic y Microsoft negocian con los gobiernos sus terminos de operacion."
+    },
+    "2026-07-04": {
+      "count": 4,
+      "sources": [
+        "statnews.com",
+        "venturebeat.com",
+        "electrek.co",
+        "technologyreview.com"
+      ],
+      "tesis": "Tesla recorta el gasto de sus empleados en IA al mismo tiempo que apuesta 25.000 millones en infraestructura propia."
     }
   }
 }

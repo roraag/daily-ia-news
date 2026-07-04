@@ -1,0 +1,13 @@
+Daily IA News — sábado 4 de julio de 2026
+
+Tesis del día: Tesla recorta el gasto de sus empleados en IA a $200/semana (con Grok exento) y simultáneamente apuesta 25.000 millones en infraestructura propia. Meituan libera LongCat-2.0, un modelo de 1,6 billones de parámetros entrenado en chips chinos, bajo MIT. La industria farmacéutica sigue frenada por exceso de cautela frente a una FDA que ya está lista. La brecha entre los que avanzan y los que piden permiso se agranda.
+
+4 noticias principales:
+1. [Salud] La FDA y pharma: una ex reguladora de la FDA dice que biopharma interpreta las guías de IA peor de lo que están escritas. El cuello de botella no es el regulador — son las empresas.
+2. [Tech] Meituan LongCat-2.0: modelo de 1,6 billones de parámetros, MIT, entrenado en chips chinos. Primer modelo frontier sin NVIDIA. Lidera OpenRouter en código y agentes.
+3. [Negocio] Tesla caps IA: $200/semana por empleado en herramientas de terceros. Grok exento. Es canalización hacia el ecosistema propio, no austeridad.
+4. [Tech] Woodside Energy: 50 agentes de IA en producción real en plantas industriales. El caso más concreto de IA agéntica industrial visto en meses.
+
+Bitcoin Watch: BTC a 62.517 USD (+1,63% 24h, +3,41% 7d). Dominancia 55,6%. Fear & Greed: 22 (Miedo extremo). Las ballenas compraron 270.000 BTC mientras los ETFs tuvieron salidas récord de 4.000 millones.
+
+Anthropic: Fable 5 con nuevos clasificadores de ciberseguridad. Sonnet 5 como modelo por defecto para Free y Pro. Semana de consolidación.
