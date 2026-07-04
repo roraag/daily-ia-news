@@ -1,13 +1,9 @@
-Daily IA News — sábado 4 de julio de 2026
+La brecha entre los que avanzan en IA y los que esperan permiso para hacerlo se está volviendo una ventaja estructural: pharma frena por miedo a un regulador que ya dijo que está listo, mientras China lanza modelos frontier y Tesla canaliza el gasto hacia su propio ecosistema.
 
-Tesis del día: Tesla recorta el gasto de sus empleados en IA a $200/semana (con Grok exento) y simultáneamente apuesta 25.000 millones en infraestructura propia. Meituan libera LongCat-2.0, un modelo de 1,6 billones de parámetros entrenado en chips chinos, bajo MIT. La industria farmacéutica sigue frenada por exceso de cautela frente a una FDA que ya está lista. La brecha entre los que avanzan y los que piden permiso se agranda.
+Una ex reguladora de la FDA le dice a pharma que el freno no es el regulador — son ellos mismos, y cada mes de cautela es un ensayo clínico más lento que el competidor.
 
-4 noticias principales:
-1. [Salud] La FDA y pharma: una ex reguladora de la FDA dice que biopharma interpreta las guías de IA peor de lo que están escritas. El cuello de botella no es el regulador — son las empresas.
-2. [Tech] Meituan LongCat-2.0: modelo de 1,6 billones de parámetros, MIT, entrenado en chips chinos. Primer modelo frontier sin NVIDIA. Lidera OpenRouter en código y agentes.
-3. [Negocio] Tesla caps IA: $200/semana por empleado en herramientas de terceros. Grok exento. Es canalización hacia el ecosistema propio, no austeridad.
-4. [Tech] Woodside Energy: 50 agentes de IA en producción real en plantas industriales. El caso más concreto de IA agéntica industrial visto en meses.
+Meituan, una app de delivery, abre al mundo un modelo de 1,6 billones de parámetros entrenado íntegramente en chips chinos, sin NVIDIA, liderando benchmarks de código y agentes.
 
-Bitcoin Watch: BTC a 62.517 USD (+1,63% 24h, +3,41% 7d). Dominancia 55,6%. Fear & Greed: 22 (Miedo extremo). Las ballenas compraron 270.000 BTC mientras los ETFs tuvieron salidas récord de 4.000 millones.
+Tesla le pone techo de $200 semanales al gasto en IA de sus empleados, pero exime a Grok: no es austeridad, es un ecosistema propio cerrándose.
 
-Anthropic: Fable 5 con nuevos clasificadores de ciberseguridad. Sonnet 5 como modelo por defecto para Free y Pro. Semana de consolidación.
+Prestá atención al Diálogo Global de IA de la ONU que arranca el domingo 6 en Ginebra — con Anthropic consolidando Sonnet 5 como estándar agéntico y Fable 5 con nuevos blindajes, hay chances de que tengan algo que decir ahí.
