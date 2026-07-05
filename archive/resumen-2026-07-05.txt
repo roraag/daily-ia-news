@@ -1,7 +1,9 @@
-Daily IA News — domingo 5 de julio de 2026
+La regulación dejó de ser debate y se convirtió en infraestructura activa: el Estado entró en cuatro frentes este fin de semana y ninguno fue consultivo.
 
-El Estado entró en cuatro frentes al mismo tiempo: la Casa Blanca frenó el próximo modelo de OpenAI (GPT-5.6), cuatro estados de EE.UU. legislaron restricciones al uso de IA en seguros de salud, el NHS desplegó IA en su app para triaje de millones de pacientes, y Alibaba prohibió Claude Code a sus empleados citando un backdoor que Anthropic llama experimento anti-reventa. La regulación dejó de ser debate y se convirtió en infraestructura activa.
+Alibaba prohibió Claude Code a sus empleados alegando un backdoor; Anthropic confirmó que es el mecanismo que diseñó para bloquear el acceso chino no autorizado a sus modelos.
 
-Al margen de eso, Anthropic abrió laboratorios húmedos y contrató biólogos para atacar enfermedades desatendidas que Big Pharma no toca — pasó de ser solo una empresa de IA a ser también una empresa de farmacología.
+La Casa Blanca le pidió a OpenAI frenar GPT-5.6 y OpenAI aceptó — segundo modelo frontier que el gobierno condiciona en semanas, por presión informal sin ley de por medio.
 
-Bitcoin en 62.859 USD (+0,63% en 24h, +4,56% en 7d). Fear & Greed en 23 (miedo extremo). Dominancia BTC 55,7%. Los ETFs cortaron 10 días de salidas con una entrada de 221 millones el 3 de julio.
+El NHS desplegó IA en su app para dirigir a 67 millones de pacientes al servicio adecuado según síntomas; no es piloto, es producción nacional, y la pregunta de quién firma el error cuando el sistema falla sigue abierta.
+
+Prestale atención a Anthropic fuera de la IA: abrió laboratorios húmedos, contrató biólogos y lanzó programas internos de descubrimiento de fármacos para enfermedades desatendidas — lo que haga ahora llega al mercado sanitario en 3-5 años.
