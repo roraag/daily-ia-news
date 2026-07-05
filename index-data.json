@@ -78,9 +78,15 @@
     "2026-07-01",
     "2026-07-02",
     "2026-07-03",
-    "2026-07-04"
+    "2026-07-04",
+    "2026-07-05"
   ],
   "recent_titles": [
+    "Alibaba le cerro la puerta a Claude Code. El motivo oficial es un backdoor. El real, geopolitica.",
+    "La Casa Blanca le pidio a OpenAI que frene GPT-5.6. OpenAI acepto.",
+    "El NHS metio IA en su app para decirle a millones de pacientes adonde ir.",
+    "Cuatro estados de EE.UU. aprobaron leyes que prohiben a las aseguradoras usar IA sola para negar cobertura.",
+    "Anthropic contrato biologos, construyo laboratorios humedos y se declaro empresa farmaceutica.",
     "Mythos 5 vuelve. Y el gobierno decidio quien tiene acceso.",
     "La FDA no para: el pipeline de IA medica esta en maximos historicos.",
     "Notion cerro su app de email. Los usuarios prefieren agentes.",
@@ -110,11 +116,7 @@
     "La FDA autorizo la primera IA que le habla directamente a pacientes con diabetes. Es interfaz o es medico?",
     "OpenAI le ofrece el 5% de su capital al gobierno de Trump. Sanders quiere el 50%.",
     "Anthropic cierra las puertas traseras que usaban empresas chinas para acceder a Claude.",
-    "Microsoft pone 2.500 millones en una empresa de despliegue de IA. El servicio vale mas que la plataforma.",
-    "La industria farmaceutica lee las guias de la FDA peor de lo que la FDA las escribio.",
-    "Meituan abre al mundo un modelo de 1,6 billones de parametros. Entrenado en chips chinos.",
-    "Tesla pone techo de $200 por semana al gasto en IA de sus empleados. El de Grok no cuenta.",
-    "50 agentes de IA solos en una planta de energia. Woodside no pide permiso por cada operacion."
+    "Microsoft pone 2.500 millones en una empresa de despliegue de IA. El servicio vale mas que la plataforma."
   ],
   "days": {
     "2026-04-17": {
@@ -973,6 +975,17 @@
         "technologyreview.com"
       ],
       "tesis": "Tesla recorta el gasto de sus empleados en IA al mismo tiempo que apuesta 25.000 millones en infraestructura propia."
+    },
+    "2026-07-05": {
+      "count": 5,
+      "sources": [
+        "techcrunch.com",
+        "qz.com",
+        "bbc.com",
+        "nationallawreview.com",
+        "the-decoder.com"
+      ],
+      "tesis": "El Estado entro en cuatro frentes en un fin de semana: frenó GPT-5.6, legisló contra la IA en seguros de salud, desplegó IA en el NHS, y Alibaba prohibió Claude Code."
     }
   }
 }
