@@ -79,9 +79,15 @@
     "2026-07-02",
     "2026-07-03",
     "2026-07-04",
-    "2026-07-05"
+    "2026-07-05",
+    "2026-07-06"
   ],
   "recent_titles": [
+    "Amazon cierra Mechanical Turk. Sus trabajadores ya eran los mismos que los reemplazaron.",
+    "NVIDIA choca contra la fisica. El rack de IA mas esperado del mundo se retrasa un año.",
+    "La ONU abre su primer dialogo de IA en Ginebra. El control no esta garantizado.",
+    "La FTC propone que las empresas de IA revelen si su modelo fue programado para no decir la verdad.",
+    "Un 40% mas de adolescentes le confia sus problemas de salud mental a chatbots. JAMA lo documento.",
     "Alibaba le cerro la puerta a Claude Code. El motivo oficial es un backdoor. El real, geopolitica.",
     "La Casa Blanca le pidio a OpenAI que frene GPT-5.6. OpenAI acepto.",
     "El NHS metio IA en su app para decirle a millones de pacientes adonde ir.",
@@ -93,15 +99,9 @@
     "La mitad de los usuarios de Claude ya delegan la mitad de su trabajo. Anthropic lo documento.",
     "Claude Code convirtio a cada ingeniero en tres. Ahora faltan los que piensan el producto.",
     "Google lanzo la Interactions API. Ahora los agentes de Gemini tienen una interfaz unificada.",
-    "Gary Marcus declaro junio el mes en que la IA perdio el mojo. Y Anthropic publico lo contrario.",
     "Startups asiaticas lanzan sus propios Mythos. El ban de Anthropic creo un vacio que se esta llenando.",
-    "Portugal contrato Sword Health para dar fisioterapia con IA a sus 10 millones de habitantes.",
-    "Corea del Sur aposto 649.000 millones de dolares a chips y IA. Samsung firma primero.",
-    "Baidu saca a bolsa Kunlunxin, su brazo de chips de IA, con una valoracion de 50.000 millones.",
-    "China publico gratis un modelo que iguala a Mythos para detectar vulnerabilidades de seguridad.",
     "Llamarle empleado a tu agente de IA hace que lo supervises menos. Un 44% menos.",
     "El estudio mas anti-intuitivo del ano: las empresas que mas usan IA contratan mas, no menos.",
-    "NVIDIA construyo un sistema para que los robots aprendan solos. 99% de exito en insertar una GPU.",
     "California firmo con Anthropic. Claude a mitad de precio para todo el gobierno estatal.",
     "El ban de Anthropic cayo: gobierno levanto restricciones sobre Fable 5 y Mythos. La razon real fue China.",
     "Anthropic anuncia desarrollo propio de farmacos. Claude Science para investigadores y pharma.",
@@ -986,6 +986,17 @@
         "the-decoder.com"
       ],
       "tesis": "El Estado entro en cuatro frentes en un fin de semana: frenó GPT-5.6, legisló contra la IA en seguros de salud, desplegó IA en el NHS, y Alibaba prohibió Claude Code."
+    },
+    "2026-07-06": {
+      "count": 5,
+      "sources": [
+        "techcrunch.com",
+        "cnbc.com",
+        "news.un.org",
+        "ftc.gov",
+        "statnews.com"
+      ],
+      "tesis": "Amazon cierra Mechanical Turk — la plataforma donde humanos entrenaron a la IA que los desplazó — el mismo día que NVIDIA anuncia su primer delay por límites físicos y la ONU abre su primer diálogo multilateral de gobernanza."
     }
   }
 }

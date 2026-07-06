@@ -1,0 +1,9 @@
+Daily IA News — 6 de julio de 2026
+
+Tres historias convergen hoy: Amazon cierra Mechanical Turk (la plataforma donde millones de humanos entrenaron los modelos que después los reemplazaron), NVIDIA confirma que su próximo rack de IA se retrasa un año por límites físicos de manufactura, y la ONU abre en Ginebra su primer diálogo multilateral formal sobre IA con una advertencia directa: el control no está garantizado.
+
+En salud: JAMA Pediatrics documenta un 40% más de adolescentes usando chatbots para salud mental, sin protocolo clínico ni regulación. La FTC propone que las empresas revelen cuando sus modelos priorizan objetivos distintos a la veracidad.
+
+Anthropic Watch: Claude Sonnet 5 disponible globalmente desde el 30 de junio; Mythos 5 de vuelta pero solo para instituciones estadounidenses seleccionadas; Claude integrado como Governed Workflow Agent en Google Workspace.
+
+Bitcoin: 62.836 USD (-0,01% 24h / +4,79% 7d). Dominancia BTC 55,7%. Fear & Greed: 24 (Miedo extremo). Sin señal de rotación a alts.
