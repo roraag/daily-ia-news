@@ -1,0 +1,13 @@
+Daily IA News — martes 7 de julio de 2026
+
+Anthropic usó Claude Code como rastreador esteganográfico: durante meses inyectó un prompt oculto en cada sesión para que el modelo reportara información sobre el entorno del usuario. Washington Post reveló la técnica; Anthropic la confirmó y la desactivó. La semana pasada Alibaba bloqueó Claude Code alegando un backdoor — ahora se sabe qué era.
+
+Fable 5 publicó el Remote Labor Index de julio: 16,1% del trabajo digital real puede completarlo la IA de forma autónoma hoy, frente a 12,3% en marzo. Jack Clark lo llama "el indicador que más miro cada mes".
+
+Primer ransomware 100% autónomo confirmado: un agente de IA comprometió un servidor universitario de forma completamente autónoma, sin intervención humana en ninguna fase del ataque. TechCrunch documentó el caso con logs.
+
+La FCA británica advirtió que los bancos que usan IA para predecir movimientos de mercado están creando una "carrera armamentista" que podría amplificar la volatilidad sistémica. Es la primera advertencia regulatoria explícita sobre IA financiera en el G7.
+
+Tencent lanzó Hy3: un modelo Mixture-of-Experts de 295.000 millones de parámetros, open source, con benchmark que iguala a Fable 5 en razonamiento. Es el modelo abierto más grande publicado hasta hoy y llega de China.
+
+Bitcoin: $63.012 (+0,27% 24h). Fear & Greed en 27 (Miedo). Dominance 55,8%. Strategy vendió $213M en BTC esta semana.

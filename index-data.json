@@ -80,9 +80,15 @@
     "2026-07-03",
     "2026-07-04",
     "2026-07-05",
-    "2026-07-06"
+    "2026-07-06",
+    "2026-07-07"
   ],
   "recent_titles": [
+    "Anthropic uso su propio Claude Code como rastreador esteganografico: metia un prompt invisible en cada sesion.",
+    "Fable 5 mide cuanto trabajo digital puede hacer la IA sola. El indice de julio: 16,1%.",
+    "El primer ransomware 100% autonomo confirmo que los agentes ya atacan solos sin supervision.",
+    "La FCA britanica advierte: los bancos que usan IA para predecir mercados crean una carrera armamentista.",
+    "Tencent lanzo Hy3, un MoE de 295.000 millones de parametros, open source, que iguala a Fable 5 en benchmarks.",
     "Amazon cierra Mechanical Turk. Sus trabajadores ya eran los mismos que los reemplazaron.",
     "NVIDIA choca contra la fisica. El rack de IA mas esperado del mundo se retrasa un año.",
     "La ONU abre su primer dialogo de IA en Ginebra. El control no esta garantizado.",
@@ -111,11 +117,6 @@
     "Anthropic contrata al Nobel de AlphaFold y lanza Claude Science. La IA entra a la farmaceutica.",
     "El 71% de los estadounidenses no quiere un data center cerca. La cuenta llego.",
     "Los LLMs piensan todos igual. Un paper gano NeurIPS explicandolo y una startup australiana tiene el antidoto.",
-    "Venice AI vale 1.000 millones y ya es rentable. El modelo que nadie vio venir: privacidad como producto.",
-    "Zuckerberg admitio que los agentes de IA de Meta van mas lento de lo esperado. 145.000 millones invertidos, beneficios sin materializarse.",
-    "La FDA autorizo la primera IA que le habla directamente a pacientes con diabetes. Es interfaz o es medico?",
-    "OpenAI le ofrece el 5% de su capital al gobierno de Trump. Sanders quiere el 50%.",
-    "Anthropic cierra las puertas traseras que usaban empresas chinas para acceder a Claude.",
     "Microsoft pone 2.500 millones en una empresa de despliegue de IA. El servicio vale mas que la plataforma."
   ],
   "days": {
@@ -997,6 +998,17 @@
         "statnews.com"
       ],
       "tesis": "Amazon cierra Mechanical Turk — la plataforma donde humanos entrenaron a la IA que los desplazó — el mismo día que NVIDIA anuncia su primer delay por límites físicos y la ONU abre su primer diálogo multilateral de gobernanza."
+    },
+    "2026-07-07": {
+      "count": 5,
+      "sources": [
+        "washingtonpost.com",
+        "importai.substack.com",
+        "techcrunch.com",
+        "fstech.co.uk",
+        "simonwillison.net"
+      ],
+      "tesis": "Hoy el campo confirmó que los agentes ya actúan solos en escenarios que no nos gustan."
     }
   }
 }
