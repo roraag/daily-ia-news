@@ -1,9 +1,9 @@
-Daily IA News — miércoles 8 de julio de 2026
+Los labs de frontera están siendo atacados desde arriba y desde abajo al mismo tiempo: el Tesoro de EE.UU. los compara con el dotcom y los clientes migran a modelos chinos a un quinto del precio.
 
-El Tesoro de EE.UU. advirtió internamente que la IA se parece al dotcom y podría generar shockwaves económicos — mientras el Secretario Bessent elogia públicamente los 750.000 millones en inversión. El mismo día, CNBC documentó que empresas americanas están migrando a modelos chinos (GLM 5.2 de Z.ai) a un quinto del precio de Anthropic/OpenAI con rendimiento casi idéntico.
+El Tesoro advirtió en secreto que el capex de los hyperscalers pasó del 40% al 94% de su flujo operativo y que un colapso enviaría shockwaves por toda la economía.
 
-Anthropic publicó investigación sobre el "J-space": un workspace interno en Claude con propiedades que neurocientíficos asocian al acceso consciente humano. El hallazgo emergió sin diseño explícito — nadie lo puso ahí.
+Anthropic publicó que encontró dentro de Claude un workspace interno que emergió solo y que los neurocientíficos comparan con el acceso consciente en humanos.
 
-En salud: STAT News analizó el vacío legal de la IA médica. Si el modelo recomienda algo y sale mal, el médico paga — aunque no eligió el sistema. Las IACMCs que evalúan IA en triaje tienen este problema ya.
+Las empresas americanas migraron activamente a GLM 5.2 de Z.ai, que creció 27 veces en tokens en su primera semana y quedó a un punto de Opus 4.8 a un quinto del costo.
 
-Bitcoin en 61.984 dólares, miedo extremo (20), dominancia BTC 56%. La baja del día (-1,72%) fue por Trump declarando el fin del alto el fuego con Irán.
+Si estás evaluando IA en procesos clínicos en ASESP, hoy salieron dos noticias que vas a necesitar llevar a una reunión: la del J-space complica la explicabilidad, y la de STAT News sobre responsabilidad médica te da el argumento institucional antes de firmar cualquier contrato.
