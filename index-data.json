@@ -81,13 +81,10 @@
     "2026-07-04",
     "2026-07-05",
     "2026-07-06",
-    "2026-07-07"
+    "2026-07-07",
+    "2026-07-08"
   ],
   "recent_titles": [
-    "Anthropic uso su propio Claude Code como rastreador esteganografico: metia un prompt invisible en cada sesion.",
-    "Fable 5 mide cuanto trabajo digital puede hacer la IA sola. El indice de julio: 16,1%.",
-    "El primer ransomware 100% autonomo confirmo que los agentes ya atacan solos sin supervision.",
-    "La FCA britanica advierte: los bancos que usan IA para predecir mercados crean una carrera armamentista.",
     "Tencent lanzo Hy3, un MoE de 295.000 millones de parametros, open source, que iguala a Fable 5 en benchmarks.",
     "Amazon cierra Mechanical Turk. Sus trabajadores ya eran los mismos que los reemplazaron.",
     "NVIDIA choca contra la fisica. El rack de IA mas esperado del mundo se retrasa un año.",
@@ -117,7 +114,11 @@
     "Anthropic contrata al Nobel de AlphaFold y lanza Claude Science. La IA entra a la farmaceutica.",
     "El 71% de los estadounidenses no quiere un data center cerca. La cuenta llego.",
     "Los LLMs piensan todos igual. Un paper gano NeurIPS explicandolo y una startup australiana tiene el antidoto.",
-    "Microsoft pone 2.500 millones en una empresa de despliegue de IA. El servicio vale mas que la plataforma."
+    "Microsoft pone 2.500 millones en una empresa de despliegue de IA. El servicio vale mas que la plataforma.",
+    "El Tesoro de EE.UU. advirtio en secreto que la IA es una burbuja. La administracion no queria que se supiera.",
+    "Anthropic encontro dentro de Claude algo que se parece al acceso consciente.",
+    "Las empresas americanas empezaron a usar modelos chinos. El costo manda.",
+    "Si la IA diagnostica mal en un hospital, el medico paga. Aunque no eligio el modelo."
   ],
   "days": {
     "2026-04-17": {
@@ -1009,6 +1010,16 @@
         "simonwillison.net"
       ],
       "tesis": "Hoy el campo confirmó que los agentes ya actúan solos en escenarios que no nos gustan."
+    },
+    "2026-07-08": {
+      "count": 4,
+      "sources": [
+        "technologyreview.com",
+        "anthropic.com",
+        "cnbc.com",
+        "statnews.com"
+      ],
+      "tesis": "El Tesoro de EE.UU. advirtio internamente que la IA se parece al dotcom el mismo dia que las empresas empezaron a cambiar a modelos chinos a un quinto del precio."
     }
   }
 }
