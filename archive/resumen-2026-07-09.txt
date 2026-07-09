@@ -1,1 +1,9 @@
-Hoy el gobierno se volvio el arbitro del timing de la IA. La Casa Blanca desbloqueo GPT-5.6 el mismo dia que China evalua cerrar el acceso global a sus propios modelos de IA. OpenAI festejo con doble lanzamiento: tres modelos nuevos (Sol, Terra, Luna) y GPT-Live, el modo de voz full-duplex. En salud: un paper en Nature muestra que los modelos medicos pueden identificar a pacientes anonimizados con precision casi perfecta. Anthropic publico GRAM, un metodo para aislar conocimiento peligroso en modulos removibles. Amazon gasta 100 millones en GPUs para hacer de Alexa un agente real — usando Anthropic Sonnet.
+Los gobiernos están tomando el timón del calendario de lanzamientos de IA, y la competencia geopolítica EE.UU.-China reemplaza a la ética como árbitro de qué se despliega y cuándo.
+
+OpenAI lanzó GPT-5.6 y el modo de voz en tiempo real el mismo día que la Casa Blanca les dio luz verde: el regulador se convirtió en acelerador.
+
+China evalúa cerrar al mundo el acceso a sus mejores modelos de IA, el movimiento exactamente opuesto al de Washington, con el mismo argumento de fondo: controlar el despliegue es controlar la carrera.
+
+Un paper en Nature demuestra que anonimizar datos médicos no alcanza: los modelos memorizan a pacientes individuales y se los puede recuperar con precisión casi perfecta.
+
+Seguí de cerca si OpenAI publica resultados de seguridad independientes sobre GPT-5.6 o si el apuro por llegar al mercado antes de China dejó esa parte afuera.
