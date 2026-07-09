@@ -82,7 +82,8 @@
     "2026-07-05",
     "2026-07-06",
     "2026-07-07",
-    "2026-07-08"
+    "2026-07-08",
+    "2026-07-09"
   ],
   "recent_titles": [
     "Tencent lanzo Hy3, un MoE de 295.000 millones de parametros, open source, que iguala a Fable 5 en benchmarks.",
@@ -118,7 +119,12 @@
     "El Tesoro de EE.UU. advirtio en secreto que la IA es una burbuja. La administracion no queria que se supiera.",
     "Anthropic encontro dentro de Claude algo que se parece al acceso consciente.",
     "Las empresas americanas empezaron a usar modelos chinos. El costo manda.",
-    "Si la IA diagnostica mal en un hospital, el medico paga. Aunque no eligio el modelo."
+    "Si la IA diagnostica mal en un hospital, el medico paga. Aunque no eligio el modelo.",
+    "OpenAI lanza GPT-5.6 y GPT-Live el mismo dia. El gobierno lo aprobo primero.",
+    "China planea cerrar sus mejores modelos de IA al mundo. La respuesta opuesta a EE.UU.",
+    "La IA medica puede identificar pacientes anonimos con precision casi perfecta.",
+    "Claude Cowork llega al celular. El agente trabaja aunque vos no estes.",
+    "Amazon aposto 100 millones en GPUs para que Alexa encadene tareas sola."
   ],
   "days": {
     "2026-04-17": {
@@ -1020,6 +1026,17 @@
         "statnews.com"
       ],
       "tesis": "El Tesoro de EE.UU. advirtio internamente que la IA se parece al dotcom el mismo dia que las empresas empezaron a cambiar a modelos chinos a un quinto del precio."
+    },
+    "2026-07-09": {
+      "count": 5,
+      "sources": [
+        "openai.com",
+        "reuters.com",
+        "medicaldaily.com",
+        "9to5mac.com",
+        "thenextweb.com"
+      ],
+      "tesis": "Hoy el gobierno se volvio el arbitro del timing de la IA: la Casa Blanca desbloqueo GPT-5.6 el mismo dia que China evalua cerrar el acceso global a sus propios modelos."
     }
   }
 }
