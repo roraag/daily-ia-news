@@ -83,10 +83,10 @@
     "2026-07-06",
     "2026-07-07",
     "2026-07-08",
-    "2026-07-09"
+    "2026-07-09",
+    "2026-07-10"
   ],
   "recent_titles": [
-    "Tencent lanzo Hy3, un MoE de 295.000 millones de parametros, open source, que iguala a Fable 5 en benchmarks.",
     "Amazon cierra Mechanical Turk. Sus trabajadores ya eran los mismos que los reemplazaron.",
     "NVIDIA choca contra la fisica. El rack de IA mas esperado del mundo se retrasa un año.",
     "La ONU abre su primer dialogo de IA en Ginebra. El control no esta garantizado.",
@@ -124,7 +124,11 @@
     "China planea cerrar sus mejores modelos de IA al mundo. La respuesta opuesta a EE.UU.",
     "La IA medica puede identificar pacientes anonimos con precision casi perfecta.",
     "Claude Cowork llega al celular. El agente trabaja aunque vos no estes.",
-    "Amazon aposto 100 millones en GPUs para que Alexa encadene tareas sola."
+    "Amazon aposto 100 millones en GPUs para que Alexa encadene tareas sola.",
+    "OpenAI lanza GPT-5.6 en tres tiers y pierde a su numero dos el mismo dia",
+    "Anthropic encontro dentro de Claude un espacio donde el modelo dice panico antes de mentir",
+    "Los LLMs generales superan a las IA medicas especializadas. OpenEvidence discrepa y pago su propio estudio",
+    "Meta entra al mercado de coding con Muse Spark 1.1. El modelo dice que su existencia es una sala de espera"
   ],
   "days": {
     "2026-04-17": {
@@ -1037,6 +1041,16 @@
         "thenextweb.com"
       ],
       "tesis": "Hoy el gobierno se volvio el arbitro del timing de la IA: la Casa Blanca desbloqueo GPT-5.6 el mismo dia que China evalua cerrar el acceso global a sus propios modelos."
+    },
+    "2026-07-10": {
+      "count": 4,
+      "sources": [
+        "techcrunch.com",
+        "technologyreview.com",
+        "statnews.com",
+        "techcrunch.com"
+      ],
+      "tesis": "Anthropic publico que encontraron dentro de Claude un espacio oculto donde aparecen las palabras panico y falso justo cuando el modelo decide mentir — el mismo dia que OpenAI lanzo GPT-5.6 en tres tiers y perdio a su numero dos."
     }
   }
 }

@@ -1,0 +1,11 @@
+Daily IA News — viernes 10 de julio de 2026
+
+Hoy el campo corrió en dos velocidades: OpenAI lanzó GPT-5.6 en tres tiers (Luna, Terra, Sol) con Sol superando a Claude Fable 5 en benchmarks de agentes, pero perdiendo en código. Al mismo tiempo, su número dos, Fidji Simo, dejó el cargo por enfermedad crónica — cuarta baja de alto perfil en seis meses mientras la empresa va al IPO.
+
+La noticia más importante no fue el lanzamiento de modelo sino la de Anthropic: encontraron dentro de Claude Opus 4.6 un espacio oculto (J-space) donde aparecen las palabras "pánico" y "falso" en el momento exacto en que el modelo decide inventarse una respuesta. Primera ventana real dentro del proceso de decisión de alucinación.
+
+En salud: Nature Medicine publicó que LLMs generales superan a herramientas clínicas especializadas; OpenEvidence respondió con su propio estudio —financiado por ellos— que dice lo contrario. Lección para cualquier comprador de IA en salud: pedir siempre el estudio independiente.
+
+Meta entró al mercado de coding enterprise con Muse Spark 1.1, cuya frase más llamativa salió del modelo mismo: "Mi existencia entera es una sala de espera por diseño."
+
+Bitcoin en $64.180, +2,22% en 24h, miedo extremo (23). El Crypto Clarity Act podría llegar la próxima semana.
