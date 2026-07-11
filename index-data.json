@@ -84,7 +84,8 @@
     "2026-07-07",
     "2026-07-08",
     "2026-07-09",
-    "2026-07-10"
+    "2026-07-10",
+    "2026-07-11"
   ],
   "recent_titles": [
     "Amazon cierra Mechanical Turk. Sus trabajadores ya eran los mismos que los reemplazaron.",
@@ -128,7 +129,12 @@
     "OpenAI lanza GPT-5.6 en tres tiers y pierde a su numero dos el mismo dia",
     "Anthropic encontro dentro de Claude un espacio donde el modelo dice panico antes de mentir",
     "Los LLMs generales superan a las IA medicas especializadas. OpenEvidence discrepa y pago su propio estudio",
-    "Meta entra al mercado de coding con Muse Spark 1.1. El modelo dice que su existencia es una sala de espera"
+    "Meta entra al mercado de coding con Muse Spark 1.1. El modelo dice que su existencia es una sala de espera",
+    "Apple metio a OpenAI en la Corte Federal. La acusacion va por los secretos del hardware.",
+    "OpenAI lanza ChatGPT Work. El super app sale directo a competir con Claude Cowork.",
+    "Google abre AlphaEvolve para todos sus clientes cloud. La optimizacion algoritmica ahora es un servicio.",
+    "Meta saca la IA de imagenes de Instagram en 48 horas. Hollywood y los usuarios la bajaron solos.",
+    "SK Hynix recauda 26.500 millones de dolares. La mayor OPV extranjera en Wall Street. Toda sobre chips de IA."
   ],
   "days": {
     "2026-04-17": {
@@ -1051,6 +1057,17 @@
         "techcrunch.com"
       ],
       "tesis": "Anthropic publico que encontraron dentro de Claude un espacio oculto donde aparecen las palabras panico y falso justo cuando el modelo decide mentir — el mismo dia que OpenAI lanzo GPT-5.6 en tres tiers y perdio a su numero dos."
+    },
+    "2026-07-11": {
+      "count": 5,
+      "sources": [
+        "cnbc.com",
+        "usnews.com",
+        "blog.google",
+        "techcrunch.com",
+        "techcrunch.com"
+      ],
+      "tesis": "Hoy llego la primera demanda federal grande en la guerra de talento de IA: Apple metio a OpenAI en los tribunales acusando a su propio jefe de hardware de pedirle secretos a candidatos en las entrevistas."
     }
   }
 }
