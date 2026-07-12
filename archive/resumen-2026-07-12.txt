@@ -1,0 +1,11 @@
+Daily IA News — domingo 12 de julio de 2026
+
+OpenAI reorganizó su equipo de seguridad justo antes de su IPO: Johannes Heidecke, segundo jefe de safety en dos años, deja la empresa y los equipos pasan a reportar a investigación. Goldman Sachs y Morgan Stanley preparan el IPO para septiembre, valuación entre 730.000 y 1.000 millones de millones de dólares.
+
+China evalúa cerrar el acceso global a sus mejores modelos de IA. Si avanza, se acaba la narrativa de "modelos chinos baratos" que creció cuando Anthropic fue baneado. Dos superpotencias cerrando sus herramientas al mundo al mismo tiempo es fragmentación, no competencia.
+
+En salud, dos historias contrapuestas: Pearl Health levantó 110 millones (a16z) para IA en Medicare, llegó a rentabilidad en 2025 y gestiona 3.600 millones en gasto médico — el modelo de value-based care funciona. Al mismo tiempo, el OIG del VA puso semáforo rojo al despliegue agresivo de IA clínica en el sistema de salud público más grande de EE.UU. por falta de auditoría y gobernanza.
+
+Google confirmaría Gemini 3.5 Pro para el 17 de julio, reconstruido desde cero con 2 millones de tokens de contexto. Los tres labs principales tendrán sus mejores modelos en el mercado al mismo tiempo por primera vez.
+
+Anthropic Watch: Fable 5 sale de las suscripciones hoy y pasa a créditos de uso (10 dólares/M entrada, 50/M salida). Bitcoin en 63.940 dólares, dominancia 56,3%, Fear & Greed 26 (Miedo). Sin señal de alt season.

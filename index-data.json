@@ -85,14 +85,10 @@
     "2026-07-08",
     "2026-07-09",
     "2026-07-10",
-    "2026-07-11"
+    "2026-07-11",
+    "2026-07-12"
   ],
   "recent_titles": [
-    "Amazon cierra Mechanical Turk. Sus trabajadores ya eran los mismos que los reemplazaron.",
-    "NVIDIA choca contra la fisica. El rack de IA mas esperado del mundo se retrasa un año.",
-    "La ONU abre su primer dialogo de IA en Ginebra. El control no esta garantizado.",
-    "La FTC propone que las empresas de IA revelen si su modelo fue programado para no decir la verdad.",
-    "Un 40% mas de adolescentes le confia sus problemas de salud mental a chatbots. JAMA lo documento.",
     "Alibaba le cerro la puerta a Claude Code. El motivo oficial es un backdoor. El real, geopolitica.",
     "La Casa Blanca le pidio a OpenAI que frene GPT-5.6. OpenAI acepto.",
     "El NHS metio IA en su app para decirle a millones de pacientes adonde ir.",
@@ -134,7 +130,12 @@
     "OpenAI lanza ChatGPT Work. El super app sale directo a competir con Claude Cowork.",
     "Google abre AlphaEvolve para todos sus clientes cloud. La optimizacion algoritmica ahora es un servicio.",
     "Meta saca la IA de imagenes de Instagram en 48 horas. Hollywood y los usuarios la bajaron solos.",
-    "SK Hynix recauda 26.500 millones de dolares. La mayor OPV extranjera en Wall Street. Toda sobre chips de IA."
+    "SK Hynix recauda 26.500 millones de dolares. La mayor OPV extranjera en Wall Street. Toda sobre chips de IA.",
+    "OpenAI reorganizo seguridad con el IPO a dias. La senal no es menor.",
+    "China evalua cerrar el acceso global a sus modelos mas avanzados de IA.",
+    "Pearl Health levanto 110 millones para IA en Medicare. El modelo de negocio funciona de verdad.",
+    "El OIG del VA le puso semaforo rojo al despliegue de IA clinica sin control.",
+    "Google confirma Gemini 3.5 Pro para el 17 de julio. Reescribio la arquitectura desde cero."
   ],
   "days": {
     "2026-04-17": {
@@ -1068,6 +1069,17 @@
         "techcrunch.com"
       ],
       "tesis": "Hoy llego la primera demanda federal grande en la guerra de talento de IA: Apple metio a OpenAI en los tribunales acusando a su propio jefe de hardware de pedirle secretos a candidatos en las entrevistas."
+    },
+    "2026-07-12": {
+      "count": 5,
+      "sources": [
+        "bloomberg.com",
+        "taipeitimes.com",
+        "fiercehealthcare.com",
+        "marketscale.com",
+        "finance.biggo.com"
+      ],
+      "tesis": "OpenAI reorganizo su equipo de seguridad justo cuando prepara el mayor IPO tecnologico de la historia, y China evalua cerrar sus mejores modelos al mundo."
     }
   }
 }
