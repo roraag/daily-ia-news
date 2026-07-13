@@ -1,11 +1,9 @@
-Daily IA News — lunes 13 de julio de 2026
+La batalla de hoy no es entre modelos: es entre quien dibuja los límites regulatorios, y Anthropic es acusada de estar moviendo el tablero en Washington para eliminar la competencia open-source mientras OpenAI capitaliza y un parche cardíaco demuestra que la IA clínica más útil opera sin mandar un solo dato a la nube.
 
-Nathan Lambert (Allen Institute) publicó que la Casa Blanca evalúa un decreto ejecutivo para restringir modelos de IA de pesos abiertos por encima del nivel de Opus 4.8 en los próximos seis meses. Acusa a Anthropic de lobby regulatorio que elimina competencia open-source sin tocar sus propios modelos cerrados.
+Nathan Lambert le pone cronómetro al open source: la Casa Blanca tiene seis meses para decidir si los modelos de pesos abiertos sobreviven o quedan excluidos del ecosistema regulado, con Anthropic señalada directamente como la beneficiaria del movimiento.
 
-Un parche cardíaco de la Universidad de Chicago detecta arritmias con 99,6% de precisión corriendo todo on-device, sin enviar datos a la nube. El CMS creó su primera oficina dedicada a supervisar IA en Medicare y Medicaid.
+Un parche cardíaco de Chicago corre inferencia on-device, detecta arritmias peligrosas con 99,6% de precisión en milisegundos y no sube ningún dato a ningún servidor — exactamente el modelo que resuelve el principal obstáculo para adoptar IA clínica en una mutualista.
 
-OpenAI arrancó hoy su Build Week global (13-21 julio) centrada en Codex y GPT-5.6, con Greg Brockman en el livestream de apertura. Más de 40 eventos presenciales en el mundo.
+OpenAI lanza Build Week hoy con Greg Brockman en el livestream de apertura, hackathon hasta el 21 de julio centrado en Codex con acceso gratuito a sesiones diarias y a GPT-5.6 para prototipar.
 
-Anthropic Watch: Fable 5 extendido hasta el 19 de julio; promo de +50% en Claude Code terminó hoy. Sin anuncios nuevos de producto esta semana.
-
-Bitcoin: $63.143 USD, -1,22% en 24h, dominancia 56,1%, Fear & Greed 28 (Miedo). BTC aguantó mientras los ataques de EE.UU. a Irán movían el oro y los bonos. El dato de inflación de junio sale mañana.
+Marcá el jueves 17: llega Gemini 3.5 Pro con arquitectura reescrita desde cero, 2M de contexto y Deep Think a precio muy distinto de Opus 4.8 — la semana que viene van a aparecer las comparativas que cambian las decisiones de proveedor.
