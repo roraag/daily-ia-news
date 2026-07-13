@@ -86,23 +86,10 @@
     "2026-07-09",
     "2026-07-10",
     "2026-07-11",
-    "2026-07-12"
+    "2026-07-12",
+    "2026-07-13"
   ],
   "recent_titles": [
-    "Alibaba le cerro la puerta a Claude Code. El motivo oficial es un backdoor. El real, geopolitica.",
-    "La Casa Blanca le pidio a OpenAI que frene GPT-5.6. OpenAI acepto.",
-    "El NHS metio IA en su app para decirle a millones de pacientes adonde ir.",
-    "Cuatro estados de EE.UU. aprobaron leyes que prohiben a las aseguradoras usar IA sola para negar cobertura.",
-    "Anthropic contrato biologos, construyo laboratorios humedos y se declaro empresa farmaceutica.",
-    "Mythos 5 vuelve. Y el gobierno decidio quien tiene acceso.",
-    "La FDA no para: el pipeline de IA medica esta en maximos historicos.",
-    "Notion cerro su app de email. Los usuarios prefieren agentes.",
-    "La mitad de los usuarios de Claude ya delegan la mitad de su trabajo. Anthropic lo documento.",
-    "Claude Code convirtio a cada ingeniero en tres. Ahora faltan los que piensan el producto.",
-    "Google lanzo la Interactions API. Ahora los agentes de Gemini tienen una interfaz unificada.",
-    "Startups asiaticas lanzan sus propios Mythos. El ban de Anthropic creo un vacio que se esta llenando.",
-    "Llamarle empleado a tu agente de IA hace que lo supervises menos. Un 44% menos.",
-    "El estudio mas anti-intuitivo del ano: las empresas que mas usan IA contratan mas, no menos.",
     "California firmo con Anthropic. Claude a mitad de precio para todo el gobierno estatal.",
     "El ban de Anthropic cayo: gobierno levanto restricciones sobre Fable 5 y Mythos. La razon real fue China.",
     "Anthropic anuncia desarrollo propio de farmacos. Claude Science para investigadores y pharma.",
@@ -135,7 +122,10 @@
     "China evalua cerrar el acceso global a sus modelos mas avanzados de IA.",
     "Pearl Health levanto 110 millones para IA en Medicare. El modelo de negocio funciona de verdad.",
     "El OIG del VA le puso semaforo rojo al despliegue de IA clinica sin control.",
-    "Google confirma Gemini 3.5 Pro para el 17 de julio. Reescribio la arquitectura desde cero."
+    "Google confirma Gemini 3.5 Pro para el 17 de julio. Reescribio la arquitectura desde cero.",
+    "Nathan Lambert: el gobierno tiene seis meses para decidir si el open source de IA sobrevive",
+    "On-device en el pecho: el parche de Chicago detecta arritmias sin mandar un bit a la nube",
+    "OpenAI arranca Build Week con Codex mientras los modelos abiertos se quedan sin tiempo"
   ],
   "days": {
     "2026-04-17": {
@@ -1080,6 +1070,15 @@
         "finance.biggo.com"
       ],
       "tesis": "OpenAI reorganizo su equipo de seguridad justo cuando prepara el mayor IPO tecnologico de la historia, y China evalua cerrar sus mejores modelos al mundo."
+    },
+    "2026-07-13": {
+      "count": 3,
+      "sources": [
+        "interconnects.ai",
+        "marketscale.com",
+        "openai.com"
+      ],
+      "tesis": "Nathan Lambert pone el cronometro: seis meses para que la regulacion decida si los modelos abiertos sobreviven."
     }
   }
 }

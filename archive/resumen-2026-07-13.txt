@@ -1,0 +1,11 @@
+Daily IA News — lunes 13 de julio de 2026
+
+Nathan Lambert (Allen Institute) publicó que la Casa Blanca evalúa un decreto ejecutivo para restringir modelos de IA de pesos abiertos por encima del nivel de Opus 4.8 en los próximos seis meses. Acusa a Anthropic de lobby regulatorio que elimina competencia open-source sin tocar sus propios modelos cerrados.
+
+Un parche cardíaco de la Universidad de Chicago detecta arritmias con 99,6% de precisión corriendo todo on-device, sin enviar datos a la nube. El CMS creó su primera oficina dedicada a supervisar IA en Medicare y Medicaid.
+
+OpenAI arrancó hoy su Build Week global (13-21 julio) centrada en Codex y GPT-5.6, con Greg Brockman en el livestream de apertura. Más de 40 eventos presenciales en el mundo.
+
+Anthropic Watch: Fable 5 extendido hasta el 19 de julio; promo de +50% en Claude Code terminó hoy. Sin anuncios nuevos de producto esta semana.
+
+Bitcoin: $63.143 USD, -1,22% en 24h, dominancia 56,1%, Fear & Greed 28 (Miedo). BTC aguantó mientras los ataques de EE.UU. a Irán movían el oro y los bonos. El dato de inflación de junio sale mañana.
