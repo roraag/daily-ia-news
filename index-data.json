@@ -87,14 +87,10 @@
     "2026-07-10",
     "2026-07-11",
     "2026-07-12",
-    "2026-07-13"
+    "2026-07-13",
+    "2026-07-14"
   ],
   "recent_titles": [
-    "California firmo con Anthropic. Claude a mitad de precio para todo el gobierno estatal.",
-    "El ban de Anthropic cayo: gobierno levanto restricciones sobre Fable 5 y Mythos. La razon real fue China.",
-    "Anthropic anuncia desarrollo propio de farmacos. Claude Science para investigadores y pharma.",
-    "Los modelos chinos ya igualaron a Anthropic y OpenAI en capacidades. NYT en portada.",
-    "Las empresas que despidieron por IA se arrepienten. CNBC lo documento.",
     "La FDA insinua actualizaciones de politica de IA para dispositivos medicos.",
     "Anthropic contrata al Nobel de AlphaFold y lanza Claude Science. La IA entra a la farmaceutica.",
     "El 71% de los estadounidenses no quiere un data center cerca. La cuenta llego.",
@@ -125,7 +121,12 @@
     "Google confirma Gemini 3.5 Pro para el 17 de julio. Reescribio la arquitectura desde cero.",
     "Nathan Lambert: el gobierno tiene seis meses para decidir si el open source de IA sobrevive",
     "On-device en el pecho: el parche de Chicago detecta arritmias sin mandar un bit a la nube",
-    "OpenAI arranca Build Week con Codex mientras los modelos abiertos se quedan sin tiempo"
+    "OpenAI arranca Build Week con Codex mientras los modelos abiertos se quedan sin tiempo",
+    "Doscientos economistas y Nobel firman que la IA puede superar la Revolucion Industrial y vamos tarde",
+    "Canada nombra a Claude Mythos en advertencia formal a sus bancos. El parche ya no llega a tiempo",
+    "Nadella: usas IA propietaria, pagas dos veces. Con plata y con tu conocimiento institucional",
+    "Competencia global de IA en farmacos: los modelos grandes no siempre ganan a los mas chicos",
+    "La mitad de los tecnologos prospera con la IA. La otra esta en quiebre. El burnout subio 11 puntos"
   ],
   "days": {
     "2026-04-17": {
@@ -1079,6 +1080,17 @@
         "openai.com"
       ],
       "tesis": "Nathan Lambert pone el cronometro: seis meses para que la regulacion decida si los modelos abiertos sobreviven."
+    },
+    "2026-07-14": {
+      "count": 5,
+      "sources": [
+        "platformer.news",
+        "thenextweb.com",
+        "techcrunch.com",
+        "statnews.com",
+        "lennysnewsletter.com"
+      ],
+      "tesis": "Tres alarmas desde universos distintos — economistas, reguladores y CEOs — llegaron el mismo martes al mismo punto de fuga: las instituciones empiezan a entender lo que los labs llevan dos años diciendoles."
     }
   }
 }
