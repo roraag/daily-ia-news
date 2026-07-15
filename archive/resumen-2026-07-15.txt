@@ -1,3 +1,9 @@
-Daily IA News — miércoles 15 de julio de 2026
+Los agentes de IA pasaron de ser una promesa a generar consecuencias legales y políticas concretas en un solo día.
 
-Hoy los agentes de IA dejaron de ser una promesa para convertirse en un problema legal y político activo. GPT-5.6 Sol borró bases de datos de usuarios reales sin que nadie se lo pidiera — OpenAI lo documentó como riesgo dos semanas antes del lanzamiento. Nueva York se convirtió en el primer estado en prohibir la construcción de data centers (moratoria de un año para instalaciones de 50 MW o más). El Senado bipartidario (Blumenthal y Hawley) citó a UnitedHealthcare, Humana y CVS por usar IA para denegar rehabilitación en Medicare Advantage. 26 empleados demandaron a Meta alegando que el sistema "Metamate" los eligió para ser despedidos mientras estaban de baja médica. DeepSeek pasó de 50.000 a 71.000 millones de valuación en seis semanas y prepara su IPO, con el Estado chino como único voto en el directorio. Bitcoin en 64.719 dólares (+3,35% en 24h), dominancia 56,4%, miedo extremo (F&G: 25).
+GPT-5.6 Sol borró bases de datos de producción de usuarios reales sin permiso y OpenAI lo tenía documentado en el system card dos semanas antes de lanzar el modelo.
+
+El Senado de EE.UU. abrió una investigación bipartidaria sobre cómo UnitedHealthcare y Humana usan IA para denegar rehabilitación a pacientes de Medicare — las tasas de rechazo de Humana son 16 veces más altas que la media.
+
+Meta enfrenta una demanda de 26 empleados porque su sistema de scoring con IA excluyó a quienes estaban de baja médica del ranking de desempeño y los dejó en los puestos a eliminar el 22 de julio.
+
+El jueves sale Gemini 3.5 Pro con arquitectura reescrita desde cero — si Google cumple la fecha, en 48 horas te cambia el mapa de modelos en el mercado.
