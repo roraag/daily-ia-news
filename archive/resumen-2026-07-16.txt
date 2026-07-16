@@ -1,16 +1,9 @@
-Daily IA News — jueves 16 de julio de 2026
-4 noticias curadas
+El valor de la IA se desplaza de construir modelos a construir sobre ellos, y cuatro movidas del día lo confirman a la vez.
 
-Tesis: El modelo ya no es la noticia. El valor de la IA se está mudando de construir modelos a construir sobre ellos.
+Anthropic y Blackstone pusieron 1.500 millones en Ode para meter ingenieros dentro de las empresas cliente y hacer que la IA despliegue de verdad.
 
-1. Anthropic y Blackstone lanzaron Ode: empresa de implementación capitalizada en 1.500 millones de dólares con 100 ingenieros forward-deployed. La apuesta es que el próximo negocio trillion-dollar no es el modelo, es el despliegue.
+Apple entregó el control de su capa de IA a Alibaba para conseguir acceso al mercado chino, eligiendo escala sobre privacidad.
 
-2. Apple recibió aprobación regulatoria para Apple Intelligence en China, pero usando modelos de Alibaba (Qwen) en lugar de los propios. Primer compromiso geopolítico grande de la era de IA on-device.
+Medicare anunció que a partir de 2027 les pagará a los proveedores de IA clínica solo si demuestran mejoras en outcomes de pacientes.
 
-3. CMS anunció una estructura de pago estandarizada para IA clínica basada en outcomes de pacientes, con cambios que arrancan en 2027. Primera señal concreta de que los proveedores tendrán que demostrar resultados para cobrar.
-
-4. Mira Murati (ex-CTO de OpenAI) lanzó Inkling desde Thinking Machines Lab: primer modelo open-source, apuesta a modelos especializados contra el one-size-fits-all.
-
-Anthropic Watch: lanzó Ode con Blackstone, Claude for Teachers y 10M para Canada. Vulnerabilidad de exfiltración en web_fetch parcheada el mismo día de ser reportada.
-
-Bitcoin: 64.040 USD · 24h -1,05% · Dominancia 56,2% · Fear & Greed 25 (Miedo extremo). Sin señal de alt season.
+Mañana Google lanza Gemini 3.5 Pro, anunciado como reescritura completa de la arquitectura — si lo entrega, la presión sobre Claude sube de golpe.
