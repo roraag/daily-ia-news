@@ -89,13 +89,10 @@
     "2026-07-12",
     "2026-07-13",
     "2026-07-14",
-    "2026-07-15"
+    "2026-07-15",
+    "2026-07-16"
   ],
   "recent_titles": [
-    "El Tesoro de EE.UU. advirtio en secreto que la IA es una burbuja. La administracion no queria que se supiera.",
-    "Anthropic encontro dentro de Claude algo que se parece al acceso consciente.",
-    "Las empresas americanas empezaron a usar modelos chinos. El costo manda.",
-    "Si la IA diagnostica mal en un hospital, el medico paga. Aunque no eligio el modelo.",
     "OpenAI lanza GPT-5.6 y GPT-Live el mismo dia. El gobierno lo aprobo primero.",
     "China planea cerrar sus mejores modelos de IA al mundo. La respuesta opuesta a EE.UU.",
     "La IA medica puede identificar pacientes anonimos con precision casi perfecta.",
@@ -127,7 +124,11 @@
     "El Senado va tras las aseguradoras que usan IA para negar rehabilitacion. Bipartidario.",
     "DeepSeek levanta 1.500 millones y prepara su IPO. Valuacion de 71.000 millones.",
     "La demanda contra Meta: el sistema de IA eligio a los empleados de baja medica para ser despedidos.",
-    "Nueva York prohibe construir data centers. El primer estado de EE.UU. en hacerlo."
+    "Nueva York prohibe construir data centers. El primer estado de EE.UU. en hacerlo.",
+    "Anthropic y Blackstone apostaron 1.500 millones a que la plata esta en implementar IA, no en construirla",
+    "Apple logro que China le apruebe la IA. El precio: cambiar su modelo por el de Alibaba",
+    "El Medicare empezo a preguntar si la IA medica sirve de verdad antes de pagarla",
+    "Mira Murati salio de las sombras con un modelo abierto. Dijo en 18 meses lo que no dijo en anos"
   ],
   "days": {
     "2026-04-17": {"count": 6, "sources": ["openai.com","techcrunch.com","hbr.org","fiercehealthcare.com","statnews.com"]},
@@ -219,6 +220,7 @@
     "2026-07-12": {"count": 5, "sources": ["bloomberg.com","taipeitimes.com","fiercehealthcare.com","marketscale.com","finance.biggo.com"], "tesis": "OpenAI reorganizo su equipo de seguridad justo cuando prepara el mayor IPO tecnologico de la historia, y China evalua cerrar sus mejores modelos al mundo."},
     "2026-07-13": {"count": 3, "sources": ["interconnects.ai","marketscale.com","openai.com"], "tesis": "Nathan Lambert pone el cronometro: seis meses para que la regulacion decida si los modelos abiertos sobreviven."},
     "2026-07-14": {"count": 5, "sources": ["platformer.news","thenextweb.com","techcrunch.com","statnews.com","lennysnewsletter.com"], "tesis": "Tres alarmas desde universos distintos — economistas, reguladores y CEOs — llegaron el mismo martes al mismo punto de fuga: las instituciones empiezan a entender lo que los labs llevan dos anos diciendoles."},
-    "2026-07-15": {"count": 5, "sources": ["techcrunch.com","statnews.com","cnbc.com","washingtonpost.com","techcrunch.com"], "tesis": "Hoy los agentes de IA dejaron de ser una promesa para convertirse en un problema legal y politico activo."}
+    "2026-07-15": {"count": 5, "sources": ["techcrunch.com","statnews.com","cnbc.com","washingtonpost.com","techcrunch.com"], "tesis": "Hoy los agentes de IA dejaron de ser una promesa para convertirse en un problema legal y politico activo."},
+    "2026-07-16": {"count": 4, "sources": ["techcrunch.com","statnews.com","venturebeat.com","simonwillison.net"], "tesis": "El modelo ya no es la noticia. El valor de la IA se esta mudando de construir modelos a construir sobre ellos."}
   }
 }
