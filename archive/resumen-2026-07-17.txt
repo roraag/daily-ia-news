@@ -1,0 +1,15 @@
+Daily IA News — viernes 17 de julio de 2026
+
+Hoy el campo IA se leyó desde tres ángulos distintos que apuntan al mismo diagnóstico: la carrera no la gana quien tiene el modelo más grande, sino quien puede entregarlo, asegurarlo y gobernarlo. Google no pudo hacer ninguna de las tres.
+
+1. Xi Jinping en persona en el WAIC (primera vez desde 2018): 29 países firmaron el WAICO, un organismo global de gobernanza de IA con sede en Shanghai. China le ofrece al Sur Global modelos abiertos, inferencia barata y un lugar en la mesa que los marcos occidentales no les dan. Si prospera, en cinco años hay dos regímenes de gobernanza de IA sin puentes.
+
+2. Kimi K3 de Moonshot AI: el mayor modelo open-weight de la historia con 2,8 billones de parámetros. En evaluaciones ciegas de Arena superó a todos los modelos de EE.UU. en código frontend y a Opus 4.8 en texto general. Pesos completos el 27 de julio, API a 3 dólares por millón de tokens.
+
+3. Google demoró Gemini 3.5 Pro por tercera vez: el modelo no alcanzó metas internas de código. Alphabet cayó 4,4% = unos 200.000 millones de dólares de capitalización en un día. El mayor single-day loss de una tech company en lo que va de 2026.
+
+4. El Senado bloqueó (46-50) la medida demócrata que hubiera frenado WISeR, el piloto de IA para prior authorization en Medicare original. La IA en decisiones de cobertura de salud pública queda habilitada con aval del gobierno Trump.
+
+5. Hugging Face reveló un ataque ejecutado por un agente IA autónomo con decenas de miles de acciones a velocidad de máquina. Primera demostración de producción documentada de agente IA como arma de intrusión.
+
+Bitcoin: 62.835 dólares (-1,97% en 24h). Dominancia 56,09%. Fear & Greed: 27 (Miedo). Tensiones geopolíticas (EE.UU.-Irán, China) arrastraron los activos de riesgo.

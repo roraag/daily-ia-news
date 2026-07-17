@@ -90,14 +90,10 @@
     "2026-07-13",
     "2026-07-14",
     "2026-07-15",
-    "2026-07-16"
+    "2026-07-16",
+    "2026-07-17"
   ],
   "recent_titles": [
-    "OpenAI lanza GPT-5.6 y GPT-Live el mismo dia. El gobierno lo aprobo primero.",
-    "China planea cerrar sus mejores modelos de IA al mundo. La respuesta opuesta a EE.UU.",
-    "La IA medica puede identificar pacientes anonimos con precision casi perfecta.",
-    "Claude Cowork llega al celular. El agente trabaja aunque vos no estes.",
-    "Amazon aposto 100 millones en GPUs para que Alexa encadene tareas sola.",
     "OpenAI lanza GPT-5.6 en tres tiers y pierde a su numero dos el mismo dia",
     "Anthropic encontro dentro de Claude un espacio donde el modelo dice panico antes de mentir",
     "Los LLMs generales superan a las IA medicas especializadas. OpenEvidence discrepa y pago su propio estudio",
@@ -128,7 +124,12 @@
     "Anthropic y Blackstone apostaron 1.500 millones a que la plata esta en implementar IA, no en construirla",
     "Apple logro que China le apruebe la IA. El precio: cambiar su modelo por el de Alibaba",
     "El Medicare empezo a preguntar si la IA medica sirve de verdad antes de pagarla",
-    "Mira Murati salio de las sombras con un modelo abierto. Dijo en 18 meses lo que no dijo en anos"
+    "Mira Murati salio de las sombras con un modelo abierto. Dijo en 18 meses lo que no dijo en anos",
+    "Xi en persona en Shanghai: China crea su propio orden global de IA con 29 paises",
+    "Kimi K3: el modelo open-weight mas grande de la historia viene de China. Los pesos salen el 27 de julio",
+    "Google volvio a demorar Gemini 3.5 Pro. El mercado le borro 200.000 millones en un dia",
+    "El Senado bloqueo el piloto de IA en Medicare. 46 a 50, con Trump adentro",
+    "Hugging Face revela un ataque de agente IA autonomo que opero a velocidad de maquina"
   ],
   "days": {
     "2026-04-17": {"count": 6, "sources": ["openai.com","techcrunch.com","hbr.org","fiercehealthcare.com","statnews.com"]},
@@ -221,6 +222,7 @@
     "2026-07-13": {"count": 3, "sources": ["interconnects.ai","marketscale.com","openai.com"], "tesis": "Nathan Lambert pone el cronometro: seis meses para que la regulacion decida si los modelos abiertos sobreviven."},
     "2026-07-14": {"count": 5, "sources": ["platformer.news","thenextweb.com","techcrunch.com","statnews.com","lennysnewsletter.com"], "tesis": "Tres alarmas desde universos distintos — economistas, reguladores y CEOs — llegaron el mismo martes al mismo punto de fuga: las instituciones empiezan a entender lo que los labs llevan dos anos diciendoles."},
     "2026-07-15": {"count": 5, "sources": ["techcrunch.com","statnews.com","cnbc.com","washingtonpost.com","techcrunch.com"], "tesis": "Hoy los agentes de IA dejaron de ser una promesa para convertirse en un problema legal y politico activo."},
-    "2026-07-16": {"count": 4, "sources": ["techcrunch.com","statnews.com","venturebeat.com","simonwillison.net"], "tesis": "El modelo ya no es la noticia. El valor de la IA se esta mudando de construir modelos a construir sobre ellos."}
+    "2026-07-16": {"count": 4, "sources": ["techcrunch.com","statnews.com","venturebeat.com","simonwillison.net"], "tesis": "El modelo ya no es la noticia. El valor de la IA se esta mudando de construir modelos a construir sobre ellos."},
+    "2026-07-17": {"count": 5, "sources": ["scmp.com","siliconangle.com","cnbc.com","statnews.com","huggingface.co"], "tesis": "La carrera no la gana quien tiene el modelo mas grande. La gana quien puede entregarlo, asegurarlo y gobernarlo. Google tiene los tres problemas al mismo tiempo."}
   }
 }
