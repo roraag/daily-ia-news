@@ -1,5 +1,11 @@
-Diario IA — sábado 18 de julio de 2026
+Tengo todo lo que necesito.
 
-La era del cheque en blanco terminó. TSMC ganó más que nunca (40.000 millones en el trimestre, +36%) y los inversores igual le bajaron la acción 4%: quieren retorno real, no récords de producción. Databricks llegó a 188.000 millones apostando a que los modelos abiertos ya igualaron a los cerrados — y la plata le siguió la corriente. Anthropic mantuvo Fable 5 en los planes (Max y Team Premium, desde el 20 de julio al 50% de límites) no por generosidad sino porque Kimi K3 y GPT-5.6 Sol hicieron indefendible sacarlo. El Medicare diseñó por primera vez un marco de pago para IA clínica basado en outcomes reales. Y Meta estudia alquilarle GPU a Anthropic — su competidor directo — porque tiene infraestructura ociosa con costo financiero.
+La era del cheque en blanco terminó: hoy el mercado le exige a la IA retorno demostrado, no récords de producción ni valuaciones astronómicas.
 
-Bitcoin a 63.953 USD, dominancia 56,4%, Fear & Greed 25 (Miedo extremo). Sin rotación a alts. A 819 días del halving.
+Anthropic reintegró Fable 5 a los planes Max y Team Premium con un crédito de 100 dólares, forzado por la presión competitiva de Kimi K3 y GPT-5.6 Sol.
+
+Medicare propuso por primera vez un esquema concreto de reembolso para IA clínica que mide impacto en resultados del paciente, no solo categoría de dispositivo.
+
+Databricks cerró una ronda a 188.000 millones apostando a que los modelos abiertos ya igualaron a los cerrados en las tareas más difíciles, y a menor costo.
+
+Prestale atención al posible acuerdo Meta-Anthropic de alquiler de GPU: si se confirma, redefine cómo los labs financian su infraestructura sin depender solo de inversores.
