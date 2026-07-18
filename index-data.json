@@ -91,18 +91,10 @@
     "2026-07-14",
     "2026-07-15",
     "2026-07-16",
-    "2026-07-17"
+    "2026-07-17",
+    "2026-07-18"
   ],
   "recent_titles": [
-    "OpenAI lanza GPT-5.6 en tres tiers y pierde a su numero dos el mismo dia",
-    "Anthropic encontro dentro de Claude un espacio donde el modelo dice panico antes de mentir",
-    "Los LLMs generales superan a las IA medicas especializadas. OpenEvidence discrepa y pago su propio estudio",
-    "Meta entra al mercado de coding con Muse Spark 1.1. El modelo dice que su existencia es una sala de espera",
-    "Apple metio a OpenAI en la Corte Federal. La acusacion va por los secretos del hardware.",
-    "OpenAI lanza ChatGPT Work. El super app sale directo a competir con Claude Cowork.",
-    "Google abre AlphaEvolve para todos sus clientes cloud. La optimizacion algoritmica ahora es un servicio.",
-    "Meta saca la IA de imagenes de Instagram en 48 horas. Hollywood y los usuarios la bajaron solos.",
-    "SK Hynix recauda 26.500 millones de dolares. La mayor OPV extranjera en Wall Street. Toda sobre chips de IA.",
     "OpenAI reorganizo seguridad con el IPO a dias. La senal no es menor.",
     "China evalua cerrar el acceso global a sus modelos mas avanzados de IA.",
     "Pearl Health levanto 110 millones para IA en Medicare. El modelo de negocio funciona de verdad.",
@@ -129,7 +121,12 @@
     "Kimi K3: el modelo open-weight mas grande de la historia viene de China. Los pesos salen el 27 de julio",
     "Google volvio a demorar Gemini 3.5 Pro. El mercado le borro 200.000 millones en un dia",
     "El Senado bloqueo el piloto de IA en Medicare. 46 a 50, con Trump adentro",
-    "Hugging Face revela un ataque de agente IA autonomo que opero a velocidad de maquina"
+    "Hugging Face revela un ataque de agente IA autonomo que opero a velocidad de maquina",
+    "Anthropic se quedo con Fable 5 en los planes. No quiso: la competencia no le dejo opcion.",
+    "CMS diseno el primer esquema de pago para IA clinica real",
+    "Databricks llega a 188.000 millones apostando que los modelos abiertos ya igualaron a los cerrados",
+    "TSMC gano 40.000 millones en un trimestre. El mercado igual le bajo la accion 4%.",
+    "Meta estudia alquilarle GPU a Anthropic. Si: a su competidor directo."
   ],
   "days": {
     "2026-04-17": {"count": 6, "sources": ["openai.com","techcrunch.com","hbr.org","fiercehealthcare.com","statnews.com"]},
@@ -223,6 +220,7 @@
     "2026-07-14": {"count": 5, "sources": ["platformer.news","thenextweb.com","techcrunch.com","statnews.com","lennysnewsletter.com"], "tesis": "Tres alarmas desde universos distintos — economistas, reguladores y CEOs — llegaron el mismo martes al mismo punto de fuga: las instituciones empiezan a entender lo que los labs llevan dos anos diciendoles."},
     "2026-07-15": {"count": 5, "sources": ["techcrunch.com","statnews.com","cnbc.com","washingtonpost.com","techcrunch.com"], "tesis": "Hoy los agentes de IA dejaron de ser una promesa para convertirse en un problema legal y politico activo."},
     "2026-07-16": {"count": 4, "sources": ["techcrunch.com","statnews.com","venturebeat.com","simonwillison.net"], "tesis": "El modelo ya no es la noticia. El valor de la IA se esta mudando de construir modelos a construir sobre ellos."},
-    "2026-07-17": {"count": 5, "sources": ["scmp.com","siliconangle.com","cnbc.com","statnews.com","huggingface.co"], "tesis": "La carrera no la gana quien tiene el modelo mas grande. La gana quien puede entregarlo, asegurarlo y gobernarlo. Google tiene los tres problemas al mismo tiempo."}
+    "2026-07-17": {"count": 5, "sources": ["scmp.com","siliconangle.com","cnbc.com","statnews.com","huggingface.co"], "tesis": "La carrera no la gana quien tiene el modelo mas grande. La gana quien puede entregarlo, asegurarlo y gobernarlo. Google tiene los tres problemas al mismo tiempo."},
+    "2026-07-18": {"count": 5, "sources": ["simonwillison.net","statnews.com","techcrunch.com","thenextweb.com","theverge.com"], "tesis": "La era del cheque en blanco termino. TSMC gano mas que nunca y los inversores igual le bajaron la accion."}
   }
 }
