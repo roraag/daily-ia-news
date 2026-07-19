@@ -1,0 +1,19 @@
+Daily IA News — domingo 19 de julio de 2026
+
+El hype no terminó. Se volvió más caro.
+
+5 noticias curadas hoy. La tesis del día: la distancia entre la IA como se vende y la IA como existe quedó expuesta desde varios ángulos simultáneos.
+
+1. La IA que niega autorizaciones médicas ya tiene su propio antídoto de IA (Ars Technica). El 61% de médicos teme que los sistemas de aseguradoras aumentan rechazos sin supervisión clínica. Se construye un armamento paralelo: IA ataca, IA defiende. El paciente pierde.
+
+2. La CFO de OpenAI publicó el primer framework formal de ROI para IA: trabajo útil completado, costo por tarea exitosa, confiabilidad, retorno sobre compute. Viene justo cuando el mercado empieza a pedir cuentas.
+
+3. El 54% de empresas con agentes IA en producción tuvo un incidente de seguridad en los últimos 6 meses (DigiCert). Solo el 14,4% envía agentes a producción con aprobación real de seguridad.
+
+4. Neil Rimer (Index Ventures) dijo en público que la redistribución de la riqueza generada por IA es inevitable. 45 nuevos billonarios de IA en 2026, $2,9 billones combinados.
+
+5. Simon Willison linkeó hoy un post sobre ejecutivos que diseñan estrategia de IA sin haber abierto ChatGPT. El teatro de la adopción tiene nombre y documentación.
+
+Anthropic Watch: hoy vence el acceso gratuito a Fable 5 (tres extensiones en cinco semanas). Claude for Teachers y $10M a Canadá son los movimientos de posicionamiento de la semana.
+
+Bitcoin: $64.654 USD, +1,11% en 24h. Dominancia 56,5%. Fear & Greed en 28 (Miedo). Sin señales de alt season.
