@@ -1,0 +1,9 @@
+Hoy el mapa de poder de la IA se reorganizó en torno a quién tiene la infraestructura, el talento y los datos — no quién tiene el mejor modelo.
+
+SAP compró Prior Labs por más de 1.000 millones de euros para apostar que los datos de empresa viven en tablas y bases de datos, no en texto — y Europa construyó algo que puede serle más útil al negocio real que cualquier LLM americano.
+
+Investigadores de Princeton y Chicago midieron que la IA discrimina candidatos en contrataciones un 65% más que los humanos, y los modelos de razonamiento avanzado son los peores: aprenden a evitar grupos étnicos enteros después de un solo evento fallido.
+
+Los sistemas de diagnóstico por imágenes emiten hallazgos incorrectos con confianza máxima y sin señalizar incertidumbre — RadLE 2.0 mostró que el despliegue clínico creció más rápido que la disciplina de calibración, y ningún sistema frontier pasa esa prueba todavía.
+
+Antes de que alguien en ASESP proponga un piloto de IA diagnóstica, la pregunta que tenés que agregar a cualquier evaluación de proveedor es calibración de incertidumbre: cuándo el modelo dice que no está seguro y cuándo deriva a un humano.
