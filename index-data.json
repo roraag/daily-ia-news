@@ -93,12 +93,10 @@
     "2026-07-16",
     "2026-07-17",
     "2026-07-18",
-    "2026-07-19"
+    "2026-07-19",
+    "2026-07-20"
   ],
   "recent_titles": [
-    "Nathan Lambert: el gobierno tiene seis meses para decidir si el open source de IA sobrevive",
-    "On-device en el pecho: el parche de Chicago detecta arritmias sin mandar un bit a la nube",
-    "OpenAI arranca Build Week con Codex mientras los modelos abiertos se quedan sin tiempo",
     "Doscientos economistas y Nobel firman que la IA puede superar la Revolucion Industrial y vamos tarde",
     "Canada nombra a Claude Mythos en advertencia formal a sus bancos. El parche ya no llega a tiempo",
     "Nadella: usas IA propietaria, pagas dos veces. Con plata y con tu conocimiento institucional",
@@ -127,7 +125,12 @@
     "La CFO de OpenAI invento el termometro de la IA. La mitad de sus clientes nunca tuvo uno.",
     "Mas de la mitad de las empresas que usaron agentes de IA tuvieron un incidente de seguridad.",
     "Un VC de primer nivel dijo en voz alta lo que nadie queria decir: la plata de la IA va a tener que repartirse.",
-    "Los ejecutivos toman decisiones millonarias de IA sin haber abierto ChatGPT. Willison lo llamo por su nombre."
+    "Los ejecutivos toman decisiones millonarias de IA sin haber abierto ChatGPT. Willison lo llamo por su nombre.",
+    "SAP se queda con Prior Labs y apuesta más de 1.000 millones de euros a la IA que entiende planillas.",
+    "La IA discrimina en contrataciones un 65% más que los humanos. Y los modelos de razonamiento son los peores.",
+    "Apple mete a OpenAI en los tribunales. El blanco real es el hardware y el IPO.",
+    "NVIDIA convierte a Japón en su laboratorio de IA soberana. 6.200 millones de razones.",
+    "Los modelos de radiología te dicen que estás bien cuando no lo estás. Con total seguridad."
   ],
   "days": {
     "2026-04-17": {"count": 6, "sources": ["openai.com","techcrunch.com","hbr.org","fiercehealthcare.com","statnews.com"]},
@@ -223,6 +226,7 @@
     "2026-07-16": {"count": 4, "sources": ["techcrunch.com","statnews.com","venturebeat.com","simonwillison.net"], "tesis": "El modelo ya no es la noticia. El valor de la IA se esta mudando de construir modelos a construir sobre ellos."},
     "2026-07-17": {"count": 5, "sources": ["scmp.com","siliconangle.com","cnbc.com","statnews.com","huggingface.co"], "tesis": "La carrera no la gana quien tiene el modelo mas grande. La gana quien puede entregarlo, asegurarlo y gobernarlo. Google tiene los tres problemas al mismo tiempo."},
     "2026-07-18": {"count": 5, "sources": ["simonwillison.net","statnews.com","techcrunch.com","thenextweb.com","theverge.com"], "tesis": "La era del cheque en blanco termino. TSMC gano mas que nunca y los inversores igual le bajaron la accion."},
-    "2026-07-19": {"count": 5, "sources": ["arstechnica.com","openai.com","marketscale.com","techcrunch.com","simonwillison.net"], "tesis": "El hype no termino. Se volvio mas caro."}
+    "2026-07-19": {"count": 5, "sources": ["arstechnica.com","openai.com","marketscale.com","techcrunch.com","simonwillison.net"], "tesis": "El hype no termino. Se volvio mas caro."},
+    "2026-07-20": {"count": 5, "sources": ["news.sap.com","technologyreview.com","techcrunch.com","crashlab.in"], "tesis": "La geopolitica de la IA ya no es solo quien tiene el mejor modelo: es quien tiene la infraestructura, el talento y los datos."}
   }
 }
