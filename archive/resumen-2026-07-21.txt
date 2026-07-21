@@ -1,13 +1,9 @@
-Daily IA News — martes 21 de julio de 2026
+China lanzó dos modelos open-weight gigantes en días distintos y desató una guerra interna en la Casa Blanca; al mismo tiempo, Anthropic cerró su juicio de copyright por 1.500 millones y la pregunta central de la industria sobre fair use sigue sin resolverse.
 
-1. China lanzó Kimi K3 (2,8T params) y Alibaba Qwen 3.8 Max (2,4T params) en días distintos; ambos open-weight, ambos rivalizan con modelos frontier cerrados. La Casa Blanca evalúa un ban mientras sus propios asesores se insultan en público.
+Kimi K3 y Qwen 3.8 Max se instalaron como los dos modelos open-source más grandes de la historia, gratuitos y corribles sin pagar API, disponibles hoy para cualquier empresa que quiera explorar infraestructura on-premise.
 
-2. Anthropic cerró el settlement de copyright por 1.500 millones de dólares (3.000 USD por obra, 500.000 obras). El fair use para entrenamiento de IA sigue sin resolverse en apelaciones — eso queda para Google, Meta y OpenAI.
+Anthropic pagó 1.500 millones para cerrar el mayor juicio de copyright de la industria, preservó el fair use para el entrenamiento y se libró del jurado, pero los casos contra Google, Meta y OpenAI siguen pendientes.
 
-3. Bristol Myers Squibb anunció el mayor superordenador de IA farmacéutica en alianza con NVIDIA. Es el tercero en nueve meses: pharma está comprando infraestructura propia, no alquilando nube.
+Goldman Sachs cifró en 29% el porcentaje de empleados que sabotea activamente la IA de su empresa, si encontrás resistencia en ASESP ese número es tu argumento para pedir presupuesto de gestión del cambio y no solo de licencias.
 
-4. Goldman Sachs advierte que las ganancias de productividad de la IA pueden demorar hasta 2034 — igual que las computadoras. El dato más llamativo: 29% de los empleados sabotea activamente la estrategia de IA de su empresa.
-
-5. El UK AI Security Institute midió que el gap de capacidades entre modelos open-weight y cerrados bajó de 6-10 meses a 4-7 meses. La ventana de seguridad por diferencia técnica se cierra.
-
-Bitcoin: BTC en 66.223 USD (+2,17% en 24h). ETFs suman 727M en 5 jornadas de flujos positivos. Fear & Greed en 25 (Miedo extremo). Dominancia 56,8%. Sin señal de alt season.
+Seguile el rastro al hint de "Conway" en Anthropic Watch: si algo grande viene, esta semana fue el silencio antes del ruido.
