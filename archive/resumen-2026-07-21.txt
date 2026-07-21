@@ -1,0 +1,13 @@
+Daily IA News — martes 21 de julio de 2026
+
+1. China lanzó Kimi K3 (2,8T params) y Alibaba Qwen 3.8 Max (2,4T params) en días distintos; ambos open-weight, ambos rivalizan con modelos frontier cerrados. La Casa Blanca evalúa un ban mientras sus propios asesores se insultan en público.
+
+2. Anthropic cerró el settlement de copyright por 1.500 millones de dólares (3.000 USD por obra, 500.000 obras). El fair use para entrenamiento de IA sigue sin resolverse en apelaciones — eso queda para Google, Meta y OpenAI.
+
+3. Bristol Myers Squibb anunció el mayor superordenador de IA farmacéutica en alianza con NVIDIA. Es el tercero en nueve meses: pharma está comprando infraestructura propia, no alquilando nube.
+
+4. Goldman Sachs advierte que las ganancias de productividad de la IA pueden demorar hasta 2034 — igual que las computadoras. El dato más llamativo: 29% de los empleados sabotea activamente la estrategia de IA de su empresa.
+
+5. El UK AI Security Institute midió que el gap de capacidades entre modelos open-weight y cerrados bajó de 6-10 meses a 4-7 meses. La ventana de seguridad por diferencia técnica se cierra.
+
+Bitcoin: BTC en 66.223 USD (+2,17% en 24h). ETFs suman 727M en 5 jornadas de flujos positivos. Fear & Greed en 25 (Miedo extremo). Dominancia 56,8%. Sin señal de alt season.
