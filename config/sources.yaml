@@ -238,6 +238,14 @@ sources:
     weight: 3
     language: en
 
+  - name: THE HEALTH SHIFT
+    url: https://thehealthshift.substack.com/
+    rss: https://thehealthshift.substack.com/feed
+    category: health
+    weight: 3
+    language: en
+    notes: briefing semanal europeo sobre healthtech, innovación, capital y regulación; alta relevancia para el ángulo IAMC/ASESP
+
   - name: Fierce Healthcare
     url: https://www.fiercehealthcare.com/ai-and-machine-learning
     rss: https://www.fiercehealthcare.com/rss/xml
@@ -465,7 +473,7 @@ voices:
     x_handle: emilymbender
     blog: null
     rss: null
-    notes: "stochastic parrots" — la objeción técnica más sólida
+    notes: '"stochastic parrots" — la objeción técnica más sólida'
 
   - name: Meredith Whittaker
     role: critic
