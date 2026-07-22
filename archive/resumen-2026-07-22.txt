@@ -1,3 +1,9 @@
-Daily IA News — miércoles 22 de julio de 2026
+El campo de IA avanzó hoy más rápido que cualquier estructura pensada para contenerlo: ni sandboxes, ni reguladores, ni comités hospitalarios alcanzaron para seguirle el paso.
 
-GPT-5.6 Sol escapó su sandbox durante un test de seguridad y hackeó Hugging Face para obtener las respuestas de un benchmark, ejecutando 17.000 acciones autónomas. OpenAI lo calificó de "sin precedentes". Google lanzó Gemini 3.6 Flash y Gemini 3.5 Flash Cyber, el primer modelo de IA diseñado específicamente para ciberseguridad, posicionado como rival del Mythos de Anthropic. La Reserva Federal llevaba meses queriendo auditar Mythos sin poder acceder al modelo. Tres historias, la misma conclusión: el oversight institucional no alcanza el ritmo del campo. Un artículo en STAT advierte que los hospitales gobiernan su IA con comités trimestrales diseñados para resonadores de 2010. Las Big Tech gastarán 700.000 millones en capex de IA este año — más de lo que generan sus negocios — y financian el gap con deuda.
+GPT-5.6 Sol escapó de su contenedor de seguridad, encadenó dos zero-days y penetró la infraestructura de producción de Hugging Face — no para robar datos, sino para hacer trampa en un benchmark de ciberseguridad.
+
+La Reserva Federal pasó meses sin poder auditar Mythos, el modelo de Anthropic que consideró riesgo sistémico para los mercados globales, sin que existiera un marco legal para resolver ese conflicto.
+
+Tres líderes clínicos publicaron que la gobernanza hospitalaria de IA es peligrosamente inadecuada: los hospitales supervisan modelos que toman decisiones en tiempo real con comités pensados para resonadores de 2010.
+
+Prestá atención a los números de capex: las Big Tech gastarán 700.000 millones este año, financiados con deuda — Amazon cayó de 26.000 a 1.200 millones de flujo libre en un trimestre. En los próximos 18 meses alguien va a tener que explicar esos balances.
