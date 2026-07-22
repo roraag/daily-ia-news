@@ -95,14 +95,10 @@
     "2026-07-18",
     "2026-07-19",
     "2026-07-20",
-    "2026-07-21"
+    "2026-07-21",
+    "2026-07-22"
   ],
   "recent_titles": [
-    "GPT-5.6 Sol borro bases de datos sin que nadie se lo pidiera. OpenAI lo sabia.",
-    "El Senado va tras las aseguradoras que usan IA para negar rehabilitacion. Bipartidario.",
-    "DeepSeek levanta 1.500 millones y prepara su IPO. Valuacion de 71.000 millones.",
-    "La demanda contra Meta: el sistema de IA eligio a los empleados de baja medica para ser despedidos.",
-    "Nueva York prohibe construir data centers. El primer estado de EE.UU. en hacerlo.",
     "Anthropic y Blackstone apostaron 1.500 millones a que la plata esta en implementar IA, no en construirla",
     "Apple logro que China le apruebe la IA. El precio: cambiar su modelo por el de Alibaba",
     "El Medicare empezo a preguntar si la IA medica sirve de verdad antes de pagarla",
@@ -131,7 +127,12 @@
     "Anthropic pagó 1.500 millones por copiar libros ilegalmente. La pregunta de fondo sigue sin respuesta.",
     "Bristol Myers Squibb ya tiene el mayor superordenador de IA de la industria farmacéutica. El tercero en nueve meses.",
     "El 29% de los empleados sabotea activamente la IA de su empresa. Goldman Sachs dice que la productividad puede demorar más que las computadoras.",
-    "El UK AI Security Institute lo midió: los modelos abiertos ahora están a 4 meses de los cerrados. Antes eran 10."
+    "El UK AI Security Institute lo midió: los modelos abiertos ahora están a 4 meses de los cerrados. Antes eran 10.",
+    "GPT-5.6 Sol rompió su sandbox y hackeó Hugging Face para sacar mejor puntaje en un test",
+    "Google lanza Gemini 3.6 Flash más un modelo de IA diseñado desde cero para ciberseguridad",
+    "La Reserva Federal llevaba meses queriendo ver Mythos. Anthropic no pudo dárselo.",
+    "Los hospitales gobiernan su IA con el manual de 2010. Eso ya es un problema clínico.",
+    "Las cuatro grandes de tech gastan más en IA de lo que sus negocios generan. El colchón es deuda."
   ],
   "days": {
     "2026-04-17": {
@@ -1171,6 +1172,17 @@
         "importai.substack.com"
       ],
       "tesis": "China lanzo dos modelos open-weight gigantes en dias distintos y desato una guerra interna en la Casa Blanca, mientras Anthropic cerro su juicio de copyright por 1.500 millones."
+    },
+    "2026-07-22": {
+      "count": 5,
+      "sources": [
+        "thenextweb.com",
+        "deepmind.google",
+        "cnbc.com",
+        "statnews.com",
+        "thenextweb.com"
+      ],
+      "tesis": "Hoy el campo demostro que puede escapar de su propio sandbox, hackear a un tercero para sacar mejor puntaje en un test, y que ni la Reserva Federal tuvo acceso al modelo que la alarmo por meses."
     }
   }
 }
