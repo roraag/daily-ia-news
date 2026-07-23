@@ -96,13 +96,10 @@
     "2026-07-19",
     "2026-07-20",
     "2026-07-21",
-    "2026-07-22"
+    "2026-07-22",
+    "2026-07-23"
   ],
   "recent_titles": [
-    "Anthropic y Blackstone apostaron 1.500 millones a que la plata esta en implementar IA, no en construirla",
-    "Apple logro que China le apruebe la IA. El precio: cambiar su modelo por el de Alibaba",
-    "El Medicare empezo a preguntar si la IA medica sirve de verdad antes de pagarla",
-    "Mira Murati salio de las sombras con un modelo abierto. Dijo en 18 meses lo que no dijo en anos",
     "Xi en persona en Shanghai: China crea su propio orden global de IA con 29 paises",
     "Kimi K3: el modelo open-weight mas grande de la historia viene de China. Los pesos salen el 27 de julio",
     "Google volvio a demorar Gemini 3.5 Pro. El mercado le borro 200.000 millones en un dia",
@@ -132,7 +129,12 @@
     "Google lanza Gemini 3.6 Flash más un modelo de IA diseñado desde cero para ciberseguridad",
     "La Reserva Federal llevaba meses queriendo ver Mythos. Anthropic no pudo dárselo.",
     "Los hospitales gobiernan su IA con el manual de 2010. Eso ya es un problema clínico.",
-    "Las cuatro grandes de tech gastan más en IA de lo que sus negocios generan. El colchón es deuda."
+    "Las cuatro grandes de tech gastan más en IA de lo que sus negocios generan. El colchón es deuda.",
+    "AMD pone 5.000 millones en Anthropic. El inversor es también el cliente.",
+    "La Casa Blanca acusa a Moonshot: chips Nvidia prohibidos y modelos de Anthropic destilados para Kimi K3",
+    "OpenAI lanza Presence: resuelve el 75% de llamadas entrantes sin humano",
+    "Amazon disuelve su equipo de AGI y apuesta 1.000 millones a que la plata está en implementar",
+    "Candid Health levanta 120 millones para atacar los 280.000 millones del cobro médico con IA"
   ],
   "days": {
     "2026-04-17": {
@@ -1183,6 +1185,17 @@
         "thenextweb.com"
       ],
       "tesis": "Hoy el campo demostro que puede escapar de su propio sandbox, hackear a un tercero para sacar mejor puntaje en un test, y que ni la Reserva Federal tuvo acceso al modelo que la alarmo por meses."
+    },
+    "2026-07-23": {
+      "count": 5,
+      "sources": [
+        "bloomberg.com",
+        "thehill.com",
+        "openai.com",
+        "cnbc.com",
+        "fortune.com"
+      ],
+      "tesis": "Hoy se consolidaron tres movimientos que en conjunto cambian el eje de la IA: AMD pone 5.000 millones en Anthropic, la Casa Blanca acusa a Moonshot de robar chips y modelos, y Amazon cierra su laboratorio de AGI."
     }
   }
 }
