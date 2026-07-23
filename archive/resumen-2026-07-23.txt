@@ -1,3 +1,9 @@
-Daily IA News — jueves 23 de julio de 2026
+El campo IA se financia a sí mismo, China intenta entrar por la fuerza, y Amazon declara que no compite por los modelos: tres movimientos que cambian el eje al mismo tiempo.
 
-AMD invierte hasta 5.000 millones en Anthropic mientras Anthropic compra decenas de miles de millones en chips MI450 de AMD: el campo de la IA se financia en círculo, con el inversor siendo al mismo tiempo el cliente más grande. La Casa Blanca acusó a Moonshot AI de acceder a chips Nvidia prohibidos vía servidores en Tailandia y de destilar modelos de Anthropic para construir Kimi K3 — cuatro días antes del lanzamiento previsto de sus pesos. Amazon cerró su equipo de AGI y movió 1.000 millones de dólares a ingenieros embebidos con clientes: el mensaje es que el valor ya no está en construir el próximo modelo frontier sino en implementar el que existe. OpenAI lanzó Presence, plataforma enterprise de agentes de voz y chat que ya resuelve el 75% de llamadas sin humano en su propia línea de soporte. Candid Health levantó 120 millones en serie D para automatizar el ciclo de facturación médica (RCM) — un mercado de 280.000 millones anuales en EE.UU. directamente análogo al ciclo operativo de cualquier mutualista. Bitcoin en 65.591 dólares, Fear & Greed en 31 (Miedo), dominancia BTC en 56,6%: mercado en modo Bitcoin sin señal de rotación a alts.
+AMD comprometió 5.000 millones en Anthropic y recibió a cambio decenas de miles de millones en contratos de chips: el capital ya no entra desde afuera, circula dentro del mismo club.
+
+La Casa Blanca acusó a Moonshot AI de obtener chips Nvidia prohibidos vía Tailandia y destilar modelos de Anthropic para construir Kimi K3, con el anuncio llegando cuatro días antes del lanzamiento previsto de los pesos.
+
+Amazon disolvió su equipo de AGI y apostó 1.000 millones a incrustar ingenieros de AWS con clientes de implementación: la empresa más grande de nube declaró que no va a ganar la carrera de modelos y prefiere cobrar comisión.
+
+Prestale atención a Candid Health, que levantó 120 millones para automatizar RCM — facturación, autorizaciones, cobros — con IA: es el caso de uso más parecido al trabajo administrativo de una mutualista que aparece en meses, y vale tener el dato antes de que llegue un vendedor con la propuesta.
