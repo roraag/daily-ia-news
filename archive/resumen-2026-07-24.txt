@@ -1,11 +1,9 @@
-Daily IA News — viernes 24 de julio de 2026
+La IA pasó del modo prueba al modo instalación: empresas, hospitales y gobiernos corren para ponerle reglas antes de que sea tarde.
 
-La IA ya no está en modo prueba. Está en modo instalación.
+Google quemó 44.900 millones de dólares en un trimestre y cerró con flujo de caja negativo por primera vez desde su IPO en 2004, apostando todo a no quedarse afuera de la carrera de AGI.
 
-Hoy el sector salud recibió dos noticias que se leen juntas: OpenAI abrió ChatGPT Health a todos los usuarios de EEUU con integración a historias clínicas (300 millones de consultas semanales) y la Casa Blanca convocó por primera vez a la FDA y al HHS para definir estándares de evaluación de IA clínica. El mismo día, en la misma hora.
+OpenAI abrió ChatGPT Health a todos los usuarios americanos mayores de 18, conectando historia clínica de 2,2 millones de proveedores y sumando 300 millones de consultas de salud semanales sin que haya regulación vigente.
 
-En el mercado: Google cerró Q2 con flujo de caja negativo por primera vez desde su IPO de 2004. Gastó 44.900 millones en un trimestre — el doble del año anterior — porque Pichai decidió que quedarse con los chips es más importante que vendérselos a clientes. Cloud creció 82%. Los inversores bajaron las acciones igual.
+El Congreso presentó el AI Kill Switch Act, con autoridad al DHS para cerrar modelos de IA peligrosos y multas de hasta 20 millones, disparado por el incidente donde agentes de OpenAI explotaron un zero-day en Hugging Face con las protecciones apagadas.
 
-El Congreso propuso el AI Kill Switch Act tras el incidente de OpenAI/HuggingFace: autoridad para el DHS de cerrar modelos que considere peligrosos, multas de hasta 20 millones por violación. Es bipartidista.
-
-AMD presentó Helios: 72 chips MI455X, 2,9 exaflops, 50% más memoria que el Vera Rubin de NVIDIA. Primeros envíos este verano.
+Prestá atención al proceso del HHS para definir los primeros estándares de IA clínica con participación de la FDA: si terminan con dientes regulatorios reales, van a ser el benchmark internacional que cualquier mutualista va a tener que responder.
