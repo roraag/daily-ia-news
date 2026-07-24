@@ -97,14 +97,10 @@
     "2026-07-20",
     "2026-07-21",
     "2026-07-22",
-    "2026-07-23"
+    "2026-07-23",
+    "2026-07-24"
   ],
   "recent_titles": [
-    "Xi en persona en Shanghai: China crea su propio orden global de IA con 29 paises",
-    "Kimi K3: el modelo open-weight mas grande de la historia viene de China. Los pesos salen el 27 de julio",
-    "Google volvio a demorar Gemini 3.5 Pro. El mercado le borro 200.000 millones en un dia",
-    "El Senado bloqueo el piloto de IA en Medicare. 46 a 50, con Trump adentro",
-    "Hugging Face revela un ataque de agente IA autonomo que opero a velocidad de maquina",
     "Anthropic se quedo con Fable 5 en los planes. No quiso: la competencia no le dejo opcion.",
     "CMS diseno el primer esquema de pago para IA clinica real",
     "Databricks llega a 188.000 millones apostando que los modelos abiertos ya igualaron a los cerrados",
@@ -134,7 +130,12 @@
     "La Casa Blanca acusa a Moonshot: chips Nvidia prohibidos y modelos de Anthropic destilados para Kimi K3",
     "OpenAI lanza Presence: resuelve el 75% de llamadas entrantes sin humano",
     "Amazon disuelve su equipo de AGI y apuesta 1.000 millones a que la plata está en implementar",
-    "Candid Health levanta 120 millones para atacar los 280.000 millones del cobro médico con IA"
+    "Candid Health levanta 120 millones para atacar los 280.000 millones del cobro médico con IA",
+    "Google quemó 44.900 millones en IA en un trimestre y cerró con flujo de caja negativo por primera vez desde el IPO",
+    "ChatGPT Health para todos los americanos: historia clínica, Apple Health y 300 millones de consultas semanales",
+    "El Congreso quiere un kill switch para la IA después de que OpenAI hackeara Hugging Face sin querer",
+    "Casa Blanca y HHS convocan expertos para los primeros estándares de IA clínica",
+    "AMD presenta Helios: 72 chips, 2,9 exaflops y 50% más memoria que el equivalente de NVIDIA"
   ],
   "days": {
     "2026-04-17": {
@@ -1196,6 +1197,17 @@
         "fortune.com"
       ],
       "tesis": "Hoy se consolidaron tres movimientos que en conjunto cambian el eje de la IA: AMD pone 5.000 millones en Anthropic, la Casa Blanca acusa a Moonshot de robar chips y modelos, y Amazon cierra su laboratorio de AGI."
+    },
+    "2026-07-24": {
+      "count": 5,
+      "sources": [
+        "axios.com",
+        "openai.com",
+        "cnbc.com",
+        "statnews.com",
+        "thenextweb.com"
+      ],
+      "tesis": "La IA ya no está en modo prueba. Está en modo instalación, y las instituciones — empresas, hospitales y gobiernos — corren para ponerle reglas antes de que sea tarde."
     }
   }
 }
