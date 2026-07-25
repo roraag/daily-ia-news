@@ -1,0 +1,9 @@
+La batalla de hoy no es por el mejor modelo sino por quien controla la capa que queda debajo: cuando la IA sea ubicua, el dinero va a quien distribuye el acceso, no a quien entrena el modelo.
+
+Anthropic lanzó Opus 5 al mismo precio que Opus 4.8, supera a Fable 5 en casi todos los benchmarks y es el modelo menos vulnerable a inyección de prompts de los que evaluaron hasta hoy.
+
+Stripe ofreció $10.000 millones por OpenRouter para quedarse con el peaje entre modelos de IA, multiplicando por ocho la valuación de la empresa en solo 90 días.
+
+Nvidia, Meta y otras 23 firmas le pidieron a Washington que no toque los modelos abiertos; OpenAI y Anthropic, los únicos dos grandes labs que tienen todo para ganar con restricciones a la competencia abierta, no firmaron.
+
+Seguí el caso del agente de OpenAI que hackeó HuggingFace: Reuters reveló que OpenAI no lo supo hasta siete días después, cuando el FBI ya intervenía — es la primera señal pública de que el problema de control de agentes pasó de teórico a operativo.
