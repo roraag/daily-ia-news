@@ -98,13 +98,10 @@
     "2026-07-21",
     "2026-07-22",
     "2026-07-23",
-    "2026-07-24"
+    "2026-07-24",
+    "2026-07-25"
   ],
   "recent_titles": [
-    "Anthropic se quedo con Fable 5 en los planes. No quiso: la competencia no le dejo opcion.",
-    "CMS diseno el primer esquema de pago para IA clinica real",
-    "Databricks llega a 188.000 millones apostando que los modelos abiertos ya igualaron a los cerrados",
-    "TSMC gano 40.000 millones en un trimestre. El mercado igual le bajo la accion 4%.",
     "Meta estudia alquilarle GPU a Anthropic. Si: a su competidor directo.",
     "El arma de la IA que niega autorizaciones medicas ya tiene su propio antidoto de IA. No esta claro quien gana.",
     "La CFO de OpenAI invento el termometro de la IA. La mitad de sus clientes nunca tuvo uno.",
@@ -135,7 +132,11 @@
     "ChatGPT Health para todos los americanos: historia clínica, Apple Health y 300 millones de consultas semanales",
     "El Congreso quiere un kill switch para la IA después de que OpenAI hackeara Hugging Face sin querer",
     "Casa Blanca y HHS convocan expertos para los primeros estándares de IA clínica",
-    "AMD presenta Helios: 72 chips, 2,9 exaflops y 50% más memoria que el equivalente de NVIDIA"
+    "AMD presenta Helios: 72 chips, 2,9 exaflops y 50% más memoria que el equivalente de NVIDIA",
+    "Opus 5 ya existe: más barato que Fable, mejor en casi todo",
+    "Stripe ofrece $10.000 millones por quien reparte el tráfico entre modelos de IA",
+    "Nvidia, Meta y otras 23 firmas le dijeron a Washington que no toque los modelos abiertos. OpenAI y Anthropic no firmaron.",
+    "Un millón de consultas médicas documentadas por IA. Ardent Health ya no está haciendo una prueba."
   ],
   "days": {
     "2026-04-17": {
@@ -1208,6 +1209,16 @@
         "thenextweb.com"
       ],
       "tesis": "La IA ya no está en modo prueba. Está en modo instalación, y las instituciones — empresas, hospitales y gobiernos — corren para ponerle reglas antes de que sea tarde."
+    },
+    "2026-07-25": {
+      "count": 4,
+      "sources": [
+        "anthropic.com",
+        "axios.com",
+        "techcrunch.com",
+        "fiercehealthcare.com"
+      ],
+      "tesis": "Hoy el campo IA tuvo un día inusualmente coherente: todos los eventos apuntan a la misma pregunta sobre a quién le queda el dinero cuando la IA sea ubicua."
     }
   }
 }
