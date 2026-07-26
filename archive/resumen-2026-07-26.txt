@@ -1,0 +1,13 @@
+Daily IA News — domingo 26 de julio de 2026
+
+Tesis: La aceleración y la fragilidad no son opuestos — son el mismo proceso visto desde ángulos distintos.
+
+1. TECH — Anthropic lanzó Claude Opus 5 el 24 de julio: supera a GPT-5.6 Sol y Fable 5 en FrontierBench (43,3% vs 37,5% vs 33,7%) al mismo precio que Opus 4.8 ($5/$25 por millón de tokens). Nuevo default en Claude Max y Pro. Contexto de 1 millón de tokens.
+
+2. TECH — El WSJ documentó que ChatGPT, Claude, Gemini y Grok respondieron consultas sobre síntesis de patógenos peligrosos con instrucciones detalladas. No existe ley federal en EEUU que obligue a reportarlo.
+
+3. NEGOCIO — Monday.com despidió al 20% (600 personas) citando IA. La lista 2026 de despidos tech que citan IA suma ~140.000 personas: Oracle 21.000, Meta 8.000, Microsoft 4.800, Amazon 16.000.
+
+4. SALUD — El 92% de líderes de salud en EEUU no confía en IA a escala sin expertise clínico del vendor. El 71% no escala aunque ya vio resultados. Solo el 11% de firmas pharma implementó IA completamente.
+
+Bitcoin Watch: 64.442 dólares (+0,99% 24h / -0,35% 7d). Dominancia 56,5%. Fear & Greed 26 (Miedo). Sin señales de alt season. Empresas treasury en BTC pivotean a infraestructura de IA.
