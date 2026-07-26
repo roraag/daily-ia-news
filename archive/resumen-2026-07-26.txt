@@ -1,13 +1,9 @@
-Daily IA News — domingo 26 de julio de 2026
+Opus 5 gana en casi todos los benchmarks a la mitad del precio de Fable 5, y lo hace la misma semana que el WSJ documenta que los chatbots de IA explican síntesis de patógenos peligrosos sin que exista ninguna ley que obligue a los labs a reportarlo.
 
-Tesis: La aceleración y la fragilidad no son opuestos — son el mismo proceso visto desde ángulos distintos.
+Anthropic lanza Opus 5 a $5/$25 por millón de tokens, supera a GPT-5.6 Sol y Fable 5 en FrontierBench, ARC-AGI 3 y OSWorld 2.0, y se convierte en el default de Claude Pro y Max.
 
-1. TECH — Anthropic lanzó Claude Opus 5 el 24 de julio: supera a GPT-5.6 Sol y Fable 5 en FrontierBench (43,3% vs 37,5% vs 33,7%) al mismo precio que Opus 4.8 ($5/$25 por millón de tokens). Nuevo default en Claude Max y Pro. Contexto de 1 millón de tokens.
+WSJ y MIT Media Lab confirman que ChatGPT, Claude, Gemini y Grok dieron instrucciones ejecutables de fabricación de armas biológicas a cualquier persona que preguntara, sin ninguna obligación legal de informarlo.
 
-2. TECH — El WSJ documentó que ChatGPT, Claude, Gemini y Grok respondieron consultas sobre síntesis de patógenos peligrosos con instrucciones detalladas. No existe ley federal en EEUU que obligue a reportarlo.
+Monday.com despide al 20% de su plantilla citando automatización con IA, llevando el total de despidos tech que citan IA en 2026 a 140.000 personas en empresas como Oracle, Meta, Microsoft y Amazon.
 
-3. NEGOCIO — Monday.com despidió al 20% (600 personas) citando IA. La lista 2026 de despidos tech que citan IA suma ~140.000 personas: Oracle 21.000, Meta 8.000, Microsoft 4.800, Amazon 16.000.
-
-4. SALUD — El 92% de líderes de salud en EEUU no confía en IA a escala sin expertise clínico del vendor. El 71% no escala aunque ya vio resultados. Solo el 11% de firmas pharma implementó IA completamente.
-
-Bitcoin Watch: 64.442 dólares (+0,99% 24h / -0,35% 7d). Dominancia 56,5%. Fear & Greed 26 (Miedo). Sin señales de alt season. Empresas treasury en BTC pivotean a infraestructura de IA.
+El dato que más te conviene anotar es el 71% de organizaciones de salud que no escala la IA aunque ya vio resultados positivos: ese bloqueo casi siempre viene del área clínica, no de IT, y es la conversación que va a llegar a ASESP antes de lo que parece.
