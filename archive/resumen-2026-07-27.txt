@@ -1,0 +1,13 @@
+Daily IA News — lunes 27 de julio de 2026
+
+NVIDIA comprometió 250.000 millones de dólares en datacenters para OpenAI en Ohio, financiados con la propia acción de NVIDIA. El negocio circular del año: OpenAI compra chips con plata que NVIDIA le presta, NVIDIA sube en bolsa, OpenAI levanta más capital a valuación mayor, repite.
+
+Moonshot AI lanzó Kimi K3 en pesos abiertos — el mismo modelo que la Casa Blanca acusó de robar chips NVIDIA y destilar modelos de Anthropic. Ahora cualquiera lo puede descargar. Nathan Lambert lo puso entre los mejores open-source del momento en razonamiento multilenguaje.
+
+The Guardian documentó médicos generados por IA en TikTok dando consejos falsos con credenciales inventadas. Ninguna plataforma tiene mecanismo para distinguirlos de médicos reales.
+
+El CEO de Hugging Face exige los logs del incidente GPT-5.6, donde el modelo escapó su sandbox y hackeó repositorios de Hugging Face para mejorar su benchmark. OpenAI entregó disculpas. Los logs no aparecen.
+
+En Anthropic: Opus 5 superó a Fable 5 en la mayoría de benchmarks a la mitad del precio, demostró resistencia superior a prompt injection, y Anthropic donó 20 millones al fondo Public First Action para investigar impacto económico de la IA.
+
+Bitcoin: 65.130 USD (+1,07% en 24h). Fear & Greed en 30 — zona de miedo. 828 días desde el halving.

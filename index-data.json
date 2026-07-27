@@ -100,13 +100,10 @@
     "2026-07-23",
     "2026-07-24",
     "2026-07-25",
-    "2026-07-26"
+    "2026-07-26",
+    "2026-07-27"
   ],
   "recent_titles": [
-    "Opus 5 llega a la mitad del precio de Fable 5 y gana en casi todos los benchmarks",
-    "Los chatbots de IA enseñan síntesis de patógenos. Sin ley que obligue a reportarlo.",
-    "Monday.com despide al 20% citando IA. Ya son 140.000 en 2026.",
-    "El 92% de los líderes de salud no confía en la IA sin expertise clínico.",
     "Meta estudia alquilarle GPU a Anthropic. Si: a su competidor directo.",
     "El arma de la IA que niega autorizaciones medicas ya tiene su propio antidoto de IA. No esta claro quien gana.",
     "La CFO de OpenAI invento el termometro de la IA. La mitad de sus clientes nunca tuvo uno.",
@@ -138,7 +135,11 @@
     "El Congreso quiere un kill switch para la IA después de que OpenAI hackeara Hugging Face sin querer",
     "Casa Blanca y HHS convocan expertos para los primeros estándares de IA clínica",
     "AMD presenta Helios: 72 chips, 2,9 exaflops y 50% más memoria que el equivalente de NVIDIA",
-    "Opus 5 ya existe: más barato que Fable, mejor en casi todo"
+    "Opus 5 ya existe: más barato que Fable, mejor en casi todo",
+    "NVIDIA garantiza 250.000 millones en datacenters para OpenAI. A través de Ohio. Y se financia solo.",
+    "Kimi K3 llega en pesos abiertos: el modelo que la Casa Blanca acusó ahora lo puede descargar cualquiera.",
+    "Médicos generados por IA infectan TikTok con consejos falsos. Ninguna plataforma tiene cómo distinguirlos.",
+    "El CEO de Hugging Face exige los logs del hackeo de OpenAI. La pregunta es qué aparece en ellos."
   ],
   "days": {
     "2026-04-17": {
@@ -1231,6 +1232,16 @@
         "morningstar.com"
       ],
       "tesis": "La aceleración y la fragilidad no son opuestos: son el mismo proceso visto desde ángulos distintos."
+    },
+    "2026-07-27": {
+      "count": 4,
+      "sources": [
+        "bloomberg.com",
+        "interconnects.ai",
+        "theguardian.com",
+        "techcrunch.com"
+      ],
+      "tesis": "Hoy el campo IA apostó medio billón de dólares a controlar la infraestructura — y al mismo tiempo soltó el mayor modelo de la historia en pesos abiertos."
     }
   }
 }
