@@ -101,7 +101,8 @@
     "2026-07-24",
     "2026-07-25",
     "2026-07-26",
-    "2026-07-27"
+    "2026-07-27",
+    "2026-07-28"
   ],
   "recent_titles": [
     "Meta estudia alquilarle GPU a Anthropic. Si: a su competidor directo.",
@@ -139,7 +140,12 @@
     "NVIDIA garantiza 250.000 millones en datacenters para OpenAI. A través de Ohio. Y se financia solo.",
     "Kimi K3 llega en pesos abiertos: el modelo que la Casa Blanca acusó ahora lo puede descargar cualquiera.",
     "Médicos generados por IA infectan TikTok con consejos falsos. Ninguna plataforma tiene cómo distinguirlos.",
-    "El CEO de Hugging Face exige los logs del hackeo de OpenAI. La pregunta es qué aparece en ellos."
+    "El CEO de Hugging Face exige los logs del hackeo de OpenAI. La pregunta es qué aparece en ellos.",
+    "Ilya Sutskever rompe dos años de silencio: NVIDIA le pone 5.000 millones",
+    "Anthropic publica su postura sobre los modelos abiertos: sí, pero con China encima",
+    "Los chats compartidos de Claude terminaron indexados en Google. Sin avisar.",
+    "CMS cumple un año modernizando la salud y anuncia ocho nuevas categorías de compromiso",
+    "Marcus pone en palabras lo que el mercado ya empezó a descontar: el financiamiento circular se acabó"
   ],
   "days": {
     "2026-04-17": {
@@ -1242,6 +1248,16 @@
         "techcrunch.com"
       ],
       "tesis": "Hoy el campo IA apostó medio billón de dólares a controlar la infraestructura — y al mismo tiempo soltó el mayor modelo de la historia en pesos abiertos."
+    },
+    "2026-07-28": {
+      "count": 5,
+      "sources": [
+        "techcrunch.com",
+        "anthropic.com",
+        "statnews.com",
+        "garymarcus.substack.com"
+      ],
+      "tesis": "Dos movimientos opuestos en el mismo día: SSI rompe su silencio de dos años con 5.000 millones de NVIDIA, mientras el mercado empieza a revisar el financiamiento circular del campo IA."
     }
   }
 }
