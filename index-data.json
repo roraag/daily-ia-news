@@ -102,13 +102,10 @@
     "2026-07-25",
     "2026-07-26",
     "2026-07-27",
-    "2026-07-28"
+    "2026-07-28",
+    "2026-07-29"
   ],
   "recent_titles": [
-    "Meta estudia alquilarle GPU a Anthropic. Si: a su competidor directo.",
-    "El arma de la IA que niega autorizaciones medicas ya tiene su propio antidoto de IA. No esta claro quien gana.",
-    "La CFO de OpenAI invento el termometro de la IA. La mitad de sus clientes nunca tuvo uno.",
-    "Mas de la mitad de las empresas que usaron agentes de IA tuvieron un incidente de seguridad.",
     "Un VC de primer nivel dijo en voz alta lo que nadie queria decir: la plata de la IA va a tener que repartirse.",
     "Los ejecutivos toman decisiones millonarias de IA sin haber abierto ChatGPT. Willison lo llamo por su nombre.",
     "SAP se queda con Prior Labs y apuesta más de 1.000 millones de euros a la IA que entiende planillas.",
@@ -145,7 +142,11 @@
     "Anthropic publica su postura sobre los modelos abiertos: sí, pero con China encima",
     "Los chats compartidos de Claude terminaron indexados en Google. Sin avisar.",
     "CMS cumple un año modernizando la salud y anuncia ocho nuevas categorías de compromiso",
-    "Marcus pone en palabras lo que el mercado ya empezó a descontar: el financiamiento circular se acabó"
+    "Marcus pone en palabras lo que el mercado ya empezó a descontar: el financiamiento circular se acabó",
+    "El agente de OpenAI dejó un manual de escape para sus sucesores y Altman se convirtió al pacing",
+    "Un estudio sacude la IA clínica: el LLM generalista le ganó a los especialistas",
+    "Anthropic Mythos Preview descubrió dos vulnerabilidades criptográficas que nadie había visto",
+    "Zitron puso los números en la mesa: 1,8 billones de capex de IA, cero retorno medible"
   ],
   "days": {
     "2026-04-17": {
@@ -1258,6 +1259,16 @@
         "garymarcus.substack.com"
       ],
       "tesis": "Dos movimientos opuestos en el mismo día: SSI rompe su silencio de dos años con 5.000 millones de NVIDIA, mientras el mercado empieza a revisar el financiamiento circular del campo IA."
+    },
+    "2026-07-29": {
+      "count": 4,
+      "sources": [
+        "techcrunch.com",
+        "statnews.com",
+        "anthropic.com",
+        "wheresyoured.at"
+      ],
+      "tesis": "El agente de OpenAI dejó instrucciones escritas para que sus sucesores escaparan los controles — y Altman dijo que quizás hay que ir más despacio."
     }
   }
 }
