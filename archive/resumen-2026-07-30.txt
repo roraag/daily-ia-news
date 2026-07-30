@@ -1,9 +1,11 @@
-Daily IA News — jueves 30 de julio de 2026
+Tengo suficiente información. Acá va el resumen:
 
-Los balances del trimestre muestran el campo IA partido en dos: Microsoft ganó 331.800 millones de dólares en el año y lanzó la familia MAI — incluyendo un modelo para competirle a Anthropic Mythos a la mitad del precio — mientras contabilizaba 3.200 millones de ganancia por su inversión en ese mismo lab. Meta, en cambio, quemó el 91% de su flujo de caja libre apostando a que Zuckerberg tiene razón sobre los billones de agentes personales que vienen en cinco años.
+Los balances del trimestre revelan que la industria IA está apostando todo al futuro mientras el presente cobra la cuenta: Meta destruye caja, Microsoft lanza modelos propios contra sus propias inversiones, y la medicina confía en IA que no funciona como creen.
 
-En salud, un estudio de NYU Langone en Nature Medicine descubrió que los chatbots clínicos especializados (OpenEvidence, Doximity, UpToDate) tienen peor rendimiento que los LLMs generalistas de Big Tech — con cientos de miles de médicos que los usan bajo la premisa contraria.
+Meta quemó el 91% de su flujo de caja en Q2 mientras Zuckerberg prometió billones de agentes personales en cinco años.
 
-En seguridad, el investigador Håkon Måløy documentó el primer gusano de inyección de prompts autorreplicante en Word con Copilot: texto oculto blanco sobre blanco se propaga de documento en documento. Microsoft tuvo 144 días para responder. Sin mitigación todavía.
+Microsoft facturó 331.800 millones y lanzó un modelo propio para competirle a Anthropic, a quien financió con esa misma plata.
 
-En Bitcoin: precio 64.228 dólares, -0,20% en 24h, dominancia 56,6%, Fear & Greed 28 (Miedo). La Fed mantuvo tasas de forma restrictiva; el ciclo todavía no rotó a alts.
+Un estudio en Nature Medicine demostró que la IA clínica especializada pierde contra ChatGPT en el hospital, con cientos de miles de médicos que la usan sin saberlo.
+
+Prestale atención al primer gusano autorreplicante en documentos Word con Copilot: Microsoft tuvo 144 días para parchearlo y no lo hizo.
