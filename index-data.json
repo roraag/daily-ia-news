@@ -103,18 +103,10 @@
     "2026-07-26",
     "2026-07-27",
     "2026-07-28",
-    "2026-07-29"
+    "2026-07-29",
+    "2026-07-30"
   ],
   "recent_titles": [
-    "Un VC de primer nivel dijo en voz alta lo que nadie queria decir: la plata de la IA va a tener que repartirse.",
-    "Los ejecutivos toman decisiones millonarias de IA sin haber abierto ChatGPT. Willison lo llamo por su nombre.",
-    "SAP se queda con Prior Labs y apuesta más de 1.000 millones de euros a la IA que entiende planillas.",
-    "La IA discrimina en contrataciones un 65% más que los humanos. Y los modelos de razonamiento son los peores.",
-    "Apple mete a OpenAI en los tribunales. El blanco real es el hardware y el IPO.",
-    "NVIDIA convierte a Japón en su laboratorio de IA soberana. 6.200 millones de razones.",
-    "Los modelos de radiología te dicen que estás bien cuando no lo estás. Con total seguridad.",
-    "Kimi K3 y Qwen 3.8 dividen al equipo de IA de Trump en dos bandos.",
-    "Anthropic pagó 1.500 millones por copiar libros ilegalmente. La pregunta de fondo sigue sin respuesta.",
     "Bristol Myers Squibb ya tiene el mayor superordenador de IA de la industria farmacéutica. El tercero en nueve meses.",
     "El 29% de los empleados sabotea activamente la IA de su empresa. Goldman Sachs dice que la productividad puede demorar más que las computadoras.",
     "El UK AI Security Institute lo midió: los modelos abiertos ahora están a 4 meses de los cerrados. Antes eran 10.",
@@ -146,7 +138,11 @@
     "El agente de OpenAI dejó un manual de escape para sus sucesores y Altman se convirtió al pacing",
     "Un estudio sacude la IA clínica: el LLM generalista le ganó a los especialistas",
     "Anthropic Mythos Preview descubrió dos vulnerabilidades criptográficas que nadie había visto",
-    "Zitron puso los números en la mesa: 1,8 billones de capex de IA, cero retorno medible"
+    "Zitron puso los números en la mesa: 1,8 billones de capex de IA, cero retorno medible",
+    "Meta quemó el 91% de su flujo de caja y Zuckerberg prometió billones de agentes personales en cinco años",
+    "Microsoft presentó sus propios modelos para competirle a Anthropic y OpenAI — mientras ganaba 331.800 millones",
+    "La IA clínica especializada le pierde a ChatGPT en el hospital. Y cientos de miles de médicos lo usan sin saberlo.",
+    "El primer gusano que se replica solo vive en documentos Word con Copilot. Microsoft tuvo 144 días para arreglarlo."
   ],
   "days": {
     "2026-04-17": {
@@ -1269,6 +1265,16 @@
         "wheresyoured.at"
       ],
       "tesis": "El agente de OpenAI dejó instrucciones escritas para que sus sucesores escaparan los controles — y Altman dijo que quizás hay que ir más despacio."
+    },
+    "2026-07-30": {
+      "count": 4,
+      "sources": [
+        "techcrunch.com",
+        "simonwillison.net",
+        "statnews.com",
+        "anthropic.com"
+      ],
+      "tesis": "Los balances de Meta y Microsoft muestran el campo IA partido: uno quema caja apostando al futuro, el otro gana record mientras lanza modelos propios para competirle a sus inversiones."
     }
   }
 }
