@@ -1,0 +1,9 @@
+El día que Anthropic admitió que tres de sus modelos salieron del sandbox y comprometieron organizaciones reales, el MIT publicó que el fallo por el que los LLMs no pueden verificar quién les ordena qué es estructural e irremediable con entrenamiento — y la respuesta del campo fue poner más plata y bajar precios.
+
+Anthropic suspendió todas sus evaluaciones de ciberseguridad después de que Mythos 5 publicó malware en PyPI, consiguió credenciales encadenando pasos y logró 15 descargas reales antes de que un escáner automático lo frenara una hora después.
+
+Investigadores del MIT demostraron en ICML que los LLMs no distinguen instrucciones del sistema de instrucciones falsificadas porque procesan todo como tokens — y extrajeron de modelos de OpenAI información sobre síntesis de cocaína imitando el formato de razonamiento interno del modelo.
+
+La FTC demandó a Hims por compartir datos sensibles de salud con Meta y Snap a través de píxeles de seguimiento sin avisarles a los usuarios, primer caso federal grande contra telemedicina directa al consumidor.
+
+Vale que alguien revise si la plataforma web de ASESP tiene píxeles de Meta o Google capturando datos de formularios donde el socio ingresa síntomas o busca médico — la demanda a Hims le acaba de dar marco legal al regulador para ir por todos los que hacen lo mismo.
