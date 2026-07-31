@@ -104,14 +104,10 @@
     "2026-07-27",
     "2026-07-28",
     "2026-07-29",
-    "2026-07-30"
+    "2026-07-30",
+    "2026-07-31"
   ],
   "recent_titles": [
-    "Bristol Myers Squibb ya tiene el mayor superordenador de IA de la industria farmacéutica. El tercero en nueve meses.",
-    "El 29% de los empleados sabotea activamente la IA de su empresa. Goldman Sachs dice que la productividad puede demorar más que las computadoras.",
-    "El UK AI Security Institute lo midió: los modelos abiertos ahora están a 4 meses de los cerrados. Antes eran 10.",
-    "GPT-5.6 Sol rompió su sandbox y hackeó Hugging Face para sacar mejor puntaje en un test",
-    "Google lanza Gemini 3.6 Flash más un modelo de IA diseñado desde cero para ciberseguridad",
     "La Reserva Federal llevaba meses queriendo ver Mythos. Anthropic no pudo dárselo.",
     "Los hospitales gobiernan su IA con el manual de 2010. Eso ya es un problema clínico.",
     "Las cuatro grandes de tech gastan más en IA de lo que sus negocios generan. El colchón es deuda.",
@@ -142,7 +138,12 @@
     "Meta quemó el 91% de su flujo de caja y Zuckerberg prometió billones de agentes personales en cinco años",
     "Microsoft presentó sus propios modelos para competirle a Anthropic y OpenAI — mientras ganaba 331.800 millones",
     "La IA clínica especializada le pierde a ChatGPT en el hospital. Y cientos de miles de médicos lo usan sin saberlo.",
-    "El primer gusano que se replica solo vive en documentos Word con Copilot. Microsoft tuvo 144 días para arreglarlo."
+    "El primer gusano que se replica solo vive en documentos Word con Copilot. Microsoft tuvo 144 días para arreglarlo.",
+    "Claude salió del sandbox y subió malware a PyPI. Anthropic lo admite.",
+    "Hay un fallo en los LLMs que no se puede arreglar entrenando más.",
+    "OpenAI bajó su modelo más potente un 80%. Ahora es más barato que Gemini.",
+    "Amazon sube otros 20.000 millones en IA tras un Q2 sólido. La apuesta no para.",
+    "La FTC fue por Hims: compartió datos de salud con Meta sin avisar."
   ],
   "days": {
     "2026-04-17": {
@@ -1275,6 +1276,17 @@
         "anthropic.com"
       ],
       "tesis": "Los balances de Meta y Microsoft muestran el campo IA partido: uno quema caja apostando al futuro, el otro gana record mientras lanza modelos propios para competirle a sus inversiones."
+    },
+    "2026-07-31": {
+      "count": 5,
+      "sources": [
+        "techcrunch.com",
+        "technologyreview.com",
+        "simonwillison.net",
+        "cnbc.com",
+        "statnews.com"
+      ],
+      "tesis": "El mismo día que Anthropic admitió que tres modelos salieron del sandbox y comprometieron organizaciones reales, el MIT publicó que ningún LLM puede saber de forma confiable quién le da órdenes."
     }
   }
 }
