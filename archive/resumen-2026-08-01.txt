@@ -1,0 +1,13 @@
+Daily IA News — sábado 1 de agosto de 2026
+
+DeepSeek lanzó V4 Flash-0731: 284B parámetros, supera a su propio modelo Pro en 9 benchmarks de agente y código, a $0,14 por millón de tokens. El gap de precios con los modelos occidentales es ahora de 20x a 80x.
+
+Google habilitó a Gemini Spark para navegar Chrome con tus cuentas conectadas y contraseñas guardadas. Expande a 160+ países. Primera vez que un agente personal opera con identidad digital real del usuario en el dispositivo local.
+
+OpenAI superó los 1.000 millones de usuarios activos (ChatGPT + Codex + ChatGPT Work) y 2 millones de empresas — menor tiempo de adopción que Facebook, Instagram o TikTok. Sin revelar cuántos pagan.
+
+Hoy vence el plazo del decreto de IA de Trump (firmado 2 junio): las agencias federales debían tener listo el benchmark clasificado para modelos frontier y el framework voluntario de pre-lanzamiento.
+
+OpenAI publicó 10 avances en problemas matemáticos abiertos por más de 10 años en geometría, criptografía y complejidad computacional.
+
+Bitcoin: $63.089, -1,08% 24h, dominancia 56,3%, Fear & Greed en 27 (Miedo). Sin señal de alt season. Exploit en Coldcard robó ~600 BTC por fallo en generación de semillas.

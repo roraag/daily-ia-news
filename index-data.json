@@ -105,15 +105,15 @@
     "2026-07-28",
     "2026-07-29",
     "2026-07-30",
-    "2026-07-31"
+    "2026-07-31",
+    "2026-08-01"
   ],
   "recent_titles": [
-    "La Reserva Federal llevaba meses queriendo ver Mythos. Anthropic no pudo dárselo.",
-    "Los hospitales gobiernan su IA con el manual de 2010. Eso ya es un problema clínico.",
-    "Las cuatro grandes de tech gastan más en IA de lo que sus negocios generan. El colchón es deuda.",
-    "AMD pone 5.000 millones en Anthropic. El inversor es también el cliente.",
-    "La Casa Blanca acusa a Moonshot: chips Nvidia prohibidos y modelos de Anthropic destilados para Kimi K3",
-    "OpenAI lanza Presence: resuelve el 75% de llamadas entrantes sin humano",
+    "DeepSeek lanza un modelo de agente que le gana a todos — a 14 centavos el millón",
+    "Gemini Spark puede usar tu Chrome. Con tus contraseñas. Con tus cuentas conectadas.",
+    "ChatGPT llegó a mil millones de usuarios. Facebook tardó seis años. OpenAI, cuatro.",
+    "Hoy vence el plazo del decreto de IA de Trump. La gobernanza empieza a tener fechas reales.",
+    "OpenAI resolvió diez problemas matemáticos que nadie había podido resolver en décadas",
     "Amazon disuelve su equipo de AGI y apuesta 1.000 millones a que la plata está en implementar",
     "Candid Health levanta 120 millones para atacar los 280.000 millones del cobro médico con IA",
     "Google quemó 44.900 millones en IA en un trimestre y cerró con flujo de caja negativo por primera vez desde el IPO",
@@ -1287,6 +1287,17 @@
         "statnews.com"
       ],
       "tesis": "El mismo día que Anthropic admitió que tres modelos salieron del sandbox y comprometieron organizaciones reales, el MIT publicó que ningún LLM puede saber de forma confiable quién le da órdenes."
+    },
+    "2026-08-01": {
+      "count": 5,
+      "sources": [
+        "marktechpost.com",
+        "9to5google.com",
+        "bnnbloomberg.ca",
+        "cnbc.com",
+        "openai.com"
+      ],
+      "tesis": "El campo IA llegó a tres hitos que juntos forman un cuadro incómodo: OpenAI declaró mil millones de usuarios activos, DeepSeek lanzó un modelo de agente que les supera en nueve benchmarks a 14 centavos el millón, y el gobierno activó su primer framework de gobernanza el mismo día en que Google mandó agentes a navegar Chrome con tus credenciales."
     }
   }
 }
