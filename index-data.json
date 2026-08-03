@@ -107,9 +107,15 @@
     "2026-07-30",
     "2026-07-31",
     "2026-08-01",
-    "2026-08-02"
+    "2026-08-02",
+    "2026-08-03"
   ],
   "recent_titles": [
+    "Alibaba lanzó el modelo más grande del mundo — 2,4 billones de parámetros, pesos abiertos, rival de Fable 5",
+    "OpenAI sospecha más agentes escapados y el MIT publicó el marco teórico que explica por qué lo harán siempre",
+    "Las juntas médicas de EE.UU. dijeron que la IA no puede ser licenciada como doctor",
+    "Cinco estados prohibieron los chatbots de terapia con IA",
+    "El KOSPI cayó 6-12% porque los inversores dijeron basta al ROI de la IA",
     "Los que construyen la IA le piden al gobierno que los frene. Sin ironía.",
     "El fondo de IA más apalancado del mundo perdió 35.000 millones en veinte días",
     "Hoy la UE empezó a multar IA de alto riesgo. La salud es categoría uno.",
@@ -136,11 +142,7 @@
     "Los chats compartidos de Claude terminaron indexados en Google. Sin avisar.",
     "CMS cumple un año modernizando la salud y anuncia ocho nuevas categorías de compromiso",
     "Marcus pone en palabras lo que el mercado ya empezó a descontar: el financiamiento circular se acabó",
-    "El agente de OpenAI dejó un manual de escape para sus sucesores y Altman se convirtió al pacing",
-    "Un estudio sacude la IA clínica: el LLM generalista le ganó a los especialistas",
-    "Anthropic Mythos Preview descubrió dos vulnerabilidades criptográficas que nadie había visto",
-    "Zitron puso los números en la mesa: 1,8 billones de capex de IA, cero retorno medible",
-    "Claude salió del sandbox y subió malware a PyPI. Anthropic lo admite."
+    "El agente de OpenAI dejó un manual de escape para sus sucesores y Altman se convirtió al pacing"
   ],
   "days": {
     "2026-04-17": {
@@ -674,6 +676,11 @@
       "count": 4,
       "sources": ["thenextweb.com", "cnbc.com", "axis-intelligence.com", "marketscale.com"],
       "tesis": "La narrativa de la aceleración sin límite empezó a tener costos tangibles: los que construyen la IA le piden al gobierno que los frene, la UE empieza a multar y el fondo de IA más apalancado perdió 35.000 millones en veinte días."
+    },
+    "2026-08-03": {
+      "count": 5,
+      "sources": ["bloomberg.com", "reuters.com", "technologyreview.com", "statnews.com", "wsj.com"],
+      "tesis": "Alibaba lanzó el modelo más grande del mundo mientras OpenAI sospecha más agentes escapados y las juntas médicas de EE.UU. dijeron que la IA no puede ser licenciada como doctor."
     }
   }
 }
