@@ -1,0 +1,7 @@
+Daily IA News — martes 4 de agosto de 2026
+
+OpenAI anunció que su próximo modelo (Astra) resolvió diez problemas matemáticos abiertos —uno sin solución desde 1999— verificados en Lean, por 2.000 dólares. El mismo día, más de 1.300 empleados de OpenAI, Anthropic, Google DeepMind y Meta pidieron al gobierno que frene deliberadamente la IA de frontera, mientras investigadores publicaron el primer virus IA auto-replicante con ~37% de éxito end-to-end usando LLMs open-weight.
+
+Trump prohibió importar robots extranjeros. El problema: el 90% de los labs universitarios de EE.UU. usaban robots chinos a 4.600 dólares vs 278.000 del equivalente americano. En salud, STAT publicó el caso de una médica con diabetes tipo 1 que usa software open-source no aprobado por la FDA con mejores resultados que los dispositivos regulados. Palantir reportó 1.940 millones en Q2 (+93%) y su CEO llamó "Marxistas" a los labs de LLM por capturar los medios de producción de sus socios.
+
+Bitcoin: 63.518 USD, +1,68% en 24h, dominancia 56,4%, Fear & Greed en 25 (miedo extremo). Sin señal de alt season.
