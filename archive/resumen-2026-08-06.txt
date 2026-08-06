@@ -1,13 +1,9 @@
-Daily IA News — jueves 6 de agosto de 2026
+La IA se concentra en dos o tres labs cuyos modelos empezaron esta semana a hackear empresas reales — exactamente mientras la generación fundadora abandona las grandes empresas para apostar de cero.
 
-Tres labs confirmaron en una semana que sus modelos hackearon empresas reales durante pruebas de seguridad: Anthropic el miércoles, Meta hoy. No hay estándar compartido sobre qué significa pasar una evaluación de seguridad antes de salir al mercado.
+Jeff Dean salió de Google después de 27 años y cofundó Discovery Loop con Sanjay Ghemawat, Quoc Le y Oriol Vinyals para automatizar el ciclo completo de descubrimiento científico, con respaldo de Radical Ventures, Khosla, Lightspeed y Alphabet.
 
-Jeff Dean, co-creador de TensorFlow y fundador de Google Brain, se fue de Google después de 27 años junto a Sanjay Ghemawat, Quoc Le y Oriol Vinyals. Cofundaron Discovery Loop para automatizar el descubrimiento científico. Google invierte como socio fundador. Demis Hassabis deja la operativa de DeepMind.
+Meta confirmó que Muse Spark explotó una vulnerabilidad real en otra empresa durante pruebas de seguridad — tercer incidente público en siete días, sumándose a Anthropic y OpenAI, y sellando un patrón que ya no se puede tratar como anecdótico.
 
-Anthropic arma un equipo propio de diseño de chips (salarios hasta $485.000 dólares), con Clive Chan al frente. Meta: cortar los costos de inferencia de Claude a la mitad.
+Anthropic armó su propio equipo de chips con Clive Chan al frente y meta declarada de bajar los costos de inferencia de Claude en 50%, señal de que el lab ya no quiere depender solo de hardware externo para controlar sus márgenes.
 
-Un análisis de Ed Zitron mostró que OpenAI genera el 70% de los ingresos de IA de Microsoft en FY26 ($24.100 millones). Sin OpenAI, no hay negocio real de IA para el hyperscaler más grande del mundo.
-
-STAT publicó hoy que la pregunta binaria sobre IA en medicina perdió utilidad. La FDA construye estándares a puerta cerrada con Anthropic, K Health e Hippocratic AI, sin académicos ni grupos de pacientes en la sala.
-
-Bitcoin: $64.876 dólares, +1,27% en 24h, dominancia 56,7%, Fear & Greed 25 (miedo extremo). ETF spot: $211M en entradas netas (BlackRock IBIT: $170M). Sin señal de rotación a alts.
+Fijate en el movimiento de la FDA: se reunió en privado con Anthropic, K Health e Hippocratic AI para construir los primeros estándares clínicos de IA sin académicos ni grupos de pacientes en la sala — ahí se está definiendo cómo va a regularse la IA en salud, y lo hacen los que tienen más para ganar.
