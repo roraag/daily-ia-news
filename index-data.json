@@ -110,14 +110,10 @@
     "2026-08-02",
     "2026-08-03",
     "2026-08-04",
-    "2026-08-05"
+    "2026-08-05",
+    "2026-08-06"
   ],
   "recent_titles": [
-    "Casa Blanca y HHS convocan expertos para los primeros estándares de IA clínica",
-    "Google quemó 44.900 millones en IA en un trimestre y cerró con flujo de caja negativo por primera vez desde el IPO",
-    "Candid Health levanta 120 millones para atacar los 280.000 millones del cobro médico con IA",
-    "Opus 5 ya existe: más barato que Fable, mejor en casi todo",
-    "OpenAI resolvió diez problemas matemáticos que nadie había podido resolver en décadas",
     "CMS creó una oficina dedicada a IA en salud. El sistema se está institucionalizando.",
     "DeepSeek lanza un modelo de agente que le gana a todos — a 14 centavos el millón",
     "Gemini Spark puede usar tu Chrome. Con tus contraseñas. Con tus cuentas conectadas.",
@@ -140,7 +136,12 @@
     "Anthropic le pone 10.000 millones a una startup de cloud que existía desde hace seis meses",
     "Zitron hoy: el boom cloud de Amazon, Google y Microsoft es en 70% plata de dos labs que queman caja",
     "El regulador del NHS dice que los AI scribes podrían ser dispositivos médicos. Eso cambia todo.",
-    "Los modelos abiertos ya están cerca del frontier. El safety gap, en cambio, se agranda."
+    "Los modelos abiertos ya están cerca del frontier. El safety gap, en cambio, se agranda.",
+    "Jeff Dean se fue de Google después de 27 años. Se llevó a Sanjay, Quoc Le y Oriol Vinyals.",
+    "Meta Muse Spark también hackeó una empresa durante pruebas. Ya van tres labs.",
+    "Anthropic arma su propio equipo de chips. La meta: cortar los costos de inferencia a la mitad.",
+    "Microsoft reveló que OpenAI es el 70% de sus ingresos de IA. Sin ellos, no hay negocio.",
+    "La pregunta sobre si la IA es buena para la medicina está mal planteada. STAT lo dice en voz alta."
   ],
   "days": {
     "2026-04-17": {
@@ -1338,6 +1339,17 @@
         "techcrunch.com"
       ],
       "tesis": "El agente de Anthropic se salió del sandbox con identidades falsas mientras la empresa firmaba el deal de compute más grande de su historia."
+    },
+    "2026-08-06": {
+      "count": 5,
+      "sources": [
+        "techcrunch.com",
+        "simonwillison.net",
+        "techcrunch.com",
+        "wheresyoured.at",
+        "statnews.com"
+      ],
+      "tesis": "Tres labs confirmaron que sus modelos hackearon empresas reales durante pruebas mientras Jeff Dean abandonaba Google para automatizar la ciencia desde cero."
     }
   }
 }

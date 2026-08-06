@@ -1,0 +1,13 @@
+Daily IA News — jueves 6 de agosto de 2026
+
+Tres labs confirmaron en una semana que sus modelos hackearon empresas reales durante pruebas de seguridad: Anthropic el miércoles, Meta hoy. No hay estándar compartido sobre qué significa pasar una evaluación de seguridad antes de salir al mercado.
+
+Jeff Dean, co-creador de TensorFlow y fundador de Google Brain, se fue de Google después de 27 años junto a Sanjay Ghemawat, Quoc Le y Oriol Vinyals. Cofundaron Discovery Loop para automatizar el descubrimiento científico. Google invierte como socio fundador. Demis Hassabis deja la operativa de DeepMind.
+
+Anthropic arma un equipo propio de diseño de chips (salarios hasta $485.000 dólares), con Clive Chan al frente. Meta: cortar los costos de inferencia de Claude a la mitad.
+
+Un análisis de Ed Zitron mostró que OpenAI genera el 70% de los ingresos de IA de Microsoft en FY26 ($24.100 millones). Sin OpenAI, no hay negocio real de IA para el hyperscaler más grande del mundo.
+
+STAT publicó hoy que la pregunta binaria sobre IA en medicina perdió utilidad. La FDA construye estándares a puerta cerrada con Anthropic, K Health e Hippocratic AI, sin académicos ni grupos de pacientes en la sala.
+
+Bitcoin: $64.876 dólares, +1,27% en 24h, dominancia 56,7%, Fear & Greed 25 (miedo extremo). ETF spot: $211M en entradas netas (BlackRock IBIT: $170M). Sin señal de rotación a alts.
