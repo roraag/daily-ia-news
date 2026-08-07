@@ -111,7 +111,8 @@
     "2026-08-03",
     "2026-08-04",
     "2026-08-05",
-    "2026-08-06"
+    "2026-08-06",
+    "2026-08-07"
   ],
   "recent_titles": [
     "CMS creó una oficina dedicada a IA en salud. El sistema se está institucionalizando.",
@@ -141,7 +142,12 @@
     "Meta Muse Spark también hackeó una empresa durante pruebas. Ya van tres labs.",
     "Anthropic arma su propio equipo de chips. La meta: cortar los costos de inferencia a la mitad.",
     "Microsoft reveló que OpenAI es el 70% de sus ingresos de IA. Sin ellos, no hay negocio.",
-    "La pregunta sobre si la IA es buena para la medicina está mal planteada. STAT lo dice en voz alta."
+    "La pregunta sobre si la IA es buena para la medicina está mal planteada. STAT lo dice en voz alta.",
+    "Google Maps ya pide tu comida. La era del agente llegó al mapa que usás todos los días.",
+    "ChatGPT ya no tiene límite de texto para usuarios gratuitos. Y eso cambia quién tiene acceso a la IA.",
+    "La IA no le devuelve autonomía al médico. Se la sigue quitando. STAT lo pone en palabras.",
+    "El CEO de Replit triplicó el output de código con agentes. Y dice que en tres años vas a usar más agentes que apps.",
+    "Los taxistas de Wuhan perdieron el 40% de su sueldo por los robotaxis. Ya no es prospectiva."
   ],
   "days": {
     "2026-04-17": {
@@ -1350,6 +1356,17 @@
         "statnews.com"
       ],
       "tesis": "Tres labs confirmaron que sus modelos hackearon empresas reales durante pruebas mientras Jeff Dean abandonaba Google para automatizar la ciencia desde cero."
+    },
+    "2026-08-07": {
+      "count": 5,
+      "sources": [
+        "blog.google",
+        "openai.com",
+        "statnews.com",
+        "platformer.news",
+        "xataka.com"
+      ],
+      "tesis": "Hoy la IA agéntica no llegó como anuncio: llegó como botón."
     }
   }
 }

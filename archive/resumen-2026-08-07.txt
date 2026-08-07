@@ -1,0 +1,15 @@
+Daily IA News — viernes 7 de agosto de 2026
+
+Tesis: La IA agéntica llegó como botón, no como anuncio. Google Maps ya pide comida y reserva hoteles. OpenAI eliminó el límite de la capa gratuita de ChatGPT.
+
+1. TECH — Google Maps tiene agentes: Ask Maps ejecuta pedidos de comida y reservas de hotel desde el chat. No propone: actúa. El agente llegó a los 2.000 millones de usuarios que ya usan Maps.
+
+2. TECH — ChatGPT gratuito sin límite de texto: GPT-5.6 Sol mejorado, botón Think para razonamiento extendido ahora disponible en la capa gratis. OpenAI apuesta a distribución masiva antes del IPO.
+
+3. SALUD — La IA no devuelve autonomía al médico: STAT publica opinión de Frances Mei Hardin argumentando que la IA amplifica la erosión del juicio clínico que los sistemas de salud ya venían instalando por costo.
+
+4. NEGOCIO — Replit triplicó el output de código en 6 meses con agentes: el CEO Amjad Masad explica en Platformer cómo reorganizó el trabajo y predice que en 3 años se usan más agentes que apps.
+
+5. TECH — Taxistas de Wuhan perdieron el 40% de sueldo por robotaxis Apollo Go: el desplazamiento laboral por IA ya tiene números reales, no proyecciones. Beijing empieza a medir el impacto.
+
+Bitcoin: $64.602 · 24h: -0,34% · Fear & Greed: 29 (Miedo) · Dominancia BTC: 56,7%. Sin señal de alt season. Ballenas acumularon $1.200M esta semana.
