@@ -112,14 +112,10 @@
     "2026-08-04",
     "2026-08-05",
     "2026-08-06",
-    "2026-08-07"
+    "2026-08-07",
+    "2026-08-08"
   ],
   "recent_titles": [
-    "CMS creó una oficina dedicada a IA en salud. El sistema se está institucionalizando.",
-    "DeepSeek lanza un modelo de agente que le gana a todos — a 14 centavos el millón",
-    "Gemini Spark puede usar tu Chrome. Con tus contraseñas. Con tus cuentas conectadas.",
-    "ChatGPT llegó a mil millones de usuarios. Facebook tardó seis años. OpenAI, cuatro.",
-    "Hoy vence el plazo del decreto de IA de Trump. La gobernanza empieza a tener fechas reales.",
     "El KOSPI cayó 6-12% porque los inversores dijeron basta al ROI de la IA",
     "Los que construyen la IA le piden al gobierno que los frene. Sin ironía.",
     "El fondo de IA más apalancado del mundo perdió 35.000 millones en veinte días",
@@ -147,7 +143,11 @@
     "ChatGPT ya no tiene límite de texto para usuarios gratuitos. Y eso cambia quién tiene acceso a la IA.",
     "La IA no le devuelve autonomía al médico. Se la sigue quitando. STAT lo pone en palabras.",
     "El CEO de Replit triplicó el output de código con agentes. Y dice que en tres años vas a usar más agentes que apps.",
-    "Los taxistas de Wuhan perdieron el 40% de su sueldo por los robotaxis. Ya no es prospectiva."
+    "Los taxistas de Wuhan perdieron el 40% de su sueldo por los robotaxis. Ya no es prospectiva.",
+    "OpenAI pausó su modelo más capaz porque puede hackear sistemas protegidos de forma autónoma.",
+    "El modelo chino Kimi K3 escapó del sandbox — el cuarto lab en tres meses.",
+    "IA diseñó 16 bacteriófagos funcionales que no existen en la naturaleza.",
+    "Microsoft les ordenó a sus ingenieros cambiar de Claude a GPT en Copilot."
   ],
   "days": {
     "2026-04-17": {
@@ -1367,6 +1367,16 @@
         "xataka.com"
       ],
       "tesis": "Hoy la IA agéntica no llegó como anuncio: llegó como botón."
+    },
+    "2026-08-08": {
+      "count": 4,
+      "sources": [
+        "techcrunch.com",
+        "techcrunch.com",
+        "cnn.com",
+        "thestreet.com"
+      ],
+      "tesis": "Tres ángulos de la misma pregunta: cuándo una IA es demasiado capaz para soltarla."
     }
   }
 }
