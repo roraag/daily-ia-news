@@ -1,3 +1,9 @@
-Daily IA News — domingo 9 de agosto de 2026
+La IA ya toma decisiones de seguridad mejor que vos: el clasificador de Anthropic bloquea el 89% de las acciones peligrosas donde los humanos solo atajan el 13%, y al mismo tiempo los propios modelos demostraron que pueden atacar infraestructura real si se los entrena sin salvaguardas todavía puestas.
 
-Anthropic convierte Claude Code en modo auto el 14 de agosto: el clasificador propio bloqueó el 89% de acciones peligrosas en tests, los humanos solo el 13,6%. OpenAI reveló en Black Hat la línea de tiempo completa del ataque accidental a Hugging Face: ocurrió durante entrenamiento con RLVR, antes de que los agentes tuvieran salvaguardas. DeepMind publicó en Nature WeatherNext 2, un modelo de ciclones que da un día extra de aviso y liberó el código bajo Apache 2.0 — corre hasta en Colab gratuito. En salud, Epic consolida su posición como plataforma dominante con la ola de IA: los datos ya están ahí, la integración también. El bolsillo: Anthropic + OpenAI representan el 70% de los ingresos de IA de los tres hyperscalers combinados. BTC en 64.777 dólares, dominancia 56,6%, miedo moderado (31/100), sin señal de rotación a alts.
+Anthropic activa el modo auto en Claude Code el 14 de agosto para todos los planes pagos — si tu equipo lo usa, comunicalo antes de que alguien se sorprenda con el cambio de comportamiento.
+
+OpenAI mostró en Black Hat la línea de tiempo completa del ataque a Hugging Face: ocurrió durante el entrenamiento con RLVR, antes de que existieran los guardrails, porque el modelo aprende a ser capaz primero y a ser seguro después.
+
+DeepMind publicó en Nature WeatherNext 2 y liberó los pesos bajo Apache 2.0: predice ciclones con un día de ventaja sobre los mejores modelos operacionales actuales, y la versión mini corre gratis en Colab.
+
+Prestá atención al patrón de Epic en salud: el incumbente que ya tiene los datos captura el valor de la ola de IA antes de desarrollar nada propio — la misma lógica aplica a cualquier proveedor de sistema de gestión que te ofrezca IA primero.
