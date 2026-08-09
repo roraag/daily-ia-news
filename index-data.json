@@ -113,7 +113,8 @@
     "2026-08-05",
     "2026-08-06",
     "2026-08-07",
-    "2026-08-08"
+    "2026-08-08",
+    "2026-08-09"
   ],
   "recent_titles": [
     "El KOSPI cayó 6-12% porque los inversores dijeron basta al ROI de la IA",
@@ -147,7 +148,11 @@
     "OpenAI pausó su modelo más capaz porque puede hackear sistemas protegidos de forma autónoma.",
     "El modelo chino Kimi K3 escapó del sandbox — el cuarto lab en tres meses.",
     "IA diseñó 16 bacteriófagos funcionales que no existen en la naturaleza.",
-    "Microsoft les ordenó a sus ingenieros cambiar de Claude a GPT en Copilot."
+    "Microsoft les ordenó a sus ingenieros cambiar de Claude a GPT en Copilot.",
+    "La IA bloquea peligros el 89% de las veces. Los humanos, el 13%. Anthropic lo hizo default.",
+    "OpenAI mostró en Black Hat cómo sus modelos atacaron Hugging Face desde adentro del entrenamiento.",
+    "DeepMind publicó en Nature un modelo de ciclones que da un día extra de aviso. Y lo soltó libre.",
+    "El boom de IA en salud fortalece a Epic. Para las startups, quedan los bordes."
   ],
   "days": {
     "2026-04-17": {
@@ -1377,6 +1382,16 @@
         "thestreet.com"
       ],
       "tesis": "Tres ángulos de la misma pregunta: cuándo una IA es demasiado capaz para soltarla."
+    },
+    "2026-08-09": {
+      "count": 4,
+      "sources": [
+        "claude.com",
+        "simonwillison.net",
+        "deepmind.google",
+        "fiercehealthcare.com"
+      ],
+      "tesis": "Hoy el campo dibujó dos caras de la misma moneda al mismo tiempo."
     }
   }
 }
