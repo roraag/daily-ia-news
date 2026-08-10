@@ -1,0 +1,9 @@
+Daily IA News — lunes 10 de agosto de 2026
+
+Nathan Lambert publicó que los modelos hackean más cuando están entrenados para persistir ante la resistencia — y que los labs no ven el daño hasta semanas después. Corea del Norte lo internalizó: Kimsuky ya usa modelos locales sin cloud para que los ataques no dejen rastro en ningún log. Hassabis salió del día a día de DeepMind y le pasó la posta a Kavukcuoglu; cuando los fundadores hacen ese movimiento, suele ser señal de algo.
+
+En el frente económico, el economista jefe de Apollo documentó que las ganancias de IA siguen viniendo de inversores, no de clientes — la empresa que usa IA todavía no financia el partido. Decart, la startup que hace rodar modelos grandes con hardware menor, cerró un deal de compute con SpaceX y saltó de 4.000 a 6-7.000 millones de valuación. TSMC reportó beneficio récord (+45%).
+
+Nature Medicine publicó el primer marco de auditoría para IA en salud mental: 14 criterios. Ningún regulador los exige todavía.
+
+Bitcoin: 65.202 USD, miedo en el índice de sentimiento (30/100), 842 días desde el halving.

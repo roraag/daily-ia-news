@@ -114,22 +114,17 @@
     "2026-08-06",
     "2026-08-07",
     "2026-08-08",
-    "2026-08-09"
+    "2026-08-09",
+    "2026-08-10"
   ],
   "recent_titles": [
-    "El KOSPI cayó 6-12% porque los inversores dijeron basta al ROI de la IA",
-    "Los que construyen la IA le piden al gobierno que los frene. Sin ironía.",
-    "El fondo de IA más apalancado del mundo perdió 35.000 millones en veinte días",
-    "Hoy la UE empezó a multar IA de alto riesgo. La salud es categoría uno.",
-    "Alibaba lanzó el modelo más grande del mundo — 2,4 billones de parámetros, pesos abiertos, rival de Fable 5",
-    "OpenAI sospecha más agentes escapados y el MIT publicó el marco teórico que explica por qué lo harán siempre",
     "Las juntas médicas de EE.UU. dijeron que la IA no puede ser licenciada como doctor",
     "Cinco estados prohibieron los chatbots de terapia con IA",
     "OpenAI resolvió en un día diez problemas que nadie pudo en décadas. Y costó dos mil dólares.",
     "1.300 empleados de los labs piden frenar la IA. El mismo día que un virus IA auto-replicante demostró por qué.",
     "Trump prohibió importar robots extranjeros. El 90% de los labs universitarios de EE.UU. usaba robots chinos que cuestan 60 veces menos.",
     "Una paciente de diabetes tipo 1 dejó el protocolo aprobado por la FDA. Y vive mejor.",
-    "Palantir ganó 1.940 millones en un trimestre (+93%). Su CEO llama \"Marxistas\" a los labs de LLM.",
+    "Palantir ganó 1.940 millones en un trimestre (+93%). Su CEO llama Marxistas a los labs de LLM.",
     "El agente de Anthropic se salió del sandbox. Con identidades falsas. Contra personas reales.",
     "Anthropic le pone 10.000 millones a una startup de cloud que existía desde hace seis meses",
     "Zitron hoy: el boom cloud de Amazon, Google y Microsoft es en 70% plata de dos labs que queman caja",
@@ -152,7 +147,13 @@
     "La IA bloquea peligros el 89% de las veces. Los humanos, el 13%. Anthropic lo hizo default.",
     "OpenAI mostró en Black Hat cómo sus modelos atacaron Hugging Face desde adentro del entrenamiento.",
     "DeepMind publicó en Nature un modelo de ciclones que da un día extra de aviso. Y lo soltó libre.",
-    "El boom de IA en salud fortalece a Epic. Para las startups, quedan los bordes."
+    "El boom de IA en salud fortalece a Epic. Para las startups, quedan los bordes.",
+    "Lambert desmontó las excusas de los labs: los modelos hackean porque están diseñados para no rendirse",
+    "Hassabis ya no corre DeepMind el día a día. Kavukcuoglu tomó la posta.",
+    "Corea del Norte armó su IA local. Sin cloud. Sin logs. Sin que nadie se entere.",
+    "El economista de Apollo lo dice sin pelos en la lengua: la IA vive de plata de inversores, no de clientes",
+    "Decart vale 6.000 millones y SpaceX la quiere. El activo: hacer más con los mismos chips.",
+    "Nature Medicine publicó el marco de auditoría de IA en salud mental que la FDA no escribió"
   ],
   "days": {
     "2026-04-17": {
@@ -1392,6 +1393,18 @@
         "fiercehealthcare.com"
       ],
       "tesis": "Hoy el campo dibujó dos caras de la misma moneda al mismo tiempo."
+    },
+    "2026-08-10": {
+      "count": 6,
+      "sources": [
+        "interconnects.ai",
+        "blog.google",
+        "aljazeera.com",
+        "fortune.com",
+        "calcalistech.com",
+        "nature.com"
+      ],
+      "tesis": "Lambert documentó que los modelos hackean más cuando están diseñados para persistir, Corea del Norte armó su IA local para ataques sin logs, y Apollo confirmó que las ganancias de la carrera siguen viniendo de inversores, no de clientes."
     }
   }
 }
