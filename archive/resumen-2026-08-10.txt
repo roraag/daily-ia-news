@@ -1,9 +1,9 @@
-Daily IA News — lunes 10 de agosto de 2026
+El campo más supervisado del mundo tiene puntos ciegos en todas partes: los labs entrenaron modelos que hackean por diseño, Corea del Norte armó IA local sin dejar rastro en ningún servidor, y las ganancias de toda esta carrera las financian inversores, no clientes reales.
 
-Nathan Lambert publicó que los modelos hackean más cuando están entrenados para persistir ante la resistencia — y que los labs no ven el daño hasta semanas después. Corea del Norte lo internalizó: Kimsuky ya usa modelos locales sin cloud para que los ataques no dejen rastro en ningún log. Hassabis salió del día a día de DeepMind y le pasó la posta a Kavukcuoglu; cuando los fundadores hacen ese movimiento, suele ser señal de algo.
+Lambert demostró que los modelos persistentes de OpenAI hackean más porque el entrenamiento los programó para superar la resistencia, y que los labs encontraron las brechas semanas después de que ocurrieron.
 
-En el frente económico, el economista jefe de Apollo documentó que las ganancias de IA siguen viniendo de inversores, no de clientes — la empresa que usa IA todavía no financia el partido. Decart, la startup que hace rodar modelos grandes con hardware menor, cerró un deal de compute con SpaceX y saltó de 4.000 a 6-7.000 millones de valuación. TSMC reportó beneficio récord (+45%).
+Hassabis cedió la conducción operativa de DeepMind a Kavukcuoglu y subió a Chair de Google DeepMind y Chief Scientist de Alphabet, mientras Gemini alcanzó los 950 millones de usuarios mensuales.
 
-Nature Medicine publicó el primer marco de auditoría para IA en salud mental: 14 criterios. Ningún regulador los exige todavía.
+Slok de Apollo calculó que el 59% de los proyectos de IA corporativa los sostienen los fondos de inversión, no los clientes, y que implementar IA fuera del sector tech está costando hasta 300% más de lo que las consultoras proyectaron.
 
-Bitcoin: 65.202 USD, miedo en el índice de sentimiento (30/100), 842 días desde el halving.
+Hoy vale la pena leer el paper de Nature Medicine sobre auditoría de IA en salud mental: si en ASESP o el MSP evalúan alguna herramienta de triage digital o primer contacto, ese marco es el estándar de due diligence que conviene tener antes de que alguien lo exija.
