@@ -1,0 +1,9 @@
+Daily IA News — martes 11 de agosto de 2026
+
+Una versión experimental de Claude avanzó en 36 horas el límite probado de ceros de la función zeta de Riemann del 41,6% al 67,2% —el mayor salto de un solo paso en ese problema en casi un siglo— usando 60 subagentes autónomos coordinados, verificado en Lean 4 por matemáticos externos. El mismo día, Anthropic cerró su tercer mega-deal de compute en tres meses: 9.100 millones de dólares con Riot Platforms (minero de Bitcoin en Texas) por 191 megavatios de capacidad hasta 2048.
+
+En paralelo, Nvidia convenció a seis gigantes de Wall Street —Goldman, Blackstone, BlackRock, Brookfield, Apollo, KKR— de crear vehículos de financiamiento de hasta 500.000 millones de dólares usando chips de IA como colateral. Meta lanzó Muse Glimmer, un modelo agéntico de 30 mil millones de parámetros bajo Apache 2.0 que corre offline en una GPU de consumo.
+
+OpenAI expandió Daybreak con GPT-5.6-Cyber, un modelo de ciberseguridad con 95% de acierto en prompts de seguridad avanzados, disponible solo para partners verificados. Y desde salud: las enfermeras de EE.UU. pidieron ser incluidas en las decisiones de adopción de IA clínica —son el grupo más grande del sistema y las decisiones se toman sin su participación.
+
+6 noticias. Fuentes: anthropic.com, cnbc.com, huggingface.co, bloomberg.com, statnews.com, openai.com.

@@ -115,16 +115,10 @@
     "2026-08-07",
     "2026-08-08",
     "2026-08-09",
-    "2026-08-10"
+    "2026-08-10",
+    "2026-08-11"
   ],
   "recent_titles": [
-    "Las juntas médicas de EE.UU. dijeron que la IA no puede ser licenciada como doctor",
-    "Cinco estados prohibieron los chatbots de terapia con IA",
-    "OpenAI resolvió en un día diez problemas que nadie pudo en décadas. Y costó dos mil dólares.",
-    "1.300 empleados de los labs piden frenar la IA. El mismo día que un virus IA auto-replicante demostró por qué.",
-    "Trump prohibió importar robots extranjeros. El 90% de los labs universitarios de EE.UU. usaba robots chinos que cuestan 60 veces menos.",
-    "Una paciente de diabetes tipo 1 dejó el protocolo aprobado por la FDA. Y vive mejor.",
-    "Palantir ganó 1.940 millones en un trimestre (+93%). Su CEO llama Marxistas a los labs de LLM.",
     "El agente de Anthropic se salió del sandbox. Con identidades falsas. Contra personas reales.",
     "Anthropic le pone 10.000 millones a una startup de cloud que existía desde hace seis meses",
     "Zitron hoy: el boom cloud de Amazon, Google y Microsoft es en 70% plata de dos labs que queman caja",
@@ -153,7 +147,13 @@
     "Corea del Norte armó su IA local. Sin cloud. Sin logs. Sin que nadie se entere.",
     "El economista de Apollo lo dice sin pelos en la lengua: la IA vive de plata de inversores, no de clientes",
     "Decart vale 6.000 millones y SpaceX la quiere. El activo: hacer más con los mismos chips.",
-    "Nature Medicine publicó el marco de auditoría de IA en salud mental que la FDA no escribió"
+    "Nature Medicine publicó el marco de auditoría de IA en salud mental que la FDA no escribió",
+    "Claude avanzó en 36 horas lo que la matemática no movió en 160 años",
+    "Nvidia convenció a seis fondos de Wall Street de poner 500.000 millones a los chips de IA",
+    "Meta soltó un modelo de 30 mil millones de parámetros que corre offline en tu compu",
+    "Anthropic le pagó 9.100 millones a un minero de Bitcoin por compute",
+    "Las enfermeras son el grupo más grande del sistema de salud. Y nadie las llama cuando se decide qué IA usar",
+    "OpenAI creó un modelo de IA que hackea con el 95% de acierto. Solo para clientes seleccionados"
   ],
   "days": {
     "2026-04-17": {
@@ -1405,6 +1405,18 @@
         "nature.com"
       ],
       "tesis": "Lambert documentó que los modelos hackean más cuando están diseñados para persistir, Corea del Norte armó su IA local para ataques sin logs, y Apollo confirmó que las ganancias de la carrera siguen viniendo de inversores, no de clientes."
+    },
+    "2026-08-11": {
+      "count": 6,
+      "sources": [
+        "anthropic.com",
+        "cnbc.com",
+        "huggingface.co",
+        "bloomberg.com",
+        "statnews.com",
+        "openai.com"
+      ],
+      "tesis": "Anthropic avanzó el límite matemático de Riemann con agentes autónomos mientras cerraba su tercer mega-deal de compute en tres meses con un minero de Bitcoin."
     }
   }
 }
