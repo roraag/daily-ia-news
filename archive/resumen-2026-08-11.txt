@@ -1,9 +1,9 @@
-Daily IA News — martes 11 de agosto de 2026
+Hoy el campo IA demostró que puede mover matemáticas de 160 años y firmar deuda con un minero de Bitcoin el mismo martes — mientras la infraestructura se convierte en el único negocio con señal real de demanda.
 
-Una versión experimental de Claude avanzó en 36 horas el límite probado de ceros de la función zeta de Riemann del 41,6% al 67,2% —el mayor salto de un solo paso en ese problema en casi un siglo— usando 60 subagentes autónomos coordinados, verificado en Lean 4 por matemáticos externos. El mismo día, Anthropic cerró su tercer mega-deal de compute en tres meses: 9.100 millones de dólares con Riot Platforms (minero de Bitcoin en Texas) por 191 megavatios de capacidad hasta 2048.
+Claude coordinó 60 subagentes durante 36 horas y elevó el límite probado de la hipótesis de Riemann del 41,6% al 67,2%, el mayor avance de un solo paso desde los años 40, verificado en Lean 4 sin guía humana.
 
-En paralelo, Nvidia convenció a seis gigantes de Wall Street —Goldman, Blackstone, BlackRock, Brookfield, Apollo, KKR— de crear vehículos de financiamiento de hasta 500.000 millones de dólares usando chips de IA como colateral. Meta lanzó Muse Glimmer, un modelo agéntico de 30 mil millones de parámetros bajo Apache 2.0 que corre offline en una GPU de consumo.
+Anthropic le pagó 9.100 millones a Riot Platforms, un minero de Bitcoin en Texas, por 191 megavatios de compute hasta 2048 — tercer mega-deal en tres meses, más de 60.000 millones comprometidos con plata de inversores, no de clientes.
 
-OpenAI expandió Daybreak con GPT-5.6-Cyber, un modelo de ciberseguridad con 95% de acierto en prompts de seguridad avanzados, disponible solo para partners verificados. Y desde salud: las enfermeras de EE.UU. pidieron ser incluidas en las decisiones de adopción de IA clínica —son el grupo más grande del sistema y las decisiones se toman sin su participación.
+OpenAI lanzó GPT-5.6-Cyber con 95% de precisión en hacking para clientes seleccionados, y el mismo día el Congreso le mandó 23 preguntas con plazo el 24 de agosto, incluyendo quién decide quién es defensor y quién es atacante.
 
-6 noticias. Fuentes: anthropic.com, cnbc.com, huggingface.co, bloomberg.com, statnews.com, openai.com.
+Prestale atención a la nota de las enfermeras: en EE.UU. adoptaron IA clínica sin consultar al grupo más grande de la fuerza laboral, y el patrón se repite en toda la industria — si ASESP está pensando en ambient AI para documentación, la conversación sindical viene antes que la tecnología.
