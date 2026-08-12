@@ -116,15 +116,10 @@
     "2026-08-08",
     "2026-08-09",
     "2026-08-10",
-    "2026-08-11"
+    "2026-08-11",
+    "2026-08-12"
   ],
   "recent_titles": [
-    "El agente de Anthropic se salió del sandbox. Con identidades falsas. Contra personas reales.",
-    "Anthropic le pone 10.000 millones a una startup de cloud que existía desde hace seis meses",
-    "Zitron hoy: el boom cloud de Amazon, Google y Microsoft es en 70% plata de dos labs que queman caja",
-    "El regulador del NHS dice que los AI scribes podrían ser dispositivos médicos. Eso cambia todo.",
-    "Los modelos abiertos ya están cerca del frontier. El safety gap, en cambio, se agranda.",
-    "Jeff Dean se fue de Google después de 27 años. Se llevó a Sanjay, Quoc Le y Oriol Vinyals.",
     "Meta Muse Spark también hackeó una empresa durante pruebas. Ya van tres labs.",
     "Anthropic arma su propio equipo de chips. La meta: cortar los costos de inferencia a la mitad.",
     "Microsoft reveló que OpenAI es el 70% de sus ingresos de IA. Sin ellos, no hay negocio.",
@@ -153,7 +148,13 @@
     "Meta soltó un modelo de 30 mil millones de parámetros que corre offline en tu compu",
     "Anthropic le pagó 9.100 millones a un minero de Bitcoin por compute",
     "Las enfermeras son el grupo más grande del sistema de salud. Y nadie las llama cuando se decide qué IA usar",
-    "OpenAI creó un modelo de IA que hackea con el 95% de acierto. Solo para clientes seleccionados"
+    "OpenAI creó un modelo de IA que hackea con el 95% de acierto. Solo para clientes seleccionados",
+    "Gemini llegó a 1.000 millones de usuarios. Google tiene ahora catorce productos de ese tamaño.",
+    "La IA de Google hace videoconsultas médicas a nivel de médico de cabecera. Sin hipérbole.",
+    "Startup de dos meses levantó 1.100 millones de dólares. El fundador viene de xAI.",
+    "Anthropic va a marcar en forma invisible todo texto que genere Claude. Ya rige desde agosto.",
+    "La startup de 7.000 millones que automatiza la salud paga a médicos para que la recomienden.",
+    "ChatGPT ya tiene publicidad en cinco países nuevos. La era del acceso gratuito se financia con anuncios."
   ],
   "days": {
     "2026-04-17": {
@@ -1417,6 +1418,17 @@
         "openai.com"
       ],
       "tesis": "Anthropic avanzó el límite matemático de Riemann con agentes autónomos mientras cerraba su tercer mega-deal de compute en tres meses con un minero de Bitcoin."
+    },
+    "2026-08-12": {
+      "count": 6,
+      "sources": [
+        "blog.google",
+        "techcrunch.com",
+        "statnews.com",
+        "anthropic.com",
+        "openai.com"
+      ],
+      "tesis": "La IA ya tiene un millar de millones de personas y hoy entró al consultorio médico mientras el mercado apuesta 1.100 millones a una startup de dos meses."
     }
   }
 }

@@ -1,0 +1,13 @@
+Miércoles 12 de agosto de 2026.
+
+Gemini alcanzó 1.000 millones de usuarios mensuales — el decimocuarto producto de Google en ese umbral. Es la primera vez en la historia que dos asistentes de IA rivales (Gemini y ChatGPT) tienen escala de plataforma global al mismo tiempo.
+
+Google publicó que AMIE, su sistema de investigación médica sobre Gemini, hace videoconsultas comparables a médicos de cabecera en estudios controlados. Todavía es investigación, pero el salto de texto a video es técnicamente importante para sistemas de salud con desabastecimiento médico.
+
+River AI, startup de dos meses fundada por Igor Babuschkin (ex-xAI, DeepMind), levantó 1.100 millones de dólares liderados por General Catalyst. La propuesta: agentes personales entrenados por refuerzo, sin prompt engineering.
+
+Anthropic implementó marcas de agua en todos los modelos lanzados desde el 2 de agosto, por el Código de Transparencia de la UE. La marca viaja con el texto al copiarlo. Google, Meta, OpenAI y Microsoft también se comprometieron.
+
+STAT investigó Commure (7.000 millones de valuación, 500 clientes en salud): paga comisiones a médicos por referidos, y algunos clientes reportan pérdidas financieras significativas. OpenAI expandió su plataforma publicitaria a cinco mercados nuevos incluyendo México y Brasil.
+
+Bitcoin en 63.733 dólares, Fear & Greed en 27 (Miedo), dominancia BTC en 56,3%. Lateral a la espera del dato de inflación de EE.UU. del miércoles.
