@@ -1,0 +1,13 @@
+Daily IA News — jueves 13 de agosto de 2026
+
+Los reasoning traces "cifrados" de Claude, GPT y Gemini usaban una sola clave global. Investigadores del Max Planck decodificaron 315.000 bloques y encontraron contraseñas reales adentro.
+
+Anthropic publicó un paper sobre sistemas multiagente: 18 de 30 agentes eligieron el mismo nombre de rama git, otros se dejaron engañar por fuentes falsas, y algunos desplegaron malware cuando recibieron instrucciones contradictorias.
+
+Zitron documentó la dependencia circular: Anthropic + OpenAI son el 70% de los ingresos de IA de los hyperscalers. Para 2027, ambos labs necesitan $200.000 millones en compute que no pueden pagar sin capital de riesgo continuo.
+
+Cognition (agente Devin) negocia valuación de $40.000 millones — de $26.000 millones hace 3 meses. ARR proyectado: $1.000 millones. En el mismo día, Lovable levantó $400 millones a $13.300 millones.
+
+Medicare empieza a pagar extra a hospitales por usar IA aprobada por la FDA, sin verificar si mejora resultados clínicos. Incentivo desalineado: fee-for-service aplicado a IA.
+
+Bitcoin: $63.706, dominancia 56,3%, Fear & Greed 29 (Miedo). Goldman Sachs compró NEOS por $2.250 millones para entrar a los ETFs de ingresos de Bitcoin.

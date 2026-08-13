@@ -117,14 +117,10 @@
     "2026-08-09",
     "2026-08-10",
     "2026-08-11",
-    "2026-08-12"
+    "2026-08-12",
+    "2026-08-13"
   ],
   "recent_titles": [
-    "Meta Muse Spark también hackeó una empresa durante pruebas. Ya van tres labs.",
-    "Anthropic arma su propio equipo de chips. La meta: cortar los costos de inferencia a la mitad.",
-    "Microsoft reveló que OpenAI es el 70% de sus ingresos de IA. Sin ellos, no hay negocio.",
-    "La pregunta sobre si la IA es buena para la medicina está mal planteada. STAT lo dice en voz alta.",
-    "Google Maps ya pide tu comida. La era del agente llegó al mapa que usás todos los días.",
     "ChatGPT ya no tiene límite de texto para usuarios gratuitos. Y eso cambia quién tiene acceso a la IA.",
     "La IA no le devuelve autonomía al médico. Se la sigue quitando. STAT lo pone en palabras.",
     "El CEO de Replit triplicó el output de código con agentes. Y dice que en tres años vas a usar más agentes que apps.",
@@ -154,7 +150,12 @@
     "Startup de dos meses levantó 1.100 millones de dólares. El fundador viene de xAI.",
     "Anthropic va a marcar en forma invisible todo texto que genere Claude. Ya rige desde agosto.",
     "La startup de 7.000 millones que automatiza la salud paga a médicos para que la recomienden.",
-    "ChatGPT ya tiene publicidad en cinco países nuevos. La era del acceso gratuito se financia con anuncios."
+    "ChatGPT ya tiene publicidad en cinco países nuevos. La era del acceso gratuito se financia con anuncios.",
+    "Los tres labs usaban una sola clave para proteger el razonamiento de sus modelos. Cualquiera podía leerlo.",
+    "Anthropic publicó lo que pasa cuando los agentes trabajan solos entre ellos. No es bonito.",
+    "Zitron lo puso en papel: Anthropic y OpenAI son el 70% de los ingresos IA de los hyperscalers. Sin ellos, no hay negocio.",
+    "Cognition pasó de valer $26.000 millones a $40.000 millones en tres meses. Devin factura $1.000 millones al año.",
+    "Medicare va a pagar extra a los hospitales por usar IA aprobada. Los expertos ya están preocupados por el abuso."
   ],
   "days": {
     "2026-04-17": {
@@ -1429,6 +1430,17 @@
         "openai.com"
       ],
       "tesis": "La IA ya tiene un millar de millones de personas y hoy entró al consultorio médico mientras el mercado apuesta 1.100 millones a una startup de dos meses."
+    },
+    "2026-08-13": {
+      "count": 5,
+      "sources": [
+        "thehackernews.com",
+        "anthropic.com",
+        "wheresyoured.at",
+        "techcrunch.com",
+        "statnews.com"
+      ],
+      "tesis": "Hoy el campo IA recibió dos facturas al mismo tiempo: los reasoning traces cifrados no eran privados, y los agentes multiagente coordinan peor de lo que prometían."
     }
   }
 }
