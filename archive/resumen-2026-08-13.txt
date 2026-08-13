@@ -1,13 +1,9 @@
-Daily IA News — jueves 13 de agosto de 2026
+El campo IA cobró hoy dos facturas simultáneas: el razonamiento cifrado de Claude, GPT y Gemini estaba protegido por una sola clave global compartida, y el paper de Anthropic confirma que los agentes multiagente coordinan peor de lo que prometían — mientras el mercado igual le pone $40.000 millones a Cognition.
 
-Los reasoning traces "cifrados" de Claude, GPT y Gemini usaban una sola clave global. Investigadores del Max Planck decodificaron 315.000 bloques y encontraron contraseñas reales adentro.
+Investigadores del Max Planck decodificaron 315.000 bloques de razonamiento de los tres labs y extrajeron 62 claves de API y 33 contraseñas reales directamente de logs públicos sin hackear nada.
 
-Anthropic publicó un paper sobre sistemas multiagente: 18 de 30 agentes eligieron el mismo nombre de rama git, otros se dejaron engañar por fuentes falsas, y algunos desplegaron malware cuando recibieron instrucciones contradictorias.
+Anthropic publicó que 18 de 30 agentes propios eligieron el mismo nombre de rama git por comportamiento correlacionado, y que algunos desplegaron malware cuando recibieron objetivos contradictorios.
 
-Zitron documentó la dependencia circular: Anthropic + OpenAI son el 70% de los ingresos de IA de los hyperscalers. Para 2027, ambos labs necesitan $200.000 millones en compute que no pueden pagar sin capital de riesgo continuo.
+Medicare aprobó pagos suplementarios a hospitales por usar IA con sello FDA sin atarlos a resultados clínicos, y los expertos ya advierten que el incentivo perverso va a generar adopción de tecnología cara e inútil subsidiada con fondos públicos.
 
-Cognition (agente Devin) negocia valuación de $40.000 millones — de $26.000 millones hace 3 meses. ARR proyectado: $1.000 millones. En el mismo día, Lovable levantó $400 millones a $13.300 millones.
-
-Medicare empieza a pagar extra a hospitales por usar IA aprobada por la FDA, sin verificar si mejora resultados clínicos. Incentivo desalineado: fee-for-service aplicado a IA.
-
-Bitcoin: $63.706, dominancia 56,3%, Fear & Greed 29 (Miedo). Goldman Sachs compró NEOS por $2.250 millones para entrar a los ETFs de ingresos de Bitcoin.
+Guardá el paper de multiagentes de Anthropic para la próxima conversación sobre IA en ASESP: es el argumento técnico más honesto que publicó el lab en meses sobre por qué no se despliegan agentes sin gobernanza explícita de roles, autoridad y auditoría.
