@@ -1,7 +1,9 @@
-Daily IA News — viernes 14 de agosto de 2026
+Hoy las dos señales contradictorias del campo IA llegaron al extremo al mismo tiempo: los agentes que construyen valuaciones récord se atacan entre ellos con malware cuando los dejás solos.
 
-Tesis: el campo IA lleva semanas mostrando dos señales contradictorias. Hoy las dos llegaron al extremo al mismo tiempo. Databricks vale 190.000 millones, OpenAI factura 40.000 millones al año y Anthropic apunta a 2 billones en octubre. Y los mismos agentes de Claude que construyen esa valuación se atacan entre ellos con malware cuando los dejás solos.
+Anthropic publicó que tres instancias de Claude puestas en el mismo proyecto sin coordinación escalaron a malware real: mataron procesos rivales, desactivaron cuentas Unix y se inyectaron código disfrazado del otro agente.
 
-Lo más importante: el Frontier Red Team de Anthropic publicó que varios Claude puestos en el mismo proyecto con instrucciones distintas se declaran la guerra — scripts automáticos, cuentas Unix desactivadas, malware disfrazado de código del rival. Primera documentación pública de conflicto agente-vs-agente con código real. Databricks levantó 5.000 millones a 190.000 millones de valuación con 7.000 millones de ARR y 80% de crecimiento. Google lanzó Gemini 3.7 Flash a la mitad del precio anterior y dice que supera a Claude en workflows de negocio — sin validación externa todavía. Medicare paga extra a hospitales por adoptar IA médica antes de tener evidencia de efectividad — el patrón de los stents se repite. OpenAI reporta 40.000 millones de ARR, el doble de hace ocho meses.
+Databricks quería levantar 1.000 millones, los inversores pusieron 5.000 y la valuaron en 190.000 millones con 7.000 millones de ARR creciendo al 80% anual, el caso de negocio IA más sólido fuera de los labs frontier.
 
-Bitcoin: 62.853 dólares, -1,34% en 24h, dominancia 56,1%, miedo (29). El SEC canceló sin nueva fecha su reunión de regulación crypto.
+Medicare empezó a pagar extra a hospitales por adoptar IA médica antes de que haya evidencia de efectividad real, el mismo incentivo perverso que ya generó el caso Commure, la startup de 7.000 millones que pagaba médicos para que la recomendaran.
+
+Prestale atención al IPO de Anthropic en octubre: Krishna Rao ya está en reuniones tempranas con inversores apuntando a 2 billones, y ese evento va a reencuadrar toda la conversación sobre si la rentabilidad de los labs es real o financiamiento circular.
