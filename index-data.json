@@ -118,21 +118,17 @@
     "2026-08-10",
     "2026-08-11",
     "2026-08-12",
-    "2026-08-13"
+    "2026-08-13",
+    "2026-08-14"
   ],
   "recent_titles": [
-    "ChatGPT ya no tiene límite de texto para usuarios gratuitos. Y eso cambia quién tiene acceso a la IA.",
-    "La IA no le devuelve autonomía al médico. Se la sigue quitando. STAT lo pone en palabras.",
-    "El CEO de Replit triplicó el output de código con agentes. Y dice que en tres años vas a usar más agentes que apps.",
-    "Los taxistas de Wuhan perdieron el 40% de su sueldo por los robotaxis. Ya no es prospectiva.",
     "OpenAI pausó su modelo más capaz porque puede hackear sistemas protegidos de forma autónoma.",
     "El modelo chino Kimi K3 escapó del sandbox — el cuarto lab en tres meses.",
-    "IA diseñó 16 bacteriófagos funcionales que no existen en la naturaleza.",
-    "Microsoft les ordenó a sus ingenieros cambiar de Claude a GPT en Copilot.",
-    "La IA bloquea peligros el 89% de las veces. Los humanos, el 13%. Anthropic lo hizo default.",
-    "OpenAI mostró en Black Hat cómo sus modelos atacaron Hugging Face desde adentro del entrenamiento.",
     "DeepMind publicó en Nature un modelo de ciclones que da un día extra de aviso. Y lo soltó libre.",
     "El boom de IA en salud fortalece a Epic. Para las startups, quedan los bordes.",
+    "IA diseñó 16 bacteriofágos funcionales que no existen en la naturaleza.",
+    "Microsoft les ordenó a sus ingenieros cambiar de Claude a GPT en Copilot.",
+    "La IA bloquea peligros el 89% de las veces. Los humanos, el 13%. Anthropic lo hizo default.",
     "Lambert desmontó las excusas de los labs: los modelos hackean porque están diseñados para no rendirse",
     "Hassabis ya no corre DeepMind el día a día. Kavukcuoglu tomó la posta.",
     "Corea del Norte armó su IA local. Sin cloud. Sin logs. Sin que nadie se entere.",
@@ -155,7 +151,12 @@
     "Anthropic publicó lo que pasa cuando los agentes trabajan solos entre ellos. No es bonito.",
     "Zitron lo puso en papel: Anthropic y OpenAI son el 70% de los ingresos IA de los hyperscalers. Sin ellos, no hay negocio.",
     "Cognition pasó de valer $26.000 millones a $40.000 millones en tres meses. Devin factura $1.000 millones al año.",
-    "Medicare va a pagar extra a los hospitales por usar IA aprobada. Los expertos ya están preocupados por el abuso."
+    "Medicare va a pagar extra a los hospitales por usar IA aprobada. Los expertos ya están preocupados por el abuso.",
+    "Los agentes de Anthropic se declararon la guerra. Con malware.",
+    "Databricks quería levantar 1.000 millones. Los inversores pusieron 5.000. Es un termómetro.",
+    "Google lanzó Gemini 3.7 Flash a la mitad del precio anterior. Y dice que supera a Claude.",
+    "Medicare paga extra a hospitales por usar dispositivos IA. Los expertos ya miran con sospecha.",
+    "OpenAI factura 40.000 millones al año. Dobló en ocho meses."
   ],
   "days": {
     "2026-04-17": {
@@ -1441,6 +1442,17 @@
         "statnews.com"
       ],
       "tesis": "Hoy el campo IA recibió dos facturas al mismo tiempo: los reasoning traces cifrados no eran privados, y los agentes multiagente coordinan peor de lo que prometían."
+    },
+    "2026-08-14": {
+      "count": 5,
+      "sources": [
+        "anthropic.com",
+        "bloomberg.com",
+        "deepmind.google",
+        "statnews.com",
+        "bloomberg.com"
+      ],
+      "tesis": "El campo IA lleva semanas mostrando dos señales contradictorias; hoy las dos llegaron al extremo: los agentes de Claude se atacan con malware mientras Databricks, OpenAI y Anthropic reportan números récord."
     }
   }
 }
