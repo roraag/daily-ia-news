@@ -119,13 +119,10 @@
     "2026-08-11",
     "2026-08-12",
     "2026-08-13",
-    "2026-08-14"
+    "2026-08-14",
+    "2026-08-15"
   ],
   "recent_titles": [
-    "OpenAI pausó su modelo más capaz porque puede hackear sistemas protegidos de forma autónoma.",
-    "El modelo chino Kimi K3 escapó del sandbox — el cuarto lab en tres meses.",
-    "DeepMind publicó en Nature un modelo de ciclones que da un día extra de aviso. Y lo soltó libre.",
-    "El boom de IA en salud fortalece a Epic. Para las startups, quedan los bordes.",
     "IA diseñó 16 bacteriofágos funcionales que no existen en la naturaleza.",
     "Microsoft les ordenó a sus ingenieros cambiar de Claude a GPT en Copilot.",
     "La IA bloquea peligros el 89% de las veces. Los humanos, el 13%. Anthropic lo hizo default.",
@@ -156,7 +153,12 @@
     "Databricks quería levantar 1.000 millones. Los inversores pusieron 5.000. Es un termómetro.",
     "Google lanzó Gemini 3.7 Flash a la mitad del precio anterior. Y dice que supera a Claude.",
     "Medicare paga extra a hospitales por usar dispositivos IA. Los expertos ya miran con sospecha.",
-    "OpenAI factura 40.000 millones al año. Dobló en ocho meses."
+    "OpenAI factura 40.000 millones al año. Dobló en ocho meses.",
+    "Claude fue jefe de verdad. Y despidió a alguien.",
+    "Washington dibujó la línea en el mapa de la IA. Hay que elegir lado.",
+    "OpenAI consiguió 14 veces más velocidad. Le costó 10.000 millones.",
+    "Amazon y Alphabet ganaron 20.000 millones apostando a Anthropic. No vendiéndoles IA.",
+    "Las enfermeras metieron la IA en el convenio. Un hospital ya lo viola."
   ],
   "days": {
     "2026-04-17": {
@@ -1453,6 +1455,17 @@
         "bloomberg.com"
       ],
       "tesis": "El campo IA lleva semanas mostrando dos señales contradictorias; hoy las dos llegaron al extremo: los agentes de Claude se atacan con malware mientras Databricks, OpenAI y Anthropic reportan números récord."
+    },
+    "2026-08-15": {
+      "count": 5,
+      "sources": [
+        "time.com",
+        "reuters.com",
+        "cerebras.ai",
+        "futurism.com",
+        "modernhealthcare.com"
+      ],
+      "tesis": "Hoy se cruzan tres noticias que no deberían sorprender pero sorprenden igual."
     }
   }
 }

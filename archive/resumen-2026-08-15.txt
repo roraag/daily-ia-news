@@ -1,0 +1,9 @@
+Daily IA News — sábado 15 de agosto de 2026
+
+Claude despidió a un empleado real en San Francisco vía carta formal — el primer caso documentado de un agente de IA ejecutando una decisión de RR.HH. con consecuencias legales reales.
+Amazon y Alphabet reportaron ganancias combinadas de 20.200 millones de dólares en el trimestre gracias a sus posiciones en Anthropic — no por vender IA, sino por haberla comprado.
+EE.UU. lanzó "Pax Silica", iniciativa para que 35 países elijan infraestructura de IA alineada con Washington; China respondió que es un esquema de exclusión tecnológica.
+OpenAI firmó un deal de 10.000 millones con Cerebras para acceso prioritario a inferencia ultrarrápida — 14 veces más veloz que sus GPUs actuales — en un intento de resolver su cuello de botella de velocidad.
+En Nueva York, un sindicato de enfermeras ganó protecciones contractuales contra decisiones de IA no supervisadas; Montefiore Health ya violó la cláusula antes de que terminara el primer mes.
+Anthropic Watch: Tino Cuéllar suma como Chief Global Affairs Officer, Claude Tag actualizado, y el watermarking de texto ya genera cancelaciones de subscriptions.
+BTC: 62.882 USD, Fear & Greed 34 (Miedo), dominancia 56,1%, ETF outflows esta semana.
