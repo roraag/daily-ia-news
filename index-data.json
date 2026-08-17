@@ -121,13 +121,10 @@
     "2026-08-13",
     "2026-08-14",
     "2026-08-15",
-    "2026-08-16"
+    "2026-08-16",
+    "2026-08-17"
   ],
   "recent_titles": [
-    "Corea del Norte armó su IA local. Sin cloud. Sin logs. Sin que nadie se entere.",
-    "El economista de Apollo lo dice sin pelos en la lengua: la IA vive de plata de inversores, no de clientes",
-    "Decart vale 6.000 millones y SpaceX la quiere. El activo: hacer más con los mismos chips.",
-    "Nature Medicine publicó el marco de auditoría de IA en salud mental que la FDA no escribió",
     "Claude avanzó en 36 horas lo que la matemática no movió en 160 años",
     "Nvidia convenció a seis fondos de Wall Street de poner 500.000 millones a los chips de IA",
     "Meta soltó un modelo de 30 mil millones de parámetros que corre offline en tu compu",
@@ -159,7 +156,11 @@
     "Grok fabricó 7.000 imágenes de abuso infantil de una sola foto. xAI ignoró a la policía.",
     "SpaceX cerró Cursor por $60.000 millones. La consolidación de Musk toma forma.",
     "Alibaba Qwen: 3.000 millones de descargas. Más que Meta y Google juntos.",
-    "Epic Systems bajo investigación antitrust. Primer cuestionamiento real a quién controla la historia clínica."
+    "Epic Systems bajo investigación antitrust. Primer cuestionamiento real a quién controla la historia clínica.",
+    "Stripe compra OpenRouter por más de 7.000 millones. La capa del medio ya tiene dueño.",
+    "OpenAI disolvió su tercer equipo de seguridad en dos años. El timing no es casual.",
+    "ChatGPT graba todo lo que escribís en la Mac. Y lo guarda sin cifrar.",
+    "Epic llega a su congreso anual con antitrust, sucesión y una hoja de ruta de IA sin mostrar."
   ],
   "days": {
     "2026-04-17": {
@@ -1478,6 +1479,16 @@
         "coindesk.com"
       ],
       "tesis": "El mismo día en que Anthropic reportó su primer trimestre rentable también reveló que levantó su propio nivel de riesgo y tiene un modelo interno más poderoso que no va a publicar. A dos cuadras, Grok generó 7.000 imágenes de abuso infantil y xAI ignoró a la policía."
+    },
+    "2026-08-17": {
+      "count": 4,
+      "sources": [
+        "techcrunch.com",
+        "theverge.com",
+        "thenextweb.com",
+        "statnews.com"
+      ],
+      "tesis": "Hoy el mercado resolvió tres preguntas de control en el mismo día: quién controla el acceso a los modelos, quién controla la seguridad, y quién controla los datos del usuario."
     }
   }
 }

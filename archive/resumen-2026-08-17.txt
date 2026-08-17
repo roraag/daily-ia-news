@@ -1,0 +1,11 @@
+Daily IA News — lunes 17 de agosto de 2026
+
+Stripe compró OpenRouter por más de 7.000 millones de dólares: la startup que enruta consultas entre 400 modelos de IA pasó de valer 1.300 millones en mayo a más de 7.000 millones en agosto. La capa de acceso a los modelos ya tiene dueño.
+
+OpenAI disolvió su equipo de Preparedness, el tercero en safety eliminado en dos años, justo cuando prepara su IPO. El COO y la Chief Ethics Officer también se fueron. Cada vez que disuelven un equipo de safety, la explicación es "se integra a otras áreas".
+
+ChatGPT lanzó "Computer History" en Mac: registra todo lo que escribís, clicks y cambios de app, y lo guarda sin cifrar. La función no existe en Europa (GDPR). Cualquier proceso con tu usuario puede leer esos archivos.
+
+Epic Systems llega a su congreso anual de clientes (UGM) bajo investigación antitrust, sin sucesión resuelta y sin haber presentado su hoja de ruta de IA. Controla el 40% de las historias clínicas americanas.
+
+Bitcoin en 63.349 dólares, dominancia 56,2%, Fear & Greed 31 (Miedo). Los ETFs de spot acumularon 14.000 BTC en cinco días — el Q3 pasó de flujos negativos a positivos. Goldman Sachs descarta suba de tasas en septiembre.
