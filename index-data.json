@@ -122,14 +122,10 @@
     "2026-08-14",
     "2026-08-15",
     "2026-08-16",
-    "2026-08-17"
+    "2026-08-17",
+    "2026-08-18"
   ],
   "recent_titles": [
-    "Claude avanzó en 36 horas lo que la matemática no movió en 160 años",
-    "Nvidia convenció a seis fondos de Wall Street de poner 500.000 millones a los chips de IA",
-    "Meta soltó un modelo de 30 mil millones de parámetros que corre offline en tu compu",
-    "Anthropic le pagó 9.100 millones a un minero de Bitcoin por compute",
-    "Las enfermeras son el grupo más grande del sistema de salud. Y nadie las llama cuando se decide qué IA usar",
     "OpenAI creó un modelo de IA que hackea con el 95% de acierto. Solo para clientes seleccionados",
     "Gemini llegó a 1.000 millones de usuarios. Google tiene ahora catorce productos de ese tamaño.",
     "La IA de Google hace videoconsultas médicas a nivel de médico de cabecera. Sin hipérbole.",
@@ -160,7 +156,12 @@
     "Stripe compra OpenRouter por más de 7.000 millones. La capa del medio ya tiene dueño.",
     "OpenAI disolvió su tercer equipo de seguridad en dos años. El timing no es casual.",
     "ChatGPT graba todo lo que escribís en la Mac. Y lo guarda sin cifrar.",
-    "Epic llega a su congreso anual con antitrust, sucesión y una hoja de ruta de IA sin mostrar."
+    "Epic llega a su congreso anual con antitrust, sucesión y una hoja de ruta de IA sin mostrar.",
+    "Anthropic llega a $65.000 millones de ARR. El IPO apunta a 2 billones.",
+    "Amazon destruye libros raros para entrenar IA. Un AirTag los descubrió.",
+    "Nvidia garantiza $105.000 millones para el data center de OpenAI. En una ex-planta de uranio.",
+    "Marcus, Topol y cuatro científicos más le responden a Dario: la IA no cura el cáncer en 5-10 años.",
+    "Faraday: un modelo de 27B parámetros que supera al frontier en el 73% de las tareas científicas."
   ],
   "days": {
     "2026-04-17": {
@@ -1489,6 +1490,17 @@
         "statnews.com"
       ],
       "tesis": "Hoy el mercado resolvió tres preguntas de control en el mismo día: quién controla el acceso a los modelos, quién controla la seguridad, y quién controla los datos del usuario."
+    },
+    "2026-08-18": {
+      "count": 5,
+      "sources": [
+        "techcrunch.com",
+        "techcrunch.com",
+        "techcrunch.com",
+        "garymarcus.substack.com",
+        "importai.substack.com"
+      ],
+      "tesis": "Hoy la IA tiene el dinero y la velocidad de un tren bala mientras Amazon destruye libros raros y Marcus desmiente a Dario sobre curar el cáncer."
     }
   }
 }
