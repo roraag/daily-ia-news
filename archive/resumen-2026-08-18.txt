@@ -1,3 +1,9 @@
-Diario IA — martes 18 de agosto de 2026
+La IA acumula capital a velocidad sin precedente mientras el mundo real le marca el límite: Anthropic multiplica ingresos por siete en siete meses, Nvidia se convierte en el landlord de la infraestructura IA y Amazon destruye libros raros para alimentar modelos que ya agotaron internet, pero cinco investigadores médicos le dicen a Dario Amodei que el FDA y los ensayos clínicos no se aceleran porque los modelos sean más listos.
 
-Anthropic llega a $65.000 millones de ARR (de $47.000 millones en mayo) con IPO apuntando a $2 billones de valuación — el debut bursátil más grande de la historia si se concreta. Amazon fue descubierta destruyendo libros raros para entrenar IA: un AirTag rastreó un envío hasta su depósito en Las Vegas donde los escanean de forma destructiva. Nvidia garantizó $105.000 millones en crédito más $1.500 millones en equity para construir el data center principal de OpenAI, en un ex-predio de enriquecimiento de uranio cerca de Cincinnati, con capacidad inicial de 4,25 GW. Gary Marcus convocó a cinco investigadores médicos para responderle a Dario Amodei: la IA no va a curar el cáncer en 5–10 años — el FDA, los ensayos clínicos y que el cáncer son 200 enfermedades distintas no se aceleran con más potencia computacional. Faraday, un modelo supervisorio de 27B parámetros, supera al frontier en el 73% de tareas científicas: el modelo chico que sabe qué pregunta hacer vence al grande que no sabe. Bitcoin aguanta $64.232 con dominancia del 56,6% y Fear & Greed en 41 (Miedo) — sin señales de rotación a alts.
+Anthropic pasa de $47.000 millones a $65.000 millones de ARR en dos meses y prepara el IPO más grande de la historia, pero nadie pregunta en voz alta cuánto del ingreso es circular entre hyperscalers.
+
+Nvidia garantiza $105.000 millones en crédito y se vuelve proveedor exclusivo del mayor data center del mundo: dejó de ser un vendedor de chips para ser el financista que ningún cliente puede cortar.
+
+Amazon compra libros raros, les corta el lomo para escanearlos y los destruye: el original desaparece, el modelo que se entrenó con él queda.
+
+Prestale atención al debate Amodei vs. Marcus sobre plazos médicos de la IA, especialmente si vas a argumentar adopción de IA en salud: el contrapunto de Topol y los investigadores de Harvard es el más riguroso que apareció hasta ahora.
