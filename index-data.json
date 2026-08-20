@@ -123,15 +123,10 @@
     "2026-08-15",
     "2026-08-16",
     "2026-08-17",
-    "2026-08-18"
+    "2026-08-18",
+    "2026-08-19"
   ],
   "recent_titles": [
-    "OpenAI creó un modelo de IA que hackea con el 95% de acierto. Solo para clientes seleccionados",
-    "Gemini llegó a 1.000 millones de usuarios. Google tiene ahora catorce productos de ese tamaño.",
-    "La IA de Google hace videoconsultas médicas a nivel de médico de cabecera. Sin hipérbole.",
-    "Startup de dos meses levantó 1.100 millones de dólares. El fundador viene de xAI.",
-    "Anthropic va a marcar en forma invisible todo texto que genere Claude. Ya rige desde agosto.",
-    "La startup de 7.000 millones que automatiza la salud paga a médicos para que la recomienden.",
     "ChatGPT ya tiene publicidad en cinco países nuevos. La era del acceso gratuito se financia con anuncios.",
     "Los tres labs usaban una sola clave para proteger el razonamiento de sus modelos. Cualquiera podía leerlo.",
     "Anthropic publicó lo que pasa cuando los agentes trabajan solos entre ellos. No es bonito.",
@@ -161,7 +156,12 @@
     "Amazon destruye libros raros para entrenar IA. Un AirTag los descubrió.",
     "Nvidia garantiza $105.000 millones para el data center de OpenAI. En una ex-planta de uranio.",
     "Marcus, Topol y cuatro científicos más le responden a Dario: la IA no cura el cáncer en 5-10 años.",
-    "Faraday: un modelo de 27B parámetros que supera al frontier en el 73% de las tareas científicas."
+    "Faraday: un modelo de 27B parámetros que supera al frontier en el 73% de las tareas científicas.",
+    "OpenAI frenó el entrenamiento. El motivo fue la caja, no la seguridad.",
+    "Princeton confirmó: los agentes de IA no pueden hacer investigación científica de verdad todavía.",
+    "El 52% de los estadounidenses está más preocupado que entusiasmado con la IA. En 2021 era el 37%.",
+    "Z.ai hace frontier con 750.000 millones de parámetros. Un tercio del tamaño de sus rivales.",
+    "Epic en su congreso anual: IA con boca cosida, antitrust en la sala, y nadie anuncia nada."
   ],
   "days": {
     "2026-04-17": {
@@ -1501,6 +1501,17 @@
         "importai.substack.com"
       ],
       "tesis": "Hoy la IA tiene el dinero y la velocidad de un tren bala mientras Amazon destruye libros raros y Marcus desmiente a Dario sobre curar el cáncer."
+    },
+    "2026-08-19": {
+      "count": 5,
+      "sources": [
+        "theverge.com",
+        "technologyreview.com",
+        "techcrunch.com",
+        "interconnects.ai",
+        "statnews.com"
+      ],
+      "tesis": "OpenAI frenó el entrenamiento por razones económicas mientras Princeton mostró que los agentes no pueden hacer investigación científica real y el 52% de los estadounidenses está más preocupado que entusiasmado con la IA."
     }
   }
 }
