@@ -1,13 +1,9 @@
-Daily IA News — miércoles 19 de agosto de 2026
+El campo de la IA recibió tres facturas en un mismo miércoles: OpenAI frenó el entrenamiento por razones económicas, Princeton mostró que los agentes no pueden hacer investigación científica, y el 52% de los estadounidenses ya está más preocupado que entusiasmado con la tecnología.
 
-OpenAI frenó el entrenamiento de sus próximos modelos. Marcus y Zitron apuntan a las pérdidas de 12.300 millones de dólares y los 800.000 millones en obligaciones hasta 2030 — no a razones de seguridad. Anthropic, con su primer Q2 rentable y un run rate de 65.000 millones, acelera mientras su rival principal frena.
+OpenAI pausó sus próximos modelos porque las pérdidas llegaron a 12.300 millones de dólares y tiene obligaciones por 800.000 millones hasta 2030 — el anuncio lo hizo el CFO, no el equipo de seguridad.
 
-Un estudio de Princeton usó Claude Opus 4.8 con 6 días, $3.000 en créditos y acceso a GPU para escribir dos papers para NeurIPS 2026. Ambos fueron rechazados: el agente corrió 100 experimentos con excelencia ingenieril pero no supo qué pregunta valía la pena hacer. Jack Clark (Anthropic) lo llamó "señal bajista" para cronogramas cortos de auto-mejora recursiva.
+Princeton puso a Claude Opus 4.8 a producir investigación original durante 6 días, con 100 experimentos y 3.000 dólares en créditos; los dos papers enviados a NeurIPS fueron rechazados — el agente ejecutó bien, pero no supo qué vale la pena preguntar.
 
-El 52% de los estadounidenses está más preocupado que entusiasmado con la IA (37% en 2021). El 70% cree que avanza demasiado rápido. El backlash que Marcus predijo para las elecciones de 2028 ya tiene datos duros.
+Pew Research midió que el 52% de los estadounidenses está más preocupado que entusiasmado con la IA, 15 puntos más que en 2021, en el momento en que los modelos son mejores que nunca.
 
-Z.ai (China) publicó GLM-5.3: 750.000 millones de parámetros con rendimiento frontier, un tercio del tamaño de sus competidores. Nathan Lambert concluye que la ventaja es post-entrenamiento superior, no escala.
-
-Epic terminó su congreso anual sin hoja de ruta de IA, con investigación antitrust de la FTC y sin sucesor anunciado para su fundadora de 82 años. El mayor proveedor de EHR del mundo, callado frente al avance de sus competidores en clínica.
-
-Bitcoin rozó los 70.000 dólares por primera vez desde junio (+7,83% en 24h), impulsado por recompras del Tesoro y optimismo en torno a la Clarity Act de Trump. Dominancia BTC en 56,6%, sin señal de rotación a alts.
+El dato del 52% lo podés usar hoy: si tenés una reunión con alguien que te pide ir más rápido con IA, ese número es el argumento más honesto sobre por qué la resistencia del usuario final no se resuelve con una buena presentación.
