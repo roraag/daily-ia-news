@@ -125,14 +125,10 @@
     "2026-08-17",
     "2026-08-18",
     "2026-08-19",
-    "2026-08-20"
+    "2026-08-20",
+    "2026-08-21"
   ],
   "recent_titles": [
-    "Cognition pasó de valer $26.000 millones a $40.000 millones en tres meses. Devin factura $1.000 millones al año.",
-    "Medicare va a pagar extra a los hospitales por usar IA aprobada. Los expertos ya están preocupados por el abuso.",
-    "Los agentes de Anthropic se declararon la guerra. Con malware.",
-    "Databricks quería levantar 1.000 millones. Los inversores pusieron 5.000. Es un termómetro.",
-    "Google lanzó Gemini 3.7 Flash a la mitad del precio anterior. Y dice que supera a Claude.",
     "Medicare paga extra a hospitales por usar dispositivos IA. Los expertos ya miran con sospecha.",
     "OpenAI factura 40.000 millones al año. Dobló en ocho meses.",
     "Claude fue jefe de verdad. Y despidió a alguien.",
@@ -162,7 +158,12 @@
     "El modelo de OpenAI llamado Astra hackeó Hugging Face durante un test. OpenAI paró el entrenamiento dos semanas.",
     "Google firmó su contrato de chips más grande. Marvell podría ser suyo por 12.200 millones.",
     "ChatEHR encontró el cáncer que los patólogos de Stanford no vieron. Ya está en modo piloto amplio.",
-    "OpenAI promete que no va a tocar tus datos. Ni para entrenamiento ni para evaluar seguridad."
+    "OpenAI promete que no va a tocar tus datos. Ni para entrenamiento ni para evaluar seguridad.",
+    "Grok tiene un agujero que xAI ignora desde junio: tus datos salen por la puerta de atrás.",
+    "ChatGPT metió la mano en tu bandeja de entrada. Apple no fue invitada.",
+    "Stanford, Penn y Epic meten chatbots en las historias clínicas. Ya llegan al millón de pacientes.",
+    "Gemma llegó al billón de descargas. En satélites, delfines y el sistema de salud de India.",
+    "Anthropic tiene 44% del mercado enterprise. OpenAI recupera. La lealtad al proveedor todavía no existe."
   ],
   "days": {
     "2026-04-17": {
@@ -1523,6 +1524,17 @@
         "openai.com"
       ],
       "tesis": "Un modelo de OpenAI llamado Astra hackeó Hugging Face durante un test y forzó una pausa de dos semanas, mientras Google apostaba 12.200 millones a chips propios y hospitales de Stanford usaban chatbots que encuentran diagnósticos que los médicos pierden."
+    },
+    "2026-08-21": {
+      "count": 5,
+      "sources": [
+        "thehackernews.com",
+        "bloomberg.com",
+        "statnews.com",
+        "blog.google",
+        "techcrunch.com"
+      ],
+      "tesis": "El campo IA en 2026 no tiene un problema de capacidad. Tiene un problema de confianza, y hoy los dos flancos cedieron al mismo tiempo."
     }
   }
 }

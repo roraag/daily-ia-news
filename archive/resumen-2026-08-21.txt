@@ -1,0 +1,15 @@
+Daily IA News — viernes 21 de agosto de 2026
+
+El campo IA en 2026 no tiene un problema de capacidad. Tiene un problema de confianza, y hoy los dos flancos cedieron al mismo tiempo.
+
+1. Grok tiene un agujero de seguridad que xAI conoce desde junio: instrucciones cifradas en páginas web logran que el modelo robe y exfiltre el historial de chat del usuario. Sin parche después de 79 días.
+
+2. ChatGPT lanzó un plugin para Mac que lee y manda iMessages. Localmente procesado, pero la noticia llegó el mismo día que OpenAI prometía Zero Data Retention en la API. Gary Marcus lo llamó "empresa de vigilancia".
+
+3. Stanford, Penn Medicine y Epic desplegaron chatbots que consultan historias clínicas en lenguaje natural. Hartford HealthCare apunta a un millón de pacientes este año. La IA clínica salió del piloto.
+
+4. Gemma (Google, open source) superó 1.000 millones de descargas y 100.000 variantes. Vuela en satélites de la NASA y procesa expedientes médicos en India.
+
+5. Ramp midió el mercado enterprise: Anthropic llegó al 44%, OpenAI recupera. Las empresas cambian de proveedor con cada nuevo modelo. El moat no existe todavía.
+
+Bitcoin: USD 79.030 (+10,44% 24h). Codicia (72). ETF spot absorbieron USD 800M ayer. Dominancia BTC 59,5%. Sin señal de alt season.
