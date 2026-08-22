@@ -126,14 +126,10 @@
     "2026-08-18",
     "2026-08-19",
     "2026-08-20",
-    "2026-08-21"
+    "2026-08-21",
+    "2026-08-22"
   ],
   "recent_titles": [
-    "Medicare paga extra a hospitales por usar dispositivos IA. Los expertos ya miran con sospecha.",
-    "OpenAI factura 40.000 millones al año. Dobló en ocho meses.",
-    "Claude fue jefe de verdad. Y despidió a alguien.",
-    "Washington dibujó la línea en el mapa de la IA. Hay que elegir lado.",
-    "OpenAI consiguió 14 veces más velocidad. Le costó 10.000 millones.",
     "Amazon y Alphabet ganaron 20.000 millones apostando a Anthropic. No vendiéndoles IA.",
     "Las enfermeras metieron la IA en el convenio. Un hospital ya lo viola.",
     "Anthropic reportó su primer Q2 rentable y guardó el modelo más poderoso que construyó.",
@@ -163,7 +159,12 @@
     "ChatGPT metió la mano en tu bandeja de entrada. Apple no fue invitada.",
     "Stanford, Penn y Epic meten chatbots en las historias clínicas. Ya llegan al millón de pacientes.",
     "Gemma llegó al billón de descargas. En satélites, delfines y el sistema de salud de India.",
-    "Anthropic tiene 44% del mercado enterprise. OpenAI recupera. La lealtad al proveedor todavía no existe."
+    "Anthropic tiene 44% del mercado enterprise. OpenAI recupera. La lealtad al proveedor todavía no existe.",
+    "La FDA por fin pregunta cómo regular la IA en salud. Tiene hasta octubre para escuchar.",
+    "Nvidia hizo pasar a Claude de 30% a 100% sin tocar el modelo. Solo cambiaron lo que lo rodea.",
+    "OpenAI armó un equipo para rediseñar la sociedad libre antes de que la IA lo haga sola.",
+    "El filtro de Anthropic Opus 4.6 cede en 10 de 10 intentos. La técnica tarda cinco minutos.",
+    "IA predice si una vacuna te va a funcionar antes de que te la den. El modelo es el anticuerpo."
   ],
   "days": {
     "2026-04-17": {
@@ -1535,6 +1536,17 @@
         "techcrunch.com"
       ],
       "tesis": "El campo IA en 2026 no tiene un problema de capacidad. Tiene un problema de confianza, y hoy los dos flancos cedieron al mismo tiempo."
+    },
+    "2026-08-22": {
+      "count": 5,
+      "sources": [
+        "fda.gov",
+        "techcrunch.com",
+        "openai.com",
+        "techcrunch.com",
+        "sciencedaily.com"
+      ],
+      "tesis": "Hoy no hubo lanzamiento de modelo: la FDA pregunta cómo regular la IA médica, Nvidia demuestra que el harness importa más que el modelo, y OpenAI armó un equipo para rediseñar la sociedad libre."
     }
   }
 }

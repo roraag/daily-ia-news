@@ -1,0 +1,13 @@
+Daily IA News — sábado 22 de agosto de 2026
+
+La FDA abrió comentarios públicos hasta el 19 de octubre sobre cómo regular dispositivos médicos con IA generativa, incluyendo por primera vez a los sistemas agénticos como objeto propio de regulación.
+
+Nvidia demostró que la arquitectura que rodea al modelo importa más que el modelo mismo: Claude Opus 5 pasó de 30% a 100% de precisión en un benchmark de agentes solo cambiando el harness de orquestación.
+
+OpenAI creó el Strategic Futures team, liderado por un ex asesor de la Casa Blanca, con la misión de proponer cómo rediseñar la sociedad libre para preservar derechos individuales ante la IA transformativa.
+
+Un investigador del Reino Unido publicó una técnica multiturn que lleva a Anthropic Opus 4.6 a generar contenido explícito prohibido con tasa de éxito del 100%; TechCrunch lo replicó 10 de 10 veces.
+
+Investigadores de Arizona State University encontraron que el perfil de anticuerpos preexistentes en sangre permite predecir la fuerza de la respuesta a una vacuna antes de aplicarla, independientemente del estado de salud del paciente.
+
+Bitcoin tuvo su mejor semana desde 2023 (+22,8% en 7 días) impulsado por un ajuste del Tesoro de EE.UU. en su programa de recompra de bonos. Fear & Greed en 71 (Codicia), dominancia BTC en 58,7%.
