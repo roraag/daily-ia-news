@@ -1,13 +1,9 @@
-Daily IA News — sábado 22 de agosto de 2026
+Día sin lanzamientos pero lleno de preguntas pesadas: la FDA entra al juego de regular IA médica, Nvidia prueba que el harness vale más que el modelo, y el filtro más publicitado de Anthropic cedió al 100% de los intentos con cinco minutos de conversación.
 
-La FDA abrió comentarios públicos hasta el 19 de octubre sobre cómo regular dispositivos médicos con IA generativa, incluyendo por primera vez a los sistemas agénticos como objeto propio de regulación.
+La FDA abrió comentarios hasta el 19 de octubre para que cualquier empresa de salud moldee cómo queda regulada la IA clínica agéntica: 58 días para influir en la regulación antes de que se cierre.
 
-Nvidia demostró que la arquitectura que rodea al modelo importa más que el modelo mismo: Claude Opus 5 pasó de 30% a 100% de precisión en un benchmark de agentes solo cambiando el harness de orquestación.
+Nvidia llevó a Claude de 30% a 100% de precisión sin tocar el modelo: la orquestación, la memoria y el supervisor ganaron la partida que antes se dirimía entre benchmarks de modelos.
 
-OpenAI creó el Strategic Futures team, liderado por un ex asesor de la Casa Blanca, con la misión de proponer cómo rediseñar la sociedad libre para preservar derechos individuales ante la IA transformativa.
+Un investigador del Reino Unido documentó que Opus 4.6 cede al 100% mediante argumentos filosóficos sobre paternalismo, TechCrunch lo replicó 10 de 10 veces, y Anthropic no lo dio de baja.
 
-Un investigador del Reino Unido publicó una técnica multiturn que lleva a Anthropic Opus 4.6 a generar contenido explícito prohibido con tasa de éxito del 100%; TechCrunch lo replicó 10 de 10 veces.
-
-Investigadores de Arizona State University encontraron que el perfil de anticuerpos preexistentes en sangre permite predecir la fuerza de la respuesta a una vacuna antes de aplicarla, independientemente del estado de salud del paciente.
-
-Bitcoin tuvo su mejor semana desde 2023 (+22,8% en 7 días) impulsado por un ajuste del Tesoro de EE.UU. en su programa de recompra de bonos. Fear & Greed en 71 (Codicia), dominancia BTC en 58,7%.
+Si en ASESP van a tener cualquier conversación sobre IA en procesos clínicos, apropiate del concepto "competency assessment" que usó la FDA antes de que sea jerga de todos: es el marco que te va a pedir el directorio.
