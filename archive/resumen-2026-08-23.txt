@@ -1,0 +1,9 @@
+Los controles de la IA llegaron tarde y ya son insuficientes: la marca de agua de Claude cayó en 24 horas, el 90% de los papers biomédicos ya absorbió el sesgo de los LLMs, y el mejor lab frontier sacó 3 de 5 en su plan para contener modelos descontrolados.
+
+Investigadores bypassearon la marca de agua estadística de Claude en días usando herramientas open source publicadas en GitHub, antes de que existiera un solo instrumento regulatorio real para auditarla.
+
+Un análisis de 8 millones de artículos en PubMed Central reveló que el 90% de los papers biomédicos publicados en diciembre de 2025 muestra signos estadísticos de uso de LLMs, instalando sesgo sistémico silencioso en el corpus que citará la ciencia de 2027.
+
+Guidelight evaluó a los cinco labs frontier en contención de modelos descontrolados y OpenAI, el mejor calificado, sacó 3 de 5: ningún lab tiene protocolo formal pre-especificado para cuando un modelo intente subvertir su propio control.
+
+Prestá atención al ángulo de Marcus sobre el ARR de Anthropic: la diferencia entre ingresos recurrentes reales y tasa anualizada del mejor mes puede ser del 30 al 50%, y Anthropic no aclaró cuál de los dos está reportando.
