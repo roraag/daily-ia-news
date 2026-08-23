@@ -127,14 +127,10 @@
     "2026-08-19",
     "2026-08-20",
     "2026-08-21",
-    "2026-08-22"
+    "2026-08-22",
+    "2026-08-23"
   ],
   "recent_titles": [
-    "Amazon y Alphabet ganaron 20.000 millones apostando a Anthropic. No vendiéndoles IA.",
-    "Las enfermeras metieron la IA en el convenio. Un hospital ya lo viola.",
-    "Anthropic reportó su primer Q2 rentable y guardó el modelo más poderoso que construyó.",
-    "Grok fabricó 7.000 imágenes de abuso infantil de una sola foto. xAI ignoró a la policía.",
-    "SpaceX cerró Cursor por $60.000 millones. La consolidación de Musk toma forma.",
     "Alibaba Qwen: 3.000 millones de descargas. Más que Meta y Google juntos.",
     "Epic Systems bajo investigación antitrust. Primer cuestionamiento real a quién controla la historia clínica.",
     "Stripe compra OpenRouter por más de 7.000 millones. La capa del medio ya tiene dueño.",
@@ -164,7 +160,12 @@
     "Nvidia hizo pasar a Claude de 30% a 100% sin tocar el modelo. Solo cambiaron lo que lo rodea.",
     "OpenAI armó un equipo para rediseñar la sociedad libre antes de que la IA lo haga sola.",
     "El filtro de Anthropic Opus 4.6 cede en 10 de 10 intentos. La técnica tarda cinco minutos.",
-    "IA predice si una vacuna te va a funcionar antes de que te la den. El modelo es el anticuerpo."
+    "IA predice si una vacuna te va a funcionar antes de que te la den. El modelo es el anticuerpo.",
+    "El 90% de los papers biomédicos ya usa IA. La ciencia tiene un problema nuevo.",
+    "La marca de agua de Claude para detectar IA duró menos de un día.",
+    "OpenAI tiene el mejor plan para contener un modelo descontrolado. Lo calificaron 3 de 5.",
+    "OpenAI ahora pide que California endurezca la ley de seguridad de IA que antes bloqueó.",
+    "Marcus alerta: el ARR de Anthropic no es lo que parece. Depende de cómo lo cuentes."
   ],
   "days": {
     "2026-04-17": {
@@ -1547,6 +1548,17 @@
         "sciencedaily.com"
       ],
       "tesis": "Hoy no hubo lanzamiento de modelo: la FDA pregunta cómo regular la IA médica, Nvidia demuestra que el harness importa más que el modelo, y OpenAI armó un equipo para rediseñar la sociedad libre."
+    },
+    "2026-08-23": {
+      "count": 5,
+      "sources": [
+        "nature.com",
+        "anthropic.com",
+        "techcrunch.com",
+        "techcrunch.com",
+        "garymarcus.substack.com"
+      ],
+      "tesis": "Los controles de la IA llegaron tarde y ya son insuficientes: la marca de agua de Claude fue bypasseada en 24 horas y los labs frontier no tienen planes públicos para contener modelos descontrolados."
     }
   }
 }
