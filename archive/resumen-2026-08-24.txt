@@ -1,7 +1,11 @@
-Daily IA News — lunes 24 de agosto de 2026
+Tengo suficiente para generar el resumen.
 
-Cuatro noticias marcan el fin del período de gracia de la industria de IA: Alibaba levantó 10.200 millones de dólares para financiar infraestructura de IA y la bolsa de Hong Kong respondió con una caída del 10% en la acción; Texas, que meses atrás abrazó la expansión de data centers, impuso una moratoria y eliminó los subsidios energéticos; Taiwan procesó a nueve personas por exportar ilegalmente servidores de IA a China; y la FDA prometió regulación formal para IA generativa en dispositivos médicos.
+El período de gracia de la industria de IA terminó: en 24 horas llegaron cuatro facturas simultáneas al mismo tiempo, desde la regulación sanitaria hasta los subsidios energéticos y la geopolítica del hardware.
 
-En Anthropic Watch: la empresa lanzó la campaña "There's Hope in Hard Questions" el mismo día que Claude tuvo una interrupción de servicio y recibió su primera demanda de patentes de la Universidad de Tennessee sobre tecnología de Claude Code.
+La FDA anunció guidance formal para IA generativa en salud por primera vez con nombre propio, sin fecha pero con un director específico que se comprometió públicamente a producir política.
 
-Bitcoin tuvo su segunda mejor semana desde principios de 2021 (+21,6% semanal, precio 77.017 dólares), impulsado por recompras de bonos del Tesoro de EE.UU. y señales regulatorias pro-cripto de la Casa Blanca. La dominancia BTC sigue alta (59,2%): el dinero no rotó a alts. Ray Dalio recomienda tener "un poco de Bitcoin" ante los riesgos de deuda de EE.UU.
+Texas le cortó los subsidios a los data centers de IA y los obliga a pagar el costo eléctrico completo, nueve meses después de que Abbott los llamara "el futuro del estado".
+
+Alibaba levantó 10.200 millones de dólares para pelear en IA y el mercado le castigó la acción el 10%, la misma respuesta que recibieron Google y Microsoft: el mercado ya no premia el gasto en IA, premia la demostración de retorno.
+
+Prestá atención al caso de patentes de la Universidad de Tennessee contra Anthropic sobre Claude Code: es el primer litigio de patentes conocido contra el lab y llega mientras todavía están cerrando el acuerdo de copyright de autores. Los próximos 18 meses van a tener más demandas de ese tipo que los últimos cinco años juntos.
