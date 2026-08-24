@@ -128,7 +128,8 @@
     "2026-08-20",
     "2026-08-21",
     "2026-08-22",
-    "2026-08-23"
+    "2026-08-23",
+    "2026-08-24"
   ],
   "recent_titles": [
     "Alibaba Qwen: 3.000 millones de descargas. Más que Meta y Google juntos.",
@@ -165,7 +166,11 @@
     "La marca de agua de Claude para detectar IA duró menos de un día.",
     "OpenAI tiene el mejor plan para contener un modelo descontrolado. Lo calificaron 3 de 5.",
     "OpenAI ahora pide que California endurezca la ley de seguridad de IA que antes bloqueó.",
-    "Marcus alerta: el ARR de Anthropic no es lo que parece. Depende de cómo lo cuentes."
+    "Marcus alerta: el ARR de Anthropic no es lo que parece. Depende de cómo lo cuentes.",
+    "La FDA prometió regulación para la IA generativa en salud. Sin fecha, pero con nombre propio.",
+    "Alibaba levantó 10.200 millones de dólares para IA. El mercado respondió con una caída del 10%.",
+    "Texas le cortó los subsidios a los data centers de IA. Abbott: 'Se cavaron su propia tumba.'",
+    "Taiwan procesó a nueve personas por exportar ilegalmente servidores de IA a China."
   ],
   "days": {
     "2026-04-17": {
@@ -1559,6 +1564,16 @@
         "garymarcus.substack.com"
       ],
       "tesis": "Los controles de la IA llegaron tarde y ya son insuficientes: la marca de agua de Claude fue bypasseada en 24 horas y los labs frontier no tienen planes públicos para contener modelos descontrolados."
+    },
+    "2026-08-24": {
+      "count": 4,
+      "sources": [
+        "statnews.com",
+        "cnbc.com",
+        "axios.com",
+        "reuters.com"
+      ],
+      "tesis": "Alibaba levantó 10.200 millones para IA y el mercado le cayó la acción el 10%, Texas cortó subsidios a data centers de IA, Taiwan procesó a nueve personas por exportar hardware de IA a China, y la FDA prometió regulación formal para IA generativa en salud."
     }
   }
 }
