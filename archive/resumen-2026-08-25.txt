@@ -1,0 +1,11 @@
+Daily IA News — martes 25 de agosto de 2026
+
+Hoy la IA agéntica llegó al profesional de cuello blanco en dos versiones: OpenAI lanzó ChatGPT Work a $20 mensuales para automatizar tareas en cualquier trabajo, mientras Instinct —el asistente que accede a email, pantalla y puede actuar en tu nombre— guarda tus datos "perpetuamente" aunque lo desconectes.
+
+Anthropic contrató a Amir Salek, el fundador del TPU de Google (primeras 7 generaciones), para fabricar chips propios. Primera señal concreta: pedido de $250 millones con la startup Fractile. La dependencia de Nvidia y Google empieza a tener fecha de vencimiento.
+
+Hugging Face —la plataforma que democratizó el acceso a modelos open-source— está en negociaciones de venta por más de $13.000 millones. Ningún comprador fue confirmado. Los fundadores tienen reservas pero contrataron un banco.
+
+En salud: IA para detección de robo de medicamentos controlados funciona bien en hospitales; el problema es que los administradores ignoran las alertas del sistema. El fallo es organizacional, no tecnológico.
+
+Bitcoin llegó a $80.000 por primera vez desde mayo con 7 días consecutivos de entradas en ETFs spot. Fear & Greed en 74 (Codicia). Dominancia BTC en 59,3%. La rotación a altcoins todavía no arrancó.

@@ -129,17 +129,10 @@
     "2026-08-21",
     "2026-08-22",
     "2026-08-23",
-    "2026-08-24"
+    "2026-08-24",
+    "2026-08-25"
   ],
   "recent_titles": [
-    "Alibaba Qwen: 3.000 millones de descargas. Más que Meta y Google juntos.",
-    "Epic Systems bajo investigación antitrust. Primer cuestionamiento real a quién controla la historia clínica.",
-    "Stripe compra OpenRouter por más de 7.000 millones. La capa del medio ya tiene dueño.",
-    "OpenAI disolvió su tercer equipo de seguridad en dos años. El timing no es casual.",
-    "ChatGPT graba todo lo que escribís en la Mac. Y lo guarda sin cifrar.",
-    "Epic llega a su congreso anual con antitrust, sucesión y una hoja de ruta de IA sin mostrar.",
-    "Anthropic llega a $65.000 millones de ARR. El IPO apunta a 2 billones.",
-    "Amazon destruye libros raros para entrenar IA. Un AirTag los descubrió.",
     "Nvidia garantiza $105.000 millones para el data center de OpenAI. En una ex-planta de uranio.",
     "Marcus, Topol y cuatro científicos más le responden a Dario: la IA no cura el cáncer en 5-10 años.",
     "Faraday: un modelo de 27B parámetros que supera al frontier en el 73% de las tareas científicas.",
@@ -170,7 +163,12 @@
     "La FDA prometió regulación para la IA generativa en salud. Sin fecha, pero con nombre propio.",
     "Alibaba levantó 10.200 millones de dólares para IA. El mercado respondió con una caída del 10%.",
     "Texas le cortó los subsidios a los data centers de IA. Abbott: 'Se cavaron su propia tumba.'",
-    "Taiwan procesó a nueve personas por exportar ilegalmente servidores de IA a China."
+    "Taiwan procesó a nueve personas por exportar ilegalmente servidores de IA a China.",
+    "Hugging Face en negociaciones de venta por más de $13.000 millones. Nadie confirmó el comprador.",
+    "Anthropic contrata al fundador del TPU de Google para fabricar sus propios chips.",
+    "ChatGPT Work: OpenAI apuesta a que los agentes no son solo para ingenieros.",
+    "Instinct: el asistente IA que sigue leyendo tus mails aunque lo desconectes.",
+    "IA detecta el robo de medicamentos en hospitales, pero los gerentes ignoran las alertas."
   ],
   "days": {
     "2026-04-17": {
@@ -1574,6 +1572,17 @@
         "reuters.com"
       ],
       "tesis": "Alibaba levantó 10.200 millones para IA y el mercado le cayó la acción el 10%, Texas cortó subsidios a data centers de IA, Taiwan procesó a nueve personas por exportar hardware de IA a China, y la FDA prometió regulación formal para IA generativa en salud."
+    },
+    "2026-08-25": {
+      "count": 5,
+      "sources": [
+        "techcrunch.com",
+        "bloomberg.com",
+        "techcrunch.com",
+        "techcrunch.com",
+        "statnews.com"
+      ],
+      "tesis": "Hoy la IA agéntica llegó al profesional de cuello blanco con dos caras: OpenAI la ofrece a $20 mensuales, Instinct la cobra con licencia perpetua de tus datos. Mientras tanto, Anthropic contrató al fundador del TPU de Google para dejar de depender de chips ajenos, y Hugging Face está a punto de pertenecer a alguien."
     }
   }
 }
