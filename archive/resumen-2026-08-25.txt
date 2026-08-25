@@ -1,11 +1,13 @@
-Daily IA News — martes 25 de agosto de 2026
+Tengo todo lo necesario para armar el resumen.
 
-Hoy la IA agéntica llegó al profesional de cuello blanco en dos versiones: OpenAI lanzó ChatGPT Work a $20 mensuales para automatizar tareas en cualquier trabajo, mientras Instinct —el asistente que accede a email, pantalla y puede actuar en tu nombre— guarda tus datos "perpetuamente" aunque lo desconectes.
+---
 
-Anthropic contrató a Amir Salek, el fundador del TPU de Google (primeras 7 generaciones), para fabricar chips propios. Primera señal concreta: pedido de $250 millones con la startup Fractile. La dependencia de Nvidia y Google empieza a tener fecha de vencimiento.
+Los agentes de IA aterrizaron hoy en el trabajo cotidiano con una grieta: OpenAI promete democratización a $20 por mes y un asistente de terceros ya guarda tus datos de forma perpetua aunque le revoqués el acceso.
 
-Hugging Face —la plataforma que democratizó el acceso a modelos open-source— está en negociaciones de venta por más de $13.000 millones. Ningún comprador fue confirmado. Los fundadores tienen reservas pero contrataron un banco.
+Anthropic fichó al creador del TPU de Google para fabricar sus propios chips y cortar la dependencia de su mayor rival.
 
-En salud: IA para detección de robo de medicamentos controlados funciona bien en hospitales; el problema es que los administradores ignoran las alertas del sistema. El fallo es organizacional, no tecnológico.
+OpenAI lanzó ChatGPT Work para que médicos, contadores e inversores armen agentes sin programar, pero menos del 1% adoptó Codex — la brecha de adopción sigue sin resolverse.
 
-Bitcoin llegó a $80.000 por primera vez desde mayo con 7 días consecutivos de entradas en ETFs spot. Fear & Greed en 74 (Codicia). Dominancia BTC en 59,3%. La rotación a altcoins todavía no arrancó.
+Hugging Face entró en negociaciones de venta por más de $13.000 millones; los fundadores dudan, pero ya contrataron el banco.
+
+La noticia de Instinct es la que más vale seguir: es el primer caso que llega a los medios donde los términos de servicio de un agente personal habilitan retención irrevocable de datos — el tipo de cláusula que va a estar en el centro de la discusión regulatoria los próximos meses.
