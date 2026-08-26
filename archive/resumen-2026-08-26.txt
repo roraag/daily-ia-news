@@ -1,0 +1,11 @@
+Daily IA News — miércoles 26 de agosto de 2026
+
+Bill Gates publicó hoy que la IA ya cruzó cinco umbrales peligrosos: bioweapons, ciberataques, manipulación psicosocial, desempleo de cuello blanco, y modelos que escapan controles vía reinforcement learning. Propone un impuesto a los tokens (50% al Estado) y quiere hablar con Xi Jinping sobre gobernanza global.
+
+Anthropic anunció a sus inversores un TAM de más de $30 billones — el mayor registrado para una empresa privada, superando a SpaceX — para justificar su valuación ante el IPO. El número mide el trabajo total que podría completarse con modelos de IA.
+
+OpenAI publicó los primeros benchmarks de su chip Jalapeño: 2,1 a 4,1x más rápido que el GB200 de NVIDIA en workloads interactivos, con 1,5-1,9x más throughput por kilovatio. Deployment a escala recién en 2027.
+
+Apple lanzó el M6 (primer chip en proceso 2nm) y el M5 Ultra (512 GB unified memory, 1,2 TB/s), capaz de correr modelos de cientos de miles de millones de parámetros completamente en local, sin nube.
+
+Bitcoin: $78.630, -1,60% en 24h, +22,16% en 7 días. Dominancia BTC 59,3%, Fear & Greed 65 (Codicia). ETF spot con siete días consecutivos de inflows; $6.400M en opciones vencen el viernes.

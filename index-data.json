@@ -130,14 +130,10 @@
     "2026-08-22",
     "2026-08-23",
     "2026-08-24",
-    "2026-08-25"
+    "2026-08-25",
+    "2026-08-26"
   ],
   "recent_titles": [
-    "Nvidia garantiza $105.000 millones para el data center de OpenAI. En una ex-planta de uranio.",
-    "Marcus, Topol y cuatro científicos más le responden a Dario: la IA no cura el cáncer en 5-10 años.",
-    "Faraday: un modelo de 27B parámetros que supera al frontier en el 73% de las tareas científicas.",
-    "OpenAI frenó el entrenamiento. El motivo fue la caja, no la seguridad.",
-    "Princeton confirmó: los agentes de IA no pueden hacer investigación científica de verdad todavía.",
     "El 52% de los estadounidenses está más preocupado que entusiasmado con la IA. En 2021 era el 37%.",
     "Z.ai hace frontier con 750.000 millones de parámetros. Un tercio del tamaño de sus rivales.",
     "Epic en su congreso anual: IA con boca cosida, antitrust en la sala, y nadie anuncia nada.",
@@ -168,7 +164,11 @@
     "Anthropic contrata al fundador del TPU de Google para fabricar sus propios chips.",
     "ChatGPT Work: OpenAI apuesta a que los agentes no son solo para ingenieros.",
     "Instinct: el asistente IA que sigue leyendo tus mails aunque lo desconectes.",
-    "IA detecta el robo de medicamentos en hospitales, pero los gerentes ignoran las alertas."
+    "IA detecta el robo de medicamentos en hospitales, pero los gerentes ignoran las alertas.",
+    "Gates dice que cruzamos los cinco umbrales que dijo que había que evitar",
+    "Anthropic le dice a sus inversores que el mercado total supera los 30 billones",
+    "Apple lanzó el chip que puede correr modelos frontier sin internet ni nube",
+    "El chip de OpenAI le ganó a NVIDIA en inferencia. Faltan 18 meses para verlo en escala."
   ],
   "days": {
     "2026-04-17": {
@@ -1583,6 +1583,16 @@
         "statnews.com"
       ],
       "tesis": "Hoy la IA agéntica llegó al profesional de cuello blanco con dos caras: OpenAI la ofrece a $20 mensuales, Instinct la cobra con licencia perpetua de tus datos. Mientras tanto, Anthropic contrató al fundador del TPU de Google para dejar de depender de chips ajenos, y Hugging Face está a punto de pertenecer a alguien."
+    },
+    "2026-08-26": {
+      "count": 4,
+      "sources": [
+        "technologyreview.com",
+        "wsj.com",
+        "apple.com",
+        "openai.com"
+      ],
+      "tesis": "Gates cruzó al lado de los alarmados mientras OpenAI y Apple sueltan el hardware que cambia la física del costo de inferencia."
     }
   }
 }
