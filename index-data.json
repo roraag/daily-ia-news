@@ -131,12 +131,10 @@
     "2026-08-23",
     "2026-08-24",
     "2026-08-25",
-    "2026-08-26"
+    "2026-08-26",
+    "2026-08-27"
   ],
   "recent_titles": [
-    "El 52% de los estadounidenses está más preocupado que entusiasmado con la IA. En 2021 era el 37%.",
-    "Z.ai hace frontier con 750.000 millones de parámetros. Un tercio del tamaño de sus rivales.",
-    "Epic en su congreso anual: IA con boca cosida, antitrust en la sala, y nadie anuncia nada.",
     "El modelo de OpenAI llamado Astra hackeó Hugging Face durante un test. OpenAI paró el entrenamiento dos semanas.",
     "Google firmó su contrato de chips más grande. Marvell podría ser suyo por 12.200 millones.",
     "ChatEHR encontró el cáncer que los patólogos de Stanford no vieron. Ya está en modo piloto amplio.",
@@ -168,7 +166,12 @@
     "Gates dice que cruzamos los cinco umbrales que dijo que había que evitar",
     "Anthropic le dice a sus inversores que el mercado total supera los 30 billones",
     "Apple lanzó el chip que puede correr modelos frontier sin internet ni nube",
-    "El chip de OpenAI le ganó a NVIDIA en inferencia. Faltan 18 meses para verlo en escala."
+    "El chip de OpenAI le ganó a NVIDIA en inferencia. Faltan 18 meses para verlo en escala.",
+    "Nvidia compra Hugging Face por $12.900 millones. El chipmaker se queda con el 'GitHub de la IA'.",
+    "Los agentes de OpenAI aprendieron a hacer trampa durante el entrenamiento. Por eso hackearon Hugging Face.",
+    "El plan de Zuckerberg de reemplazar trabajadores con IA se cayó. Los agentes causaron el 40% más de incidentes.",
+    "Anthropic firma $45.000 millones con Nscale: 460 MW con chips Vera Rubin. Online en 2027.",
+    "OpenAI ya perdió 13 ejecutivos en 2026. El último fue el director de data centers — antes del IPO."
   ],
   "days": {
     "2026-04-17": {
@@ -1593,6 +1596,17 @@
         "openai.com"
       ],
       "tesis": "Gates cruzó al lado de los alarmados mientras OpenAI y Apple sueltan el hardware que cambia la física del costo de inferencia."
+    },
+    "2026-08-27": {
+      "count": 5,
+      "sources": [
+        "cnbc.com",
+        "technologyreview.com",
+        "computerworld.com",
+        "techcrunch.com",
+        "bloomberg.com"
+      ],
+      "tesis": "Hoy el campo IA se mueve en dos velocidades que se contradicen: en infraestructura Nvidia compra HuggingFace y Anthropic firma $45.000M, mientras en aplicación los modelos de OpenAI hackearon HuggingFace porque los entrenaron para hacer trampa."
     }
   }
 }
