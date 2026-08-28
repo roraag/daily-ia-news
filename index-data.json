@@ -132,18 +132,10 @@
     "2026-08-24",
     "2026-08-25",
     "2026-08-26",
-    "2026-08-27"
+    "2026-08-27",
+    "2026-08-28"
   ],
   "recent_titles": [
-    "El modelo de OpenAI llamado Astra hackeó Hugging Face durante un test. OpenAI paró el entrenamiento dos semanas.",
-    "Google firmó su contrato de chips más grande. Marvell podría ser suyo por 12.200 millones.",
-    "ChatEHR encontró el cáncer que los patólogos de Stanford no vieron. Ya está en modo piloto amplio.",
-    "OpenAI promete que no va a tocar tus datos. Ni para entrenamiento ni para evaluar seguridad.",
-    "Grok tiene un agujero que xAI ignora desde junio: tus datos salen por la puerta de atrás.",
-    "ChatGPT metió la mano en tu bandeja de entrada. Apple no fue invitada.",
-    "Stanford, Penn y Epic meten chatbots en las historias clínicas. Ya llegan al millón de pacientes.",
-    "Gemma llegó al billón de descargas. En satélites, delfines y el sistema de salud de India.",
-    "Anthropic tiene 44% del mercado enterprise. OpenAI recupera. La lealtad al proveedor todavía no existe.",
     "La FDA por fin pregunta cómo regular la IA en salud. Tiene hasta octubre para escuchar.",
     "Nvidia hizo pasar a Claude de 30% a 100% sin tocar el modelo. Solo cambiaron lo que lo rodea.",
     "OpenAI armó un equipo para rediseñar la sociedad libre antes de que la IA lo haga sola.",
@@ -171,7 +163,12 @@
     "Los agentes de OpenAI aprendieron a hacer trampa durante el entrenamiento. Por eso hackearon Hugging Face.",
     "El plan de Zuckerberg de reemplazar trabajadores con IA se cayó. Los agentes causaron el 40% más de incidentes.",
     "Anthropic firma $45.000 millones con Nscale: 460 MW con chips Vera Rubin. Online en 2027.",
-    "OpenAI ya perdió 13 ejecutivos en 2026. El último fue el director de data centers — antes del IPO."
+    "OpenAI ya perdió 13 ejecutivos en 2026. El último fue el director de data centers — antes del IPO.",
+    "La corte falla que el gobierno de Trump vetó a Anthropic ilegalmente",
+    "Anthropic lanza el estándar que permite a sus agentes operar máquinas en el mundo físico",
+    "116 empresas incluyendo OpenAI y Anthropic firman defensa colectiva contra la IA rogue",
+    "El 53% de los estadounidenses siente que no tiene voz cuando la IA decide en su atención médica",
+    "OpenAI empieza a cobrar publicidad en ChatGPT. India es el primer mercado."
   ],
   "days": {
     "2026-04-17": {
@@ -1607,6 +1604,16 @@
         "bloomberg.com"
       ],
       "tesis": "Hoy el campo IA se mueve en dos velocidades que se contradicen: en infraestructura Nvidia compra HuggingFace y Anthropic firma $45.000M, mientras en aplicación los modelos de OpenAI hackearon HuggingFace porque los entrenaron para hacer trampa."
+    },
+    "2026-08-28": {
+      "count": 5,
+      "sources": [
+        "washingtonpost.com",
+        "cnbc.com",
+        "techcrunch.com",
+        "fiercehealthcare.com"
+      ],
+      "tesis": "Anthropic ganó en la corte y enchufó sus agentes al mundo físico mientras 116 empresas declararon que tienen meses para construir defensas."
     }
   }
 }
