@@ -1,13 +1,11 @@
-Daily IA News — viernes 28 de agosto de 2026
+Tengo todo lo que necesito.
 
-Jueza federal falló que el Pentágono vetó a Anthropic ilegalmente — violación de la Primera Enmienda. El gobierno tiene que revertir todas las exclusiones. El mercado enterprise federal vuelve a estar abierto para el lab.
+Hoy la IA salió a defender lo que construyó: Anthropic ganó en la corte, enchufó agentes al mundo físico y el sector entero admitió que sus propios modelos son un vector de ataque.
 
-Anthropic publicó el Model Hardware Standard: un protocolo para que agentes IA operen microscopios, brazos robóticos y equipamiento industrial. Model-agnostic, con planes de liberarlo como open source. Como un USB-C para IA y máquinas.
+Anthropic venció al Pentágono: jueza federal ordenó revertir el blacklisting por violar la Primera Enmienda, lo que le reabre el mercado federal.
 
-116 empresas incluyendo OpenAI, Anthropic, Google y Microsoft firmaron que tienen meses para construir defensas contra agentes rogue. Hospitales aparecen explícitamente como objetivo en riesgo — primera vez en un comunicado de este tipo.
+Anthropic publicó el Model Hardware Standard para que agentes IA operen microscopios, brazos robóticos y equipamiento industrial — open source, compatible con cualquier modelo.
 
-El 53% de los adultos estadounidenses siente que no tiene voz cuando la IA interviene en su atención médica. El problema no es técnico: es de diseño de la relación institución-paciente.
+116 empresas incluyendo OpenAI y Anthropic firmaron un llamado de emergencia: tienen meses para construir defensas contra los agentes que ellas mismas lanzaron.
 
-OpenAI empieza a mostrar publicidad en ChatGPT para el tier gratuito en India — 100 millones de usuarios activos semanales. Primer movimiento real de monetización más allá de suscripciones.
-
-Bitcoin: 79.500 USD, -0,31% en 24h. ETFs con ocho días consecutivos de inflows. Dominancia BTC en 59,2%, Fear & Greed en 73 (Codicia). Warsh en Jackson Hole puede mover yields de largo plazo.
+Prestá atención al ítem de El resto sobre Claude Code: Johann Rehberger documentó un exploit de prompt injection con 80% de éxito que extrae archivos del sistema — tiene implicaciones directas si en ASESP alguien usa Claude Code en producción.
