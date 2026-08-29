@@ -133,12 +133,10 @@
     "2026-08-25",
     "2026-08-26",
     "2026-08-27",
-    "2026-08-28"
+    "2026-08-28",
+    "2026-08-29"
   ],
   "recent_titles": [
-    "La FDA por fin pregunta cómo regular la IA en salud. Tiene hasta octubre para escuchar.",
-    "Nvidia hizo pasar a Claude de 30% a 100% sin tocar el modelo. Solo cambiaron lo que lo rodea.",
-    "OpenAI armó un equipo para rediseñar la sociedad libre antes de que la IA lo haga sola.",
     "El filtro de Anthropic Opus 4.6 cede en 10 de 10 intentos. La técnica tarda cinco minutos.",
     "IA predice si una vacuna te va a funcionar antes de que te la den. El modelo es el anticuerpo.",
     "El 90% de los papers biomédicos ya usa IA. La ciencia tiene un problema nuevo.",
@@ -168,7 +166,12 @@
     "Anthropic lanza el estándar que permite a sus agentes operar máquinas en el mundo físico",
     "116 empresas incluyendo OpenAI y Anthropic firman defensa colectiva contra la IA rogue",
     "El 53% de los estadounidenses siente que no tiene voz cuando la IA decide en su atención médica",
-    "OpenAI empieza a cobrar publicidad en ChatGPT. India es el primer mercado."
+    "OpenAI empieza a cobrar publicidad en ChatGPT. India es el primer mercado.",
+    "NVIDIA compró HuggingFace, Poolside y Stripe se anotó OpenRouter. El ecosistema open-weight tiene dueño.",
+    "Una directiva de Meta vio a los agentes destruir equipos enteros. Se radicalizó y renunció.",
+    "La IA de Anthropic empieza a mejorar su propia alineación. Supera a los investigadores en seis horas.",
+    "SpaceX compró Cursor y OpenAI cortó el modelo. Musk volvió al juego del coding IA.",
+    "Las enfermeras de HCA protestan contra Palantir. La IA decide sus turnos y nadie puede apelar."
   ],
   "days": {
     "2026-04-17": {
@@ -1614,6 +1617,17 @@
         "fiercehealthcare.com"
       ],
       "tesis": "Anthropic ganó en la corte y enchufó sus agentes al mundo físico mientras 116 empresas declararon que tienen meses para construir defensas."
+    },
+    "2026-08-29": {
+      "count": 5,
+      "sources": [
+        "techcrunch.com",
+        "platformer.news",
+        "anthropic.com",
+        "openai.com",
+        "healthcareitnews.com"
+      ],
+      "tesis": "El mercado de IA tomó dos decisiones opuestas: NVIDIA compró el ecosistema open-weight entero mientras una ex ejecutiva de Meta renunció asustada por lo que vio con los agentes."
     }
   }
 }
