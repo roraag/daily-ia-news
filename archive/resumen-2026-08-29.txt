@@ -1,0 +1,9 @@
+El campo IA tomó hoy dos decisiones que corren en sentidos opuestos: NVIDIA compró el ecosistema open-weight entero — HuggingFace, Poolside y OpenRouter vía Stripe — mientras una ex directiva de Meta que ejecutó despidos con agentes renunció para ayudar a los desplazados, no para irse a otro lab.
+
+Anthropic automatizó su propio investigador de alineación: el sistema AAR supera propuestas de seniors en seis horas a $4 por hora, mejoró los 10 benchmarks de alineación sin degradar el modelo, y expuso que la parte difícil del problema — definir qué es seguro — no tiene AAR posible.
+
+SpaceX compró Cursor y OpenAI cortó el modelo el mismo día: si usás herramientas de coding con IA, el backend puede cambiar sin previo aviso — el caso muestra que el proveedor del modelo y el del IDE son dos puntos de riesgo distintos.
+
+Las enfermeras de HCA bloquearon los pasillos contra Palantir porque el sistema de turnos con IA no tiene override humano cuando se equivoca: el reclamo no es que la IA falla, es que nadie puede corregirla antes de que el error llegue al paciente.
+
+Si ASESP avanza con scheduling de IA, el caso HCA te da el argumento concreto para llevar a dirección: la IA operativa necesita un protocolo de excepción tan visible y accionable como un protocolo de emergencias médicas, y eso hay que diseñarlo antes de implementar, no después.
