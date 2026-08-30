@@ -1,13 +1,11 @@
-Daily IA News · domingo 30 de agosto de 2026
+Tengo suficiente para escribir el resumen.
 
-Sony Music y Warner Chappell demandaron a Anthropic por torrenting masivo de canciones: nombran al CEO Dario Amodei personalmente y piden hasta 1.500 millones de dólares en daños. Es la segunda demanda grande del año contra Anthropic y la primera que alcanza al CEO individualmente.
+La IA escala a velocidad industrial mientras los mecanismos de rendición de cuentas siguen siendo los mismos de 2023: Sony y Warner le piden a Anthropic hasta 1.500 millones de dólares por torrenting masivo de canciones para entrenar Claude, con el CEO nombrado personalmente en la demanda.
 
-Salesforce anunció Claudeforce: Claude como motor de razonamiento default en todo su ecosistema CRM, con 37 habilidades de ventas prearmadas y 600 millones de dólares comprometidos (equity + tokens). Beta abierta en septiembre.
+Sony y Warner acusaron a Anthropic de buscar activamente repositorios de letras para descargarlos, no de scraping pasivo: la diferencia jurídica puede establecer precedente para todo el campo.
 
-Tencent lanzó Hy4 Preview en open weights: 770 mil millones de parámetros (49B activos), contexto de 1 millón de tokens, licencia Apache 2.0, a 0,83 dólares por millón de tokens. El patrón de la semana: US labs cierran, China abre.
+Salesforce anunció Claudeforce y comprometió 600 millones de dólares en tokens de Anthropic para convertir a Claude en el motor de razonamiento de todo su ecosistema CRM, con 37 habilidades de ventas prearmadas y beta abierta en septiembre.
 
-Google movió su equipo de AI Responsibility (90 personas, evaluación de riesgos CBRN) fuera de DeepMind hacia el departamento de lobby y política. Los empleados alertaron sobre pérdida de independencia. Demis Hassabis dejó la CEO.
+Google trasladó su equipo de 90 personas que evaluaba riesgos CBRN de los modelos de DeepMind al departamento de lobby y relaciones públicas, con la transición completada al inicio de septiembre.
 
-OpenAI confirmó que está testeando un modo persistente en Codex: el agente crea sus propias tareas, trabaja entre sesiones y puede escribirle al usuario sin haber sido consultado. Instrucción para detenerlo: "put to sleep".
-
-Bitcoin: 78.069 USD (+0,56% 24h, +2,10% 7d). Fear & Greed en 69 (Codicia). Dominancia BTC en 59,5%: sin señal de alt season. Warsh hawkish en Jackson Hole.
+Prestá atención a la demanda de Sony y Warner: la acusación de torrenting activo, no scraping pasivo, cambia la exposición legal de todos los labs. Si Anthropic pierde, la pregunta sobre qué datos médicos usan los proveedores de IA en salud se vuelve obligatoria antes de firmar cualquier contrato.
