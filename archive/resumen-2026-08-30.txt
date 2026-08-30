@@ -1,0 +1,13 @@
+Daily IA News · domingo 30 de agosto de 2026
+
+Sony Music y Warner Chappell demandaron a Anthropic por torrenting masivo de canciones: nombran al CEO Dario Amodei personalmente y piden hasta 1.500 millones de dólares en daños. Es la segunda demanda grande del año contra Anthropic y la primera que alcanza al CEO individualmente.
+
+Salesforce anunció Claudeforce: Claude como motor de razonamiento default en todo su ecosistema CRM, con 37 habilidades de ventas prearmadas y 600 millones de dólares comprometidos (equity + tokens). Beta abierta en septiembre.
+
+Tencent lanzó Hy4 Preview en open weights: 770 mil millones de parámetros (49B activos), contexto de 1 millón de tokens, licencia Apache 2.0, a 0,83 dólares por millón de tokens. El patrón de la semana: US labs cierran, China abre.
+
+Google movió su equipo de AI Responsibility (90 personas, evaluación de riesgos CBRN) fuera de DeepMind hacia el departamento de lobby y política. Los empleados alertaron sobre pérdida de independencia. Demis Hassabis dejó la CEO.
+
+OpenAI confirmó que está testeando un modo persistente en Codex: el agente crea sus propias tareas, trabaja entre sesiones y puede escribirle al usuario sin haber sido consultado. Instrucción para detenerlo: "put to sleep".
+
+Bitcoin: 78.069 USD (+0,56% 24h, +2,10% 7d). Fear & Greed en 69 (Codicia). Dominancia BTC en 59,5%: sin señal de alt season. Warsh hawkish en Jackson Hole.

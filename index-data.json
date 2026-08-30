@@ -134,14 +134,10 @@
     "2026-08-26",
     "2026-08-27",
     "2026-08-28",
-    "2026-08-29"
+    "2026-08-29",
+    "2026-08-30"
   ],
   "recent_titles": [
-    "El filtro de Anthropic Opus 4.6 cede en 10 de 10 intentos. La técnica tarda cinco minutos.",
-    "IA predice si una vacuna te va a funcionar antes de que te la den. El modelo es el anticuerpo.",
-    "El 90% de los papers biomédicos ya usa IA. La ciencia tiene un problema nuevo.",
-    "La marca de agua de Claude para detectar IA duró menos de un día.",
-    "OpenAI tiene el mejor plan para contener un modelo descontrolado. Lo calificaron 3 de 5.",
     "OpenAI ahora pide que California endurezca la ley de seguridad de IA que antes bloqueó.",
     "Marcus alerta: el ARR de Anthropic no es lo que parece. Depende de cómo lo cuentes.",
     "La FDA prometió regulación para la IA generativa en salud. Sin fecha, pero con nombre propio.",
@@ -171,7 +167,12 @@
     "Una directiva de Meta vio a los agentes destruir equipos enteros. Se radicalizó y renunció.",
     "La IA de Anthropic empieza a mejorar su propia alineación. Supera a los investigadores en seis horas.",
     "SpaceX compró Cursor y OpenAI cortó el modelo. Musk volvió al juego del coding IA.",
-    "Las enfermeras de HCA protestan contra Palantir. La IA decide sus turnos y nadie puede apelar."
+    "Las enfermeras de HCA protestan contra Palantir. La IA decide sus turnos y nadie puede apelar.",
+    "Sony y Warner demandan a Anthropic por torrenting masivo de canciones. Dario nombrado en el juicio.",
+    "Claudeforce: Claude es ahora el cerebro de todos los CRM de Salesforce.",
+    "Tencent abre el modelo que las labs americanas no se atreven a publicar. 770 mil millones de parámetros.",
+    "Google mueve su equipo de seguridad en IA hacia lobby y política. Los empleados están preocupados.",
+    "OpenAI prueba un Codex que no para hasta que le decís que pare. Sin humano en el loop."
   ],
   "days": {
     "2026-04-17": {
@@ -1628,6 +1629,17 @@
         "healthcareitnews.com"
       ],
       "tesis": "El mercado de IA tomó dos decisiones opuestas: NVIDIA compró el ecosistema open-weight entero mientras una ex ejecutiva de Meta renunció asustada por lo que vio con los agentes."
+    },
+    "2026-08-30": {
+      "count": 5,
+      "sources": [
+        "techcrunch.com",
+        "salesforce.com",
+        "technode.com",
+        "qz.com",
+        "slashdot.org"
+      ],
+      "tesis": "El campo IA construyó sus cimientos con datos de otros y ahora empieza a pagar la cuenta."
     }
   }
 }
