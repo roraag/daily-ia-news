@@ -135,14 +135,10 @@
     "2026-08-27",
     "2026-08-28",
     "2026-08-29",
-    "2026-08-30"
+    "2026-08-30",
+    "2026-08-31"
   ],
   "recent_titles": [
-    "OpenAI ahora pide que California endurezca la ley de seguridad de IA que antes bloqueó.",
-    "Marcus alerta: el ARR de Anthropic no es lo que parece. Depende de cómo lo cuentes.",
-    "La FDA prometió regulación para la IA generativa en salud. Sin fecha, pero con nombre propio.",
-    "Alibaba levantó 10.200 millones de dólares para IA. El mercado respondió con una caída del 10%.",
-    "Texas le cortó los subsidios a los data centers de IA. Abbott: 'Se cavaron su propia tumba.'",
     "Taiwan procesó a nueve personas por exportar ilegalmente servidores de IA a China.",
     "Hugging Face en negociaciones de venta por más de $13.000 millones. Nadie confirmó el comprador.",
     "Anthropic contrata al fundador del TPU de Google para fabricar sus propios chips.",
@@ -172,7 +168,12 @@
     "Claudeforce: Claude es ahora el cerebro de todos los CRM de Salesforce.",
     "Tencent abre el modelo que las labs americanas no se atreven a publicar. 770 mil millones de parámetros.",
     "Google mueve su equipo de seguridad en IA hacia lobby y política. Los empleados están preocupados.",
-    "OpenAI prueba un Codex que no para hasta que le decís que pare. Sin humano en el loop."
+    "OpenAI prueba un Codex que no para hasta que le decís que pare. Sin humano en el loop.",
+    "La FDA aprobó la primera IA médica que puede aprender sola después de salir al mercado.",
+    "Hackers robaron sesiones de Claude con malware y consumieron la cuota de miles de usuarios.",
+    "SoftBank le da $5.500 millones en acciones a OpenAI para que ancle su data center en Ohio.",
+    "La UE le mandó el primer RFI formal a OpenAI, Anthropic y Google bajo el EU AI Act.",
+    "John Ternus asume como CEO de Apple mañana. El primer hardware man al mando en la era de la IA."
   ],
   "days": {
     "2026-04-17": {
@@ -1640,6 +1641,17 @@
         "slashdot.org"
       ],
       "tesis": "El campo IA construyó sus cimientos con datos de otros y ahora empieza a pagar la cuenta."
+    },
+    "2026-08-31": {
+      "count": 5,
+      "sources": [
+        "yesilscience.com",
+        "bleepingcomputer.com",
+        "wsj.com",
+        "tokenstead.ai",
+        "bloomberg.com"
+      ],
+      "tesis": "El campo IA enfrenta tres preguntas de adultos al mismo tiempo: seguridad sin supervisión humana, regulación cuando ya está desplegada, e infraestructura que no cierra sola."
     }
   }
 }

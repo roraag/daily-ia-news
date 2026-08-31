@@ -1,0 +1,13 @@
+Daily IA News — lunes 31 de agosto de 2026
+
+La FDA aprobó la primera IA médica que puede actualizarse sola en producción sin reiniciar el proceso de aprobación — precedente regulatorio que abre un mercado nuevo y deja la gobernanza en blanco.
+
+Hackers robaron sesiones de Claude con infostealer malware (Vidar, LummaC2, Atomic Stealer): 29 organizaciones comprometidas en dos días en julio, 7.100 descargas de un instalador malicioso via Bing. Anthropic revoca sesiones y emite reembolsos.
+
+SoftBank (SB Energy) le dio a OpenAI warrants valuadas en $5.500 millones para anclar un campus de 10 GW en Ohio; Nvidia garantizó $105.000 millones en infraestructura. El modelo "compute as equity" ya está instalado.
+
+La UE activó el primer enforcement formal del EU AI Act: Requests for Information a OpenAI, Anthropic y Google cubren seguridad, evaluación, monitoreo y datos de entrenamiento. Fines posibles: hasta el 3% del facturado global.
+
+John Ternus asume como CEO de Apple el 1 de septiembre — el primer hardware engineer al mando en la era de la IA. Apuesta de Apple: on-device AI como moat, no servicios en la nube.
+
+BTC: $78.464 (+0,51% 24h). Dominancia 59,7%, Fear & Greed 62 (Codicia). Sin rotación a alts; el yen rompió 160 y el Fed rate hike debate se mantiene al 58%.
