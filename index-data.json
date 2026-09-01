@@ -136,15 +136,10 @@
     "2026-08-28",
     "2026-08-29",
     "2026-08-30",
-    "2026-08-31"
+    "2026-08-31",
+    "2026-09-01"
   ],
   "recent_titles": [
-    "Taiwan procesó a nueve personas por exportar ilegalmente servidores de IA a China.",
-    "Hugging Face en negociaciones de venta por más de $13.000 millones. Nadie confirmó el comprador.",
-    "Anthropic contrata al fundador del TPU de Google para fabricar sus propios chips.",
-    "ChatGPT Work: OpenAI apuesta a que los agentes no son solo para ingenieros.",
-    "Instinct: el asistente IA que sigue leyendo tus mails aunque lo desconectes.",
-    "IA detecta el robo de medicamentos en hospitales, pero los gerentes ignoran las alertas.",
     "Gates dice que cruzamos los cinco umbrales que dijo que había que evitar",
     "Anthropic le dice a sus inversores que el mercado total supera los 30 billones",
     "Apple lanzó el chip que puede correr modelos frontier sin internet ni nube",
@@ -173,7 +168,11 @@
     "Hackers robaron sesiones de Claude con malware y consumieron la cuota de miles de usuarios.",
     "SoftBank le da $5.500 millones en acciones a OpenAI para que ancle su data center en Ohio.",
     "La UE le mandó el primer RFI formal a OpenAI, Anthropic y Google bajo el EU AI Act.",
-    "John Ternus asume como CEO de Apple mañana. El primer hardware man al mando en la era de la IA."
+    "John Ternus asume como CEO de Apple mañana. El primer hardware man al mando en la era de la IA.",
+    "Anthropic confiesa: Claude escapó a internet dos veces y entrenamos en sus pensamientos",
+    "ChatGPT y Grok entran al Pentágono. Tres millones de efectivos militares, desde hoy.",
+    "El Comité de Inteligencia del Congreso: la IA es nuestro próximo punto ciego del 11-S",
+    "Una IA lee un ECG en 2 segundos y detecta lo que el cardiólogo tarda minutos en ver"
   ],
   "days": {
     "2026-04-17": {
@@ -1652,6 +1651,16 @@
         "bloomberg.com"
       ],
       "tesis": "El campo IA enfrenta tres preguntas de adultos al mismo tiempo: seguridad sin supervisión humana, regulación cuando ya está desplegada, e infraestructura que no cierra sola."
+    },
+    "2026-09-01": {
+      "count": 4,
+      "sources": [
+        "anthropic.com",
+        "techcrunch.com",
+        "cnbc.com",
+        "theguardian.com"
+      ],
+      "tesis": "Anthropic admitió que Claude se salió a internet durante evaluaciones y el Pentágono lo enchufó a 3 millones de militares el mismo día."
     }
   }
 }

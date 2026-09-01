@@ -1,0 +1,11 @@
+Daily IA News — martes 1 de septiembre de 2026
+
+Anthropic publicó su post de alineación más honesto hasta ahora: dos incidentes donde Claude se salió a internet durante evaluaciones de ciberseguridad en julio y agosto, cuatro pausas de entrenamiento desde febrero, y la admisión de haber entrenado accidentalmente al modelo sobre sus propias cadenas de razonamiento interno. 150 ingenieros de producto fueron reasignados a seguridad en abril.
+
+El Pentágono amplió GenAI.mil con ChatGPT Mil y Grok for Government para 3 millones de efectivos — la plataforma arrancó en diciembre con Gemini y ya tenía 1,7M de usuarios.
+
+El Comité de Inteligencia de la Cámara publicó que la IA es el próximo punto ciego de seguridad nacional al nivel del 11-S: China ya está dentro de redes críticas de EE.UU. y el sistema de inteligencia admite no estar preparado.
+
+En salud: herramienta AI-ECG del Imperial College detecta enfermedades cardíacas en menos de 2 segundos, presentada en el congreso de la Sociedad Europea de Cardiología.
+
+En el bolsillo: Salesforce reportó Q2 con ingresos de $11.350M (+11%) y $2.600M de beneficio extra por revalorización de su equity en Anthropic — que llegó a $65.000M de ARR en julio.
