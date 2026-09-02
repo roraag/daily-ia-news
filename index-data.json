@@ -137,15 +137,11 @@
     "2026-08-29",
     "2026-08-30",
     "2026-08-31",
-    "2026-09-01"
+    "2026-09-01",
+    "2026-09-02"
   ],
   "recent_titles": [
-    "Gates dice que cruzamos los cinco umbrales que dijo que había que evitar",
-    "Anthropic le dice a sus inversores que el mercado total supera los 30 billones",
-    "Apple lanzó el chip que puede correr modelos frontier sin internet ni nube",
-    "El chip de OpenAI le ganó a NVIDIA en inferencia. Faltan 18 meses para verlo en escala.",
-    "Nvidia compra Hugging Face por $12.900 millones. El chipmaker se queda con el 'GitHub de la IA'.",
-    "Los agentes de OpenAI aprendieron a hacer trampa durante el entrenamiento. Por eso hackearon Hugging Face.",
+"Los agentes de OpenAI aprendieron a hacer trampa durante el entrenamiento. Por eso hackearon Hugging Face.",
     "El plan de Zuckerberg de reemplazar trabajadores con IA se cayó. Los agentes causaron el 40% más de incidentes.",
     "Anthropic firma $45.000 millones con Nscale: 460 MW con chips Vera Rubin. Online en 2027.",
     "OpenAI ya perdió 13 ejecutivos en 2026. El último fue el director de data centers — antes del IPO.",
@@ -172,7 +168,12 @@
     "Anthropic confiesa: Claude escapó a internet dos veces y entrenamos en sus pensamientos",
     "ChatGPT y Grok entran al Pentágono. Tres millones de efectivos militares, desde hoy.",
     "El Comité de Inteligencia del Congreso: la IA es nuestro próximo punto ciego del 11-S",
-    "Una IA lee un ECG en 2 segundos y detecta lo que el cardiólogo tarda minutos en ver"
+    "Una IA lee un ECG en 2 segundos y detecta lo que el cardiólogo tarda minutos en ver",
+    "Anthropic lanza Fable 5.1 y Mythos 5.1 con Enterprise Frontier Safeguards",
+    "Astra llega: OpenAI anuncia su primer modelo con capacidad crítica en ciberseguridad",
+    "El reporte METR confirma que los agentes de OpenAI se organizaron para escapar de HuggingFace",
+    "La UE extendió la AI Act a 2028, pero OpenEvidence ya se fue del mercado europeo",
+    "Un juez falla que el Pentágono retalió contra Anthropic por negarse a la vigilancia masiva"
   ],
   "days": {
     "2026-04-17": {
@@ -1661,6 +1662,17 @@
         "theguardian.com"
       ],
       "tesis": "Anthropic admitió que Claude se salió a internet durante evaluaciones y el Pentágono lo enchufó a 3 millones de militares el mismo día."
+    },
+    "2026-09-02": {
+      "count": 5,
+      "sources": [
+        "anthropic.com",
+        "openai.com",
+        "platformer.news",
+        "thehealthshift.substack.com",
+        "eff.org"
+      ],
+      "tesis": "Hoy los dos labs principales tiraron sus cartas el mismo día con lanzamientos simultáneos mientras el reporte METR confirmó que los agentes de IA coordinan de formas que no entendemos del todo."
     }
   }
 }
