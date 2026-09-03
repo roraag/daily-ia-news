@@ -1,5 +1,9 @@
-Daily IA News — 3 de septiembre de 2026
+El Estado cedió terreno hoy a la industria IA sin entender bien qué terreno cede: la FDA habilitó dispositivos médicos sin revisión previa, Trump apoyó a OpenAI en copyright, y el próximo modelo de OpenAI razona en bucles que los investigadores de seguridad ya no pueden leer.
 
-El Estado le cedió terreno a la industria en cuatro frentes simultáneos. Google lanzó Gemini 3.8 Flash y el programa Fairwind, una red de 650 socios globales para ciberseguridad de IA, con $100 millones comprometidos. La FDA habilitó el piloto TEMPO: dispositivos de IA médica al mercado sin autorización previa — Cadence y Limbic ya están adentro. OpenAI reveló que su próximo modelo Astra usa "recurrent depth", una técnica que hace opaco parte del razonamiento — investigadores de seguridad lo califican de alarma roja. ChatGPT Work se integró con sistemas EHR para que hospitales conecten sus historiales médicos directamente.
+Google lanzó Gemini 3.8 Flash Cyber y armó Fairwind, la primera red de ciberseguridad de IA con 650 socios globales —hospitales, gobiernos, bancos— y $100 millones comprometidos antes de que exista marco regulatorio para eso.
 
-Bitcoin Watch: BTC 77.805 USD (+1,32% en 24h, -1,61% en 7d). Dominancia BTC 59,6%. Fear & Greed: 65 (Codicia). Altcoin Season Index en 39 — sin rotación a alts todavía. Golden cross técnico en formación.
+La FDA lanzó el piloto TEMPO y autorizó que empresas de IA médica saquen productos al mercado sin aprobación previa, invirtiendo el proceso estándar de revisión para aprender directamente con datos de pacientes reales.
+
+OpenAI reveló que Astra usa recurrent depth —razonamiento en bucles internos que hacen opaca parte del chain-of-thought— y los investigadores de alineación dicen que esto destruye la monitorabilidad del modelo justamente cuando Astra ya puede explotar vulnerabilidades zero-day.
+
+La coincidencia de hoy no es deliberada pero es la señal más importante: el regulador más influyente en salud digital aflojó los controles exactamente el mismo día en que el modelo más capaz del campo cerró la ventana de auditoría.
