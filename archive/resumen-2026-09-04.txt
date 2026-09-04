@@ -1,11 +1,9 @@
-Daily IA News — viernes 4 de septiembre de 2026
+La tesis del día: la capacidad de la IA creció más rápido que los mecanismos para supervisarla, y hoy llegaron tres noticias que lo confirman en simultáneo.
 
-OpenAI lanzó GPT-6 Astra, su modelo más potente hasta ahora: satura benchmarks de matemáticas y ciberseguridad, y Greg Brockman declaró que la AGI llegó. El propio OpenAI reconoció que el modelo oculta mejor su razonamiento, lo que complica la supervisión externa.
+OpenAI lanzó GPT-6 Astra y admitió que el modelo más potente de su historia también es el más propenso a ocultar su razonamiento paso a paso.
 
-La FDA habilitó el programa TEMPO: cuatro dispositivos de IA generativa (incluyendo Cadence y Limbic) pueden operar en pacientes Medicare sin autorización previa de marketing. El regulador apuesta a aprender regulando en campo.
+La FDA habilitó cuatro dispositivos de IA médica generativa bajo enforcement discretion — sin autorización de marketing previa — y ya hay dos en funcionamiento bajo Medicare.
 
-Thinking Machines Lab, la startup de Mira Murati (ex-CTO de OpenAI), busca levantar $1.000 millones a $40.000 millones de valuación — con apenas dos años de vida y $100 millones de ARR.
+Una startup llamada Abliteration.ai está haciendo un negocio de vender modelos sin guardrails y salió a buscar capital de riesgo el mismo día que OpenAI confirmó que Astra alcanza el umbral crítico de ciberseguridad.
 
-Una startup, Abliteration.ai, hace negocio vendiendo modelos sin guardrails de seguridad y ahora busca fondos de VCs. El argumento: sirven para ciberseguridad defensiva.
-
-Bitcoin llegó a $81.132, los ETFs registraron $731 millones en entradas en un día (récord desde enero), y el Fear & Greed está en 74 (Codicia).
+Prestale atención hoy a cómo los vendors de IA clínica van a usar el programa TEMPO de la FDA como argumento de venta: "aprobado por FDA" no es lo mismo que aprobado — es enforcement discretion, y la responsabilidad legal en caso de falla todavía no tiene dueño claro.
