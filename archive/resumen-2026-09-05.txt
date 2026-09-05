@@ -1,0 +1,9 @@
+El campo IA hoy no lanzó modelos nuevos sino que demostró que ya puede encargarse de proyectos completos durante semanas sin supervisión humana, mientras el precio de las herramientas sigue cayendo por debajo de cualquier excusa presupuestaria.
+
+Claude formalizó el Último Teorema de Fermat en 11 días con docenas de agentes autónomos coordinando 13 millones de líneas de código verificado — el mismo trabajo que Andrew Wiles tardó 7 años en completar.
+
+OpenEvidence lanzó cuatro modelos médicos escalonados por tiempo de respuesta, desde 5 segundos en guardia hasta 5 minutos de revisión de literatura, y restringió el más potente por riesgo de doble uso en virología.
+
+OpenAI comprometió 1.000 millones en créditos de ciberdefensa subsidiada para hospitales, municipios y ONGs que no tienen presupuesto para seguridad enterprise.
+
+Prestale atención al movimiento de precios de Microsoft: la transcripción de voz cayó 72% en cinco meses y hoy es el activo más barato del mercado — el que cobra por eso como SaaS tiene un problema que todavía no anunció.
