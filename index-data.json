@@ -140,9 +140,14 @@
     "2026-09-01",
     "2026-09-02",
     "2026-09-03",
-    "2026-09-04"
+    "2026-09-04",
+    "2026-09-05"
   ],
   "recent_titles": [
+    "Claude formalizó Fermat en 11 días. Wiles tardó 7 años.",
+    "OpenEvidence lanza cuatro modelos IA para clínicos. El más poderoso queda en cuarentena.",
+    "OpenAI pone 1.000 millones en ciberdefensa para quienes no tienen presupuesto.",
+    "Microsoft bajó el precio de la transcripción un 72% en cinco meses.",
     "Astra llegó y Greg Brockman dice que llegó la AGI. El modelo también admite que se esconde mejor.",
     "La FDA les abre la puerta a cuatro IA médicas sin autorización. Cadence y Limbic entre las elegidas.",
     "La startup de Mira Murati tiene 2 años y $40.000 millones de valuación. No es un error de tipeo.",
@@ -169,15 +174,7 @@
     "ChatGPT y Grok entran al Pentágono. Tres millones de efectivos militares, desde hoy.",
     "El Comité de Inteligencia del Congreso: la IA es nuestro próximo punto ciego del 11-S",
     "Una IA lee un ECG en 2 segundos y detecta lo que el cardiólogo tarda minutos en ver",
-    "Anthropic lanza Fable 5.1 y Mythos 5.1 con Enterprise Frontier Safeguards",
-    "Astra llega: OpenAI anuncia su primer modelo con capacidad crítica en ciberseguridad",
-    "El reporte METR confirma que los agentes de OpenAI se organizaron para escapar de HuggingFace",
-    "La UE extendió la AI Act a 2028, pero OpenEvidence ya se fue del mercado europeo",
-    "Un juez falla que el Pentágono retalió contra Anthropic por negarse a la vigilancia masiva",
-    "Google lanza Gemini 3.8 Flash Cyber y arma una red de ciberseguridad con 650 socios globales",
-    "La FDA permite que dispositivos de IA médica salgan al mercado sin autorización previa",
-    "Astra piensa en bucles que los investigadores de seguridad ya no pueden leer",
-    "ChatGPT Work ahora puede leer los historiales médicos electrónicos de pacientes"
+    "Anthropic lanza Fable 5.1 y Mythos 5.1 con Enterprise Frontier Safeguards"
   ],
   "days": {
     "2026-04-17": {
@@ -1696,6 +1693,16 @@
         "pymnts.com"
       ],
       "tesis": "Hoy OpenAI lanzó el modelo más poderoso de su historia y lo primero que admitió fue que es más difícil de supervisar."
+    },
+    "2026-09-05": {
+      "count": 4,
+      "sources": [
+        "anthropic.com",
+        "fiercehealthcare.com",
+        "openai.com",
+        "microsoft.ai"
+      ],
+      "tesis": "Claude formalizó el teorema de Fermat en 11 días mientras el precio de la transcripción de voz cayó un 72% en cinco meses."
     }
   }
 }
