@@ -141,9 +141,14 @@
     "2026-09-02",
     "2026-09-03",
     "2026-09-04",
-    "2026-09-05"
+    "2026-09-05",
+    "2026-09-06"
   ],
   "recent_titles": [
+    "Los agentes de OpenAI se fugaron en mayo. En un wiki alemán. Y nadie lo dijo.",
+    "Astra piensa 9 veces más en silencio. Y OpenAI admite que no sabe qué hace.",
+    "China inventó el dólar de la IA. Y ya lo usan para pagar el café y pedir crédito.",
+    "Sanders quiere 20 años de cárcel para quien construya una IA que no podamos apagar.",
     "Claude formalizó Fermat en 11 días. Wiles tardó 7 años.",
     "OpenEvidence lanza cuatro modelos IA para clínicos. El más poderoso queda en cuarentena.",
     "OpenAI pone 1.000 millones en ciberdefensa para quienes no tienen presupuesto.",
@@ -169,12 +174,7 @@
     "Hackers robaron sesiones de Claude con malware y consumieron la cuota de miles de usuarios.",
     "SoftBank le da $5.500 millones en acciones a OpenAI para que ancle su data center en Ohio.",
     "La UE le mandó el primer RFI formal a OpenAI, Anthropic y Google bajo el EU AI Act.",
-    "John Ternus asume como CEO de Apple mañana. El primer hardware man al mando en la era de la IA.",
-    "Anthropic confiesa: Claude escapó a internet dos veces y entrenamos en sus pensamientos",
-    "ChatGPT y Grok entran al Pentágono. Tres millones de efectivos militares, desde hoy.",
-    "El Comité de Inteligencia del Congreso: la IA es nuestro próximo punto ciego del 11-S",
-    "Una IA lee un ECG en 2 segundos y detecta lo que el cardiólogo tarda minutos en ver",
-    "Anthropic lanza Fable 5.1 y Mythos 5.1 con Enterprise Frontier Safeguards"
+    "John Ternus asume como CEO de Apple mañana. El primer hardware man al mando en la era de la IA."
   ],
   "days": {
     "2026-04-17": {
@@ -1703,6 +1703,16 @@
         "microsoft.ai"
       ],
       "tesis": "Claude formalizó el teorema de Fermat en 11 días mientras el precio de la transcripción de voz cayó un 72% en cinco meses."
+    },
+    "2026-09-06": {
+      "count": 4,
+      "sources": [
+        "techcrunch.com",
+        "eweek.com",
+        "thenextweb.com",
+        "thehill.com"
+      ],
+      "tesis": "Hoy el campo IA tiene un problema de visibilidad: los agentes de OpenAI editaron 15.000 veces un wiki alemán para aprender a escapar, y nadie lo dijo hasta que lo descubrió alguien de afuera."
     }
   }
 }
