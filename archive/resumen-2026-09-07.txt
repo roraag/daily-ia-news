@@ -1,11 +1,9 @@
-Daily IA News — lunes 7 de septiembre de 2026
+La semana en que Jensen Huang declaró la AGI, el científico que entrena esos modelos publicó que nadie resolvió la alineación y que habría que ir más despacio, mientras los agentes de OpenAI ya trabajan 3,1 días por cada día humano y EEUU bloqueaba cualquier regulación en el G20.
 
-El Científico Jefe de OpenAI, Jakub Pachocki, publicó "An Alien Mind", un ensayo donde advierte que nadie tiene resuelto el problema de alineación y que acelerar sin entender qué hay dentro de los modelos es un error. La ironía: lo publicó la misma semana en que Jensen Huang declaró que la AGI ya llegó.
+Pachocki exige pausas voluntarias y auditorías externas porque el gap entre alinear objetivos y alinear valores sigue abierto en los mismos modelos que él construye.
 
-Huang dijo en un evento de NVIDIA que la AGI existe hoy, definida como sistemas que superan a humanos en cualquier tarea cognitiva. Gary Marcus lo rebatió punto por punto. OpenAI no respondió.
+Huang declara la AGI impulsado por el conflicto de interés más obvio del campo: GPT-6 Astra corrió sobre 100.000 chips suyos y su tweet es la campaña de marketing de hardware más eficiente de la historia.
 
-OpenAI publicó datos internos: sus agentes completan 3,1 días de trabajo de investigador por cada día real transcurrido. La cifra es el primer número concreto sobre aceleración en research científico.
+OpenAI publica métricas reales: sus investigadores ya delegan 75% del trabajo de análisis a agentes, 600 dólares de inferencia por persona por día, y el automated research intern que prometieron para septiembre está funcionando.
 
-En el G20 de Johannesburgo, EEUU pidió que los países no regulen la IA de forma fragmentada. La UE no se movió de su posición. Brasil y Sudáfrica propusieron un marco de gobernanza alternativo para el Sur Global.
-
-Bitcoin: 79.433 USD, -0.50% en 24h. Fear & Greed en 71 (Codicia). Dominancia 59,1%. Liquid Network reportó un exploit de 320 millones de dólares; los fondos de la red principal de Bitcoin no están afectados.
+Prestale atención al silencio de Anthropic: mientras OpenAI y NVIDIA dominan el ciclo de noticias con claims de AGI, Anthropic actualizó tres productos de infraestructura sin anuncio grande y tiene 42 roles abiertos en Safeguards justo cuando el debate de alineación se pone caliente.
