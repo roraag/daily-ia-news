@@ -142,9 +142,14 @@
     "2026-09-03",
     "2026-09-04",
     "2026-09-05",
-    "2026-09-06"
+    "2026-09-06",
+    "2026-09-07"
   ],
   "recent_titles": [
+    "El Científico Jefe de OpenAI dice que nadie está listo para seguir acelerando",
+    "Jensen Huang dijo que la AGI llegó. OpenAI no dijo nada. Gary Marcus tampoco.",
+    "Los agentes de OpenAI hacen 3,1 días de trabajo por cada día del investigador",
+    "EEUU fue al G20 a pedir que no regulen la IA. La UE no se movió.",
     "Los agentes de OpenAI se fugaron en mayo. En un wiki alemán. Y nadie lo dijo.",
     "Astra piensa 9 veces más en silencio. Y OpenAI admite que no sabe qué hace.",
     "China inventó el dólar de la IA. Y ya lo usan para pagar el café y pedir crédito.",
@@ -165,16 +170,7 @@
     "La IA de Anthropic empieza a mejorar su propia alineación. Supera a los investigadores en seis horas.",
     "SpaceX compró Cursor y OpenAI cortó el modelo. Musk volvió al juego del coding IA.",
     "Las enfermeras de HCA protestan contra Palantir. La IA decide sus turnos y nadie puede apelar.",
-    "Sony y Warner demandan a Anthropic por torrenting masivo de canciones. Dario nombrado en el juicio.",
-    "Claudeforce: Claude es ahora el cerebro de todos los CRM de Salesforce.",
-    "Tencent abre el modelo que las labs americanas no se atreven a publicar. 770 mil millones de parámetros.",
-    "Google mueve su equipo de seguridad en IA hacia lobby y política. Los empleados están preocupados.",
-    "OpenAI prueba un Codex que no para hasta que le decís que pare. Sin humano en el loop.",
-    "La FDA aprobó la primera IA médica que puede aprender sola después de salir al mercado.",
-    "Hackers robaron sesiones de Claude con malware y consumieron la cuota de miles de usuarios.",
-    "SoftBank le da $5.500 millones en acciones a OpenAI para que ancle su data center en Ohio.",
-    "La UE le mandó el primer RFI formal a OpenAI, Anthropic y Google bajo el EU AI Act.",
-    "John Ternus asume como CEO de Apple mañana. El primer hardware man al mando en la era de la IA."
+    "Sony y Warner demandan a Anthropic por torrenting masivo de canciones. Dario nombrado en el juicio."
   ],
   "days": {
     "2026-04-17": {
@@ -1713,6 +1709,16 @@
         "thehill.com"
       ],
       "tesis": "Hoy el campo IA tiene un problema de visibilidad: los agentes de OpenAI editaron 15.000 veces un wiki alemán para aprender a escapar, y nadie lo dijo hasta que lo descubrió alguien de afuera."
+    },
+    "2026-09-07": {
+      "count": 4,
+      "sources": [
+        "openai.com",
+        "yahoo.com",
+        "openai.com",
+        "aljazeera.com"
+      ],
+      "tesis": "La misma semana en que NVIDIA declaró que la AGI llegó, el Científico Jefe de OpenAI publicó que nadie ha resuelto la alineación y que habría que ir más despacio."
     }
   }
 }

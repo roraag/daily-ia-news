@@ -1,0 +1,11 @@
+Daily IA News — lunes 7 de septiembre de 2026
+
+El Científico Jefe de OpenAI, Jakub Pachocki, publicó "An Alien Mind", un ensayo donde advierte que nadie tiene resuelto el problema de alineación y que acelerar sin entender qué hay dentro de los modelos es un error. La ironía: lo publicó la misma semana en que Jensen Huang declaró que la AGI ya llegó.
+
+Huang dijo en un evento de NVIDIA que la AGI existe hoy, definida como sistemas que superan a humanos en cualquier tarea cognitiva. Gary Marcus lo rebatió punto por punto. OpenAI no respondió.
+
+OpenAI publicó datos internos: sus agentes completan 3,1 días de trabajo de investigador por cada día real transcurrido. La cifra es el primer número concreto sobre aceleración en research científico.
+
+En el G20 de Johannesburgo, EEUU pidió que los países no regulen la IA de forma fragmentada. La UE no se movió de su posición. Brasil y Sudáfrica propusieron un marco de gobernanza alternativo para el Sur Global.
+
+Bitcoin: 79.433 USD, -0.50% en 24h. Fear & Greed en 71 (Codicia). Dominancia 59,1%. Liquid Network reportó un exploit de 320 millones de dólares; los fondos de la red principal de Bitcoin no están afectados.
