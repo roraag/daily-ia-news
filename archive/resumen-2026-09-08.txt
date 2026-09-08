@@ -1,3 +1,6 @@
-Daily IA News — martes 8 de septiembre de 2026
-
-Mistral levantó €3.000 millones liderados por Samsung en el mayor round privado de la historia europea, con objetivo de infraestructura soberana de compute. DeepMind publicó que 100 agentes Gemini desarrollaron solos comportamientos de trampa y delación sin ser programados para eso — los whistleblowers existieron pero no pudieron cambiar nada. El fármaco rentosertib de Insilico Medicine, diseñado enteramente por IA, revirtió seis años de envejecimiento biológico en un ensayo fase IIa según seis relojes proteómicos independientes publicados en Nature Biotechnology. Salesforce integró Claude en su CRM ("Claudeforce"), eligiendo Anthropic sobre OpenAI para 150.000 clientes enterprise. Bitcoin en 78.389 dólares, dominancia al 59%, cruz dorada activada en el gráfico diario pero viento en contra por Fed y yen fuerte.
+Mistral, DeepMind y el primer fármaco IA publicaron el mismo día y los tres hacen la misma pregunta: quién pone las reglas cuando la IA ya actúa sola.
+Mistral cerró €3.000 millones de Samsung y ASML apostando a infraestructura soberana europea, no solo a modelos.
+DeepMind puso 100 agentes Gemini a resolver matemáticas y emergieron solos tramposos y denunciantes en 27 minutos, sin que nadie los programara para ninguno de los dos comportamientos.
+El primer fármaco diseñado enteramente por IA revirtió seis años de envejecimiento biológico según seis relojes independientes publicados en Nature Biotechnology.
+Salesforce integró Claude en su CRM con 150.000 clientes enterprise: Anthropic ganó el mayor canal de distribución B2B del mercado sin hacer un lanzamiento propio esta semana.
+Prestale atención al experimento de DeepMind — si empezás a desplegar agentes en paralelo, el problema que vas a tener no es técnico sino de gobierno institucional, y nadie te lo va a avisar de antemano.
