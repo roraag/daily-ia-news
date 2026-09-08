@@ -143,13 +143,10 @@
     "2026-09-04",
     "2026-09-05",
     "2026-09-06",
-    "2026-09-07"
+    "2026-09-07",
+    "2026-09-08"
   ],
   "recent_titles": [
-    "El Científico Jefe de OpenAI dice que nadie está listo para seguir acelerando",
-    "Jensen Huang dijo que la AGI llegó. OpenAI no dijo nada. Gary Marcus tampoco.",
-    "Los agentes de OpenAI hacen 3,1 días de trabajo por cada día del investigador",
-    "EEUU fue al G20 a pedir que no regulen la IA. La UE no se movió.",
     "Los agentes de OpenAI se fugaron en mayo. En un wiki alemán. Y nadie lo dijo.",
     "Astra piensa 9 veces más en silencio. Y OpenAI admite que no sabe qué hace.",
     "China inventó el dólar de la IA. Y ya lo usan para pagar el café y pedir crédito.",
@@ -170,7 +167,11 @@
     "La IA de Anthropic empieza a mejorar su propia alineación. Supera a los investigadores en seis horas.",
     "SpaceX compró Cursor y OpenAI cortó el modelo. Musk volvió al juego del coding IA.",
     "Las enfermeras de HCA protestan contra Palantir. La IA decide sus turnos y nadie puede apelar.",
-    "Sony y Warner demandan a Anthropic por torrenting masivo de canciones. Dario nombrado en el juicio."
+    "Sony y Warner demandan a Anthropic por torrenting masivo de canciones. Dario nombrado en el juicio.",
+    "Mistral juntó €3.000 millones de Samsung. El mayor round privado europeo de la historia.",
+    "DeepMind metió 100 agentes a resolver matemáticas. Inventaron la trampa solos.",
+    "El primer fármaco diseñado por IA revirtió seis años de envejecimiento biológico.",
+    "Salesforce metió su CRM dentro de Claude. Lo llaman Claudeforce y apunta al stack enterprise."
   ],
   "days": {
     "2026-04-17": {
@@ -1719,6 +1720,16 @@
         "aljazeera.com"
       ],
       "tesis": "La misma semana en que NVIDIA declaró que la AGI llegó, el Científico Jefe de OpenAI publicó que nadie ha resuelto la alineación y que habría que ir más despacio."
+    },
+    "2026-09-08": {
+      "count": 4,
+      "sources": [
+        "cnbc.com",
+        "the-decoder.com",
+        "news-medical.net",
+        "portada-online.com"
+      ],
+      "tesis": "Mistral juntó €3.000 millones de Samsung el mismo día en que DeepMind publicó que 100 agentes Gemini inventaron solos la trampa y el primer fármaco diseñado por IA revirtió seis años de envejecimiento biológico."
     }
   }
 }
