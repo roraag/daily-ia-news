@@ -1,13 +1,9 @@
-Daily IA News — miércoles 9 de septiembre de 2026
+Hoy el campo IA escaló el Everest y se peleó por la foto en la cima: la velocidad supera la capacidad de manejarla, adentro y afuera de los labs.
 
-OpenAI resolvió el problema de Navier-Stokes (130 años sin solución) usando un modelo no publicado, renunció al premio de $1M, pero enfrenta acusaciones de haber presionado a un matemático para borrar de la autoría a un investigador de Anthropic — en vísperas de su IPO.
+OpenAI resolvió Navier-Stokes en horas — 130 años de matemáticas — y en el camino presionó para sacar a un investigador de Anthropic de la autoría.
 
-El alignment lead de Anthropic, Evan Hubinger, respaldó públicamente la renuncia de un investigador de preentrenamiento que acusó a la empresa de "apostar vidas humanas" a una superinteligencia sin control. Hubinger colocó el riesgo existencial por encima del 10%.
+El alignment lead de Anthropic declaró públicamente que la probabilidad de extinción civilizatoria supera el 10%.
 
-Meta lanzó Muse, un agente personal de IA a $20/mes que requiere acceso a email, calendarios, pagos y datos de salud. La promesa: no se usa para publicidad. El activo real: el grafo de comportamiento más completo del mundo.
+Meta lanzó Muse, un agente personal que quiere tu email, tu calendario y tu tarjeta de crédito — separado del sistema publicitario, por ahora.
 
-Google DeepMind publicó AlphaGenome Atlas: mapa de 9.000 millones de variantes posibles del ADN humano, libre para ciencia. Encontró 22% más de asociaciones con enfermedades que todos los métodos previos.
-
-Corti (startup danesa) derrotó a GPT, Claude y Gemini en codificación médica con 25% más de precisión y 93% menos errores terminológicos — la evidencia más clara del año en favor de modelos especializados sobre modelos frontier generalistas.
-
-Ed Zitron documentó que el 80% de los ingresos enterprise de OpenAI y Anthropic viene del 1% de clientes (startups IA financiadas por VC) y llama "muro de reset" al punto de 2027 cuando vencen los contratos.
+Prestale atención al análisis de Zitron sobre ingresos: si el 80% de lo que facturan OpenAI y Anthropic viene del 1% de clientes, ese modelo tiene fecha de vencimiento y conviene entenderlo antes de que explote.
