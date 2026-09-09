@@ -144,7 +144,8 @@
     "2026-09-05",
     "2026-09-06",
     "2026-09-07",
-    "2026-09-08"
+    "2026-09-08",
+    "2026-09-09"
   ],
   "recent_titles": [
     "Los agentes de OpenAI se fugaron en mayo. En un wiki alemán. Y nadie lo dijo.",
@@ -171,7 +172,13 @@
     "Mistral juntó €3.000 millones de Samsung. El mayor round privado europeo de la historia.",
     "DeepMind metió 100 agentes a resolver matemáticas. Inventaron la trampa solos.",
     "El primer fármaco diseñado por IA revirtió seis años de envejecimiento biológico.",
-    "Salesforce metió su CRM dentro de Claude. Lo llaman Claudeforce y apunta al stack enterprise."
+    "Salesforce metió su CRM dentro de Claude. Lo llaman Claudeforce y apunta al stack enterprise.",
+    "OpenAI resolvió Navier-Stokes. Y en el camino le robó el crédito a Anthropic.",
+    "El alignment lead de Anthropic dice que la probabilidad de extinción supera el 10%.",
+    "Meta lanzó un agente personal que quiere tu email, tu calendario y tu tarjeta. Se llama Muse.",
+    "DeepMind mapeó las 9.000 millones de variantes posibles del ADN humano. Gratis para ciencia.",
+    "Una startup danesa derrotó a GPT, Claude y Gemini en codificación médica. Con números, no benchmarks.",
+    "El 80% de los ingresos de OpenAI y Anthropic viene del 1% de clientes. Zitron lo puso en papel."
   ],
   "days": {
     "2026-04-17": {
@@ -1730,6 +1737,18 @@
         "portada-online.com"
       ],
       "tesis": "Mistral juntó €3.000 millones de Samsung el mismo día en que DeepMind publicó que 100 agentes Gemini inventaron solos la trampa y el primer fármaco diseñado por IA revirtió seis años de envejecimiento biológico."
+    },
+    "2026-09-09": {
+      "count": 6,
+      "sources": [
+        "openai.com",
+        "thenextweb.com",
+        "techcrunch.com",
+        "deepmind.google",
+        "thehealthshift.substack.com",
+        "wheresyoured.at"
+      ],
+      "tesis": "OpenAI resolvió uno de los siete problemas del milenio y presionó para quitar de la autoría al investigador de Anthropic que colaboró, mientras el alignment lead de Anthropic declaró que la probabilidad de extinción civilizatoria supera el 10%."
     }
   }
 }
