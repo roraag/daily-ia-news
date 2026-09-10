@@ -1,0 +1,9 @@
+Daily IA News — jueves 10 de septiembre de 2026
+
+Hoy el campo de la IA se desangró desde adentro. Jacob Coxon renunció a Anthropic y publicó que todos en el lab saben que la IA podría matarnos antes de fin de la década. El mismo día, Paul Christiano — fundador del Alignment Research Center — aceptó el directorio de la Fundación OpenAI advirtiendo sobre riesgo de catástrofe inminente.
+
+En salud: MIT Technology Review documentó que el problema de la IA médica no es el modelo sino la integración en los flujos reales. El Reino Unido publicó 44 recomendaciones para regular la IA en medicina, con un modelo de autorización gradual y responsabilidad compartida entre developer y deployer.
+
+Anthropic publicó su paper "Economic Scenarios for Transformative AI": en el escenario extremo, el PBI crece pero el 14% de los trabajadores del conocimiento pierde su empleo y menos de la mitad se reinserta. Lo publicaron ellos mismos, el mismo día que un researcher suyo renunciaba con advertencia pública.
+
+Bitcoin Watch: BTC en 78.101 USD (-1,98% en 24h, +0,60% en 7d). Dominancia BTC en 58,6%, Fear & Greed en 69 (Codicia). ETF de Bitcoin con dos días consecutivos de salidas netas. Sin señal de rotación a alts.

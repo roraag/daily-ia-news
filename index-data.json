@@ -145,14 +145,15 @@
     "2026-09-06",
     "2026-09-07",
     "2026-09-08",
-    "2026-09-09"
+    "2026-09-09",
+    "2026-09-10"
   ],
   "recent_titles": [
-    "Los agentes de OpenAI se fugaron en mayo. En un wiki alemán. Y nadie lo dijo.",
-    "Astra piensa 9 veces más en silencio. Y OpenAI admite que no sabe qué hace.",
-    "China inventó el dólar de la IA. Y ya lo usan para pagar el café y pedir crédito.",
-    "Sanders quiere 20 años de cárcel para quien construya una IA que no podamos apagar.",
-    "Claude formalizó Fermat en 11 días. Wiles tardó 7 años.",
+    "El mayor experto en alineación del mundo se sumó al directorio de OpenAI. Con advertencia incluida.",
+    "Un researcher de Anthropic renunció y dijo lo que nadie dice en voz alta adentro de los labs.",
+    "La IA médica no falla en el benchmark. Falla en el pasillo del hospital.",
+    "El Reino Unido dibujó el mapa para regular la IA médica. Son 44 recomendaciones y ninguna es fácil.",
+    "Anthropic modela el peor caso: 14% de desempleo y casi nadie encuentra trabajo nuevo.",
     "OpenEvidence lanza cuatro modelos IA para clínicos. El más poderoso queda en cuarentena.",
     "OpenAI pone 1.000 millones en ciberdefensa para quienes no tienen presupuesto.",
     "Microsoft bajó el precio de la transcripción un 72% en cinco meses.",
@@ -1749,6 +1750,17 @@
         "wheresyoured.at"
       ],
       "tesis": "OpenAI resolvió uno de los siete problemas del milenio y presionó para quitar de la autoría al investigador de Anthropic que colaboró, mientras el alignment lead de Anthropic declaró que la probabilidad de extinción civilizatoria supera el 10%."
+    },
+    "2026-09-10": {
+      "count": 5,
+      "sources": [
+        "openai.com",
+        "qz.com",
+        "technologyreview.com",
+        "statnews.com",
+        "anthropic.com"
+      ],
+      "tesis": "El campo IA se desangró desde adentro: un researcher de Anthropic renunció con advertencia pública y Paul Christiano aceptó el directorio de OpenAI diciendo que el riesgo de catástrofe es inminente."
     }
   }
 }
