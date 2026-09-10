@@ -1,9 +1,9 @@
-Daily IA News — jueves 10 de septiembre de 2026
+El campo de la IA se desangró desde adentro: el mismo día, el researcher de Anthropic Jacob Coxon renunció publicando lo que todos dicen en privado sobre el riesgo existencial, mientras Paul Christiano, el mayor experto en alineación del mundo, aceptó un puesto en OpenAI con exactamente la misma advertencia.
 
-Hoy el campo de la IA se desangró desde adentro. Jacob Coxon renunció a Anthropic y publicó que todos en el lab saben que la IA podría matarnos antes de fin de la década. El mismo día, Paul Christiano — fundador del Alignment Research Center — aceptó el directorio de la Fundación OpenAI advirtiendo sobre riesgo de catástrofe inminente.
+Paul Christiano entró al directorio de la Fundación OpenAI y declaró que la aceleración de capacidades puede llevar a pérdida de control catastrófica e irreversible en el muy corto plazo.
 
-En salud: MIT Technology Review documentó que el problema de la IA médica no es el modelo sino la integración en los flujos reales. El Reino Unido publicó 44 recomendaciones para regular la IA en medicina, con un modelo de autorización gradual y responsabilidad compartida entre developer y deployer.
+Jacob Coxon dejó Anthropic el 8 de septiembre y publicó que las personas que construyen la IA creen que puede matarnos a todos antes de fin de la década, y lo dicen en privado.
 
-Anthropic publicó su paper "Economic Scenarios for Transformative AI": en el escenario extremo, el PBI crece pero el 14% de los trabajadores del conocimiento pierde su empleo y menos de la mitad se reinserta. Lo publicaron ellos mismos, el mismo día que un researcher suyo renunciaba con advertencia pública.
+El Anthropic Institute publicó su primer modelo económico sobre IA transformativa: en el escenario extremo el PBI crece, pero 14% de los trabajadores pierden el empleo y menos de la mitad encuentra otro.
 
-Bitcoin Watch: BTC en 78.101 USD (-1,98% en 24h, +0,60% en 7d). Dominancia BTC en 58,6%, Fear & Greed en 69 (Codicia). ETF de Bitcoin con dos días consecutivos de salidas netas. Sin señal de rotación a alts.
+Hoy Anthropic anunció Claude Corps sin ningún detalle todavía, y eso es lo que tenés que seguir en las próximas horas.
