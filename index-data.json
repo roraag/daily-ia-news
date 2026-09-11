@@ -146,15 +146,10 @@
     "2026-09-07",
     "2026-09-08",
     "2026-09-09",
-    "2026-09-10"
+    "2026-09-10",
+    "2026-09-11"
   ],
   "recent_titles": [
-    "El mayor experto en alineación del mundo se sumó al directorio de OpenAI. Con advertencia incluida.",
-    "Un researcher de Anthropic renunció y dijo lo que nadie dice en voz alta adentro de los labs.",
-    "La IA médica no falla en el benchmark. Falla en el pasillo del hospital.",
-    "El Reino Unido dibujó el mapa para regular la IA médica. Son 44 recomendaciones y ninguna es fácil.",
-    "Anthropic modela el peor caso: 14% de desempleo y casi nadie encuentra trabajo nuevo.",
-    "OpenEvidence lanza cuatro modelos IA para clínicos. El más poderoso queda en cuarentena.",
     "OpenAI pone 1.000 millones en ciberdefensa para quienes no tienen presupuesto.",
     "Microsoft bajó el precio de la transcripción un 72% en cinco meses.",
     "Astra llegó y Greg Brockman dice que llegó la AGI. El modelo también admite que se esconde mejor.",
@@ -179,7 +174,12 @@
     "Meta lanzó un agente personal que quiere tu email, tu calendario y tu tarjeta. Se llama Muse.",
     "DeepMind mapeó las 9.000 millones de variantes posibles del ADN humano. Gratis para ciencia.",
     "Una startup danesa derrotó a GPT, Claude y Gemini en codificación médica. Con números, no benchmarks.",
-    "El 80% de los ingresos de OpenAI y Anthropic viene del 1% de clientes. Zitron lo puso en papel."
+    "El 80% de los ingresos de OpenAI y Anthropic viene del 1% de clientes. Zitron lo puso en papel.",
+    "Alibaba extrajo 200 millones de intercambios de Claude. Algunos venían del ejército chino.",
+    "La FDA aprobó una IA que detecta infartos que los médicos pierden en el ECG.",
+    "OpenAI lanzó la Agents API. Los agentes ya no desaparecen cuando cerrás la sesión.",
+    "Sanders y Casar piden prohibir la superinteligencia. El investigador de Anthropic tiene 159 millones de visualizaciones.",
+    "Los agentes de IA multiplicaron por 2,7 los reclamos al defensor del pueblo del Reino Unido. Y la mayoría son legítimos."
   ],
   "days": {
     "2026-04-17": {
@@ -1761,6 +1761,17 @@
         "anthropic.com"
       ],
       "tesis": "El campo IA se desangró desde adentro: un researcher de Anthropic renunció con advertencia pública y Paul Christiano aceptó el directorio de OpenAI diciendo que el riesgo de catástrofe es inminente."
+    },
+    "2026-09-11": {
+      "count": 5,
+      "sources": [
+        "techcrunch.com",
+        "statnews.com",
+        "openai.com",
+        "platformer.news",
+        "techcrunch.com"
+      ],
+      "tesis": "Anthropic fue robada (200M intercambios por Alibaba) y convertida en símbolo de peligro al mismo tiempo que Sanders presentó la Ban ASI Act."
     }
   }
 }

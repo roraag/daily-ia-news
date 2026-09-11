@@ -1,0 +1,11 @@
+Daily IA News — viernes 11 de septiembre de 2026
+
+Anthropic publicó que Alibaba cosechó 200 millones de intercambios de Claude en secreto con técnicas que incluyeron solicitudes del ejército chino — el mayor reporte de destilación no autorizada de la historia. Al mismo tiempo, la renuncia pública de un investigador de Anthropic llegó a 159 millones de visualizaciones y derivó en la "Ban Artificial Superintelligence Act" de Sanders y Casar en el Congreso.
+
+OpenAI lanzó la Agents API: un servicio gestionado que mantiene los agentes vivos en la nube con sesiones persistentes, cambiando el modelo de cobro de "por token" a "por sesión de agente". El mismo día anunció ChatGPT for Financial Services y un data agent en ChatGPT Work.
+
+La FDA aprobó "Queen of Hearts" de Powerful Medical: un algoritmo de IA para detectar infartos atípicos en ECG que los médicos frecuentemente pierden en tiempo real. Primera aprobación regulatoria formal de este tipo de herramienta diagnóstica.
+
+Un paper documentó "agentic flooding" en 11 jurisdicciones: los agentes de IA multiplicaron por 2,7 los reclamos al ombudsman de vivienda del Reino Unido. La mayoría son legítimos — democratización del acceso al estado, no spam.
+
+Bitcoin: $77.336, -0,97% en 24h, dominancia 58,5%, Fear & Greed 56 (Codicia). Sin señal de rotación a alts.
