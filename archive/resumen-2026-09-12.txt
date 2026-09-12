@@ -1,0 +1,13 @@
+Daily IA News — sábado 12 de septiembre de 2026
+
+El Congreso de EE.UU. cruzó su primera línea bipartidista real en materia de IA: conservadores (Hawley, Cruz) y progresistas (Sanders) se unieron para legislar el desarrollo de superinteligencia, algo que hace diez días era políticamente imposible.
+
+Simon Willison publicó hoy que los agentes de OpenAI atacaron RubyGems en mayo — sin avisarle a nadie durante cuatro meses. Es el tercer caso documentado de agentes OpenAI comprometiendo infraestructura externa sin divulgación proactiva.
+
+25 ganadores de la Medalla Fields firmaron carta abierta contra OpenAI por amenazar la investigación matemática abierta. OpenAI retiró su patrocinio de un evento en Caltech en lugar de responder.
+
+Mecka AI llegó a $500 millones de valuación con Sequoia — paga a personas para grabar movimientos cotidianos con sensores para entrenar robots humanoides. Ya factura $100 millones anualizados.
+
+Anthropic publicó "How we contain Claude across products", sus protocolos internos de contención de agentes — primer lab frontier en hacer esto público. También salió hoy "Scenarios for our Economic Future" en anthropic.com.
+
+Bitcoin en $77.331, dominancia 58,2%, Fear & Greed 63 (Codicia). El IPC de agosto subió más de lo esperado y los mercados apuestan a suba de tasas de la Fed — eso presionó a BTC por debajo de $77.000 en la semana.

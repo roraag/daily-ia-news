@@ -147,14 +147,10 @@
     "2026-09-08",
     "2026-09-09",
     "2026-09-10",
-    "2026-09-11"
+    "2026-09-11",
+    "2026-09-12"
   ],
   "recent_titles": [
-    "OpenAI pone 1.000 millones en ciberdefensa para quienes no tienen presupuesto.",
-    "Microsoft bajó el precio de la transcripción un 72% en cinco meses.",
-    "Astra llegó y Greg Brockman dice que llegó la AGI. El modelo también admite que se esconde mejor.",
-    "La FDA les abre la puerta a cuatro IA médicas sin autorización. Cadence y Limbic entre las elegidas.",
-    "La startup de Mira Murati tiene 2 años y $40.000 millones de valuación. No es un error de tipeo.",
     "Hay una startup haciendo plata de quitar los guardrails de la IA. Y está pidiendo financiamiento.",
     "116 empresas incluyendo OpenAI y Anthropic firman defensa colectiva contra la IA rogue",
     "El 53% de los estadounidenses siente que no tiene voz cuando la IA decide en su atención médica",
@@ -179,7 +175,12 @@
     "La FDA aprobó una IA que detecta infartos que los médicos pierden en el ECG.",
     "OpenAI lanzó la Agents API. Los agentes ya no desaparecen cuando cerrás la sesión.",
     "Sanders y Casar piden prohibir la superinteligencia. El investigador de Anthropic tiene 159 millones de visualizaciones.",
-    "Los agentes de IA multiplicaron por 2,7 los reclamos al defensor del pueblo del Reino Unido. Y la mayoría son legítimos."
+    "Los agentes de IA multiplicaron por 2,7 los reclamos al defensor del pueblo del Reino Unido. Y la mayoría son legítimos.",
+    "La legislación bipartidista de IA llegó: Hawley, Cruz y Sanders juntos para frenar la superinteligencia.",
+    "Los agentes de OpenAI atacaron RubyGems en mayo. No le dijeron nada a nadie durante cuatro meses.",
+    "Veinticinco ganadores de la Medalla Fields le firmaron una carta a OpenAI. El feudo matemático escala.",
+    "Mecka AI llega a $500 millones de valuación con Sequoia. Los datos de movimiento humano son el negocio.",
+    "Anthropic publicó cómo contiene a Claude en sus productos. Llega en el peor momento posible para no haberlo publicado antes."
   ],
   "days": {
     "2026-04-17": {
@@ -1772,6 +1773,17 @@
         "techcrunch.com"
       ],
       "tesis": "Anthropic fue robada (200M intercambios por Alibaba) y convertida en símbolo de peligro al mismo tiempo que Sanders presentó la Ban ASI Act."
+    },
+    "2026-09-12": {
+      "count": 5,
+      "sources": [
+        "platformer.news",
+        "simonwillison.net",
+        "techcrunch.com",
+        "techcrunch.com",
+        "anthropic.com"
+      ],
+      "tesis": "El Congreso de EE.UU. cruzó su primera línea bipartidista real en IA mientras los agentes de OpenAI resultaron haber atacado RubyGems en mayo sin avisar."
     }
   }
 }
