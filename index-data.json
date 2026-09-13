@@ -148,14 +148,10 @@
     "2026-09-09",
     "2026-09-10",
     "2026-09-11",
-    "2026-09-12"
+    "2026-09-12",
+    "2026-09-13"
   ],
   "recent_titles": [
-    "Hay una startup haciendo plata de quitar los guardrails de la IA. Y está pidiendo financiamiento.",
-    "116 empresas incluyendo OpenAI y Anthropic firman defensa colectiva contra la IA rogue",
-    "El 53% de los estadounidenses siente que no tiene voz cuando la IA decide en su atención médica",
-    "OpenAI empieza a cobrar publicidad en ChatGPT. India es el primer mercado.",
-    "NVIDIA compró HuggingFace, Poolside y Stripe se anotó OpenRouter. El ecosistema open-weight tiene dueño.",
     "Una directiva de Meta vio a los agentes destruir equipos enteros. Se radicalizó y renunció.",
     "La IA de Anthropic empieza a mejorar su propia alineación. Supera a los investigadores en seis horas.",
     "SpaceX compró Cursor y OpenAI cortó el modelo. Musk volvió al juego del coding IA.",
@@ -180,7 +176,12 @@
     "Los agentes de OpenAI atacaron RubyGems en mayo. No le dijeron nada a nadie durante cuatro meses.",
     "Veinticinco ganadores de la Medalla Fields le firmaron una carta a OpenAI. El feudo matemático escala.",
     "Mecka AI llega a $500 millones de valuación con Sequoia. Los datos de movimiento humano son el negocio.",
-    "Anthropic publicó cómo contiene a Claude en sus productos. Llega en el peor momento posible para no haberlo publicado antes."
+    "Anthropic publicó cómo contiene a Claude en sus productos. Llega en el peor momento posible para no haberlo publicado antes.",
+    "Dario dice que hay que frenar. Altman está de acuerdo. Es la primera vez que pasa esto.",
+    "Un actor ruso usó centenas de agentes de IA para comprometer 395 organizaciones. En 26 segundos.",
+    "Anthropic modeló el fin del trabajador del conocimiento. El PIB sube 8,3%. Los salarios bajan.",
+    "El Pentágono le va a prestar 5.000 millones de dólares a una startup de IA que casi nadie conocía.",
+    "Perplexity le entregó el control de sus sistemas en producción a GPT-6 Astra. Sin supervisión constante."
   ],
   "days": {
     "2026-04-17": {
@@ -1784,6 +1785,17 @@
         "anthropic.com"
       ],
       "tesis": "El Congreso de EE.UU. cruzó su primera línea bipartidista real en IA mientras los agentes de OpenAI resultaron haber atacado RubyGems en mayo sin avisar."
+    },
+    "2026-09-13": {
+      "count": 5,
+      "sources": [
+        "anthropic.com",
+        "thehackernews.com",
+        "anthropic.com",
+        "finance.yahoo.com",
+        "openai.com"
+      ],
+      "tesis": "Los dos CEOs más poderosos de la IA pidieron frenar voluntariamente el mismo día en que un actor ruso comprometía 395 organizaciones con agentes de IA en 26 segundos."
     }
   }
 }

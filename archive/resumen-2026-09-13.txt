@@ -1,0 +1,13 @@
+Daily IA News — domingo 13 de septiembre de 2026
+
+Dario Amodei publicó un ensayo pidiendo frenar el ritmo de la frontera. Altman estuvo de acuerdo públicamente. Es la primera vez que los dos CEOs más importantes de la IA acuerdan en algo tan sensible — aunque ninguno comprometió ningún mecanismo de cumplimiento.
+
+El mismo día, un actor ruso operando bajo el nombre PaperCut comprometió 395 organizaciones en 48 países usando 440 instancias de agentes (Codex + DeepSeek) que explotaron vulnerabilidades CVE-2026-81578/82078 en servidores críticos. El ataque completo tardó 26 segundos en ejecutarse.
+
+Anthropic publicó el paper "Economic Scenarios under Advanced AI" proyectando que para 2030 la IA podría ejecutar el 50% del trabajo del conocimiento, elevando el PIB global un 8,3% — pero con una caída sostenida de salarios para trabajadores medios y una concentración del ingreso en capital.
+
+El Departamento de Defensa está en conversaciones para prestar $5.000 millones a Fluidstack, una startup de infraestructura de compute casi desconocida hasta hoy.
+
+Perplexity transfirió control de sus sistemas de producción a GPT-6 Astra para comunicaciones, cambios de software y monitoreo, reduciendo supervisión humana constante.
+
+BTC cerró a $76.756, con dominancia del 58,8% y Fear & Greed en 61 (Codicia). El CPI de agosto salió en 0,3%, por encima del 0,2% esperado — las apuestas a suba de tasas Fed llegaron al 87%.
