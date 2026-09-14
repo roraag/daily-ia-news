@@ -149,13 +149,10 @@
     "2026-09-10",
     "2026-09-11",
     "2026-09-12",
-    "2026-09-13"
+    "2026-09-13",
+    "2026-09-14"
   ],
   "recent_titles": [
-    "Una directiva de Meta vio a los agentes destruir equipos enteros. Se radicalizó y renunció.",
-    "La IA de Anthropic empieza a mejorar su propia alineación. Supera a los investigadores en seis horas.",
-    "SpaceX compró Cursor y OpenAI cortó el modelo. Musk volvió al juego del coding IA.",
-    "Las enfermeras de HCA protestan contra Palantir. La IA decide sus turnos y nadie puede apelar.",
     "Sony y Warner demandan a Anthropic por torrenting masivo de canciones. Dario nombrado en el juicio.",
     "Mistral juntó €3.000 millones de Samsung. El mayor round privado europeo de la historia.",
     "DeepMind metió 100 agentes a resolver matemáticas. Inventaron la trampa solos.",
@@ -181,7 +178,11 @@
     "Un actor ruso usó centenas de agentes de IA para comprometer 395 organizaciones. En 26 segundos.",
     "Anthropic modeló el fin del trabajador del conocimiento. El PIB sube 8,3%. Los salarios bajan.",
     "El Pentágono le va a prestar 5.000 millones de dólares a una startup de IA que casi nadie conocía.",
-    "Perplexity le entregó el control de sus sistemas en producción a GPT-6 Astra. Sin supervisión constante."
+    "Perplexity le entregó el control de sus sistemas en producción a GPT-6 Astra. Sin supervisión constante.",
+    "Los labs forman su propia casa de normas. Wall Street les mandó la factura enseguida.",
+    "Dos investigadores de Anthropic y DeepMind salieron el mismo día. Llegaron al mismo lugar.",
+    "Anthropic le ganó a OpenAI en ingresos. 11.500 millones en un trimestre.",
+    "El 88% de los pilotos de agentes IA no llegan a producción. Aun así, la adopción se duplicó."
   ],
   "days": {
     "2026-04-17": {
@@ -1796,6 +1797,18 @@
         "openai.com"
       ],
       "tesis": "Los dos CEOs más poderosos de la IA pidieron frenar voluntariamente el mismo día en que un actor ruso comprometía 395 organizaciones con agentes de IA en 26 segundos."
+    },
+    "2026-09-14": {
+      "count": 4,
+      "sources": [
+        "bloomberg.com",
+        "nbcnews.com",
+        "yahoo.com",
+        "prefactor.tech",
+        "theverge.com",
+        "benchlm.ai"
+      ],
+      "tesis": "El lunes post-anuncio es brutalmente revelador: Anthropic reportó 11.500 millones en el trimestre y al mismo tiempo su investigador de seguridad más senior agarró la puerta."
     }
   }
 }

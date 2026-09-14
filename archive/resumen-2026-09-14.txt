@@ -1,0 +1,11 @@
+Daily IA News — lunes 14 de septiembre de 2026
+
+El lunes post-anuncio deja un cuadro complejo: Anthropic reportó 11.500 millones de dólares en Q2 — más que cualquier lab frontier en la historia — y al mismo tiempo su investigador de seguridad más senior, Joe Benton (Scalable Oversight), renunció para unirse a METR, la organización de evaluación independiente. Lo mismo hizo Josh Engels de Google DeepMind.
+
+Dario Amodei lidera desde julio un working group con OpenAI y DeepMind para crear un cuerpo de estándares técnicos de IA sin esperar al Congreso. Microsoft se sumó el domingo. Wall Street respondió vendiendo chips: SoftBank -11%, ASML -4,4%, TSMC -1,2%. David Sacks lo llamó "cartel". China lo llamó "táctica de la Guerra Fría". Trump dijo que la industria exagera.
+
+Sam Altman confirmó que OpenAI no sale a bolsa en 2026 por la coyuntura de seguridad. Anthropic sí va en octubre, a 965.000 millones de valuación.
+
+Dato para el bolsillo: Anthropic le ganó a OpenAI en ingresos por primera vez (11.500M vs 6.700M en Q2). Primer lab del frontier AI en reportar dos trimestres rentables consecutivos.
+
+BTC en 77.689 dólares (+1,16% en 24h) mientras los chips caían. Fear & Greed: 57 (Codicia). Dominancia BTC: 58,87%. Sin señales de rotación a alts.
