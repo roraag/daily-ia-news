@@ -1,11 +1,9 @@
-Daily IA News — lunes 14 de septiembre de 2026
+Anthropic le ganó a OpenAI en ingresos por primera vez y al mismo tiempo perdió a su investigador de seguridad más senior, mientras los tres labs formaron un cuerpo de normas propio sin esperar al Congreso y los chips asiáticos cayeron hasta 13%.
 
-El lunes post-anuncio deja un cuadro complejo: Anthropic reportó 11.500 millones de dólares en Q2 — más que cualquier lab frontier en la historia — y al mismo tiempo su investigador de seguridad más senior, Joe Benton (Scalable Oversight), renunció para unirse a METR, la organización de evaluación independiente. Lo mismo hizo Josh Engels de Google DeepMind.
+Anthropic, OpenAI y DeepMind constituyeron un organismo privado de estándares técnicos de IA — primer movimiento de autorregulación coordinada sin el gobierno en la sala.
 
-Dario Amodei lidera desde julio un working group con OpenAI y DeepMind para crear un cuerpo de estándares técnicos de IA sin esperar al Congreso. Microsoft se sumó el domingo. Wall Street respondió vendiendo chips: SoftBank -11%, ASML -4,4%, TSMC -1,2%. David Sacks lo llamó "cartel". China lo llamó "táctica de la Guerra Fría". Trump dijo que la industria exagera.
+El líder de Scalable Oversight de Anthropic renunció y se fue a METR diciendo "no hay adultos en la sala"; un researcher de AGI Safety de DeepMind hizo lo mismo el mismo día.
 
-Sam Altman confirmó que OpenAI no sale a bolsa en 2026 por la coyuntura de seguridad. Anthropic sí va en octubre, a 965.000 millones de valuación.
+Anthropic reportó 11.500 millones en Q2 — catorce veces más que hace un año, y el primer operating income positivo del frontier AI — y dobló en ingresos a OpenAI por primera vez.
 
-Dato para el bolsillo: Anthropic le ganó a OpenAI en ingresos por primera vez (11.500M vs 6.700M en Q2). Primer lab del frontier AI en reportar dos trimestres rentables consecutivos.
-
-BTC en 77.689 dólares (+1,16% en 24h) mientras los chips caían. Fear & Greed: 57 (Codicia). Dominancia BTC: 58,87%. Sin señales de rotación a alts.
+Seguile de cerca a METR: la gente que más sabe de supervisión de modelos eligió estar afuera de los labs, y ese organismo es el que va a definir cómo te van a auditar cuando uses IA en ASESP antes de 2028.
