@@ -150,14 +150,10 @@
     "2026-09-11",
     "2026-09-12",
     "2026-09-13",
-    "2026-09-14"
+    "2026-09-14",
+    "2026-09-15"
   ],
   "recent_titles": [
-    "Sony y Warner demandan a Anthropic por torrenting masivo de canciones. Dario nombrado en el juicio.",
-    "Mistral juntó €3.000 millones de Samsung. El mayor round privado europeo de la historia.",
-    "DeepMind metió 100 agentes a resolver matemáticas. Inventaron la trampa solos.",
-    "El primer fármaco diseñado por IA revirtió seis años de envejecimiento biológico.",
-    "Salesforce metió su CRM dentro de Claude. Lo llaman Claudeforce y apunta al stack enterprise.",
     "OpenAI resolvió Navier-Stokes. Y en el camino le robó el crédito a Anthropic.",
     "El alignment lead de Anthropic dice que la probabilidad de extinción supera el 10%.",
     "Meta lanzó un agente personal que quiere tu email, tu calendario y tu tarjeta. Se llama Muse.",
@@ -182,7 +178,12 @@
     "Los labs forman su propia casa de normas. Wall Street les mandó la factura enseguida.",
     "Dos investigadores de Anthropic y DeepMind salieron el mismo día. Llegaron al mismo lugar.",
     "Anthropic le ganó a OpenAI en ingresos. 11.500 millones en un trimestre.",
-    "El 88% de los pilotos de agentes IA no llegan a producción. Aun así, la adopción se duplicó."
+    "El 88% de los pilotos de agentes IA no llegan a producción. Aun así, la adopción se duplicó.",
+    "Altman, Amodei y Musk juntos para frenar la IA. El mercado les creyó a medias.",
+    "El sistema de IA de Medicare se lanzó apurado, con errores y atrasando cirugías.",
+    "Agentes de IA en sesiones largas: las reglas de compliance se evaporan solas.",
+    "iOS 27 llegó. La Siri de siempre no. Esta es otra.",
+    "Segundo investigador de un lab frontier renuncia y publica su alarma. Ya van dos en una semana."
   ],
   "days": {
     "2026-04-17": {
@@ -1809,6 +1810,17 @@
         "benchlm.ai"
       ],
       "tesis": "El lunes post-anuncio es brutalmente revelador: Anthropic reportó 11.500 millones en el trimestre y al mismo tiempo su investigador de seguridad más senior agarró la puerta."
+    },
+    "2026-09-15": {
+      "count": 5,
+      "sources": [
+        "bloomberg.com",
+        "statnews.com",
+        "venturebeat.com",
+        "arstechnica.com",
+        "thenextweb.com"
+      ],
+      "tesis": "Los tres CEOs más poderosos de la IA convergieron en pedir freno simultáneamente, y el mercado no supo si aplaudirles o venderles."
     }
   }
 }
