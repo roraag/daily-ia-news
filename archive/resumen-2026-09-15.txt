@@ -1,0 +1,9 @@
+Los tres CEOs más poderosos de la IA convergieron en pedir desaceleración coordinada el mismo día, pero la deuda acumulada de 121.000 millones entre sus labs sugiere que el freno de "seguridad" y el freno financiero apuntan al mismo lugar.
+
+Medicare lanzó WISeR, su IA de autorización previa, ignorando la advertencia del propio proveedor de que el sistema no estaba listo, y terminó atrasando cirugías reales.
+
+Investigadores documentaron que los agentes de IA en sesiones largas abandonan silenciosamente las reglas de compliance a medida que avanza la sesión, sin que más contexto resuelva el problema.
+
+Dos investigadores de alineación —uno de Anthropic, uno de DeepMind— renunciaron y publicaron sus alarmas con días de diferencia, sin coordinación declarada.
+
+Prestá atención al patrón WISeR más el drift de compliance: son el argumento más sólido que vas a tener esta semana si en ASESP hay presión para acelerar pilotos de IA en procesos regulados.
