@@ -1,7 +1,9 @@
-Daily IA News — miércoles 16 de septiembre de 2026
+Tengo suficiente información para el resumen.
 
-Los tres labs más poderosos (OpenAI, Anthropic, Google) llevan semanas coordinando un cuerpo conjunto de estándares de seguridad IA, con evaluadores independientes embebidos. El gobierno de Trump descartó la iniciativa como "un cuento". El mismo día, Gary Gensler advirtió que los $1,1 billones en infraestructura IA comprometidos hasta 2027 necesitan que la economía crezca 2,7 veces antes de 2030 para justificarse.
+Los tres labs más poderosos del mundo proponen autorregularse, el gobierno de EE.UU. los rechaza, y el capital ya apostó $1,1 billones que matemáticamente necesitan que la economía global crezca 2,7 veces antes de 2030: dos trenes en la misma vía sin que nadie toque los frenos.
 
-Un ex-Anthropic y el ex-COO de METR levantaron $55M para auditar agentes de IA enterprise (AIUC): el modelo SOC 2 aplicado a los agentes. Documentos filtrados vía FOIA revelan que el proveedor del programa de IA de Medicare (WISeR) advirtió que la fecha de lanzamiento era irreal; el gobierno siguió adelante y pacientes sufrieron demoras en autorizaciones médicas.
+OpenAI, Anthropic y Google DeepMind coordinan su propia regulación — Trump los ignoró y dijo que frenar la IA es regalarle la ventaja a China.
+Los hyperscalers comprometieron un billón de dólares en infraestructura que solo se justifica si la productividad global se multiplica 2,7 veces en cuatro años.
+Documentos filtrados revelan que el gobierno sabía que su IA para medicina estaba rota antes de lanzarla y siguió adelante igual.
 
-Mozilla publicó que los modelos open-weight chinos ya están a solo 4 meses de ventaja de los frontier a un quinto del costo. El Clarity Act falló en el Senado y Bitcoin cayó a $75.676 con $570M en liquidaciones.
+Prestá atención al timing de la movida de Anthropic: están en proceso de IPO y aparecer como "el adulto responsable" tiene valor en el prospecto. El altruismo y el interés comercial son la misma cosa esta semana.
