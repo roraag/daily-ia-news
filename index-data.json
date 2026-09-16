@@ -151,15 +151,10 @@
     "2026-09-12",
     "2026-09-13",
     "2026-09-14",
-    "2026-09-15"
+    "2026-09-15",
+    "2026-09-16"
   ],
   "recent_titles": [
-    "OpenAI resolvió Navier-Stokes. Y en el camino le robó el crédito a Anthropic.",
-    "El alignment lead de Anthropic dice que la probabilidad de extinción supera el 10%.",
-    "Meta lanzó un agente personal que quiere tu email, tu calendario y tu tarjeta. Se llama Muse.",
-    "DeepMind mapeó las 9.000 millones de variantes posibles del ADN humano. Gratis para ciencia.",
-    "Una startup danesa derrotó a GPT, Claude y Gemini en codificación médica. Con números, no benchmarks.",
-    "El 80% de los ingresos de OpenAI y Anthropic viene del 1% de clientes. Zitron lo puso en papel.",
     "Alibaba extrajo 200 millones de intercambios de Claude. Algunos venían del ejército chino.",
     "La FDA aprobó una IA que detecta infartos que los médicos pierden en el ECG.",
     "OpenAI lanzó la Agents API. Los agentes ya no desaparecen cuando cerrás la sesión.",
@@ -183,7 +178,12 @@
     "El sistema de IA de Medicare se lanzó apurado, con errores y atrasando cirugías.",
     "Agentes de IA en sesiones largas: las reglas de compliance se evaporan solas.",
     "iOS 27 llegó. La Siri de siempre no. Esta es otra.",
-    "Segundo investigador de un lab frontier renuncia y publica su alarma. Ya van dos en una semana."
+    "Segundo investigador de un lab frontier renuncia y publica su alarma. Ya van dos en una semana.",
+    "Los tres labs más poderosos quieren regularse solos. Trump dijo que no.",
+    "La IA apostó $1,1 billones. Para recuperarlos necesita que la economía crezca 2,7x.",
+    "Un ex-Anthropic y el ex-COO de METR quieren ser el SOC 2 de los agentes de IA.",
+    "Documentos filtrados: el gobierno sabía que su IA para medicina estaba rota antes de lanzarla.",
+    "El gap entre Claude y los open-weight cayó a 4 meses. El precio: 5 veces más."
   ],
   "days": {
     "2026-04-17": {
@@ -1821,6 +1821,16 @@
         "thenextweb.com"
       ],
       "tesis": "Los tres CEOs más poderosos de la IA convergieron en pedir freno simultáneamente, y el mercado no supo si aplaudirles o venderles."
+    },
+    "2026-09-16": {
+      "count": 5,
+      "sources": [
+        "techcrunch.com",
+        "technologyreview.com",
+        "statnews.com",
+        "arstechnica.com"
+      ],
+      "tesis": "Los tres labs más poderosos proponen regularse solos mientras el capital ya apostó $1,1 billones que necesitan 2,7x de productividad para justificarse."
     }
   }
 }

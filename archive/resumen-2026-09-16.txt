@@ -1,0 +1,7 @@
+Daily IA News — miércoles 16 de septiembre de 2026
+
+Los tres labs más poderosos (OpenAI, Anthropic, Google) llevan semanas coordinando un cuerpo conjunto de estándares de seguridad IA, con evaluadores independientes embebidos. El gobierno de Trump descartó la iniciativa como "un cuento". El mismo día, Gary Gensler advirtió que los $1,1 billones en infraestructura IA comprometidos hasta 2027 necesitan que la economía crezca 2,7 veces antes de 2030 para justificarse.
+
+Un ex-Anthropic y el ex-COO de METR levantaron $55M para auditar agentes de IA enterprise (AIUC): el modelo SOC 2 aplicado a los agentes. Documentos filtrados vía FOIA revelan que el proveedor del programa de IA de Medicare (WISeR) advirtió que la fecha de lanzamiento era irreal; el gobierno siguió adelante y pacientes sufrieron demoras en autorizaciones médicas.
+
+Mozilla publicó que los modelos open-weight chinos ya están a solo 4 meses de ventaja de los frontier a un quinto del costo. El Clarity Act falló en el Senado y Bitcoin cayó a $75.676 con $570M en liquidaciones.
