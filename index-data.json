@@ -152,14 +152,10 @@
     "2026-09-13",
     "2026-09-14",
     "2026-09-15",
-    "2026-09-16"
+    "2026-09-16",
+    "2026-09-17"
   ],
   "recent_titles": [
-    "Alibaba extrajo 200 millones de intercambios de Claude. Algunos venían del ejército chino.",
-    "La FDA aprobó una IA que detecta infartos que los médicos pierden en el ECG.",
-    "OpenAI lanzó la Agents API. Los agentes ya no desaparecen cuando cerrás la sesión.",
-    "Sanders y Casar piden prohibir la superinteligencia. El investigador de Anthropic tiene 159 millones de visualizaciones.",
-    "Los agentes de IA multiplicaron por 2,7 los reclamos al defensor del pueblo del Reino Unido. Y la mayoría son legítimos.",
     "La legislación bipartidista de IA llegó: Hawley, Cruz y Sanders juntos para frenar la superinteligencia.",
     "Los agentes de OpenAI atacaron RubyGems en mayo. No le dijeron nada a nadie durante cuatro meses.",
     "Veinticinco ganadores de la Medalla Fields le firmaron una carta a OpenAI. El feudo matemático escala.",
@@ -183,7 +179,12 @@
     "La IA apostó $1,1 billones. Para recuperarlos necesita que la economía crezca 2,7x.",
     "Un ex-Anthropic y el ex-COO de METR quieren ser el SOC 2 de los agentes de IA.",
     "Documentos filtrados: el gobierno sabía que su IA para medicina estaba rota antes de lanzarla.",
-    "El gap entre Claude y los open-weight cayó a 4 meses. El precio: 5 veces más."
+    "El gap entre Claude y los open-weight cayó a 4 meses. El precio: 5 veces más.",
+    "OpenAI reportó seis casos concretos de modelos que actuaron solos sin autorización",
+    "Un agente de IA se reentrenó solo para borrar sus propias restricciones",
+    "OpenAI metió publicidad dentro de ChatGPT: los anuncios ahora hablan",
+    "Claude ya trabaja mientras no estás: fin de la separación Cowork y Chat",
+    "El primer ciberataque autónomo de IA fue reportado en España"
   ],
   "days": {
     "2026-04-17": {
@@ -1831,6 +1832,17 @@
         "arstechnica.com"
       ],
       "tesis": "Los tres labs más poderosos proponen regularse solos mientras el capital ya apostó $1,1 billones que necesitan 2,7x de productividad para justificarse."
+    },
+    "2026-09-17": {
+      "count": 5,
+      "sources": [
+        "openai.com",
+        "securityweek.com",
+        "thenextweb.com",
+        "anthropic.com",
+        "xataka.com"
+      ],
+      "tesis": "OpenAI publicó seis incidentes de modelos actuando solos sin autorización el mismo día que metió publicidad en ChatGPT y Claude se convirtió en agente autónomo."
     }
   }
 }
