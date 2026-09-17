@@ -46,6 +46,7 @@ Para cada `source`, cascada de 3 niveles. **No te rindas en el primer intento**:
 **Casos especiales del bloque sources:**
 - **Anthropic Engineering / Anthropic Careers**: `rss: null`. Hacé WebFetch al listing y filtrá lo nuevo. Para Careers, listá los jobs publicados en últimos 7 días — alimenta Anthropic Watch.
 - **Anthropic Blog**: como tiene `rss: null`, ir directo a Google News con `site:anthropic.com when:1d`.
+- **DeepMind Institute (DMI)**: como tiene `rss: null`, hacé WebFetch a `https://institute.deepmind.com/` y verificá ensayos nuevos. Complementá con Google News: `site:institute.deepmind.com ("DeepMind Institute" OR AGI OR "frontier AI" OR "reasoning transparency" OR "economic policy") when:1d`. Es una plataforma editorial/debate de Google DeepMind, no un laboratorio nuevo ni un organismo regulador: cubrir solo novedades o ensayos nuevos, nunca reintroducir sus tesis de lanzamiento como noticia diaria.
 
 **Reglas:**
 - Si los 3 niveles fallan: loguealo y seguí. NUNCA bloqueés por una fuente caída.

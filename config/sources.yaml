@@ -83,6 +83,14 @@ sources:
     weight: 3
     language: en
 
+  - name: DeepMind Institute (DMI)
+    url: https://institute.deepmind.com/
+    rss: null
+    category: tech
+    weight: 3
+    language: en
+    notes: plataforma editorial de Google DeepMind sobre AGI; rastrear ensayos nuevos y cobertura de sus tesis sobre capacidad, seguridad, transparencia de razonamiento, gobernanza y transición económica
+
   - name: Google AI Blog
     url: https://ai.googleblog.com/
     rss: https://ai.googleblog.com/feeds/posts/default
