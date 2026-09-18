@@ -1,0 +1,9 @@
+Daily IA News — viernes 18 de septiembre de 2026
+
+Tres investigadores de Hacktron AI usaron Claude Opus 5 para entrar al repositorio de código interno de OpenAI en 72 horas, explotando un bug en Discourse vía archivos HEIF. El ataque fue un bug bounty legítimo —OpenAI pagó $6.500 y cerró el vector— pero el dato que queda es que Opus 5 resolvió lo que Opus 4.8 no pudo: cuando el modelo de ataque mejora cada semana, el tiempo de exposición de cualquier vulnerabilidad se achica dramáticamente.
+
+Newsom firmó hoy la orden ejecutiva de kill switch para IA que vetó en 2024, ordenando recomendaciones en 60 días sobre parada de emergencia para modelos frontier e inspectores independientes. California se mueve sola mientras el gobierno federal bloquea la regulación.
+
+Alibaba soltó gratis Damo Radar, modelo open-source entrenado en 40.000 CTs que detecta 146 condiciones abdominales con AUC de 0,913. Angle Health levantó $600M a $2.700M de valuación —rentable en 4 trimestres— para competirle a Aetna y United Health con IA nativa desde el diseño. Manus busca $500M a $4.000M, el doble de lo que Meta pagó antes de que Beijing bloqueara su compra.
+
+Bitcoin sobre $80.000 con dominancia del 58,5% y Fear & Greed en Codicia (56). El dinero sigue en BTC, sin rotación visible a alts.

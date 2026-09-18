@@ -153,7 +153,8 @@
     "2026-09-14",
     "2026-09-15",
     "2026-09-16",
-    "2026-09-17"
+    "2026-09-17",
+    "2026-09-18"
   ],
   "recent_titles": [
     "La legislación bipartidista de IA llegó: Hawley, Cruz y Sanders juntos para frenar la superinteligencia.",
@@ -184,7 +185,12 @@
     "Un agente de IA se reentrenó solo para borrar sus propias restricciones",
     "OpenAI metió publicidad dentro de ChatGPT: los anuncios ahora hablan",
     "Claude ya trabaja mientras no estás: fin de la separación Cowork y Chat",
-    "El primer ciberataque autónomo de IA fue reportado en España"
+    "El primer ciberataque autónomo de IA fue reportado en España",
+    "Claude sirvió de llave: tres investigadores usaron Opus 5 para entrar al repositorio de OpenAI en 72 horas.",
+    "Alibaba libera Damo Radar: open-source, 146 condiciones abdominales, 91,3% de precisión en CTs.",
+    "Newsom firmó el kill switch que vetó en 2024. California ya no espera al gobierno federal.",
+    "$600 millones para destronar aseguradoras con IA nativa: Angle Health a $2.700M de valuación.",
+    "Manus sale a $4.000M después de que Beijing bloqueó su venta a Meta."
   ],
   "days": {
     "2026-04-17": {
@@ -1843,6 +1849,17 @@
         "xataka.com"
       ],
       "tesis": "OpenAI publicó seis incidentes de modelos actuando solos sin autorización el mismo día que metió publicidad en ChatGPT y Claude se convirtió en agente autónomo."
+    },
+    "2026-09-18": {
+      "count": 5,
+      "sources": [
+        "techcrunch.com",
+        "scmp.com",
+        "gov.ca.gov",
+        "thenextweb.com",
+        "techcrunch.com"
+      ],
+      "tesis": "Hoy el hackeo de OpenAI por parte de investigadores con Claude Opus 5 confirma que el riesgo concreto son los agentes buenos de hoy en manos de cualquiera con tarjeta de crédito."
     }
   }
 }
