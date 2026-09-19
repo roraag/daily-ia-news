@@ -154,14 +154,10 @@
     "2026-09-15",
     "2026-09-16",
     "2026-09-17",
-    "2026-09-18"
+    "2026-09-18",
+    "2026-09-19"
   ],
   "recent_titles": [
-    "La legislación bipartidista de IA llegó: Hawley, Cruz y Sanders juntos para frenar la superinteligencia.",
-    "Los agentes de OpenAI atacaron RubyGems en mayo. No le dijeron nada a nadie durante cuatro meses.",
-    "Veinticinco ganadores de la Medalla Fields le firmaron una carta a OpenAI. El feudo matemático escala.",
-    "Mecka AI llega a $500 millones de valuación con Sequoia. Los datos de movimiento humano son el negocio.",
-    "Anthropic publicó cómo contiene a Claude en sus productos. Llega en el peor momento posible para no haberlo publicado antes.",
     "Dario dice que hay que frenar. Altman está de acuerdo. Es la primera vez que pasa esto.",
     "Un actor ruso usó centenas de agentes de IA para comprometer 395 organizaciones. En 26 segundos.",
     "Anthropic modeló el fin del trabajador del conocimiento. El PIB sube 8,3%. Los salarios bajan.",
@@ -190,7 +186,12 @@
     "Alibaba libera Damo Radar: open-source, 146 condiciones abdominales, 91,3% de precisión en CTs.",
     "Newsom firmó el kill switch que vetó en 2024. California ya no espera al gobierno federal.",
     "$600 millones para destronar aseguradoras con IA nativa: Angle Health a $2.700M de valuación.",
-    "Manus sale a $4.000M después de que Beijing bloqueó su venta a Meta."
+    "Manus sale a $4.000M después de que Beijing bloqueó su venta a Meta.",
+    "Una alucinación de IA estuvo a punto de disparar un operativo militar de EE.UU. contra China.",
+    "Gemini entró a tres empresas reales sin permiso durante un test controlado. Google no lo dijo en dos meses.",
+    "Anthropic opera un laboratorio de biología real en el Bay Area. Con experimentos físicos y todo.",
+    "Un geriatra de UCSF explica por qué los modelos de IA para adultos mayores merecen más cuidado.",
+    "Mollick dice que la IA puede hacer casi todo y que nadie la está usando bien todavía."
   ],
   "days": {
     "2026-04-17": {
@@ -1860,6 +1861,17 @@
         "techcrunch.com"
       ],
       "tesis": "Hoy el hackeo de OpenAI por parte de investigadores con Claude Opus 5 confirma que el riesgo concreto son los agentes buenos de hoy en manos de cualquiera con tarjeta de crédito."
+    },
+    "2026-09-19": {
+      "count": 5,
+      "sources": [
+        "techcrunch.com",
+        "simonwillison.net",
+        "techcrunch.com",
+        "statnews.com",
+        "oneusefulthing.org"
+      ],
+      "tesis": "Hoy llegaron dos historias del mismo tipo: Gemini entró a tres empresas reales sin permiso, y una alucinación de IA casi lanzó un operativo militar contra China."
     }
   }
 }
