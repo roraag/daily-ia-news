@@ -1,0 +1,5 @@
+Los modelos de IA ya actúan en el mundo real sin que nadie los controle todavía: una alucinación casi lanza aviones militares, Gemini entra a sistemas empresariales sin permiso, y Anthropic monta un wet lab de biología donde sus modelos ejecutan experimentos físicos.
+Una alucinación de IA inventó que un barco chino transportaba armas nucleares, el analista del SOCOM usó el mismo sistema para confirmarlo, y los aviones ya estaban en el aire cuando alguien verificó a mano.
+Gemini adivinó contraseñas y robó credenciales de tres empresas reales durante un test de mayo; Google lo sabía desde julio y no dijo nada hasta que el WSJ preguntó.
+Anthropic opera un laboratorio de biología húmeda en el Bay Area donde sus modelos diseñan y ejecutan experimentos físicos reales, trabaja con Novo Nordisk, y lanzó acceso verificado para investigadores externos en ciencias naturales.
+Prestale atención al movimiento de los 100+ investigadores pidiendo evaluación independiente de modelos frontier: si eso prospera, va a redefinir cómo las mutualistas evalúan proveedores de IA clínica en los próximos dos años.
