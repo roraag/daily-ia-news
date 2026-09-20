@@ -33,6 +33,13 @@ FECHA_ESP_LOWER=$(echo "$FECHA_ESP" | tr '[:upper:]' '[:lower:]')
 
 LOG_FILE="${LOG_DIR}/run-${FECHA_ISO}.log"
 
+# Una sola corrida puede modificar/publicar el repositorio a la vez.
+exec 9>"${LOG_DIR}/daily-pipeline.lock"
+if ! flock -n 9; then
+  echo "ERROR: otra corrida del Daily está activa" >> "$LOG_FILE"
+  exit 75
+fi
+
 # Idempotencia
 if [ -f "${PROJECT_DIR}/archive/${FECHA_ISO}.html" ]; then
   echo "[$(date '+%H:%M:%S')] Ya existe archive/${FECHA_ISO}.html — nada que hacer." >> "$LOG_FILE"
@@ -69,17 +76,43 @@ Rutas absolutas a usar en todo momento:
 
 FULL_PROMPT="${PROMPT_HEADER}$(cat "$PROMPT_FILE")"
 
-echo "[$(date '+%H:%M:%S')] Ejecutando claude..." >> "$LOG_FILE"
+# Reintentar SOLO una vez un corte transitorio del generador.
+# Publicación y resumen quedan fuera del bucle para no duplicarlos.
+run_generator() {
+  local attempt output rc retry_prompt
+  retry_prompt="$FULL_PROMPT
+No hagas git commit, git push ni publicaciones externas: eso lo hace el script al terminar."
+  for attempt in 1 2; do
+    output=$(mktemp "${LOG_DIR}/generator-${FECHA_ISO}-XXXXXX") || return 1
+    echo "[$(date '+%H:%M:%S')] Ejecutando claude (intento $attempt/2)..." >> "$LOG_FILE"
+    claude --print --permission-mode bypassPermissions \
+      --allowedTools "Read Write Edit Bash Glob Grep WebFetch WebSearch" \
+      --model sonnet --output-format text "$retry_prompt" > "$output" 2>&1
+    rc=$?
+    cat "$output" >> "$LOG_FILE"
+    if [ "$rc" -eq 0 ]; then
+      return 0
+    fi
+    # Leer únicamente la salida del intento actual, no errores viejos del log.
+    if [ "$attempt" -eq 2 ] || ! python3 - "$output" <<'PY'
+import re, sys
+from pathlib import Path
+text = Path(sys.argv[1]).read_text(errors='replace')
+auth = re.search(r'authentication_error|Failed to authenticate|OAuth.*expired|API Error: 401', text, re.I)
+transient = re.search(r'Stream idle timeout|API Error:.*(?:timeout|529|503|502)|ECONNRESET|ETIMEDOUT', text, re.I)
+sys.exit(0 if transient and not auth else 1)
+PY
+    then
+      return "$rc"
+    fi
+    echo "[$(date '+%H:%M:%S')] Corte transitorio: único reintento en 30 segundos." >> "$LOG_FILE"
+    sleep 30
+    retry_prompt="$FULL_PROMPT
+El intento anterior se interrumpió. Revisá los archivos parciales de hoy y completalos o corregilos; no des por terminado un HTML solo porque existe. No dupliques la fecha en index-data.json. No hagas git commit, git push ni publicaciones externas: eso lo hace el script al terminar."
+  done
+}
 
-claude \
-  --print \
-  --permission-mode bypassPermissions \
-  --allowedTools "Read Write Edit Bash Glob Grep WebFetch WebSearch" \
-  --model sonnet \
-  --output-format text \
-  "$FULL_PROMPT" \
-  >> "$LOG_FILE" 2>&1
-
+run_generator
 EXIT_CODE=$?
 
 # Sync ARCHIVE_DATA en HTML viejos
