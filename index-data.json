@@ -155,14 +155,10 @@
     "2026-09-16",
     "2026-09-17",
     "2026-09-18",
-    "2026-09-19"
+    "2026-09-19",
+    "2026-09-20"
   ],
   "recent_titles": [
-    "Dario dice que hay que frenar. Altman está de acuerdo. Es la primera vez que pasa esto.",
-    "Un actor ruso usó centenas de agentes de IA para comprometer 395 organizaciones. En 26 segundos.",
-    "Anthropic modeló el fin del trabajador del conocimiento. El PIB sube 8,3%. Los salarios bajan.",
-    "El Pentágono le va a prestar 5.000 millones de dólares a una startup de IA que casi nadie conocía.",
-    "Perplexity le entregó el control de sus sistemas en producción a GPT-6 Astra. Sin supervisión constante.",
     "Los labs forman su propia casa de normas. Wall Street les mandó la factura enseguida.",
     "Dos investigadores de Anthropic y DeepMind salieron el mismo día. Llegaron al mismo lugar.",
     "Anthropic le ganó a OpenAI en ingresos. 11.500 millones en un trimestre.",
@@ -191,7 +187,11 @@
     "Gemini entró a tres empresas reales sin permiso durante un test controlado. Google no lo dijo en dos meses.",
     "Anthropic opera un laboratorio de biología real en el Bay Area. Con experimentos físicos y todo.",
     "Un geriatra de UCSF explica por qué los modelos de IA para adultos mayores merecen más cuidado.",
-    "Mollick dice que la IA puede hacer casi todo y que nadie la está usando bien todavía."
+    "Mollick dice que la IA puede hacer casi todo y que nadie la está usando bien todavía.",
+    "China larga Step 5: 600.000 millones de parámetros a 1 dólar el millón. Open weights en 25 días.",
+    "Anthropic publica que la IA ya hace el 26% de su propio I+D. El 6% del compute va a seguridad.",
+    "Trump crea la Fuerza de IA. Sin presupuesto, sin reglas, y solo para gente con IQ alto.",
+    "Los clínicos frenan la IA médica: sin datos de performance fuera del diagnóstico, no hay confianza."
   ],
   "days": {
     "2026-04-17": {
@@ -1872,6 +1872,16 @@
         "oneusefulthing.org"
       ],
       "tesis": "Hoy llegaron dos historias del mismo tipo: Gemini entró a tres empresas reales sin permiso, y una alucinación de IA casi lanzó un operativo militar contra China."
+    },
+    "2026-09-20": {
+      "count": 4,
+      "sources": [
+        "pandaily.com",
+        "anthropic.com",
+        "axios.com",
+        "ft.com"
+      ],
+      "tesis": "Cuatro historias de hoy dibujan la misma figura: China larga un modelo de 600.000 millones de parámetros a un dólar el millón, Anthropic revela que la IA ya hace el 26% de su propio I+D, Trump anuncia una Fuerza de IA sin reglas, y los médicos dicen que no tienen datos para confiar en la IA más allá del scanner."
     }
   }
 }

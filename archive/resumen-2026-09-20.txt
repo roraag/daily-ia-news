@@ -1,0 +1,9 @@
+La aceleración y la rendición de cuentas siguen caminos separados: China abarata la frontera, Anthropic expone sus métricas internas por primera vez, y Washington crea estructura sin reglas.
+
+China lanza Step 5 con 600.000 millones de parámetros a 1 dólar el millón y promete liberar los pesos el 15 de octubre.
+
+Anthropic revela que la IA ya hace el 26% de su propio I+D y destina apenas el 6% del compute a seguridad.
+
+Trump crea una Fuerza de IA sin presupuesto ni marco regulatorio, ignorando los pedidos de Altman y Amodei de frenar el ritmo.
+
+Prestale atención al reporte de transparencia de Anthropic: es el primer intento concreto de medir cuánto control humano queda en el desarrollo de los modelos más poderosos del mundo, y el número que van a usar para rendir cuentas de acá en más.
