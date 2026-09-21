@@ -1,0 +1,9 @@
+Las instituciones arrancaron la semana reaccionando al caos agéntico: un teléfono rojo diplomático entre EE.UU. y China, una guía de la OMS para salud, y Anthropic abriendo sus propias métricas internas — siempre un paso atrás del problema, pero esta vez con datos reales.
+
+EE.UU. y China acordaron un canal de alerta mutua para incidentes de IA antes de la cumbre Trump-Xi — no es señal de confianza, es señal de que los dos gobiernos ya aceptaron que algo puede pasar que ninguno va a controlar del todo.
+
+Anthropic publicó que Claude lidera el 26% de su propio I+D, pasando de menos del 1% en febrero — en seis meses, con 30.000 agentes activos y propuesta de evaluadores independientes para verificar las métricas.
+
+El mercado laboral confirmó la bifurcación: los roles expuestos a IA cobran 46% más, los despidos por automatización subieron por cuarto trimestre, y la diferencia la marca quién dirige los agentes vs. quién trabaja para ellos.
+
+Prestá atención al bloqueo de Amazon al agente de shopping de Meta — es el primer movimiento formal de una plataforma grande cerrando el paso a un agente competidor, y el patrón va a repetirse en salud antes de lo que parece.
