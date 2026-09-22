@@ -1,0 +1,9 @@
+La IA avanza en capacidad y se queda sin gobierno: OpenAI anuncia que resolvió más de cien problemas matemáticos abiertos incluyendo Navier-Stokes, y el mismo día veinte países le piden a la ONU que la controle, pero ninguno de los dos movimientos tiene dientes.
+
+OpenAI anunció que un modelo interno resolvió Navier-Stokes y más de cien problemas matemáticos de larga data sin publicar un solo resultado verificable.
+
+Veinte países proponen en la AGNU un organismo global para supervisar la IA, pero China y EE.UU. no firmaron y la propuesta no tiene mecanismo de enforcement.
+
+Harvey y Abridge migran de GPT-6 a Kimi K3 chino porque los costos de inferencia de los modelos propietarios se comen los márgenes, y eso cambia la pregunta que tenés que hacerle a cualquier proveedor de IA en salud.
+
+Prestale atención a Anthropic esta semana: publicaron las métricas de pacing con URL y metodología, y cerraron el primer cliente Big Pharma que nombra Claude Science en un comunicado oficial. Si los otros labs no replican esas métricas en 60 días, Anthropic gana la narrativa de transparencia por default.

@@ -157,14 +157,10 @@
     "2026-09-18",
     "2026-09-19",
     "2026-09-20",
-    "2026-09-21"
+    "2026-09-21",
+    "2026-09-22"
   ],
   "recent_titles": [
-    "El 88% de los pilotos de agentes IA no llegan a producción. Aun así, la adopción se duplicó.",
-    "Altman, Amodei y Musk juntos para frenar la IA. El mercado les creyó a medias.",
-    "El sistema de IA de Medicare se lanzó apurado, con errores y atrasando cirugías.",
-    "Agentes de IA en sesiones largas: las reglas de compliance se evaporan solas.",
-    "iOS 27 llegó. La Siri de siempre no. Esta es otra.",
     "Segundo investigador de un lab frontier renuncia y publica su alarma. Ya van dos en una semana.",
     "Los tres labs más poderosos quieren regularse solos. Trump dijo que no.",
     "La IA apostó $1,1 billones. Para recuperarlos necesita que la economía crezca 2,7x.",
@@ -194,7 +190,12 @@
     "Anthropic abre el capó: Claude ya lidera el 26% de su propio I+D y hay 30.000 agentes activos",
     "La OMS publicó su guía de supervisión ética de la IA en salud. Llegó tarde, pero llegó.",
     "Los roles con IA cobran 46% más y los despidos también subieron. Eso no es contradicción — es selección.",
-    "Amazon bloqueó a los agentes de Meta. El mercado de shopping agéntico tiene sus primeras fronteras."
+    "Amazon bloqueó a los agentes de Meta. El mercado de shopping agéntico tiene sus primeras fronteras.",
+    "La IA de OpenAI resolvió uno de los siete Problemas del Milenio. Y más de 100 otros abiertos.",
+    "Veinte países piden a la ONU un organismo global para controlar la IA. China y EE.UU. no firmaron.",
+    "China tiene el doble de descargas de modelos abiertos que EE.UU. y los tres mejores son chinos",
+    "Harvey y Abridge salen de los modelos propietarios: Kimi K3 les da el mismo resultado a la mitad del costo",
+    "Epic lanza autorización previa en tiempo real en cuatro hospitales. El trámite más odiado de la salud digital, cinco meses antes"
   ],
   "days": {
     "2026-04-17": {
@@ -1896,6 +1897,17 @@
         "geekwire.com"
       ],
       "tesis": "Dos superpotencias proponen un teléfono rojo de IA, Anthropic abre el capó con datos reales, y el mercado laboral ya empezó a filtrar."
+    },
+    "2026-09-22": {
+      "count": 5,
+      "sources": [
+        "techcrunch.com",
+        "aljazeera.com",
+        "interconnects.ai",
+        "thenextweb.com",
+        "fiercehealthcare.com"
+      ],
+      "tesis": "Hoy el campo de la IA puso su capacidad y su gobierno sobre la mesa al mismo tiempo, y los dos llegaron incompletos."
     }
   }
 }
