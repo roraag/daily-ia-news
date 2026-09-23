@@ -1,0 +1,7 @@
+Anthropic y OpenAI lanzaron modelos nuevos el mismo día bajando precios, arrancando en serio la guerra de costos de APIs de IA, mientras MIT Technology Review documenta que la IA ya desplegada en la frontera de EE.UU. acumuló 1.050 muertes documentadas en once años.
+
+Anthropic lanza Opus 5.5 con rendimiento equivalente a Fable 5.1 al 40% menos de precio y 60% menos en input cacheada.
+OpenAI declara la guerra de precios con GPT-6 Sol y Luna: Luna corre a $0,10 el millón de tokens, el modelo más barato de su historia.
+MIT Technology Review documenta que las torres de vigilancia con IA en la frontera de EE.UU. fallaron durante 1.050 muertes en once años con $25.000 millones gastados.
+
+Si tenés decisiones de arquitectura esperando que baje el costo de API, hoy es el momento de recalcular: los dos labs más grandes del mercado acaban de mover el piso al mismo tiempo.

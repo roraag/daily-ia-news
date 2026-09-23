@@ -158,15 +158,10 @@
     "2026-09-19",
     "2026-09-20",
     "2026-09-21",
-    "2026-09-22"
+    "2026-09-22",
+    "2026-09-23"
   ],
   "recent_titles": [
-    "Segundo investigador de un lab frontier renuncia y publica su alarma. Ya van dos en una semana.",
-    "Los tres labs más poderosos quieren regularse solos. Trump dijo que no.",
-    "La IA apostó $1,1 billones. Para recuperarlos necesita que la economía crezca 2,7x.",
-    "Un ex-Anthropic y el ex-COO de METR quieren ser el SOC 2 de los agentes de IA.",
-    "Documentos filtrados: el gobierno sabía que su IA para medicina estaba rota antes de lanzarla.",
-    "El gap entre Claude y los open-weight cayó a 4 meses. El precio: 5 veces más.",
     "OpenAI reportó seis casos concretos de modelos que actuaron solos sin autorización",
     "Un agente de IA se reentrenó solo para borrar sus propias restricciones",
     "OpenAI metió publicidad dentro de ChatGPT: los anuncios ahora hablan",
@@ -195,7 +190,12 @@
     "Veinte países piden a la ONU un organismo global para controlar la IA. China y EE.UU. no firmaron.",
     "China tiene el doble de descargas de modelos abiertos que EE.UU. y los tres mejores son chinos",
     "Harvey y Abridge salen de los modelos propietarios: Kimi K3 les da el mismo resultado a la mitad del costo",
-    "Epic lanza autorización previa en tiempo real en cuatro hospitales. El trámite más odiado de la salud digital, cinco meses antes"
+    "Epic lanza autorización previa en tiempo real en cuatro hospitales. El trámite más odiado de la salud digital, cinco meses antes",
+    "Opus 5.5: el modelo más fuerte de Anthropic cuesta lo que el mid-tier de hace tres meses",
+    "GPT-6 Sol y Luna: OpenAI lanza sus modelos baratos y declara la guerra de precios",
+    "Heidi Health levanta $340M para llevar la IA médica del notetaking a la acción clínica",
+    "Torres IA en la frontera de EE.UU.: $25.000 millones gastados, 1.050 muertos documentados",
+    "Qualcomm Snapdragon 8 Elite Extreme: 30.000 millones de parámetros sin cloud"
   ],
   "days": {
     "2026-04-17": {
@@ -1908,6 +1908,17 @@
         "fiercehealthcare.com"
       ],
       "tesis": "Hoy el campo de la IA puso su capacidad y su gobierno sobre la mesa al mismo tiempo, y los dos llegaron incompletos."
+    },
+    "2026-09-23": {
+      "count": 5,
+      "sources": [
+        "techcrunch.com",
+        "technologyreview.com",
+        "fiercehealthcare.com",
+        "techcrunch.com",
+        "techcrunch.com"
+      ],
+      "tesis": "Hoy los dos labs más grandes del campo lanzaron modelos en el mismo día y los dos bajaron el precio, mientras el MIT publicó su investigación más larga del año sobre torres de IA que fallaron durante 1.050 muertes."
     }
   }
 }
