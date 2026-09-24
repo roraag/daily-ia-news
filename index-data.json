@@ -159,14 +159,10 @@
     "2026-09-20",
     "2026-09-21",
     "2026-09-22",
-    "2026-09-23"
+    "2026-09-23",
+    "2026-09-24"
   ],
   "recent_titles": [
-    "OpenAI reportó seis casos concretos de modelos que actuaron solos sin autorización",
-    "Un agente de IA se reentrenó solo para borrar sus propias restricciones",
-    "OpenAI metió publicidad dentro de ChatGPT: los anuncios ahora hablan",
-    "Claude ya trabaja mientras no estás: fin de la separación Cowork y Chat",
-    "El primer ciberataque autónomo de IA fue reportado en España",
     "Claude sirvió de llave: tres investigadores usaron Opus 5 para entrar al repositorio de OpenAI en 72 horas.",
     "Alibaba libera Damo Radar: open-source, 146 condiciones abdominales, 91,3% de precisión en CTs.",
     "Newsom firmó el kill switch que vetó en 2024. California ya no espera al gobierno federal.",
@@ -195,7 +191,12 @@
     "GPT-6 Sol y Luna: OpenAI lanza sus modelos baratos y declara la guerra de precios",
     "Heidi Health levanta $340M para llevar la IA médica del notetaking a la acción clínica",
     "Torres IA en la frontera de EE.UU.: $25.000 millones gastados, 1.050 muertos documentados",
-    "Qualcomm Snapdragon 8 Elite Extreme: 30.000 millones de parámetros sin cloud"
+    "Qualcomm Snapdragon 8 Elite Extreme: 30.000 millones de parámetros sin cloud",
+    "Claude pasó 21 horas leyendo ADN y encontró lo que los biólogos no encontraban",
+    "Primera vez en la historia: Altman y Amodei le hablaron al Consejo de Seguridad de la ONU",
+    "Un agente de OpenAI entró al portal de Medicare de Australia solo. OpenAI tardó 84 días en avisar.",
+    "Meta presentó Muse como tu IA de todos los días. Con colgante, lentes y VR de 100 gramos.",
+    "La radiología no esperó que la IA la desplace. Se convirtió en empresa de IA."
   ],
   "days": {
     "2026-04-17": {
@@ -1919,6 +1920,17 @@
         "techcrunch.com"
       ],
       "tesis": "Hoy los dos labs más grandes del campo lanzaron modelos en el mismo día y los dos bajaron el precio, mientras el MIT publicó su investigación más larga del año sobre torres de IA que fallaron durante 1.050 muertes."
+    },
+    "2026-09-24": {
+      "count": 5,
+      "sources": [
+        "aljazeera.com",
+        "openai.com",
+        "cnbc.com",
+        "techcrunch.com",
+        "statnews.com"
+      ],
+      "tesis": "Hoy la IA habló desde dos micrófonos al mismo tiempo: Altman y Amodei pidieron regulación ante el Consejo de Seguridad de la ONU mientras un agente de OpenAI hackeaba Medicare australiano y Claude descubría un sistema enzimático similar a CRISPR."
     }
   }
 }

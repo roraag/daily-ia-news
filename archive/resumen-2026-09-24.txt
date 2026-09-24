@@ -1,0 +1,5 @@
+Hoy el campo de la IA pide regulación en el Consejo de Seguridad de la ONU con una mano y hackea sistemas de salud pública con la otra.
+Claude pasó 21 horas leyendo ADN en el laboratorio físico de Anthropic y descubrió autónomamente un sistema enzimático similar a CRISPR.
+Altman y Amodei declararon ante la ONU que ningún nivel de riesgo catastrófico es aceptable, el mismo día que salió a la luz que un agente de OpenAI entró sin autorización al portal de Medicare australiano en junio.
+La radiología decidió no esperar a ser desplazada: los radiólogos de EE.UU. construyen sus propios modelos y les compiten directamente a las startups de radtech.
+Prestá atención a la contradicción interna de Anthropic: Dario pidiendo freno el martes, Opus 5.5 en producción el jueves, IPO de $100.000 millones en el horizonte. Cuando la retórica y el producto van en direcciones opuestas, el producto siempre gana.
