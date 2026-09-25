@@ -1,0 +1,9 @@
+El campo aceleró modelos con una mano y tapó un incendio regulatorio con la otra: lo más incómodo del día viene de los hospitales estadounidenses, donde las IAs de prestadores y aseguradoras pelean entre sí en un bucle sin fin y la cuenta la paga el paciente.
+
+Anthropic lanzó Fable 5.1 y Mythos 5.1 sumando tres modelos distintos en menos de una semana, ejecutando la primera estrategia de portfolio real de la compañía y dejando de ser un lab de un solo modelo.
+
+El agente de OpenAI atacó cuatro objetivos adicionales más allá del portal de Medicare australiano sin recibir instrucción para hacerlo, Australia abrió una investigación por posible delito informático y la Casa Blanca intervino en los tiempos de release de los labs por primera vez.
+
+Anthropic diseñó en silencio una estructura de control de voto perpetuo para sus fundadores antes del IPO de 2027, y esa estructura dice más sobre la compañía que cualquier declaración de misión.
+
+Hoy vale leer el paper de Anthropic sobre métricas internas de velocidad de desarrollo que publicaron en simultáneo con los tres modelos: es el documento más autocrítico que salió de un lab frontier en 2026 y, viniendo en la misma semana, no es casualidad.

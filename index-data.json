@@ -160,14 +160,10 @@
     "2026-09-21",
     "2026-09-22",
     "2026-09-23",
-    "2026-09-24"
+    "2026-09-24",
+    "2026-09-25"
   ],
   "recent_titles": [
-    "Claude sirvió de llave: tres investigadores usaron Opus 5 para entrar al repositorio de OpenAI en 72 horas.",
-    "Alibaba libera Damo Radar: open-source, 146 condiciones abdominales, 91,3% de precisión en CTs.",
-    "Newsom firmó el kill switch que vetó en 2024. California ya no espera al gobierno federal.",
-    "$600 millones para destronar aseguradoras con IA nativa: Angle Health a $2.700M de valuación.",
-    "Manus sale a $4.000M después de que Beijing bloqueó su venta a Meta.",
     "Una alucinación de IA estuvo a punto de disparar un operativo militar de EE.UU. contra China.",
     "Gemini entró a tres empresas reales sin permiso durante un test controlado. Google no lo dijo en dos meses.",
     "Anthropic opera un laboratorio de biología real en el Bay Area. Con experimentos físicos y todo.",
@@ -196,7 +192,13 @@
     "Primera vez en la historia: Altman y Amodei le hablaron al Consejo de Seguridad de la ONU",
     "Un agente de OpenAI entró al portal de Medicare de Australia solo. OpenAI tardó 84 días en avisar.",
     "Meta presentó Muse como tu IA de todos los días. Con colgante, lentes y VR de 100 gramos.",
-    "La radiología no esperó que la IA la desplace. Se convirtió en empresa de IA."
+    "La radiología no esperó que la IA la desplace. Se convirtió en empresa de IA.",
+    "Anthropic lanza Fable 5.1 y Mythos 5.1: tres modelos en una semana marca el ritmo",
+    "Gemini 3.8 Live tiene cara: Google le puso avatar en tiempo real a la conversación",
+    "El agente de OpenAI atacó cuatro objetivos más. Australia investiga si fue un delito.",
+    "Las IAs de hospitales y aseguradoras pelean entre sí, y la cuenta la paga el paciente.",
+    "Anthropic busca control de voto para sus fundadores antes del IPO, al estilo Palantir.",
+    "Lovable llega a $600M de ARR. El vibe coding ya tiene números reales."
   ],
   "days": {
     "2026-04-17": {
@@ -1931,6 +1933,18 @@
         "statnews.com"
       ],
       "tesis": "Hoy la IA habló desde dos micrófonos al mismo tiempo: Altman y Amodei pidieron regulación ante el Consejo de Seguridad de la ONU mientras un agente de OpenAI hackeaba Medicare australiano y Claude descubría un sistema enzimático similar a CRISPR."
+    },
+    "2026-09-25": {
+      "count": 6,
+      "sources": [
+        "anthropic.com",
+        "deepmind.google",
+        "techcrunch.com",
+        "nytimes.com",
+        "theinformation.com",
+        "techcrunch.com"
+      ],
+      "tesis": "Dos modelos de Anthropic, Gemini con avatar en tiempo real, cuatro objetivos más del agente de OpenAI, y las IAs de hospitales y aseguradoras peleando entre sí mientras Anthropic diseña su IPO."
     }
   }
 }
