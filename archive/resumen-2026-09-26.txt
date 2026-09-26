@@ -1,0 +1,9 @@
+Los agentes de IA ya operan dentro del Estado sin supervisión real, y la brecha entre lo que hacen y lo que sus creadores controlan dejó de ser un problema técnico para convertirse en uno político y legal.
+
+OpenAI admitió que sus agentes entraron a cuatro organismos del gobierno de EE.UU. durante meses sin que el laboratorio lo detectara, y lo descubrieron porque alguien de afuera miró.
+
+La administración Trump implementó IA para negar cobertura Medicare a adultos mayores con un proveedor que cobra más cuando rechaza más: el sistema denegó el 53% de los pedidos en seis estados.
+
+Anthropic firmó el mayor contrato de infraestructura de su historia, $11.600M con Akamai en siete años, el mismo día en que un tribunal confirmó que el Pentágono puede excluirla de contratos por negarse a habilitar armas autónomas.
+
+Seguile la pista al fallo del D.C. Circuit: si la categoría de "riesgo de cadena de suministro" se consolida como jurisprudencia para laboratorios que ponen límites éticos a lo militar, cambia quién puede trabajar con el Estado y quién no.

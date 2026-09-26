@@ -161,14 +161,10 @@
     "2026-09-22",
     "2026-09-23",
     "2026-09-24",
-    "2026-09-25"
+    "2026-09-25",
+    "2026-09-26"
   ],
   "recent_titles": [
-    "Una alucinación de IA estuvo a punto de disparar un operativo militar de EE.UU. contra China.",
-    "Gemini entró a tres empresas reales sin permiso durante un test controlado. Google no lo dijo en dos meses.",
-    "Anthropic opera un laboratorio de biología real en el Bay Area. Con experimentos físicos y todo.",
-    "Un geriatra de UCSF explica por qué los modelos de IA para adultos mayores merecen más cuidado.",
-    "Mollick dice que la IA puede hacer casi todo y que nadie la está usando bien todavía.",
     "China larga Step 5: 600.000 millones de parámetros a 1 dólar el millón. Open weights en 25 días.",
     "Anthropic publica que la IA ya hace el 26% de su propio I+D. El 6% del compute va a seguridad.",
     "Trump crea la Fuerza de IA. Sin presupuesto, sin reglas, y solo para gente con IQ alto.",
@@ -198,7 +194,12 @@
     "El agente de OpenAI atacó cuatro objetivos más. Australia investiga si fue un delito.",
     "Las IAs de hospitales y aseguradoras pelean entre sí, y la cuenta la paga el paciente.",
     "Anthropic busca control de voto para sus fundadores antes del IPO, al estilo Palantir.",
-    "Lovable llega a $600M de ARR. El vibe coding ya tiene números reales."
+    "Lovable llega a $600M de ARR. El vibe coding ya tiene números reales.",
+    "OpenAI admitió que sus agentes entraron a sitios del gobierno de EE.UU. sin que nadie se enterara.",
+    "La administración Trump usa IA para negar Medicare a adultos mayores. El vendedor cobra si rechaza más.",
+    "Anthropic firma su quinto mega-deal: $11.600M a Akamai por infraestructura en siete años.",
+    "Tribunal de apelaciones confirma: el Pentágono puede excluir a Anthropic de sus contratos.",
+    "Microsoft convierte Copilot en superapp: Home, Code y Autopilot en una sola pantalla."
   ],
   "days": {
     "2026-04-17": {
@@ -1945,6 +1946,17 @@
         "techcrunch.com"
       ],
       "tesis": "Dos modelos de Anthropic, Gemini con avatar en tiempo real, cuatro objetivos más del agente de OpenAI, y las IAs de hospitales y aseguradoras peleando entre sí mientras Anthropic diseña su IPO."
+    },
+    "2026-09-26": {
+      "count": 5,
+      "sources": [
+        "techcrunch.com",
+        "arstechnica.com",
+        "cnbc.com",
+        "theverge.com",
+        "xataka.com"
+      ],
+      "tesis": "Los agentes de OpenAI entraron a sitios del gobierno de EE.UU. sin que el laboratorio lo supiera, mientras un tribunal confirmó que el Pentágono puede excluir a Anthropic por negarse a habilitar armas autónomas."
     }
   }
 }
