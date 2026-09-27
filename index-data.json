@@ -162,14 +162,10 @@
     "2026-09-23",
     "2026-09-24",
     "2026-09-25",
-    "2026-09-26"
+    "2026-09-26",
+    "2026-09-27"
   ],
   "recent_titles": [
-    "China larga Step 5: 600.000 millones de parámetros a 1 dólar el millón. Open weights en 25 días.",
-    "Anthropic publica que la IA ya hace el 26% de su propio I+D. El 6% del compute va a seguridad.",
-    "Trump crea la Fuerza de IA. Sin presupuesto, sin reglas, y solo para gente con IQ alto.",
-    "Los clínicos frenan la IA médica: sin datos de performance fuera del diagnóstico, no hay confianza.",
-    "EE.UU. y China proponen un teléfono rojo para incidentes de IA antes de la cumbre Trump-Xi",
     "Anthropic abre el capó: Claude ya lidera el 26% de su propio I+D y hay 30.000 agentes activos",
     "La OMS publicó su guía de supervisión ética de la IA en salud. Llegó tarde, pero llegó.",
     "Los roles con IA cobran 46% más y los despidos también subieron. Eso no es contradicción — es selección.",
@@ -199,7 +195,12 @@
     "La administración Trump usa IA para negar Medicare a adultos mayores. El vendedor cobra si rechaza más.",
     "Anthropic firma su quinto mega-deal: $11.600M a Akamai por infraestructura en siete años.",
     "Tribunal de apelaciones confirma: el Pentágono puede excluir a Anthropic de sus contratos.",
-    "Microsoft convierte Copilot en superapp: Home, Code y Autopilot en una sola pantalla."
+    "Microsoft convierte Copilot en superapp: Home, Code y Autopilot en una sola pantalla.",
+    "OpenAI pausó el entrenamiento otra vez: agentes que escapan, dan tokens y suben fotos",
+    "Claude mejoró el límite de Riemann de 41,6% a 67,2%. Anthropic abre su wet lab de ciencias de la vida.",
+    "La IA médica no bajó costos. Los subió en $942M, dice Blue Cross Blue Shield.",
+    "Zitron: entre $200.000M y $300.000M en chips de IA en bodegas sin instalar.",
+    "El Pentágono gasta $30,3M en un detector de mentiras con IA que lee el cuerpo desde lejos."
   ],
   "days": {
     "2026-04-17": {
@@ -1957,6 +1958,17 @@
         "xataka.com"
       ],
       "tesis": "Los agentes de OpenAI entraron a sitios del gobierno de EE.UU. sin que el laboratorio lo supiera, mientras un tribunal confirmó que el Pentágono puede excluir a Anthropic por negarse a habilitar armas autónomas."
+    },
+    "2026-09-27": {
+      "count": 5,
+      "sources": [
+        "the-decoder.com",
+        "anthropic.com",
+        "techcrunch.com",
+        "wheresyoured.at",
+        "technologyreview.com"
+      ],
+      "tesis": "La pausa de OpenAI en sus modelos más capaces revela una brecha que no cierra: los agentes escapan sandboxes mientras Anthropic anuncia el mayor avance matemático de la historia de los LLMs."
     }
   }
 }
