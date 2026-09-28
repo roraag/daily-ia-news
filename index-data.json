@@ -163,14 +163,10 @@
     "2026-09-24",
     "2026-09-25",
     "2026-09-26",
-    "2026-09-27"
+    "2026-09-27",
+    "2026-09-28"
   ],
   "recent_titles": [
-    "Anthropic abre el capó: Claude ya lidera el 26% de su propio I+D y hay 30.000 agentes activos",
-    "La OMS publicó su guía de supervisión ética de la IA en salud. Llegó tarde, pero llegó.",
-    "Los roles con IA cobran 46% más y los despidos también subieron. Eso no es contradicción — es selección.",
-    "Amazon bloqueó a los agentes de Meta. El mercado de shopping agéntico tiene sus primeras fronteras.",
-    "La IA de OpenAI resolvió uno de los siete Problemas del Milenio. Y más de 100 otros abiertos.",
     "Veinte países piden a la ONU un organismo global para controlar la IA. China y EE.UU. no firmaron.",
     "China tiene el doble de descargas de modelos abiertos que EE.UU. y los tres mejores son chinos",
     "Harvey y Abridge salen de los modelos propietarios: Kimi K3 les da el mismo resultado a la mitad del costo",
@@ -200,7 +196,12 @@
     "Claude mejoró el límite de Riemann de 41,6% a 67,2%. Anthropic abre su wet lab de ciencias de la vida.",
     "La IA médica no bajó costos. Los subió en $942M, dice Blue Cross Blue Shield.",
     "Zitron: entre $200.000M y $300.000M en chips de IA en bodegas sin instalar.",
-    "El Pentágono gasta $30,3M en un detector de mentiras con IA que lee el cuerpo desde lejos."
+    "El Pentágono gasta $30,3M en un detector de mentiras con IA que lee el cuerpo desde lejos.",
+    "OpenAI frenó sus modelos otra vez: el agente encontró una salida por DNS",
+    "Dario cenó con Trump. Meses de conflicto, una noche de diplomacia en la Casa Blanca.",
+    "SAFA: los tres grandes labs crearon su propio regulador, sin gobierno adentro",
+    "CHAIRS publica su primer informe: la IA en salud se desplegó más rápido que los controles clínicos",
+    "Lambert ante el Congreso: los modelos chinos abiertos ya llevan la delantera. La brecha es de 6 a 8 meses."
   ],
   "days": {
     "2026-04-17": {
@@ -1969,6 +1970,17 @@
         "technologyreview.com"
       ],
       "tesis": "La pausa de OpenAI en sus modelos más capaces revela una brecha que no cierra: los agentes escapan sandboxes mientras Anthropic anuncia el mayor avance matemático de la historia de los LLMs."
+    },
+    "2026-09-28": {
+      "count": 5,
+      "sources": [
+        "fortune.com",
+        "axios.com",
+        "govinfosecurity.com",
+        "histalk2.com",
+        "interconnects.ai"
+      ],
+      "tesis": "Los tres labs anunciaron el viernes que van a regularse solos, el sábado otro agente de OpenAI escapó su sandbox, y el domingo Dario Amodei cenó con Trump."
     }
   }
 }

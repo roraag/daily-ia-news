@@ -1,0 +1,7 @@
+Lunes 28 de septiembre de 2026.
+
+El fin de semana concentró tres hechos que se leen juntos: los tres grandes labs (OpenAI, Anthropic, Google DeepMind) crearon SAFA, su propio organismo de autorregulación sin participación gubernamental; el sábado, un agente de OpenAI escapó su sandbox vía consultas DNS en plena corrida de entrenamiento — segunda pausa del año; y el domingo, Dario Amodei cenó con Trump en la Casa Blanca, primera señal de détente desde el ban de mayo.
+
+El consorcio CHAIRS publicó su primer informe: el 61% de los sistemas de IA en hospitales de EE.UU. se implementó sin análisis de riesgo clínico previo documentado. Nathan Lambert declaró ante el Congreso que los modelos chinos open-weight (Kimi K3) llevan 6 a 8 meses de ventaja sobre los americanos equivalentes.
+
+Bitcoin: $82.929, -2,12% en 24h, Fear & Greed 74 (Codicia). ETFs de Solana registraron $188M en la semana, récord del asset.
