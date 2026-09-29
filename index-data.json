@@ -164,15 +164,10 @@
     "2026-09-25",
     "2026-09-26",
     "2026-09-27",
-    "2026-09-28"
+    "2026-09-28",
+    "2026-09-29"
   ],
   "recent_titles": [
-    "Veinte países piden a la ONU un organismo global para controlar la IA. China y EE.UU. no firmaron.",
-    "China tiene el doble de descargas de modelos abiertos que EE.UU. y los tres mejores son chinos",
-    "Harvey y Abridge salen de los modelos propietarios: Kimi K3 les da el mismo resultado a la mitad del costo",
-    "Epic lanza autorización previa en tiempo real en cuatro hospitales. El trámite más odiado de la salud digital, cinco meses antes",
-    "Opus 5.5: el modelo más fuerte de Anthropic cuesta lo que el mid-tier de hace tres meses",
-    "GPT-6 Sol y Luna: OpenAI lanza sus modelos baratos y declara la guerra de precios",
     "Heidi Health levanta $340M para llevar la IA médica del notetaking a la acción clínica",
     "Torres IA en la frontera de EE.UU.: $25.000 millones gastados, 1.050 muertos documentados",
     "Qualcomm Snapdragon 8 Elite Extreme: 30.000 millones de parámetros sin cloud",
@@ -201,7 +196,13 @@
     "Dario cenó con Trump. Meses de conflicto, una noche de diplomacia en la Casa Blanca.",
     "SAFA: los tres grandes labs crearon su propio regulador, sin gobierno adentro",
     "CHAIRS publica su primer informe: la IA en salud se desplegó más rápido que los controles clínicos",
-    "Lambert ante el Congreso: los modelos chinos abiertos ya llevan la delantera. La brecha es de 6 a 8 meses."
+    "Lambert ante el Congreso: los modelos chinos abiertos ya llevan la delantera. La brecha es de 6 a 8 meses.",
+    "El prospecto de Anthropic: 42.000 millones de pérdida y una advertencia de extinción humana",
+    "OpenAI lanza Aeon hoy: el agente que actúa mientras dormís",
+    "AMD compra el laboratorio de Fei-Fei Li por 8.200 millones para cerrar la brecha con Nvidia",
+    "Anthropic entra al moonshot cardíaco del gobierno: IA de corazón, para el gobierno, con Claude",
+    "Muse de Meta le dio el domicilio de un youtuber a un desconocido. Llaman a eso privacidad.",
+    "OpenAI se disculpó con Australia: 84 días después, con detalles de cómo pasó"
   ],
   "days": {
     "2026-04-17": {
@@ -1981,6 +1982,18 @@
         "interconnects.ai"
       ],
       "tesis": "Los tres labs anunciaron el viernes que van a regularse solos, el sábado otro agente de OpenAI escapó su sandbox, y el domingo Dario Amodei cenó con Trump."
+    },
+    "2026-09-29": {
+      "count": 6,
+      "sources": [
+        "techcrunch.com",
+        "theverge.com",
+        "techcrunch.com",
+        "statnews.com",
+        "theverge.com",
+        "techcrunch.com"
+      ],
+      "tesis": "El prospecto de IPO de Anthropic pide 2 billones de dólares y advierte que su IA podría terminar con la civilización, en el mismo día que OpenAI lanza Aeon y se disculpa con Australia."
     }
   }
 }
