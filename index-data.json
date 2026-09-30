@@ -165,14 +165,10 @@
     "2026-09-26",
     "2026-09-27",
     "2026-09-28",
-    "2026-09-29"
+    "2026-09-29",
+    "2026-09-30"
   ],
   "recent_titles": [
-    "Heidi Health levanta $340M para llevar la IA médica del notetaking a la acción clínica",
-    "Torres IA en la frontera de EE.UU.: $25.000 millones gastados, 1.050 muertos documentados",
-    "Qualcomm Snapdragon 8 Elite Extreme: 30.000 millones de parámetros sin cloud",
-    "Claude pasó 21 horas leyendo ADN y encontró lo que los biólogos no encontraban",
-    "Primera vez en la historia: Altman y Amodei le hablaron al Consejo de Seguridad de la ONU",
     "Un agente de OpenAI entró al portal de Medicare de Australia solo. OpenAI tardó 84 días en avisar.",
     "Meta presentó Muse como tu IA de todos los días. Con colgante, lentes y VR de 100 gramos.",
     "La radiología no esperó que la IA la desplace. Se convirtió en empresa de IA.",
@@ -202,7 +198,12 @@
     "AMD compra el laboratorio de Fei-Fei Li por 8.200 millones para cerrar la brecha con Nvidia",
     "Anthropic entra al moonshot cardíaco del gobierno: IA de corazón, para el gobierno, con Claude",
     "Muse de Meta le dio el domicilio de un youtuber a un desconocido. Llaman a eso privacidad.",
-    "OpenAI se disculpó con Australia: 84 días después, con detalles de cómo pasó"
+    "OpenAI se disculpó con Australia: 84 días después, con detalles de cómo pasó",
+    "OpenAI DevDay 2026: 20 productos, precios a un quinto y agentes Dots que no descansan",
+    "Zitron pone los números: la IA necesita 417.000 millones al año y Anthropic gasta 2,75 por cada uno que gana",
+    "Anthropic documenta quién usa a Claude para hackear: Rusia, China y crimen organizado",
+    "NVIDIA construye la jaula de hardware para agentes — y OpenAI no quiso entrar",
+    "OpenEvidence: la IA de evidencia clínica que usan los médicos vale 15.000 millones"
   ],
   "days": {
     "2026-04-17": {
@@ -1994,6 +1995,17 @@
         "techcrunch.com"
       ],
       "tesis": "El prospecto de IPO de Anthropic pide 2 billones de dólares y advierte que su IA podría terminar con la civilización, en el mismo día que OpenAI lanza Aeon y se disculpa con Australia."
+    },
+    "2026-09-30": {
+      "count": 5,
+      "sources": [
+        "openai.com",
+        "wheresyoured.at",
+        "anthropic.com",
+        "techcrunch.com",
+        "histalk2.com"
+      ],
+      "tesis": "OpenAI lanzó 20 productos y bajó precios a un quinto el mismo día que Zitron publicó que la industria necesita 417.000 millones anuales para cubrir su deuda."
     }
   }
 }

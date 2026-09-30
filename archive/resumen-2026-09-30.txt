@@ -1,0 +1,11 @@
+La tesis del día y los titulares están claros. Acá va el resumen:
+
+La industria IA vive su contradicción más expuesta: OpenAI celebra 1.200 millones de usuarios y baja precios a un quinto, mientras los números de fondo muestran que la industria entera necesita 417.000 millones al año para sostenerse y no los tiene.
+
+OpenAI lanzó GPT-6.1 a USD 2 por millón de tokens y agentes siempre activos que compiten directo con Microsoft Office.
+
+Zitron publicó el análisis financiero más concreto del año: Anthropic gasta 2,75 por cada dólar que genera, los hyperscalers acumulan deuda que los ingresos reales no alcanzan a cubrir.
+
+Anthropic nombró en su reporte de amenazas a Rusia, China y crimen organizado usando a Claude para hackear, y admitió que la IA borró la brecha entre hackers de Estado y aficionados con tarjeta de crédito.
+
+Prestá atención a la ausencia de OpenAI en la Open Agent Safety Platform que firmaron Anthropic, Microsoft y Oracle: con el peor historial público de incidentes de agentes, no participar es una señal que vale la pena seguir.
