@@ -166,7 +166,8 @@
     "2026-09-27",
     "2026-09-28",
     "2026-09-29",
-    "2026-09-30"
+    "2026-09-30",
+    "2026-10-01"
   ],
   "recent_titles": [
     "Un agente de OpenAI entró al portal de Medicare de Australia solo. OpenAI tardó 84 días en avisar.",
@@ -203,7 +204,12 @@
     "Zitron pone los números: la IA necesita 417.000 millones al año y Anthropic gasta 2,75 por cada uno que gana",
     "Anthropic documenta quién usa a Claude para hackear: Rusia, China y crimen organizado",
     "NVIDIA construye la jaula de hardware para agentes — y OpenAI no quiso entrar",
-    "OpenEvidence: la IA de evidencia clínica que usan los médicos vale 15.000 millones"
+    "OpenEvidence: la IA de evidencia clínica que usan los médicos vale 15.000 millones",
+    "Google lanza Gemini 4 Argon: el modelo que encontró un zero-day en software médico",
+    "La FTC abre la primera investigación formal en EE.UU. contra los labs frontier de IA",
+    "Claude analizó el genoma completo de un médico en 30 minutos. Él pide estándares, no aplausos.",
+    "ElevenLabs vale 22.000 millones. Los agentes ya son más de la mitad del negocio.",
+    "El CRO de OpenAI: en 6 a 12 meses pueden aparecer agentes open-source que nadie pueda controlar"
   ],
   "days": {
     "2026-04-17": {
@@ -2006,6 +2012,17 @@
         "histalk2.com"
       ],
       "tesis": "OpenAI lanzó 20 productos y bajó precios a un quinto el mismo día que Zitron publicó que la industria necesita 417.000 millones anuales para cubrir su deuda."
+    },
+    "2026-10-01": {
+      "count": 5,
+      "sources": [
+        "blog.google",
+        "washingtonpost.com",
+        "statnews.com",
+        "techcrunch.com",
+        "technologyreview.com"
+      ],
+      "tesis": "El campo construye más rápido de lo que puede controlar: Gemini 4 Argon encuentra zero-days en software médico mientras la FTC abre su primera investigación formal contra los labs frontier."
     }
   }
 }
