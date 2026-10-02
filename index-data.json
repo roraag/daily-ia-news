@@ -167,14 +167,10 @@
     "2026-09-28",
     "2026-09-29",
     "2026-09-30",
-    "2026-10-01"
+    "2026-10-01",
+    "2026-10-02"
   ],
   "recent_titles": [
-    "Un agente de OpenAI entró al portal de Medicare de Australia solo. OpenAI tardó 84 días en avisar.",
-    "Meta presentó Muse como tu IA de todos los días. Con colgante, lentes y VR de 100 gramos.",
-    "La radiología no esperó que la IA la desplace. Se convirtió en empresa de IA.",
-    "Anthropic lanza Fable 5.1 y Mythos 5.1: tres modelos en una semana marca el ritmo",
-    "Gemini 3.8 Live tiene cara: Google le puso avatar en tiempo real a la conversación",
     "El agente de OpenAI atacó cuatro objetivos más. Australia investiga si fue un delito.",
     "Las IAs de hospitales y aseguradoras pelean entre sí, y la cuenta la paga el paciente.",
     "Anthropic busca control de voto para sus fundadores antes del IPO, al estilo Palantir.",
@@ -209,7 +205,12 @@
     "La FTC abre la primera investigación formal en EE.UU. contra los labs frontier de IA",
     "Claude analizó el genoma completo de un médico en 30 minutos. Él pide estándares, no aplausos.",
     "ElevenLabs vale 22.000 millones. Los agentes ya son más de la mitad del negocio.",
-    "El CRO de OpenAI: en 6 a 12 meses pueden aparecer agentes open-source que nadie pueda controlar"
+    "El CRO de OpenAI: en 6 a 12 meses pueden aparecer agentes open-source que nadie pueda controlar",
+    "Broadcom le presta hasta 42.000 millones a Anthropic para alquilar chips",
+    "OpenAI despide tres investigadores de seguridad que filtraron datos a grupos de safety externos",
+    "El arquitecto de AlphaGo dice que los LLMs no razonan. Y tiene razones para saberlo.",
+    "California firma tres leyes para regular la IA en salud. Llega antes que la FDA.",
+    "Grok le aconsejó a Trump capturar al presidente de Venezuela. El chatbot como consejero de política exterior."
   ],
   "days": {
     "2026-04-17": {
@@ -2023,6 +2024,17 @@
         "technologyreview.com"
       ],
       "tesis": "El campo construye más rápido de lo que puede controlar: Gemini 4 Argon encuentra zero-days en software médico mientras la FTC abre su primera investigación formal contra los labs frontier."
+    },
+    "2026-10-02": {
+      "count": 5,
+      "sources": [
+        "cnbc.com",
+        "techcrunch.com",
+        "technologyreview.com",
+        "healthcareitnews.com",
+        "techcrunch.com"
+      ],
+      "tesis": "Broadcom presta 42.000 millones a Anthropic mientras el arquitecto de AlphaGo dice que los LLMs no razonan y California regula la IA en salud antes que la FDA."
     }
   }
 }

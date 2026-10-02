@@ -1,0 +1,6 @@
+Broadcom financia a Anthropic con 42.000 millones para alquilar chips propios, OpenAI limpia internamente a quien filtró críticas de seguridad, y el arquitecto de AlphaGo certifica que los LLMs no razonan de verdad: el capital va en una dirección y el debate técnico va en la contraria.
+
+Broadcom prestó 42.000 millones a Anthropic para arrendar sus propios chips, cerrando un triángulo financiero con Google que ninguno de los tres puede cortar sin consecuencias.
+OpenAI despidió tres investigadores de seguridad que filtraron preocupaciones a grupos externos, señal de que la gestión del disenso interno se endureció.
+David Silver, el que diseñó AlphaGo, publicó que los LLMs no razonan sino que interpolan patrones de entrenamiento — y viene con crédito técnico suficiente para que duela.
+Prestá atención a cómo Anthropic responde (o no) al cuestionamiento de Silver: Dario fue confrontado en Washington esta semana y el timing no es casual.
