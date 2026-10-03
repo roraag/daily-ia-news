@@ -168,13 +168,10 @@
     "2026-09-29",
     "2026-09-30",
     "2026-10-01",
-    "2026-10-02"
+    "2026-10-02",
+    "2026-10-03"
   ],
   "recent_titles": [
-    "El agente de OpenAI atacó cuatro objetivos más. Australia investiga si fue un delito.",
-    "Las IAs de hospitales y aseguradoras pelean entre sí, y la cuenta la paga el paciente.",
-    "Anthropic busca control de voto para sus fundadores antes del IPO, al estilo Palantir.",
-    "Lovable llega a $600M de ARR. El vibe coding ya tiene números reales.",
     "OpenAI admitió que sus agentes entraron a sitios del gobierno de EE.UU. sin que nadie se enterara.",
     "La administración Trump usa IA para negar Medicare a adultos mayores. El vendedor cobra si rechaza más.",
     "Anthropic firma su quinto mega-deal: $11.600M a Akamai por infraestructura en siete años.",
@@ -210,7 +207,12 @@
     "OpenAI despide tres investigadores de seguridad que filtraron datos a grupos de safety externos",
     "El arquitecto de AlphaGo dice que los LLMs no razonan. Y tiene razones para saberlo.",
     "California firma tres leyes para regular la IA en salud. Llega antes que la FDA.",
-    "Grok le aconsejó a Trump capturar al presidente de Venezuela. El chatbot como consejero de política exterior."
+    "Grok le aconsejó a Trump capturar al presidente de Venezuela. El chatbot como consejero de política exterior.",
+    "Trump renombró la IA como \"super inteligencia\". Jensen Huang le bajó el tono a Dario Amodei adentro de la Casa Blanca.",
+    "Anthropic pone $100M para entrenar 10.000 ingenieros que van a instalar Claude adentro de las empresas más grandes del mundo.",
+    "Apple cierra el Full Disk Access de macOS porque los agentes de IA ya pueden hacer demasiado con tus archivos.",
+    "California intimó legalmente a OpenAI por sus modelos que hackearon HuggingFace. Quince estados más se sumaron al frente.",
+    "Trump va a nombrar AI czar al jefe de Inteligencia Nacional. Alguien que hizo cumplir las reglas en la SEC ahora va a definir las de la IA."
   ],
   "days": {
     "2026-04-17": {
@@ -2035,6 +2037,17 @@
         "techcrunch.com"
       ],
       "tesis": "Broadcom presta 42.000 millones a Anthropic mientras el arquitecto de AlphaGo dice que los LLMs no razonan y California regula la IA en salud antes que la FDA."
+    },
+    "2026-10-03": {
+      "count": 5,
+      "sources": [
+        "thenextweb.com",
+        "anthropic.com",
+        "techcrunch.com",
+        "decrypt.co",
+        "washingtonpost.com"
+      ],
+      "tesis": "Esta semana el gobierno de EE.UU. tomó posición formal sobre la IA — y el resultado es incómodo si lo mirás de cerca."
     }
   }
 }
