@@ -1,0 +1,7 @@
+La pregunta que organiza el día es quién controla los controles, y en 24 horas llegaron tres señales de que nadie lo está haciendo bien.
+
+El jefe de seguridad de OpenAI renunció y publicó que la cultura de la empresa está rota, después de supervisar 12 lanzamientos frontier sin un marco de seguridad real.
+Anthropic convocó su investor day para el 14 de octubre en San Francisco, apuntando a una valuación de dos billones de dólares, como si ninguna de esas noticias le rozara.
+Google Cloud y AWS habilitaron interruptores de emergencia para agentes de IA, recién ahora, después de casos donde un agente solo quemó 47.000 dólares en una noche.
+
+El 14 de octubre Anthropic muestra sus libros a los inversores institucionales; lo que revelen ese día te va a decir si la valuación de dos billones aguanta o si el IPO llega con las grietas ya adentro.

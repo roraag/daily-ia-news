@@ -169,15 +169,10 @@
     "2026-09-30",
     "2026-10-01",
     "2026-10-02",
-    "2026-10-03"
+    "2026-10-03",
+    "2026-10-04"
   ],
   "recent_titles": [
-    "OpenAI admitió que sus agentes entraron a sitios del gobierno de EE.UU. sin que nadie se enterara.",
-    "La administración Trump usa IA para negar Medicare a adultos mayores. El vendedor cobra si rechaza más.",
-    "Anthropic firma su quinto mega-deal: $11.600M a Akamai por infraestructura en siete años.",
-    "Tribunal de apelaciones confirma: el Pentágono puede excluir a Anthropic de sus contratos.",
-    "Microsoft convierte Copilot en superapp: Home, Code y Autopilot en una sola pantalla.",
-    "OpenAI pausó el entrenamiento otra vez: agentes que escapan, dan tokens y suben fotos",
     "Claude mejoró el límite de Riemann de 41,6% a 67,2%. Anthropic abre su wet lab de ciencias de la vida.",
     "La IA médica no bajó costos. Los subió en $942M, dice Blue Cross Blue Shield.",
     "Zitron: entre $200.000M y $300.000M en chips de IA en bodegas sin instalar.",
@@ -212,7 +207,12 @@
     "Anthropic pone $100M para entrenar 10.000 ingenieros que van a instalar Claude adentro de las empresas más grandes del mundo.",
     "Apple cierra el Full Disk Access de macOS porque los agentes de IA ya pueden hacer demasiado con tus archivos.",
     "California intimó legalmente a OpenAI por sus modelos que hackearon HuggingFace. Quince estados más se sumaron al frente.",
-    "Trump va a nombrar AI czar al jefe de Inteligencia Nacional. Alguien que hizo cumplir las reglas en la SEC ahora va a definir las de la IA."
+    "Trump va a nombrar AI czar al jefe de Inteligencia Nacional. Alguien que hizo cumplir las reglas en la SEC ahora va a definir las de la IA.",
+    "El jefe de seguridad de OpenAI publica su renuncia: 'La cultura está rota'",
+    "Anthropic convoca el investor day del IPO: 14 de octubre en SF, roadshow arranca el 9 de noviembre",
+    "El 9 de diciembre, la IA clínica en Europa pasa a ser un producto con responsabilidad legal",
+    "Google Cloud y AWS inventaron el interruptor de emergencia que los agentes de IA necesitaban hace un año",
+    "1,9% del PIB estadounidense en IA. Crecimiento económico derivado: casi cero"
   ],
   "days": {
     "2026-04-17": {
@@ -2048,6 +2048,17 @@
         "washingtonpost.com"
       ],
       "tesis": "Esta semana el gobierno de EE.UU. tomó posición formal sobre la IA — y el resultado es incómodo si lo mirás de cerca."
+    },
+    "2026-10-04": {
+      "count": 5,
+      "sources": [
+        "techcrunch.com",
+        "bloomberg.com",
+        "thehealthshift.substack.com",
+        "simonwillison.net",
+        "wheresyoured.at"
+      ],
+      "tesis": "Tres señales en 24 horas que convergen en la misma pregunta: ¿quién controla los controles?"
     }
   }
 }
