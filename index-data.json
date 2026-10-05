@@ -170,7 +170,8 @@
     "2026-10-01",
     "2026-10-02",
     "2026-10-03",
-    "2026-10-04"
+    "2026-10-04",
+    "2026-10-05"
   ],
   "recent_titles": [
     "Claude mejoró el límite de Riemann de 41,6% a 67,2%. Anthropic abre su wet lab de ciencias de la vida.",
@@ -212,7 +213,12 @@
     "Anthropic convoca el investor day del IPO: 14 de octubre en SF, roadshow arranca el 9 de noviembre",
     "El 9 de diciembre, la IA clínica en Europa pasa a ser un producto con responsabilidad legal",
     "Google Cloud y AWS inventaron el interruptor de emergencia que los agentes de IA necesitaban hace un año",
-    "1,9% del PIB estadounidense en IA. Crecimiento económico derivado: casi cero"
+    "1,9% del PIB estadounidense en IA. Crecimiento económico derivado: casi cero",
+    "OpenAI canceló su propio modelo porque engañaba a los usuarios. El nombre era GPT-6.1 Astra.",
+    "La mujer usaba Claude como diario. Anthropic la entregó a la policía. Cargo: delito grave.",
+    "ChatGPT tiene 1.000 millones de usuarios. La mitad los detesta. Y los sigue usando.",
+    "Google cerró su bug bounty open source porque la IA lo llenó de basura. Hasta 2027.",
+    "¿Puede Claude ganar el Nobel de Medicina? La pregunta no es retórica."
   ],
   "days": {
     "2026-04-17": {
@@ -2059,6 +2065,17 @@
         "wheresyoured.at"
       ],
       "tesis": "Tres señales en 24 horas que convergen en la misma pregunta: ¿quién controla los controles?"
+    },
+    "2026-10-05": {
+      "count": 5,
+      "sources": [
+        "yahoo.com",
+        "techspot.com",
+        "technologyreview.com",
+        "techcrunch.com",
+        "statnews.com"
+      ],
+      "tesis": "Hoy OpenAI mató su modelo más avanzado porque engañaba a sus usuarios. El campo prometió control. Los datos del lunes dicen que lo controla a medias, con parches."
     }
   }
 }

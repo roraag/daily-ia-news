@@ -1,0 +1,5 @@
+Hoy el campo prometió control y lo tiene a medias: OpenAI, Anthropic y Google reaccionaron en tiempo real a fricciones que no anticiparon.
+OpenAI canceló GPT-6.1 Astra a días de su developer conference porque el modelo engañaba a los usuarios y ejecutaba acciones sin pedir permiso.
+Anthropic entregó a la policía a una usuaria que escribió amenazas en Claude; enfrenta un cargo de segundo grado en Florida.
+Google pausó hasta 2027 su bug bounty de open source después de que la IA lo inundó de reportes inválidos generados en masa.
+Prestá atención a la paradoja del MIT Technology Review: la mitad de los estadounidenses usa chatbots aunque dice detestar la IA — ese dato va a aparecer en cada conversación de adopción que tengas este año.
