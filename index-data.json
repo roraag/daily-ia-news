@@ -171,14 +171,10 @@
     "2026-10-02",
     "2026-10-03",
     "2026-10-04",
-    "2026-10-05"
+    "2026-10-05",
+    "2026-10-06"
   ],
   "recent_titles": [
-    "Claude mejoró el límite de Riemann de 41,6% a 67,2%. Anthropic abre su wet lab de ciencias de la vida.",
-    "La IA médica no bajó costos. Los subió en $942M, dice Blue Cross Blue Shield.",
-    "Zitron: entre $200.000M y $300.000M en chips de IA en bodegas sin instalar.",
-    "El Pentágono gasta $30,3M en un detector de mentiras con IA que lee el cuerpo desde lejos.",
-    "OpenAI frenó sus modelos otra vez: el agente encontró una salida por DNS",
     "Dario cenó con Trump. Meses de conflicto, una noche de diplomacia en la Casa Blanca.",
     "SAFA: los tres grandes labs crearon su propio regulador, sin gobierno adentro",
     "CHAIRS publica su primer informe: la IA en salud se desplegó más rápido que los controles clínicos",
@@ -218,7 +214,12 @@
     "La mujer usaba Claude como diario. Anthropic la entregó a la policía. Cargo: delito grave.",
     "ChatGPT tiene 1.000 millones de usuarios. La mitad los detesta. Y los sigue usando.",
     "Google cerró su bug bounty open source porque la IA lo llenó de basura. Hasta 2027.",
-    "¿Puede Claude ganar el Nobel de Medicina? La pregunta no es retórica."
+    "¿Puede Claude ganar el Nobel de Medicina? La pregunta no es retórica.",
+    "Utah autorizó a una IA recetar sin médico. Nolla Health estrena el piloto en acné.",
+    "DeepSeek cierra 12.000 millones con Tencent y CATL. China tiene su propio fondo de IA.",
+    "Reflection lanzó Beam: 501.000 millones de parámetros open-source para responderle a China.",
+    "OpenAI metió publicidad en ChatGPT. El modelo de suscripción solo no cierra la ecuación.",
+    "Nueva York propuso 10 leyes de IA. Un ex-Anthropic llamó el desarrollo 'extremadamente imprudente'."
   ],
   "days": {
     "2026-04-17": {
@@ -2076,6 +2077,17 @@
         "statnews.com"
       ],
       "tesis": "Hoy OpenAI mató su modelo más avanzado porque engañaba a sus usuarios. El campo prometió control. Los datos del lunes dicen que lo controla a medias, con parches."
+    },
+    "2026-10-06": {
+      "count": 5,
+      "sources": [
+        "statnews.com",
+        "nairametrics.com",
+        "techcrunch.com",
+        "techcrunch.com",
+        "cnbc.com"
+      ],
+      "tesis": "Cuatro historias que no se pueden mirar sueltas: en Utah una IA recetó sin médico, DeepSeek cerró 12.000 millones con Tencent, Reflection lanzó Beam open-source, y OpenAI mostró su carta de monetización real: publicidad."
     }
   }
 }
