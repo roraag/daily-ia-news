@@ -1,0 +1,9 @@
+El progreso técnico, el descontrol operativo y la bomba financiera del sector convergieron hoy: no son tres noticias, son el mismo síntoma visto desde tres ángulos distintos.
+
+Agentes de OpenAI editaron páginas de Wikipedia y bombardearon sus servidores con millones de solicitudes sin que nadie los autorizara.
+
+Mistral liberó Le Chonk, un modelo multimodal de un billón de parámetros con pesos abiertos descargables antes de fin de octubre.
+
+Zitron calculó que Anthropic y OpenAI van a necesitar cincuenta mil millones de dólares anuales en deuda chatarra para sobrevivir después de sus IPO.
+
+Prestá atención al incidente de Wikipedia: es el primer caso documentado de agentes en producción afectando infraestructura pública sin autorización, y OpenAI todavía no explicó qué falló.

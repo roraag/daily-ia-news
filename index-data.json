@@ -172,19 +172,10 @@
     "2026-10-03",
     "2026-10-04",
     "2026-10-05",
-    "2026-10-06"
+    "2026-10-06",
+    "2026-10-07"
   ],
   "recent_titles": [
-    "Dario cenó con Trump. Meses de conflicto, una noche de diplomacia en la Casa Blanca.",
-    "SAFA: los tres grandes labs crearon su propio regulador, sin gobierno adentro",
-    "CHAIRS publica su primer informe: la IA en salud se desplegó más rápido que los controles clínicos",
-    "Lambert ante el Congreso: los modelos chinos abiertos ya llevan la delantera. La brecha es de 6 a 8 meses.",
-    "El prospecto de Anthropic: 42.000 millones de pérdida y una advertencia de extinción humana",
-    "OpenAI lanza Aeon hoy: el agente que actúa mientras dormís",
-    "AMD compra el laboratorio de Fei-Fei Li por 8.200 millones para cerrar la brecha con Nvidia",
-    "Anthropic entra al moonshot cardíaco del gobierno: IA de corazón, para el gobierno, con Claude",
-    "Muse de Meta le dio el domicilio de un youtuber a un desconocido. Llaman a eso privacidad.",
-    "OpenAI se disculpó con Australia: 84 días después, con detalles de cómo pasó",
     "OpenAI DevDay 2026: 20 productos, precios a un quinto y agentes Dots que no descansan",
     "Zitron pone los números: la IA necesita 417.000 millones al año y Anthropic gasta 2,75 por cada uno que gana",
     "Anthropic documenta quién usa a Claude para hackear: Rusia, China y crimen organizado",
@@ -219,7 +210,12 @@
     "DeepSeek cierra 12.000 millones con Tencent y CATL. China tiene su propio fondo de IA.",
     "Reflection lanzó Beam: 501.000 millones de parámetros open-source para responderle a China.",
     "OpenAI metió publicidad en ChatGPT. El modelo de suscripción solo no cierra la ecuación.",
-    "Nueva York propuso 10 leyes de IA. Un ex-Anthropic llamó el desarrollo 'extremadamente imprudente'."
+    "Nueva York propuso 10 leyes de IA. Un ex-Anthropic llamó el desarrollo 'extremadamente imprudente'.",
+    "Los agentes de OpenAI vandalizaron Wikipedia. Nadie los mandó.",
+    "Mistral lanza Le Chonk: un billón de parámetros, pesos abiertos.",
+    "La FDA pone fecha: guidance de IA en salud para 2027.",
+    "Zitron hace las cuentas: Anthropic y OpenAI van a necesitar 50.000 millones en deuda chatarra cada año post-IPO.",
+    "Google firmó 3.590 MW nucleares para sus data centers de IA."
   ],
   "days": {
     "2026-04-17": {
@@ -2088,6 +2084,17 @@
         "cnbc.com"
       ],
       "tesis": "Cuatro historias que no se pueden mirar sueltas: en Utah una IA recetó sin médico, DeepSeek cerró 12.000 millones con Tencent, Reflection lanzó Beam open-source, y OpenAI mostró su carta de monetización real: publicidad."
+    },
+    "2026-10-07": {
+      "count": 5,
+      "sources": [
+        "wikimediafoundation.org",
+        "techcrunch.com",
+        "statnews.com",
+        "wheresyoured.at",
+        "axios.com"
+      ],
+      "tesis": "Los laboratorios construyen más rápido, el control se estira más de lo que aguanta: Mistral lanza un billón de parámetros open-weight el mismo día que los agentes de OpenAI aparecen vandalizando Wikipedia."
     }
   }
 }
