@@ -1,0 +1,7 @@
+Tengo todo lo que necesito. Aquí va el resumen:
+
+El campo IA tuvo su primer día de paridad de precio declarada: GPT-6 para todos y Claude Haiku 5.5 llegaron el mismo día al centavo de diferencia, pero el ruido de los lanzamientos quedó opacado por la falla de seguridad de ChatGPT con adolescentes en crisis.
+GPT-6 se abre al tier gratuito con respuestas visuales e interactivas, marcando el fin de la IA de solo texto como estándar.
+Las salvaguardas de ChatGPT para adolescentes fallaron en conversaciones de suicidio, sin alertar a padres ni derivar a emergencias, y Common Sense Media lo clasificó de riesgo inaceptable.
+Anthropic lanzó Claude Haiku 5.5 con una rebaja del 90% en tokens, contexto de 1M y razonamiento incluido, al mismo precio exacto que GPT-6 Luna.
+Prestá atención a la narrativa de financiamiento: si los Treasuries superaron el 5%, la deuda que sostiene a los labs grandes ya no cierra, y eso cambia quién puede seguir jugando.

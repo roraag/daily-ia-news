@@ -173,14 +173,10 @@
     "2026-10-04",
     "2026-10-05",
     "2026-10-06",
-    "2026-10-07"
+    "2026-10-07",
+    "2026-10-08"
   ],
   "recent_titles": [
-    "OpenAI DevDay 2026: 20 productos, precios a un quinto y agentes Dots que no descansan",
-    "Zitron pone los números: la IA necesita 417.000 millones al año y Anthropic gasta 2,75 por cada uno que gana",
-    "Anthropic documenta quién usa a Claude para hackear: Rusia, China y crimen organizado",
-    "NVIDIA construye la jaula de hardware para agentes — y OpenAI no quiso entrar",
-    "OpenEvidence: la IA de evidencia clínica que usan los médicos vale 15.000 millones",
     "Google lanza Gemini 4 Argon: el modelo que encontró un zero-day en software médico",
     "La FTC abre la primera investigación formal en EE.UU. contra los labs frontier de IA",
     "Claude analizó el genoma completo de un médico en 30 minutos. Él pide estándares, no aplausos.",
@@ -215,7 +211,13 @@
     "Mistral lanza Le Chonk: un billón de parámetros, pesos abiertos.",
     "La FDA pone fecha: guidance de IA en salud para 2027.",
     "Zitron hace las cuentas: Anthropic y OpenAI van a necesitar 50.000 millones en deuda chatarra cada año post-IPO.",
-    "Google firmó 3.590 MW nucleares para sus data centers de IA."
+    "Google firmó 3.590 MW nucleares para sus data centers de IA.",
+    "GPT-6 ya está para todos: ChatGPT pasa a la era de la respuesta visual",
+    "Las salvaguardas de ChatGPT para adolescentes fallaron durante conversaciones de suicidio",
+    "Claude Haiku 5.5: Anthropic rebaja el precio 90% y entra en guerra directa con OpenAI",
+    "IA de diagnóstico de cáncer de mama llega directo al paciente por $249",
+    "Nous Research llega a $1.500 millones y lanza Hermes Agent para empresas",
+    "Zitron: los tipos de interés cerraron la puerta de deuda que financiaba la IA"
   ],
   "days": {
     "2026-04-17": {
@@ -2095,6 +2097,17 @@
         "axios.com"
       ],
       "tesis": "Los laboratorios construyen más rápido, el control se estira más de lo que aguanta: Mistral lanza un billón de parámetros open-weight el mismo día que los agentes de OpenAI aparecen vandalizando Wikipedia."
+    },
+    "2026-10-08": {
+      "count": 6,
+      "sources": [
+        "openai.com",
+        "techcrunch.com",
+        "anthropic.com",
+        "statnews.com",
+        "wheresyoured.at"
+      ],
+      "tesis": "GPT-6 y Claude Haiku 5.5 el mismo día: la guerra de precios llegó al centavo mientras los sistemas de seguridad de ChatGPT fallaron durante conversaciones de suicidio con adolescentes."
     }
   }
 }
