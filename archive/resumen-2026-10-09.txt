@@ -1,0 +1,9 @@
+La carrera ya no es de velocidad: con el investor day de Anthropic a cinco días, el campo entero apostó a credibilidad mientras OpenAI quedó explicando 20.000 millones de diferencia metodológica en su revenue y postergó el IPO a 2027.
+
+AMIE de Google entra a The Lancet: 98 pacientes reales en atención primaria, cero incidentes de seguridad, 75% de los médicos encontró útil el resumen pre-consulta generado por IA.
+
+Google lanza Gemini Enterprise Agent con email y audit trail propios, integrado a Slack, Jira y Microsoft 365, y ya probándose en Shopify y PayPal.
+
+Anthropic abre Cyber Mission: escáner gratuito para proyectos open-source y 11 socios de infraestructura crítica, con 88% de precisión en el piloto de seis meses.
+
+Fijate el 14 de octubre: si el investor day de Anthropic convierte esos tres movimientos de la semana (ciencia publicada, seguridad aplicada, modelo más barato) en una narrativa de valuación que deje a OpenAI a $50B en el comparativo.
