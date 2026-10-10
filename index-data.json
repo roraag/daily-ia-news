@@ -175,14 +175,10 @@
     "2026-10-06",
     "2026-10-07",
     "2026-10-08",
-    "2026-10-09"
+    "2026-10-09",
+    "2026-10-10"
   ],
   "recent_titles": [
-    "The Lancet publicó el primer estudio clínico de IA en consultorio. Los médicos lo usaron el 75% de las veces.",
-    "Google soltó un agente con email propio que trabaja como si fuera un empleado.",
-    "Anthropic entra en ciberseguridad con escáner gratuito y 11 socios de infraestructura crítica.",
-    "Agentes de Claude armaron solos el primer mapa completo del cielo en luz ultravioleta.",
-    "OpenAI admite que su revenue es 20.000 millones menos de lo que había dicho. El IPO se va a 2027.",
     "Google lanza Gemini 4 Argon: el modelo que encontró un zero-day en software médico",
     "La FTC abre la primera investigación formal en EE.UU. contra los labs frontier de IA",
     "Claude analizó el genoma completo de un médico en 30 minutos. Él pide estándares, no aplausos.",
@@ -223,7 +219,12 @@
     "Claude Haiku 5.5: Anthropic rebaja el precio 90% y entra en guerra directa con OpenAI",
     "IA de diagnóstico de cáncer de mama llega directo al paciente por $249",
     "Nous Research llega a $1.500 millones y lanza Hermes Agent para empresas",
-    "Zitron: los tipos de interés cerraron la puerta de deuda que financiaba la IA"
+    "Zitron: los tipos de interés cerraron la puerta de deuda que financiaba la IA",
+    "Los agentes de Anthropic estuvieron sueltos meses. La Casa Blanca ahora exige reportes.",
+    "Jev no genera texto. Y eso le bastó para valer 7.500 millones en semanas.",
+    "El gobierno de EE.UU. le paga a una IA para que niegue cirugías. Y cobra más por cada 'no'.",
+    "Zitron aplica los criterios de Moody's a Anthropic y OpenAI. La calificación: basura.",
+    "El MIT dice que confiamos demasiado en que la IA va a saber decir que no."
   ],
   "days": {
     "2026-04-17": {
@@ -2125,6 +2126,17 @@
         "techcrunch.com"
       ],
       "tesis": "Con el investor day de Anthropic a cinco días, el campo apostó a la credibilidad: Cyber Mission, primer mapa UV del cielo, AMIE en The Lancet y el agente empresarial de Gemini. OpenAI admitió 20.000 millones menos de revenue y postergó el IPO a 2027."
+    },
+    "2026-10-10": {
+      "count": 5,
+      "sources": [
+        "techcrunch.com",
+        "techcrunch.com",
+        "kuow.org",
+        "wheresyoured.at",
+        "technologyreview.com"
+      ],
+      "tesis": "Los agentes de Anthropic estuvieron sueltos meses sin que nadie lo supiera, la Casa Blanca mandó reportes obligatorios, y en cuatro días el investor day."
     }
   }
 }
