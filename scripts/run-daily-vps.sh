@@ -132,7 +132,8 @@ if [ $EXIT_CODE -eq 0 ] && [ -f "${PROJECT_DIR}/archive/${FECHA_ISO}.html" ]; th
     --allowedTools "Read" \
     --model sonnet \
     --output-format text \
-    "Leé el archivo ${PROJECT_DIR}/archive/${FECHA_ISO}.html que contiene el Daily IA News del día y devolveme un resumen ejecutivo en TEXTO PLANO con esta estructura: línea 1 la Tesis del día condensada en una oración. Líneas 2 a 4 tres titulares de 'Lo que importa hoy' (los más jugosos) una línea cada uno con verbo de acción. Línea 5 opcional una observación de qué prestar atención hoy. Reglas: 5 a 7 líneas total. Primera persona vos/te. Sin emojis. Sin markdown. Sin saludo. Sin firma. Sin links. Sin etiquetas HTML. No te disculpes ni expliques. Devolveme SOLO el texto del resumen, no crees archivos." \
+    "Archivo del día: ${PROJECT_DIR}/archive/${FECHA_ISO}.html (fecha ${FECHA_ISO})
+$(cat "${PROJECT_DIR}/prompts/resumen-whatsapp.md")" \
     > "$SUMMARY_FILE" 2>> "$LOG_FILE"
   if [ -s "$SUMMARY_FILE" ]; then
     echo "[$(date '+%H:%M:%S')] Resumen generado ($(wc -c < "$SUMMARY_FILE") bytes)" >> "$LOG_FILE"

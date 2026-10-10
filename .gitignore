@@ -3,3 +3,4 @@ extracted/
 *.zip
 .claude/logs/
 logs/
+CLAUDE.local.md

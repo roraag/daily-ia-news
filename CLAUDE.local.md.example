@@ -1,0 +1,7 @@
+# CLAUDE.local.md (NO commitear — copiar a CLAUDE.local.md en el server y completar)
+
+- VPS_HOST: <usuario>@<ip-o-hostname-tailscale>
+- PROJECT_DIR: <ruta absoluta del repo en el server>
+- LOCAL_MIRROR_DIR: <ruta del espejo local que lee Lucho>
+- Deploy key GitHub: <ruta de la clave> (alias en ~/.ssh/config: <alias>)
+- Telegram (discontinuado): timer <nombre>, script <ruta>, token en <ruta>
