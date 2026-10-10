@@ -75,6 +75,31 @@ Si una voz no produjo nada relevante en 24h, no aparece. Cero relleno.
 
 ---
 
+## Paso 3-bis — Capa X (se ejecuta DESPUÉS del Paso 5, sobre las noticias elegidas)
+
+Objetivo: que cada noticia de Nivel A (y la del bloque Uruguay/LatAm) traiga **qué se dijo en X**: el post primario y la reacción real, no solo el artículo de un medio.
+
+Para cada noticia elegida buscá:
+1. **Post primario**: el anuncio del laboratorio, empresa, autor del paper o protagonista (ej. @AnthropicAI, @sundarpichai, el investigador principal). Si no existe, el post del medio que dio la primicia.
+2. **2-3 reacciones creíbles**, con **al menos una escéptica o crítica** (médico, investigador, periodista especializado, voz `critic` del config). Priorizá cuentas con trayectoria verificable sobre cuentas virales anónimas.
+
+**Cascada de acceso a X** (usá lo que haya; nunca bloquees el diario por esto):
+- a. **API de X** si la variable de entorno `X_BEARER_TOKEN` está definida (chequealo con `Bash`: `[ -n "$X_BEARER_TOKEN" ] && echo si`). Búsqueda reciente: `curl -s --max-time 20 -H "Authorization: Bearer $X_BEARER_TOKEN" "https://api.x.com/2/tweets/search/recent?query=QUERY&max_results=25&tweet.fields=author_id,created_at,public_metrics&expansions=author_id&user.fields=username"`. **Nunca imprimas ni loguees el token.**
+- b. `WebFetch` a `https://xcancel.com/search?f=tweets&q=QUERY` o a `https://xcancel.com/HANDLE` (y `nitter.net` como alternativa).
+- c. `WebFetch` directo a `https://x.com/HANDLE/status/ID` para verificar un post concreto que encontraste por otra vía.
+- d. `WebSearch` con `site:x.com "frase clave"` o `"@HANDLE" tema`.
+- Si todo falla para una noticia: omití el bloque "Qué dice X" de esa noticia. Cero relleno.
+
+**Reglas no negociables:**
+- **Solo posts reales y verificados.** Handle exacto y URL exacta `https://x.com/HANDLE/status/ID` que viste en una respuesta. **Prohibido inventar, reconstruir o adivinar IDs, handles o citas.** Si no podés confirmar la URL, no lo incluyas.
+- Citas textuales cortas (máx ~20 palabras) entre comillas, en el idioma original; si parafraseás, que se note.
+- Métricas (vistas, likes) solo si las viste en la respuesta; si no, no pongas número.
+- Opcional: 1 línea de **Lectura** sobre el clima del debate (ej. "la discusión es chica y militante; todavía no hay voces clínicas").
+
+**Salida por noticia:** `x_layer` = lista de `{handle, rol_corto, cita_o_resumen, url, escéptico: bool}` + `x_lectura` opcional.
+
+---
+
 ## Paso 4 — Filtrar candidatos
 
 Descartá noticias que:
@@ -123,6 +148,11 @@ score = magnitud * 2 + relevancia_tematica * 1.5 + weight_fuente_max + consenso_
 
 Ordená por score desc.
 
+**Regla de diversidad de fuentes (dura, se aplica al armar Nivel A):**
+- Ningún medio/dominio puede ser la **fuente principal** de una noticia de Nivel A **más de 2 días seguidos**. Antes de elegir, mirá `days.*.sources` en `index-data.json` de los últimos 2 días: si un dominio fue fuente principal ayer y anteayer, hoy buscá otra cobertura de la misma noticia (otro medio, el post primario o el paper) o bajala a Nivel B.
+- **Máximo 1 noticia principal por autor/voz por semana** (ej. Ed Zitron, Gary Marcus, un columnista puntual). Revisá `days.*.main_authors` de los últimos 7 días si existe.
+- Preferí siempre la fuente primaria (blog del lab, paper, comunicado, post en X del protagonista) sobre el refrito.
+
 **Sin cuota fija.** El diario tiene dos niveles de profundidad:
 
 - **Nivel A — "Lo que importa hoy"**: noticias que merecen tesis + ángulo + para vos + prompt pre-armado. Entran las que **superan score 12 Y suman algo único al diario** (no rehash, no duplicado angular). Pueden ser 3 algunos días, 7 otros. Si dudás entre incluir o no, **no la incluyas en Nivel A** — pasala a Nivel B. Restricciones: máx 2 del mismo dominio, al menos 1 de cada categoría (tech/business/health) si hay candidatos.
@@ -165,6 +195,7 @@ Para cada noticia elegida produzco esta estructura:
 - **what_happened:** 2-3 bullets con datos crudos. Cada bullet **un dato medible**: cifras, nombres, fechas. Si podés, contextualizá con una analogía uruguaya (ej. *"5 GW = consumo de medio Uruguay"*).
 - **angle:** **EL ÁNGULO QUE NADIE TE VA A DAR**. 2-4 líneas con opinión declarada, conexión no obvia, o lectura entrelíneas. Acá uso los takes del panel humano si calzan: *"Karpathy ya advirtió esto en su último post"* / *"Para Ed Zitron esto confirma su tesis de que..."*. Esto reemplaza al viejo "por qué importa".
 - **for_rodrigo:** 1-2 líneas concretas sobre qué hacer con esto en el contexto de Rodrigo. PM en ASESP (mutualista de salud), comercial Hogar, analista de datos, con meta de Gerente Comercial. Acción concreta o reflexión aplicable. Cuando la noticia toque **salud/mutualistas** o **management/carrera**, bajala explícitamente a su realidad: qué significaría dentro de una IAMC uruguaya, o qué le sirve para crecer hacia la gerencia. Ej: *"esto que hizo tal hospital con IA es replicable en una mutualista — anotalo para la reunión con Alfredo"*. Reemplaza al viejo "para quién".
+- **x_layer:** la salida del Paso 3-bis para esta noticia (post primario + 2-3 reacciones, al menos una escéptica). Puede quedar vacío si no hubo acceso a X.
 - **claude_prompt:** prompt pre-armado para profundizar en otro chat. Formato:
   *"Profundizá esta noticia: [URL]. Foco: [ángulo específico de esta noticia, en 1 línea]. Contexto del lector: PM en mutualista de salud uruguaya, fan de Anthropic. No me expliques qué es un LLM."*
 - **source_url, source_domain, category** (igual que antes).
@@ -276,6 +307,24 @@ Mirá los medios de `crypto.media` (cascada RSS → Google News `site:DOMINIO wh
 
 ---
 
+## Paso 9-quater — Uruguay/LatAm y salud digital (sección fija, todos los días)
+
+Bloque dedicado a lo que pasa **cerca de Rodrigo**: IA y salud digital en Uruguay y la región. Existe porque el ranking global casi nunca deja pasar estas noticias, y son las que más le sirven (ASESP, ex Gobierno Electrónico del MSP, TFM en Salud Digital).
+
+Compone con:
+- Las sources con `region: uy` o `region: latam` del config (AGESIC, la diaria, El Observador, Búsqueda, CEPP, Ceres, Instituto Vidart, etc.), con la misma cascada RSS → Google News → WebSearch. Para Google News usá `hl=es-419&gl=UY` y ventana `when:3d` (en la región hay menos volumen).
+- Búsquedas generales: `Uruguay (inteligencia artificial OR IA) when:3d`, `(AGESIC OR MSP OR mutualista OR IAMC) (IA OR digital) when:7d`, `salud digital (Uruguay OR Argentina OR Chile OR Brasil OR LatAm) when:3d`.
+- La capa X (Paso 3-bis) también aplica acá: ej. @CEPP_UY, @mordecki, @agesic, periodistas locales.
+
+**Estructura:**
+- Tagline de 1 línea.
+- 1-3 ítems, cada uno con: qué pasó (1-2 líneas con dato concreto), **por qué te lo digo** (aplicado a ASESP/IAMC/carrera) y, si hay, **qué dice X**.
+- Si no hay nada de los últimos 7 días, escribí una sola línea honesta: *"Semana quieta en la región. Nada que valga tu tiempo."* No rellenes con notas viejas.
+
+Una noticia regional muy fuerte puede ir a Nivel A; en ese caso acá solo se referencia en 1 línea.
+
+---
+
 ## Paso 10 — Generar el HTML
 
 1. Leé el **Template** indicado en el header (ruta absoluta).
@@ -291,6 +340,7 @@ Mirá los medios de `crypto.media` (cascada RSS → Google News `site:DOMINIO wh
    - `{{BOLSILLO}}` → bloque HTML completo de la sección.
    - `{{EL_RESTO}}` → bloque HTML completo de la sección "El resto" (o cadena vacía si la omitís).
    - `{{BITCOIN_WATCH}}` → bloque HTML completo de la sección Bitcoin Watch (o cadena vacía si todas las APIs fallan).
+   - `{{URUGUAY_LATAM}}` → bloque HTML completo de la sección Uruguay/LatAm y salud digital (Paso 9-quater).
 
 ### Bloque tesis del día
 
@@ -321,6 +371,7 @@ Mirá los medios de `crypto.media` (cascada RSS → Google News `site:DOMINIO wh
     <p>{angle}</p>
     <h4>Para vos</h4>
     <p>{for_rodrigo}</p>
+    {x_block}
     <h4>Fuente</h4>
     <a class="source-link" href="{source_url}" target="_blank" rel="noopener">{source_domain}</a>
     <div class="actions">
@@ -335,6 +386,34 @@ Donde:
 - `{bullets_li}` es la lista `what_happened` con `<li>...</li>`.
 - `{n}` es el orden (1, 2, 3...).
 - `{claude_prompt_escapado}` debe escapar comillas dobles como `&quot;` para que no rompa el `data-prompt`.
+- `{x_block}` es el bloque "Qué dice X" (abajo). Si la noticia no tiene `x_layer`, reemplazalo por cadena vacía.
+
+### Sub-bloque "Qué dice X" (dentro de cada noticia)
+
+```html
+<h4 class="x-heading">Qué dice X</h4>
+<ul class="x-list">
+  <li><a href="https://x.com/{handle}/status/{id}" target="_blank" rel="noopener">@{handle}</a> <span class="x-rol">({rol_corto})</span>: {cita_o_resumen}</li>
+  <li class="x-esceptico"><a href="...">@{handle}</a> <span class="x-rol">(escéptico · {rol_corto})</span>: {cita_o_resumen}</li>
+</ul>
+<p class="x-lectura"><em>Lectura: {x_lectura}</em></p>
+```
+
+La clase `x-esceptico` va en las reacciones críticas. Si no hay `x_lectura`, omití el `<p>`. Solo URLs verificadas (Paso 3-bis).
+
+### Bloque Uruguay/LatAm y salud digital
+
+```html
+<div class="seccion-latam">
+  <div class="seccion-label">Uruguay/LatAm y salud digital</div>
+  <h3>{tagline}</h3>
+  <div class="latam-item">
+    <p><strong>{titular}</strong> {que_paso} <a href="{source_url}" target="_blank" rel="noopener">→ {source_domain}</a></p>
+    <p><em>Por qué te lo digo:</em> {por_que}</p>
+    {x_block_opcional}
+  </div>
+</div>
+```
 
 ### Bloque Anthropic Watch
 
@@ -415,7 +494,7 @@ Si todas las APIs fallaron, reemplazá `{{BITCOIN_WATCH}}` por cadena vacía.
 
 3. Escribí el resultado en el **Archivo del día a generar** indicado en el header (ruta absoluta).
 
-**IMPORTANTE:** los bloques de código JS dentro del HTML NO deben tocarse. Solo sustituí los 10 placeholders exactos.
+**IMPORTANTE:** los bloques de código JS dentro del HTML NO deben tocarse. Solo sustituí los 11 placeholders exactos.
 
 **Nota de portabilidad (Mac/VPS):** no uses rutas hardcodeadas tipo `/Users/...`. Usá SIEMPRE las rutas absolutas que vienen en el header (Config / Template / Archivo del día / index-data.json).
 
@@ -446,7 +525,7 @@ Estructura esperada:
 
 - Agregá la fecha de hoy a `dates` si no está.
 - Agregá los `title_es` de hoy a `recent_titles`. Mantené solo titulares de los últimos 7 días.
-- Agregá entrada a `days` con `count`, `sources` (dominios usados), y `tesis` (1ra oración de la tesis del día).
+- Agregá entrada a `days` con `count`, `sources` (dominios usados como fuente principal de Nivel A), `main_authors` (autores/voces que fueron fuente principal, para la regla de diversidad) y `tesis` (1ra oración de la tesis del día).
 
 **Nota:** `index-data.json` es el archivo **Metadata histórico** indicado en el header.
 
@@ -469,6 +548,9 @@ Sources sin respuesta: [lista o "ninguna"]
 
 Voices con take del día: [lista de nombres]
 Voices sin actividad relevante: [lista corta o "varias"]
+
+Capa X: [vía usada: API / xcancel / x.com / WebSearch / sin acceso] · N noticias con bloque X
+Uruguay/LatAm: [tagline o "semana quieta"]
 ```
 
 Fin. No hagas preguntas. Es scheduled task, corre desatendido. Si algo falla parcialmente, **publicá igual lo que tengas** — un día imperfecto siempre vence a un día sin diario.
