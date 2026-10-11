@@ -61,21 +61,21 @@ Cascada de fetch por voz:
 
 ## Gestión del cron (VPS)
 
-El cron del usuario `openclaw` en el VPS `openclaw-rodri` (Tailscale `100.113.124.21`) corre:
+El cron del usuario de servicio en el VPS de producción (datos en `CLAUDE.local.md`, no commiteado) corre:
 
 ```
-0 6 * * * /home/openclaw/DAILY-IA-NEWS/scripts/run-daily-vps.sh >> /home/openclaw/logs/cron-daily.log 2>&1
+0 6 * * * <PROJECT_DIR>/scripts/run-daily-vps.sh >> /home/openclaw/logs/cron-daily.log 2>&1
 ```
 
 ```bash
 # Ver crontab actual
-ssh openclaw@100.113.124.21 'crontab -l'
+ssh <VPS_HOST> 'crontab -l'
 
 # Editar crontab (cambiar hora, pausar, etc.)
-ssh openclaw@100.113.124.21 'crontab -e'
+ssh <VPS_HOST> 'crontab -e'
 
 # Disparar manualmente (sin esperar las 6 AM)
-ssh openclaw@100.113.124.21 'bash /home/openclaw/DAILY-IA-NEWS/scripts/run-daily-vps.sh'
+ssh <VPS_HOST> 'bash <PROJECT_DIR>/scripts/run-daily-vps.sh'
 
 # Pausar: comentar la línea en crontab, o vaciar crontab
 ```
@@ -83,16 +83,16 @@ ssh openclaw@100.113.124.21 'bash /home/openclaw/DAILY-IA-NEWS/scripts/run-daily
 ## Correr el pipeline a mano
 
 ```bash
-ssh openclaw@100.113.124.21
-cd /home/openclaw/DAILY-IA-NEWS
+ssh <VPS_HOST>
+cd <PROJECT_DIR>
 bash scripts/run-daily-vps.sh             # fecha de hoy
 bash scripts/run-daily-vps.sh 2026-04-18  # fecha específica (recuperar días)
 ```
 
 Para regenerar un día que ya existe, primero borrá el archive:
 ```bash
-rm /home/openclaw/DAILY-IA-NEWS/archive/2026-04-25.html
-bash /home/openclaw/DAILY-IA-NEWS/scripts/run-daily-vps.sh 2026-04-25
+rm <PROJECT_DIR>/archive/2026-04-25.html
+bash <PROJECT_DIR>/scripts/run-daily-vps.sh 2026-04-25
 ```
 
 Output se loguea en `logs/run-YYYY-MM-DD.log`.
@@ -109,8 +109,8 @@ El VPS corre 24/7, así que el cron de las 6 AM nunca falla por máquina apagada
 
 Si un día no generó dashboard, revisá:
 ```bash
-ssh openclaw@100.113.124.21
-cd /home/openclaw/DAILY-IA-NEWS
+ssh <VPS_HOST>
+cd <PROJECT_DIR>
 
 # Log de la última corrida del pipeline
 ls -lt logs/run-*.log | head -1 | awk '{print $NF}' | xargs cat

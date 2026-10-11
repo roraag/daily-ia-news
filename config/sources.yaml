@@ -322,6 +322,89 @@ sources:
 #     con query `"@handle" (AI OR Anthropic OR OpenAI)`.
 # ============================================================
 
+
+  # ===== URUGUAY / LATAM y SALUD DIGITAL (alimenta Paso 9-quater) =====
+  # region: uy | latam -> estas fuentes van primero al bloque Uruguay/LatAm.
+  - name: AGESIC
+    url: https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/comunicacion/noticias
+    rss: null
+    category: health
+    weight: 3
+    language: es
+    region: uy
+    x_handle: agesic
+    notes: estrategia de IA y datos del Estado uruguayo; Google News site:gub.uy (IA OR "inteligencia artificial")
+
+  - name: MSP Uruguay
+    url: https://www.gub.uy/ministerio-salud-publica/comunicacion/noticias
+    rss: null
+    category: health
+    weight: 2
+    language: es
+    region: uy
+    notes: Salud.uy / historia clínica electrónica / normativa; cruza con el ex rol de Rodrigo en Gobierno Electrónico
+
+  - name: El Observador (Tecnología)
+    url: https://www.elobservador.com.uy/tecnologia
+    rss: null
+    category: business
+    weight: 2
+    language: es
+    region: uy
+
+  - name: la diaria
+    url: https://ladiaria.com.uy/
+    rss: null
+    category: business
+    weight: 2
+    language: es
+    region: uy
+    notes: filtrar por IA / tecnología / salud
+
+  - name: Búsqueda
+    url: https://www.busqueda.com.uy/
+    rss: null
+    category: business
+    weight: 2
+    language: es
+    region: uy
+
+  - name: CEPP Uruguay
+    url: https://cepp.org.uy/
+    rss: null
+    category: business
+    weight: 2
+    language: es
+    region: uy
+    x_handle: CEPP_UY
+    notes: debate de política digital/IA (ej. Mordecki)
+
+  - name: Ceres
+    url: https://ceres-uy.org/
+    rss: null
+    category: business
+    weight: 1
+    language: es
+    region: uy
+    notes: postura pro-inversión (Munyo) en el debate de regulación de IA
+
+  - name: Instituto Vidart (Centro de IA)
+    url: https://www.vidart.edu.uy/
+    rss: null
+    category: health
+    weight: 1
+    language: es
+    region: uy
+    notes: verificar URL; cooperación regional en IA para salud y educación
+
+  - name: BID / CAF salud digital LatAm
+    url: https://blogs.iadb.org/salud/es/
+    rss: https://blogs.iadb.org/salud/es/feed/
+    category: health
+    weight: 2
+    language: es
+    region: latam
+
 voices:
   # ===== FOUNDERS / quien mueve mercado (10) =====
   - name: Sam Altman
@@ -490,6 +573,47 @@ voices:
     blog: null
     rss: null
     notes: crítica del modelo de negocio Big Tech IA
+
+  # ===== CAPA X — cuentas primarias / reacciones creíbles (Paso 3-bis) =====
+  - name: Sundar Pichai
+    role: founder
+    affiliation: Google / Alphabet (CEO)
+    x_handle: sundarpichai
+    blog: null
+    rss: null
+    notes: anuncios primarios de Google (ej. AMIE en The Lancet)
+
+  - name: Alan Karthikesalingam
+    role: specialist
+    affiliation: Google Research (líder AMIE / IA clínica)
+    x_handle: alan_karthi
+    blog: null
+    rss: null
+    notes: fuente primaria de IA clínica de Google
+
+  - name: Anthropic
+    role: founder
+    affiliation: Anthropic (cuenta oficial)
+    x_handle: AnthropicAI
+    blog: https://www.anthropic.com/news
+    rss: null
+    notes: post primario de anuncios de Anthropic; complementa Anthropic Watch
+
+  - name: respirdoc
+    role: critic
+    affiliation: médico (respiratorio), escéptico de IA clínica
+    x_handle: respirdoc
+    blog: null
+    rss: null
+    notes: reacción escéptica clínica a estudios de IA en salud
+
+  - name: Daniel Mordecki
+    role: specialist
+    affiliation: ex director AGESIC (Uruguay)
+    x_handle: mordecki
+    blog: null
+    rss: null
+    notes: voz uruguaya sobre política digital e IA
 
 # ============================================================
 # CRYPTO — fuentes y datos para la sección "Bitcoin Watch"
