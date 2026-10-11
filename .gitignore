@@ -4,3 +4,4 @@ extracted/
 .claude/logs/
 logs/
 CLAUDE.local.md
+tmp/

@@ -83,7 +83,17 @@ Para cada noticia elegida buscá:
 1. **Post primario**: el anuncio del laboratorio, empresa, autor del paper o protagonista (ej. @AnthropicAI, @sundarpichai, el investigador principal). Si no existe, el post del medio que dio la primicia.
 2. **2-3 reacciones creíbles**, con **al menos una escéptica o crítica** (médico, investigador, periodista especializado, voz `critic` del config). Priorizá cuentas con trayectoria verificable sobre cuentas virales anónimas.
 
-**Cascada de acceso a X** (usá lo que haya; nunca bloquees el diario por esto):
+### 3-bis-0 — Pedirle las reacciones a Grok Bot (fuente primaria)
+
+Apenas termines el Paso 5 (noticias elegidas, incluida la del bloque Uruguay/LatAm), antes de buscar en X por tu cuenta:
+1. Escribí `PROJECT_DIR/tmp/x-request-FECHA_ISO.json` (con `Write`; usá las rutas absolutas del header) con este formato exacto:
+   `{"date":"FECHA_ISO","stories":[{"title":"...","url":"URL principal","topic":"tema corto + entidades clave (empresas, personas, producto)"}]}`
+2. Corré con `Bash`: `bash /home/openclaw/DAILY-IA-NEWS/scripts/grok-x-request.sh FECHA_ISO` (hace el POST al webhook de Grok Bot; si no está configurado lo saltea y lo deja logueado).
+3. Corré con `Bash` (timeout 300000): `bash /home/openclaw/DAILY-IA-NEWS/scripts/grok-x-wait.sh FECHA_ISO`. Mientras salga con código 2, volvé a correrlo (podés avanzar con los Pasos 6-9 entre llamadas). Código 0 = imprime el JSON de reacciones. Código 1 = timeout (12 min) o archivo inválido.
+4. **Si llegó (código 0):** esos posts son la fuente PRIMARIA de `x_layer` para cada noticia (match por url o título): usá `handle`, `quote` **textual sin modificar**, `url` del post, y `why`/`name` para `rol_corto`. No los re-verifiques ni los reemplaces; podés complementar con la cascada solo si una noticia quedó sin posts. Logueá `X: fuente=grokbot`.
+5. **Si no llegó (código 1):** logueá `X: grokbot timeout/inválido` y seguí con la cascada de abajo. El diario nunca falla por esto.
+
+**Cascada de acceso a X** (fallback si Grok Bot no respondió; también para completar noticias sin posts) — (usá lo que haya; nunca bloquees el diario por esto):
 - **Que falte `X_BEARER_TOKEN` NO es motivo para saltear la capa X ni para darla por vacía.** Sin token, pasá directo a b, c y d (orden práctico: d `site:x.com` y `site:twitter.com` → b xcancel/nitter → c URLs de x.com que aparezcan en las fuentes) y apuntá a 1-3 posts relevantes por noticia (handle, cita corta, link).
 - Registrá en tu salida, por noticia, qué métodos probaste y con qué resultado (ej. `X noticia 2: token=no, site:x.com=2 hits, xcancel=403, x.com=ok`).
 - a. **API de X** si la variable de entorno `X_BEARER_TOKEN` está definida (chequealo con `Bash`: `[ -n "$X_BEARER_TOKEN" ] && echo si`). Búsqueda reciente: `curl -s --max-time 20 -H "Authorization: Bearer $X_BEARER_TOKEN" "https://api.x.com/2/tweets/search/recent?query=QUERY&max_results=25&tweet.fields=author_id,created_at,public_metrics&expansions=author_id&user.fields=username"`. **Nunca imprimas ni loguees el token.**
