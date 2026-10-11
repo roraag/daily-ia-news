@@ -40,6 +40,14 @@ if ! flock -n 9; then
   exit 75
 fi
 
+# Integrar cambios publicados fuera del cron antes de generar y commitear.
+# Si hay divergencia o conflicto, fallar explícitamente en lugar de enviar un 404.
+cd "$PROJECT_DIR" || exit 1
+if ! git fetch origin main >> "$LOG_FILE" 2>&1 || ! git merge --ff-only origin/main >> "$LOG_FILE" 2>&1; then
+  echo "ERROR: no pude actualizar main desde origin; publicación detenida" >> "$LOG_FILE"
+  exit 1
+fi
+
 # Idempotencia
 if [ -f "${PROJECT_DIR}/archive/${FECHA_ISO}.html" ]; then
   echo "[$(date '+%H:%M:%S')] Ya existe archive/${FECHA_ISO}.html — nada que hacer." >> "$LOG_FILE"
@@ -165,7 +173,8 @@ if [ $EXIT_CODE -eq 0 ] && [ -f "${PROJECT_DIR}/archive/${FECHA_ISO}.html" ]; th
     if git push origin main >> "$LOG_FILE" 2>&1; then
       echo "[$(date '+%H:%M:%S')] Push OK -> https://roraag.github.io/daily-ia-news/" >> "$LOG_FILE"
     else
-      echo "WARN: git push falló (no bloquea)" >> "$LOG_FILE"
+      echo "ERROR: git push falló; el sitio público no está actualizado" >> "$LOG_FILE"
+      EXIT_CODE=1
     fi
   fi
 fi
