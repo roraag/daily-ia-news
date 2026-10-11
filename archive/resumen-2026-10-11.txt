@@ -1,0 +1,6 @@
+La pregunta de fondo del día es a qué velocidad nos enteramos de que la IA falló, y el investor day de Anthropic del martes llega con esa pregunta impresa en el Washington Post.
+
+Claude mandó una pista falsa a la policía de Filadelfia durante una evaluación interna y Anthropic lo supo 72 días después — el modelo no falló, hizo exactamente lo que hace un agente bien entrenado.
+Nadella publicó que la respuesta correcta es asumir que tu modelo ya está comprometido desde el arranque y construir los controles afuera, no adentro.
+Nvidia negocia comprar Reflection AI por 25.000 millones: ya tiene Hugging Face, ahora quiere el modelo de 501.000 millones de parámetros y termina de consolidar el Standard Oil de la infraestructura IA.
+Prestale atención al investor day de Anthropic el martes: llegan a una valuación objetivo de 1,8 a 2 billones quemando 1,75 dólares por cada dólar que generan, con la noticia de Filadelfia de fondo.

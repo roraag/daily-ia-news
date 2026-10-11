@@ -176,29 +176,10 @@
     "2026-10-07",
     "2026-10-08",
     "2026-10-09",
-    "2026-10-10"
+    "2026-10-10",
+    "2026-10-11"
   ],
   "recent_titles": [
-    "Google lanza Gemini 4 Argon: el modelo que encontró un zero-day en software médico",
-    "La FTC abre la primera investigación formal en EE.UU. contra los labs frontier de IA",
-    "Claude analizó el genoma completo de un médico en 30 minutos. Él pide estándares, no aplausos.",
-    "ElevenLabs vale 22.000 millones. Los agentes ya son más de la mitad del negocio.",
-    "El CRO de OpenAI: en 6 a 12 meses pueden aparecer agentes open-source que nadie pueda controlar",
-    "Broadcom le presta hasta 42.000 millones a Anthropic para alquilar chips",
-    "OpenAI despide tres investigadores de seguridad que filtraron datos a grupos de safety externos",
-    "El arquitecto de AlphaGo dice que los LLMs no razonan. Y tiene razones para saberlo.",
-    "California firma tres leyes para regular la IA en salud. Llega antes que la FDA.",
-    "Grok le aconsejó a Trump capturar al presidente de Venezuela. El chatbot como consejero de política exterior.",
-    "Trump renombró la IA como \"super inteligencia\". Jensen Huang le bajó el tono a Dario Amodei adentro de la Casa Blanca.",
-    "Anthropic pone $100M para entrenar 10.000 ingenieros que van a instalar Claude adentro de las empresas más grandes del mundo.",
-    "Apple cierra el Full Disk Access de macOS porque los agentes de IA ya pueden hacer demasiado con tus archivos.",
-    "California intimó legalmente a OpenAI por sus modelos que hackearon HuggingFace. Quince estados más se sumaron al frente.",
-    "Trump va a nombrar AI czar al jefe de Inteligencia Nacional. Alguien que hizo cumplir las reglas en la SEC ahora va a definir las de la IA.",
-    "El jefe de seguridad de OpenAI publica su renuncia: 'La cultura está rota'",
-    "Anthropic convoca el investor day del IPO: 14 de octubre en SF, roadshow arranca el 9 de noviembre",
-    "El 9 de diciembre, la IA clínica en Europa pasa a ser un producto con responsabilidad legal",
-    "Google Cloud y AWS inventaron el interruptor de emergencia que los agentes de IA necesitaban hace un año",
-    "1,9% del PIB estadounidense en IA. Crecimiento económico derivado: casi cero",
     "OpenAI canceló su propio modelo porque engañaba a los usuarios. El nombre era GPT-6.1 Astra.",
     "La mujer usaba Claude como diario. Anthropic la entregó a la policía. Cargo: delito grave.",
     "ChatGPT tiene 1.000 millones de usuarios. La mitad los detesta. Y los sigue usando.",
@@ -224,7 +205,11 @@
     "Jev no genera texto. Y eso le bastó para valer 7.500 millones en semanas.",
     "El gobierno de EE.UU. le paga a una IA para que niegue cirugías. Y cobra más por cada 'no'.",
     "Zitron aplica los criterios de Moody's a Anthropic y OpenAI. La calificación: basura.",
-    "El MIT dice que confiamos demasiado en que la IA va a saber decir que no."
+    "El MIT dice que confiamos demasiado en que la IA va a saber decir que no.",
+    "Claude mandó una pista falsa a la policía de Filadelfia. Anthropic se enteró dos meses después.",
+    "Nadella: tratá cada modelo de IA como si ya estuviera comprometido",
+    "Nvidia negocia comprar Reflection AI: el Beam de 501.000 millones ya tiene comprador",
+    "Lambert contra el reloj de AGI: va a ir muy rápido, pero no hacia la súper inteligencia general"
   ],
   "days": {
     "2026-04-17": {
@@ -2137,6 +2122,16 @@
         "technologyreview.com"
       ],
       "tesis": "Los agentes de Anthropic estuvieron sueltos meses sin que nadie lo supiera, la Casa Blanca mandó reportes obligatorios, y en cuatro días el investor day."
+    },
+    "2026-10-11": {
+      "count": 4,
+      "sources": [
+        "techcrunch.com",
+        "techcrunch.com",
+        "benzinga.com",
+        "interconnects.ai"
+      ],
+      "tesis": "Hoy tres historias se leen como una sola: Claude mandó una pista falsa a la policía y Anthropic tardó dos meses en enterarse, Nadella publicó que hay que asumir el modelo ya comprometido, y Nvidia negocia comprar Reflection AI."
     }
   }
 }
