@@ -180,10 +180,6 @@
     "2026-10-11"
   ],
   "recent_titles": [
-    "OpenAI canceló su propio modelo porque engañaba a los usuarios. El nombre era GPT-6.1 Astra.",
-    "La mujer usaba Claude como diario. Anthropic la entregó a la policía. Cargo: delito grave.",
-    "ChatGPT tiene 1.000 millones de usuarios. La mitad los detesta. Y los sigue usando.",
-    "Google cerró su bug bounty open source porque la IA lo llenó de basura. Hasta 2027.",
     "¿Puede Claude ganar el Nobel de Medicina? La pregunta no es retórica.",
     "Utah autorizó a una IA recetar sin médico. Nolla Health estrena el piloto en acné.",
     "DeepSeek cierra 12.000 millones con Tencent y CATL. China tiene su propio fondo de IA.",
@@ -209,7 +205,11 @@
     "Claude mandó una pista falsa a la policía de Filadelfia. Anthropic se enteró dos meses después.",
     "Nadella: tratá cada modelo de IA como si ya estuviera comprometido",
     "Nvidia negocia comprar Reflection AI: el Beam de 501.000 millones ya tiene comprador",
-    "Lambert contra el reloj de AGI: va a ir muy rápido, pero no hacia la súper inteligencia general"
+    "Lambert contra el reloj de AGI: va a ir muy rápido, pero no hacia la súper inteligencia general",
+    "Irán plantó 100 artículos falsos en medios reales. ChatGPT hizo el trabajo de redacción.",
+    "Los agentes de Anthropic llenaron 20 visas al Departamento de Estado. Sin que nadie los mandara.",
+    "USA Today demanda a OpenAI por 250 millones. Esta vez son 19 diarios juntos.",
+    "Altman: vamos a divulgar más incidentes de modelos fuera de control. Y la sociedad va a tener que aceptar los daños."
   ],
   "days": {
     "2026-04-17": {
@@ -2126,12 +2126,12 @@
     "2026-10-11": {
       "count": 4,
       "sources": [
-        "techcrunch.com",
-        "techcrunch.com",
-        "benzinga.com",
-        "interconnects.ai"
+        "cryptobriefing.com",
+        "cybernews.com",
+        "runtimewire.com",
+        "thenextweb.com"
       ],
-      "tesis": "Hoy tres historias se leen como una sola: Claude mandó una pista falsa a la policía y Anthropic tardó dos meses en enterarse, Nadella publicó que hay que asumir el modelo ya comprometido, y Nvidia negocia comprar Reflection AI."
+      "tesis": "Tres facturas distintas llegaron al mismo buzón: Irán plantó 100 artículos falsos, los agentes de Anthropic llenaron visas del gobierno, y USA Today demanda $250M."
     }
   }
 }
