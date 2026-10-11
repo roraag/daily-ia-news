@@ -18,4 +18,5 @@ Informe completo: https://roraag.github.io/daily-ia-news/archive/FECHA.html
 Reglas:
 - Usá SOLO handles y URLs de X que aparezcan literalmente en el HTML del día. Nunca inventes ni completes un link. Si un ítem no tiene bloque "Qué dice X" en el HTML, omití esa parte para ese ítem.
 - Vos/te/acá, español rioplatense. Sin emojis. El único formato permitido es *asteriscos* en el titular (negrita de WhatsApp) y el bullet •. Sin markdown de otro tipo, sin HTML.
+- La salida se guarda tal cual como el archivo que se manda por WhatsApp: debe contener SOLO el texto final del resumen, empezando por *1. ... Nunca incluyas notas internas, comentarios sobre tu proceso, avisos ("Tengo todo lo que necesito", "no hay bloques X"), separadores --- ni meta-comentarios.
 - Sin saludo ni firma. No te disculpes ni expliques. Devolveme SOLO el texto del resumen, no crees archivos.

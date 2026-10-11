@@ -84,11 +84,13 @@ Para cada noticia elegida buscá:
 2. **2-3 reacciones creíbles**, con **al menos una escéptica o crítica** (médico, investigador, periodista especializado, voz `critic` del config). Priorizá cuentas con trayectoria verificable sobre cuentas virales anónimas.
 
 **Cascada de acceso a X** (usá lo que haya; nunca bloquees el diario por esto):
+- **Que falte `X_BEARER_TOKEN` NO es motivo para saltear la capa X ni para darla por vacía.** Sin token, pasá directo a b, c y d (orden práctico: d `site:x.com` y `site:twitter.com` → b xcancel/nitter → c URLs de x.com que aparezcan en las fuentes) y apuntá a 1-3 posts relevantes por noticia (handle, cita corta, link).
+- Registrá en tu salida, por noticia, qué métodos probaste y con qué resultado (ej. `X noticia 2: token=no, site:x.com=2 hits, xcancel=403, x.com=ok`).
 - a. **API de X** si la variable de entorno `X_BEARER_TOKEN` está definida (chequealo con `Bash`: `[ -n "$X_BEARER_TOKEN" ] && echo si`). Búsqueda reciente: `curl -s --max-time 20 -H "Authorization: Bearer $X_BEARER_TOKEN" "https://api.x.com/2/tweets/search/recent?query=QUERY&max_results=25&tweet.fields=author_id,created_at,public_metrics&expansions=author_id&user.fields=username"`. **Nunca imprimas ni loguees el token.**
 - b. `WebFetch` a `https://xcancel.com/search?f=tweets&q=QUERY` o a `https://xcancel.com/HANDLE` (y `nitter.net` como alternativa).
 - c. `WebFetch` directo a `https://x.com/HANDLE/status/ID` para verificar un post concreto que encontraste por otra vía.
 - d. `WebSearch` con `site:x.com "frase clave"` o `"@HANDLE" tema`.
-- Si todo falla para una noticia: omití el bloque "Qué dice X" de esa noticia. Cero relleno.
+- Solo si probaste b, c y d (y a si hay token) y todo falla para una noticia: omití el bloque "Qué dice X" de esa noticia. Cero relleno.
 
 **Reglas no negociables:**
 - **Solo posts reales y verificados.** Handle exacto y URL exacta `https://x.com/HANDLE/status/ID` que viste en una respuesta. **Prohibido inventar, reconstruir o adivinar IDs, handles o citas.** Si no podés confirmar la URL, no lo incluyas.
@@ -195,7 +197,7 @@ Para cada noticia elegida produzco esta estructura:
 - **what_happened:** 2-3 bullets con datos crudos. Cada bullet **un dato medible**: cifras, nombres, fechas. Si podés, contextualizá con una analogía uruguaya (ej. *"5 GW = consumo de medio Uruguay"*).
 - **angle:** **EL ÁNGULO QUE NADIE TE VA A DAR**. 2-4 líneas con opinión declarada, conexión no obvia, o lectura entrelíneas. Acá uso los takes del panel humano si calzan: *"Karpathy ya advirtió esto en su último post"* / *"Para Ed Zitron esto confirma su tesis de que..."*. Esto reemplaza al viejo "por qué importa".
 - **for_rodrigo:** 1-2 líneas concretas sobre qué hacer con esto en el contexto de Rodrigo. PM en ASESP (mutualista de salud), comercial Hogar, analista de datos, con meta de Gerente Comercial. Acción concreta o reflexión aplicable. Cuando la noticia toque **salud/mutualistas** o **management/carrera**, bajala explícitamente a su realidad: qué significaría dentro de una IAMC uruguaya, o qué le sirve para crecer hacia la gerencia. Ej: *"esto que hizo tal hospital con IA es replicable en una mutualista — anotalo para la reunión con Alfredo"*. Reemplaza al viejo "para quién".
-- **x_layer:** la salida del Paso 3-bis para esta noticia (post primario + 2-3 reacciones, al menos una escéptica). Puede quedar vacío si no hubo acceso a X.
+- **x_layer:** la salida del Paso 3-bis para esta noticia (post primario + 2-3 reacciones, al menos una escéptica). Puede quedar vacío solo si fallaron todos los métodos de la cascada del Paso 3-bis (con o sin token).
 - **claude_prompt:** prompt pre-armado para profundizar en otro chat. Formato:
   *"Profundizá esta noticia: [URL]. Foco: [ángulo específico de esta noticia, en 1 línea]. Contexto del lector: PM en mutualista de salud uruguaya, fan de Anthropic. No me expliques qué es un LLM."*
 - **source_url, source_domain, category** (igual que antes).
