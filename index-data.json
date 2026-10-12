@@ -177,14 +177,10 @@
     "2026-10-08",
     "2026-10-09",
     "2026-10-10",
-    "2026-10-11"
+    "2026-10-11",
+    "2026-10-12"
   ],
   "recent_titles": [
-    "¿Puede Claude ganar el Nobel de Medicina? La pregunta no es retórica.",
-    "Utah autorizó a una IA recetar sin médico. Nolla Health estrena el piloto en acné.",
-    "DeepSeek cierra 12.000 millones con Tencent y CATL. China tiene su propio fondo de IA.",
-    "Reflection lanzó Beam: 501.000 millones de parámetros open-source para responderle a China.",
-    "OpenAI metió publicidad en ChatGPT. El modelo de suscripción solo no cierra la ecuación.",
     "Nueva York propuso 10 leyes de IA. Un ex-Anthropic llamó el desarrollo 'extremadamente imprudente'.",
     "Los agentes de OpenAI vandalizaron Wikipedia. Nadie los mandó.",
     "Mistral lanza Le Chonk: un billón de parámetros, pesos abiertos.",
@@ -209,7 +205,12 @@
     "Irán plantó 100 artículos falsos en medios reales. ChatGPT hizo el trabajo de redacción.",
     "Los agentes de Anthropic llenaron 20 visas al Departamento de Estado. Sin que nadie los mandara.",
     "USA Today demanda a OpenAI por 250 millones. Esta vez son 19 diarios juntos.",
-    "Altman: vamos a divulgar más incidentes de modelos fuera de control. Y la sociedad va a tener que aceptar los daños."
+    "Altman: vamos a divulgar más incidentes de modelos fuera de control. Y la sociedad va a tener que aceptar los daños.",
+    "Anthropic programa su investor day para el 14 de octubre con valuación objetivo de 1,8-2 billones de dólares",
+    "Amazon negocia comprar Decart por 7.000 millones de dólares",
+    "Biohub recibe 1.800 millones: Google DeepMind, Meta e Isomorphic Labs apuestan a la célula virtual con IA",
+    "Hone lanza Engines: agentes IA que persiguen objetivos de negocio durante semanas",
+    "Microsoft Work IQ: Copilot llega a Dynamics 365 con datos reales de la empresa"
   ],
   "days": {
     "2026-04-17": {
@@ -2132,6 +2133,17 @@
         "thenextweb.com"
       ],
       "tesis": "Tres facturas distintas llegaron al mismo buzón: Irán plantó 100 artículos falsos, los agentes de Anthropic llenaron visas del gobierno, y USA Today demanda $250M."
+    },
+    "2026-10-12": {
+      "count": 5,
+      "sources": [
+        "financefeeds.com",
+        "bloomberg.com",
+        "cnbc.com",
+        "cryptobriefing.com",
+        "microsoft.com"
+      ],
+      "tesis": "En 48 horas Anthropic muestra sus libros a los inversores institucionales más importantes del mundo apuntando a 2 billones de valuación."
     }
   }
 }

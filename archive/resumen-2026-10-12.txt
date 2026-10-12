@@ -1,0 +1,37 @@
+*1. Anthropic abre sus libros el martes: 2 billones de valuación y el mayor IPO de IA de la historia*
+Lo nuevo: Investor day el 14 de octubre en San Francisco para un grupo selecto de institucionales, sin confirmación pública de Anthropic por quiet period pre-IPO. Valuación objetivo 1,8-2 billones, listado en Nasdaq antes de Thanksgiving. El S-1 todavía no es público pero filtra $42.000 millones de pérdida neta en 2025, $518.000 millones en compromisos de cómputo futuro y advertencia de riesgo existencial.
+Por qué te lo digo:
+• Si ASESP está evaluando integraciones con Claude, cualquier negociación de licencias conviene cerrarla antes de que cotice: el SaaS enterprise generalmente sube de precio post-IPO para mostrar márgenes.
+Qué dice X:
+• @drboycewatkins1 (analista financiero, escéptico): "Anthropic IPO: before Thanksgiving. $2T valuation. $42B net loss in 2025. $518B in future compute spending. S-1 warns of AI existential risks." https://x.com/drboycewatkins1/status/2108951121050112483
+• @jennyqcheng (ex JPMorgan, inversora): "Anthropic hosting a pre-IPO investor day on Oct 14 (in 3-4 days), hopefully more clarity is out then." https://x.com/jennyqcheng/status/2109094039916359935
+• La discusión financiera no tiene entusiasmo unánime: el prospecto con $42.000 millones de pérdida y advertencia de riesgo existencial no pasa desapercibido.
+Link: https://financefeeds.com/anthropics-14-october-investor-day-nears-but-its-s-1-still-isnt-public-the-ipo-timeline-explained/
+
+*2. Amazon negocia comprar Decart por 7.000 millones. Anthropic lo había querido por 6.000 y desistió.*
+Lo nuevo: Bloomberg confirmó negociaciones avanzadas entre Amazon y Decart, startup cuyo software hace correr modelos IA en cualquier chip, no solo Nvidia. Decart levantó 300 millones en mayo a 4.000 millones de valuación; cinco meses después está a 7.000. Amazon tiene 4.000 millones invertidos en Anthropic y fabrica Trainium para competir con Nvidia.
+Por qué te lo digo:
+• Si Amazon integra Decart en AWS, el costo de correr modelos en la nube puede bajar en 12-18 meses. Eso baja la barrera para proyectos de IA en una IAMC. La guerra de chips la gana quien tiene mejor software encima, no quien fabricó el mejor silicio.
+Qué dice X:
+• @shivang_ran (analista tech): "Anthropic walked away from Decart at $6B. Amazon is reportedly stepping in at ~$7B. The reason: Decart made AI video run faster on Trainium than on Nvidia GPUs. For AWS, that's worth more than the product." https://x.com/shivang_ran/status/2109415384696967600
+• @justrehen (escéptico, contexto de valuación): "Amazon is in talks to buy Decart for around 7 billion dollars. Decart raised 300 million in May at a 4 billion valuation." https://x.com/justrehen/status/2109431230597087414
+• De 4.000 a 7.000 millones en cinco meses: quien lo señala no lo dice como elogio.
+Link: https://www.bloomberg.com/news/articles/2026-10-11/amazon-is-in-talks-to-buy-ai-startup-decart-wsj-reports
+
+*3. Hone levantó 60 millones para agentes que responden por resultados de negocio, no por tareas*
+Lo nuevo: Benchmark e Index co-lideraron un seed de 60 millones a 285 millones de valuación. El producto Engines son agentes que persiguen objetivos durante semanas o meses —"reducí el tiempo de autorización de prestaciones 20%"— no que completan tareas aisladas. El CEO armó el sistema de planificación de Devin, y Cognition —la empresa detrás de Devin— ya es cliente.
+Por qué te lo digo:
+• Es el modelo que podrías proponer en ASESP para el próximo ciclo: no un asistente para redactar notas sino un agente que se compromete a reducir un KPI concreto como tiempo de autorización o costo por prestación. Vale para la conversación con Alfredo sobre el roadmap de IA.
+Qué dice X:
+• @SiEdgeGeek (analista de producto IA): "Hone raised $60M at a $285M valuation for Engines that own business outcomes instead of finishing tasks. Owning the outcome is a different product than answering the prompt." https://x.com/SiEdgeGeek/status/2109481742973497801
+• @shiparena (contexto de founders): "Moritz Stephan was Cognition's chief of staff and helped build the planning system behind Devin. Now he runs Hone, and Cognition is a customer." https://x.com/shiparena/status/2108884648306897263
+• El entusiasmo es de insiders: todavía falta la voz que le pida benchmarks reales a un agente que "posee el P&L".
+Link: https://cryptobriefing.com/hone-ai-agents-60-million-seed/
+
+*4. El Estado uruguayo digitaliza historias clínicas manuscritas con IA. El Hospital de Clínicas ya lo hace.*
+Lo nuevo: El Laboratorio de IA para el Bien, iniciativa conjunta de Microsoft y el gobierno uruguayo, completó 8 proyectos en el primer semestre con organismos como MIEM, LATU, Antel y AGESIC. El proyecto más relevante para salud: el Hospital de Clínicas digitalizando legajos manuscritos con IA. AGESIC además tiene un agente para trámites digitales por lenguaje natural.
+Por qué te lo digo:
+• El proyecto del Hospital de Clínicas es replicable directamente en ASESP. Si alguna vez estuviste en una reunión donde digitalizar legajos históricos no avanzó por costo, este es el modelo que lo hace posible. Conocés a la gente de AGESIC y del MSP que implementó esto.
+Link: https://ladiaria.com.uy/futuro/articulo/2026/10/gobierno-uruguayo-desarrolla-ocho-proyectos-de-inteligencia-artificial-para-mejorar-procesos-del-estado/
+
+Informe completo: https://roraag.github.io/daily-ia-news/archive/2026-10-12.html
