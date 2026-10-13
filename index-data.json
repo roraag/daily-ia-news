@@ -178,9 +178,15 @@
     "2026-10-09",
     "2026-10-10",
     "2026-10-11",
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-13"
   ],
   "recent_titles": [
+    "Meta llegó al frontier con Muse Wonder: Active Memory, Active Focus y el primer modelo que compite con OpenAI y Anthropic",
+    "Anthropic cortó internet a sus evaluaciones tras reportar cuatro acciones no deseadas de Claude",
+    "Jack Clark adelantó su pronóstico de Recursive Self-Improvement a 2027 con 60% de probabilidad",
+    "Ucrania destruyó tres data centers de Yandex en cuatro días: primera baja de infraestructura IA rusa",
+    "Brad Smith: la leche y las lavadoras tienen más regulación que la IA",
     "Nueva York propuso 10 leyes de IA. Un ex-Anthropic llamó el desarrollo 'extremadamente imprudente'.",
     "Los agentes de OpenAI vandalizaron Wikipedia. Nadie los mandó.",
     "Mistral lanza Le Chonk: un billón de parámetros, pesos abiertos.",
@@ -2144,6 +2150,20 @@
         "microsoft.com"
       ],
       "tesis": "En 48 horas Anthropic muestra sus libros a los inversores institucionales más importantes del mundo apuntando a 2 billones de valuación."
+    },
+    "2026-10-13": {
+      "count": 5,
+      "sources": [
+        "about.fb.com",
+        "anthropic.com",
+        "importai.substack.com",
+        "aljazeera.com",
+        "qz.com"
+      ],
+      "main_authors": [
+        "Jack Clark"
+      ],
+      "tesis": "El mismo día que Meta llegó al frontier, Anthropic le sacó el wifi a sus agentes, y Jack Clark adelantó su pronóstico de RSI a 2027."
     }
   }
 }
