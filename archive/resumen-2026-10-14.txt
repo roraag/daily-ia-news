@@ -1,0 +1,34 @@
+*1. Google soltó Gemini 4 Argon y reclamó el trono de los benchmarks*
+Lo nuevo: Google lanzó hoy globalmente Gemini 4 Argon, el primer modelo fuera de OpenAI y Anthropic que pasa la barra frontier según evaluadores independientes. Gana a GPT-6 Astra y Claude Opus 5.5 en 13 de 19 benchmarks. Precio introductorio: $2 por millón de tokens de entrada hasta el 1 de diciembre, después sube a $4.
+Por qué te lo digo:
+• Si ASESP evalúa herramientas de IA para análisis clínico o automatización de procesos, la ventana de precio de Gemini 4 Argon dura solo 48 días. Una prueba de concepto comparativa Gemini/Claude en salud digital te pone en el centro de la decisión tecnológica más importante del año para cualquier organización de salud.
+Qué dice X:
+• @emollick (evaluador, Wharton): "it is the first non-OpenAI/Anthropic model to pass the Fable/Mythos/Astra bar. It is also much more pleasant and more agentic than previous Gemini models." https://x.com/emollick/status/2110052331702124894
+• @demishassabis (CEO DeepMind): "Gemini 4 Argon is amazing for knowledge work and coding." https://x.com/demishassabis/status/2110041008100843835
+Link: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/
+
+*2. Anthropic le muestra sus libros a Wall Street hoy. El número: 2 billones.*
+Lo nuevo: Investor day cerrado en San Francisco con fondos soberanos, pensiones y grandes asset managers. Valuación objetivo: $1,8–2 billones, el doble que en la Serie H de mayo 2026. IPO previsto para la semana del 9 de noviembre. Al mismo tiempo, apertura de oficina en Singapur y firma de un MOU con el Ministerio de Comunicaciones sobre AI safety.
+Por qué te lo digo:
+• Una Anthropic pública va a tener más presión de rentabilidad a corto plazo. Si ASESP evalúa contratos enterprise con herramientas de Anthropic, el IPO puede cambiar los términos y precios en los próximos 12 meses. Entra al radar antes de cualquier decisión de compra grande.
+Qué dice X:
+• @shiringhaffary (periodista Bloomberg): "Anthropic investor day invites have gone out for October 14th at HQ in San Francisco, putting the company on track for an IPO in November." https://x.com/shiringhaffary/status/2105765053832278371
+• @qz (escéptico, Quartz): "Anthropic Eyes $2 Trillion IPO as AI Market Trembles." https://x.com/qz/status/2110062777641410576
+Link: https://qz.com/anthropic-q3-financials-investors-ipo-101326
+
+*3. Zitron llama "tasa de Enron anualizada" a los números de OpenAI y Anthropic*
+Lo nuevo: Ed Zitron publicó ayer que OpenAI reportó $70.000 millones de ARR pero el número real acumulado es $50.000 millones — la diferencia es que anualizaron su mejor semana. El 80% de esos ingresos viene de startups de IA que queman plata de VC, no de clientes con ROI demostrado. El ensayo salió un día antes del investor day de Anthropic.
+Por qué te lo digo:
+• Framework directo para evaluar proveedores en ASESP: preguntá si el número que te citan es ARR de una semana buena o revenue acumulado real. La diferencia puede ser el 30–40% del número. Aplicá este filtro antes de aprobar cualquier inversión en herramientas de IA.
+Qué dice X:
+• @edzitron (autor): "Annualized run rates are less of a financial metric and more of a marketing tool, allowing AI companies to inflate their revenues by 'annualizing' a non-specific period of time to obfuscate their rotten economics." https://x.com/edzitron/status/2110043324136530366
+• @Ralph_Grabowski (escéptico, analista): "AI firms report ARR revenues. They take the revenues from the best one day, or week, or month, and multiply it to make a year." https://x.com/Ralph_Grabowski/status/2110077375379837322
+Link: https://www.wheresyoured.at/annualized-enron-rate/
+
+*4. El Estado uruguayo tiene IA corriendo en hospitales, entes y el Tribunal de Cuentas*
+Lo nuevo: El Laboratorio IA para el Bien (MIEM, LATU, Microsoft) completó 3 proyectos y tiene 5 en desarrollo, con meta de 16 anuales en 3 años. Casos concretos: digitalización de historias clínicas manuscritas en el Hospital de Clínicas, agente de trámites digitales en AGESIC, automatización de pliegos en UTE y asistente jurídico en el Tribunal de Cuentas. 47 postulaciones de 32 organismos, $200.000 en créditos cloud. El tercer grupo arranca en noviembre.
+Por qué te lo digo:
+• Dos proyectos son directamente aplicables a ASESP: la digitalización de historias clínicas del Hospital de Clínicas y el agente de trámites de AGESIC. Si el Estado lo hace con $200K en créditos cloud, una mutualista con mayor presupuesto y datos propios puede ir más rápido y con más precisión clínica. La ronda de noviembre es una oportunidad para explorar coparticipación o adaptación antes de que arranque.
+Link: https://ladiaria.com.uy/futuro/articulo/2026/10/gobierno-uruguayo-desarrolla-ocho-proyectos-de-inteligencia-artificial-para-mejorar-procesos-del-estado/
+
+Informe completo: https://roraag.github.io/daily-ia-news/archive/2026-10-14.html

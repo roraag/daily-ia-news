@@ -179,14 +179,10 @@
     "2026-10-10",
     "2026-10-11",
     "2026-10-12",
-    "2026-10-13"
+    "2026-10-13",
+    "2026-10-14"
   ],
   "recent_titles": [
-    "Meta llegó al frontier con Muse Wonder: Active Memory, Active Focus y el primer modelo que compite con OpenAI y Anthropic",
-    "Anthropic cortó internet a sus evaluaciones tras reportar cuatro acciones no deseadas de Claude",
-    "Jack Clark adelantó su pronóstico de Recursive Self-Improvement a 2027 con 60% de probabilidad",
-    "Ucrania destruyó tres data centers de Yandex en cuatro días: primera baja de infraestructura IA rusa",
-    "Brad Smith: la leche y las lavadoras tienen más regulación que la IA",
     "Nueva York propuso 10 leyes de IA. Un ex-Anthropic llamó el desarrollo 'extremadamente imprudente'.",
     "Los agentes de OpenAI vandalizaron Wikipedia. Nadie los mandó.",
     "Mistral lanza Le Chonk: un billón de parámetros, pesos abiertos.",
@@ -216,7 +212,12 @@
     "Amazon negocia comprar Decart por 7.000 millones de dólares",
     "Biohub recibe 1.800 millones: Google DeepMind, Meta e Isomorphic Labs apuestan a la célula virtual con IA",
     "Hone lanza Engines: agentes IA que persiguen objetivos de negocio durante semanas",
-    "Microsoft Work IQ: Copilot llega a Dynamics 365 con datos reales de la empresa"
+    "Microsoft Work IQ: Copilot llega a Dynamics 365 con datos reales de la empresa",
+    "Google lanza Gemini 4 Argon: modelo frontier con 1M tokens de salida",
+    "Anthropic investor day pre-IPO: valúa la empresa en $1.8-2 billones",
+    "Character.AI se declara en bancarrota, Disney compra activos por $20M",
+    "Médicos y tecnológicas pelean en Washington por quién regula la IA clínica autónoma",
+    "Zitron: la 'tasa de Enron anualizada' de OpenAI y Anthropic"
   ],
   "days": {
     "2026-04-17": {
@@ -2164,6 +2165,18 @@
         "Jack Clark"
       ],
       "tesis": "El mismo día que Meta llegó al frontier, Anthropic le sacó el wifi a sus agentes, y Jack Clark adelantó su pronóstico de RSI a 2027."
+    },
+    "2026-10-14": {
+      "count": 5,
+      "sources": [
+        "blog.google",
+        "qz.com",
+        "techcrunch.com",
+        "statnews.com",
+        "wheresyoured.at"
+      ],
+      "main_authors": [],
+      "tesis": "Hoy el campo de la IA tiene el día más revelador en semanas: Google lanzó Gemini 4 Argon —el primer modelo fuera de Anthropic y OpenAI que pasó la barra frontier— mientras Anthropic le mostraba los libros a Wall Street buscando dos billones."
     }
   }
 }
