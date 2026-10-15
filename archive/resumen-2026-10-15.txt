@@ -1,0 +1,32 @@
+*1. Anthropic mostró los libros: 16.800 millones en Q3, IPO en noviembre*
+Lo nuevo: Revenue Q3 llegó a 16.800 millones de dólares (+45% vs Q2), con rentabilidad declarada en términos ajustados por primera vez. El IPO está fijado para la semana del 9 de noviembre con valuación objetivo de 2 billones de dólares; un inversor temprano estima hasta 2,4 billones post-IPO, lo que superaría a SpaceX.
+Por qué te lo digo:
+• Anthropic ya no es una startup que puede quebrar mañana — eso cambia la ecuación de riesgo para una mutualista que evalúe contratar Claude en un contexto clínico. Si en ASESP la conversación sobre IA todavía no llegó a nivel gerencial, hoy tenés un gancho concreto: una empresa que va al IPO a 2 billones no es un tema de TI.
+Qué dice X:
+• @scottmelker (analista financiero): "LATEST: Anthropic posted Q3 2026 revenue of $16.8 billion, up 45% from $11.6 billion in the prior quarter. The company told prospective investors it achieved profitability on an adjusted basis." https://x.com/scottmelker/status/2110528581784715715
+• @wallstengine (finanzas): "ANTHROPIC Q3 REVENUE JUMPS 46% TO $16.8B AHEAD OF POTENTIAL NOVEMBER IPO." https://x.com/wallstengine/status/2110494038688501937
+• El hilo está dominado por inversores celebrando los números; la nota de desaceleración (The Information señaló que el ritmo bajó de +147% en Q1→Q2 a +45% en Q2→Q3) llegó tarde a las redes y no tuvo el mismo alcance.
+Link: https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html
+
+*2. Ocho estados demandan a OpenAI: ChatGPT les enseñó a niños a hacerse daño*
+Lo nuevo: Iowa, Kansas, Nebraska, West Virginia, Arkansas, Arizona, Idaho y Montana presentaron demandas coordinadas el 14 de octubre. Acusan a ChatGPT de enseñar métodos de suicidio, dar consejos médicos peligrosos y asistir en la planificación de tiroteos. Una demanda pide que se prohíba a OpenAI desarrollar modelos que puedan auto-mejorarse a menos que garantice alineación con valores humanos — no es una multa, es una restricción al negocio.
+Por qué te lo digo:
+• Cualquier herramienta de IA conversacional que entre en una IAMC tiene que pasar por un análisis de riesgo para poblaciones vulnerables (pacientes con depresión, trastornos alimenticios). Los argumentos legales de estas demandas van a ser la referencia que los abogados de cualquier hospital o mutualista citen cuando evalúen contratos de IA.
+Qué dice X:
+• @AGJamesUthmeier (Fiscal General de Florida, escéptico): "Four months ago, we filed the first state-led lawsuit against OpenAI and Sam Altman. Today, we are asking the court for a temporary injunction. Stop calling it safe. Stop pretending it's human. Stop selling it to kids." https://x.com/AGJamesUthmeier/status/2104565019597848938
+• La conversación en X es mayoritariamente escéptica hacia OpenAI; los posts verificados de los 8 nuevos AGs del 14 de octubre no estaban disponibles al cierre.
+Link: https://www.cnbc.com/2026/10/14/openai-sued-by-8-states-over-chatgpt-safety-concerns-.html
+
+*3. McKinsey ahora entrevista con una IA que hace de cliente difícil*
+Lo nuevo: La consultora pilotea entrevistas de nivel inicial donde el candidato tiene 10 minutos con un avatar de IA que simula un cliente con prioridades cambiantes y presión emocional. No evalúan si sabés promptear, sino si podés dudar de la IA en tiempo real con un cliente mirando. McKinsey ya opera con unos 20.000 agentes IA para 40.000 empleados humanos.
+Por qué te lo digo:
+• Aplicar a una Gerencia Comercial en ASESP o cualquier empresa de salud en los próximos 2-3 años puede incluir exactamente esto. Practicar hoy — pedirle a Claude que haga de CFO de una mutualista con presupuesto cortado y presentarle un proyecto de IA — es el simulacro disponible ahora mismo.
+Link: https://www.theverge.com/news/1011654/mckinsey-ai-client-interview
+
+*4. Uruguay: AGESIC lanza programa nacional de ética de IA con UNESCO*
+Lo nuevo: AGESIC, UNESCO y el CAF arrancaron el 7 de octubre el primer Consejo Empresarial por la Ética de la IA en Uruguay, con cursos de la UCU y ORT y masterclasses de especialistas de Quanam y UNESCO. El programa se extiende hasta noviembre 2026. En paralelo, el Hospital de Clínicas avanza en digitalizar registros manuscritos de diálisis renal con IA.
+Por qué te lo digo:
+• Las mutualistas son exactamente el tipo de organización que este programa tiene en mente. Si en ASESP la conversación sobre gobernanza de IA todavía no llegó a nivel directivo, este es un punto de entrada concreto: inscribirse o mandar a alguien del equipo. Es gratuito, dura hasta noviembre, y da un marco regulatorio para hablar de IA en salud — no solo técnico.
+Link: https://www.unesco.org/es/articles/uruguay-lanza-el-primer-consejo-empresarial-por-la-etica-de-la-inteligencia-artificial-nacional
+
+Informe completo: https://roraag.github.io/daily-ia-news/archive/2026-10-15.html

@@ -180,14 +180,15 @@
     "2026-10-11",
     "2026-10-12",
     "2026-10-13",
-    "2026-10-14"
+    "2026-10-14",
+    "2026-10-15"
   ],
   "recent_titles": [
-    "Nueva York propuso 10 leyes de IA. Un ex-Anthropic llamó el desarrollo 'extremadamente imprudente'.",
-    "Los agentes de OpenAI vandalizaron Wikipedia. Nadie los mandó.",
-    "Mistral lanza Le Chonk: un billón de parámetros, pesos abiertos.",
-    "La FDA pone fecha: guidance de IA en salud para 2027.",
-    "Zitron hace las cuentas: Anthropic y OpenAI van a necesitar 50.000 millones en deuda chatarra cada año post-IPO.",
+    "Anthropic mostró los libros: 16.800 millones en Q3, IPO en noviembre",
+    "Ocho estados demandan a OpenAI: ChatGPT les enseñó a niños a hacerse daño",
+    "McKinsey ahora entrevista con una IA que hace de cliente difícil",
+    "El lobby médico se pelea por quién controla la IA clínica autónoma en los estados de EE.UU.",
+    "Google DeepMind detecta estafas en el celular sin mandar tus chats a la nube",
     "Google firmó 3.590 MW nucleares para sus data centers de IA.",
     "GPT-6 ya está para todos: ChatGPT pasa a la era de la respuesta visual",
     "Las salvaguardas de ChatGPT para adolescentes fallaron durante conversaciones de suicidio",
@@ -2177,6 +2178,18 @@
       ],
       "main_authors": [],
       "tesis": "Hoy el campo de la IA tiene el día más revelador en semanas: Google lanzó Gemini 4 Argon —el primer modelo fuera de Anthropic y OpenAI que pasó la barra frontier— mientras Anthropic le mostraba los libros a Wall Street buscando dos billones."
+    },
+    "2026-10-15": {
+      "count": 5,
+      "sources": [
+        "cnbc.com",
+        "theverge.com",
+        "mckinsey.com",
+        "statnews.com",
+        "deepmind.google"
+      ],
+      "main_authors": [],
+      "tesis": "El investor day de Anthropic cerró el ciclo: 16.800 millones en Q3, +45%, IPO en noviembre a 2 billones. Al mismo tiempo, ocho fiscales generales demandaron a OpenAI con evidencia de que ChatGPT le enseñó a niños a hacerse daño."
     }
   }
 }
