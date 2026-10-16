@@ -181,7 +181,8 @@
     "2026-10-12",
     "2026-10-13",
     "2026-10-14",
-    "2026-10-15"
+    "2026-10-15",
+    "2026-10-16"
   ],
   "recent_titles": [
     "Anthropic mostró los libros: 16.800 millones en Q3, IPO en noviembre",
@@ -218,7 +219,12 @@
     "Anthropic investor day pre-IPO: valúa la empresa en $1.8-2 billones",
     "Character.AI se declara en bancarrota, Disney compra activos por $20M",
     "Médicos y tecnológicas pelean en Washington por quién regula la IA clínica autónoma",
-    "Zitron: la 'tasa de Enron anualizada' de OpenAI y Anthropic"
+    "Zitron: la 'tasa de Enron anualizada' de OpenAI y Anthropic",
+    "ChatGPT puede ver tus tabs de Chrome en tiempo real",
+    "Meta lanza Muse Spark Open: modelo frontier open-weight que corre en dos Mac Studio",
+    "Anthropic da acceso nivel-empleado a evaluadores de seguridad de METR",
+    "La FTC citó a OpenAI y Anthropic con subpoenas de 50 páginas por incidentes de seguridad",
+    "Google Antigravity descubre péptido antimicrobiano con IA agéntica"
   ],
   "days": {
     "2026-04-17": {
@@ -2190,6 +2196,18 @@
       ],
       "main_authors": [],
       "tesis": "El investor day de Anthropic cerró el ciclo: 16.800 millones en Q3, +45%, IPO en noviembre a 2 billones. Al mismo tiempo, ocho fiscales generales demandaron a OpenAI con evidencia de que ChatGPT le enseñó a niños a hacerse daño."
+    },
+    "2026-10-16": {
+      "count": 5,
+      "sources": [
+        "theverge.com",
+        "techcrunch.com",
+        "anthropic.com",
+        "axios.com",
+        "deepmind.google"
+      ],
+      "main_authors": [],
+      "tesis": "Hoy el campo de la IA tiene su día más claro en semanas, y las dos señales apuntan en sentidos opuestos. Meta y Google abren los pesos y la plataforma de ciencia a cualquiera; la FTC entra con subpoenas de 50 páginas a los dos labs más grandes del mundo. Anthropic llama a los evaluadores de seguridad adentro de la casa el mismo día que el gobierno llega por su lado. No es contradicción: es la forma en que se resuelve la tensión entre reguláte vos y te regulamos nosotros, y hoy las dos fuerzas se movieron al mismo tiempo."
     }
   }
 }

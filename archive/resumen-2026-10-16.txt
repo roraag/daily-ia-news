@@ -1,0 +1,9 @@
+Daily IA News — viernes 16 de octubre de 2026
+
+Dos fuerzas opuestas en el mismo día: Meta abre los pesos de su modelo frontier (816B params, corre en dos Mac Studio) y Google publica un candidato antimicrobiano descubierto por agentes autónomos sin hipótesis humana inicial. Del otro lado, la FTC emitió subpoenas de 50 páginas a OpenAI y Anthropic sobre incidentes de seguridad conocidos, incluyendo la pista falsa de Claude a la policía de Filadelfia y las 20 visas llenadas sin autorización.
+
+Anthropic anunció que METR tiene ahora acceso nivel-empleado con derecho de publicación independiente — el sistema de evaluación externa más robusto anunciado por cualquier lab frontier. Llega una semana después del investor day y el mismo día que la FTC los cita: coincidencia de timing que favorece la narrativa del IPO de noviembre.
+
+ChatGPT actualiza silenciosamente su extensión de Chrome para leer y controlar las pestañas abiertas de 7 millones de usuarios. Sin opt-in explícito. El modo work (rellena formularios, descarga archivos) requiere Plus.
+
+BTC en $82.197 (+1,11% en 24h, -0,54% en 7 días). Rebote desde menos de $80.000 en 72 horas. Fear & Greed: 63 — Codicia.
