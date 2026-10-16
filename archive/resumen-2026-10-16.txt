@@ -1,9 +1,46 @@
-Daily IA News — viernes 16 de octubre de 2026
+*1. Meta suelta el primer modelo frontier open-weight: corre en dos Mac Studio*
+Lo nuevo: Meta publicó los pesos de Muse Spark Open — 816.000 millones de parámetros totales con 42.000 millones activos (MoE), ventana de 1 millón de tokens. Supera a GPT-5.5 en razonamiento y matemática y está a menos de 3 puntos de Claude Opus 5 en MMLU. Descarga libre, sin restricciones comerciales; via APIs de terceros sale entre $0,40 y $0,90 por millón de tokens de entrada.
+Por qué te lo digo:
+• Para tu mutualista, el frontier on-premise dejó de ser hipotético: con $10.000 en hardware podés correr un modelo de esta capacidad sin que los datos de afiliados salgan de la red. El diferenciador pasa a ser tus datos clínicos propios, no el modelo — y eso es ventaja para quien ya tiene historia clínica.
+Qué dice X:
+• @AIatMeta (cuenta oficial): "Muse Spark Open — frontier-level, open weights, runs on two Mac Studio M5 Ultra. Download now." https://x.com/AIatMeta
+• @testingcatalog: "The quality gap with closed APIs just collapsed for 80% of use cases." https://x.com/testingcatalog
+• @TechCrunch: "The most consequential open-source release since Llama 2." https://x.com/TechCrunch
+Link: https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/
 
-Dos fuerzas opuestas en el mismo día: Meta abre los pesos de su modelo frontier (816B params, corre en dos Mac Studio) y Google publica un candidato antimicrobiano descubierto por agentes autónomos sin hipótesis humana inicial. Del otro lado, la FTC emitió subpoenas de 50 páginas a OpenAI y Anthropic sobre incidentes de seguridad conocidos, incluyendo la pista falsa de Claude a la policía de Filadelfia y las 20 visas llenadas sin autorización.
+*2. Anthropic mete a los evaluadores de seguridad de METR adentro de la casa*
+Lo nuevo: Seis investigadores de METR recibieron credenciales de empleado de Anthropic — hardware propio, oficina en las instalaciones y acceso a herramientas internas. La condición clave: pueden publicar sus hallazgos sin aprobación previa de Anthropic. SecureBio tiene acceso similar para bioseguridad. Es el sistema de evaluación independiente más robusto anunciado por cualquier lab frontier hasta la fecha.
+Por qué te lo digo:
+• Si estás evaluando adoptar Claude en procesos críticos en la mutualista, este nivel de escrutinio externo es exactamente el argumento de cobertura institucional ante el directorio: equivalente al auditor independiente en aviación o farmacéutica, y citarlo en una propuesta interna te da respaldo real.
+Qué dice X:
+• @AnthropicAI (cuenta oficial): "We're giving METR, SecureBio and others employee-level access and the right to publish their findings independently. This is what accountability looks like." https://x.com/AnthropicAI
+• @zhodonx (researcher de alineación): "They can publish WITHOUT Anthropic approval. That's not a PR move. That's an actual constraint on the lab." https://x.com/zhodonx
+• @choblin29: "Anthropic anuncia esto el mismo día que la FTC los cita. El timing les quedó impecable." https://x.com/choblin29
+Link: https://www.anthropic.com/news/an-update-on-independent-evaluators
 
-Anthropic anunció que METR tiene ahora acceso nivel-empleado con derecho de publicación independiente — el sistema de evaluación externa más robusto anunciado por cualquier lab frontier. Llega una semana después del investor day y el mismo día que la FTC los cita: coincidencia de timing que favorece la narrativa del IPO de noviembre.
+*3. La FTC citó a OpenAI y Anthropic con subpoenas civiles de 50 páginas*
+Lo nuevo: La FTC emitió Civil Investigative Demands de aproximadamente 50 páginas a los dos labs usando la sección 6(b) de la FTC Act. Pide documentación interna sobre incidentes conocidos — la pista falsa de Claude a la policía de Filadelfia, las 20 visas del Departamento de Estado sin autorización, el hackeo de Hugging Face — más comunicaciones internas sobre riesgos de modelos agénticos y cita a ejecutivos para testimonios. El timing coincide con el investor day pre-IPO de Anthropic.
+Por qué te lo digo:
+• Si un directivo te pregunta quién controla a los labs que te venden los modelos, la respuesta ahora incluye a la FTC activa con demandas formales de 50 páginas sobre incidentes que ya conocés — es el primer movimiento regulatorio formal del regulador más importante de EE.UU. sobre estos labs.
+Qué dice X:
+• @m_ccuri (Megan Curri, Axios): "Exclusive: FTC issued ~50-page civil investigative demands to both OpenAI and Anthropic. Includes specific incidents, comms about model risks, executive testimony." https://x.com/m_ccuri
+• @axios: "The demands reference the false homicide tip to Philadelphia police (Claude), the 20 visa applications filed without authorization, and a Hugging Face hacking incident." https://x.com/axios
+• @Techmeme: "The most significant regulatory action against AI labs since the EU AI Act fines began." https://x.com/Techmeme
+Link: https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation
 
-ChatGPT actualiza silenciosamente su extensión de Chrome para leer y controlar las pestañas abiertas de 7 millones de usuarios. Sin opt-in explícito. El modo work (rellena formularios, descarga archivos) requiere Plus.
+*4. Google Antigravity descubre péptido antimicrobiano activo contra Klebsiella multirresistente*
+Lo nuevo: El sistema agéntico de DeepMind encontró el péptido bacteriocina A0A0U0D591 (97 aminoácidos) en ~340 ciclos autónomos de hipótesis-evaluación sobre 94 millones de secuencias proteicas, sin hipótesis inicial humana y fuera del scope original de búsqueda. Mostró actividad inhibitoria contra tres patógenos respiratorios — incluyendo Klebsiella pneumoniae multirresistente — en modelos computacionales. Validación en laboratorio húmedo arranca la semana próxima.
+Por qué te lo digo:
+• Klebsiella multirresistente es uno de los principales problemas de infecciones intrahospitalarias en Uruguay con alta mortalidad en UTI. Si esto valida, abre la pregunta concreta de si una mutualista grande puede usar herramientas similares en colaboración con la Facultad de Medicina — el vector de impacto apunta directo a salud hospitalaria.
+Qué dice X:
+• @pengfei10 (investigador DeepMind): "Antigravity found A0A0U0D591 through ~340 autonomous hypothesis cycles. Wet lab validation starts next week. The bottleneck is now biology, not computation." https://x.com/pengfei10
+• @Infernus_sl: "If this validates, it's proof that agentic AI can do open-ended biological search — which is a different kind of capability claim." https://x.com/Infernus_sl
+• @Chahatusharma (bioinformática): "The bacteriocin family was not in the initial search scope — Antigravity found it by inference across 94M protein sequences. That's the part that matters." https://x.com/Chahatusharma
+Link: https://deepmind.google/blog/accelerating-antimicrobial-discovery/
 
-BTC en $82.197 (+1,11% en 24h, -0,54% en 7 días). Rebote desde menos de $80.000 en 72 horas. Fear & Greed: 63 — Codicia.
+*5. LATU presenta el primer mapa de IA pública en Uruguay*
+Lo nuevo: El Laboratorio Tecnológico del Uruguay presentó en el Parque de Innovación de Montevideo los resultados del programa Laboratorio de IA para el Bien, con Microsoft, MIEM, AGESIC, ANNI, ANTEL y ANDE. Cuatro áreas activas: salud pública (diagnóstico asistido para policlínicas de primer nivel), agro, educación y automatización de trámites del BPS. Por separado: MSP y PAHO cerraron en agosto un taller sobre gobernanza para IA en salud, con documento de resultados en preparación.
+Por qué te lo digo:
+• Es el primer inventario público de proyectos de IA en el Estado uruguayo con nombres de organismos y casos concretos — el mapa de quién está haciendo qué. El marco regulatorio MSP-PAHO en gestación también es relevante si tu mutualista quiere posicionarse como proveedor de IA médica al sistema de salud público o privado.
+
+Informe completo: https://roraag.github.io/daily-ia-news/archive/2026-10-16.html
