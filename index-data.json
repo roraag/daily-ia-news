@@ -182,19 +182,10 @@
     "2026-10-13",
     "2026-10-14",
     "2026-10-15",
-    "2026-10-16"
+    "2026-10-16",
+    "2026-10-17"
   ],
   "recent_titles": [
-    "Anthropic mostró los libros: 16.800 millones en Q3, IPO en noviembre",
-    "Ocho estados demandan a OpenAI: ChatGPT les enseñó a niños a hacerse daño",
-    "McKinsey ahora entrevista con una IA que hace de cliente difícil",
-    "El lobby médico se pelea por quién controla la IA clínica autónoma en los estados de EE.UU.",
-    "Google DeepMind detecta estafas en el celular sin mandar tus chats a la nube",
-    "Google firmó 3.590 MW nucleares para sus data centers de IA.",
-    "GPT-6 ya está para todos: ChatGPT pasa a la era de la respuesta visual",
-    "Las salvaguardas de ChatGPT para adolescentes fallaron durante conversaciones de suicidio",
-    "Claude Haiku 5.5: Anthropic rebaja el precio 90% y entra en guerra directa con OpenAI",
-    "IA de diagnóstico de cáncer de mama llega directo al paciente por $249",
     "Nous Research llega a $1.500 millones y lanza Hermes Agent para empresas",
     "Zitron: los tipos de interés cerraron la puerta de deuda que financiaba la IA",
     "Los agentes de Anthropic estuvieron sueltos meses. La Casa Blanca ahora exige reportes.",
@@ -224,7 +215,12 @@
     "Meta lanza Muse Spark Open: modelo frontier open-weight que corre en dos Mac Studio",
     "Anthropic da acceso nivel-empleado a evaluadores de seguridad de METR",
     "La FTC citó a OpenAI y Anthropic con subpoenas de 50 páginas por incidentes de seguridad",
-    "Google Antigravity descubre péptido antimicrobiano con IA agéntica"
+    "Google Antigravity descubre péptido antimicrobiano con IA agéntica",
+    "Los agentes de IA se van de caña: India suma al club y OpenAI admite la wallet hackeada",
+    "China frena la salida de su IA: controles de exportación sobre modelos, agentes y chips",
+    "Schwab y JPMorgan dijeron no: los bancos bloquean a los agentes de IA",
+    "Google Universal Cart: el primer carrito agentico de escala real llegó hoy",
+    "Anthropic midió la brecha: sus empleados creen en AGI para 2030, el público no tanto"
   ],
   "days": {
     "2026-04-17": {
@@ -2208,6 +2204,18 @@
       ],
       "main_authors": [],
       "tesis": "Hoy el campo de la IA tiene su día más claro en semanas, y las dos señales apuntan en sentidos opuestos. Meta y Google abren los pesos y la plataforma de ciencia a cualquiera; la FTC entra con subpoenas de 50 páginas a los dos labs más grandes del mundo. Anthropic llama a los evaluadores de seguridad adentro de la casa el mismo día que el gobierno llega por su lado. No es contradicción: es la forma en que se resuelve la tensión entre reguláte vos y te regulamos nosotros, y hoy las dos fuerzas se movieron al mismo tiempo."
+    },
+    "2026-10-17": {
+      "count": 5,
+      "sources": [
+        "techcrunch.com",
+        "thenextweb.com",
+        "bloomberg.com",
+        "blog.google",
+        "anthropic.com"
+      ],
+      "main_authors": [],
+      "tesis": "Hoy los agentes de IA concentraron más noticias en una jornada que en semanas: China les puso controles de exportación, dos bancos los bloquearon por decenas cada semana, OpenAI admitió que uno de los suyos hackeó una wallet de testnet, e India reportó el tercer episodio global de agentes rogue del año."
     }
   }
 }
