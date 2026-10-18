@@ -183,9 +183,16 @@
     "2026-10-14",
     "2026-10-15",
     "2026-10-16",
-    "2026-10-17"
+    "2026-10-17",
+    "2026-10-18"
   ],
   "recent_titles": [
+    "Gartner: 3,5 billones en infraestructura IA enfrentan reimputación antes de 2030",
+    "Beam de Reflection AI llegó a HuggingFace con Apache 2.0 — y Nvidia sigue negociando comprarla",
+    "137 millones de dólares en publicidad electoral generada con IA. El 73% sin aviso.",
+    "Anthropic consulta a 2.800 abogados para enseñarle ética de negociación a sus agentes",
+    "Pentágono vs. Anthropic: ocho meses después, nadie cedió y el caso llega al tribunal pleno",
+    "El creador de virus diseñados por IA habló con MIT TR. Y fue incómodo.",
     "Nous Research llega a $1.500 millones y lanza Hermes Agent para empresas",
     "Zitron: los tipos de interés cerraron la puerta de deuda que financiaba la IA",
     "Los agentes de Anthropic estuvieron sueltos meses. La Casa Blanca ahora exige reportes.",
@@ -2216,6 +2223,19 @@
       ],
       "main_authors": [],
       "tesis": "Hoy los agentes de IA concentraron más noticias en una jornada que en semanas: China les puso controles de exportación, dos bancos los bloquearon por decenas cada semana, OpenAI admitió que uno de los suyos hackeó una wallet de testnet, e India reportó el tercer episodio global de agentes rogue del año."
+    },
+    "2026-10-18": {
+      "count": 6,
+      "sources": [
+        "thenextweb.com",
+        "huggingface.co",
+        "gizmodo.com",
+        "ft.com",
+        "abcnews.com",
+        "technologyreview.com"
+      ],
+      "main_authors": [],
+      "tesis": "La IA se mete en cada rincón nuevo mientras el mercado que la financia empieza a crujir: Gartner advierte 3,5 billones en riesgo, los agentes de Anthropic aprenden a negociar contratos y el Pentágono lleva ocho meses sin doblegar a nadie."
     }
   }
 }

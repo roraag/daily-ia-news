@@ -1,0 +1,30 @@
+*1. Gartner: hay 3,5 billones de dólares en infraestructura IA que no cierran*
+Lo nuevo: Los data centers de IA necesitan acumular $8,5 billones en ingresos hasta 2030 para cubrir su capex. El forecast real: $3,6 billones. Brecha: $4,9 billones. CoreWeave —el neocloud más expuesto— tiene bonos al 15% de rendimiento con un ROI del 1%; el 80% de los neoclouds puede cesar operaciones independientes antes de 2030. Las acciones cayeron el 14 de octubre al publicarse el informe.
+Por qué te lo digo:
+• Cuando ASESP evalúe contratar servicios de IA en cloud, mirá quién es el proveedor de cómputo subyacente. Si es un neocloud puro (CoreWeave, Nebius), exigí cláusulas de contingencia y plan B. Los hyperscalers (AWS, Azure, GCP) están más cubiertos. CoreWeave ya firma contratos con sistemas de salud en EE.UU.
+Qué dice X:
+• @edzitron (escéptico · crítico financiero IA): "Los bancos se retiran mientras el boom de deuda IA tensiona la lógica económica" — tesis que predijo en octubre y Gartner ahora confirma con números. https://www.wheresyoured.at/credit-crunch/
+Link: https://thenextweb.com/news/gartner-ai-infrastructure-spending-3-5-trillion-write-down-neoclouds
+
+*2. Anthropic le enseña ética de negociación a sus agentes con 2.800 abogados*
+Lo nuevo: Anthropic firmó un acuerdo con Freshfields —2.800 abogados, 15 países— para co-construir ética de negociación en los agentes de Claude. Ya hay un experimento interno en San Francisco: agentes negociando beneficios de empleados de Anthropic. Preguntas abiertas: ¿qué tan agresivo debería ser un agente que negocia tu sueldo?, ¿cuándo pide autorización al humano?
+Por qué te lo digo:
+• ASESP tiene toda la infraestructura contractual con prestadores, laboratorios, AFAPs y ministerios. Un agente que revise y renegocie contratos de servicio rutinarios, o que gestione disputas de cobertura antes de que lleguen al comité médico, es exactamente el caso de uso del piloto de Freshfields. No es ficción de acá a dos años.
+Qué dice X:
+• @ReutersLegal (Reuters Legal): "Anthropic dice que los agentes de IA rogue generan riesgo legal incierto para la empresa, según el prospecto de su salida a bolsa." https://x.com/ReutersLegal/status/2104970721092919746
+• @meh_agarwal (escéptico · investigador IA): "Anthropic está malinterpretando sus propios resultados — el agente que recompró un snowboard no demuestra que Claude tiene un 'modelo preciso de preferencias', solo que repitió la última instrucción." https://x.com/meh_agarwal/status/2051902016776175858
+Link: https://cryptobriefing.com/ft-anthropic-wants-lawyers-negotiating-ethics-built-into-claude-agents-that/
+
+*3. Pentágono vs. Anthropic: ocho meses después, nadie cedió*
+Lo nuevo: En febrero de 2026 el Pentágono ultimó a Anthropic: eliminá las salvaguardas de seguridad o te designamos riesgo de cadena de suministro. Las líneas rojas de Anthropic fueron armas autónomas y vigilancia masiva; rechazaron el ultimátum. El 5 de octubre el Pentágono confirmó que cesó todo uso de sus productos, cerrando un contrato piloto de $200 millones. Un tribunal federal ya validó la designación por 2 a 1; Anthropic pidió ahora al tribunal en pleno que reconsidere.
+Por qué te lo digo:
+• El caso define qué ocurre cuando IA y valores corporativos chocan con mandatos de Estado. Para una organización de salud como ASESP, la pregunta análoga es cuándo le decís no a una exigencia del MSP o el BPS que choca con el uso responsable de datos de afiliados. El voto disidente del tribunal es el argumento que te va a servir.
+Link: https://abcnews.com/Politics/pentagon-anthropic-ultimatum-ai-technology-sources/story?id=130498030
+
+*4. El BCU aprobó el primer marco de gobernanza para IA del sistema financiero uruguayo*
+Lo nuevo: El Banco Central del Uruguay aprobó el 15 de octubre su Marco de Gobernanza para uso de IA. Define usos permitidos y prohibidos según "apetito de riesgo" institucional, crea un Comité de IA bajo la Gerencia de TI y establece un registro interno de todos los usos. El documento plantea la IA como "facilitador estratégico de transformación".
+Por qué te lo digo:
+• Este es el template institucional que eventualmente van a seguir ASESP, BPS y el MSP. La lógica de adopción con comité interno y registro de usos es exactamente lo que una IAMC necesita antes de escalar IA hacia procesos de cobertura y prestación. Guardá el documento y usalo como referencia cuando en ASESP llegue el momento de escribir la política propia.
+Link: https://www.busqueda.com.uy/economia/banco-central-aprobo-su-marco-gobernanza-el-uso-ia-un-facilitador-estrategico-transformacion-n5417985
+
+Informe completo: https://roraag.github.io/daily-ia-news/archive/2026-10-18.html
