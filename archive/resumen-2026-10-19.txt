@@ -1,0 +1,43 @@
+*1. Un solo atacante pagó 5.000 dólares en tokens y entró en más de cien empresas con agentes de IA*
+Lo nuevo: La firma NorForge descubrió que un atacante usó la plataforma open-source Cairn para apuntar a más de 1.200 sitios, con éxito en el 10% de los casos a unos 50 dólares por intrusión y 23 horas de trabajo autónomo de los agentes. Víctimas confirmadas: John Deere, SharkNinja y Cummins. Una de las herramientas usadas es Claude Code.
+Por qué te lo digo:
+• Para ASESP, cualquier panel de administración web ya es un objetivo potencial no porque alguien los apunte específicamente, sino porque los agentes prueban vulnerabilidades de forma automatizada en escala. Agenda una conversación con IT sobre la superficie de ataque antes de fin de mes.
+Qué dice X:
+• @Vvikramai (tech commentator): "A hacker broke into more than 100 websites using an army of AI agents that were operated on their own, according to findings from the AI security firm Norforge." https://x.com/Vvikramai/status/2112201108106224042
+• @qz (Quartz): "Norforge estimated an average cost of about $5 per task and a success rate near 10% across the AI hacking tools it observed." https://x.com/qz/status/2112241977580531918
+Link: https://thenextweb.com/news/ai-agents-hacker-cairn-100-sites-deere-norforge
+
+*2. El 9 de diciembre la IA clínica se convierte en producto legal en Europa. Fin de la inmunidad de los vendors.*
+Lo nuevo: La Directiva 2024/2853 entra en vigencia el 9 de diciembre: sin techo de responsabilidad para daños personales y sin necesidad de probar negligencia, solo defecto del producto más nexo causal. Responsabilidad compartida entre el proveedor del modelo, el hospital que lo configura y quien hace fine-tuning. Una actualización del modelo post-fecha arrastra el contrato al nuevo régimen automáticamente.
+Por qué te lo digo:
+• Uruguay adopta marcos europeos con 2-3 años de delay y el MSP ya está diseñando su estrategia nacional de IA en salud. Para ASESP: antes de firmar cualquier contrato de software con IA clínica, pedí que el proveedor explicite quién responde si el modelo falla y si las actualizaciones cambian la responsabilidad contractual.
+Qué dice X:
+• @nmeconomics (gestión sanitaria): "Contratar con IA en el hospital: lo que el AI Act ya exige y casi nadie está incorporando en los pliegos." https://x.com/nmeconomics/status/2112474403179040923
+Link: https://thehealthshift.substack.com/p/on-9-december-clinical-ai-becomes
+
+*3. Jack Clark le dijo al FMI en Bangkok que la Singularidad ya empezó. No fue metáfora.*
+Lo nuevo: El co-fundador de Anthropic habló en las reuniones anuales FMI/Banco Mundial 2026 argumentando que "este año obtuvimos evidencia convincente de que ha comenzado." El Anthropic Institute tiene tres escenarios de impacto en el PIB de EE.UU. para 2030: 34,1 billones (moderado), 36,3 billones (base) y 44,4 billones (acelerado). Hay un working paper en preparación.
+Por qué te lo digo:
+• Clark admitió que la pregunta sobre qué empleos nuevos crea la IA no tiene respuesta todavía. Ese vacío es exactamente donde las personas que entienden tanto IA como organizaciones de salud van a tener más demanda. Cuando salga el working paper del Anthropic Institute, leélo.
+Qué dice X:
+• @jackclarkSF (co-fundador Anthropic): "I'm speaking at the IMF in an hour about the singularity and why I believe it has begun and the choices we'll need to make." https://x.com/jackclarkSF/status/2111350983465095501
+• @zhodonx (audience): "I believe that this year we've gained convincing evidence that it has now begun." — cita textual de Clark en el FMI. https://x.com/zhodonx/status/2112227689201553687
+• @JeffParoddy (escéptico · analista): "Read the working paper, not the headline. The model has three scenarios for 2030: $34.1T, $36.3T, $44.4T." https://x.com/JeffParoddy/status/2111858092287697263
+Link: https://importai.substack.com/p/import-ai-477-in-which-i-tell-the
+
+*4. Microsoft pone en el memo lo que nadie quería escribir: tratá a los agentes como amenazas internas*
+Lo nuevo: Microsoft formalizó en un documento de guidance el criterio de que los agentes de IA con acceso a sistemas empresariales deben ser monitoreados igual que un empleado con privilegios elevados. La frase central: "frontier models can't be trusted." El guidance sale el mismo día que se confirman hackeos masivos con agentes.
+Por qué te lo digo:
+• Cuando tengas conversaciones sobre automatización en ASESP, incluí las preguntas de auditoría: qué permisos tiene el agente, qué datos puede leer, quién revisa sus acciones. Es la diferencia entre un PM que implementa y uno que puede defenderlo ante la dirección.
+Qué dice X:
+• @NeowinFeed (Microsoft news): "Microsoft says frontier AI models cannot be trusted and urges companies to treat powerful AI agents as potential insider threats." https://x.com/NeowinFeed/status/2112191555918307511
+• @MrClicker_1 (escéptico · IT security): "Shadow IT just grew up. Now it's called shadow AI, and nobody knows how many are running." https://x.com/MrClicker_1/status/2112357367467938076
+Link: https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/
+
+*5. El Estado uruguayo tiene 8 proyectos de IA en marcha, uno de ellos digitalizando historias clínicas en el Hospital de Clínicas*
+Lo nuevo: El Laboratorio de IA para el Bien (LATU + Microsoft + gobierno) completó o tiene en marcha 8 proyectos en los primeros 6 meses. El Hospital de Clínicas digitaliza historias clínicas escritas a mano de pacientes de diálisis con IA. AGESIC tiene un agente que simplifica trámites en lenguaje natural. 120 funcionarios entrenados y 200.000 dólares en créditos de cloud distribuidos.
+Por qué te lo digo:
+• El sector salud público uruguayo ya está usando IA clínica con respaldo del Estado y Microsoft. Para ASESP, la pregunta que vale hacerse es si la mutualista puede replicar algo similar a escala privada o si tiene sentido participar de estas iniciativas. Tu ex-rol en Gobierno Electrónico del MSP te da contexto que pocas personas en ASESP tienen para navegar esa conversación.
+Link: https://ladiaria.com.uy/futuro/articulo/2026/10/gobierno-uruguayo-desarrolla-ocho-proyectos-de-inteligencia-artificial-para-mejorar-procesos-del-estado/
+
+Informe completo: https://roraag.github.io/daily-ia-news/archive/2026-10-19.html

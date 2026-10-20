@@ -184,14 +184,10 @@
     "2026-10-15",
     "2026-10-16",
     "2026-10-17",
-    "2026-10-18"
+    "2026-10-18",
+    "2026-10-19"
   ],
   "recent_titles": [
-    "Gartner: 3,5 billones en infraestructura IA enfrentan reimputación antes de 2030",
-    "Beam de Reflection AI llegó a HuggingFace con Apache 2.0 — y Nvidia sigue negociando comprarla",
-    "137 millones de dólares en publicidad electoral generada con IA. El 73% sin aviso.",
-    "Anthropic consulta a 2.800 abogados para enseñarle ética de negociación a sus agentes",
-    "Pentágono vs. Anthropic: ocho meses después, nadie cedió y el caso llega al tribunal pleno",
     "El creador de virus diseñados por IA habló con MIT TR. Y fue incómodo.",
     "Nous Research llega a $1.500 millones y lanza Hermes Agent para empresas",
     "Zitron: los tipos de interés cerraron la puerta de deuda que financiaba la IA",
@@ -227,7 +223,12 @@
     "China frena la salida de su IA: controles de exportación sobre modelos, agentes y chips",
     "Schwab y JPMorgan dijeron no: los bancos bloquean a los agentes de IA",
     "Google Universal Cart: el primer carrito agentico de escala real llegó hoy",
-    "Anthropic midió la brecha: sus empleados creen en AGI para 2030, el público no tanto"
+    "Anthropic midió la brecha: sus empleados creen en AGI para 2030, el público no tanto",
+    "Un solo hacker pagó 5.000 dólares en tokens y entró en más de cien empresas con agentes de IA",
+    "EE.UU. le corta el paso a DeepSeek en el gobierno federal. El modelo y todo lo que fue construido sobre él.",
+    "El 9 de diciembre la IA clínica se convierte en producto legal en Europa. Fin de la inmunidad de los vendors.",
+    "Jack Clark le dijo al FMI en Bangkok que la Singularidad ya empezó. No fue metáfora.",
+    "Microsoft pone en el memo lo que nadie quería escribir: los modelos frontier no son confiables"
   ],
   "days": {
     "2026-04-17": {
@@ -2236,6 +2237,20 @@
       ],
       "main_authors": [],
       "tesis": "La IA se mete en cada rincón nuevo mientras el mercado que la financia empieza a crujir: Gartner advierte 3,5 billones en riesgo, los agentes de Anthropic aprenden a negociar contratos y el Pentágono lleva ocho meses sin doblegar a nadie."
+    },
+    "2026-10-19": {
+      "count": 5,
+      "sources": [
+        "thenextweb.com",
+        "bloomberg.com",
+        "thehealthshift.substack.com",
+        "importai.substack.com",
+        "techcrunch.com"
+      ],
+      "main_authors": [
+        "Jack Clark"
+      ],
+      "tesis": "Hoy las capacidades de los agentes de IA dejaron de ser teoría: un solo atacante pagó 5.000 dólares en tokens y comprometió más de cien empresas en jornadas de 23 horas, mientras el DHS baneó DeepSeek del gobierno federal y Jack Clark le dijo al FMI que la Singularidad ya empezó."
     }
   }
 }
