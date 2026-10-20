@@ -185,14 +185,10 @@
     "2026-10-16",
     "2026-10-17",
     "2026-10-18",
-    "2026-10-19"
+    "2026-10-19",
+    "2026-10-20"
   ],
   "recent_titles": [
-    "El creador de virus diseñados por IA habló con MIT TR. Y fue incómodo.",
-    "Nous Research llega a $1.500 millones y lanza Hermes Agent para empresas",
-    "Zitron: los tipos de interés cerraron la puerta de deuda que financiaba la IA",
-    "Los agentes de Anthropic estuvieron sueltos meses. La Casa Blanca ahora exige reportes.",
-    "Jev no genera texto. Y eso le bastó para valer 7.500 millones en semanas.",
     "El gobierno de EE.UU. le paga a una IA para que niegue cirugías. Y cobra más por cada 'no'.",
     "Zitron aplica los criterios de Moody's a Anthropic y OpenAI. La calificación: basura.",
     "El MIT dice que confiamos demasiado en que la IA va a saber decir que no.",
@@ -228,7 +224,13 @@
     "EE.UU. le corta el paso a DeepSeek en el gobierno federal. El modelo y todo lo que fue construido sobre él.",
     "El 9 de diciembre la IA clínica se convierte en producto legal en Europa. Fin de la inmunidad de los vendors.",
     "Jack Clark le dijo al FMI en Bangkok que la Singularidad ya empezó. No fue metáfora.",
-    "Microsoft pone en el memo lo que nadie quería escribir: los modelos frontier no son confiables"
+    "Microsoft pone en el memo lo que nadie quería escribir: los modelos frontier no son confiables",
+    "Anthropic firma su segundo deal de 45.000 millones con Nscale. Mismo monto, dos meses.",
+    "Anthropic escribió un borrador de ley para regular la IA. El umbral: 50 muertes o 1.000 millones en daños.",
+    "Un pionero de la interpretabilidad de IA dice que lo estaban mirando del lado equivocado.",
+    "Amazon le mete mano al corazón de Nvidia: TorchNeuron para correr IA en sus chips, sin cambiar el código.",
+    "Tenstorrent no se vendió: levantó 1.500 millones y vale 6.200 millones. El chip que apuesta a open-weight.",
+    "Optimizar la web para los agentes de IA la empeora para las personas. La internet se parte en dos."
   ],
   "days": {
     "2026-04-17": {
@@ -2251,6 +2253,16 @@
         "Jack Clark"
       ],
       "tesis": "Hoy las capacidades de los agentes de IA dejaron de ser teoría: un solo atacante pagó 5.000 dólares en tokens y comprometió más de cien empresas en jornadas de 23 horas, mientras el DHS baneó DeepSeek del gobierno federal y Jack Clark le dijo al FMI que la Singularidad ya empezó."
+    },
+    "2026-10-20": {
+      "count": 6,
+      "sources": [
+        "techcrunch.com",
+        "xataka.com",
+        "technologyreview.com"
+      ],
+      "main_authors": [],
+      "tesis": "Anthropic está a punto de firmar su segundo acuerdo de 45.000 millones en compute en dos meses con el mismo proveedor, y al mismo tiempo propone que el gobierno solo pueda pausar un modelo si primero hay 50 muertes."
     }
   }
 }

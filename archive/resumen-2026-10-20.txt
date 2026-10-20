@@ -1,0 +1,35 @@
+*1. Anthropic firma su segundo deal de 45.000 millones con Nscale en dos meses*
+Lo nuevo: Bloomberg reporta que Nscale negocia vender a Anthropic otros ~45.000 millones en capacidad de compute. Si se cierra, el compromiso total con un solo proveedor llega a 90.000 millones de dólares, semanas antes del IPO de Anthropic en noviembre. OpenAI corre en paralelo a cerrar 30.000 millones propios antes de que Anthropic cotice.
+Por qué te lo digo:
+• Si el IPO sale bien y la demanda sigue escalando, los precios de API de Claude podrían seguir bajando en 2027 — lo que hace más viable cualquier piloto de IA en ASESP. Pero el riesgo es concreto: Anthropic atada a un solo proveedor antes de salir a bolsa.
+Qué dice X:
+• @TransLog1c (inversor de infraestructura IA): "Bloomberg reports Nscale is in talks with Anthropic for another $45B compute agreement, potentially bringing their total contracted value to nearly $90B." https://x.com/TransLog1c/status/2112363176369238209
+• @dorlando1997 (escéptico · analista IA en español): "Con esto, Anthropic llevaría su compromiso total con Nscale a ~90.000 millones. Todo esto semanas antes de un IPO hablado en billones." https://x.com/dorlando1997/status/2112466420097589417
+Link: https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/
+
+*2. Anthropic escribió un borrador de ley: el gobierno puede actuar solo si mueren 50 personas o hay 1.000 millones en daños*
+Lo nuevo: Anthropic envió al Congreso de EE.UU. un borrador de legislación de seguridad IA sin comunicado público. El umbral propuesto para que el gobierno intervenga: 50 muertes o 1.000 millones de dólares en daños. Politico consiguió el texto.
+Por qué te lo digo:
+• Si ese umbral influye en marcos regulatorios de IA en salud de América Latina —por imitación o acuerdos internacionales—, los errores de sistemas diagnósticos como los que instaló el Hospital de Clínicas esta semana quedarían sin regulación específica durante años. Es el argumento que vale tener listo en una reunión de compliance de ASESP.
+Qué dice X:
+• @ajcimino (dir. asuntos federales Anthropic): "I lead our federal affairs team at @AnthropicAI and wanted to share a few thoughts on the draft federal AI safety bill text that's been circulating this weekend..." https://x.com/ajcimino/status/2111932795714977941
+• @LeverNews (escéptico · The Lever): "In public, Anthropic markets itself as the 'safety-first' AI company. But its recent draft bill would let the federal government block a model only if it risks $1 billion in damages or 50 deaths." https://x.com/LeverNews/status/2112310921884492071
+• @KelseyTuoc (escéptico · Kelsey Piper, Vox): "Anthropic, while acknowledging they're doing something extremely dangerous, is terrified of the executive branch having the ability to flexibly make them stop." https://x.com/KelseyTuoc/status/2111260837050781698
+Link: https://www.xataka.com/robotica-e-ia/50-muertos-1-000-millones-dolares-liston-que-anthropic-quiere-fijar-gobierno-pueda-frenar-modelo-ia
+
+*3. Un pionero de la interpretabilidad dice que lo estaban mirando del lado equivocado. Y suena creíble.*
+Lo nuevo: Nick Cammarata publicó un ensayo argumentando que las neuronas de los modelos son más legibles de lo que el campo asumió durante años. MIT Technology Review lo llama "el claim que sacudió al mundo IA". El debate: si las neuronas son interpretables, se puede auditar un modelo antes de que cause daño, no solo después.
+Por qué te lo digo:
+• Si Cammarata tiene razón, los sistemas de IA clínica van a poder auditarse internamente con más precisión — lo que abre la puerta a certificar un modelo para diagnóstico en una mutualista sin esperar que pase algo grave. Es el argumento técnico más sólido para convencer a un Directorio que hoy tiene miedo de las cajas negras.
+Qué dice X:
+• @ChrisGPotts (Christopher Potts · Stanford NLP): "I was asked by a journalist to comment on this piece. The comments I wrote up are included below, so that I have a public place where my view is fully represented." https://x.com/ChrisGPotts/status/2112197767925989638
+• @kapursanat (escéptico · ingeniero): "there's probably a 5+ year gap in between nick cammarata writing the essay and your average fortune 2000 cto learning what the phrase mechanistic interpretability means." https://x.com/kapursanat/status/2112258926096125964
+Link: https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/
+
+*4. Hospital de Clínicas instala IA holandesa para mamografías — y UdelaR acaba de medir qué tan bien diagnostica Claude*
+Lo nuevo: El director Álvaro Villar anunció la adopción de tecnología IA holandesa que revisa mamografías reportadas como normales para detectar cáncer de mama en etapa temprana — el mismo sistema activo en Países Bajos, Suecia y Dinamarca. La misma semana, un estudio de la UdelaR sobre 100 historias clínicas reales midió ChatGPT (90%), Gemini (90%) y Claude (89%) en diagnósticos de enfermedades infecciosas.
+Por qué te lo digo:
+• El hospital público de referencia de Uruguay adopta IA diagnóstica de nivel europeo: si lo valida operativamente, el camino regulatorio para mutualistas como ASESP se abre más rápido. Tenés además números locales citables en una propuesta interna — pero no omitas la advertencia del infectólogo Julio Medina: un sistema que falla con la misma confianza con que acierta es mucho más peligroso que uno que falla con dudas.
+Link: https://www.elobservador.com.uy/nacional/revolucion-tecnologica-la-salud-como-el-hospital-clinicas-implementa-la-inteligencia-artificial-diagnosticos-y-tratamientos-n6061002
+
+Informe completo: https://roraag.github.io/daily-ia-news/archive/2026-10-20.html
