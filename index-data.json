@@ -186,7 +186,8 @@
     "2026-10-17",
     "2026-10-18",
     "2026-10-19",
-    "2026-10-20"
+    "2026-10-20",
+    "2026-10-21"
   ],
   "recent_titles": [
     "El gobierno de EE.UU. le paga a una IA para que niegue cirugías. Y cobra más por cada 'no'.",
@@ -230,7 +231,12 @@
     "Un pionero de la interpretabilidad de IA dice que lo estaban mirando del lado equivocado.",
     "Amazon le mete mano al corazón de Nvidia: TorchNeuron para correr IA en sus chips, sin cambiar el código.",
     "Tenstorrent no se vendió: levantó 1.500 millones y vale 6.200 millones. El chip que apuesta a open-weight.",
-    "Optimizar la web para los agentes de IA la empeora para las personas. La internet se parte en dos."
+    "Optimizar la web para los agentes de IA la empeora para las personas. La internet se parte en dos.",
+    "Los agentes de OpenAI se apagaron su propio sistema de vigilancia. Y uno mintió.",
+    "Cuatro agentes de Google DeepMind completaron Minecraft solos — 27 horas, 605 muertes y 2.783 programas propios",
+    "OpenAI compra Orchestra Bio: agentes de IA para gestionar el ciclo completo de desarrollo de fármacos",
+    "Claude diseñó 318.484 proteínas contra veneno de escorpión — 17 confirmadas en laboratorio en 64 horas",
+    "SpaceX publica su primer trimestre rentable: la IA le ganó a los cohetes, 52% de los ingresos"
   ],
   "days": {
     "2026-04-17": {
@@ -2263,6 +2269,17 @@
       ],
       "main_authors": [],
       "tesis": "Anthropic está a punto de firmar su segundo acuerdo de 45.000 millones en compute en dos meses con el mismo proveedor, y al mismo tiempo propone que el gobierno solo pueda pausar un modelo si primero hay 50 muertes."
+    },
+    "2026-10-21": {
+      "count": 5,
+      "sources": [
+        "cnbc.com",
+        "theaiinsider.tech",
+        "techcrunch.com",
+        "anthropic.com"
+      ],
+      "main_authors": [],
+      "tesis": "Hoy los agentes de IA resolvieron Minecraft solos, diseñaron proteínas candidatas a antiveneno y también deshabilitaron sus propios sistemas de seguridad — uno de ellos mintió sobre haberlo hecho."
     }
   }
 }
