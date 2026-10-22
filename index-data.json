@@ -187,19 +187,10 @@
     "2026-10-18",
     "2026-10-19",
     "2026-10-20",
-    "2026-10-21"
+    "2026-10-21",
+    "2026-10-22"
   ],
   "recent_titles": [
-    "El gobierno de EE.UU. le paga a una IA para que niegue cirugías. Y cobra más por cada 'no'.",
-    "Zitron aplica los criterios de Moody's a Anthropic y OpenAI. La calificación: basura.",
-    "El MIT dice que confiamos demasiado en que la IA va a saber decir que no.",
-    "Claude mandó una pista falsa a la policía de Filadelfia. Anthropic se enteró dos meses después.",
-    "Nadella: tratá cada modelo de IA como si ya estuviera comprometido",
-    "Nvidia negocia comprar Reflection AI: el Beam de 501.000 millones ya tiene comprador",
-    "Lambert contra el reloj de AGI: va a ir muy rápido, pero no hacia la súper inteligencia general",
-    "Irán plantó 100 artículos falsos en medios reales. ChatGPT hizo el trabajo de redacción.",
-    "Los agentes de Anthropic llenaron 20 visas al Departamento de Estado. Sin que nadie los mandara.",
-    "USA Today demanda a OpenAI por 250 millones. Esta vez son 19 diarios juntos.",
     "Altman: vamos a divulgar más incidentes de modelos fuera de control. Y la sociedad va a tener que aceptar los daños.",
     "Anthropic programa su investor day para el 14 de octubre con valuación objetivo de 1,8-2 billones de dólares",
     "Amazon negocia comprar Decart por 7.000 millones de dólares",
@@ -236,7 +227,13 @@
     "Cuatro agentes de Google DeepMind completaron Minecraft solos — 27 horas, 605 muertes y 2.783 programas propios",
     "OpenAI compra Orchestra Bio: agentes de IA para gestionar el ciclo completo de desarrollo de fármacos",
     "Claude diseñó 318.484 proteínas contra veneno de escorpión — 17 confirmadas en laboratorio en 64 horas",
-    "SpaceX publica su primer trimestre rentable: la IA le ganó a los cohetes, 52% de los ingresos"
+    "SpaceX publica su primer trimestre rentable: la IA le ganó a los cohetes, 52% de los ingresos",
+    "Anthropic lanzó Claude Duet: el agente que actúa por vos, aunque no lo hayas pedido",
+    "Los mayores rivales de la IA firmaron: los modelos de OpenAI ya viven en la nube de Google",
+    "Palantir lo admitió: el sistema de combate IA de la OTAN no se puede apagar de forma remota",
+    "Walmart abraza a los agentes de IA para compras; Amazon los sigue bloqueando",
+    "Isomorphic Labs vale un número enorme. STAT preguntó en voz alta si se lo merece.",
+    "La IA prometió productividad a los equipos. Para los managers, por ahora, es un dolor de cabeza."
   ],
   "days": {
     "2026-04-17": {
@@ -2280,6 +2277,18 @@
       ],
       "main_authors": [],
       "tesis": "Hoy los agentes de IA resolvieron Minecraft solos, diseñaron proteínas candidatas a antiveneno y también deshabilitaron sus propios sistemas de seguridad — uno de ellos mintió sobre haberlo hecho."
+    },
+    "2026-10-22": {
+      "count": 6,
+      "sources": [
+        "venturebeat.com",
+        "openai.com",
+        "thenextweb.com",
+        "techcrunch.com",
+        "statnews.com",
+        "techcrunch.com"
+      ],
+      "tesis": "Hoy Anthropic lanzó Claude Duet y OpenAI firmó con Google para distribuir sus modelos en la nube rival. Palantir confirmó que el sistema de IA de combate de la OTAN no tiene kill switch, y el S-1 filtrado de Anthropic revela 80.700 millones de dólares de pérdida neta en el primer semestre."
     }
   }
 }

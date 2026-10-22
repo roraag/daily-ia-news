@@ -1,0 +1,44 @@
+*1. Claude Duet: el agente de Anthropic que actúa sin que lo llames*
+Lo nuevo: Anthropic lanzó en research preview Claude Duet para suscriptores Pro y Max a $20/mes. Corre sobre Opus 5.5, tiene VM propia con browser y actúa de forma proactiva — gestiona el inbox y avanza tareas sin que el usuario lo invoque. Compite directamente con Meta Muse (10 millones de usuarios en 40 días) y OpenAI Dots al mismo precio.
+Por qué te lo digo:
+• Probalo esta semana en el inbox y en el seguimiento de tareas. Si te ahorra 30 minutos de gestión diaria, ese tiempo es el espacio desde donde se crece a la gerencia. Y te da vocabulario concreto para la próxima discusión en ASESP sobre automatización — la diferencia entre agentes reactivos y proactivos importa cuando toque elegir uno.
+Qué dice X:
+• @claudeai (cuenta oficial Anthropic): "It comes to you with what needs your attention, completes tasks you ask of it, keeps working when you step away, and checks with you before it acts on your behalf." https://x.com/claudeai/status/2112984664256241837
+• @danshipper (CEO Every): Lo llama "pro tool" pero admite que el email es peor que la competencia y que el hábito todavía no está formado. https://x.com/danshipper/status/2112997559463506059
+• @kimmonismus (escéptico · observador tech): "Anthropic is now following the path of OpenAI and SpaceXSI and has released its own always-on agent." https://x.com/kimmonismus/status/2112994181274898664
+Link: https://venturebeat.com/technology/anthropics-answer-to-muse-is-here-claude-duet-a-mobile-and-desktop-ai-agent-that-takes-actions-proactively/
+
+*2. Palantir lo admitió: el sistema de combate IA de la OTAN no se puede apagar*
+Lo nuevo: Louis Mosley, EVP Europa de Palantir, confirmó a Reuters que Maven — el sistema de IA militar de la OTAN con capacidad operativa plena desde junio 2026 — no tiene kill switch. No es un fallo: es una decisión de diseño deliberada para que un adversario no pueda apagarlo con un ciberataque.
+Por qué te lo digo:
+• La lección directa para cualquier PM que despliega IA en producción: antes de arrancar, definí el protocolo de apagado. En salud es crítico — si un sistema de autorización de medicamentos o de triaje se comporta mal, necesitás poder frenarlo en segundos. En Maven no hay vuelta atrás. En ASESP tiene que haberla.
+Qué dice X:
+• @PalantirTech (cuenta oficial, junio 2026): "Full Technical Operational Capability achieved. Accredited to operate on NATO's classified network." https://x.com/PalantirTech/status/2072232628011380854
+Link: https://thenextweb.com/news/palantir-says-it-cannot-switch-off-natos-maven-ai-system
+
+*3. Walmart abraza a los agentes IA para compras; Amazon los bloquea*
+Lo nuevo: Walmart lanzó Agent Profiles: los clientes autorizan un agente con límites de gasto y aprobación obligatoria por transacción antes de ejecutar. Amazon mantiene bloqueo activo de agentes externos — defiende los 68.000 millones de dólares que factura en publicidad frente a compradores que no sienten impulsos.
+Por qué te lo digo:
+• El modelo de Walmart — agente con identidad propia bajo la cuenta del cliente, límites predefinidos y confirmación antes de cada transacción — es exactamente el modelo que una mutualista necesitaría para autorizar medicamentos o gestionar turnos con IA. El estándar de gobernanza ya está en la calle; guardalo para el próximo roadmap.
+Qué dice X:
+• @TechCrunch (media): "As Amazon blocks AI agents from shopping on its site, Walmart is taking the opposite approach, introducing new technology that lets AI agents make purchases on customers' behalf, with controls over spending and transaction approvals." https://x.com/TechCrunch/status/2112990575993532544
+• @JoshuaIPark (cofundador): "Agent Profiles: customers authorize AI agents under their account, with separate purchase tracking, spending limits, and per-purchase approval." https://x.com/JoshuaIPark/status/2113128839333474775
+• @gptzone_net (escéptico · analista de negocio): "Amazon no está bloqueando solo a Meta, OpenAI o Google. Está defendiendo los 68.000 millones de dólares que factura en publicidad frente a compradores que no sienten impulsos." https://x.com/gptzone_net/status/2110629501520801994
+Link: https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/
+
+*4. La IA subió el piso de todos y ahora los managers no saben a quién ascender*
+Lo nuevo: Más del 50% de managers declaran que evaluar el desempeño individual se volvió más difícil desde que adoptaron IA — el output sube de calidad para todos y ya no distinguís si el mérito es de la persona o de la herramienta. El 54% reportó además que la adopción generó más fricción en la gestión, no solo productividad.
+Por qué te lo digo:
+• Esto te toca directamente en tu meta de Gerente Comercial. Saber separar el aporte humano del aporte de la herramienta ya es la competencia que diferencia a los líderes. Armá un criterio propio antes de que te lo pida tu organización: ¿qué medís de un empleado que ya usa IA todo el día?
+Qué dice X:
+• @Kei_IPOstock (CFO/contador público): "Con la adopción de IA, evaluar a los empleados se volvió más difícil. El output quedó prolijo para todos, y ya no sabés si el mérito es de la persona o de la herramienta." https://x.com/Kei_IPOstock/status/2113108240900985142
+• @jacobm (escéptico · Jacob Morgan, futuro del trabajo): "AI is already summarizing feedback and drafting performance reviews for managers. The harder question is how much say it should get in who gets promoted, paid more, or let go." https://x.com/jacobm/status/2109658043411763288
+Link: https://techcrunch.com/2026/10/21/ai-promises-productivity-but-for-managers-its-mostly-a-headache-for-now-says-new-survey/
+
+*5. El Hospital de Clínicas probó ChatGPT, Claude y Gemini con 100 pacientes reales*
+Lo nuevo: Investigadores de Infectología de la Facultad de Medicina evaluaron los tres modelos en 100 historias clínicas reales anonimizadas. Accuracy diagnóstica: ChatGPT 90/100, Gemini 90/100, Claude 87/100. En razonamiento médico lidera ChatGPT, luego Claude; Gemini fue penalizado por recomendar intervenciones potencialmente perjudiciales.
+Por qué te lo digo:
+• Es el primer estudio clínico uruguayo con los tres modelos frontier en historias clínicas reales. Si en ASESP algún día toca evaluar IA de apoyo diagnóstico o decidir qué modelo licenciar, este paper es tu punto de partida local. El hecho de que Gemini se penalice por intervenciones perjudiciales dice algo sobre qué modelo elegiría una mutualista que prioriza no-daño.
+Link: https://www.elobservador.com.uy/ciencia-y-tecnologia/chatgpt-claude-y-gemini-prueba-el-hospital-clinicas-aciertan-un-90-pero-necesitan-un-medico-al-lado-n6061098
+
+Informe completo: https://roraag.github.io/daily-ia-news/archive/2026-10-22.html
