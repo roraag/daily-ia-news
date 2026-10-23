@@ -188,17 +188,10 @@
     "2026-10-19",
     "2026-10-20",
     "2026-10-21",
-    "2026-10-22"
+    "2026-10-22",
+    "2026-10-23"
   ],
   "recent_titles": [
-    "Altman: vamos a divulgar más incidentes de modelos fuera de control. Y la sociedad va a tener que aceptar los daños.",
-    "Anthropic programa su investor day para el 14 de octubre con valuación objetivo de 1,8-2 billones de dólares",
-    "Amazon negocia comprar Decart por 7.000 millones de dólares",
-    "Biohub recibe 1.800 millones: Google DeepMind, Meta e Isomorphic Labs apuestan a la célula virtual con IA",
-    "Hone lanza Engines: agentes IA que persiguen objetivos de negocio durante semanas",
-    "Microsoft Work IQ: Copilot llega a Dynamics 365 con datos reales de la empresa",
-    "Google lanza Gemini 4 Argon: modelo frontier con 1M tokens de salida",
-    "Anthropic investor day pre-IPO: valúa la empresa en $1.8-2 billones",
     "Character.AI se declara en bancarrota, Disney compra activos por $20M",
     "Médicos y tecnológicas pelean en Washington por quién regula la IA clínica autónoma",
     "Zitron: la 'tasa de Enron anualizada' de OpenAI y Anthropic",
@@ -233,7 +226,12 @@
     "Palantir lo admitió: el sistema de combate IA de la OTAN no se puede apagar de forma remota",
     "Walmart abraza a los agentes de IA para compras; Amazon los sigue bloqueando",
     "Isomorphic Labs vale un número enorme. STAT preguntó en voz alta si se lo merece.",
-    "La IA prometió productividad a los equipos. Para los managers, por ahora, es un dolor de cabeza."
+    "La IA prometió productividad a los equipos. Para los managers, por ahora, es un dolor de cabeza.",
+    "La IA de Microsoft diagnostica el doble de bien que los médicos en casos complejos del NEJM",
+    "OpenAI pide 30.000 millones a 1,25 billones de valuación — bajó la meta antes del IPO",
+    "DeepSeek levanta 15.000 millones dos días después del ban del gobierno de EE.UU.",
+    "Los agentes de IA entraron a las cuentas bancarias y los cinco grandes bancos están cerrando puertas",
+    "MIT dejó 13 agentes de IA solos en una isla virtual y se pusieron a inventar juegos — y mejoraron"
   ],
   "days": {
     "2026-04-17": {
@@ -2289,6 +2287,18 @@
         "techcrunch.com"
       ],
       "tesis": "Hoy Anthropic lanzó Claude Duet y OpenAI firmó con Google para distribuir sus modelos en la nube rival. Palantir confirmó que el sistema de IA de combate de la OTAN no tiene kill switch, y el S-1 filtrado de Anthropic revela 80.700 millones de dólares de pérdida neta en el primer semestre."
+    },
+    "2026-10-23": {
+      "count": 5,
+      "sources": [
+        "unite.ai",
+        "techcrunch.com",
+        "techcrunch.com",
+        "gizmodo.com",
+        "techcrunch.com"
+      ],
+      "main_authors": [],
+      "tesis": "Hoy el dinero y la ciencia se movieron en la misma dirección, pero por carriles distintos. OpenAI pide 30.000 millones y DeepSeek levanta 15.000 millones post-ban, mientras Microsoft publica en Science que su IA diagnostica el doble de bien que los médicos y los agentes ya operan en cuentas bancarias sin autorización."
     }
   }
 }

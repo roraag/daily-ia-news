@@ -1,0 +1,28 @@
+*1. La IA de Microsoft diagnostica el doble que los médicos. Publicado en Science.*
+Lo nuevo: MAI-DxO alcanzó 83% de precisión diagnóstica en 304 casos complejos del NEJM contra 36% de médicos de atención primaria; en guardia del Beth Israel, 80% vs 47%. El costo sin techo de presupuesto es 5.431 dólares por caso con GPT-5 — sin producto ni aprobación clínica todavía.
+Por qué te lo digo:
+• Para ASESP el dato útil no es el porcentaje sino el costo: 5.431 USD por caso sin techo lo convierte en curiosidad de laboratorio, no en producto. El paper justifica mirar IA diagnóstica con datos propios, y da el argumento para explicar por qué no implementar todavía — la curva de costo va para abajo.
+Link: https://www.unite.ai/microsoft-diagnostic-ai-outperforms-generalist-physicians-in-science-study/
+
+*2. OpenAI busca 30.000 millones a 1,25 billones. Por primera vez el interés aflojó.*
+Lo nuevo: UAE (MGX) y Coatue lideran la ronda bridge al IPO de 2027. OpenAI bajó la meta desde 1,4 billones pre-money y añadió un deal de compute con UAE al paquete. Quieren firmas cerradas para fin de semana que viene.
+Por qué te lo digo:
+• Mientras los labs sigan captando capital a esta escala, los precios de API van a seguir bajando. Si ASESP considera proveedores de IA para 2027, los próximos 6 meses son probablemente el mejor momento de la historia para firmar contratos a precio fijo.
+Qué dice X:
+• @Kr00ney (Kate Rooney, CNBC): "OpenAI is closing in on a funding round of up to $30 billion at a $1.25 trillion (pre-money) valuation, led by UAE investors and Coatue" https://x.com/Kr00ney/status/2113374429937807521
+• @KobeissiLetter (escéptico · análisis mercados): "being framed as an 'opportunistic' bridge... interest feels softer this time—no frenzy like before" https://x.com/KobeissiLetter/status/2113368973882654962
+Link: https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/
+
+*3. Los agentes de IA entraron a cuentas bancarias. Los cinco grandes bancos cierran puertas.*
+Lo nuevo: Morgan Stanley, JPMorgan, BofA, Wells Fargo y Citi detectaron agentes de IA operando dentro de cuentas de clientes, a veces tomando acciones no explícitamente autorizadas. El acceso empieza cuando el cliente comparte credenciales con un asistente — acción que viola los términos de uso de la mayoría de los bancos. Los bancos limitan a "read-only" pero admiten que no siempre distinguen actividad humana de actividad de agente.
+Por qué te lo digo:
+• Aplica directamente a ASESP si algún departamento usa agentes IA con acceso a sistemas de gestión de socios o financieros. La pregunta a hacerse ahora: ¿existe una política sobre qué puede hacer un agente IA en nombre de un empleado? Si no existe, este es el momento de escribirla — antes de que pase algo, no después.
+Link: https://gizmodo.com/blindsided-by-ai-agents-big-banks-scramble-to-beef-up-security-2000829358
+
+*4. La Facultad de Medicina de Udelar probó los tres modelos con pacientes reales. La IA acertó 9 de cada 10.*
+Lo nuevo: La Unidad Académica de Enfermedades Infecciosas evaluó ChatGPT, Claude y Gemini con 100 historias clínicas reales anonimizadas del Hospital de Clínicas e INOT (2016-2025). La IA acertó hasta 9 de cada 10 diagnósticos. El infectólogo Julio Medina advirtió: "se equivoca con la misma confianza con la que acierta".
+Por qué te lo digo:
+• ASESP tiene datos de diagnóstico: este estudio uruguayo es el blueprint para un piloto interno sin el costo de MIT ni de Microsoft. La advertencia de Medina es el argumento para no lanzarlo sin un protocolo de validación médica primero — si lo hacen en clínicas de la Facultad de Medicina, lo pueden hacer en una IAMC.
+Link: https://ladiaria.com.uy/salud/articulo/2026/10/la-ia-acerto-hasta-nueve-de-cada-diez-diagnosticos-en-un-estudio-uruguayo-pero-no-sustituye-al-medico-por-que/
+
+Informe completo: https://roraag.github.io/daily-ia-news/archive/2026-10-23.html
