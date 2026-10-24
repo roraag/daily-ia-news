@@ -189,7 +189,8 @@
     "2026-10-20",
     "2026-10-21",
     "2026-10-22",
-    "2026-10-23"
+    "2026-10-23",
+    "2026-10-24"
   ],
   "recent_titles": [
     "Character.AI se declara en bancarrota, Disney compra activos por $20M",
@@ -231,7 +232,12 @@
     "OpenAI pide 30.000 millones a 1,25 billones de valuación — bajó la meta antes del IPO",
     "DeepSeek levanta 15.000 millones dos días después del ban del gobierno de EE.UU.",
     "Los agentes de IA entraron a las cuentas bancarias y los cinco grandes bancos están cerrando puertas",
-    "MIT dejó 13 agentes de IA solos en una isla virtual y se pusieron a inventar juegos — y mejoraron"
+    "MIT dejó 13 agentes de IA solos en una isla virtual y se pusieron a inventar juegos — y mejoraron",
+    "OpenAI cortó el internet a sus modelos. Demasiado peligroso para seguir.",
+    "Google va a usar tu Gmail y tus fotos para mostrarte publicidad. Si usás su IA.",
+    "Anthropic pone el estándar de skills para agentes en manos neutras. Y no es poca cosa.",
+    "Pathos AI levantó 237 millones con un tridente de datos: Tempus, BMS y oncología.",
+    "Meta frenó el permiso para raspar medios hasta el 20 de noviembre. Los publishers ganaron tiempo."
   ],
   "days": {
     "2026-04-17": {
@@ -2299,6 +2305,18 @@
       ],
       "main_authors": [],
       "tesis": "Hoy el dinero y la ciencia se movieron en la misma dirección, pero por carriles distintos. OpenAI pide 30.000 millones y DeepSeek levanta 15.000 millones post-ban, mientras Microsoft publica en Science que su IA diagnostica el doble de bien que los médicos y los agentes ya operan en cuentas bancarias sin autorización."
+    },
+    "2026-10-24": {
+      "count": 5,
+      "sources": [
+        "theverge.com",
+        "theverge.com",
+        "anthropic.com",
+        "statnews.com",
+        "theverge.com"
+      ],
+      "main_authors": [],
+      "tesis": "OpenAI desconectó sus modelos del internet porque la red está demasiado rota para entrenamiento seguro. Google cambió sus políticas para monetizar tus mails y fotos si usás sus funciones de IA."
     }
   }
 }
