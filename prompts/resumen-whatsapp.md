@@ -5,11 +5,18 @@ Elegí entre 3 y 5 ítems: los más jugosos de "Lo que importa hoy" y, si hay al
 *N. Titular corto con voz*
 Lo nuevo: 1-3 oraciones con el dato concreto (cifras, nombres, fechas).
 Por qué te lo digo:
-• 1 bullet aplicado a Rodrigo (ASESP / mutualista / IAMC, su TFM de Salud Digital o su carrera hacia la gerencia comercial).
+• 1 bullet aplicado a Rodrigo (ASESP / mutualista / IAMC, la División de IA o su carrera hacia la gerencia en ASESP). Nunca menciones la meta "Gerente Comercial": quedó descartada.
 Qué dice X:
 • @handle (rol corto): cita o resumen breve. URL del post
 • 1-3 bullets, incluyendo la reacción escéptica si el HTML la tiene.
 Link: URL principal de la noticia
+
+Si el HTML trae la sección "Plan B" (solo los lunes), agregala después de los ítems, así:
+
+*Plan B de la semana*
+La señal: ...
+La puerta: ...
+La frase para abrir: ...
 
 Cerrá SIEMPRE con una línea en blanco y luego:
 Informe completo: https://roraag.github.io/daily-ia-news/archive/FECHA.html
