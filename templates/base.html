@@ -225,14 +225,14 @@
   .seccion-latam .x-list { list-style: none; padding-left: 0; }
   .seccion-latam .x-list li { border-left: 2px solid var(--muted); padding-left: 0.6rem; margin-bottom: 0.45rem; font-size: 0.92rem; }
 
-  /* Plan B (solo lunes) */
-  .seccion-planb {
+  /* Oportunidad del día · pymes */
+  .seccion-oportunidad {
     border: 1px solid var(--accent);
     padding: 1rem 1.25rem;
     margin-top: 1.5rem;
     border-radius: 4px;
   }
-  .seccion-planb .seccion-label {
+  .seccion-oportunidad .seccion-label {
     font-size: 0.75rem;
     text-transform: uppercase;
     letter-spacing: 0.08em;
@@ -240,7 +240,7 @@
     font-weight: 700;
     margin-bottom: 0.6rem;
   }
-  .seccion-planb p { margin-bottom: 0.5rem; }
+  .seccion-oportunidad p { margin-bottom: 0.5rem; }
 
   /* El Bolsillo */
   .seccion-bolsillo {
@@ -366,7 +366,7 @@
       font-size: 0.8rem;
     }
     /* Compactar bloques destacados en pantalla angosta */
-    .tesis-dia, .seccion-watch, .seccion-latam, .seccion-planb, .seccion-bolsillo, .seccion-bitcoin { padding: 1rem 1.1rem; }
+    .tesis-dia, .seccion-watch, .seccion-latam, .seccion-oportunidad, .seccion-bolsillo, .seccion-bitcoin { padding: 1rem 1.1rem; }
     .btc-metrics { gap: 0.6rem 1.2rem; }
     .tesis-dia .tesis-text { font-size: 1.05rem; }
     .section-heading { font-size: 1.25rem; margin-top: 2rem; }
@@ -403,7 +403,7 @@
   <section id="tab-daily">
     {{TESIS_DIA}}
 
-    {{PLAN_B}}
+    {{OPORTUNIDAD}}
 
     <h2 class="section-heading">Lo que importa hoy</h2>
     <div class="news-list" id="news-list">

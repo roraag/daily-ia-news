@@ -154,8 +154,8 @@ score = magnitud * 2 + relevancia_tematica * 1.5 + weight_fuente_max + consenso_
 - **company_diversity_bonus:** 0 por defecto. -6 si el top final ya tiene 2 clusters del mismo “actor” (Anthropic/OpenAI/Google/Meta/Microsoft/Apple/NVIDIA). +2 si el actor todavía no apareció.
 - **topic_bonus:** +2 si el cluster tiene tag `browser_on_device` o `agents_memory` o `security_privacy_policy`; +1 si `open_source` o `hardware_infra`.
 - **obsesion_rodrigo_bonus:** bonus por fit con los intereses declarados de Rodrigo (jerarquía — el más alto que aplique, no se acumulan entre sí):
-  - **+3** si toca **IA en salud / mutualistas / IAMC** (su día a día en ASESP) o **management / liderazgo / carrera / monetizar IA** (su meta: gerencia en ASESP vía la División de IA, con un plan B de facturar afuera). Estos son los dos ángulos de mayor peso.
-  - **+2** si toca **Uruguay / LATAM** o **productividad / agentes / uso aplicado de IA en el trabajo**. Entran cuando la noticia es realmente buena.
+  - **+3** si toca **IA aplicada en negocios chicos y medianos**: casos reales con ahorro o ingreso medible, automatización y agentes en empresas comunes (comercio, gastronomía, distribución, servicios), precios y modelos de negocio de servicios de IA, cómo venden y cobran los que implementan IA para terceros. Es el ángulo de mayor peso.
+  - **+2** si toca **IA en salud / mutualistas / IAMC** (su día a día en ASESP), **Uruguay / LATAM** o **productividad / agentes / uso aplicado de IA en el trabajo**.
   - **+2** (se mantiene, acumulable con lo de arriba) si toca **Anthropic, monetización IA, o un deal con dinero concreto**.
 
 Ordená por score desc.
@@ -206,10 +206,13 @@ Para cada noticia elegida produzco esta estructura:
 - **summary:** 1-2 líneas con voz, no neutral. (~25 palabras)
 - **what_happened:** 2-3 bullets con datos crudos. Cada bullet **un dato medible**: cifras, nombres, fechas. Si podés, contextualizá con una analogía uruguaya (ej. *"5 GW = consumo de medio Uruguay"*).
 - **angle:** **EL ÁNGULO QUE NADIE TE VA A DAR**. 2-4 líneas con opinión declarada, conexión no obvia, o lectura entrelíneas. Acá uso los takes del panel humano si calzan: *"Karpathy ya advirtió esto en su último post"* / *"Para Ed Zitron esto confirma su tesis de que..."*. Esto reemplaza al viejo "por qué importa".
-- **for_rodrigo:** 1-2 líneas concretas sobre qué hacer con esto en el contexto de Rodrigo. PM en ASESP (mutualista de salud) a cargo de la División de IA dentro de la Unidad de Proyectos, sigue con la comercial de La Española Hogar, analista de datos. Meta: gerencia en ASESP vía la División de IA; en paralelo, plan B de conseguir clientes afuera. **La meta "Gerente Comercial" quedó descartada el 17/07/2026: no la menciones nunca.** Acción concreta o reflexión aplicable. Cuando la noticia toque **salud/mutualistas** o **management/carrera**, bajala explícitamente a su realidad: qué significaría dentro de una IAMC uruguaya, o qué le sirve para crecer hacia la gerencia. Ej: *"esto que hizo tal hospital con IA es replicable en una mutualista — anotalo para la reunión con Alfredo"*. Reemplaza al viejo "para quién".
+- **for_rodrigo:** 1-2 líneas concretas sobre qué hacer con esto. Rodrigo: PM en ASESP (mutualista de salud) a cargo de la División de IA, comercial de La Española Hogar, analista de datos. **La meta "Gerente Comercial" quedó descartada el 17/07/2026: no la menciones nunca.**
+  - **Por defecto, ángulo pymes:** qué problema pagable abre esto en una pyme uruguaya de 10 a 100 personas, fuera de salud (comercio, gastronomía, distribución, servicios), quién adentro lo sufre (dueño, administración, comercial) y qué entregable concreto con IA lo resolvería; o qué enseña sobre cómo se vende, se cobra o se aborda un servicio de IA. Ej: *"esto que hizo una cadena de EE.UU. con sus pedidos lo puede usar cualquier distribuidora de Montevideo con 3 vendedores en la calle: el que lo sufre es el dueño, que arma las rutas a mano"*.
+  - **Excepción, noticias de categoría Salud:** ángulo ASESP. Qué significaría dentro de una IAMC uruguaya o qué le sirve para crecer hacia la gerencia en ASESP.
+  - Prohibido el relleno: "anotalo", "tenelo en el radar". **"Preguntale al proveedor" como máximo una vez por diario.**
 - **x_layer:** la salida del Paso 3-bis para esta noticia (post primario + 2-3 reacciones, al menos una escéptica). Puede quedar vacío solo si fallaron todos los métodos de la cascada del Paso 3-bis (con o sin token).
 - **claude_prompt:** prompt pre-armado para profundizar en otro chat. Formato:
-  *"Profundizá esta noticia: [URL]. Foco: [ángulo específico de esta noticia, en 1 línea]. Contexto del lector: PM en mutualista de salud uruguaya, fan de Anthropic. No me expliques qué es un LLM."*
+  *"Profundizá esta noticia: [URL]. Foco: [ángulo específico de esta noticia, en 1 línea]. Contexto del lector: PM en mutualista de salud uruguaya, fan de Anthropic, le interesan las oportunidades de IA en pymes uruguayas. No me expliques qué es un LLM."*
 - **source_url, source_domain, category** (igual que antes).
 
 ---
@@ -330,32 +333,31 @@ Compone con:
 
 **Estructura:**
 - Tagline de 1 línea.
-- 1-3 ítems, cada uno con: qué pasó (1-2 líneas con dato concreto), **por qué te lo digo** (aplicado a ASESP/IAMC/carrera) y, si hay, **qué dice X**.
+- 1-3 ítems, cada uno con: qué pasó (1-2 líneas con dato concreto), **por qué te lo digo** (ángulo pymes, o ASESP si es de salud) y, si hay, **qué dice X**.
 - Si no hay nada de los últimos 7 días, escribí una sola línea honesta: *"Semana quieta en la región. Nada que valga tu tiempo."* No rellenes con notas viejas.
 
 Una noticia regional muy fuerte puede ir a Nivel A; en ese caso acá solo se referencia en 1 línea.
 
 ---
 
-## Paso 9-quinquies — Plan B (solo los lunes)
+## Paso 9-quinquies — Oportunidad del día · pymes (sección fija, todos los días)
 
-**Solo si la fecha del día es lunes.** Cualquier otro día, `{{PLAN_B}}` = cadena vacía y saltá este paso.
+El resto del diario cuenta qué pasó. Acá la pregunta es una sola: *¿qué problema pagable abre lo de hoy en una pyme uruguaya, y por dónde se entra?*
 
-Existe porque Rodrigo quiere dar un salto económico afuera de ASESP y el resto del diario lee todo en clave ASESP. Acá la pregunta es otra: *¿qué pasó esta semana que una pyme uruguaya pagaría por resolver, y cómo entra Rodrigo?*
+Compone con las noticias de hoy (Nivel A, El resto, El Bolsillo, Uruguay/LatAm). Antes de escribir, leé la sección "Oportunidad del día" de los `archive/AAAA-MM-DD.html` de los últimos 6 días para no repetir una puerta.
 
-Compone con: las noticias de hoy y las de los últimos 6 días (leé los `archive/AAAA-MM-DD.html` de esa semana y `days.*.tesis` en `index-data.json`).
-
-Lo que Rodrigo vende: el que entiende el negocio y deja algo andando con IA (tableros con los datos que la empresa ya tiene, automatizaciones, agentes con reglas claras de qué pueden hacer). No vende programación commodity.
+El tipo de solución que interesa: alguien que entiende el negocio y deja algo andando con IA en pocas semanas (un tablero con los datos que la empresa ya tiene, una automatización, un agente con reglas claras de qué puede hacer). No programación commodity ni proyectos de meses.
 
 **Estructura (máx. 6 líneas en total):**
-- **La señal:** qué cambió esta semana (precio, capacidad, regulación, un caso real) que abre un problema pagable. 1-2 líneas con dato y fecha.
-- **La puerta:** qué tipo de empresa uruguaya lo siente y **quién adentro** (dueño, gerente administrativo, contador, jefe comercial). Concreto: rubro y tamaño, no "las pymes".
-- **La frase para abrir:** una pregunta que Rodrigo puede decir en una charla para que aparezca el dolor. Que no suene a venta.
+- **La señal:** qué cambió hoy (precio, capacidad, regulación, un caso real) que abre un problema pagable. 1-2 líneas con dato.
+- **La puerta:** qué tipo de empresa uruguaya lo siente, de qué tamaño, y **quién adentro** (dueño, gerente administrativo, contador, jefe comercial). Concreto: rubro y tamaño, no "las pymes".
+- **La frase para abrir:** una pregunta para decir en una charla que haga aparecer el dolor. Que no suene a venta.
 
 **Reglas:**
-- **Fuera de salud.** Nada de mutualistas, IAMC, clínicas ni prestadores: compiten con ASESP.
-- Prohibido "anotalo", "tenelo en el radar" o "preguntale al proveedor". Si no hay una puerta concreta, escribí una sola línea honesta: *"Semana sin puerta nueva. Seguí con la de la semana pasada."*
-- No repitas la puerta del lunes anterior salvo que haya un dato nuevo.
+- **Fuera de salud** (eso ya lo cubre el ángulo ASESP), fuera del Estado y de organismos públicos.
+- Prohibido "anotalo", "tenelo en el radar" o "preguntale al proveedor".
+- No repitas una puerta de los últimos 6 días salvo que haya un dato nuevo que la cambie.
+- Si hoy no hay puerta nueva, una sola línea honesta: *"Hoy sin puerta nueva."* Mejor eso que una forzada.
 
 ---
 
@@ -375,7 +377,7 @@ Lo que Rodrigo vende: el que entiende el negocio y deja algo andando con IA (tab
    - `{{EL_RESTO}}` → bloque HTML completo de la sección "El resto" (o cadena vacía si la omitís).
    - `{{BITCOIN_WATCH}}` → bloque HTML completo de la sección Bitcoin Watch (o cadena vacía si todas las APIs fallan).
    - `{{URUGUAY_LATAM}}` → bloque HTML completo de la sección Uruguay/LatAm y salud digital (Paso 9-quater).
-   - `{{PLAN_B}}` → bloque HTML de la sección Plan B (Paso 9-quinquies). Solo los lunes; los demás días, cadena vacía.
+   - `{{OPORTUNIDAD}}` → bloque HTML de la sección Oportunidad del día (Paso 9-quinquies).
 
 ### Bloque tesis del día
 
@@ -450,18 +452,18 @@ La clase `x-esceptico` va en las reacciones críticas. Si no hay `x_lectura`, om
 </div>
 ```
 
-### Bloque Plan B (solo lunes)
+### Bloque Oportunidad del día
 
 ```html
-<div class="seccion-planb">
-  <div class="seccion-label">Plan B · la semana en clave de facturar afuera</div>
+<div class="seccion-oportunidad">
+  <div class="seccion-label">Oportunidad del día · pymes</div>
   <p><strong>La señal:</strong> {senal}</p>
   <p><strong>La puerta:</strong> {puerta}</p>
   <p><strong>La frase para abrir:</strong> <em>{frase}</em></p>
 </div>
 ```
 
-Si es la semana sin puerta, el bloque lleva solo el label y un `<p>` con la línea honesta.
+Si hoy no hay puerta nueva, el bloque lleva solo el label y un `<p>` con la línea honesta.
 
 ### Bloque Anthropic Watch
 
@@ -599,7 +601,7 @@ Voices sin actividad relevante: [lista corta o "varias"]
 
 Capa X: [vía usada: API / xcancel / x.com / WebSearch / sin acceso] · N noticias con bloque X
 Uruguay/LatAm: [tagline o "semana quieta"]
-Plan B: [puerta del lunes, "sin puerta" o "no es lunes"]
+Oportunidad: [puerta del día o "sin puerta nueva"]
 ```
 
 Fin. No hagas preguntas. Es scheduled task, corre desatendido. Si algo falla parcialmente, **publicá igual lo que tengas** — un día imperfecto siempre vence a un día sin diario.
