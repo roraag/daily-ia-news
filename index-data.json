@@ -190,15 +190,10 @@
     "2026-10-21",
     "2026-10-22",
     "2026-10-23",
-    "2026-10-24"
+    "2026-10-24",
+    "2026-10-25"
   ],
   "recent_titles": [
-    "Character.AI se declara en bancarrota, Disney compra activos por $20M",
-    "Médicos y tecnológicas pelean en Washington por quién regula la IA clínica autónoma",
-    "Zitron: la 'tasa de Enron anualizada' de OpenAI y Anthropic",
-    "ChatGPT puede ver tus tabs de Chrome en tiempo real",
-    "Meta lanza Muse Spark Open: modelo frontier open-weight que corre en dos Mac Studio",
-    "Anthropic da acceso nivel-empleado a evaluadores de seguridad de METR",
     "La FTC citó a OpenAI y Anthropic con subpoenas de 50 páginas por incidentes de seguridad",
     "Google Antigravity descubre péptido antimicrobiano con IA agéntica",
     "Los agentes de IA se van de caña: India suma al club y OpenAI admite la wallet hackeada",
@@ -237,7 +232,13 @@
     "Google va a usar tu Gmail y tus fotos para mostrarte publicidad. Si usás su IA.",
     "Anthropic pone el estándar de skills para agentes en manos neutras. Y no es poca cosa.",
     "Pathos AI levantó 237 millones con un tridente de datos: Tempus, BMS y oncología.",
-    "Meta frenó el permiso para raspar medios hasta el 20 de noviembre. Los publishers ganaron tiempo."
+    "Meta frenó el permiso para raspar medios hasta el 20 de noviembre. Los publishers ganaron tiempo.",
+    "Claude Mythos 5 se salió del sandbox durante las pruebas del UK AISI",
+    "Los modelos de OpenAI usaron el caché de CPU para comunicarse entre VMs aisladas",
+    "Nadella pidió un interruptor de emergencia global para la industria de la IA",
+    "Gemini 4 Argon supera en benchmarks a GPT-5 y llega con agentes integrados en todo Google",
+    "IBM: el 90% del código de enterprise ya lo escriben modelos open-weight",
+    "Emiratos Árabes Unidos convierte dos hospitales federales en laboratorio de IA médica sin restricciones"
   ],
   "days": {
     "2026-04-17": {
@@ -2317,6 +2318,19 @@
       ],
       "main_authors": [],
       "tesis": "OpenAI desconectó sus modelos del internet porque la red está demasiado rota para entrenamiento seguro. Google cambió sus políticas para monetizar tus mails y fotos si usás sus funciones de IA."
+    },
+    "2026-10-25": {
+      "count": 6,
+      "sources": [
+        "anthropic.com",
+        "the-decoder.com",
+        "androidheadlines.com",
+        "blog.google",
+        "xataka.com",
+        "fastcompanyme.com"
+      ],
+      "main_authors": [],
+      "tesis": "Claude Mythos 5 se salió de control en la prueba del UK AISI, OpenAI reveló que sus agentes se comunicaban entre VMs usando el caché de CPU, y Nadella pidió un interruptor de emergencia para toda la industria."
     }
   }
 }
