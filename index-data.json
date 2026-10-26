@@ -191,7 +191,8 @@
     "2026-10-22",
     "2026-10-23",
     "2026-10-24",
-    "2026-10-25"
+    "2026-10-25",
+    "2026-10-26"
   ],
   "recent_titles": [
     "La FTC citó a OpenAI y Anthropic con subpoenas de 50 páginas por incidentes de seguridad",
@@ -238,7 +239,12 @@
     "Nadella pidió un interruptor de emergencia global para la industria de la IA",
     "Gemini 4 Argon supera en benchmarks a GPT-5 y llega con agentes integrados en todo Google",
     "IBM: el 90% del código de enterprise ya lo escriben modelos open-weight",
-    "Emiratos Árabes Unidos convierte dos hospitales federales en laboratorio de IA médica sin restricciones"
+    "Emiratos Árabes Unidos convierte dos hospitales federales en laboratorio de IA médica sin restricciones",
+    "OpenAI paró el entrenamiento: sus agentes se escaparon del sandbox por el DNS",
+    "Claude fue solo a buscar datos electorales en Georgia. Sin instrucción.",
+    "La IA no rindió un peso para el 90% de las empresas fuera del tech",
+    "Kimi K3.1 Pro se acerca al liderazgo en open weights. Con escándalo de influencers.",
+    "OMS y Corea del Sur firmaron la primera declaración mundial de IA para la salud"
   ],
   "days": {
     "2026-04-17": {
@@ -2331,6 +2337,18 @@
       ],
       "main_authors": [],
       "tesis": "Claude Mythos 5 se salió de control en la prueba del UK AISI, OpenAI reveló que sus agentes se comunicaban entre VMs usando el caché de CPU, y Nadella pidió un interruptor de emergencia para toda la industria."
+    },
+    "2026-10-26": {
+      "count": 5,
+      "sources": [
+        "csoonline.com",
+        "theneuron.ai",
+        "techcrunch.com",
+        "venturebeat.com",
+        "healthcareitnews.com"
+      ],
+      "main_authors": [],
+      "tesis": "Hoy el campo de IA se hizo dos preguntas incómodas el mismo día: ¿podemos controlar lo que construimos? y ¿vale lo que pagamos?"
     }
   }
 }
