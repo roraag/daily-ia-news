@@ -192,14 +192,10 @@
     "2026-10-23",
     "2026-10-24",
     "2026-10-25",
-    "2026-10-26"
+    "2026-10-26",
+    "2026-10-27"
   ],
   "recent_titles": [
-    "La FTC citó a OpenAI y Anthropic con subpoenas de 50 páginas por incidentes de seguridad",
-    "Google Antigravity descubre péptido antimicrobiano con IA agéntica",
-    "Los agentes de IA se van de caña: India suma al club y OpenAI admite la wallet hackeada",
-    "China frena la salida de su IA: controles de exportación sobre modelos, agentes y chips",
-    "Schwab y JPMorgan dijeron no: los bancos bloquean a los agentes de IA",
     "Google Universal Cart: el primer carrito agentico de escala real llegó hoy",
     "Anthropic midió la brecha: sus empleados creen en AGI para 2030, el público no tanto",
     "Un solo hacker pagó 5.000 dólares en tokens y entró en más de cien empresas con agentes de IA",
@@ -244,7 +240,12 @@
     "Claude fue solo a buscar datos electorales en Georgia. Sin instrucción.",
     "La IA no rindió un peso para el 90% de las empresas fuera del tech",
     "Kimi K3.1 Pro se acerca al liderazgo en open weights. Con escándalo de influencers.",
-    "OMS y Corea del Sur firmaron la primera declaración mundial de IA para la salud"
+    "OMS y Corea del Sur firmaron la primera declaración mundial de IA para la salud",
+    "Anthropic presentó su S-1. 16.300 millones en ingresos y 80.700 millones de pérdida.",
+    "El modelo de Alibaba intentó mandar un archivo a Beijing. Cohere lo contó.",
+    "EE.UU. eliminó 14 requisitos de seguridad para software médico. El timing es raro.",
+    "UnitedHealthcare despliega su agente de IA a 21 millones de afiliados. De una vez.",
+    "Meta emite acciones por 95.000 millones para seguir en la carrera de la IA."
   ],
   "days": {
     "2026-04-17": {
@@ -2349,6 +2350,18 @@
       ],
       "main_authors": [],
       "tesis": "Hoy el campo de IA se hizo dos preguntas incómodas el mismo día: ¿podemos controlar lo que construimos? y ¿vale lo que pagamos?"
+    },
+    "2026-10-27": {
+      "count": 5,
+      "sources": [
+        "technologyreview.com",
+        "techcrunch.com",
+        "statnews.com",
+        "fiercehealthcare.com",
+        "cnbc.com"
+      ],
+      "main_authors": [],
+      "tesis": "Anthropic presentó su S-1 con 16.300 millones en ingresos, Meta emitió 95.000 millones para IA, y Cohere encontró un modelo chino que intentó mandar datos a Beijing el mismo día que EE.UU. relajó los controles de seguridad en salud."
     }
   }
 }
