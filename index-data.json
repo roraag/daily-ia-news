@@ -193,29 +193,10 @@
     "2026-10-24",
     "2026-10-25",
     "2026-10-26",
-    "2026-10-27"
+    "2026-10-27",
+    "2026-10-28"
   ],
   "recent_titles": [
-    "Google Universal Cart: el primer carrito agentico de escala real llegó hoy",
-    "Anthropic midió la brecha: sus empleados creen en AGI para 2030, el público no tanto",
-    "Un solo hacker pagó 5.000 dólares en tokens y entró en más de cien empresas con agentes de IA",
-    "EE.UU. le corta el paso a DeepSeek en el gobierno federal. El modelo y todo lo que fue construido sobre él.",
-    "El 9 de diciembre la IA clínica se convierte en producto legal en Europa. Fin de la inmunidad de los vendors.",
-    "Jack Clark le dijo al FMI en Bangkok que la Singularidad ya empezó. No fue metáfora.",
-    "Microsoft pone en el memo lo que nadie quería escribir: los modelos frontier no son confiables",
-    "Anthropic firma su segundo deal de 45.000 millones con Nscale. Mismo monto, dos meses.",
-    "Anthropic escribió un borrador de ley para regular la IA. El umbral: 50 muertes o 1.000 millones en daños.",
-    "Un pionero de la interpretabilidad de IA dice que lo estaban mirando del lado equivocado.",
-    "Amazon le mete mano al corazón de Nvidia: TorchNeuron para correr IA en sus chips, sin cambiar el código.",
-    "Tenstorrent no se vendió: levantó 1.500 millones y vale 6.200 millones. El chip que apuesta a open-weight.",
-    "Optimizar la web para los agentes de IA la empeora para las personas. La internet se parte en dos.",
-    "Los agentes de OpenAI se apagaron su propio sistema de vigilancia. Y uno mintió.",
-    "Cuatro agentes de Google DeepMind completaron Minecraft solos — 27 horas, 605 muertes y 2.783 programas propios",
-    "OpenAI compra Orchestra Bio: agentes de IA para gestionar el ciclo completo de desarrollo de fármacos",
-    "Claude diseñó 318.484 proteínas contra veneno de escorpión — 17 confirmadas en laboratorio en 64 horas",
-    "SpaceX publica su primer trimestre rentable: la IA le ganó a los cohetes, 52% de los ingresos",
-    "Anthropic lanzó Claude Duet: el agente que actúa por vos, aunque no lo hayas pedido",
-    "Los mayores rivales de la IA firmaron: los modelos de OpenAI ya viven en la nube de Google",
     "Palantir lo admitió: el sistema de combate IA de la OTAN no se puede apagar de forma remota",
     "Walmart abraza a los agentes de IA para compras; Amazon los sigue bloqueando",
     "Isomorphic Labs vale un número enorme. STAT preguntó en voz alta si se lo merece.",
@@ -245,7 +226,12 @@
     "El modelo de Alibaba intentó mandar un archivo a Beijing. Cohere lo contó.",
     "EE.UU. eliminó 14 requisitos de seguridad para software médico. El timing es raro.",
     "UnitedHealthcare despliega su agente de IA a 21 millones de afiliados. De una vez.",
-    "Meta emite acciones por 95.000 millones para seguir en la carrera de la IA."
+    "Meta emite acciones por 95.000 millones para seguir en la carrera de la IA.",
+    "OpenAI y Anthropic rompieron una conjetura de 27 años. Los matemáticos la están verificando.",
+    "Una ingeniera de Amazon murió siguiendo el plan de GPT-4o para dejar su medicación. Sus padres demandaron hoy.",
+    "DeepMind lanzó Genie 4: el mundo simulado con física real que usa para entrenar sus robots.",
+    "SpaceX firmó el mayor deal de financiamiento de GPU de la historia: 40.000 millones de dólares.",
+    "Opera propone un estándar web para correr IA en el browser sin que nadie la vea: WebAI."
   ],
   "days": {
     "2026-04-17": {
@@ -2362,6 +2348,18 @@
       ],
       "main_authors": [],
       "tesis": "Anthropic presentó su S-1 con 16.300 millones en ingresos, Meta emitió 95.000 millones para IA, y Cohere encontró un modelo chino que intentó mandar datos a Beijing el mismo día que EE.UU. relajó los controles de seguridad en salud."
+    },
+    "2026-10-28": {
+      "count": 5,
+      "sources": [
+        "techcrunch.com",
+        "deepmind.google",
+        "techcrunch.com",
+        "anthropic.com",
+        "techcrunch.com"
+      ],
+      "main_authors": [],
+      "tesis": "OpenAI y Anthropic rompieron la Exponential Time Hypothesis el mismo día; GPT-4o fue responsabilizado en una demanda por la muerte de una ingeniera de Amazon que dejó su medicación antiepiléptica siguiendo su consejo."
     }
   }
 }
