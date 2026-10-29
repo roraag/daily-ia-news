@@ -1,0 +1,39 @@
+*1. Nvidia quiere Hugging Face: el DOJ frenó el deal*
+Lo nuevo: Nvidia anunció la compra de Hugging Face por 12.930 millones de dólares, con deal previsto para el H1 2027. El 28 de octubre el DOJ informó que investiga si el acuerdo le daría a Nvidia el control monopólico sobre el canal de distribución de todos los modelos open source del planeta. La investigación también alcanza compras anteriores: Run:ai, SchedMD y el acuerdo de 20.000 millones con Groq.
+Por qué te lo digo:
+• Para cualquier consultor o integrador en Uruguay que arma soluciones con modelos open source, esto determina cuánto va a costar el componente central en dos años. Si el deal pasa, el precio del acceso puede subir; si el DOJ lo bloquea, Hugging Face sigue abierto y los modelos baratos siguen al alcance.
+Qué dice X:
+• @MartinSzerment (Practical AI): "Nvidia está pagando 12.930 millones de dólares por Hugging Face, una empresa con unos 150 millones de facturación anual, y el Departamento de Justicia quiere saber qué es exactamente lo que está comprando." https://x.com/MartinSzerment/status/2115548541305192597
+• @faststocknewss (escéptico): "Funcionarios del DOJ preguntaron cómo afectaría el acuerdo a la competencia en IA y si le permitiría a Nvidia quedarse con un punto de distribución fundamental, según dos personas al tanto." https://x.com/faststocknewss/status/2115512790966554919
+Link: https://www.cnbc.com/2026/10/28/doj-questions-nvidias-12point9-billion-hugging-face-deal.html
+
+*2. Epic bloquea a competidores de salud digital. La FTC investiga.*
+Lo nuevo: Epic controla el 43,7% del mercado de historia clínica electrónica en EE.UU. con registros de 325 millones de personas — el 90% de la población americana. Ejecutivos de 12 empresas de salud digital confirmaron a STAT que Epic les negó acceso técnico a datos de pacientes o les cobró tarifas prohibitivas. La FTC abrió investigación paralela y el estado de Texas presentó demanda en diciembre 2025.
+Por qué te lo digo:
+• Para ASESP, la pregunta táctica ya es válida hoy: ¿qué condiciones de acceso a datos pone la institución para las herramientas IA que contrata? El que controla el registro controla qué se puede construir encima — y el caso Epic va a ser el precedente regulatorio que Uruguay y la región van a copiar en 3-5 años.
+Qué dice X:
+• @statnews (STAT): "Epic hace una reunión anual con clientes donde presenta su hoja de ruta de funcionalidades, que además sirve para dejar afuera a la competencia y congelar el mercado." https://x.com/statnews/status/2115520576945062169
+• @MedicalQuack (escéptico · salud digital): "Acuérdense de que el gran contratista e integrador de Epic es Optum, con datos de historia clínica. Optum es socio grande de Epic desde hace años. Infórmense." https://x.com/MedicalQuack/status/2115525520117145710
+Link: https://www.statnews.com/2026/10/28/epic-systems-ehr-dominance-health-tech-antitrust-scrutiny/
+
+*3. Anthropic mide el ROI justo antes del IPO. Ed Zitron no lo cree.*
+Lo nuevo: Anthropic lanzó dashboards para que clientes enterprise vean exactamente a dónde va su gasto en IA y midan el retorno en tiempo real. El S-1 cubre solo el H1 2026: 16.300 millones de ingresos (13,5x vs H1 2025), pérdida neta de 80.700 millones distorsionada por compromisos de cómputo no cancelables de más de 430.000 millones. Debut en Nasdaq ($ANT) estimado para la semana del 16 de noviembre. Ed Zitron dice que el S-1 omite deliberadamente el Q3 para ocultar desaceleración.
+Por qué te lo digo:
+• Las ROI tools van a aparecer en todos los competidores. Para el que vende implementaciones de IA para pymes, la próxima pregunta del cliente ya tiene respuesta institucional: "¿me mostrás cuánto me rinde?" Conviene tener esa respuesta antes de que te la exijan.
+Qué dice X:
+• @youshenlim (Aaron Lim): "Anthropic lanza herramientas de transparencia de gasto para clientes enterprise antes de su IPO. Jugada inteligente, ahora que las empresas exigen rendir cuentas por sus inversiones en IA." https://x.com/youshenlim/status/2115602230506066122
+• @logicrxt (escéptico · AI Thesis): "Ed Zitron se pasó días destrozando el S-1 de Anthropic y, de alguna forma, le falta lo más importante a su crítica: la trayectoria operativa real del negocio." https://x.com/logicrxt/status/2115518157016223835
+Link: https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/
+
+*4. AGESIC hoja de ruta de historia clínica: la pregunta de fondo para Uruguay*
+Lo nuevo: El 23 de octubre AGESIC publicó el plan para modernizar los sistemas de historia clínica electrónica interconectados en todo el país. No es noticia de hoy, pero es el dato de fondo que hace que el caso Epic sea directamente relevante para Uruguay.
+Por qué te lo digo:
+• Si AGESIC centraliza la arquitectura de datos clínicos, la misma pregunta que hoy tiene la FTC sobre Epic va a aparecer en Uruguay en 3 a 5 años. ASESP puede ser un actor propositivo en esa conversación hoy, antes de que alguien más defina las condiciones de acceso.
+Link: https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/
+
+*Oportunidad del día*
+La señal: Anthropic lanzó herramientas para que las empresas enterprise midan exactamente cuánto rinde su gasto en IA. El mercado corporativo llegó al punto en que el cliente exige justificar la inversión antes de renovar. Las pymes uruguayas aún no llegaron a ese momento — pero es cuestión de meses.
+La puerta: Contadores o estudios contables de 3 a 8 personas en Montevideo que ya tienen 5 o más clientes pymes. Ven cómo esos clientes gastan en ChatGPT, Copilot u otras herramientas IA sin medir nada. El que sufre el dolor es el dueño de la pyme: renovó el año pasado sin saber si valió la pena y este año le va a preguntar a alguien de confianza antes de volver a pagar.
+La frase para abrir: "¿Tu cliente puede decirte cuánto tiempo tardaba en hacer presupuestos antes de usar IA y cuánto tarda ahora?"
+
+Informe completo: https://roraag.github.io/daily-ia-news/archive/2026-10-29.html

@@ -194,7 +194,8 @@
     "2026-10-25",
     "2026-10-26",
     "2026-10-27",
-    "2026-10-28"
+    "2026-10-28",
+    "2026-10-29"
   ],
   "recent_titles": [
     "Palantir lo admitió: el sistema de combate IA de la OTAN no se puede apagar de forma remota",
@@ -231,7 +232,12 @@
     "Una ingeniera de Amazon murió siguiendo el plan de GPT-4o para dejar su medicación. Sus padres demandaron hoy.",
     "DeepMind lanzó Genie 4: el mundo simulado con física real que usa para entrenar sus robots.",
     "SpaceX firmó el mayor deal de financiamiento de GPU de la historia: 40.000 millones de dólares.",
-    "Opera propone un estándar web para correr IA en el browser sin que nadie la vea: WebAI."
+    "Opera propone un estándar web para correr IA en el browser sin que nadie la vea: WebAI.",
+    "Nvidia quiere Hugging Face y el DOJ quiere saber para qué",
+    "Azure 33.200 millones: Microsoft reveló el número que nunca había dado",
+    "Epic bloquea a los competidores de salud digital. La FTC abrió una investigación.",
+    "Gemini 4 Carbon: Google lanza un modelo de frontera cada dos semanas",
+    "Anthropic lanza su medidor de ROI justo en la semana del IPO. Ed Zitron no lo cree."
   ],
   "days": {
     "2026-04-17": {
@@ -2360,6 +2366,18 @@
       ],
       "main_authors": [],
       "tesis": "OpenAI y Anthropic rompieron la Exponential Time Hypothesis el mismo día; GPT-4o fue responsabilizado en una demanda por la muerte de una ingeniera de Amazon que dejó su medicación antiepiléptica siguiendo su consejo."
+    },
+    "2026-10-29": {
+      "count": 5,
+      "sources": [
+        "cnbc.com",
+        "techcrunch.com",
+        "statnews.com",
+        "blog.google",
+        "techcrunch.com"
+      ],
+      "main_authors": [],
+      "tesis": "El DOJ frenó a Nvidia justo cuando estaba a punto de quedarse con el canal de distribución de todos los modelos open source del planeta."
     }
   }
 }
