@@ -195,16 +195,10 @@
     "2026-10-26",
     "2026-10-27",
     "2026-10-28",
-    "2026-10-29"
+    "2026-10-29",
+    "2026-10-30"
   ],
   "recent_titles": [
-    "Palantir lo admitió: el sistema de combate IA de la OTAN no se puede apagar de forma remota",
-    "Walmart abraza a los agentes de IA para compras; Amazon los sigue bloqueando",
-    "Isomorphic Labs vale un número enorme. STAT preguntó en voz alta si se lo merece.",
-    "La IA prometió productividad a los equipos. Para los managers, por ahora, es un dolor de cabeza.",
-    "La IA de Microsoft diagnostica el doble de bien que los médicos en casos complejos del NEJM",
-    "OpenAI pide 30.000 millones a 1,25 billones de valuación — bajó la meta antes del IPO",
-    "DeepSeek levanta 15.000 millones dos días después del ban del gobierno de EE.UU.",
     "Los agentes de IA entraron a las cuentas bancarias y los cinco grandes bancos están cerrando puertas",
     "MIT dejó 13 agentes de IA solos en una isla virtual y se pusieron a inventar juegos — y mejoraron",
     "OpenAI cortó el internet a sus modelos. Demasiado peligroso para seguir.",
@@ -237,7 +231,14 @@
     "Azure 33.200 millones: Microsoft reveló el número que nunca había dado",
     "Epic bloquea a los competidores de salud digital. La FTC abrió una investigación.",
     "Gemini 4 Carbon: Google lanza un modelo de frontera cada dos semanas",
-    "Anthropic lanza su medidor de ROI justo en la semana del IPO. Ed Zitron no lo cree."
+    "Anthropic lanza su medidor de ROI justo en la semana del IPO. Ed Zitron no lo cree.",
+    "Mistral abrió 1 billón de parámetros: Large 4 llega como open weight y apunta a ciberseguridad",
+    "Jassy dijo que AWS va a valer un billón de dólares. Por ahora gasta 220.000 millones al año.",
+    "OpenAI expandió el monitoreo de agentes: 30 minutos de alerta antes de que lleguen a dañar algo",
+    "Agentes de Cathedral penetraron los sistemas internos de Anthropic en 12 horas. Era un test autorizado.",
+    "Reddit pierde un millón de usuarios semanales por el AI Mode de Google. El CEO no espera que vuelva.",
+    "Gemini puede editar documentos, PDFs y planillas directamente desde el chat",
+    "OpenAI reescribió el Model Spec: cinco valores, el modelo se llama 'GPT', menos instrucciones de estilo"
   ],
   "days": {
     "2026-04-17": {
@@ -2378,6 +2379,23 @@
       ],
       "main_authors": [],
       "tesis": "El DOJ frenó a Nvidia justo cuando estaba a punto de quedarse con el canal de distribución de todos los modelos open source del planeta."
+    },
+    "2026-10-30": {
+      "count": 7,
+      "sources": [
+        "iaanexpress.com",
+        "cnbc.com",
+        "tribuneindia.com",
+        "cybersecuritynews.com",
+        "cnbc.com",
+        "blog.google",
+        "openai.com"
+      ],
+      "main_authors": [
+        "Andy Jassy",
+        "Steve Huffman"
+      ],
+      "tesis": "Mistral liberó el primer modelo open weight de un billón de parámetros mientras Reddit confirmó que el AI Mode de Google es el primer buscador en la historia que mata su propio ecosistema de contenido."
     }
   }
 }
