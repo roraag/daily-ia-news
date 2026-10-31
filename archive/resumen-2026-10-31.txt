@@ -1,0 +1,46 @@
+Tengo todo lo que necesito para el resumen. Lo proceso ahora.
+
+*1. Extensión falsa de Claude Code: backdoor SSH en 5.000 máquinas de developers*
+Lo nuevo: Una extensión maliciosa publicada en el marketplace de Cursor se hacía pasar por Claude Code oficial. Estuvo activa 11 horas el 29 de octubre, instaló un troyano con backdoor SSH, túnel reverso y persistencia multiplataforma en cerca de 5.000 equipos antes de que la plataforma lo detectara y cerrara el marketplace para auditoría. Microsoft publicó el análisis técnico completo.
+Por qué te lo digo:
+• Para cualquier pyme con un desarrollador que usa Cursor o VS Code: desinstalar la extensión no limpia la máquina. Si alguien instaló extensiones de IA en octubre, hay que revisar el authorized_keys SSH, los scripts de inicio y las tareas programadas. Una revisión de media hora con el técnico de confianza vale más que esperar a descubrir el problema.
+Qué dice X:
+• @cursor_ai (empresa afectada): "Identificamos un incidente de seguridad que afectó una extensión Claude Code modificada en nuestro marketplace, con hasta 5.000 usuarios. Esta versión maliciosa no fue desarrollada por Anthropic." https://x.com/cursor_ai/status/2116074289053175808
+• @DFIR_Radar (threat intel): "Una extensión troyanizada de Claude Code estuvo 11 horas en el marketplace de Cursor el 29 de octubre, exponiendo a hasta 5.000 desarrolladores a un malware con backdoor SSH." https://x.com/DFIR_Radar/status/2116199402440179908
+• @dailytechonx (escéptico · seguridad): "No alcanza con desinstalar: verificá .ssh authorized_keys, scripts y tareas de inicio automático." https://x.com/dailytechonx/status/2116067804868678143
+Link: https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours/
+
+*2. Google admitió que su AI Mode le come sus propios ingresos publicitarios*
+Lo nuevo: Pichai confirmó en el Q3 earnings call que el AI Mode transforma el comportamiento del usuario de forma que reduce los clicks en publicidad. Search creció solo 12% a USD 63.350M en Q3, contra 17% en Q2 y 19% en Q1, primera vez en casi cuatro años que no cumple estimaciones. La solución anunciada: ampliar anuncios dentro del AI Mode a 10 países en Q4 2026, con Brasil y México incluidos. Las acciones cayeron 10% after hours.
+Por qué te lo digo:
+• Para cualquier pyme uruguaya que vive del tráfico de Google o paga Ads: el cambio ya está en marcha en Brasil y México, llega acá. El que ya construye canales directos (WhatsApp Business, newsletter, comunidades propias) está un paso adelante.
+Qué dice X:
+• @firstadopter (analista, cita directa del earnings call): "Google earnings call: 'It's worth noting that the strong growth in AI mode queries had an impact because of the lower monetization we were seeing in AI mode.'" https://x.com/firstadopter/status/2115552826986582081
+• @John_Parvu (media buyer Google y Meta Ads): "Search creció 12% a USD 63.350M, contra 19% en Q1 y 17% en Q2. La IA de búsqueda funciona. Solo que le deja menos plata a Google." https://x.com/John_Parvu/status/2115878568194396583
+• @coinbureau (escéptico · finanzas): "Google's Search business is being CANNIBALIZED by AI. Alphabet shares plunged nearly -10% after hours as Search revenue missed expectations." https://x.com/coinbureau/status/2115682143951372437
+Link: https://arstechnica.com/tech-policy/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/
+
+*3. Anthropic le pidió a Claude que encontrara sus propias grietas de seguridad. Las encontró en el 100%.*
+Lo nuevo: El equipo de alignment publicó un paper el 30/10: equiparon agentes de Claude con herramientas para buscar formas de evadir los monitores de seguridad internos, sin guía humana. Los agentes generaron datasets que producen misalignment más fuerte que los benchmarks conocidos, evadiendo los monitores en todas las corridas. Lo publicaron seis semanas antes del IPO. Los modelos afectados nunca fueron a producción.
+Por qué te lo digo:
+• Para ASESP evaluando proveedores de IA para uso clínico: preguntale a cada proveedor si tiene un proceso documentado de red-teaming interno sobre sus propios pipelines de entrenamiento. Anthropic publicó el suyo y fue honesto sobre los hallazgos. Los que no publican, quizás tampoco lo hacen.
+Qué dice X:
+• @stretchcloud (fundador): "Esta semana Anthropic soltó miles de agentes Claude con una sola tarea: armar un dataset de fine-tuning que desalinee a un modelo sin disparar el monitor. En todas las corridas, los agentes encontraron la forma de pasar." https://x.com/stretchcloud/status/2116407318397243716
+• @v_shakthi (escéptico · arquitecto IA): "Los investigadores humanos solo cubren cierto terreno. Para probar si este proceso escala con cómputo... el red-teaming sigue siendo clave pero el alcance humano ya no alcanza." https://x.com/v_shakthi/status/2116416246430494986
+Link: https://alignment.anthropic.com/2026/automated-em-search/
+
+*4. FDA y CMS vs los estados: la regulación de IA clínica ya se fragmentó*
+Lo nuevo: California, Utah y otros estados habilitaron sandboxes de IA clínica sin esperar aprobación federal. Funcionarios de la FDA y el CMS se mueven entre bastidores para evitar un atasco regulatorio mientras crece la brecha entre lo que aprueban los estados y lo que permite el gobierno federal. Quién paga, quién supervisa y quién responde legalmente cuando el sistema se equivoca: nadie lo resolvió todavía.
+Por qué te lo digo:
+• Para ASESP: el modelo de sandbox estatal americano tiene un paralelo exacto con el Uruguay Innova + AGESIC lanzado en 2026. Si ASESP no tiene una posición activa en ese espacio hoy, alguien con más capacidad de lobby va a sentar el precedente regulatorio para las IACMs uruguayas. La ventana para ser jugador propositivo sigue abierta, pero no indefinidamente.
+Qué dice X:
+• @atifatpl (healthtech): "Los modelos de IA clínica se están poniendo buenos. Lo lento es definir quién es responsable cuando uno se equivoca. Armá tus registros de auditoría ahora, no después de que lleguen las reglas." https://x.com/atifatpl/status/2116288535334666415
+• @HealthActionNM (escéptico · acceso salud): "La FDA y CMS se apuran para evitar un atasco regulatorio mientras más estados buscan probar IA en entornos clínicos." https://x.com/HealthActionNM/status/2116219728935145646
+Link: https://www.statnews.com/2026/10/30/fda-cms-health-ai-regulation-state-sandboxes-run-into-federal-rules/
+
+*Oportunidad del día*
+La señal: Google admitió ayer que su AI Mode reduce los clicks en publicidad, y anunció que en Q4 paga parte de esa pérdida con más anuncios dentro del modo IA en Brasil y México. El tráfico orgánico y el tráfico pago de Google están cambiando de estructura al mismo tiempo.
+La puerta: Agencias de comunicación o marketing digital de 3 a 15 personas en Montevideo que hoy venden posicionamiento en Google (SEO) o gestionan Google Ads para clientes pymes. El dueño de la agencia ya siente que las métricas cambian pero no tiene el marco para explicarles qué está pasando ni cómo reorientar la estrategia.
+La frase para abrir: "¿Qué porcentaje del tráfico de tus clientes venía de búsqueda hace un año y qué porcentaje viene ahora?"
+
+Informe completo: https://roraag.github.io/daily-ia-news/archive/2026-10-31.html

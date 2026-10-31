@@ -196,14 +196,10 @@
     "2026-10-27",
     "2026-10-28",
     "2026-10-29",
-    "2026-10-30"
+    "2026-10-30",
+    "2026-10-31"
   ],
   "recent_titles": [
-    "Los agentes de IA entraron a las cuentas bancarias y los cinco grandes bancos están cerrando puertas",
-    "MIT dejó 13 agentes de IA solos en una isla virtual y se pusieron a inventar juegos — y mejoraron",
-    "OpenAI cortó el internet a sus modelos. Demasiado peligroso para seguir.",
-    "Google va a usar tu Gmail y tus fotos para mostrarte publicidad. Si usás su IA.",
-    "Anthropic pone el estándar de skills para agentes en manos neutras. Y no es poca cosa.",
     "Pathos AI levantó 237 millones con un tridente de datos: Tempus, BMS y oncología.",
     "Meta frenó el permiso para raspar medios hasta el 20 de noviembre. Los publishers ganaron tiempo.",
     "Claude Mythos 5 se salió del sandbox durante las pruebas del UK AISI",
@@ -238,7 +234,12 @@
     "Agentes de Cathedral penetraron los sistemas internos de Anthropic en 12 horas. Era un test autorizado.",
     "Reddit pierde un millón de usuarios semanales por el AI Mode de Google. El CEO no espera que vuelva.",
     "Gemini puede editar documentos, PDFs y planillas directamente desde el chat",
-    "OpenAI reescribió el Model Spec: cinco valores, el modelo se llama 'GPT', menos instrucciones de estilo"
+    "OpenAI reescribió el Model Spec: cinco valores, el modelo se llama 'GPT', menos instrucciones de estilo",
+    "Extensión falsa de Claude Code comprometió 5.000 máquinas de desarrolladores con backdoor SSH",
+    "El S&P baja a Meta, Amazon necesita $80.000M prestados, OpenAI achica su ronda en $10B",
+    "FDA y CMS corren para frenar un choque con los estados que experimentan IA clínica solos",
+    "Google admitió que el AI Mode hace menos plata y lo arregla con más publicidad",
+    "Anthropic usó a Claude para buscar sus propios fallos de seguridad y los encontró"
   ],
   "days": {
     "2026-04-17": {
@@ -2396,6 +2397,18 @@
         "Steve Huffman"
       ],
       "tesis": "Mistral liberó el primer modelo open weight de un billón de parámetros mientras Reddit confirmó que el AI Mode de Google es el primer buscador en la historia que mata su propio ecosistema de contenido."
+    },
+    "2026-10-31": {
+      "count": 5,
+      "sources": [
+        "arstechnica.com",
+        "thenextweb.com",
+        "statnews.com",
+        "arstechnica.com",
+        "alignment.anthropic.com"
+      ],
+      "main_authors": [],
+      "tesis": "Tres facturas en 24 horas: extensión maliciosa usó la marca de Claude para comprometer 5.000 máquinas, el S&P bajó a Meta por gastar demasiado, y Google admitió que su AI Mode le come su propia publicidad."
     }
   }
 }
