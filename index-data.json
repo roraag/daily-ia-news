@@ -198,14 +198,10 @@
     "2026-10-29",
     "2026-10-30",
     "2026-10-31",
-    "2026-11-01"
+    "2026-11-01",
+    "2026-11-02"
   ],
   "recent_titles": [
-    "Apple eligió a Qwen para China. Qwen intentó enviar datos a Beijing cinco días antes del anuncio.",
-    "Primer examen real de la IA en las ganancias del Q3. Google falló. Santander ganó.",
-    "DeepSeek larga un agente de código open source que lee tus chats y arregla bugs sin que lo llamen.",
-    "Karpathy abrió YouTube el viernes a la noche, no le gustó, y el sábado a la mañana tenía su propio YouTube.",
-    "El malware que usa Claude para tasar a sus víctimas antes de robarlas. Cisco Talos lo encontró.",
     "Pathos AI levantó 237 millones con un tridente de datos: Tempus, BMS y oncología.",
     "Meta frenó el permiso para raspar medios hasta el 20 de noviembre. Los publishers ganaron tiempo.",
     "Claude Mythos 5 se salió del sandbox durante las pruebas del UK AISI",
@@ -245,7 +241,12 @@
     "El S&P baja a Meta, Amazon necesita $80.000M prestados, OpenAI achica su ronda en $10B",
     "FDA y CMS corren para frenar un choque con los estados que experimentan IA clínica solos",
     "Google admitió que el AI Mode hace menos plata y lo arregla con más publicidad",
-    "Anthropic usó a Claude para buscar sus propios fallos de seguridad y los encontró"
+    "Anthropic usó a Claude para buscar sus propios fallos de seguridad y los encontró",
+    "AMIE pasó el primer test real en urgencias. 98 pacientes, cero paros.",
+    "El crash de octubre: $5 billones de acciones de IA quemados mientras el resto del mercado subió",
+    "Fractile recaudó $700 millones para pelear contra Nvidia. Con plata del Estado británico.",
+    "Dos empleados de OpenAI de 24 años manejan agentes como subordinados. Lo explican en un ensayo.",
+    "Suleyman: construir IA consciente sería imprudente. Si aparecen señales en el entrenamiento, pararía todo."
   ],
   "days": {
     "2026-04-17": {
@@ -2427,6 +2428,22 @@
       ],
       "main_authors": [],
       "tesis": "El domingo llegaron los números antes que el hype: Google falló sus proyecciones por primera vez en cuatro años, DeepSeek lanzó un agente de código open source gratis, Karpathy construyó HackerTube en 2 horas, y un malware usa Claude para tasar a sus víctimas."
+    },
+    "2026-11-02": {
+      "count": 5,
+      "sources": [
+        "technology.org",
+        "yahoo.com",
+        "dealroom.co",
+        "openai.com",
+        "peoplemattersglobal.com"
+      ],
+      "main_authors": [
+        "Mustafa Suleyman",
+        "Hemanth Asirvatham",
+        "Elliott Mokski"
+      ],
+      "tesis": "Los mercados quemaron $5 billones en acciones de IA mientras Google pasaba su primer test clínico real en urgencias."
     }
   }
 }

@@ -1,0 +1,36 @@
+*1. AMIE pasó el primer test real en urgencias. 98 pacientes, cero paros.*
+Lo nuevo: Google publicó en The Lancet el primer estudio con IA conversacional en urgencias reales. De 114 pacientes que iniciaron, 98 tuvieron consulta médica posterior. AMIE incluyó el diagnóstico final en sus 7 primeras sugerencias en el 90% de los casos; 44 médicos dijeron que cambió cómo manejaron el encuentro en el 57%.
+Por qué te lo digo:
+• El promedio de espera para especialista en una IAMC uruguaya ronda los 30-40 días. AMIE ataca el triage conversacional antes de que el paciente llegue al médico: no resuelve el diagnóstico, resuelve el acceso — que es donde está el cuello de botella en ASESP.
+Link: https://www.technology.org/2026/11/01/a-real-world-study-of-patient-facing-ai-in-primary-care/
+
+*2. El crash de octubre: $5 billones de acciones de IA quemados mientras el resto del mercado subió.*
+Lo nuevo: 47 acciones de IA y chips perdieron $5 billones entre el 6 y el 30 de octubre. Alphabet cayó 18,5% (-780.000 millones de dólares) y Nvidia bajó 10,4% (-572.000 millones). En la misma semana, 9 de 11 sectores del S&P 500 subieron. El detonante fue la guía débil de Intel y las dudas sobre el retorno del gasto masivo en infraestructura.
+Por qué te lo digo:
+• Nvidia tiene ahora el P/E más bajo desde 2019. El costo de acceso a hardware de inferencia va a seguir bajando en 2027. La ventana de entrada más barata para una pyme uruguaya que duda si vale la pena invertir en IA se está abriendo, no cerrando.
+Qué dice X:
+• @MorningBrew (newsletter financiero): "Del 6 al 30 de octubre... Acciones de IA: ~$5 billones abajo. El resto del mercado: ~$1,3 billones arriba (Yahoo Finance)." https://x.com/MorningBrew/status/2116894803711438994
+• @CryptosR_Us (escéptico · análisis de mercados): "La plata no se está yendo de las acciones. Está rotando. Desde el 6 de octubre, las acciones de IA perdieron ~$5 billones mientras que las otras 625 grandes acciones de EE.UU. ganaron $1,3 billones." https://x.com/CryptosR_Us/status/2116821322613346541
+Link: https://finance.yahoo.com/markets/article/ai-stocks-just-lost-5-trillion--but-history-says-the-stock-markets-sweetest-stretch-starts-now-110000768.html
+
+*3. Dos empleados de OpenAI de 24 años manejan agentes como subordinados. Lo explican en un ensayo.*
+Lo nuevo: Hemanth Asirvatham y Elliott Mokski publican en openai.com tres escenarios de cómo la IA reorganiza el organigrama. El más relevante: "AI Between", un agente que coordina entre el dueño y el equipo operativo. Es el segundo ensayo de esta serie; a16z había publicado algo similar semanas antes.
+Por qué te lo digo:
+• Una distribuidora de 20 personas donde el dueño gasta el 30% de la semana en coordinación interna tiene un caso real acá: un agente que lee notas de vendedores, prioriza rebotes y sube pedidos al sistema. El que sufre ese dolor y te abre la puerta es el dueño o el jefe comercial.
+Qué dice X:
+• @aibuilderclub_ (builders de IA): "Nos estamos acercando a un mundo donde una persona podría manejar una empresa entera con un equipo de agentes de IA." https://x.com/aibuilderclub_/status/2116506054045597928
+• @YShimogawara (escéptico · CFO, IA y gobernanza): "La discusión de fondo es quién ejecuta, quién decide y cómo se garantiza eso estructuralmente. a16z publicó lo mismo semanas antes." https://x.com/YShimogawara/status/2116657969601335516
+Link: https://openai.com/index/the-future-of-the-firm/
+
+*4. Uruguay: el Estado tiene 8 proyectos de IA activos. La mayoría no son de salud.*
+Lo nuevo: El Laboratorio "IA para el bien" — alianza entre AGESIC y Microsoft — completó 3 proyectos y tiene 5 más que terminan este mes. Los temas van de detección de plagas a procesamiento de documentos y trámites administrativos.
+Por qué te lo digo:
+• El Estado uruguayo tiene procesos internos muy similares a los de una IAMC: trámites repetitivos, validación de documentos, gestión de casos. Si AGESIC ya automatizó algo de eso con Microsoft, hay un playbook concreto aplicable a ASESP. La pregunta vale la pena hacerla: ¿cuál de los 8 proyectos tiene más transferibilidad hacia una organización como la tuya?
+Link: https://ladiaria.com.uy/futuro/articulo/2026/10/gobierno-uruguayo-desarrolla-ocho-proyectos-de-inteligencia-artificial-para-mejorar-procesos-del-estado/
+
+*Oportunidad del día*
+La señal: OpenAI publicó un ensayo describiendo tres formas en que la IA reorganiza el organigrama de una empresa. La más accionable para una pyme chica: "AI Between" — un agente que coordina entre el dueño y el equipo operativo, haciendo lo que hoy hace un jefe de turno o un encargado de seguimiento.
+La puerta: Distribuidoras, comercios mayoristas o empresas de servicios técnicos de 10 a 30 personas en Uruguay donde el dueño o gerente pasa el 30-40% de la semana coordinando internamente: chequeando qué se hizo, reasignando tareas, persiguiendo pendientes. El que sufre el dolor: el dueño o el jefe de operaciones, que sabe qué decidió pero no cuándo ni si se ejecutó.
+La frase para abrir: "¿Cuántas horas por semana te pasás mirando si las cosas que mandaste a hacer se hicieron?"
+
+Informe completo: https://roraag.github.io/daily-ia-news/archive/2026-11-02.html
