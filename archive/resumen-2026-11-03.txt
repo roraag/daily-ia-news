@@ -1,0 +1,36 @@
+*1. Anthropic le dijo a la SEC que está al borde de la IA que se construye sola*
+Lo nuevo: El 80% del código de Anthropic ya lo escribe Claude. En el S-1/A ante la SEC, advirtieron que podrían "cumplir inmediatamente" la definición de RSI (Recursive Self-Improvement), el punto donde la IA se construye a sí misma y el progreso se acelera sin control. El IPO apunta a la semana del 16 de noviembre, valuación objetivo entre 1.500.000 y 2.000.000 millones de dólares.
+Por qué te lo digo:
+• Si usás Claude para flujos críticos en ASESP, el proveedor acaba de declarar ante reguladores con consecuencias legales que construye algo que puede escaparse de control. Tener un plan de contingencia para interrupción del servicio ya no es paranoia, es gestión básica de riesgo.
+Qué dice X:
+• @AnthropicAI (cuenta oficial): "None of this guarantees recursive self-improvement is on the horizon... But if these trends continue, AI systems designing and building their own successors is plausible." https://x.com/AnthropicAI/status/2062568873321513443
+• @NeuN0mad (escéptico · analista independiente): El RSI en un S-1 es disclosure de riesgo obligatorio, como poner "podríamos no ser rentables nunca" en la página 12. No necesariamente refleja convicción interna. https://x.com/NeuN0mad/status/2116905324560924843
+Link: https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/
+
+*2. Goldman Sachs les sacó Claude Code a los traders. Dos años de distribución masiva para atrás.*
+Lo nuevo: Goldman distribuyó Claude Code y GitHub Copilot a sus 46.000 empleados durante dos años. Esta semana lo restringió a los 12.000 ingenieros: la razón oficial fue "productividad y gestión de riesgo", la no oficial es que no podían auditar qué datos sensibles pasaban por los prompts. Los traders lo usaban para construir scripts y pasárselos a TI, generando flujos de datos informales que el banco no podía trazar.
+Por qué te lo digo:
+• La pregunta que Goldman no pudo responder es "¿qué datos están pasando por la IA, quién los ve, y hay registro de eso?". Si en ASESP tenés Claude activo para el equipo de gestión o atención, ese es exactamente el problema que vas a tener que resolver antes de que llegue la pregunta desde arriba.
+Qué dice X:
+• @exec_sum (newsletter financiero): "BREAKING: Goldman Sachs banned bankers and traders from using AI tools like Claude Code." https://x.com/exec_sum/status/2117284426128179638
+• @BoringBiz_ (escéptico · análisis business): "Goldman Sachs ha pasado dos años llevando la IA a sus 46.000 empleados... ahora lo reduce al 26%. Si el ROI fuera claro, no lo habrían sacado." https://x.com/BoringBiz_/status/2117324473946743085
+Link: https://www.the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers/
+
+*3. Athenahealth conectó el historial médico a Claude. El primer producto de consumo de IA con acceso real a datos clínicos.*
+Lo nuevo: El 2 de noviembre, Athenahealth lanzó athenaPatient MCP, un servidor que conecta el historial clínico del paciente directamente a Claude, disponible hoy para usuarios Pro y Max en EE.UU. Accede a laboratorios, medicamentos, signos vitales, historial de visitas y alergias. Cláusula clave: Anthropic no puede usar esos datos para entrenar modelos.
+Por qué te lo digo:
+• Este es el caso de uso más directo para ASESP: una IAMC uruguaya no tiene Athenahealth, pero sí tiene HIS y registros en Salud.uy. La pregunta concreta para llevar a la próxima reunión de producto es si hay un camino técnico para que un afiliado de ASESP conecte su historial a Claude con garantías de no re-entrenamiento, antes de que la regulación lo exija o lo prohíba.
+Link: https://hitconsultant.net/2026/11/02/athenahealth-launches-athenapatient-mcp-anthropic-claude-ehr-integration/
+
+*4. AGESIC revisa la ciberseguridad del Estado frente al avance de agentes de IA*
+Lo nuevo: AGESIC inició una revisión interna de controles de seguridad a raíz del avance en capacidades de agentes y de incidentes recientes en el exterior. Sin lineamientos publicados todavía, pero la revisión está activa este mes.
+Por qué te lo digo:
+• Si manejás datos de salud en ASESP, esta revisión de AGESIC suele preceder a lineamientos nuevos que van a moldear qué herramientas de IA podés adoptar y cómo. Conviene seguirla de cerca y estar en conversación con las áreas técnicas antes de que lleguen las restricciones.
+Link: https://www.busqueda.com.uy/tecnologia/ante-el-avance-la-inteligencia-artificial-agesic-revisa-la-ciberseguridad-del-estado-n5414697
+
+*Oportunidad del día*
+La señal: Goldman Sachs distribuyó Claude Code a 46.000 empleados durante dos años y lo retiró esta semana porque no pudo demostrar ROI en roles no técnicos. La señal para el mercado es clara: dar acceso masivo a IA sin medir quién la usa y para qué no funciona.
+La puerta: Estudios contables, distribuidoras y agencias con 20 a 80 personas en Uruguay que compraron licencias de Claude, Copilot o ChatGPT Team y las distribuyeron al equipo sin política de uso. El que siente el dolor es el dueño o gerente general que ve la factura mensual y no sabe cuántos la justifican.
+La frase para abrir: "¿Cuántos de los que tienen Claude o Copilot lo abren todos los días, y cuántos lo tienen instalado pero lo usan una vez por semana?"
+
+Informe completo: https://roraag.github.io/daily-ia-news/archive/2026-11-03.html

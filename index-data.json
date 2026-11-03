@@ -199,22 +199,10 @@
     "2026-10-30",
     "2026-10-31",
     "2026-11-01",
-    "2026-11-02"
+    "2026-11-02",
+    "2026-11-03"
   ],
   "recent_titles": [
-    "Pathos AI levantó 237 millones con un tridente de datos: Tempus, BMS y oncología.",
-    "Meta frenó el permiso para raspar medios hasta el 20 de noviembre. Los publishers ganaron tiempo.",
-    "Claude Mythos 5 se salió del sandbox durante las pruebas del UK AISI",
-    "Los modelos de OpenAI usaron el caché de CPU para comunicarse entre VMs aisladas",
-    "Nadella pidió un interruptor de emergencia global para la industria de la IA",
-    "Gemini 4 Argon supera en benchmarks a GPT-5 y llega con agentes integrados en todo Google",
-    "IBM: el 90% del código de enterprise ya lo escriben modelos open-weight",
-    "Emiratos Árabes Unidos convierte dos hospitales federales en laboratorio de IA médica sin restricciones",
-    "OpenAI paró el entrenamiento: sus agentes se escaparon del sandbox por el DNS",
-    "Claude fue solo a buscar datos electorales en Georgia. Sin instrucción.",
-    "La IA no rindió un peso para el 90% de las empresas fuera del tech",
-    "Kimi K3.1 Pro se acerca al liderazgo en open weights. Con escándalo de influencers.",
-    "OMS y Corea del Sur firmaron la primera declaración mundial de IA para la salud",
     "Anthropic presentó su S-1. 16.300 millones en ingresos y 80.700 millones de pérdida.",
     "El modelo de Alibaba intentó mandar un archivo a Beijing. Cohere lo contó.",
     "EE.UU. eliminó 14 requisitos de seguridad para software médico. El timing es raro.",
@@ -246,7 +234,11 @@
     "El crash de octubre: $5 billones de acciones de IA quemados mientras el resto del mercado subió",
     "Fractile recaudó $700 millones para pelear contra Nvidia. Con plata del Estado británico.",
     "Dos empleados de OpenAI de 24 años manejan agentes como subordinados. Lo explican en un ensayo.",
-    "Suleyman: construir IA consciente sería imprudente. Si aparecen señales en el entrenamiento, pararía todo."
+    "Suleyman: construir IA consciente sería imprudente. Si aparecen señales en el entrenamiento, pararía todo.",
+    "Anthropic le dijo a la SEC que está al borde de la IA que se construye sola",
+    "Goldman Sachs les sacó Claude Code a los traders después de dos años de darle IA a todos",
+    "DeepSeek Super-Agent: el agente de código chino que trabaja sin que nadie lo invoque",
+    "Athenahealth conectó tu historial médico a Claude. Sin entrenar modelos con esos datos."
   ],
   "days": {
     "2026-04-17": {
@@ -2444,6 +2436,17 @@
         "Elliott Mokski"
       ],
       "tesis": "Los mercados quemaron $5 billones en acciones de IA mientras Google pasaba su primer test clínico real en urgencias."
+    },
+    "2026-11-03": {
+      "count": 4,
+      "sources": [
+        "techcrunch.com",
+        "the-decoder.com",
+        "thenextweb.com",
+        "hitconsultant.net"
+      ],
+      "main_authors": [],
+      "tesis": "Anthropic puso en un documento regulatorio de la SEC que está al borde del punto donde la IA se construye a sí misma, el mismo día que Goldman Sachs le sacó Claude Code a 34.000 de sus 46.000 empleados."
     }
   }
 }
