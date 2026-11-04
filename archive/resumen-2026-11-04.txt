@@ -1,0 +1,41 @@
+*1. OpenAI buscaba $30.000 millones, cerró en $11.000. La diferencia importa.*
+Lo nuevo: OpenAI cerró su última ronda en $11.000 millones —menos de la mitad del objetivo. Los mercados de deuda "prácticamente se cerraron" para empresas de IA sin ingresos independientes del datacenter. Zitron calculó que eso no cubre ni un trimestre de compute de Anthropic, cuyos costos pasaron de $5.600 millones a $9.900 millones trimestre a trimestre.
+Por qué te lo digo:
+• Si una pyme uruguaya ya tiene flujos que dependen de APIs de OpenAI o Anthropic, la dirección del precio es clara: el subsidio implícito tiene un techo. No es urgente hoy, pero el que ya mira alternativas open source tiene esa cobertura armada.
+Qué dice X:
+• @mattpheus (analista, mercados): "OpenAI va al retail. Ese es el titular y también es una mala señal. Cuando llega al retail, significa que el smart money ya pasó." https://x.com/mattpheus/status/2117223161791988169
+• @pstAsiatech (Paul Triolo, analista tech/geopolítica): "OpenAI levantó menos de la mitad de los $30.000 millones que había fijado como objetivo para su última ronda." https://x.com/pstAsiatech/status/2117233320153022867
+• @stocktrain2 (escéptico · análisis mercados): "OpenAI levantó menos de la mitad del objetivo, con los nervios del mercado por el trade de IA enfriando el apetito de inversores." https://x.com/stocktrain2/status/2117380599765934588
+Link: https://www.wheresyoured.at/running-dry/
+
+*2. CrowdStrike lanzó el primer kill switch para agentes IA. El mismo día, Binance confirmó el mayor robo cripto: $6.300 millones.*
+Lo nuevo: CrowdStrike agregó a Falcon Guardian un interruptor de emergencia que permite cortar el acceso de un agente a todos los modelos, bloquearlo y aislarlo de la red —disponible ya, sin costo adicional. Binance confirmó que el robo de $6.300 millones usó una entrevista de trabajo falsa, malware y una herramienta de codificación adulterada que comprometió una IA interna. El FBI apunta a un grupo norcoreano.
+Por qué te lo digo:
+• Antes de evaluar cualquier agente interno con acceso a sistemas críticos —historia clínica, facturación, inventario—, la pregunta que hay que hacerle al proveedor es una: ¿cómo lo paramos si se porta mal? Si no sabe responder eso, el sistema no está listo para producción.
+Qué dice X:
+• @CrowdStrike (anuncio oficial): "Cuando un agente se descontrola, podés terminarlo de raíz, bloquear relanzamientos y cortar el acceso a la red. Control humano total." https://x.com/CrowdStrike/status/2117537184903238032
+• @CNBC (cobertura mainstream): "CrowdStrike lanza un kill switch de IA que, según dice, puede detener agentes internos que se vuelven rogue." https://x.com/CNBC/status/2117704598970319287
+• @dnvolz (escéptico · Dustin Volz, NYT): "Binance: los hackers usaron entrevista de trabajo falsa, software adulterado y una IA interna para llegar a las wallets de $6.300 millones." https://x.com/dnvolz/status/2117653149435527391
+Link: https://www.cnbc.com/2026/11/03/crowdstrike-ai-kill-switch-rogue-agents.html
+
+*3. FDA y CMS eligieron co-regular la IA clínica con los estados. El playbook aplica a Uruguay.*
+Lo nuevo: Funcionarios de FDA y CMS formalizaron una estrategia de colaboración con los estados que ya tienen sandboxes regulatorias de IA en salud, incluyendo protecciones de responsabilidad para médicos. Es el primer movimiento formal después de que varios estados avanzaron solos en octubre. La dirección: cohabitar con la experimentación estatal, no frenarla.
+Por qué te lo digo:
+• El regulador local siempre va a ser el camino más corto hacia la adopción formal de IA clínica. Para ASESP, construir una relación de trabajo con AGESIC y el MSP antes de que llegue la regulación es el movimiento que vale ahora. El Laboratorio de IA para el Bien de AGESIC tiene cuatro nuevos proyectos arrancando este noviembre; si ASESP no tiene un proyecto ahí, es el momento de mirar cuándo cierra la próxima convocatoria.
+Qué dice X:
+• @theraheelhasan (CEO, clínica de IA): "FDA y CMS buscan co-regular la IA en salud con los estados en vez de ir solos. La gobernanza de la IA clínica se vuelve mosaico estatal." https://x.com/theraheelhasan/status/2117729531310301376
+• @Care_Chronicle (escéptico · cobertura salud digital): "El choque de fondo: los estados regulan la práctica médica, pero la IA que prescribe sin supervisión puede caer bajo la FDA. Nadie resolvió eso todavía." https://x.com/Care_Chronicle/status/2117332908071424109
+Link: https://www.statnews.com/2026/11/03/fda-cms-collaborate-with-states-on-ai-heath-tech/
+
+*4. Uruguay es tercero en IA en LatAm. El número que importa no es ese.*
+Lo nuevo: El índice ILIA 2026 (CEPAL + Chile) le asignó a Uruguay 67 sobre 100, tercero detrás de Chile y Brasil. El 50% de las grandes empresas uruguayas ya adoptaron IA, frente al 27,6% del promedio regional. Cobertura 5G: 93,7%.
+Por qué te lo digo:
+• El gap entre el 50% de adopción en grandes empresas y el promedio regional del 27,6% dice una sola cosa: el mercado uruguayo de IA para pymes de 10 a 50 personas está sin servir. Las grandes ya tienen equipos, presupuesto y contratos; las pymes no tienen ninguna de las tres. Ahí está el mercado.
+Link: https://ladiaria.com.uy/futuro/articulo/2026/10/uruguay-integra-el-grupo-de-paises-pioneros-en-ia-y-lidera-la-adopcion-empresarial-en-la-region-segun-estudio/
+
+*Oportunidad del día*
+La señal: Fal.ai duplicó su valuación a $16.000 millones corriendo modelos open source de imagen y audio para terceros. Los modelos que corre son los mismos que cualquier empresa puede usar. El costo por imagen cayó a fracciones de centavo.
+La puerta: Empresa de servicios, comercio o distribución de 10 a 50 personas en Uruguay que produce materiales de comunicación —catálogos, posts, imágenes de producto— y paga diseño o agencia. Dueño o gerente comercial que aprueba los presupuestos de comunicación.
+La frase para abrir: "¿Cuánto están gastando hoy en generar imágenes para catálogo o redes? ¿Alguien les calculó qué sale hacer lo mismo con IA?"
+
+Informe completo: https://roraag.github.io/daily-ia-news/archive/2026-11-04.html

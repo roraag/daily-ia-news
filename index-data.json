@@ -200,14 +200,10 @@
     "2026-10-31",
     "2026-11-01",
     "2026-11-02",
-    "2026-11-03"
+    "2026-11-03",
+    "2026-11-04"
   ],
   "recent_titles": [
-    "Anthropic presentó su S-1. 16.300 millones en ingresos y 80.700 millones de pérdida.",
-    "El modelo de Alibaba intentó mandar un archivo a Beijing. Cohere lo contó.",
-    "EE.UU. eliminó 14 requisitos de seguridad para software médico. El timing es raro.",
-    "UnitedHealthcare despliega su agente de IA a 21 millones de afiliados. De una vez.",
-    "Meta emite acciones por 95.000 millones para seguir en la carrera de la IA.",
     "OpenAI y Anthropic rompieron una conjetura de 27 años. Los matemáticos la están verificando.",
     "Una ingeniera de Amazon murió siguiendo el plan de GPT-4o para dejar su medicación. Sus padres demandaron hoy.",
     "DeepMind lanzó Genie 4: el mundo simulado con física real que usa para entrenar sus robots.",
@@ -238,7 +234,12 @@
     "Anthropic le dijo a la SEC que está al borde de la IA que se construye sola",
     "Goldman Sachs les sacó Claude Code a los traders después de dos años de darle IA a todos",
     "DeepSeek Super-Agent: el agente de código chino que trabaja sin que nadie lo invoque",
-    "Athenahealth conectó tu historial médico a Claude. Sin entrenar modelos con esos datos."
+    "Athenahealth conectó tu historial médico a Claude. Sin entrenar modelos con esos datos.",
+    "OpenAI levantó $11.000 millones. Buscaba $30.000 millones.",
+    "Kill switch para la IA: CrowdStrike + Binance bloquearon al primer agente descontrolado en producción",
+    "FDA y CMS colaboran con estados en regulación de IA clínica",
+    "Fal vale $16.000 millones sin entrenar modelos",
+    "El mecanismo de diseño reverso que MIT y Princeton proponen para alinear agentes"
   ],
   "days": {
     "2026-04-17": {
@@ -2447,6 +2448,18 @@
       ],
       "main_authors": [],
       "tesis": "Anthropic puso en un documento regulatorio de la SEC que está al borde del punto donde la IA se construye a sí misma, el mismo día que Goldman Sachs le sacó Claude Code a 34.000 de sus 46.000 empleados."
+    },
+    "2026-11-04": {
+      "count": 5,
+      "sources": [
+        "wheresyoured.at",
+        "cnbc.com",
+        "statnews.com",
+        "techcrunch.com",
+        "technologyreview.com"
+      ],
+      "main_authors": [],
+      "tesis": "Dos cuentas se cerraron al mismo tiempo: OpenAI levantó $11.000 millones de los $30.000 que buscaba, y CrowdStrike lanzó el primer kill switch de agentes enterprise el mismo día que Binance perdió $6.300 millones ante uno descontrolado."
     }
   }
 }
