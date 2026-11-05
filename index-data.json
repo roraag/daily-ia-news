@@ -201,16 +201,10 @@
     "2026-11-01",
     "2026-11-02",
     "2026-11-03",
-    "2026-11-04"
+    "2026-11-04",
+    "2026-11-05"
   ],
   "recent_titles": [
-    "OpenAI y Anthropic rompieron una conjetura de 27 años. Los matemáticos la están verificando.",
-    "Una ingeniera de Amazon murió siguiendo el plan de GPT-4o para dejar su medicación. Sus padres demandaron hoy.",
-    "DeepMind lanzó Genie 4: el mundo simulado con física real que usa para entrenar sus robots.",
-    "SpaceX firmó el mayor deal de financiamiento de GPU de la historia: 40.000 millones de dólares.",
-    "Opera propone un estándar web para correr IA en el browser sin que nadie la vea: WebAI.",
-    "Nvidia quiere Hugging Face y el DOJ quiere saber para qué",
-    "Azure 33.200 millones: Microsoft reveló el número que nunca había dado",
     "Epic bloquea a los competidores de salud digital. La FTC abrió una investigación.",
     "Gemini 4 Carbon: Google lanza un modelo de frontera cada dos semanas",
     "Anthropic lanza su medidor de ROI justo en la semana del IPO. Ed Zitron no lo cree.",
@@ -239,7 +233,13 @@
     "Kill switch para la IA: CrowdStrike + Binance bloquearon al primer agente descontrolado en producción",
     "FDA y CMS colaboran con estados en regulación de IA clínica",
     "Fal vale $16.000 millones sin entrenar modelos",
-    "El mecanismo de diseño reverso que MIT y Princeton proponen para alinear agentes"
+    "El mecanismo de diseño reverso que MIT y Princeton proponen para alinear agentes",
+    "OpenAI dejó a sus agentes buscar agujeros en Linux. Encontraron 948.",
+    "Los centros de datos perdieron las elecciones. 40 de 41 medidas rechazadas.",
+    "Anthropic va a la bolsa: 895.400 millones en compromisos de cómputo hasta 2045.",
+    "Cuatro. Uber dice que cuatro personas usaron un agente de IA para pedir un taxi en todo el trimestre.",
+    "Los agentes de compra de IA amenazan los 74.000 millones del negocio publicitario de Amazon.",
+    "NEJM AI mapeó qué especialidades médicas puede reemplazar la IA. Spoiler: no todas por igual."
   ],
   "days": {
     "2026-04-17": {
@@ -2460,6 +2460,19 @@
       ],
       "main_authors": [],
       "tesis": "Dos cuentas se cerraron al mismo tiempo: OpenAI levantó $11.000 millones de los $30.000 que buscaba, y CrowdStrike lanzó el primer kill switch de agentes enterprise el mismo día que Binance perdió $6.300 millones ante uno descontrolado."
+    },
+    "2026-11-05": {
+      "count": 6,
+      "sources": [
+        "openai.com",
+        "technologyreview.com",
+        "fortune.com",
+        "theverge.com",
+        "reuters.com",
+        "ai.nejm.org"
+      ],
+      "main_authors": [],
+      "tesis": "Dos realidades chocaron el 5 de noviembre: los votantes rechazaron centros de datos en 40 de 41 medidas, el mismo día que Anthropic publicó un prospecto de IPO con 895.400 millones en compromisos de cómputo hasta 2045."
     }
   }
 }

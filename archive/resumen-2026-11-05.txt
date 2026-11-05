@@ -1,0 +1,48 @@
+*1. Anthropic va a la bolsa: 895 mil millones en compromisos de cómputo hasta 2045*
+Lo nuevo: Anthropic presentó su S-1 ante la SEC; listing previsto para la semana del 16-19 de noviembre con ticker ANT. Ingresos en el primer semestre de 2026: 16.300 millones de dólares. Los compromisos de infraestructura de cómputo suman 895.400 millones hasta 2045.
+Por qué te lo digo:
+• El IPO va a empujar a Anthropic a cerrar contratos enterprise más grandes y puede generar presión al alza en precios de API; si usás o querés usar Claude en algún flujo de trabajo en ASESP, este es el momento de negociar volumen antes del roadshow.
+Qué dice X:
+• @theinformation (cobertura financiera): "Anthropic les está diciendo a los inversores del IPO que su equipo de chips de 15 personas ya usa Claude para acelerar el diseño de chips, lo que potencialmente daría ventaja sobre Nvidia y AMD." https://x.com/theinformation/status/2117663244890378296
+• @JustRuss03_ (análisis legal del S-1): "Quien compre ANT no va a ser quien mande. Anthropic es una public benefit corporation — el board balancea shareholders con misión. Los inversores compran rendimiento sin control." https://x.com/JustRuss03_/status/2117983053457019137
+Link: https://fortune.com/2026/11/04/dario-amodei-wants-a-country-of-geniuses-in-a-data-center-realizing-that-vision-requires-tricky-financial-mechanics-anthropics-ipo-filing-shows/
+
+*2. OpenAI soltó agentes a buscar agujeros en Linux. Encontraron 948.*
+Lo nuevo: El pipeline identificó 2.308 potenciales fallos en el kernel Linux, reprodujo 1.724 y desarrolló exploits funcionales para 948 de ellos en una sola corrida. Costo total: 1,21 millones de dólares en llamadas a la API, unos 1.280 dólares por vulnerabilidad. Un pentest humano cobra entre 10.000 y 50.000 dólares por semana.
+Por qué te lo digo:
+• Una pyme de 20 personas en Uruguay no tiene presupuesto para un pentest tradicional, pero sí puede contratar un scan automatizado por una fracción del precio; la pregunta que abre la conversación: "¿Cuándo fue la última vez que alguien revisó qué puertos y servicios están expuestos en su red?"
+Qué dice X:
+• @OpenAI (anuncio oficial): "Nuestros investigadores armaron un pipeline autónomo de descubrimiento, explotación y parcheo. En una corrida validó y generó parches para 948 vulnerabilidades de escalada de privilegios en el kernel Linux." https://x.com/OpenAI/status/2118119451401048497
+• @clintgibler (Lead Cyber, OpenAI): Señala que el pipeline usa "un próximo modelo cyber", no el modelo público — la capacidad demostrada no está todavía en manos del usuario promedio. https://x.com/clintgibler/status/2118120600577487119
+Link: https://openai.com/index/a-thousand-fewer-paths-to-root
+
+*3. Los centros de datos perdieron las elecciones. 40 de 41 medidas rechazadas.*
+Lo nuevo: En las midterms del 4 de noviembre, votantes de EE.UU. rechazaron propuestas de nuevos centros de datos en 40 de 41 medidas locales. Texas eligió mayoría demócrata por primera vez en 30 años y los nuevos líderes proponen moratoria sobre proyectos de IA, con decenas de miles de millones ya comprometidos.
+Por qué te lo digo:
+• Para quien arma proyectos de IA para clientes uruguayos con compromisos ESG o que exportan a Europa, el argumento de "nube sostenible y eficiencia energética" empieza a ser una ventaja competitiva real en el pitch, no greenwashing.
+Qué dice X:
+• @WIRED (cobertura electoral): "Como parte del shock blue tsunami de anoche, los votantes eligieron candidatos con políticas duras contra data centers en todos los niveles de gobierno." https://x.com/WIRED/status/2118038361898451271
+• @TechCrunch (escéptico): "La oposición a los data centers cruzó líneas partidarias en las midterms del martes." https://x.com/TechCrunch/status/2118147059001799051
+Link: https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/
+
+*4. Cuatro. Uber dice que cuatro personas usaron un agente de IA para pedir un taxi en todo el trimestre.*
+Lo nuevo: En la semana de mayor demanda de octubre, Uber completó 320 millones de viajes combinados. Cuatro de ellos fueron iniciados por agentes de IA. El CEO dijo que espera que los agentes sean "eventualmente" un canal importante, sin dar fecha ni métrica de lo que considera éxito.
+Por qué te lo digo:
+• Si armás soluciones de IA para clientes: no vendas agentes autónomos para cosas que ya tienen una app; el espacio donde agregan valor hoy es en tareas sin interfaz obvia, como coordinar proveedores o hacer seguimiento de cotizaciones que llegan por WhatsApp, mail y teléfono.
+Qué dice X:
+• @TechCrunch (nota original): "Durante su semana más ocupada del último trimestre, Uber dijo que solo 4 personas reservaron un viaje usando un agente de IA." https://x.com/TechCrunch/status/2118100743987048581
+• @DavidDTawil (escéptico, análisis de mercado): "Agentic AI. Casi nadie usa agentes de IA para reservar su Uber, dice la compañía." https://x.com/DavidDTawil/status/2118247316864008649
+Link: https://www.theverge.com/uber-ai-agents-rides
+
+*5. AGESIC habilitó los primeros sandboxes regulados de IA y datos en Uruguay*
+Lo nuevo: Uruguay habilita entornos de prueba controlados para proyectos de IA y datos antes de legislar, siguiendo el modelo que usó la UE antes del AI Act.
+Por qué te lo digo:
+• Las mutualistas con proyectos de IA clínica pueden calificar para los sandboxes de AGESIC; es el mejor camino para hacer pilotos con soporte regulatorio sin esperar que haya una ley aprobada.
+Link: https://www.busqueda.com.uy/tecnologia/uruguay-habilita-los-primeros-sandboxes-ia-y-datos-un-paso-previo-una-futura-regulacion-tecnologica-n5407738
+
+*Oportunidad del día*
+La señal: Dario Amodei publicó en el prospecto del IPO de Anthropic que el precio por token debería variar según el valor generado por tarea — una respuesta simple vale dólares, ayudar a una farmacéutica puede valer millones. Es la primera vez que el CEO de Anthropic articula públicamente que el modelo de precios por token va a romperse.
+La puerta: Alguien que implementa IA para otras empresas y cobra por hora o por licencia flat. Es el gerente de tecnología de una consultora pequeña, el freelancer técnico que arma flujos con Claude o ChatGPT para clientes, o el dueño de una software house de 5 a 20 personas en Montevideo que está empezando a agregar IA a sus servicios. Todos cobran igual por una tarea que vale 1.000 dólares y una que vale 100.
+La frase para abrir: "Si te ahorro 20 horas de trabajo por semana, ¿cuánto vale eso para vos?"
+
+Informe completo: https://roraag.github.io/daily-ia-news/archive/2026-11-05.html
