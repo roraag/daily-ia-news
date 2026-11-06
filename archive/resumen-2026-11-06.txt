@@ -1,9 +1,43 @@
-Viernes 6 de noviembre de 2026.
+*1. Claude lee tu cuenta bancaria — Plaid conecta, Anthropic promete no tocar nada*
+Lo nuevo: Anthropic lanzó Personal Finance en Claude: conectás cuentas bancarias vía Plaid y preguntás en lenguaje natural. Acceso solo lectura, dos años de historial de transacciones, sin uso de tus datos para entrenamiento. Beta en EE.UU. para suscriptores Pro, Max y Ultra, lanzada la misma semana que el prospecto de IPO.
+Por qué te lo digo:
+• El prototipo de lo que llega cuando Plaid o equivalente alcance Uruguay: el dueño de una distribuidora de 20 empleados puede preguntarle a Claude cuánto gastó en logística este mes sin contratar un analista. Hoy se puede emular conectando extractos bancarios en CSV con un prompt simple.
+Qué dice X:
+• @claudeai (cuenta oficial): "Introducing Personal Finance in Claude... Connect the accounts you choose, and Claude answers your money questions in everyday language. Access is read-only, and Claude can't move, manage, or invest your money." https://x.com/claudeai/status/2118403114890137895
+• @TechCrunch (cobertura): "With Personal Finance in Claude, users can connect their bank and card accounts through Plaid and ask questions about their finances." https://x.com/TechCrunch/status/2118405254450434052
+• El anuncio tuvo mucho alcance pero poca crítica técnica. Las preguntas sobre privacidad todavía no llegaron con fuerza.
+Link: https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/
 
-Cinco historias principales: Claude se integró a cuentas bancarias vía Plaid para leer transacciones en tiempo real (beta US). OpenAI lanzó GPT-6 Cyber en producción: encontró 948 exploits en el kernel de Linux y 81 bugs en Firefox, todos de criticidad alta. METR evaluó a Claude 3.7 y midió una aceleración 1,9x en tareas de ingeniería de software, con la evidencia metodológica clave censurada del informe público. Palo Alto Networks pagó USD 500 millones por Clutch Security, startup que gestiona credenciales para agentes IA. STAT News expuso el uso masivo de chatbots IA por médicos en hospitales sin autorización ni registro oficial.
+*2. METR: Anthropic mejora dos veces más rápido y el informe público está censurado*
+Lo nuevo: La organización de seguridad independiente METR evaluó a Anthropic desde agosto con acceso interno. Los modelos mejoran 1,9 veces más rápido que antes, impulsados en un 80% por IA que entrena a la propia IA. No encontraron cuellos de botella visibles para los próximos 12 meses. Anthropic censuró la mayoría de la evidencia clave del informe público; METR publicó igual con advertencia de transparencia.
+Por qué te lo digo:
+• Si el tiempo entre modelos sigue acortándose, las apuestas sobre qué proveedor domina en dos años valen cada vez menos. Lo que sí vale: el proceso de adopción en salud —clínicos, privacidad, regulación— sigue siendo lento, y quien ya esté adentro del sistema cuando llegue la presión lleva ventaja.
+Qué dice X:
+• @METR_Evals (anuncio): "Since August, a team within METR has worked with internal Anthropic information to assess whether AI itself is accelerating AI development. We are now publishing a report summarizing the results of this risk assessment." https://x.com/METR_Evals/status/2118412183860351084
+• @METR_Evals (sobre la transparencia): "We submitted a ~100-page full report on our assessment to Anthropic. For the public version, Anthropic redacted a majority of the evidence we found most informative. As a consequence, the public must rely on our judgment more than we consider ideal." https://x.com/METR_Evals/status/2118412194702598339
+Link: https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/
 
-Uruguay: España y Uruguay firmaron un memorándum de cooperación en IA el 4 de noviembre en Madrid. AGESIC lanza en noviembre proyectos de IA para Registros, Ceibal y Hospital de Clínicas.
+*3. Palo Alto pagó $500 millones por la startup que cuida las llaves de los agentes*
+Lo nuevo: Palo Alto Networks negocia la compra de Clutch Security por $500 millones, su séptima adquisición del año. Clutch era valuada en $85 millones en enero de 2025. La plataforma descubre agentes de IA activos en una empresa, les asigna identidad y puede suspender o revocar sus credenciales. La negociación no está cerrada.
+Por qué te lo digo:
+• En 12 a 18 meses cualquier cliente que implemente agentes de IA va a preguntar qué puede hacer el agente en sus sistemas y cómo controlarlo. El doliente es el IT o el contador que teme que el agente acceda sin control al ERP. La pregunta para abrir: "¿Cómo sabés qué accede el agente que instalaste el mes pasado?"
+Link: https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/
 
-Bitcoin: 75.603 USD, -6,02% en 24h. Caída ligada a temores regulatorios sobre centros de datos IA y USD 1.250 millones en liquidaciones cripto.
+*4. Cientos de miles de médicos usan ChatGPT con datos de pacientes. Los hospitales no saben qué hacer*
+Lo nuevo: STAT News documentó que mientras los hospitales bloquean o compran IA clínica "oficial", los médicos ya usan chatbots de consumo con datos de salud protegidos. Plataformas como OpenEvidence, Doximity Ask y ChatGPT for Clinicians tienen cientos de miles de médicos activos. El riesgo real: datos de pacientes en modelos de empresas que no firmaron el contrato de privacidad equivalente a HIPAA.
+Por qué te lo digo:
+• Si ASESP no tiene política de IA clínica, ya tiene médicos usando herramientas no controladas —es estadísticamente inevitable. El doliente es el Director de TI o Compliance que va a firmar el que pasa si hay un incidente. La pregunta interna para plantear hoy: "¿Nuestra política de uso de IA cubre qué pueden hacer los médicos con datos de pacientes?"
+Link: https://www.statnews.com/2026/11/05/doctors-use-ai-chatbots-hipaa-compliance-questions/
 
-Oportunidad del día: Claude conectado a Plaid permite a dueños de pymes ver sus gastos empresariales en lenguaje natural, sin depender del contador.
+*5. Uruguay firmó el acuerdo iberoamericano de IA y el Estado lanza sus primeros proyectos operativos en noviembre*
+Lo nuevo: España y Uruguay firmaron un memorándum de cooperación en IA por cuatro años el 4 de noviembre en Madrid. Foco en modelos en español, supercomputación y conectividad satelital. En paralelo, AGESIC lanza en noviembre los primeros proyectos operativos reales de IA del Estado: Dirección General de Registros, Ceibal y Hospital de Clínicas.
+Por qué te lo digo:
+• Si el Hospital de Clínicas tiene IA operando en noviembre, el sistema privado va a tener presión pública para ir al ritmo. El momento de que ASESP se posicione como referente en IA clínica privada es antes de que esa presión llegue, no después.
+Link: https://www.infobae.com/america/agencias/2026/11/04/espana-y-uruguay-acuerdan-impulsar-la-cooperacion-en-digitalizacion-inteligencia-artificial-y-conectividad/
+
+*Oportunidad del día*
+La señal: Claude conecta con cuentas bancarias y hasta dos años de historial de transacciones vía Plaid, en lenguaje natural. El costo de ofrecer este análisis a una empresa es una suscripción de $20 al mes o algunos dólares de API de Anthropic.
+La puerta: Dueño de una distribuidora, comercio o restaurante en Montevideo con 10 a 30 empleados que maneja varios proveedores y no sabe cuánto se fue en cada categoría hasta que llega el balance de fin de mes. El doliente es el dueño, no el contador —que llega una vez al mes. Es el que toma decisiones sin datos en tiempo real.
+La frase para abrir: "¿Cuántos días tarde te enterás de que un gasto se fue de control?"
+
+Informe completo: https://roraag.github.io/daily-ia-news/archive/2026-11-06.html
