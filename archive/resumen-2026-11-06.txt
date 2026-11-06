@@ -1,0 +1,9 @@
+Viernes 6 de noviembre de 2026.
+
+Cinco historias principales: Claude se integró a cuentas bancarias vía Plaid para leer transacciones en tiempo real (beta US). OpenAI lanzó GPT-6 Cyber en producción: encontró 948 exploits en el kernel de Linux y 81 bugs en Firefox, todos de criticidad alta. METR evaluó a Claude 3.7 y midió una aceleración 1,9x en tareas de ingeniería de software, con la evidencia metodológica clave censurada del informe público. Palo Alto Networks pagó USD 500 millones por Clutch Security, startup que gestiona credenciales para agentes IA. STAT News expuso el uso masivo de chatbots IA por médicos en hospitales sin autorización ni registro oficial.
+
+Uruguay: España y Uruguay firmaron un memorándum de cooperación en IA el 4 de noviembre en Madrid. AGESIC lanza en noviembre proyectos de IA para Registros, Ceibal y Hospital de Clínicas.
+
+Bitcoin: 75.603 USD, -6,02% en 24h. Caída ligada a temores regulatorios sobre centros de datos IA y USD 1.250 millones en liquidaciones cripto.
+
+Oportunidad del día: Claude conectado a Plaid permite a dueños de pymes ver sus gastos empresariales en lenguaje natural, sin depender del contador.

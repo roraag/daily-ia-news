@@ -202,14 +202,10 @@
     "2026-11-02",
     "2026-11-03",
     "2026-11-04",
-    "2026-11-05"
+    "2026-11-05",
+    "2026-11-06"
   ],
   "recent_titles": [
-    "Epic bloquea a los competidores de salud digital. La FTC abrió una investigación.",
-    "Gemini 4 Carbon: Google lanza un modelo de frontera cada dos semanas",
-    "Anthropic lanza su medidor de ROI justo en la semana del IPO. Ed Zitron no lo cree.",
-    "Mistral abrió 1 billón de parámetros: Large 4 llega como open weight y apunta a ciberseguridad",
-    "Jassy dijo que AWS va a valer un billón de dólares. Por ahora gasta 220.000 millones al año.",
     "OpenAI expandió el monitoreo de agentes: 30 minutos de alerta antes de que lleguen a dañar algo",
     "Agentes de Cathedral penetraron los sistemas internos de Anthropic en 12 horas. Era un test autorizado.",
     "Reddit pierde un millón de usuarios semanales por el AI Mode de Google. El CEO no espera que vuelva.",
@@ -239,7 +235,12 @@
     "Anthropic va a la bolsa: 895.400 millones en compromisos de cómputo hasta 2045.",
     "Cuatro. Uber dice que cuatro personas usaron un agente de IA para pedir un taxi en todo el trimestre.",
     "Los agentes de compra de IA amenazan los 74.000 millones del negocio publicitario de Amazon.",
-    "NEJM AI mapeó qué especialidades médicas puede reemplazar la IA. Spoiler: no todas por igual."
+    "NEJM AI mapeó qué especialidades médicas puede reemplazar la IA. Spoiler: no todas por igual.",
+    "Claude se conecta a tu cuenta bancaria vía Plaid para leer tus gastos",
+    "GPT-6 Cyber encontró 948 exploits en el kernel de Linux en producción",
+    "METR revela que Claude 3.7 acelera el trabajo de ingeniería 1,9x, con evidencia clave censurada",
+    "Palo Alto Networks paga 500 millones por Clutch Security, la empresa que custodia las credenciales de los agentes IA",
+    "Médicos usan chatbots para diagnósticos sin que el hospital lo sepa: STAT News destapa el shadow AI en hospitales"
   ],
   "days": {
     "2026-04-17": {
@@ -2473,6 +2474,18 @@
       ],
       "main_authors": [],
       "tesis": "Dos realidades chocaron el 5 de noviembre: los votantes rechazaron centros de datos en 40 de 41 medidas, el mismo día que Anthropic publicó un prospecto de IPO con 895.400 millones en compromisos de cómputo hasta 2045."
+    },
+    "2026-11-06": {
+      "count": 5,
+      "sources": [
+        "anthropic.com",
+        "openai.com",
+        "metr.org",
+        "techcrunch.com",
+        "statnews.com"
+      ],
+      "main_authors": [],
+      "tesis": "Hoy la IA entró a tu cuenta bancaria, encontró 948 exploits en el kernel de Linux, y una organización independiente reveló que el motor de Anthropic va dos veces más rápido de lo que nadie imaginaba —con la mayor parte de la evidencia clave censurada del informe público."
     }
   }
 }
