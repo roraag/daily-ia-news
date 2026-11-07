@@ -1,0 +1,41 @@
+Tengo todo lo que necesito. Generando el resumen ahora.
+
+*1. Un modelo secreto de Anthropic le resolvió a las matemáticas 18 años de deuda*
+Lo nuevo: Physical Superintelligence anunció que un modelo interno de Anthropic —que nadie vio todavía— encontró y formalizó la prueba de la conjetura de Aaronson-Ambainis en tres días. Lean la verificó. Es el primer problema de complejidad cuántica resuelto por IA con prueba formal completa. Un equipo de Stanford que había publicado resultados parciales en agosto confirmó: "Es un resultado enorme."
+Por qué te lo digo:
+• El modelo que lo hizo no es Claude 4: es algo que todavía no publicaron. Para el que vende servicios de IA a pymes en Uruguay, las tareas de verificación y auditoría —contabilidad, compliance, control de calidad— son los próximos candidatos a automatización parcial. Para ASESP: la verificación formal de protocolos clínicos deja de ser ciencia ficción.
+Qué dice X:
+• @MTSlive (divulgador IA): "Physical Superintelligence usó un modelo Claude no público para probar la conjetura de Aaronson-Ambainis, un problema abierto central de complejidad cuántica desde 2008." https://x.com/MTSlive/status/2118776132237734004
+• @VaibhavSisinty (fundador / audiencia IA): "Cayó un problema abierto desde 2008. La prueba llegó al tercer día de corrida." https://x.com/VaibhavSisinty/status/2118777335701024937
+Link: https://www.siliconreport.com/physical-superintelligence-says-ai-proved-aaronson-ambainis-conjecture
+
+*2. El gasto en IA frenó: 1% de las empresas paga el 80% de la factura*
+Lo nuevo: Datos de Ramp sobre más de 80.000 empresas: el gasto en tokens creció solo 1,5% en agosto y septiembre vs. 42% en julio. El precio por millón de tokens cayó de $1,22 en febrero a $0,56 hoy: -54%. La empresa mediana gasta $12 por mes por empleado. Anthropic se lleva el 60% del gasto enterprise frente al 35% de OpenAI.
+Por qué te lo digo:
+• El costo de implementar IA bajó a la mitad sin que nadie lo anunciara. Una automatización de reportes o procesamiento de facturas para una distribuidora de 15 personas costaría menos de $200 por mes en API. Si ya tenés contratos de servicios de IA firmados, revisá si el margen aguanta el precio que pusiste.
+Qué dice X:
+• @ArkkDaily (Ark Invest Tracker): "1% de las empresas genera el 80% del gasto en IA de OpenAI y Anthropic. Y ese 1% empieza a frenar." https://x.com/ArkkDaily/status/2118683567286886804
+• @gtm_engineer (escéptico): "La empresa mediana gasta menos de $12 por mes por empleado en IA. Es menos que un licuado de proteína en Nueva York. Este es tu recordatorio para seguir experimentando." https://x.com/gtm_engineer/status/2118379475146567930
+Link: https://ramp.com/data/ai-index-oct-2026
+
+*3. La valuación de Anthropic se cayó a la mitad antes del roadshow*
+Lo nuevo: En septiembre buscaban $2 billones. Hoy los inversores hablan de entre $1,1 y $1,3 billones, según Reuters. El roadshow formal arranca la semana del 9 de noviembre. Polymarket le da 71% de probabilidad de que coticen antes de fin de año. New Constructs la valuó en $150.000 millones y lo llamó "prueba sin precedentes de la credulidad del inversor".
+Por qué te lo digo:
+• Cuando Anthropic tiene que justificar su precio frente a inversores institucionales que ya calcularon la historia, se ven más cosas sobre el modelo de negocio que en cualquier keynote. Los análisis post-roadshow van a ser lectura obligatoria las próximas dos semanas.
+Qué dice X:
+• @_morkie (inversor / mercados): "Inversores presionan a Anthropic para que recorte su objetivo de valuación de $1,5 billones en medio de la caída tecnológica." https://x.com/_morkie/status/2118757554260213761
+• @alpzorlu1973 (escéptico · análisis valuación): "Damodaran valúa Anthropic en $1,45 billones, 27,5% por debajo de la posible valuación de salida. El supuesto clave: $1 billón de ingresos anuales para 2036." https://x.com/alpzorlu1973/status/2118292893144162607
+Link: https://bnnbloomberg.ca/business/artificial-intelligence/2026/11/06/ai-backlash-could-threaten-anthropic-ipo-timing-potential-investors-say-reuters-exclusive
+
+*4. Uruguay: el Estado empieza a tratar la IA como línea presupuestaria*
+Lo nuevo: Rodrigo Arim, director de la OPP, declaró hoy en La Diaria que "Uruguay no puede quedar al margen de la ola de la IA". Planteó incorporarla como herramienta transversal en la estrategia de desarrollo del país. Menciona el Centro Nacional de IA construido este año.
+Por qué te lo digo:
+• Arim no dirige una universidad: dirige el organismo que planifica el presupuesto del Estado uruguayo. Para ASESP y el sector salud: las primeras licitaciones de IA en organismos públicos empiezan a tomar forma.
+Link: https://ladiaria.com.uy/futuro/articulo/2026/11/rodrigo-arim-uruguay-no-puede-quedar-al-margen-de-la-ola-que-esta-impulsando-la-inteligencia-artificial/
+
+*Oportunidad del día*
+La señal: El precio promedio por millón de tokens cayó 48% desde el pico de febrero. Lo que costaba $1,22 ahora sale $0,56. El costo de implementar IA bajó a la mitad sin que nadie lo anunciara con fanfarria.
+La puerta: Una empresa de distribución, servicios o administración en Montevideo (10-50 personas) que procesa facturas, arma reportes de ventas o gestiona clientes manualmente. El administrador o el dueño que siempre quiso pero le parecía caro.
+La frase para abrir: "¿Cuánto tiempo por semana le lleva a tu equipo procesar pedidos o armar el resumen de ventas? Porque el costo de automatizarlo hoy es la tercera parte de lo que era en marzo."
+
+Informe completo: https://roraag.github.io/daily-ia-news/archive/2026-11-07.html
