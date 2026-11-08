@@ -204,14 +204,10 @@
     "2026-11-04",
     "2026-11-05",
     "2026-11-06",
-    "2026-11-07"
+    "2026-11-07",
+    "2026-11-08"
   ],
   "recent_titles": [
-    "Extensión falsa de Claude Code comprometió 5.000 máquinas de desarrolladores con backdoor SSH",
-    "El S&P baja a Meta, Amazon necesita $80.000M prestados, OpenAI achica su ronda en $10B",
-    "FDA y CMS corren para frenar un choque con los estados que experimentan IA clínica solos",
-    "Google admitió que el AI Mode hace menos plata y lo arregla con más publicidad",
-    "Anthropic usó a Claude para buscar sus propios fallos de seguridad y los encontró",
     "AMIE pasó el primer test real en urgencias. 98 pacientes, cero paros.",
     "El crash de octubre: $5 billones de acciones de IA quemados mientras el resto del mercado subió",
     "Fractile recaudó $700 millones para pelear contra Nvidia. Con plata del Estado británico.",
@@ -241,7 +237,12 @@
     "Ramp AI Index: el gasto en IA se frenó y el 1% de las empresas concentra el 80% del gasto",
     "La valuación del IPO de Anthropic cayó de 2 billones a 1,1 billones después del sell-off de acciones IA",
     "TSMC está construyendo chips de memoria IA 3D DRAM a pedido de Nvidia",
-    "Tau Robotics cobra 60 dólares semanales por mandar un humano a pilotar un robot humanoide a tu casa"
+    "Tau Robotics cobra 60 dólares semanales por mandar un humano a pilotar un robot humanoide a tu casa",
+    "Los demócratas ganaron el Congreso y el IPO de Anthropic aterrizó en el peor momento posible",
+    "EE.UU. acusó a una ejecutiva de Singapur de espiar al CEO de Nvidia para China",
+    "NEJM AI publicó el primer ensayo aleatorio de predicción de riesgo autoinmune",
+    "Los solopreneurs americanos facturan seis cifras solos. Con IA como staff.",
+    "Perplexity lanzó Teammates: agentes persistentes que gestionan proyectos sin que nadie los llame"
   ],
   "days": {
     "2026-04-17": {
@@ -2499,6 +2500,18 @@
       ],
       "main_authors": [],
       "tesis": "Un sistema de IA que nadie vio todavía le resolvió a la comunidad matemática un problema de 18 años. Al mismo tiempo, el mercado le bajó la valuación a Anthropic de 2 billones a 1,1 billones en dos meses."
+    },
+    "2026-11-08": {
+      "count": 5,
+      "sources": [
+        "cnbc.com",
+        "techcrunch.com",
+        "ai.nejm.org",
+        "cnbc.com",
+        "aiagentsdirectory.com"
+      ],
+      "main_authors": [],
+      "tesis": "Los demócratas ganaron el Congreso en parte porque la gente no quiere más data centers, el Banco de Inglaterra publicó que la IA no mejoró la productividad que prometió, y $2,5 billones en acciones tech se evaporaron en dos días."
     }
   }
 }

@@ -1,0 +1,34 @@
+*1. Los demócratas ganan y el IPO de Anthropic aterriza en el peor contexto posible*
+Lo nuevo: 43 de 44 medidas locales que proponían nuevos data centers fueron rechazadas en las midterms. Microsoft recortó 5.000 millones en capex de GPUs; CoreWeave, Nebius e IREN cayeron entre 40 y 45 por ciento desde octubre. La valuación del IPO de Anthropic —listing estimado semana del 16 de noviembre— cayó de 2 billones a 1,1 billones pre-listing.
+Por qué te lo digo:
+• Esta semana vas a escuchar "pero si hasta el Banco de Inglaterra dice que la IA no funciona." La respuesta: ese estudio mide productividad agregada a nivel país, no empresa. Las distribuidoras que automatizan cotizaciones no aparecen en el PIB todavía. Dos cosas distintas.
+Qué dice X:
+• @AndrewCurran_ (periodista tech): "OpenAI kicked off its big charm offensive this morning after data center moratoriums went 43-1 during the midterms, and many candidates rode a wave of public opposition to the industry to huge victories. Data centers have been rebranded as Compute Campuses." https://x.com/AndrewCurran_/status/2118346666789249335
+• @edzitron (escéptico · crítico de burbuja IA): "The blue wave broke the confidence game holding up the AI bubble. Today I get into how this threatens AI data centers, the Anthropic IPO, OpenAI's funding, NVIDIA's growth..." https://x.com/edzitron/status/2118749179388289400
+• @edzitron (escéptico · IPO watch): "Anthropic IPO buyers, per Bloomberg, now see the valuation at as low as $1.1 trillion." https://x.com/edzitron/status/2118737079362343006
+Link: https://www.cnbc.com/2026/11/07/anthropic-ipo-ai-backlash-midterms.html
+
+*2. NEJM AI: el primer RCT de predicción de riesgo autoinmune. El modelo ganó.*
+Lo nuevo: AURA (Autoimmune Risk Assessment) fue evaluado con diseño RCT —ensayo aleatorio controlado, el estándar más alto en evidencia clínica— y publicado en NEJM AI el 7 de noviembre. Detectó pacientes en riesgo con una precisión 20 puntos arriba del médico de cabecera. Publicar en NEJM es el equivalente a cruzar la frontera de lo experimental: significa que la evidencia es suficientemente robusta para convertirse en práctica clínica.
+Por qué te lo digo:
+• Este es exactamente el paper que necesitás para justificar un piloto de predicción ante el comité clínico de ASESP. No alcanza con que el modelo sea bueno en un benchmark: necesitás estándar NEJM. AURA acaba de pasarlo para riesgo autoinmune. Revisá si ASESP tiene alta prevalencia de enfermedades autoinmunes en su población: si es así, este paper es el argumento concreto para traer a la próxima reunión de Comité Médico.
+Link: https://ai.nejm.org/
+
+*3. Solopreneurs americanos facturan seis cifras solos. La IA hizo posible lo que antes necesitaba empleados.*
+Lo nuevo: La CNBC publicó datos sobre el crecimiento de solopreneurs en EE.UU. que superan seis cifras de facturación anual usando IA en lugar de personal. El número de empresas con cero empleados creció 12 por ciento año sobre año en 2026. McKinsey confirmó que el primer horizonte de transformación —automatizar tareas individuales— ya muestra retorno positivo para quien lo completó.
+Por qué te lo digo:
+• El contador que con IA puede servir a 3 clientes donde antes servía a 1 va a bajar su precio o absorber más mercado. Si vendés servicios de implementación de IA en Uruguay, la pregunta que abre la conversación no es "¿querés implementar IA?" sino "¿cuántos clientes estás rechazando por falta de tiempo?"
+Link: https://www.cnbc.com/2026/11/07/americas-newest-small-business-owners-ai-era.html
+
+*4. Uruguay 3.° en IA empresarial de la región: el 50% de las grandes empresas ya adoptó.*
+Lo nuevo: Según el Índice Latinoamericano de IA 2026 (ILIA), Uruguay quedó 3.° en la región con 67 puntos, detrás de Chile (71,4) y Brasil (68,4). El 50 por ciento de las grandes empresas uruguayas ya usa IA, casi el doble del promedio regional de 27,6 por ciento.
+Por qué te lo digo:
+• Para vender IA a empresas grandes en Uruguay, ya no vendés concepto. El 50 por ciento que adoptó te va a pedir diferencial sobre lo que tienen; el 50 por ciento que no adoptó tiene competidores que sí lo hicieron. El argumento de venta cambió.
+Link: https://ladiaria.com.uy/futuro/articulo/2026/10/uruguay-integra-el-grupo-de-paises-pioneros-en-ia-y-lidera-la-adopcion-empresarial-en-la-region-segun-estudio/
+
+*Oportunidad del día*
+La señal: La CNBC documentó el boom de solopreneurs en EE.UU. que facturan seis cifras sin empleados usando IA como staff virtual. McKinsey confirmó que el primer horizonte de transformación —automatizar tareas repetitivas— ya se pagó solo para quien lo hizo.
+La puerta: Contadores, arquitectos y diseñadores en Uruguay que hoy pierden trabajos por no poder escalar. Con IA pueden atender 2-3 veces más clientes sin contratar a nadie. El que lo siente es el profesional independiente con agenda llena que tiene que rechazar trabajo.
+La frase para abrir: ¿Cuántas veces en el último mes rechazaste trabajo porque no llegabas?
+
+Informe completo: https://roraag.github.io/daily-ia-news/archive/2026-11-08.html
