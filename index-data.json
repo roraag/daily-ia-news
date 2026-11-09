@@ -205,14 +205,10 @@
     "2026-11-05",
     "2026-11-06",
     "2026-11-07",
-    "2026-11-08"
+    "2026-11-08",
+    "2026-11-09"
   ],
   "recent_titles": [
-    "AMIE pasó el primer test real en urgencias. 98 pacientes, cero paros.",
-    "El crash de octubre: $5 billones de acciones de IA quemados mientras el resto del mercado subió",
-    "Fractile recaudó $700 millones para pelear contra Nvidia. Con plata del Estado británico.",
-    "Dos empleados de OpenAI de 24 años manejan agentes como subordinados. Lo explican en un ensayo.",
-    "Suleyman: construir IA consciente sería imprudente. Si aparecen señales en el entrenamiento, pararía todo.",
     "Anthropic le dijo a la SEC que está al borde de la IA que se construye sola",
     "Goldman Sachs les sacó Claude Code a los traders después de dos años de darle IA a todos",
     "DeepSeek Super-Agent: el agente de código chino que trabaja sin que nadie lo invoque",
@@ -242,7 +238,13 @@
     "EE.UU. acusó a una ejecutiva de Singapur de espiar al CEO de Nvidia para China",
     "NEJM AI publicó el primer ensayo aleatorio de predicción de riesgo autoinmune",
     "Los solopreneurs americanos facturan seis cifras solos. Con IA como staff.",
-    "Perplexity lanzó Teammates: agentes persistentes que gestionan proyectos sin que nadie los llame"
+    "Perplexity lanzó Teammates: agentes persistentes que gestionan proyectos sin que nadie los llame",
+    "Jensen Huang bajo investigación del directorio de Nvidia por una relación con una presunta espía china",
+    "Anthropic arranca el roadshow del IPO la semana del 16 con 3.400 millones en gas natural",
+    "Apple trabaja en secreto en Siri agéntico para 2027. Dos mil millones de dispositivos como palanca.",
+    "La AHA demostró algo incómodo: incluso con IA, los fármacos siguen fallando",
+    "Elvis y Eminem le presentan la factura a Suno. 60.202 grabaciones. Más de 41 millones de dólares.",
+    "15 sistemas de salud americanos cerraron deals enterprise de IA en 2026"
   ],
   "days": {
     "2026-04-17": {
@@ -2512,6 +2514,19 @@
       ],
       "main_authors": [],
       "tesis": "Los demócratas ganaron el Congreso en parte porque la gente no quiere más data centers, el Banco de Inglaterra publicó que la IA no mejoró la productividad que prometió, y $2,5 billones en acciones tech se evaporaron en dos días."
+    },
+    "2026-11-09": {
+      "count": 6,
+      "sources": [
+        "cnbc.com",
+        "investing.com",
+        "macrumors.com",
+        "variety.com",
+        "statnews.com",
+        "beckershospitalreview.com"
+      ],
+      "main_authors": [],
+      "tesis": "El CEO de la empresa que sostiene toda la infraestructura de IA tiene el directorio encima por una presunta espía china, el mismo día que Anthropic puso fecha al roadshow del IPO y cerró el mayor acuerdo de energía de la historia del sector."
     }
   }
 }

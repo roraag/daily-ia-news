@@ -1,0 +1,48 @@
+*1. Jensen Huang tiene al directorio de Nvidia investigando su relación con una espía china*
+Lo nuevo: El CEO de Nvidia —que fabrica el 90% de los chips de IA— admitió una relación con Alice Huang, ejecutiva de Megaspeed (proveedora de Nvidia en 4.800 millones), presuntamente reclutada por la inteligencia china para acceder a chips restringidos. El directorio abrió una investigación independiente. Huang comparecerá ante el Congreso el 18 de noviembre.
+Por qué te lo digo:
+• Todo servicio de IA que usás —Claude, GPT, Gemini— corre sobre chips de Nvidia. Si la investigación se complica, puede haber restricciones de suministro. No es urgente hoy, pero es el tipo de riesgo de proveedor que conviene monitorear.
+Qué dice X:
+• @tripgabriel (NYT, periodismo político): "Le fui infiel a mi esposa", dijo Huang mientras Nvidia abre una investigación. EE.UU. investiga si su novia ayudó a China a contrabandear chips de IA. https://x.com/tripgabriel/status/2119552143011041761
+• @GaryMarcus (escéptico · NYU, crítico de IA): "¿Puede su juicio haber sido peor?" https://x.com/GaryMarcus/status/2119000226510020620
+Link: https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html
+
+*2. Anthropic arranca el roadshow del IPO el 16 con 3.400 millones en gas natural como apuesta*
+Lo nuevo: El roadshow arranca el 16 de noviembre. Blackstone advirtió que la deuda podría recibir calificación "junk". El mismo día el FT reveló que Anthropic cerró el mayor acuerdo individual de energía de la historia del sector: 1,7 GW de generadores a gas de Caterpillar por 3.400 millones. Las pérdidas netas del primer semestre de 2026 suman 80.750 millones de dólares.
+Por qué te lo digo:
+• El costo operativo de los modelos va a subir. Bloquear precios en un contrato anual en lugar de pagar por uso mensual podría ser la decisión más rentable de los próximos seis meses. Los acuerdos firmados antes del IPO probablemente tienen mejores condiciones que los de 2027.
+Qué dice X:
+• @coinbureau (analista macro cripto): "El gasto en IA NO se está frenando. La creadora de Claude cerró un acuerdo enorme de USD 3.400 millones para alimentar sus data centers." https://x.com/coinbureau/status/2119447171426926776
+• @edzitron (escéptico · EZPR, crítico financiero de IA): "Primera vez que veo a alguien cercano a la prensa mainstream sugerir que Anthropic podría no salir a bolsa o que podría valuarse por debajo del billón." https://x.com/edzitron/status/2119296273442652240
+Link: https://investing.com/news/stock-market-news/anthropic-reportedly-strikes-34-billion-deal-for-gasfired-power-at-data-centres-5010208
+
+*3. Apple construye en secreto el agente más grande del mundo: Siri vive en 2.000 millones de dispositivos*
+Lo nuevo: Mark Gurman reportó que Apple trabaja para que Siri pueda seguir objetivos y ejecutar tareas en múltiples pasos de forma autónoma, sin que el usuario inicie cada acción. El CEO John Ternus instruyó a Craig Federighi a acelerar el roadmap. Meta para 2027. Gap declarado: Apple todavía no tiene "Computer Use", que OpenAI y Anthropic ya tienen.
+Por qué te lo digo:
+• Para una pyme con 10-30 personas atendiendo clientes: cuando Siri pueda manejar pedidos y agendas desde el iPhone del cliente, el primer servicio que lo integre en su proceso de venta tiene ventaja. No hace falta desarrollar nada ahora, pero conviene empezar a diseñar cómo sería un flujo de atención por voz para dentro de 18 meses.
+Qué dice X:
+• @markgurman (Bloomberg Power On, primicia): "Apple apunta a un Siri autónomo y agéntico para el año que viene para competir con ChatGPT Dots, Meta Muse y Grok." https://x.com/markgurman/status/2119451386111005129
+• @markgurman (escéptico · Bloomberg, mismo periodista): "Apple tiene otro gap enorme de IA por cerrar: Computer Use. OpenAI y Anthropic ya tienen agentes que operan software y completan tareas. Apple controla Mac, iPhone e iPad y todavía no tiene esa capacidad." https://x.com/markgurman/status/2119451967747654023
+Link: https://www.macrumors.com/2026/11/08/siri-ai-rumored-to-become-more-agentic/
+
+*4. Elvis y Eminem le presentan la factura a Suno: 60.202 grabaciones y más de 41 millones*
+Lo nuevo: La Elvis Presley estate y Eight Mile Style (publisher de Eminem) presentaron demandas separadas contra Suno en California. Entre las dos, 60.202 grabaciones. Eight Mile pide más de 41 millones de dólares solo por "Lose Yourself" y "The Real Slim Shady". Suno ya enfrenta demandas anteriores de Sony, Universal, Warner y ABKCO.
+Por qué te lo digo:
+• Cualquier agencia de marketing en Uruguay que produce videos o reels con música generada por IA enfrenta el mismo riesgo escalado. La pregunta práctica: ¿de dónde viene la música que usás en el material de tus clientes? Alternativas con licencia verificable: Epidemic Sound, Artlist y Musicbed.
+Qué dice X:
+• @Variety (primicia, breaking news): "Elvis Music Owners y Eminem Publisher presentan demandas masivas nuevas contra Suno. 'El próximo Elvis no va a agarrar una guitarra.'" https://x.com/Variety/status/2119101434281042325
+• @petersykim (ingeniero de software): Los titulares de derechos de Elvis y algunas de las canciones más importantes de Eminem demandaron a Suno por generar música que imita a esos artistas. https://x.com/petersykim/status/2119488422608052728
+Link: https://variety.com/2026/music/news/elvis-eminem-sue-suno-ai-music-generator-1236941798/
+
+*5. Antel apuesta 70 millones en un data center de IA: Uruguay se posiciona*
+Lo nuevo: La telco estatal uruguaya anunció la mayor apuesta local de procesamiento de IA que se conoce. Sin fecha de inauguración pública todavía.
+Por qué te lo digo:
+• Para ASESP, el ángulo más interesante es de largo plazo: podría ser el canal para correr modelos clínicos con datos que no salen del país, algo que la regulación del MSP y el GDPR local pueden exigir pronto.
+Link: https://www.gub.uy
+
+*Oportunidad del día*
+La señal: Las demandas contra Suno (60.202 grabaciones, más de 41 millones en daños potenciales) pusieron la música generada por IA en territorio legal incierto. Cualquier contenido que use música creada con Suno, Udio o similares podría estar en riesgo si los tribunales resuelven contra Suno.
+La puerta: Agencias de marketing de 5 a 20 personas en Montevideo que producen videos, reels y presentaciones para clientes usando música generada con IA. El dueño de la agencia o el director creativo que aprueba la producción —y que nunca se preguntó de dónde viene el audio.
+La frase para abrir: "¿La música que están usando en los videos que producen para clientes tiene licencia verificable si alguien les pregunta?"
+
+Informe completo: https://roraag.github.io/daily-ia-news/archive/2026-11-09.html
