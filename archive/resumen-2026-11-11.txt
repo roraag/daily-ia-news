@@ -1,0 +1,40 @@
+*1. Anthropic arranca el IPO mientras le arrebata el escritorio a Microsoft*
+Lo nuevo: El 10 de noviembre arrancó el roadshow de Anthropic: 825 millones de acciones a $70–$78, valuación de $1,4 billones, trading desde el 19 de noviembre en el Nasdaq con ticker ANT. El mismo día lanzó Claude Meetings, Sheets, Whiteboards y Data —suite de oficina con más de 9.000 integraciones que compite directo con Microsoft 365. Microsoft cayó 3% en la jornada.
+Por qué te lo digo:
+• Claude Sheets ya disponible en todos los planes pagos y Claude Meetings arranca con Google Meet sin integración técnica inicial. Para una consultora o distribuidora de Montevideo de 20–50 personas con reuniones que nadie documenta, es una solución disponible hoy.
+Qué dice X:
+• @wallstengine (mercados): "Microsoft $MSFT -3%. Anthropic lanzó hoy Claude Sheets para competirle a Excel, además de Claude Meetings, un asistente de IA que se suma a videollamadas, sigue la discusión y empieza a trabajar en tareas mientras todavía estás hablando." https://x.com/wallstengine/status/2120214149921951971
+• @testingcatalog (AI news): "Claude Whiteboards, Claude Sheets y Claude Data ya están disponibles para todos en todos los planes pagos. Además, Claude web y desktop suman conectores interactivos." https://x.com/testingcatalog/status/2120220122170159158
+• @IPONewsroom_ (escéptico · IPO tracking): "Anthropic lanzando Claude Meetings y Claude Sheets justo cuando sale a buscar inversores — la secuencia no es casual." https://x.com/IPONewsroom_/status/2120207855542308881
+Link: https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/
+
+*2. OpenAI facturó $10.000 millones en un trimestre. Y siguió perdiendo más de lo que gana.*
+Lo nuevo: Q3 2026: $10.000 millones en ingresos, +50% sobre Q2, casi 3x interanual. Pérdida operativa: $10.900 millones —por cada dólar que entra, salen $1,09. Dato que no salió en el comunicado: Anthropic facturó ~$17.000 millones en el mismo trimestre, según WOLF Financial.
+Por qué te lo digo:
+• Si asesorás pymes que construyen sobre APIs de modelos grandes, el riesgo no es el precio de hoy sino la estructura de costos cuando escalen. Vale revisar si las tareas repetitivas tienen alternativas open source que amortigüen esa dependencia.
+Qué dice X:
+• @coinbureau (macro / crypto): "Las cuentas de la IA no CIERRAN. Las Big Tech se están endeudando por miles de millones para construir data centers, y uno de sus mayores clientes, OpenAI, acaba de tener una pérdida operativa de $10.900 millones en un solo trimestre." https://x.com/coinbureau/status/2120296696345485392
+• @WOLF_Financial (escéptico · finanzas): "ANTHROPIC FACTURÓ UNOS 7.000 MILLONES DE DÓLARES MÁS QUE OPENAI EL TRIMESTRE PASADO." https://x.com/WOLF_Financial/status/2120293127080571360
+Link: https://www.spokesman.com/stories/2026/nov/10/openai-third-quarter-revenue-soars-nearly-50-to-10/
+
+*3. DeepMind le demostró matemáticamente a 2.000 millones de personas que Signal es seguro*
+Lo nuevo: AlphaProof Code —framework multiagente que combina Gemini con verificación formal en Lean— generó más de 6 millones de líneas de pruebas matemáticas para verificar la criptografía de Signal en cuatro semanas. Antes eran años de trabajo humano. Detectó 2 bugs reintroducidos deliberadamente, sin introducir ninguno nuevo. Protege 2.000+ millones de conversaciones en Signal, Google Messages y WhatsApp.
+Por qué te lo digo:
+• Para ASESP: lo que probó DeepMind es que la verificación formal de código médico crítico —sistemas que deciden dosis, alertas, accesos— va a ser automatable. La pregunta que vale hacer ya: ¿quién audita el código de los sistemas que toman decisiones clínicas en ASESP?
+Qué dice X:
+• @mingming1895 (AI researcher): "El trabajo de verificación formal que antes llevaba años se está volviendo un trabajo de agentes." https://x.com/mingming1895/status/2120377248654217271
+• @petersykim (ingeniero de software): "Escribieron tres millones de líneas de pruebas verificando la encriptación central de Signal." https://x.com/petersykim/status/2120140491379589188
+Link: https://deepmind.google/blog/introducing-alphaproof-code/
+
+*4. Uruguay, tercero en el ranking CEPAL de IA en la región. El desafío ahora es el talento.*
+Lo nuevo: El índice CEPAL 2026 ubicó a Uruguay en el tercer lugar latinoamericano con 67 puntos, detrás de Chile y Brasil. El dato más útil: 50% de las grandes empresas uruguayas ya usa IA, el doble del promedio regional (27,6%). El 16 de noviembre arranca un Programa Ejecutivo de IA para Empresas de 3 semanas enfocado en líderes de equipo.
+Por qué te lo digo:
+• El gap que el ranking expone —buen marco regulatorio, poca formación de talento— es el gap que ASESP puede usar para posicionarse. Quien forme a sus equipos en IA primero en el sistema de salud uruguayo tiene ventaja estructural en los próximos 18 meses.
+Link: https://ladiaria.com.uy/futuro/articulo/2026/11/rodrigo-arim-uruguay-no-puede-quedar-al-margen-de-la-ola-que-esta-impulsando-la-inteligencia-artificial/
+
+*Oportunidad del día*
+La señal: Claude Meetings y la suite de Anthropic (Sheets, Whiteboards) entraron en beta para planes de pago. Claude Sheets ya está disponible para todos los planes pagos. No hay cargo adicional sobre el plan Team/Enterprise.
+La puerta: Estudios contables, consultoras y distribuidoras de Montevideo de 10 a 50 personas con 2 a 5 reuniones internas por semana donde nadie documenta los acuerdos. El dolor lo siente el dueño: sale de cada reunión con su versión y los empleados con otra. Los malentendidos sobre decisiones le cuestan más que el costo de la herramienta.
+La frase para abrir: ¿Cuántas veces por semana salís de una reunión y a los tres días alguien te dice que lo decidido era diferente a lo que vos recordás?
+
+Informe completo: https://roraag.github.io/daily-ia-news/archive/2026-11-11.html

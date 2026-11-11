@@ -207,14 +207,10 @@
     "2026-11-07",
     "2026-11-08",
     "2026-11-09",
-    "2026-11-10"
+    "2026-11-10",
+    "2026-11-11"
   ],
   "recent_titles": [
-    "Anthropic le dijo a la SEC que está al borde de la IA que se construye sola",
-    "Goldman Sachs les sacó Claude Code a los traders después de dos años de darle IA a todos",
-    "DeepSeek Super-Agent: el agente de código chino que trabaja sin que nadie lo invoque",
-    "Athenahealth conectó tu historial médico a Claude. Sin entrenar modelos con esos datos.",
-    "OpenAI levantó $11.000 millones. Buscaba $30.000 millones.",
     "Kill switch para la IA: CrowdStrike + Binance bloquearon al primer agente descontrolado en producción",
     "FDA y CMS colaboran con estados en regulación de IA clínica",
     "Fal vale $16.000 millones sin entrenar modelos",
@@ -251,7 +247,12 @@
     "Meta Muse Ember: el modelo a 10 centavos que le pega a Haiku",
     "El directorio de Nvidia en manos del directorio por una presunta espía china",
     "Australia crea un regulador de IA con poder sancionatorio. El primer hack lo obligó.",
-    "Doximity ya está en 190 sistemas de salud americanos"
+    "Doximity ya está en 190 sistemas de salud americanos",
+    "Anthropic arranca el IPO mientras le pelea el escritorio a Microsoft",
+    "OpenAI facturó 10.000 millones el último trimestre. Y siguió perdiendo más de lo que gana.",
+    "DeepMind le demostró matemáticamente a 2.000 millones de personas que Signal es seguro",
+    "Australia lanza el primer regulador de IA con sanciones reales. No son guías.",
+    "Oura pagó 625 millones para pasar del anillo al médico"
   ],
   "days": {
     "2026-04-17": {
@@ -2547,6 +2548,18 @@
       ],
       "main_authors": [],
       "tesis": "Anthropic lanzó Fable 5.2 y un Mythos restringido mientras OpenAI presentó un kill switch para agentes, Meta tiró Muse Ember a 10 centavos por millón de tokens, y el directorio de Nvidia le puso una investigación encima al CEO."
+    },
+    "2026-11-11": {
+      "count": 5,
+      "sources": [
+        "techcrunch.com",
+        "spokesman.com",
+        "deepmind.google",
+        "computerweekly.com",
+        "statnews.com"
+      ],
+      "main_authors": [],
+      "tesis": "Anthropic sale a la bolsa el mismo día que lanza una suite de oficina para competirle a Microsoft y Google, que son inversores suyos."
     }
   }
 }
