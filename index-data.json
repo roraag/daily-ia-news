@@ -208,20 +208,10 @@
     "2026-11-08",
     "2026-11-09",
     "2026-11-10",
-    "2026-11-11"
+    "2026-11-11",
+    "2026-11-12"
   ],
   "recent_titles": [
-    "Kill switch para la IA: CrowdStrike + Binance bloquearon al primer agente descontrolado en producción",
-    "FDA y CMS colaboran con estados en regulación de IA clínica",
-    "Fal vale $16.000 millones sin entrenar modelos",
-    "El mecanismo de diseño reverso que MIT y Princeton proponen para alinear agentes",
-    "OpenAI dejó a sus agentes buscar agujeros en Linux. Encontraron 948.",
-    "Los centros de datos perdieron las elecciones. 40 de 41 medidas rechazadas.",
-    "Anthropic va a la bolsa: 895.400 millones en compromisos de cómputo hasta 2045.",
-    "Cuatro. Uber dice que cuatro personas usaron un agente de IA para pedir un taxi en todo el trimestre.",
-    "Los agentes de compra de IA amenazan los 74.000 millones del negocio publicitario de Amazon.",
-    "NEJM AI mapeó qué especialidades médicas puede reemplazar la IA. Spoiler: no todas por igual.",
-    "Claude se conecta a tu cuenta bancaria vía Plaid para leer tus gastos",
     "GPT-6 Cyber encontró 948 exploits en el kernel de Linux en producción",
     "METR revela que Claude 3.7 acelera el trabajo de ingeniería 1,9x, con evidencia clave censurada",
     "Palo Alto Networks paga 500 millones por Clutch Security, la empresa que custodia las credenciales de los agentes IA",
@@ -252,7 +242,11 @@
     "OpenAI facturó 10.000 millones el último trimestre. Y siguió perdiendo más de lo que gana.",
     "DeepMind le demostró matemáticamente a 2.000 millones de personas que Signal es seguro",
     "Australia lanza el primer regulador de IA con sanciones reales. No son guías.",
-    "Oura pagó 625 millones para pasar del anillo al médico"
+    "Oura pagó 625 millones para pasar del anillo al médico",
+    "Google descifra por qué el mismo ADN destruye unas células y deja intactas a otras",
+    "Google lanzó una API de juez para agentes que evalúa 1.000 decisiones en un pasada a 10 centavos por millón",
+    "El agente de código de xAI filtró registros médicos, horarios de bomberos y archivos de SpaceXSI en 35.000 apps",
+    "MDCalc lanzó un freno de mano para la IA clínica: saca los datos del paciente antes de que la pregunta llegue al chatbot"
   ],
   "days": {
     "2026-04-17": {
@@ -2560,6 +2554,17 @@
       ],
       "main_authors": [],
       "tesis": "Anthropic sale a la bolsa el mismo día que lanza una suite de oficina para competirle a Microsoft y Google, que son inversores suyos."
+    },
+    "2026-11-12": {
+      "count": 4,
+      "sources": [
+        "deepmind.google",
+        "dev.to",
+        "arstechnica.com",
+        "statnews.com"
+      ],
+      "main_authors": [],
+      "tesis": "Google concentró más lanzamientos en 48 horas que la mayoría de los labs hacen en un mes: AlphaGenome 2 predice enfermedades célula por célula y la Decisions API hace el routing de agentes cinco veces más barato, mientras xAI dejó expuestos registros médicos en 35.000 apps sin control de acceso."
     }
   }
 }

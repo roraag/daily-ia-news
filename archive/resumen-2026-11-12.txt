@@ -1,0 +1,42 @@
+*1. Google descifra por qué el mismo ADN destruye unas células pero no otras*
+Lo nuevo: AlphaGenome 2 recuperó el 30% de variantes genéticas causales a 90% de precisión en 28 tipos celulares, el doble que su predecesor. Entrenado en más de 100 millones de perfiles de células individuales. Ya descifró el mecanismo de IBD: la misma variante activa el gen ETS2 en células inmunes del intestino pero no en músculo cardíaco.
+Por qué te lo digo:
+• Las mutualistas van a terminar pagando por acceso comercial a modelos de genómica para estratificación de riesgo. Vale preguntar qué herramientas de genómica tiene en agenda tu proveedor tecnológico en los próximos 12 meses, antes de que otro ya firmó el contrato.
+Qué dice X:
+• @GoogleDeepMind (anuncio oficial): "Your heart, brain, and immune system share the same DNA sequence. So how can a single-letter change affect disease in some cells, while sparing the rest? AlphaGenome 2 zooms in on specific cells to help scientists understand what drives disease." https://x.com/GoogleDeepMind/status/2120532824465805749
+• Conversación técnica chica todavía. El ruido grande lo generó Pichai, no la comunidad investigadora. Cuando lleguen los papers secundarios que reproduzcan el IBD claim, ahí va a crecer.
+Link: https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/
+
+*2. Google lanzó una API que evalúa 1.000 decisiones en un pasada a 10 centavos por millón*
+Lo nuevo: Gemini Decision 1 evalúa hasta 1.000 preguntas cerradas en un solo forward pass sin generar texto, en 150-250ms. Precio: $0.10/M tokens input, cero costo de output. Cinco veces más barato que Flash-Lite. Disponible ya en Gemini Developer API y Google AI Studio.
+Por qué te lo digo:
+• Una distribuidora con 3 vendedores en la calle puede tener un agente que decide automáticamente qué cotización priorizar y a qué cliente llamar hoy por menos de $5 por mes en la parte de decisión. Es un argumento de venta concreto para cualquier pyme con proceso de asignación manual.
+Qué dice X:
+• @googledevs (anuncio oficial): "Introducing the Gemini Decisions API. Built for fast routing, tool selection, safety checks, and grading inside your apps and agents without the latency or output-token cost of full text generation." https://x.com/googledevs/status/2120583940247552381
+• El debate real en la comunidad gira en torno al vendor lock-in a Google AI Studio y si esto reemplaza o complementa un clasificador propio.
+Link: https://dev.to/delimitter/google-introduces-gemini-decisions-api-that-scores-1000-closed-set-choices-in-a-single-pass-56om
+
+*3. El agente de código de xAI filtró registros médicos, horarios de bomberos y archivos de SpaceXSI*
+Lo nuevo: Grok Build genera URLs indexables por DNS pasivo. De 35.578 apps abiertas sin login, el 2% expusieron datos críticos: historiales médicos, listas de personal hospitalario, horarios de bomberos y cuentas de empleados, además de datos de 6 empresas Fortune 500. xAI bajó sus propios 24 apps internos; los de terceros siguen online.
+Por qué te lo digo:
+• Si vendés servicios de IA a pymes, este caso es el primer argumento concreto para explicar por qué la capa de acceso y auditoría no es opcional. Tu propuesta debería incluir explícitamente qué datos accede el agente, quién puede verlos, y qué pasa si generás una URL compartida.
+Link: https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spa
+
+*4. MDCalc sacó una herramienta que extrae los datos del paciente antes de que la pregunta llegue al chatbot*
+Lo nuevo: CrossCover tiene dos funciones: strip de identificadores del paciente antes de enviar la consulta al modelo, y CrossCheck que verifica la respuesta del chatbot contra bases de evidencia médica como ECRI y ACP. Contradice explícitamente el modelo de Epic, Abridge y OpenEvidence, que incorporan más datos del paciente para mejores respuestas. MDCalc apostó al modelo inverso: menos datos, menos riesgo.
+Por qué te lo digo:
+• En ASESP, cualquier piloto de IA clínica va a tener que elegir un modelo de acceso a datos. CrossCover ofrece uno con cero riesgo en la capa de consulta: el médico pregunta, CrossCover saca el nombre del paciente antes de que llegue al modelo. Es el argumento que convence al director médico y al responsable de seguridad de la información en una IAMC.
+Link: https://www.statnews.com/2026/11/11/mdcalc-launches-crosscover-rumble-strip-for-clinical-ai-chatbots/
+
+*5. Uruguay: mutualista del Litoral bajó las llamadas sin respuesta de 58% a 14% con agentes de IA*
+Lo nuevo: En 4-6 meses de implementación de agentes para agendamiento y triage telefónico, las llamadas sin respuesta cayeron 44 puntos y la ocupación de agenda subió 19 puntos porcentuales. El agente maneja triage básico por teléfono antes de derivar a la operadora.
+Por qué te lo digo:
+• Primer caso documentado con números propios de una mutualista uruguaya usando agentes de IA en atención al paciente. No es un paper del MIT: es una IAMC con datos reales. Vale como referencia cuando tenés que explicarle a tu directorio por qué probar esto en ASESP.
+Link: https://www.agentify.uy/blog/post/salud-digital-en-uruguay-agentes-de-ia-que-revolucionan-la-atencion-primaria-y-la-telemedicina/
+
+*Oportunidad del día*
+La señal: Google lanzó Gemini Decisions API a $0.10/M tokens. El routing de un agente simple —que decide a qué cliente llamar primero, qué pedido procesar antes, qué cotización mandar— cuesta menos de $5 por mes. No es un proyecto de meses ni requiere un desarrollador senior.
+La puerta: Empresas distribuidoras, transportistas o de servicios con vendedores en la calle que hoy asignan oportunidades o rutas de forma manual. Empresas de 10-50 personas donde el dueño o el jefe comercial pasa parte de la mañana decidiendo quién llama a quién.
+La frase para abrir: "¿Cuánto tiempo pasa alguien en tu empresa decidiendo qué cliente va primero en la cola del día?"
+
+Informe completo: https://roraag.github.io/daily-ia-news/archive/2026-11-12.html
