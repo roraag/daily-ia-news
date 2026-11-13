@@ -1,0 +1,38 @@
+Tengo todo lo que necesito. El archivo fue leído en dos partes. Armo el resumen ahora.
+
+*1. Jensen Huang fuera de Nvidia después de 31 años*
+Lo nuevo: El directorio concluyó que los vínculos de Huang con Alice Huang —supuestamente reclutada por el Ministerio de Seguridad del Estado de China para espiar sobre chips de IA— eran incompatibles con el cargo. Colette Kress (CFO) asume como CEO interina con efecto inmediato. La acción cayó 13% en apertura; unos 420.000 millones de dólares de capitalización evaporados en un día.
+Por qué te lo digo:
+• A 12-18 meses, la incertidumbre en el liderazgo de Nvidia puede ralentizar el roadmap de Blackwell Ultra y Rubin y mantener los precios de acceso a cómputo IA altos más tiempo del esperado. Para cualquier pyme evaluando cuándo hacer su apuesta, ese timing importa más de lo que parece.
+Link: https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/
+
+*2. DeepMind verificó matemáticamente todo el protocolo de Signal en cuatro semanas*
+Lo nuevo: AlphaProof Code generó más de 6 millones de líneas de código Lean para demostrar formalmente que el protocolo de Signal —usado por 2.000 millones de personas— es correcto. Solo el 1% del código base requirió revisión manual humana. Reintrodujeron bugs ya corregidos en versión aislada y la IA los detectó como inseguros en ambos casos.
+Por qué te lo digo:
+• La verificación formal de software era un lujo de aviónica y sistemas nucleares. Para ASESP: en 3 años puede ser un requerimiento de licitación pública para sistemas médicos con IA. Vale saber qué significa "formally verified code" cuando un proveedor te lo venda.
+Link: https://deepmind.google/blog/introducing-alphaproof-code/
+
+*3. Medicare usa IA para aprobar o rechazar tratamientos. Los documentos son más oscuros de lo esperado*
+Lo nuevo: CMS está probando IA en prior authorization para planes Medicare Advantage. Los documentos internos muestran que no se definió ningún estándar de éxito clínico antes de la prueba y que las métricas de outcome clínico no se miden de forma independiente.
+Por qué te lo digo:
+• Cuando IA empiece a asistir decisiones de autorización de procedimientos en ASESP, el estándar mínimo es: métrica de error definida de antemano, revisión clínica independiente y un canal de apelación claro. No después de que falle. Este caso americano es el por qué.
+Link: https://www.eff.org/deeplinks/2026/11/medicares-ai-experiment-effector-3820
+
+*4. El CEO de Eli Lilly le bajó el precio a las promesas médicas de Dario Amodei*
+Lo nuevo: Dave Ricks (Eli Lilly) dijo en público que curar el cáncer y el Alzheimer en diez años "no es probable", en el momento exacto del roadshow del IPO de Anthropic. Gary Marcus y la Dra. Angela Rasmussen trazaron explícitamente el paralelo con Elizabeth Holmes.
+Por qué te lo digo:
+• Cuando un proveedor de IA llegue a ASESP con promesas de "diagnóstico temprano de enfermedades", el estándar mínimo es un paper con validación clínica independiente publicado con peer review. No el demo, no el benchmark, no las declaraciones del CEO. Este episodio es el caso de estudio.
+Link: https://garymarcus.substack.com/p/breaking-eli-lilly-ceo-becomes-latest
+
+*5. Uruguay tercero en LatAm en adopción de IA. Antel mete USD 70 millones en infraestructura*
+Lo nuevo: El índice ILIA 2026 ubica a Uruguay en tercer lugar de la región (67 puntos), detrás de Chile (71,4) y Brasil (68,4). Antel anunció el 8 de noviembre una inversión de USD 70 millones en un data center de IA en Canelones. El rector de la Udelar, Rodrigo Arim, declaró que "Uruguay no puede quedar al margen" y pidió formación de talento y política pública coordinada.
+Por qué te lo digo:
+• Cuando AGESIC empiece a requerir que los datos sensibles de salud uruguayos no salgan del país para ser procesados, el data center de Antel va a ser la opción. Vale tenerlo en el radar para las conversaciones de infraestructura en ASESP.
+Link: https://ladiaria.com.uy/futuro/articulo/2026/11/rodrigo-arim-uruguay-no-puede-quedar-al-margen-de-la-ola-que-esta-impulsando-la-inteligencia-artificial/
+
+*Oportunidad del día*
+La señal: La UE estableció en Dublín que la regulación de IA en servicios de alto impacto (legal, médico, financiero, digital) es una prioridad para los 27 en 2026-2027. El AI Act ya está en vigor. Las empresas que exportan servicios digitales a Europa necesitan saber si su trabajo tiene componentes de IA y si esos componentes cumplen con las obligaciones de transparencia y auditoría.
+La puerta: Agencias digitales, estudios de consultoría o empresas de software a medida uruguayas de 10-25 personas con clientes en España, Portugal o cualquier país europeo. El que lo siente hoy: el dueño o director cuando un cliente europeo le pregunta —o cuando no le pregunta todavía pero pronto va a hacerlo.
+La frase para abrir: "¿Alguno de tus clientes en Europa ya te preguntó qué componentes de IA tiene lo que les mandás?"
+
+Informe completo: https://roraag.github.io/daily-ia-news/archive/2026-11-13.html

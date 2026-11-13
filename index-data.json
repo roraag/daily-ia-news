@@ -209,7 +209,8 @@
     "2026-11-09",
     "2026-11-10",
     "2026-11-11",
-    "2026-11-12"
+    "2026-11-12",
+    "2026-11-13"
   ],
   "recent_titles": [
     "GPT-6 Cyber encontró 948 exploits en el kernel de Linux en producción",
@@ -246,7 +247,13 @@
     "Google descifra por qué el mismo ADN destruye unas células y deja intactas a otras",
     "Google lanzó una API de juez para agentes que evalúa 1.000 decisiones en un pasada a 10 centavos por millón",
     "El agente de código de xAI filtró registros médicos, horarios de bomberos y archivos de SpaceXSI en 35.000 apps",
-    "MDCalc lanzó un freno de mano para la IA clínica: saca los datos del paciente antes de que la pregunta llegue al chatbot"
+    "MDCalc lanzó un freno de mano para la IA clínica: saca los datos del paciente antes de que la pregunta llegue al chatbot",
+    "Jensen Huang renunció a Nvidia. El directorio ya no aguantó.",
+    "DeepMind verificó formalmente todo el protocolo de Signal. Cuatro semanas, 6 millones de líneas de prueba.",
+    "Google lanzó Gemini 4 Hydrogen: 2,5x más rápido, $1,50 por millón de tokens.",
+    "Medicare está usando IA para autorizar tratamientos. Los documentos son más oscuros de lo esperado.",
+    "El CEO de Eli Lilly le bajó el precio a las promesas médicas de Dario Amodei.",
+    "La UE se reunió por primera vez para hablar de IA. 200.000 millones de euros."
   ],
   "days": {
     "2026-04-17": {
@@ -2565,6 +2572,19 @@
       ],
       "main_authors": [],
       "tesis": "Google concentró más lanzamientos en 48 horas que la mayoría de los labs hacen en un mes: AlphaGenome 2 predice enfermedades célula por célula y la Decisions API hace el routing de agentes cinco veces más barato, mientras xAI dejó expuestos registros médicos en 35.000 apps sin control de acceso."
+    },
+    "2026-11-13": {
+      "count": 6,
+      "sources": [
+        "techcrunch.com",
+        "xataka.com",
+        "blog.google",
+        "eff.org",
+        "garymarcus.substack.com",
+        "thenextweb.com"
+      ],
+      "main_authors": [],
+      "tesis": "Jensen Huang renunció el mismo día que DeepMind verificó formalmente el protocolo de Signal: la IA que promete demasiado encontró su momento de ajuste de cuentas, y la IA que hace encontró su ejemplo más limpio hasta ahora."
     }
   }
 }
