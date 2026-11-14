@@ -1,0 +1,30 @@
+*1. La FAA paró EEUU 4 horas. Tres días antes habían activado una IA en el tráfico aéreo.*
+Lo nuevo: El viernes 13 un "nationwide ground stop" detuvo todos los vuelos hacia aeropuertos de EEUU durante unas cuatro horas, con miles de pasajeros varados. Causa oficial: routers sobrecargados con datos inconsistentes. El dato que no para de circular: tres días antes la FAA había extendido su sistema de IA SMART a los 22 centros de control del país. El Secretario de Transporte dijo que no hay conexión probada. La investigación sigue abierta.
+Por qué te lo digo:
+• Para cualquier pyme implementando IA en un proceso operativo crítico —logística, facturación, gestión de stock— la lección es contractual: definir por escrito qué pasa si la IA falla y quién es responsable, antes de que falle. El proveedor que no quiere firmar eso te está diciendo algo importante.
+Link: https://www.washingtontimes.com/news/2026/nov/13/faa-expanded-ai-air-traffic-tool-centers-days-nationwide-ground-stop/
+
+*2. OpenAI le puso billetera a sus agentes. Comprá con tus dedos, no con tus dedos.*
+Lo nuevo: ChatGPT Wallet se lanzó el 13 de noviembre para suscriptores Pro en EEUU. Los agentes Dots pueden hacer compras en tu nombre; cada transacción requiere aprobación biométrica (Face ID o huella) desde tu dispositivo. El agente nunca accede a los datos de la tarjeta. Socios de lanzamiento: Amex, Mastercard y Visa. El roadmap explícito: en el futuro se podrán configurar límites de gasto y períodos para que el agente compre solo, sin confirmación por transacción.
+Por qué te lo digo:
+• Si tu negocio vende online o por catálogo a otras empresas, cuando los agentes escalen tus compradores B2B van a mandar agentes a hacer pedidos. La pregunta concreta: ¿podría un agente de IA hacer un pedido a tu empresa sin que nadie toque el teléfono o abra el WhatsApp? Si la respuesta es no, eso se convierte en fricción que tus competidores con catálogo bien estructurado no van a tener.
+Link: https://openai.com/index/introducing-chatgpt-wallet/
+
+*3. Amazon quiere indexar todo lo que se vende en internet. Para que el agente te lo compre ahí.*
+Lo nuevo: Amazon planea construir una base de datos de todos los productos vendidos en internet, incluso los que no vende en su plataforma. El proyecto se llama World Product Graph. El objetivo: que cuando un usuario o un AI agent busque un producto, Amazon sea el índice de referencia, independientemente de dónde se compre al final. Es la respuesta de Amazon a que OpenAI, Meta y Google van a tener agentes con billetera propia.
+Por qué te lo digo:
+• Si tus fichas de producto no tienen especificaciones completas en texto plano, precios actualizados y datos estructurados, los agentes no te van a "ver" cuando busquen para comprar en nombre de alguien. ¿Tus productos tienen ficha completa con specs o solo una foto y un precio?
+Link: https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search
+
+*4. Uruguay ya no debate si adoptar IA. Debate cómo.*
+Lo nuevo: Expertos uruguayos se reunieron en Zonamerica para discutir cómo las empresas pueden adoptar IA. Mensaje central: preparar la información propia es el primer paso antes de intentar usar cualquier modelo. Uruguay ocupa el primer puesto del índice de preparación para IA de CEPAL 2026 en América Latina, con índice de 0,55.
+Por qué te lo digo:
+• El gap que quedó claro en Zonamerica —la calidad de los datos internos— es exactamente el mismo problema que enfrenta ASESP cuando quiere usar IA en gestión clínica. Los datos estructurados y limpios son el cuello de botella en todos lados, no la tecnología.
+Link: https://www.elobservador.com.uy/ciencia-y-tecnologia/como-empezar-ia-una-empresa-expertos-uruguayos-lo-debatieron-zonamerica-n6063787
+
+*Oportunidad del día*
+La señal: ChatGPT Wallet y Amazon World Product Graph llegaron el mismo día. Los AI agents van a empezar a comprar por sus usuarios antes de que la mayoría de los negocios estén listos para recibirlos. OpenAI ya tiene el wallet. Amazon ya está indexando los catálogos. El cliente que antes llamaba al vendedor puede mandar un agente.
+La puerta: Distribuidoras, importadoras y comercios B2B de 10 a 50 empleados en Uruguay que toman pedidos por WhatsApp, teléfono o planilla. El que lo siente hoy: el dueño o gerente comercial cuando el 30% del tiempo de los vendedores se va en tomar pedidos y verificar stock que ya debería poder consultarse sin humano de por medio.
+La frase para abrir: ¿Si un comprador de empresa mandara un agente a pedirte un presupuesto a las 11 de la noche, podría hacerlo sin hablar con nadie?
+
+Informe completo: https://roraag.github.io/daily-ia-news/archive/2026-11-14.html

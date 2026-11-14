@@ -210,13 +210,10 @@
     "2026-11-10",
     "2026-11-11",
     "2026-11-12",
-    "2026-11-13"
+    "2026-11-13",
+    "2026-11-14"
   ],
   "recent_titles": [
-    "GPT-6 Cyber encontró 948 exploits en el kernel de Linux en producción",
-    "METR revela que Claude 3.7 acelera el trabajo de ingeniería 1,9x, con evidencia clave censurada",
-    "Palo Alto Networks paga 500 millones por Clutch Security, la empresa que custodia las credenciales de los agentes IA",
-    "Médicos usan chatbots para diagnósticos sin que el hospital lo sepa: STAT News destapa el shadow AI en hospitales",
     "PSI + modelo no revelado de Anthropic prueba la conjetura Aaronson-Ambainis",
     "Ramp AI Index: el gasto en IA se frenó y el 1% de las empresas concentra el 80% del gasto",
     "La valuación del IPO de Anthropic cayó de 2 billones a 1,1 billones después del sell-off de acciones IA",
@@ -253,7 +250,11 @@
     "Google lanzó Gemini 4 Hydrogen: 2,5x más rápido, $1,50 por millón de tokens.",
     "Medicare está usando IA para autorizar tratamientos. Los documentos son más oscuros de lo esperado.",
     "El CEO de Eli Lilly le bajó el precio a las promesas médicas de Dario Amodei.",
-    "La UE se reunió por primera vez para hablar de IA. 200.000 millones de euros."
+    "La UE se reunió por primera vez para hablar de IA. 200.000 millones de euros.",
+    "EEUU paró todos sus vuelos 4 horas y la IA activada días antes está bajo la lupa",
+    "El contrabando de chips de Nvidia a China fue de 1,5 millones de GPUs. Las sanciones no alcanzaron.",
+    "OpenAI le dio tarjeta de crédito a sus agentes: billetera propia con verificación biométrica",
+    "Amazon indexará todo el e-commerce del mundo para que los agentes de IA compren desde ahí"
   ],
   "days": {
     "2026-04-17": {
@@ -2585,6 +2586,17 @@
       ],
       "main_authors": [],
       "tesis": "Jensen Huang renunció el mismo día que DeepMind verificó formalmente el protocolo de Signal: la IA que promete demasiado encontró su momento de ajuste de cuentas, y la IA que hace encontró su ejemplo más limpio hasta ahora."
+    },
+    "2026-11-14": {
+      "count": 4,
+      "sources": [
+        "washingtontimes.com",
+        "tomshardware.com",
+        "openai.com",
+        "theverge.com"
+      ],
+      "main_authors": [],
+      "tesis": "La FAA paró los vuelos de EEUU 4 horas tres días después de activar una IA, y los números del contrabando de chips de Nvidia a China resultaron ser de escala masiva; encima, OpenAI le dio billetera a sus agentes."
     }
   }
 }
