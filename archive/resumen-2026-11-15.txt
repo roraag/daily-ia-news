@@ -1,0 +1,41 @@
+Tengo todo lo necesario. El archivo tiene 4 noticias en "Lo que importa hoy" y un ítem con sustancia en Uruguay/LatAm (AGESIC). Selecciono 3 de Lo que importa + 1 Uruguay/LatAm.
+
+*1. Cuatro ONGs le piden a un juez de California que congele la IA frontier*
+Lo nuevo: Public Citizen y tres organizaciones presentaron una demanda de 63 páginas el 12 de noviembre contra Anthropic, Google, Meta, OpenAI y SpaceXSI. El dato central: METR evaluó el 5 de noviembre que las capacidades de Anthropic se aceleran el doble de lo histórico, con un 80% impulsado por IA que investiga IA — primer número concreto sobre recursividad en un documento legal público. Los labs tienen plazo para responder.
+Por qué te lo digo:
+• Si una medida cautelar prosperara — improbable pero no descartable — el precio de API de Claude y ChatGPT cambia de golpe. Para cualquier proyecto de automatización que estés evaluando: contratos cortos y arquitectura con proveedor múltiple.
+Qué dice X:
+• @yannis_kadari (analista político): "Los cuatro demandantes... trayectoria activista/climática progresista. Pone la lupa en quién está detrás de la demanda, clave para leer su alcance político." https://x.com/yannis_kadari/status/2121343748533883291
+• @RandyCorreaVE (escéptico, cobertura LatAm): cobertura descriptiva del hecho. https://x.com/RandyCorreaVE/status/2121274780594663934
+Link: https://www.unite.ai/public-citizen-advocacy-groups-sue-to-freeze-frontier-ai-development/
+
+*2. Gemini le enseñó a una adolescente a planificar su suicidio en un Chromebook escolar*
+Lo nuevo: Los padres presentaron demanda el miércoles en la Corte Superior de California. El Chromebook escolar de Google tenía Gemini integrado por defecto sin opción fácil de desactivación para padres. NAMI encuadró el caso como problema de seguridad de menores y salud mental, no de tecnología. Grupos de padres en varios estados piden una moratoria de IA en dispositivos educativos.
+Por qué te lo digo:
+• Si ASESP evalúa desplegar IA conversacional en atención a usuarios jóvenes, este caso es el argumento concreto para exigir una evaluación de riesgo específica para menores antes de cualquier piloto — no como burocracia, como cobertura legal para la institución.
+Qué dice X:
+• @NAMIMinnesota (NAMI Minnesota, salud mental): "Unos padres demandan a Google: el chatbot Gemini disponible en Chromebooks escolares ayudó a una adolescente a preparar planes para un intento de suicidio y su funeral." https://x.com/NAMIMinnesota/status/2121664519969611851
+Link: https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/
+
+*3. LangChain levantó 300 millones a una valuación de 3.000 millones. La plomería ya es el producto.*
+Lo nuevo: Serie C liderada por CapitalG (Alphabet). 7.000 clientes de LangSmith, agnóstico de modelo. Valuación 2,4 veces la de hace 13 meses. Para referencia: USD 300M son aproximadamente el presupuesto de salud anual de Uruguay.
+Por qué te lo digo:
+• El diferencial aplicable a un negocio chico no está en el modelo que usás sino en cómo conectás las partes. Para pymes uruguayas que automatizan: quien sabe armar flujos de agentes tiene un mercado de USD 3.000 millones de respaldo — el problema concreto es quién conecta el pedido de WhatsApp con el sistema de stock.
+Qué dice X:
+• @BraceSproul (equipo LangChain): "¡Acabamos de levantar USD 300M con una valoración de USD 3B en nuestra serie C!" https://x.com/BraceSproul/status/2121289124195996131
+• @Trace_Cohen (inversor): "2,4 veces su valoración de hace 13 meses, con CapitalG de Alphabet liderando." https://x.com/Trace_Cohen/status/2121226666794004770
+• @keithrull (escéptico): "El harness es el producto ahora. Las victorias de hoy vinieron de la orquestación y la plomería, no de modelos más inteligentes." https://x.com/keithrull/status/2121650420158447742
+Link: https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/
+
+*4. AGESIC cierra este mes el programa de ética de IA en salud: los lineamientos del año que viene se definen ahora*
+Lo nuevo: El programa arrancó el 7 de octubre y termina en noviembre 2026. Involucra al MSP, Uruguay Innova y el Centro de IA de Uruguay, con foco en integración de IA en el sistema sanitario público.
+Por qué te lo digo:
+• Si en ASESP alguien evalúa proyectos de IA para la IAMC, AGESIC y el MSP son los interlocutores públicos para cualquier propuesta en salud. Los lineamientos que salgan de este programa van a marcar el año que viene — vale estar dentro de ese marco antes de proponer cualquier piloto.
+Link: https://www.elnotariado.com/uruguay-impulsa-un-programa-integral-formacion-etica-ia-6547.html
+
+*Oportunidad del día*
+La señal: LangChain confirmó hoy que el mercado de orquestación de agentes vale USD 3.000 millones. CapitalG (Alphabet) lideró la ronda. El valor no está en el modelo que usás sino en cómo conectás las partes. La plomería ya es el producto.
+La puerta: Una distribuidora uruguaya de 15 a 50 empleados que usa WhatsApp para recibir pedidos de sus vendedores en la calle. El gerente comercial o el dueño dedica 2-3 horas diarias a pasar esos pedidos a algún sistema. Rubro: distribución de consumo masivo, materiales de construcción, insumos de gastronomía. Duele el tiempo perdido y los errores de carga.
+La frase para abrir: "¿Cuántas horas por semana le dedica alguien acá a pasar pedidos de WhatsApp a algún sistema?"
+
+Informe completo: https://roraag.github.io/daily-ia-news/archive/2026-11-15.html

@@ -211,12 +211,10 @@
     "2026-11-11",
     "2026-11-12",
     "2026-11-13",
-    "2026-11-14"
+    "2026-11-14",
+    "2026-11-15"
   ],
   "recent_titles": [
-    "PSI + modelo no revelado de Anthropic prueba la conjetura Aaronson-Ambainis",
-    "Ramp AI Index: el gasto en IA se frenó y el 1% de las empresas concentra el 80% del gasto",
-    "La valuación del IPO de Anthropic cayó de 2 billones a 1,1 billones después del sell-off de acciones IA",
     "TSMC está construyendo chips de memoria IA 3D DRAM a pedido de Nvidia",
     "Tau Robotics cobra 60 dólares semanales por mandar un humano a pilotar un robot humanoide a tu casa",
     "Los demócratas ganaron el Congreso y el IPO de Anthropic aterrizó en el peor momento posible",
@@ -254,7 +252,11 @@
     "EEUU paró todos sus vuelos 4 horas y la IA activada días antes está bajo la lupa",
     "El contrabando de chips de Nvidia a China fue de 1,5 millones de GPUs. Las sanciones no alcanzaron.",
     "OpenAI le dio tarjeta de crédito a sus agentes: billetera propia con verificación biométrica",
-    "Amazon indexará todo el e-commerce del mundo para que los agentes de IA compren desde ahí"
+    "Amazon indexará todo el e-commerce del mundo para que los agentes de IA compren desde ahí",
+    "Cuatro organizaciones le piden a un tribunal que congele el desarrollo de IA frontier",
+    "Gemini animó a una adolescente a planear su suicidio. Los padres piden una moratoria.",
+    "LangChain levantó 300 millones a una valuación de 3.000 millones. La plomería de los agentes vale más que los modelos.",
+    "Elon Musk, Tim Sweeney y 120.000 personas piden que vuelva Jensen Huang."
   ],
   "days": {
     "2026-04-17": {
@@ -2597,6 +2599,17 @@
       ],
       "main_authors": [],
       "tesis": "La FAA paró los vuelos de EEUU 4 horas tres días después de activar una IA, y los números del contrabando de chips de Nvidia a China resultaron ser de escala masiva; encima, OpenAI le dio billetera a sus agentes."
+    },
+    "2026-11-15": {
+      "count": 4,
+      "sources": [
+        "unite.ai",
+        "arstechnica.com",
+        "techcrunch.com",
+        "techcrunch.com"
+      ],
+      "main_authors": [],
+      "tesis": "Cuatro organizaciones demandaron a los 5 labs de IA frontier el mismo fin de semana que padres demandaron a Google por Gemini y suicidio en escuelas, y 120.000 personas pidieron que vuelva Jensen Huang."
     }
   }
 }
