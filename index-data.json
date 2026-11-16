@@ -212,9 +212,15 @@
     "2026-11-12",
     "2026-11-13",
     "2026-11-14",
-    "2026-11-15"
+    "2026-11-15",
+    "2026-11-16"
   ],
   "recent_titles": [
+    "Apple y OpenEvidence lanzan el estudio de IA en salud mas grande: 200.000 voluntarios",
+    "ChatGPT ya tiene billetera: OpenAI entró al negocio de los pagos",
+    "Trump va a declarar campeones nacionales de IA a Nvidia y OpenAI",
+    "Amazon detectó una campaña de ataques apuntando específicamente a frameworks de agentes IA",
+    "Cómo Meta Muse llegó al número uno del App Store: la historia que no te contaron",
     "TSMC está construyendo chips de memoria IA 3D DRAM a pedido de Nvidia",
     "Tau Robotics cobra 60 dólares semanales por mandar un humano a pilotar un robot humanoide a tu casa",
     "Los demócratas ganaron el Congreso y el IPO de Anthropic aterrizó en el peor momento posible",
@@ -2610,6 +2616,18 @@
       ],
       "main_authors": [],
       "tesis": "Cuatro organizaciones demandaron a los 5 labs de IA frontier el mismo fin de semana que padres demandaron a Google por Gemini y suicidio en escuelas, y 120.000 personas pidieron que vuelva Jensen Huang."
+    },
+    "2026-11-16": {
+      "count": 5,
+      "sources": [
+        "statnews.com",
+        "openai.com",
+        "reuters.com",
+        "thehackernews.com",
+        "lennysnewsletter.com"
+      ],
+      "main_authors": [],
+      "tesis": "Hoy la IA entró a tres lugares al mismo tiempo: la Casa Blanca la convierte en campeona nacional junto a Nvidia y OpenAI, Apple se sienta con 200.000 voluntarios para saber si puede ayudarles con su salud, y OpenAI le da una billetera al chat para que haga compras."
     }
   }
 }

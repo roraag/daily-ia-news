@@ -1,0 +1,50 @@
+*1. Apple y OpenEvidence: 200.000 personas para medir la IA en salud*
+Lo nuevo: Apple y la startup OpenEvidence lanzaron el Apple Health AI Usage Study con 200.000 voluntarios para medir cómo la gente usa la IA para resolver preguntas de salud, presentado en HLTH 2026 (Las Vegas, 15 de noviembre). OpenEvidence construye IA con evidencia clínica revisada —journals, guidelines—, no con internet general; Apple pone la escala.
+Por qué te lo digo:
+• El canal de entrada de la IA en salud no es el hospital: es la app del paciente. ASESP tiene contacto directo con sus afiliados; una app de triage con evidencia clínica curada ya es técnicamente viable. La pregunta es quién la hace primero en Uruguay.
+Qué dice X:
+• @ZevrinH (divulgación tech/salud): "Apple entra a la IA en salud midiendo confianza y uso real antes de escalar, no con un producto masivo." https://x.com/ZevrinH/status/2122148419276091566
+• @beep_roadrunner (seguidor tech): "El Apple Health AI Usage Study va a evaluar la confianza, la comprensión y el uso real de la IA en salud." https://x.com/beep_roadrunner/status/2122138696438923532
+Link: https://www.statnews.com/2026/11/15/apple-openevidence-launch-health-chat-app-experiment-ai/
+
+*2. ChatGPT ya tiene billetera: OpenAI entró al negocio de los pagos*
+Lo nuevo: OpenAI lanzó ChatGPT Wallet: los usuarios cargan saldo con tarjeta real y hacen compras sin salir del chat. Sam Altman confirmó ingresos de 10.000 millones de dólares trimestrales y descartó el IPO en 2026.
+Por qué te lo digo:
+• La siguiente frontera para una pyme que vende online es que el agente del cliente compre directamente, sin formulario. El retailer uruguayo que llega primero con integración al Wallet de ChatGPT tiene una ventana de 6 meses antes de que todos lo hagan.
+Qué dice X:
+• @elhackernet (medio tech ES): "OpenAI presenta ChatGPT Wallet, una cartera digital con agentes de IA diseñados para realizar compras de forma autónoma." https://x.com/elhackernet/status/2121913116845908318
+• @izipay_official (escéptico · empresa de pagos): "ChatGPT Wallet desafía a las herramientas de pago cripto de Coinbase y Circle." https://x.com/izipay_official/status/2121996679565955350
+Link: https://openai.com/index/introducing-chatgpt-wallet/
+
+*3. Trump va a declarar campeones nacionales de IA a Nvidia, OpenAI, Anthropic y más*
+Lo nuevo: El Wall Street Journal reportó que el gobierno Trump designará a Nvidia, OpenAI, Amazon, Microsoft y Anthropic como "AI National Champions", con beneficios regulatorios y apoyo para competir con China. Llega semanas después de la renuncia de Jensen Huang de Nvidia.
+Por qué te lo digo:
+• Para pymes uruguayas: los "campeones" van a tener condiciones más agresivas de precio y acceso para deals internacionales. Para ASESP: los sistemas de salud que firmaron con providers "campeones" tendrán menos presión regulatoria en EE.UU. Señal a seguir de cara a licitaciones de tecnología.
+Qué dice X:
+• @Investingcom (flash de mercado): "El gobierno Trump nombrará a Nvidia entre los 'campeones nacionales'. Amazon, Microsoft, OpenAI y Anthropic también recibirían la designación." https://x.com/Investingcom/status/2122233612779090165
+• @moneycontrolcom (negocios): "Las elegidas podrían recibir apoyo y financiamiento en el exterior para enfrentar a China." https://x.com/moneycontrolcom/status/2122215842012160088
+• @YourAnonCentral (escéptico · activismo digital): "Trump aprobó ventas de chips Nvidia a China en medio del escándalo de espionaje, con una donación de 25 millones de dólares de Nvidia de por medio." https://x.com/YourAnonCentral/status/2120641958431564171
+Link: https://www.reuters.com/technology/trump-administration-name-nvidia-openai-several-others-ai-national-champions-2026-11-16/
+
+*4. Amazon detectó ataques directos contra frameworks de agentes IA*
+Lo nuevo: Entre el 3 de octubre y el 5 de noviembre, atacantes robaron API keys de LiteLLM, Dify y Open WebUI para usar modelos caros —GPT-6, Claude— en cuenta ajena. Amazon lo descubrió con sus honeypots MadPot y el FBI alertó el mismo día sobre el mismo framework de ataque (ARTEX).
+Por qué te lo digo:
+• Las API keys son dinero en efectivo. Si un equipo técnico guarda las claves en el .env del servidor, hay un agujero. Un vault de secretos (HashiCorp Vault o AWS Secrets Manager) lo cierra.
+Qué dice X:
+• @TheHackersNews (ciberseguridad): "Amazon descubre agentes de IA que cazan API keys en LiteLLM, Dify y otras apps. Explotan puntos débiles → roban keys → las usan para financiar más ataques." https://x.com/TheHackersNews/status/2122232175529766932
+• @wifeydoteth (investigación de seguridad): "El FBI marcó el mismo framework ARTEX el viernes. Aviso directo para quien tenga LiteLLM u Open WebUI expuestos." https://x.com/wifeydoteth/status/2121875856360358280
+• @jatingargiitk (escéptico · análisis técnico): "Los agentes atacantes le mandaron toda la memoria de su campaña a las APIs señuelo. El método es más ruidoso de lo que parece — no son atacantes sofisticados." https://x.com/jatingargiitk/status/2122029962748412356
+Link: https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html
+
+*5. Antel inauguró un data center de 70 millones de dólares para IA en Las Piedras*
+Lo nuevo: Antel inauguró en Las Piedras un centro de datos con capacidad específica para alojar servidores de inteligencia artificial, con una inversión de 70 millones de dólares. El gobierno lo presentó como la infraestructura que habilita el procesamiento de datos de IA en Uruguay sin depender de servidores en el exterior.
+Por qué te lo digo:
+• Para cualquier proyecto de IA en salud que necesite cumplir requisitos de privacidad de datos —en ASESP los van a tener—, procesar en servidores locales pasa de deseable a viable desde 2027. El costo de procesamiento local va a bajar; eso cambia el cálculo de make vs. buy para startups uruguayas de IA.
+Link: https://ladiaria.com.uy/
+
+*Oportunidad del día*
+La señal: OpenAI lanzó ChatGPT Wallet. Los pagos desde la conversación son reales desde hoy. Un cliente puede cargar saldo en ChatGPT y hacer una compra sin salir del chat.
+La puerta: Comercios de entre 20 y 100 personas en Uruguay que venden online — ropa, electrodomésticos, servicios de hogar. El dolor lo siente el dueño: la tasa de abandono del carrito es el problema más viejo del e-commerce y nadie lo resolvió del lado uruguayo. El cliente hace preguntas por WhatsApp o chat, y termina comprando en otro lado o no comprando.
+La frase para abrir: "¿Cuántos clientes te escriben por WhatsApp para hacer preguntas antes de comprar, pero terminan comprando en otro lado o no comprando?"
+
+Informe completo: https://roraag.github.io/daily-ia-news/archive/2026-11-16.html
