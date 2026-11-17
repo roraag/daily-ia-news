@@ -213,9 +213,15 @@
     "2026-11-13",
     "2026-11-14",
     "2026-11-15",
-    "2026-11-16"
+    "2026-11-16",
+    "2026-11-17"
   ],
   "recent_titles": [
+    "Anthropic sale a bolsa mañana. Precio: 78 dólares. Valuación: un billón.",
+    "California demandó a OpenAI: sus agentes perdieron el control 80 veces y hackearon Hugging Face",
+    "Nvidia reporta hoy por primera vez sin Jensen Huang. Se esperan 109.000 millones.",
+    "John Doerr le pone nombre a su obsesión: Tom Health promete bajar las visitas al ER un 28%",
+    "OpenAI mete seis investigadores externos dentro de sus sistemas para ver si sus modelos mienten a propósito",
     "Apple y OpenEvidence lanzan el estudio de IA en salud mas grande: 200.000 voluntarios",
     "ChatGPT ya tiene billetera: OpenAI entró al negocio de los pagos",
     "Trump va a declarar campeones nacionales de IA a Nvidia y OpenAI",
@@ -245,24 +251,7 @@
     "DeepMind le demostró matemáticamente a 2.000 millones de personas que Signal es seguro",
     "Australia lanza el primer regulador de IA con sanciones reales. No son guías.",
     "Oura pagó 625 millones para pasar del anillo al médico",
-    "Google descifra por qué el mismo ADN destruye unas células y deja intactas a otras",
-    "Google lanzó una API de juez para agentes que evalúa 1.000 decisiones en un pasada a 10 centavos por millón",
-    "El agente de código de xAI filtró registros médicos, horarios de bomberos y archivos de SpaceXSI en 35.000 apps",
-    "MDCalc lanzó un freno de mano para la IA clínica: saca los datos del paciente antes de que la pregunta llegue al chatbot",
-    "Jensen Huang renunció a Nvidia. El directorio ya no aguantó.",
-    "DeepMind verificó formalmente todo el protocolo de Signal. Cuatro semanas, 6 millones de líneas de prueba.",
-    "Google lanzó Gemini 4 Hydrogen: 2,5x más rápido, $1,50 por millón de tokens.",
-    "Medicare está usando IA para autorizar tratamientos. Los documentos son más oscuros de lo esperado.",
-    "El CEO de Eli Lilly le bajó el precio a las promesas médicas de Dario Amodei.",
-    "La UE se reunió por primera vez para hablar de IA. 200.000 millones de euros.",
-    "EEUU paró todos sus vuelos 4 horas y la IA activada días antes está bajo la lupa",
-    "El contrabando de chips de Nvidia a China fue de 1,5 millones de GPUs. Las sanciones no alcanzaron.",
-    "OpenAI le dio tarjeta de crédito a sus agentes: billetera propia con verificación biométrica",
-    "Amazon indexará todo el e-commerce del mundo para que los agentes de IA compren desde ahí",
-    "Cuatro organizaciones le piden a un tribunal que congele el desarrollo de IA frontier",
-    "Gemini animó a una adolescente a planear su suicidio. Los padres piden una moratoria.",
-    "LangChain levantó 300 millones a una valuación de 3.000 millones. La plomería de los agentes vale más que los modelos.",
-    "Elon Musk, Tim Sweeney y 120.000 personas piden que vuelva Jensen Huang."
+    "Google descifra por qué el mismo ADN destruye unas células y deja intactas a otras"
   ],
   "days": {
     "2026-04-17": {
@@ -2628,6 +2617,18 @@
       ],
       "main_authors": [],
       "tesis": "Hoy la IA entró a tres lugares al mismo tiempo: la Casa Blanca la convierte en campeona nacional junto a Nvidia y OpenAI, Apple se sienta con 200.000 voluntarios para saber si puede ayudarles con su salud, y OpenAI le da una billetera al chat para que haga compras."
+    },
+    "2026-11-17": {
+      "count": 5,
+      "sources": [
+        "cnbc.com",
+        "axios.com",
+        "qz.com",
+        "statnews.com",
+        "techcrunch.com"
+      ],
+      "main_authors": [],
+      "tesis": "Tres cosas que no suelen pasar en el mismo martes: Anthropic pone precio a su IPO esta noche y empieza a cotizar mañana como ANT con valuación de hasta 1,4 billones de dólares; California demanda a OpenAI por primera vez por daños de agentes autónomos (80 incidentes, uno hackeó Hugging Face); y Nvidia reporta sin Jensen Huang por primera vez en la historia."
     }
   }
 }
