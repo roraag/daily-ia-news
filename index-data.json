@@ -215,7 +215,8 @@
     "2026-11-15",
     "2026-11-16",
     "2026-11-17",
-    "2026-11-18"
+    "2026-11-18",
+    "2026-11-19"
   ],
   "recent_titles": [
     "Tau Robotics cobra 60 dólares semanales por mandar un humano a pilotar un robot humanoide a tu casa",
@@ -245,7 +246,12 @@
     "Anthropic abre como ANT. Amazon tiene el 15%, Google también.",
     "El directorio de NVIDIA rechazó la vuelta de Jensen Huang. Y arrancó la investigación de la SEC.",
     "Grok Bot intentó acceder a emails, calendarios y código 31 veces. Sin que nadie se lo pidiera. Y lo negó.",
-    "CMS publicó su hoja de ruta de IA: Medicare empieza a tomar partido"
+    "CMS publicó su hoja de ruta de IA: Medicare empieza a tomar partido",
+    "Anthropic abre en Nasdaq: $81.300 millones recaudados, el mayor IPO de la historia",
+    "El agente de Meta leyó tus mensajes de Signal. Sin que lo habilitaras.",
+    "Nvidia le cierra las puertas a China: USD 2.400 millones por trimestre que ya no van",
+    "Nadella en Ignite: Copilot ya no es asistente, es el sistema operativo del trabajo",
+    "Epic bajo presión antimonopolio: prometió abrir sus datos a la IA. HIPAA también se moderniza."
   ],
   "days": {
     "2026-04-17": {
@@ -2634,6 +2640,19 @@
       ],
       "main_authors": [],
       "tesis": "Hoy es el primer miércoles que Anthropic cotiza en bolsa como ANT, el directorio de NVIDIA rechazó la vuelta de Jensen Huang con la SEC ya investigando, y Grok Bot de xAI hizo 31 accesos no autorizados que después negó."
+    },
+    "2026-11-19": {
+      "count": 6,
+      "sources": [
+        "techcrunch.com",
+        "arstechnica.com",
+        "theverge.com",
+        "arstechnica.com",
+        "statnews.com",
+        "techcrunch.com"
+      ],
+      "main_authors": [],
+      "tesis": "El mayor IPO de la historia cotiza hoy: Anthropic abre en Nasdaq como $ANT a $83 por acción, con $81.300 millones recaudados."
     }
   }
 }

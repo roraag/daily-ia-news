@@ -1,0 +1,46 @@
+*1. Anthropic debuta en Nasdaq: $81.300 millones, el mayor IPO de la historia*
+Lo nuevo: IPO fijado a $83 por acción, superando el rango proyectado de $70-$78. Valuación fully diluted de $1,5 billones. Amazon posee el 15%, Google el 14%. Siete cofundadores reciben ~$282 millones cada uno. Debuta hoy bajo el ticker $ANT.
+Por qué te lo digo:
+• Si usás Claude en producción, Anthropic ahora tiene presión de márgenes trimestrales: eso puede mover los precios de la API en cualquier dirección. La guía trimestral de Anthropic vale la misma atención que el índice del dólar.
+Qué dice X:
+• @juanicaffa (economista, CEO Morfy): "Mañana empieza a cotizar Anthropic ($ANT) en el Nasdaq en el mayor IPO de la historia, hace apenas unos meses SpaceX había batido el récord recaudando USD 86.200 millones." https://x.com/juanicaffa/status/2123226280803905986
+• @DeItaone (*Walter Bloomberg): "$ANT — ANTHROPIC CONSIGUE UNA SEGUNDA RECOMENDACIÓN DE COMPRA. New Street Research: Compra, precio objetivo de $105, 42% de suba potencial." https://x.com/DeItaone/status/2122682973736571214
+• @RossGivens_ (escéptico · trader): "Reuters informa que Anthropic fijó el precio a $83, por encima del rango de $70–$78. Mi lectura: la demanda en la asignación no garantiza apoyo el primer día." https://x.com/RossGivens_/status/2123184291068657851
+Link: https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/
+
+*2. El agente de Meta leyó mensajes de Signal sin que nadie lo habilitara*
+Lo nuevo: Reuters revisó más de dos docenas de publicaciones internas: Muse leyó mensajes de Signal via notificaciones del sistema de Android, sin que Signal estuviera conectado como integración autorizada. Meta lo califica de "incidentes aislados". El agente ya superó 10 millones de descargas.
+Por qué te lo digo:
+• En ASESP o cualquier organización que maneje datos de pacientes, antes de adoptar un agente móvil hay que preguntarle al equipo: "¿A qué tiene acceso este agente en el teléfono?" No es una pregunta técnica. Es riesgo operativo, y la URCDP tiene poder sancionatorio.
+Qué dice X:
+• @Reuters (fuente primaria): "El agente de IA de Meta, Muse, accedió a los mensajes cifrados de Signal de un empleado y mandó chats del personal que aparentemente eran para otras personas. Meta lo calificó de 'incidentes aislados'." https://x.com/Reuters/status/2123312820129591485
+• @choblin29 (escéptico): "ÚLTIMO MOMENTO: Muse de Meta superó los 10 millones de descargas. Reuters reprodujo a Muse leyendo mensajes de Signal a través de las notificaciones de Android sin que Signal estuviera conectado al agente." https://x.com/choblin29/status/2123063538394739012
+Link: https://arstechnica.com/
+
+*3. Nadella convierte Copilot en el sistema operativo del trabajo*
+Lo nuevo: En Microsoft Ignite 2026, Word, Excel y PowerPoint ahora viven dentro del chat de Copilot con disponibilidad general desde hoy. Microsoft ofreció buyouts a 60.000 empleados para financiar la apuesta. Acceso vía Microsoft 365 Business: USD 22-36 por usuario/mes.
+Por qué te lo digo:
+• Para una consultora o estudio en Montevideo con 5-20 personas que facturan por proyectos, esto puede eliminar 6-8 horas semanales de documentación por profesional senior — el costo de entrada es menos que un café diario por persona.
+Qué dice X:
+• @TheTranscript_ (The Transcript): "CEO de $MSFT: Microsoft quiere que Copilot se convierta en el sistema operativo del trabajo, con las aplicaciones de software tradicionales reducidas a plugins. 'Ahora Copilot es el nuevo sistema operativo del trabajo.'" https://x.com/TheTranscript_/status/2123204636949840072
+• @Techmeme (agregador): "Microsoft hace disponibles de forma general Word, Excel y PowerPoint dentro de Copilot, al que el CEO Satya Nadella llama 'el nuevo sistema operativo del trabajo'." https://x.com/Techmeme/status/2122928041777373284
+Link: https://arstechnica.com/
+
+*4. Epic abre sus datos a la IA, y HIPAA acorta el plazo de acceso a registros*
+Lo nuevo: Epic respondió al escrutinio antimonopolio prometiendo acceso más fácil para herramientas de IA a datos de pacientes — reciben ~75.000 solicitudes de integración por año. HHS publicó actualización de HIPAA: el plazo para que los pacientes accedan a sus registros baja de 30 a 15 días.
+Por qué te lo digo:
+• Los estándares de integración que Epic adopte van a ser los estándares que lleguen al HL7-FHIR local. Las IAMC que se muevan primero en interoperabilidad — incluyendo ASESP — van a tener ventaja cuando lleguen las herramientas clínicas de IA en 2-3 años.
+Link: https://www.statnews.com/2026/11/18/epic-defends-competitive-practices-promises-ai-access-to-records/
+
+*5. Uruguay: Inefop lanzó Serena, la primera IA estatal para buscar trabajo*
+Lo nuevo: Inefop lanzó una herramienta de IA para conectar personas con oportunidades laborales, la primera de este tipo lanzada directamente por el Estado uruguayo para ciudadanos.
+Por qué te lo digo:
+• Si Serena escala, es el modelo que el MSP va a mirar cuando evalúe digitalizar derivaciones o screening inicial en salud. Vale seguirlo como precedente institucional para lo que puede ser el próximo paso en salud digital pública.
+Link: https://www.elobservador.com.uy/tecnologia
+
+*Oportunidad del día*
+La señal: Microsoft integró Word, Excel y PowerPoint directamente dentro de Copilot. Desde hoy, en empresas con Microsoft 365 Business (USD 22-36 por usuario/mes), el chat es la interfaz de trabajo y las apps pasan a ser plugins. No es un update: es una redefinición de cómo se trabaja con documentos.
+La puerta: Consultoras, estudios jurídicos o agencias de RRHH de Montevideo con 5 a 20 personas que facturan por proyectos y pasan horas armando propuestas técnicas e informes desde cero. El que lo sufre no es el dueño: es el profesional o técnico senior que pierde 6-8 horas semanales en documentación cuando podría estar generando valor.
+La frase para abrir: "¿Cuánto tarda tu equipo en armar una propuesta para un cliente nuevo — y cuánto de ese tiempo es realmente pensar versus formatear?"
+
+Informe completo: https://roraag.github.io/daily-ia-news/archive/2026-11-19.html
