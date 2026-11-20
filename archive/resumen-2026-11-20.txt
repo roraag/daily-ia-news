@@ -1,0 +1,42 @@
+*1. Anthropic ANT cerró a $97. El mayor IPO de la historia, con resaca asiática.*
+Lo nuevo: Apertura $111,50 (+34% sobre el precio de $83), máximo intradiario $115,10, cierre $97,17 (+17%), market cap al cierre ~1,75 billones de dólares. Los 7 fundadores vendieron ~3,4 millones de acciones cada uno a $83 — casi 2.000 millones en efectivo. Después del cierre americano, Asia se derrumbó, BTC cayó a $61.300 (mínimo de cuatro meses) y el after-hours borró otro 6,3%, dejando la acción en $91,32.
+Por qué te lo digo:
+• El after-hours cayó inmediatamente después de la noticia sobre el agente de Apple — señal temprana de que el que controla el hardware controla el modelo de negocio. Para quien vende o evalúa servicios de IA, el ecosistema Apple puede cambiar de reglas en 2027.
+Qué dice X:
+• @MS_Capitall (tracker financiero): "precio de IPO $83 → apertura $111,50 (+34%) → cierre $97,17 (+17%). Máximo de $115,10, por un momento arriba de $2T de valor totalmente diluido." https://x.com/MS_Capitall/status/2123702531574702476
+• @testingcatalog (AI News): "$ANT cerró su primer día en Nasdaq a $97,17, 17% arriba del precio de IPO de $83. Las acciones cayeron más de 3% after hours por la venta generalizada en IA." https://x.com/testingcatalog/status/2123690301214560447
+• @crypto_banter (escéptico · inversor crypto): "Arthur Hayes asumió la pérdida con Anthropic: posteó que al mercado no le gustó el debut, así que salió y espera un mejor momento para volver a entrar." https://x.com/crypto_banter/status/2123660870941110302
+Link: https://www.aljazeera.com/economy/2026/11/20/asias-stock-markets-dive-as-anthropic-debut-fails-to-allay-ai-bubble-fears
+
+*2. Meta Muse le mostró a un empleado el saldo bancario de otro. Y mensajes de Signal.*
+Lo nuevo: El agente de Meta con 10 millones de descargas mezcló cuentas y expuso datos financieros ajenos (Capital One $2.722, Charles Schwab $5.899 de otra persona) junto con mensajes de Signal que no eran del usuario. El cifrado de Signal no se rompió: Muse usó permisos de accesibilidad en Mac y de notificaciones en Android que el agente pide al instalarse. Meta dijo que son "incidentes aislados" en testing interno, pero no pudo confirmar si los datos eran reales.
+Por qué te lo digo:
+• Cualquier empresa o mutualista que evalúe desplegar un agente con acceso al sistema tiene que mapear qué permisos pide en la instalación y qué datos sensibles puede tocar antes del deploy — este caso es el ejemplo más concreto disponible para armar ese checklist en ASESP.
+Qué dice X:
+• @MEGAprivacy (escéptico · privacidad): "El cifrado de Signal no se rompió acá. Muse leía los mensajes por permisos dados: acceso a notificaciones en Android, herramientas de accesibilidad en Mac. ¿Qué sentido tiene usar una app cifrada si le das acceso a un agente de IA?" https://x.com/MEGAprivacy/status/2123483949234081908
+• @johnmorganFL (analista tech): "Muse de Meta enfrenta problemas de privacidad. Saldos bancarios y recordatorios de Signal. 10 millones de descargas desde septiembre." https://x.com/johnmorganFL/status/2123672808433590383
+• @EXINglobal (formación IT governance): "Los equipos de privacidad deberían probar si las salidas de los agentes exponen datos de otros usuarios." https://x.com/EXINglobal/status/2123520438806642857
+Link: https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/
+
+*3. Apple construye su propio agente para la Mac y blinda la puerta a los rivales.*
+Lo nuevo: Bloomberg encontró el job listing para un agente capaz de navegar la web, controlar apps, ejecutar comandos y escribir código, con privacidad como diferenciador explícito. Timeline: "tan pronto como a finales de 2027". En la misma semana, macOS 27.3 beta convirtió activar ChatGPT en 14 pasos donde antes eran 4. Las acciones de Anthropic cayeron 6,3% en el after-hours inmediatamente después de publicarse la noticia.
+Por qué te lo digo:
+• Las pymes que dependen de Macs y están evaluando qué agente de IA contratar pueden encontrarse con que la decisión cambia en 12 meses — vale hacer contratos cortos y flexibles con proveedores externos hasta ver qué lanza Apple en 2027.
+Qué dice X:
+• @markgurman (Bloomberg, fuente primaria): "NEW: Apple is developing an autonomous AI agent with computer-use capabilities, including device control, app interactions, web browsing and coding. The effort goes well beyond Siri and aims to compete with Meta's Muse, ChatGPT's Dots and Claude Code." https://x.com/markgurman/status/2123534050585460964
+• @fourweekmba (escéptico · análisis tech): "La beta de macOS 27.3 de Apple hace que activar el control del Mac de ChatGPT lleve 14 pasos, contra 4 antes. Apple alega seguridad; algunos usuarios ven un motivo competitivo." https://x.com/fourweekmba/status/2123655591969128853
+• @marketsday (mercados): "Las acciones de Anthropic caen más de 6% after hours por el informe sobre los planes de Apple de un agente de IA. $ANT bajó cerca de 6,3% a $91,32." https://x.com/marketsday/status/2123698351036305764
+Link: https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/
+
+*4. VisionarIA 2026: el mayor foro de IA de la región, el lunes, en Montevideo.*
+Lo nuevo: Lunes 23 de noviembre en Flex Tres Cruces (Colonia 2235), de 8:00 a 18:30. Globant, Mercado Libre, Kaszek, dLocal, Santander y Genexus presentes. Martín Migoya, Gastón Milano, Oscar Mullin y Nicolás Jodal como expositores confirmados. 500 personas, entrada entre 200 y 400 dólares.
+Por qué te lo digo:
+• Es el evento más concreto de IA empresarial en Uruguay este año — los expositores son los que ya implementaron IA en empresas reales de la región, no teoría.
+Link: https://www.elobservador.com.uy/cafe-y-negocios/el-foro-internacional-visionaria-2026-reune-montevideo-referentes-la-inteligencia-artificial-la-region-n6064277
+
+*Oportunidad del día*
+La señal: OpenAI bajó el costo de un agente de voz a $0,02 por minuto de espera. Construir un bot telefónico en español ya no cuesta más de $12 por día para una línea de 8 horas activa.
+La puerta: Veterinarias, farmacias, distribuidoras y clínicas medianas (5-50 personas) en Uruguay que reciben 20 o más llamadas repetidas por día — precios, horarios, estados de pedido. El que lo siente es el recepcionista o el dueño que atiende el teléfono mientras trata de hacer otra cosa.
+La frase para abrir: "¿Cuántas llamadas les llegan por semana preguntando lo mismo?"
+
+Informe completo: https://roraag.github.io/daily-ia-news/archive/2026-11-20.html

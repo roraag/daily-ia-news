@@ -216,7 +216,8 @@
     "2026-11-16",
     "2026-11-17",
     "2026-11-18",
-    "2026-11-19"
+    "2026-11-19",
+    "2026-11-20"
   ],
   "recent_titles": [
     "Tau Robotics cobra 60 dólares semanales por mandar un humano a pilotar un robot humanoide a tu casa",
@@ -251,7 +252,12 @@
     "El agente de Meta leyó tus mensajes de Signal. Sin que lo habilitaras.",
     "Nvidia le cierra las puertas a China: USD 2.400 millones por trimestre que ya no van",
     "Nadella en Ignite: Copilot ya no es asistente, es el sistema operativo del trabajo",
-    "Epic bajo presión antimonopolio: prometió abrir sus datos a la IA. HIPAA también se moderniza."
+    "Epic bajo presión antimonopolio: prometió abrir sus datos a la IA. HIPAA también se moderniza.",
+    "Anthropic ANT cerró a $97. El mundo celebra. Asia tiene miedo.",
+    "Meta Muse le mostró a un empleado el saldo bancario de otro. Y mensajes de Signal.",
+    "Apple empieza a construir su agente para la Mac y blinda la puerta a los rivales",
+    "OpenAI abre GPT-Live-1.1 a la API: voz natural para todos, standby al 60% más barato",
+    "El gasto en IA de salud llegó a 3.700 millones. Los scribes independientes están perdiendo."
   ],
   "days": {
     "2026-04-17": {
@@ -2653,6 +2659,18 @@
       ],
       "main_authors": [],
       "tesis": "El mayor IPO de la historia cotiza hoy: Anthropic abre en Nasdaq como $ANT a $83 por acción, con $81.300 millones recaudados."
+    },
+    "2026-11-20": {
+      "count": 5,
+      "sources": [
+        "aljazeera.com",
+        "techcrunch.com",
+        "techcrunch.com",
+        "community.openai.com",
+        "globenewswire.com"
+      ],
+      "main_authors": [],
+      "tesis": "El día después del mayor IPO de la historia, el mercado responde con una pregunta incómoda: ¿vale realmente lo que decimos que vale?"
     }
   }
 }
