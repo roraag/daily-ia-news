@@ -217,12 +217,10 @@
     "2026-11-17",
     "2026-11-18",
     "2026-11-19",
-    "2026-11-20"
+    "2026-11-20",
+    "2026-11-21"
   ],
   "recent_titles": [
-    "Tau Robotics cobra 60 dólares semanales por mandar un humano a pilotar un robot humanoide a tu casa",
-    "Los demócratas ganaron el Congreso y el IPO de Anthropic aterrizó en el peor momento posible",
-    "EE.UU. acusó a una ejecutiva de Singapur de espiar al CEO de Nvidia para China",
     "NEJM AI publicó el primer ensayo aleatorio de predicción de riesgo autoinmune",
     "Los solopreneurs americanos facturan seis cifras solos. Con IA como staff.",
     "Perplexity lanzó Teammates: agentes persistentes que gestionan proyectos sin que nadie los llame",
@@ -257,7 +255,12 @@
     "Meta Muse le mostró a un empleado el saldo bancario de otro. Y mensajes de Signal.",
     "Apple empieza a construir su agente para la Mac y blinda la puerta a los rivales",
     "OpenAI abre GPT-Live-1.1 a la API: voz natural para todos, standby al 60% más barato",
-    "El gasto en IA de salud llegó a 3.700 millones. Los scribes independientes están perdiendo."
+    "El gasto en IA de salud llegó a 3.700 millones. Los scribes independientes están perdiendo.",
+    "Un matemático de Anthropic y Claude demostraron la hipótesis de Riemann",
+    "ANT se fue al piso en día 2. El Nasdaq borró todas las ganancias de 2026.",
+    "Alguien sembró 2 millones de trampas en la cadena de suministro de IA",
+    "La ONU negoció cinco días sobre robots asesinos autónomos sin acuerdo",
+    "Los chatbots de salud mental con IA no sirvieron para ansiedad ni depresión perinatal"
   ],
   "days": {
     "2026-04-17": {
@@ -2671,6 +2674,18 @@
       ],
       "main_authors": [],
       "tesis": "El día después del mayor IPO de la historia, el mercado responde con una pregunta incómoda: ¿vale realmente lo que decimos que vale?"
+    },
+    "2026-11-21": {
+      "count": 5,
+      "sources": [
+        "newscientist.com",
+        "cnbc.com",
+        "arstechnica.com",
+        "apnews.com",
+        "2minutemedicine.com"
+      ],
+      "main_authors": [],
+      "tesis": "El día después del mayor IPO de la historia, la hipótesis de Riemann cayó. El mercado y la ciencia están evaluando a Anthropic con instrumentos completamente distintos, y ninguno está equivocado todavía."
     }
   }
 }

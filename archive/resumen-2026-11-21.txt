@@ -1,0 +1,41 @@
+*1. Claude co-piloteó la primera demostración de la hipótesis de Riemann*
+Lo nuevo: Levent Alpöge, matemático de Anthropic, publicó 175.000 archivos en Lean que formalizan la prueba de un problema sin resolver desde 1859. Scientific American lo describe como "casi certero." El mismo viernes, otro matemático sin filiación a un lab de IA reclamó su propia demostración independiente.
+Por qué te lo digo:
+• Si Claude puede ampliar la capacidad de razonamiento de un matemático de frontera, puede hacer lo mismo con un analista de riesgo sanitario en ASESP — el mecanismo es el mismo, la escala es distinta.
+Qué dice X:
+• @DeItaone (Walter Bloomberg — titulares de mercado): "$ANT - MATEMÁTICO DE ANTHROPIC AFIRMA QUE CLAUDE RESOLVIÓ LA HIPÓTESIS DE RIEMANN, DE 167 AÑOS. La demostración propuesta se formalizó en Lean." https://x.com/DeItaone/status/2123795923322966323
+• @Hesamation (escéptico · comunidad IA): "Todavía es una afirmación sin verificación independiente completa." https://x.com/Hesamation/status/2123792721848742034
+Link: https://www.newscientist.com/article/anthropic-mathematician-claims-ai-assisted-proof-of-the-riemann-hypothesis/
+
+*2. ANT se fue al piso en día 2: a cinco centavos del precio de IPO*
+Lo nuevo: Anthropic cerró el viernes a $88,91, cayendo 8,5% en el día. En el intradiario tocó $83,05 — a cinco centavos de su precio de salida ($83). Goldman Sachs activó la opción de estabilización casi de inmediato. Quien compró en la apertura del jueves ($111,50) tiene una pérdida de ~20% en 48 horas.
+Por qué te lo digo:
+• Si la valuación de los labs cae, el incentivo de subir precios de acceso también se reduce — el período de acceso barato a herramientas de frontera podría extenderse. Para ASESP: no hay urgencia de cerrar contratos enterprise ahora.
+Qué dice X:
+• @HedgieMarkets (mercados / mecanismos IPO): "El banco de Anthropic tenía 30 días para mantener abierta la opción de estabilización y la ejecutó después de un día." https://x.com/HedgieMarkets/status/2123954287571034352
+• @VistaLabs_Web3 (análisis financiero): "Anthropic quedó a cinco centavos de su precio de IPO de US$83 el viernes. Cayó 8,5% en el día, frente a una baja de 5,3% del Nasdaq Composite." https://x.com/VistaLabs_Web3/status/2124040976574648637
+• @MTLabResearch (escéptico · análisis post-IPO): "El que compró en la apertura de la IPO pagó US$111,50. Un día después tocó US$83,05." https://x.com/MTLabResearch/status/2123944975595606035
+Link: https://www.cnbc.com/2026/11/20/tech-wreck-drags-anthropic-into-the-red-on-its-second-day-of-trading.html
+
+*3. 2 millones de trampas en la cadena de IA: tres proveedores filtraron datos*
+Lo nuevo: HD Moore — creador de Metasploit — sembró ~2 millones de "canary prompts" en la cadena de suministro de IA entre julio y noviembre. Tres proveedores los activaron, confirmando brechas activas. El modo "Zero Data Retention" — el que promete no guardar tus datos — falló en al menos un caso verificado.
+Por qué te lo digo:
+• Cualquier consulta con datos clínicos de socias de ASESP que haya pasado por un chatbot sin ZDR verificado está potencialmente expuesta — y la Ley 18.331 uruguaya aplica aunque HIPAA no lo haga. Preguntarle al proveedor "¿qué hacés con mis datos?" ya no es paranoico: es el mínimo exigible.
+Qué dice X:
+• @AviPilcer (seguridad / investigación): "Cinco meses de seguimiento de canary tokens, de julio a noviembre de 2026, ya comunicados a una docena de proveedores." https://x.com/AviPilcer/status/2124053178723295531
+• @runZeroInc (empresa de seguridad, runZero): "Sembrar ~2M canary prompts dejó al descubierto brechas en proveedores y fallas en controles de privacidad/ZDR." https://x.com/runZeroInc/status/2123441344135708709
+• @WolverineResist (escéptico · reclamo de regulación): "Salió a la luz un desastre de privacidad. EE.UU. necesita protecciones de privacidad. Para ayer." https://x.com/WolverineResist/status/2124013639908684183
+Link: https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-unknown-number-of-providers/
+
+*4. Chatbots de IA para ansiedad perinatal: sin beneficio en ensayo clínico*
+Lo nuevo: Un ensayo clínico aleatorio publicado el 20 de noviembre evaluó chatbots de IA para ansiedad y depresión durante el embarazo y el posparto y no encontró beneficio estadísticamente significativo. La GAO publicó el mismo día brechas regulatorias y de seguridad en los chatbots de salud mental disponibles hoy en EE.UU. La AMA pidió leyes para proteger a médicos de demandas por recomendaciones de IA que salen mal.
+Por qué te lo digo:
+• Antes de que ASESP adopte cualquier chatbot de apoyo emocional para socias, la pregunta clave no es "¿usa IA?" sino "¿qué protocolo clínico valida el flujo de conversación?". Los que sí muestran resultados tienen CBT específico detrás — no son wrappers de ChatGPT con nombre de salud mental.
+Link: https://www.2minutemedicine.com/ai-health-chatbot-shows-no-benefit-for-perinatal-anxiety-or-depression/
+
+*Oportunidad del día*
+La señal: La investigación de Dragos mostró que proveedores de IA filtran datos de usuarios incluso en modo "Zero Data Retention." Para cualquier pyme que usa ChatGPT o Claude con datos de clientes, el nivel de riesgo acaba de tener un número: al menos 3 proveedores confirmados con brechas activas.
+La puerta: Estudios contables, asesorías legales o distribuidoras uruguayas de entre 10 y 50 personas que ya usan IA en su flujo de trabajo sin haber auditado qué datos se van a dónde. El que lo siente cuando aparece el problema es el dueño o el socio responsable — siempre después de que ya pasó.
+La frase para abrir: "¿Alguien en tu empresa sabe exactamente qué datos le estás mandando a tus herramientas de IA?"
+
+Informe completo: https://roraag.github.io/daily-ia-news/archive/2026-11-21.html
