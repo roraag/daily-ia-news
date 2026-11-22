@@ -6,10 +6,10 @@ type: project
 
 Proyecto en /home/openclaw/DAILY-IA-NEWS. Pipeline corre vía scheduled task (Claude).
 
-**Último día generado:** 2026-11-12
-**Ruta del archivo:** /home/openclaw/DAILY-IA-NEWS/archive/2026-11-12.html
+**Último día generado:** 2026-11-22
+**Ruta del archivo:** /home/openclaw/DAILY-IA-NEWS/archive/2026-11-22.html
 **index.html actualizado:** sí
 
-**Por qué:** actualización de estado post-generación del día 2026-11-12.
+**Por qué:** actualización de estado post-generación del día 2026-11-22.
 
 **How to apply:** usar como referencia para saber qué día fue el último generado antes de cada nueva corrida.

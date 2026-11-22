@@ -218,14 +218,10 @@
     "2026-11-18",
     "2026-11-19",
     "2026-11-20",
-    "2026-11-21"
+    "2026-11-21",
+    "2026-11-22"
   ],
   "recent_titles": [
-    "NEJM AI publicó el primer ensayo aleatorio de predicción de riesgo autoinmune",
-    "Los solopreneurs americanos facturan seis cifras solos. Con IA como staff.",
-    "Perplexity lanzó Teammates: agentes persistentes que gestionan proyectos sin que nadie los llame",
-    "Jensen Huang bajo investigación del directorio de Nvidia por una relación con una presunta espía china",
-    "Anthropic arranca el roadshow del IPO la semana del 16 con 3.400 millones en gas natural",
     "Apple trabaja en secreto en Siri agéntico para 2027. Dos mil millones de dispositivos como palanca.",
     "La AHA demostró algo incómodo: incluso con IA, los fármacos siguen fallando",
     "Elvis y Eminem le presentan la factura a Suno. 60.202 grabaciones. Más de 41 millones de dólares.",
@@ -260,7 +256,13 @@
     "ANT se fue al piso en día 2. El Nasdaq borró todas las ganancias de 2026.",
     "Alguien sembró 2 millones de trampas en la cadena de suministro de IA",
     "La ONU negoció cinco días sobre robots asesinos autónomos sin acuerdo",
-    "Los chatbots de salud mental con IA no sirvieron para ansiedad ni depresión perinatal"
+    "Los chatbots de salud mental con IA no sirvieron para ansiedad ni depresión perinatal",
+    "Inkling 2 Mini: el modelo de Mira Murati que piensa en loop y corre en tu laptop",
+    "OpenAI admite que sus agentes completan el 46% de las tareas de investigación de 2-4 horas",
+    "¿Anthropic se convierte en OpenAI? La pregunta llegó el tercer día post-IPO",
+    "Databricks negocia los $225.000 millones: la infraestructura de datos vale más que un banco",
+    "Signal le bloquea la pantalla a los agentes de IA. Y dice que es una guerra existencial.",
+    "En industrias reguladas, desplegar IA sin certeza equivale a asumir riesgo puro"
   ],
   "days": {
     "2026-04-17": {
@@ -2686,6 +2688,19 @@
       ],
       "main_authors": [],
       "tesis": "El día después del mayor IPO de la historia, la hipótesis de Riemann cayó. El mercado y la ciencia están evaluando a Anthropic con instrumentos completamente distintos, y ninguno está equivocado todavía."
+    },
+    "2026-11-22": {
+      "count": 6,
+      "sources": [
+        "venturebeat.com",
+        "thenextweb.com",
+        "npr.org",
+        "thenextweb.com",
+        "techcrunch.com",
+        "hbr.org"
+      ],
+      "main_authors": [],
+      "tesis": "Tres movimientos en paralelo: los modelos caben en una laptop, los agentes completan el 46% del trabajo de investigación, y la empresa que fundó la industria de la IA segura enfrenta acusaciones de haber capturado el ecosistema que debía controlarla."
     }
   }
 }

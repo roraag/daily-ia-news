@@ -1,0 +1,46 @@
+*1. Inkling 2 Mini: el modelo de Mira Murati que piensa en loop y corre en tu laptop*
+Lo nuevo: Thinking Machines lanzó un modelo de 26.000 millones de parámetros que corre en MacBook Pro de 32 GB o en AWS spot a $2 la hora. SWE-bench Verified: 79,2%. Apache 2.0, $0,15/$0,50 por millón de tokens. Murati fue CTO de OpenAI; la empresa recaudó $2.000 millones de seed a valuación de $12.000 millones.
+Por qué te lo digo:
+• Una pyme uruguaya con política de no mandar datos al exterior puede correr Inkling 2 Mini en servidores propios sin dependencia de API externa — en ASESP, mismo argumento para datos clínicos sensibles: "IA en tus servidores, con tus datos, sin salir de acá."
+Qué dice X:
+• @miramurati (CEO, Thinking Machines): "Inkling 2 Mini corre en una laptop. El looping le permite pensar más y escribir menos. A esta escala su proceso sigue siendo monitoreable; puede que eso no siga siendo así." https://x.com/miramurati/status/2123872534970208421
+• @thinkymachines (cuenta oficial): "26B de parámetros, lo bastante chico para correr en tu laptop y lo bastante potente para trabajo agéntico, con 20.1 en el AA Index." https://x.com/thinkymachines/status/2123871643797995872
+• @aakashgupta (escéptico, analista de producto): "El modelo hace la mayor parte del razonamiento en la cabeza y anota menos de la mitad. Leer lo que escribe mientras razona es la forma principal en que los labs detectan comportamiento sospechoso." https://x.com/aakashgupta/status/2124129705481982340
+Link: https://venturebeat.com/technology/thinking-machines-wows-with-inkling-2-mini-looped-transformer-model-that-runs-locally-on-laptops/
+
+*2. Los agentes de OpenAI completan el 46% de las tareas de investigación de 2-4 horas*
+Lo nuevo: Completitud pasó de 23% en marzo a 46% en octubre 2026. El uso creció 11x en nueve meses. El gasto mediano por investigador llegó a $2.400 por día. Las capacidades no son uniformes: monitorear corridas llega al 79%; código de inferencia, solo al 25%.
+Por qué te lo digo:
+• Distribuidoras o consultoras uruguayas de 20-100 personas que hacen due diligence manual pueden empezar a delegar hoy la búsqueda de normativas y análisis de proveedores. Para ASESP, aplica directo a procesos de evaluación pre-licitación.
+Qué dice X:
+• @OpenAI (cuenta oficial): "El uso de IA por los investigadores sigue creciendo exponencialmente y los agentes completan tareas más largas, pero la participación humana sigue siendo central." https://x.com/OpenAI/status/2123191365983248653
+• @IRahulPaliwal (escéptico, análisis de datos): "Las mejoras no son parejas. Monitorear corridas: 79%; código de inferencia: 25%. Los agentes la rompen en loops estructurados pero todavía les cuesta la arquitectura compleja." https://x.com/IRahulPaliwal/status/2124119164579434642
+Link: https://thenextweb.com/news/openai-research-agents-46-percent-tasks-2400-a-day-jagged-frontier
+
+*3. ¿Anthropic se convirtió en OpenAI? El tercer día post-IPO llegó con acusación formal*
+Lo nuevo: El "MisAnthropic Statement" firmado por Dan Hendrycks (ex director CAIS), Max Tegmark y una coalición de organizaciones acusa a Anthropic de usar el branding de seguridad para captar inversores mientras construye IA recursivamente auto-mejorable. ANT abrió en $111 el 19 de noviembre y hoy cotiza alrededor de $88 (-20% desde apertura). Los fundadores controlan el 50,1% del voto; Dario Amodei no respondió públicamente.
+Por qué te lo digo:
+• En ASESP, la pregunta "¿confiamos en el proveedor de IA?" no tiene respuesta técnica — tiene respuesta de gobernanza. Hoy ese problema quedó visible en el mayor IPO de la historia del sector: quién audita al auditor.
+Qué dice X:
+• @CAIS (Center for AI Safety): "Una coalición rara que cruza seguridad de IA, open source, e/acc, ciencia y derecho firmó el MisAnthropic Statement antes del IPO de Anthropic." https://x.com/CAIS/status/2123069814663160304
+• @tegmark (escéptico, físico MIT): "Firmé porque creo que Anthropic es en muchos aspectos la empresa de IA que más daño está haciendo. En público sus líderes advierten sobre la IA recursiva; en privado se la venden a inversores." https://x.com/tegmark/status/2123079474639962552
+• @hendrycks (escéptico, ex director CAIS): "Varias organizaciones de seguridad nos dijeron en privado que acordaban, pero no podían firmar sin arriesgar financiamiento. Anthropic casi capturó el ecosistema creado para auditarla." https://x.com/hendrycks/status/2123070133522350176
+• @GaryMarcus (NYU emérito): "Otra decisión donde la codicia de corto plazo pesó más." https://x.com/GaryMarcus/status/2124305763539828846
+Link: https://www.npr.org/2026/11/21/nx-s1-6048678/anthropic-ipo-mission-ai-safety
+
+*4. Signal le bloqueó la pantalla a los agentes de IA. Y dice que es una guerra existencial.*
+Lo nuevo: Signal restringió por defecto las capturas de pantalla en iOS 27 y Android reciente para impedir que los agentes de IA del sistema operativo lean el contenido de los chats. La presidenta Meredith Whittaker llamó a los OS con IA agéntica integrada "amenaza existencial" para las comunicaciones privadas. Es el mismo movimiento que hicieron contra Microsoft Recall.
+Por qué te lo digo:
+• Para ASESP y cualquier empresa uruguaya que usa Signal, WhatsApp o Telegram para información confidencial: si el teléfono tiene un agente de IA activado en el OS, ya no hay garantía de privacidad en la capa de apps. Vale documentarlo como riesgo en las políticas de uso de dispositivos antes de adoptar iOS 27 o Android agéntico.
+Qué dice X:
+• @michaelbeal1 (tech analyst): "Signal bloqueó las capturas de pantalla por defecto. La razón son los agentes de IA integrados en iOS 27 y Android — es la misma jugada que contra Microsoft Recall." https://x.com/michaelbeal1/status/2124297887978828178
+• @mer__edith (Meredith Whittaker, presidenta de Signal): "¿Por qué no metemos IA en Signal? Porque amamos la privacidad, y esto es predecible e inaceptable." https://x.com/mer__edith/status/1935610323207074025
+• @kuriharan (escéptico, privacidad digital): "Los agentes de IA 'miradores' son hostiles a la privacidad, dice Whittaker — y Signal bloquea las capturas. ¿Cuánto tiempo antes de que los OS encuentren la vuelta?" https://x.com/kuriharan/status/2124401242046656684
+Link: https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/
+
+*Oportunidad del día*
+La señal: Los agentes de OpenAI completan el 46% de las tareas de investigación de 2-4 horas de forma autónoma. El gasto mediano por investigador de IA pasó de $1.500 a $2.400 por día en dos meses. El trabajo de búsqueda intensiva ya tiene precio de API — y es barato si lo comparás con un analista a sueldo.
+La puerta: Importadoras, distribuidoras o estudios de crédito uruguayos con 20 a 100 personas que hacen due diligence manual antes de cerrar tratos con proveedores o clientes nuevos. Lo hace alguien del área comercial o el gerente: media jornada por cliente, mal documentado, decisión a intuición. El que lo siente es el gerente comercial.
+La frase para abrir: "¿Cuánto tiempo les lleva hacer el due diligence de un proveedor nuevo antes de decidir si trabajar con él?"
+
+Informe completo: https://roraag.github.io/daily-ia-news/archive/2026-11-22.html
