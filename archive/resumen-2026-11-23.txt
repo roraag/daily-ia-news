@@ -1,0 +1,43 @@
+*1. Dragos plantó 2 millones de señuelos en APIs de IA. Tres proveedores estuvieron comprometidos meses sin saberlo.*
+Lo nuevo: Dragos sembró credenciales falsas y URLs rastreables en servicios de IA de julio a noviembre 2026 y confirmó tres proveedores breacheados (Phala, Together AI y Novita). Los flags de Zero Data Retention fueron ignorados durante hasta 4 meses. OpenRouter bajó 3 providers y eliminó 125 endpoints ZDR el 22 de noviembre.
+Por qué te lo digo:
+• Una distribuidora o estudio contable uruguayo que usa chatbot tercerizado para armar presupuestos o manejar listas de clientes está asumiendo un riesgo que no midió. Para ASESP: si algún proveedor de IA clínica usa un router o revendedor, esto aplica directo. La pregunta que abre conversación es "¿Saben a qué empresa intermedia termina llegando lo que le mandan a la IA?"
+Qué dice X:
+• @hdmoore (investigador Dragos, autor del estudio): "We seeded 2m canaries into popular AI services and tracked where they were stolen and abused. This identified: Three compromised providers, resellers stealing prompts via built-in logging, providers ignoring ZDR & privacy flags." https://x.com/hdmoore/status/2123451306685661416
+• @ryanaraine (periodista de seguridad): "What we found revealed security breaches, prompt theft, and widespread failures to protect customer data." https://x.com/ryanaraine/status/2123445542747598867
+• @thecybersecguru (escéptico · seguridad): "BREAKING: OpenRouter advierte que los prompts privados de sus usuarios pueden haber sido leídos por terceros, incluso en endpoints etiquetados como Zero Data Retention." https://x.com/thecybersecguru/status/2124051200475549837
+Link: https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html
+
+*2. OpenAI propone límites de velocidad para toda la industria. Altman dice que es "lo más importante que publicamos en mucho tiempo."*
+Lo nuevo: Jakub Pachocki, científico jefe de OpenAI, propone usar "perplejidad" como métrica compartida entre labs para definir cuándo frenar el desarrollo hasta tener supervisión adecuada. OpenAI la viene midiendo desde GPT-3.5 y la publica por primera vez hoy. Advertencia del propio Pachocki: en 2027 la IA podría empezar a mejorar su propio entrenamiento, superando la capacidad de vigilancia actual antes de que los límites puedan establecerse.
+Por qué te lo digo:
+• Si los labs acuerdan límites formales, el roadmap de modelos clínicos se vuelve más predecible — lo que fortalece el argumento para invertir en integración de largo plazo en ASESP. Para pymes: un límite acordado reduce el riesgo de que el modelo sobre el que construiste desaparezca o cambie radicalmente de precio de golpe.
+Qué dice X:
+• @sama (Sam Altman, CEO OpenAI): "This is the most important thing OpenAI has published in awhile. We are providing a lot of transparency into our pretraining progress and hope we can agree as a field to common limits. I think that would be very wise and help ensure safety and control." https://x.com/sama/status/2124551594691932405
+• @Ananth7e (escéptico · análisis IA): "openai wants to slow down AI progress. openai says no lab has solved alignment and monitoring well enough to keep scaling at maximum speed for much longer — y advierte que la IA podría mejorar su propio entrenamiento en 2027." https://x.com/Ananth7e/status/2096676301423935806
+Link: https://thenextweb.com/news/openai-chief-scientist-shared-ai-limits
+
+*3. Trump y Xi acordaron que la IA no dispara sola. Bessent lo confirmó desde Shenzhen.*
+Lo nuevo: Al margen del APEC en Shenzhen (20/11), Trump y Xi establecieron que las decisiones militares mayores con IA requieren presencia humana. Es el primer acuerdo bilateral EE.UU.-China sobre gobernanza de IA en contexto militar. Sin mecanismo de verificación anunciado. Bessent aclaró que el acuerdo no afecta la competencia tecnológica entre los dos países.
+Por qué te lo digo:
+• En industrias reguladas, estos acuerdos suelen preceder a regulaciones sectoriales de "human in the loop". Si el estándar en defensa es supervisión humana obligatoria, el de diagnóstico clínico irá por el mismo camino. Vale poner en el radar de gobernanza en ASESP cualquier proyecto de IA médica donde hoy la supervisión humana es voluntaria.
+Link: https://www.militarytimes.com/news/pentagon-congress/2026/11/20/trump-xi-agreed-that-military-ai-decisions-should-involve-humans-bessent-says/
+
+*4. El CEO de Novartis le dijo a Amodei que no: la IA no cura el cáncer en diez años.*
+Lo nuevo: Vas Narasimhan (Novartis, USD 265.000 millones de capitalización) respondió directamente a Amodei y Hassabis: la ciencia conoce "el 5% de lo que pasa en el cuerpo humano." IA reduce el desarrollo de fármacos de 12 a 8 años — no a 2. Los ensayos clínicos llevan tiempo real independientemente del modelo.
+Por qué te lo digo:
+• Para ASESP: el timeframe realista para nuevos fármacos con IA en el pipeline es 5-8 años, no 2. Eso es lo que vale meterle a las decisiones de integración de IA clínica hoy — el hype de "cura todo en 2034" no sirve para planificar.
+Link: https://www.gurufocus.com/news/9214355/novartis-ceo-disputes-ais-role-in-cancer-cure-timeline
+
+*5. VisionarIA 2026 arranca hoy en Montevideo. 500 personas pagaron para hablar de IA en serio.*
+Lo nuevo: El foro VisionarIA 2026 se realiza hoy, lunes 23 de noviembre, en Flex Tres Cruces (Colonia 2235, Montevideo), 8:00 a 18:30. 500 asistentes, oradores de Globant, Mercado Libre, Kaszek, dLocal, Santander y Genexus. Sesiones por industria: agro, salud, banca, marketing, ciudades, proptech. Entradas entre USD 200 y USD 400.
+Por qué te lo digo:
+• Que haya 500 personas en Montevideo pagando hoy para hablar de implementación de IA — con casos reales de LATAM, no demos de Silicon Valley — es señal de ecosistema. Para pymes que quieren entender el mercado local: hay demanda real, y los speakers son referentes de empresas que ya lo hicieron.
+Link: https://www.elobservador.com.uy/cafe-y-negocios/el-foro-internacional-visionaria-2026-reune-montevideo-referentes-la-inteligencia-artificial-la-region-n6064277
+
+*Oportunidad del día*
+La señal: Dragos plantó 2 millones de prompts-señuelo en servicios de IA entre julio y noviembre de 2026 y encontró tres proveedores comprometidos durante meses — datos de clientes robados incluso de endpoints con promesa de "sin almacenamiento". OpenRouter bajó 3 providers el 22 de noviembre. El riesgo no es hipotético: ya pasó, en escala, sin que los proveedores lo supieran.
+La puerta: Estudios contables, distribuidoras o empresas de servicios de 20 a 150 personas en Uruguay que usan IA vía un revendedor o plataforma de chatbot tercerizada para manejar presupuestos, listas de clientes, contratos o mails de cotización. El que sufre es el dueño — cuando llega a saber que lo que mandó al chatbot pasó por tres empresas distintas antes de llegar al modelo.
+La frase para abrir: "¿Saben a qué empresa intermedia termina llegando lo que le mandan a la IA?"
+
+Informe completo: https://roraag.github.io/daily-ia-news/archive/2026-11-23.html

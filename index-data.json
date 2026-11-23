@@ -219,19 +219,10 @@
     "2026-11-19",
     "2026-11-20",
     "2026-11-21",
-    "2026-11-22"
+    "2026-11-22",
+    "2026-11-23"
   ],
   "recent_titles": [
-    "Apple trabaja en secreto en Siri agéntico para 2027. Dos mil millones de dispositivos como palanca.",
-    "La AHA demostró algo incómodo: incluso con IA, los fármacos siguen fallando",
-    "Elvis y Eminem le presentan la factura a Suno. 60.202 grabaciones. Más de 41 millones de dólares.",
-    "15 sistemas de salud americanos cerraron deals enterprise de IA en 2026",
-    "Anthropic lanza Fable 5.2 y Mythos 5.2: el modelo que no podés pedir",
-    "OpenAI construyó un freno de mano para sus agentes en 35 segundos",
-    "Meta Muse Ember: el modelo a 10 centavos que le pega a Haiku",
-    "El directorio de Nvidia en manos del directorio por una presunta espía china",
-    "Australia crea un regulador de IA con poder sancionatorio. El primer hack lo obligó.",
-    "Doximity ya está en 190 sistemas de salud americanos",
     "Anthropic arranca el IPO mientras le pelea el escritorio a Microsoft",
     "OpenAI facturó 10.000 millones el último trimestre. Y siguió perdiendo más de lo que gana.",
     "DeepMind le demostró matemáticamente a 2.000 millones de personas que Signal es seguro",
@@ -262,7 +253,11 @@
     "¿Anthropic se convierte en OpenAI? La pregunta llegó el tercer día post-IPO",
     "Databricks negocia los $225.000 millones: la infraestructura de datos vale más que un banco",
     "Signal le bloquea la pantalla a los agentes de IA. Y dice que es una guerra existencial.",
-    "En industrias reguladas, desplegar IA sin certeza equivale a asumir riesgo puro"
+    "En industrias reguladas, desplegar IA sin certeza equivale a asumir riesgo puro",
+    "Tres proveedores de inferencia estuvieron comprometidos meses sin que nadie lo supiera",
+    "OpenAI le pone límite a cuánto puede razonar y cuándo lo dice",
+    "Trump y Xi acordaron que la IA no aprieta el gatillo sola",
+    "El CEO de Novartis: la IA no cura el cáncer en diez años"
   ],
   "days": {
     "2026-04-17": {
@@ -2701,6 +2696,17 @@
       ],
       "main_authors": [],
       "tesis": "Tres movimientos en paralelo: los modelos caben en una laptop, los agentes completan el 46% del trabajo de investigación, y la empresa que fundó la industria de la IA segura enfrenta acusaciones de haber capturado el ecosistema que debía controlarla."
+    },
+    "2026-11-23": {
+      "count": 4,
+      "sources": [
+        "thehackernews.com",
+        "thenextweb.com",
+        "militarytimes.com",
+        "gurufocus.com"
+      ],
+      "main_authors": [],
+      "tesis": "OpenAI pidió límites. Trump y Xi acordaron que la IA no dispara sola. Tres proveedores de inferencia estuvieron comprometidos meses sin que nadie lo supiera. El CEO de Novartis le dijo a Amodei que no, que la IA no cura el cáncer en diez años."
     }
   }
 }
