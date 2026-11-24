@@ -1,0 +1,47 @@
+*1. Claude Ship: el agente que aprueba el merge sin que vos lo pedís*
+Lo nuevo: Anthropic lanzó tres agentes que revisan, corrigen y aprueban pull requests en GitHub — Code Review (disponible), PR Steward y Claude Approvals (beta). Disponible en planes Team y Enterprise. Tests internos: más del doble de PRs mergeados y 40% menos de reverts.
+Por qué te lo digo:
+• Una distribuidora uruguaya con un desarrollador que revisa PRs manualmente puede usar Claude Ship como "tech lead automático" sin infraestructura propia. La pregunta rentable para ese cliente: ¿cuánto tiempo se pierde esperando aprobación antes de que un cambio llegue a producción?
+Qué dice X:
+• @bcherny (Boris Cherny, creador de Claude Code): "Hace un año lanzamos el primer modelo que escribió el 100% de mi código. Mandar PRs no le siguió el ritmo. Hoy lanzamos Claude Ship. No me imagino shippear sin él." https://x.com/bcherny/status/2124961485801836573
+• @addyosmani (Addy Osmani, Google Chrome DevRel): "Claude Ship puede llevar un PR por todo el ciclo: revisión, correcciones y una decisión de aprobación basada en la política del equipo." https://x.com/addyosmani/status/2124960211287101656
+• @TheAnkurTyagi (escéptico, developer): "Claude revisa su propio código buscando errores en su propia lógica — y no encuentra nada porque está mirando un espejo. Imaginá ese crash a las 3 AM." https://x.com/TheAnkurTyagi/status/2031240035022807382
+Link: https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/
+
+*2. OpenAI les paga 8.000 dólares por mes a expertos para llevar IA a las pymes*
+Lo nuevo: OpenWorks financia consultores locales que implementan IA en pequeñas empresas de EE.UU. — las pymes no pagan nada. Piloto en 20 ciudades con 3 meses de ChatGPT Business gratis y un consultor dedicado. Los partners pueden ganar hasta 8.000 dólares por mes y mantener otros clientes en paralelo.
+Por qué te lo digo:
+• En Uruguay, OpenWorks no existe pero el modelo sí. Alguien que haga eso para 20 pymes en Montevideo puede cobrar más que 8.000 dólares por mes sin ceder margen a OpenAI. El "saber cómo" de los 90 días de implementación — eso es el producto.
+Qué dice X:
+• @richtosho (Tosho, tech analyst): "OpenWorks Partners trabajan codo a codo con los dueños. Consultoría gratuita para la pyme, pagada por OpenAI — muy en línea con la idea de Company of One." https://x.com/richtosho/status/2124980977931878527
+• @beijingdou (Josh Ong, periodista tech): "El programa OpenWorks de OpenAI les paga a expertos locales en IA hasta 8.000 dólares por mes para ayudar a pequeñas empresas." https://x.com/beijingdou/status/2124994067578683766
+• @BrianRoemmele (escéptico, empresario tech): "HASTA 8.000 DÓLARES O HASTA MUCHO MÁS. Elegí. El programa es real — la pregunta es si vale la pena ceder el margen." https://x.com/BrianRoemmele/status/2125010342359302271
+Link: https://openai.com/index/openworks/
+
+*3. Sierra factura 400 millones cobrando por resultado. La valuaron en 30.000 millones.*
+Lo nuevo: La empresa de CX con IA de Bret Taylor cerró 1.750 millones en Serie F, duplicando su valuación a 30.000 millones en seis meses. Sumó 150 millones de ARR solo en el tercer trimestre de 2026. Cobra por resultado: si el agente no resuelve el problema del cliente, no cobrás.
+Por qué te lo digo:
+• El "pago por resultado" es exactamente lo que un cliente pyme uruguayo le pediría a un consultor de IA. El mercado enterprise lo validó con 30.000 millones de dólares. La puerta: ofrecer ese modelo en Montevideo — no "te cobro 500 dólares por mes" sino "te cobro por consulta resuelta sin intervención humana". Es más difícil de vender pero genera más confianza y fideliza.
+Qué dice X:
+• @guillermoflor (Guillermo Flor, fundador e inversor): "Sierra acaba de levantar 1.750 millones con valuación de 30.000 millones. El ARR pasó los 400 millones dos años y medio después del lanzamiento y se duplicó en solo 5 meses." https://x.com/guillermoflor/status/2125189485142958288
+• @MechEconomy (escéptico, Machine Economy): "75 veces sobre ARR. El mercado apuesta a que el modelo de pago por resultado le quita market share al SaaS por asiento — en CX, rápido." https://x.com/MechEconomy/status/2124977898515751183
+Link: https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/
+
+*4. La IA redacta el informe radiológico y el radiólogo lo edita. Los datos de RSNA dicen que sale mejor.*
+Lo nuevo: Datos de 237.000 exámenes presentados en RSNA 2026. Borradores de IA en Rayos X tórax: 91,2% de error cero contra 83% de los informes humanos puros. Radiólogos que trabajaron con borradores de IA mejoraron su eficiencia 27% en CT y 31% en Rx.
+Por qué te lo digo:
+• En ASESP, si el servicio de imagenología implementa un modelo de visión-lenguaje para borradores de Rx de tórax, el radiólogo edita en lugar de dictar desde cero. No hace falta modelo propio — hay modelos preentrenados en radiología disponibles hoy. La negociación clave es con el Servicio de Radiología sobre quién controla el flujo del borrador y cómo se audita la calidad.
+Link: https://www.statnews.com/2026/11/24/does-radiology-ai-draft-reports-make-care-better-safer-rsna/
+
+*5. AGESIC presenta mañana la Estrategia Digital 2040. Con turbulencia interna adentro.*
+Lo nuevo: El 25 de noviembre AGESIC lanza la Estrategia Nacional de Transformación Digital 2040 en la Torre Ejecutiva (9:00 a 17:00, con transmisión en vivo). Ejes: ciudadanía digital, IA y datos, infraestructura pública, ciberseguridad. En paralelo, Búsqueda publicó la interna del organismo: tensiones, proyectos en pausa y una denuncia contra el "número cuatro de Presidencia".
+Por qué te lo digo:
+• Si ASESP quiere posicionarse en el mapa de salud digital del Estado — como proveedor o receptor de política pública — el evento de mañana define las prioridades de financiamiento y cooperación para los próximos años. Y si hay proyectos que dependen de articulación con AGESIC (historia clínica electrónica, identidad digital), la turbulencia interna cambia el timing de cualquier gestión.
+Link: https://dnegocios.uy/agesic-estrategia-transformacion-digital-2040/
+
+*Oportunidad del día*
+La señal: OpenWorks de OpenAI valida que hay negocio en "el experto de barrio en IA para pymes". Pagan hasta 8.000 dólares por mes en EE.UU. para hacer lo que cualquier persona con seis meses de práctica con LLMs podría hacer — y las pymes no pagan nada.
+La puerta: Distribuidoras, agencias de publicidad chicas (5-20 personas) y negocios de servicios en Montevideo que ya usan alguna herramienta de gestión (Odoo, Monday, Google Workspace) pero sin IA integrada. El que lo sufre es el dueño: hace tareas repetitivas con sus propias manos que un agente haría en segundos. No es el IT — es quien firma los cheques.
+La frase para abrir: "¿Cuántas horas a la semana pasás copiando información de un sistema a otro o respondiendo los mismos emails?"
+
+Informe completo: https://roraag.github.io/daily-ia-news/archive/2026-11-24.html

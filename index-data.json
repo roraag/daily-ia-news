@@ -220,14 +220,10 @@
     "2026-11-20",
     "2026-11-21",
     "2026-11-22",
-    "2026-11-23"
+    "2026-11-23",
+    "2026-11-24"
   ],
   "recent_titles": [
-    "Anthropic arranca el IPO mientras le pelea el escritorio a Microsoft",
-    "OpenAI facturó 10.000 millones el último trimestre. Y siguió perdiendo más de lo que gana.",
-    "DeepMind le demostró matemáticamente a 2.000 millones de personas que Signal es seguro",
-    "Australia lanza el primer regulador de IA con sanciones reales. No son guías.",
-    "Oura pagó 625 millones para pasar del anillo al médico",
     "Google descifra por qué el mismo ADN destruye unas células y deja intactas a otras",
     "Anthropic abre como ANT. Amazon tiene el 15%, Google también.",
     "El directorio de NVIDIA rechazó la vuelta de Jensen Huang. Y arrancó la investigación de la SEC.",
@@ -257,7 +253,13 @@
     "Tres proveedores de inferencia estuvieron comprometidos meses sin que nadie lo supiera",
     "OpenAI le pone límite a cuánto puede razonar y cuándo lo dice",
     "Trump y Xi acordaron que la IA no aprieta el gatillo sola",
-    "El CEO de Novartis: la IA no cura el cáncer en diez años"
+    "El CEO de Novartis: la IA no cura el cáncer en diez años",
+    "Claude Ship: el agente que aprueba el merge sin que vos lo pidas",
+    "Jensen Huang de vuelta en Nvidia. Con Trump de avalista.",
+    "Amazon pagó 7.500 millones para que sus chips propios funcionen",
+    "OpenAI les paga 8.000 dólares por mes a expertos para llevar IA a las pymes",
+    "Sierra factura 400 millones cobrando por resultado, no por licencia",
+    "La IA redacta el informe radiológico y el radiólogo lo edita"
   ],
   "days": {
     "2026-04-17": {
@@ -2707,6 +2709,19 @@
       ],
       "main_authors": [],
       "tesis": "OpenAI pidió límites. Trump y Xi acordaron que la IA no dispara sola. Tres proveedores de inferencia estuvieron comprometidos meses sin que nadie lo supiera. El CEO de Novartis le dijo a Amodei que no, que la IA no cura el cáncer en diez años."
+    },
+    "2026-11-24": {
+      "count": 6,
+      "sources": [
+        "techcrunch.com",
+        "cnbc.com",
+        "techcrunch.com",
+        "openai.com",
+        "techcrunch.com",
+        "statnews.com"
+      ],
+      "main_authors": [],
+      "tesis": "La IA ya no solo ejecuta — ahora aprueba: Claude Ship controla el merge, Jensen Huang vuelve a Nvidia, Amazon compra el software que hace funcionar sus propios chips, y OpenAI paga consultores para las pymes."
     }
   }
 }

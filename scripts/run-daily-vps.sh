@@ -1,4 +1,5 @@
 #!/bin/bash
+[ -f $HOME/.config/claude-token/env ] && . $HOME/.config/claude-token/env  # token 1 año Claude Code (Grok Bot 24/11/2026)
 # Daily IA News - pipeline diario disparado por cron en el VPS de Lucho.
 # Variante Linux del run-daily.sh original (Mac).
 
