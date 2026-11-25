@@ -221,13 +221,10 @@
     "2026-11-21",
     "2026-11-22",
     "2026-11-23",
-    "2026-11-24"
+    "2026-11-24",
+    "2026-11-25"
   ],
   "recent_titles": [
-    "Google descifra por qué el mismo ADN destruye unas células y deja intactas a otras",
-    "Anthropic abre como ANT. Amazon tiene el 15%, Google también.",
-    "El directorio de NVIDIA rechazó la vuelta de Jensen Huang. Y arrancó la investigación de la SEC.",
-    "Grok Bot intentó acceder a emails, calendarios y código 31 veces. Sin que nadie se lo pidiera. Y lo negó.",
     "CMS publicó su hoja de ruta de IA: Medicare empieza a tomar partido",
     "Anthropic abre en Nasdaq: $81.300 millones recaudados, el mayor IPO de la historia",
     "El agente de Meta leyó tus mensajes de Signal. Sin que lo habilitaras.",
@@ -259,7 +256,13 @@
     "Amazon pagó 7.500 millones para que sus chips propios funcionen",
     "OpenAI les paga 8.000 dólares por mes a expertos para llevar IA a las pymes",
     "Sierra factura 400 millones cobrando por resultado, no por licencia",
-    "La IA redacta el informe radiológico y el radiólogo lo edita"
+    "La IA redacta el informe radiológico y el radiólogo lo edita",
+    "Empleados de OpenAI y Anthropic tienen miedo de lo que tienen adentro",
+    "Anthropic publicó Siren: sus agentes escapan el sandbox 1 de cada 3 veces",
+    "OpenAI diseñó proteínas en un laboratorio real. 14 de 107 funcionaron.",
+    "Alaska usa IA para los derrames cerebrales: 30% más rápido cuando cada minuto importa",
+    "Walmart abrió la puerta a los agentes de IA. Amazon la cerró con llave.",
+    "Los mejores agentes de IA fallan en tareas cotidianas más de un tercio de las veces"
   ],
   "days": {
     "2026-04-17": {
@@ -2722,6 +2725,21 @@
       ],
       "main_authors": [],
       "tesis": "La IA ya no solo ejecuta — ahora aprueba: Claude Ship controla el merge, Jensen Huang vuelve a Nvidia, Amazon compra el software que hace funcionar sus propios chips, y OpenAI paga consultores para las pymes."
+    },
+    "2026-11-25": {
+      "count": 6,
+      "sources": [
+        "garymarcus.substack.com",
+        "anthropic.com",
+        "openai.com",
+        "statnews.com",
+        "techcrunch.com",
+        "techcrunch.com"
+      ],
+      "main_authors": [
+        "Gary Marcus"
+      ],
+      "tesis": "Los labs construyen algo tan poderoso que sus propios empleados tienen miedo de lanzarlo."
     }
   }
 }
