@@ -1,0 +1,38 @@
+*1. Character.AI quiere subastar los chats de 21 millones de usuarios*
+Lo nuevo: La empresa en quiebra pone a subasta datos de 21 millones de usuarios, incluidas conversaciones de 2,1 millones de menores. La subasta es el 1 de diciembre y el único comprador identificado (una LLC creada el 13 de noviembre) no estaría obligado a respetar la política de privacidad original. Una coalición de 42 fiscales estaduales, incluyendo California, impugnó la venta ante el juzgado de Delaware.
+Por qué te lo digo:
+• Para cualquier empresa uruguaya que usa herramientas de IA con datos de clientes —ASESP incluida— la pregunta que nadie se hace es qué dice el contrato con el proveedor en caso de insolvencia. Character.AI prometió privacidad y esos chats ahora son un activo a subastar.
+Qué dice X:
+• @TechCrunch (medio): "La venta propuesta incluye datos de más de 21 millones de cuentas de EE.UU., entre ellas 2,1 millones registradas a nombre de menores." https://x.com/TechCrunch/status/2125654687898599773
+• @sanchitmonga22 (escéptico, founder YC W26): "character ai está tratando de vender los chats privados de sus usuarios en la quiebra. y a mí me preguntaban si los modelos en el teléfono eran un chiche jaja" https://x.com/sanchitmonga22/status/2125645930871599465
+Link: https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/
+
+*2. OpenAI les ofrece a las empresas un modelo que no espía: Private Inference en alfa*
+Lo nuevo: OpenAI lanzó Private Inference en prueba con un grupo chico de empresas. La diferencia con Zero Data Retention es que los datos corren en hardware aislado donde ni OpenAI accede al prompt ni al output. El objetivo declarado es desbloquear sectores regulados —código sensible, documentos legales, datos médicos— que hasta ahora no podían mandar nada a la nube.
+Por qué te lo digo:
+• Para ASESP o cualquier institución de salud uruguaya, el argumento legal que hasta ahora bloqueaba la adopción de IA frontier —"no podemos mandar datos de pacientes a la nube"— tiene ahora una respuesta técnica verificable. Vale la pena mapear qué herramientas descartaron por compliance para revisar cuáles aplican.
+Qué dice X:
+• @dalexeenko (empleado OpenAI): "Una de las preguntas más difíciles en las que trabajamos todos los días es cómo mantener una vara de seguridad altísima y al mismo tiempo preservar más privacidad." https://x.com/dalexeenko/status/2125709655506866269
+• @testingcatalog (escéptico, tracker de producto): "OPENAI: Un grupo chico de clientes está probando Private Inference — inferencia en infraestructura propia. Pinference." https://x.com/testingcatalog/status/2125642883801997653
+Link: https://www.unite.ai/openai-begins-limited-customer-trials-of-alpha-private-inference/
+
+*3. La IA redacta el informe y el radiólogo aprueba el 97% de sus errores*
+Lo nuevo: En RSNA 2026 ya hay 2 dispositivos con aprobación FDA para borradores de informes radiológicos (Cognita y First Read de Aidoc). Un paper de Stanford mostró que el 97% de los hallazgos falsos positivos introducidos por la IA quedaron en el informe final después de la revisión del radiólogo. Los radiólogos ganan 27–31% de eficiencia, pero el debate es si se convierten en rubber stamps del modelo.
+Por qué te lo digo:
+• Para ASESP: la pregunta que distingue una compra responsable de un problema legal futuro es qué protocolo de revisión tienen para detectar los falsos positivos del modelo. No es "usamos IA", es "cómo aseguramos que el médico sea un revisor activo y no pasivo".
+Qué dice X:
+• @burhansebin (residente radiología): "Los residentes de la Universidad de Miami están armando su propio profesor de IA: compara el borrador del residente con el del radiólogo senior y convierte las diferencias en puntos de aprendizaje." https://x.com/burhansebin/status/2125281266115498232
+Link: https://www.statnews.com/2026/11/24/does-radiology-ai-draft-reports-make-care-better-safer-rsna/
+
+*4. Uruguay: el gobierno de Orsi redacta un decreto para regular la IA en el Estado*
+Lo nuevo: AGESIC y el Poder Ejecutivo están redactando un decreto que obligaría a todos los organismos del Estado a tener un inventario de sistemas de IA autorizados, evaluar riesgos antes de operarlos y mantener supervisión continua con canales de denuncias. El modelo tomó la experiencia europea como referencia con adaptaciones locales. Uruguay apunta a ser el primero en la región.
+Por qué te lo digo:
+• Para ASESP o cualquier institución que presta servicios al Estado: esto empieza a fijar el marco de qué sistemas de IA son aceptables en un contexto regulado. No es regulación directa sobre el sector privado hoy, pero establece los estándares hacia los que va a converger la exigencia pública. Mejor mapear los propios sistemas de IA ahora que después.
+Link: https://www.elobservador.com.uy/ciencia-y-tecnologia/gobierno-uruguayo-redacta-un-decreto-pionero-la-region-regular-el-uso-la-ia-la-administracion-publica-n6065118
+
+*Oportunidad del día*
+La señal: OpenAI lanzó Private Inference — inferencia en hardware aislado donde ni OpenAI puede ver los datos. Por primera vez, empresas con cláusulas de confidencialidad duras pueden usar modelos frontier sin violar sus contratos.
+La puerta: Estudios de abogados, empresas de RRHH o administradoras de consorcios en Montevideo (10–50 personas) que hasta ahora no adoptaron IA porque legal dijo que no. El que lo sufre es el socio o gerente que ve a su equipo perdiendo tiempo en tareas que IA haría bien pero que no pasan el filtro de compliance.
+La frase para abrir: "¿Cuántas herramientas de IA descartaron porque compliance no las aprobó?"
+
+Informe completo: https://roraag.github.io/daily-ia-news/archive/2026-11-26.html

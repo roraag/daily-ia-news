@@ -222,11 +222,10 @@
     "2026-11-22",
     "2026-11-23",
     "2026-11-24",
-    "2026-11-25"
+    "2026-11-25",
+    "2026-11-26"
   ],
   "recent_titles": [
-    "CMS publicó su hoja de ruta de IA: Medicare empieza a tomar partido",
-    "Anthropic abre en Nasdaq: $81.300 millones recaudados, el mayor IPO de la historia",
     "El agente de Meta leyó tus mensajes de Signal. Sin que lo habilitaras.",
     "Nvidia le cierra las puertas a China: USD 2.400 millones por trimestre que ya no van",
     "Nadella en Ignite: Copilot ya no es asistente, es el sistema operativo del trabajo",
@@ -262,7 +261,12 @@
     "OpenAI diseñó proteínas en un laboratorio real. 14 de 107 funcionaron.",
     "Alaska usa IA para los derrames cerebrales: 30% más rápido cuando cada minuto importa",
     "Walmart abrió la puerta a los agentes de IA. Amazon la cerró con llave.",
-    "Los mejores agentes de IA fallan en tareas cotidianas más de un tercio de las veces"
+    "Los mejores agentes de IA fallan en tareas cotidianas más de un tercio de las veces",
+    "Character.AI quiere subastar los chats de 21 millones de usuarios. 42 fiscales dicen que no.",
+    "OpenAI les ofrece a las empresas un modelo que no espía: Private Inference en alfa",
+    "Amazon y Meta negocian dejarle entrar a Muse: el agente que mueve el 51% del e-commerce con IA",
+    "La IA redacta el informe y el radiólogo aprueba el 97% de sus errores",
+    "S&P le pone nota negativa a Nvidia: el precio crediticio del 'hombre imprescindible'"
   ],
   "days": {
     "2026-04-17": {
@@ -2740,6 +2744,18 @@
         "Gary Marcus"
       ],
       "tesis": "Los labs construyen algo tan poderoso que sus propios empleados tienen miedo de lanzarlo."
+    },
+    "2026-11-26": {
+      "count": 5,
+      "sources": [
+        "techcrunch.com",
+        "unite.ai",
+        "androidheadlines.com",
+        "statnews.com",
+        "cnbc.com"
+      ],
+      "main_authors": [],
+      "tesis": "La distancia entre quien cree controlar algo y quien lo controla de verdad: desde los chats de Character.AI hasta el directorio de Nvidia."
     }
   }
 }
