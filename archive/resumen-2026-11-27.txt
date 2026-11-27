@@ -1,0 +1,43 @@
+Tengo todo lo que necesito del HTML. Acá va el resumen:
+
+*1. GPT-6 diseñó proteínas que funcionaron en el laboratorio. Con targets cancerígenos reales.*
+Lo nuevo: GPT-6.2 diseñó 322 miniproteínas contra 5 targets cancerígenos; 35 (10,9%) mostraron binding en el laboratorio real de Onava. Los targets incluyen PD-L1 y MDM2, proteínas clave en terapias contra el cáncer. El workflow todavía usa herramientas especializadas (Boltz-2, ESMFold2) para filtrar candidatos — no es zero-shot end-to-end todavía.
+Por qué te lo digo:
+• La IAMC uruguaya todavía ve la IA como herramienta de scheduling o chatbot de triaje. Esto abre el debate sobre qué tipo de IA quiere en el portafolio de innovación a 5 años. Para el plan estratégico 2027: si ASESP quiere un rol en salud de precisión, hay que empezar a mapear qué datos tiene que valdrían en este tipo de pipeline.
+Qué dice X:
+• @OpenAI (anuncio oficial): "We're sharing a new preprint showing wet lab validation of intrinsic protein design capabilities of the GPT-6 family of models." https://x.com/OpenAI/status/2125334383490105601
+• @gdb (Greg Brockman, OpenAI): "GPT-6 for designing new protein shapes and sequences — no bio-specific model required. Another example of the unreasonable effectiveness of reasoning and code to solve problems universally." https://x.com/gdb/status/2125341356503748716
+• @AndrewCurran_ (escéptico · investigador): "More emergent intrinsic capabilities appearing as models scale up. This work is an early step toward programmable molecular design at OpenAI." https://x.com/AndrewCurran_/status/2125336072389570726
+Link: https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities
+
+*2. SAP anuncia 10.000 despidos. Los llama "AI restructuring" sin tapujos.*
+Lo nuevo: SAP elimina más de 10.000 puestos (9% de 110.000 empleados). Afecta product development, engineering y sales, principalmente fuera de Europa — Lima, São Paulo, Mumbai, Bangalore. Es la segunda reestructuración de este tamaño en menos de 3 años.
+Por qué te lo digo:
+• El ERP de cualquier distribuidora uruguaya mediana es SAP o un clon que funciona igual. Hay una oportunidad clara en mostrarle al dueño qué reportes se pueden automatizar con los datos que ya tiene — antes de que SAP lo haga por él y lo cobre en la licencia. Para el que presta servicios de IA, este es el argumento de urgencia: SAP ya está en eso.
+Qué dice X:
+• @business (Bloomberg): "SAP is preparing a plan to eliminate at least 10,000 positions to transform its software business for the AI era." https://x.com/business/status/2126023225360445930
+• @ReutersTech (Reuters): "SAP considers at least 10,000 job cuts in AI restructuring, Bloomberg reports." https://x.com/ReutersTech/status/2126030776076480760
+• @PolymarketMoney (escéptico · mercado de predicciones): "BREAKING: Europe's largest software company SAP reportedly plans to cut at least 10,000 jobs." https://x.com/PolymarketMoney/status/2126010596424581570
+Link: https://www.bloomberg.com/news/articles/2026-11-26/sap-weighs-cutting-at-least-10-000-positions-in-ai-restructuring
+
+*3. Claude trabaja sola en la nube con el laptop cerrado. Scheduled Cloud Tasks disponible en Ultra.*
+Lo nuevo: Anthropic renombró Routines como "Scheduled Cloud Tasks" y las extendió al plan Ultra. Tres tipos de trigger: por horario (mínimo cada 1 hora), por webhook API, o por evento GitHub. La infraestructura corre en Anthropic — no en la máquina del usuario ni en un servidor propio.
+Por qué te lo digo:
+• Para cualquier pyme uruguaya que ya usa Claude Code o Claude Cowork, esto significa automatización real sin servidor propio. Un contador de una distribuidora puede programar que Claude genere el informe de cuentas a cobrar todos los lunes a las 7 AM. Sin IT, sin servidor, sin que nadie tenga que estar ahí.
+Qué dice X:
+• @claudeai (Anthropic oficial): "New in Cowork: scheduled tasks. Claude can now complete recurring tasks at specific times automatically: a morning brief, weekly spreadsheet updates, Friday team presentations." https://x.com/claudeai/status/2026720870631354429
+• @RoundtableSpace (análisis): "Claude Code can now keep working while your laptop is closed. Routines run a saved Claude Code task in Anthropic's cloud: on a schedule, when a pull request opens, or when another app calls it." https://x.com/RoundtableSpace/status/2112382044802331100
+Link: https://www.thequery.in/articles/claude-scheduled-tasks-cloud-chatgpt-gemini
+
+*4. Uruguay legisla el uso de IA en el Estado antes que el resto de la región.*
+Lo nuevo: El gobierno uruguayo redacta un decreto que exigiría inventario de sistemas de IA del Estado, designación de AI officers en cada organismo, e informar a los ciudadanos cuando una decisión fue apoyada por IA. AGESIC supervisará a través de un registro y comité estratégico.
+Por qué te lo digo:
+• Si se aprueba, toda institución de salud que recibe habilitación del MSP tendrá que cumplirlo — ASESP incluida. La habilitación de un AI officer y el inventario de sistemas de IA dejan de ser una iniciativa opcional y se convierten en requisito normativo. Es el momento de empezar a mapear qué sistemas de IA usa ASESP hoy, antes de que lo exija el decreto.
+Link: https://www.elobservador.com.uy/ciencia-y-tecnologia/gobierno-uruguayo-redacta-un-decreto-pionero-la-region-regular-el-uso-la-ia-la-administracion-publica-n6065118
+
+*Oportunidad del día*
+La señal: SAP confirma que el trabajo administrativo en ERP es reemplazable por IA. Hoy mismo, Claude puede ejecutar tareas programadas en la nube sin servidor propio — el informe de cobranza, la conciliación de facturas, el resumen semanal de ventas.
+La puerta: Distribuidoras, importadoras o empresas de servicios uruguayas de 20 a 80 empleados que tienen un administrativo dedicado a correr reportes del ERP, conciliar facturas o hacer seguimiento de cobranza. El que lo sufre: el dueño o gerente de administración, que paga a alguien para correr los mismos informes cada lunes.
+La frase para abrir: "¿Cuántas horas a la semana dedican a generar informes que ya tienen los datos?"
+
+Informe completo: https://roraag.github.io/daily-ia-news/archive/2026-11-27.html
