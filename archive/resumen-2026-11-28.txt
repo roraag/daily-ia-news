@@ -1,0 +1,40 @@
+Tengo todo lo que necesito del HTML. Acá va el resumen:
+
+*1. Claude convierte artefactos en apps instalables. Sin código. Sin empaquetado.*
+Lo nuevo: Anthropic lanzó "Install as app" (beta el 24 de noviembre): cualquier artefacto de Claude puede instalarse como app nativa en Mac o Windows con ícono propio, disponible en todos los planes desde Free hasta Enterprise. No requiere empaquetado, firma de código ni API key — solo Claude Desktop 6.28899.0 o superior. El nivel máximo de acceso ("Full Computer Access") le da a la app permiso para leer, escribir y borrar archivos sin confirmación, sin revisión previa de Anthropic.
+Por qué te lo digo:
+• Una pyme con un proceso manual repetitivo puede construir su propia herramienta interna en una tarde sin contratar un desarrollador. Para ASESP, es el momento de preguntar qué flujo administrativo o de gestión podría empezar como artefacto de Claude y terminar como app instalable en el equipo.
+Qué dice X:
+• @stretchcloud (dev, Prasenjit Sarkar): "whatever you build as a Claude artifact, you can now click 'Install as app' and it becomes a real Mac or Windows application with its own icon and its own window, no packaging, no code signing…" https://x.com/stretchcloud/status/2125367358386569247
+• @PawelHuryn (PM/Dev): las cuatro formas de deployar una app con Claude en una sola página — con la aclaración de que para datos públicos hace falta integrar una base de datos externa. https://x.com/PawelHuryn/status/2125388253683441830
+• @TawohAwa (escéptico, "declared war on Apple"): el tono sensacionalista contrasta con la realidad — es una beta, el acceso total es opt-in, y Apple tiene su respuesta en camino. https://x.com/TawohAwa/status/2125571040839659610
+Link: https://winbuzzer.com/2026/11/26/claude-lets-you-install-ai-built-tools-as-mac-and-windows-apps-xcxwbn/
+
+*2. Los labs de IA están sentados sobre avances de criptografía. Y eligieron no decirlo.*
+Lo nuevo: Scott Aaronson (UT Austin) dijo al Guardian que tiene "certeza virtual, por múltiples fuentes confiables" de que al menos un lab tiene avances que pueden romper el cifrado RSA — el que protege transacciones bancarias, cables diplomáticos y correos privados. Horas después borró el comentario inicial y escribió "un rumor es un rumor", pero no retractó su certeza. Ningún laboratorio hizo declaración pública.
+Por qué te lo digo:
+• Para ASESP y cualquier institución financiera uruguaya: si esto se confirma, la criptografía de los sistemas de historia clínica electrónica, pagos y datos de afiliados no sería suficiente. Es el momento de preguntar al proveedor de infraestructura qué plan tienen para "post-quantum cryptography" — y si tienen uno.
+Qué dice X:
+• @Polymarket (mercado de predicción): "JUST IN: Computer scientist Scott Aaronson reveals AI labs are preparing to release a 'major breakthrough in theoretical cryptanalysis.'" https://x.com/Polymarket/status/2126443258159255811
+• @Crypto_Jargon (cripto): Aaronson dice tener "certeza virtual" de que Anthropic, OpenAI, o ambos tienen "bombshells" en criptografía, pero es "mucho, mucho menos seguro" sobre qué son exactamente. https://x.com/Crypto_Jargon/status/2125787408478490919
+• @secparam (escéptico, Ian Miers, criptógrafo): "Many results can change how we think about cryptography without immediately breaking it." Los rumores son poco confiables; vale leerlo con calma técnica. https://x.com/secparam/status/2126079107817787693
+Link: https://emergent.sh/news/ai-labs-hold-bombshell-discoveries-risking
+
+*3. Los agentes de IA compraron el 0,4% del Black Friday. Y eso ya alcanzó para rediseñar cómo funciona la publicidad.*
+Lo nuevo: Bain estima que agentes de IA comprometieron el 0,4% de las compras online del Black Friday 2026. Adobe reporta que el tráfico referido por IA creció 95% año a año. El dato más revelador: el 60% de los compradores llegó sin marca elegida y le pidió al agente que eligiera. El 50% de los 200 mayores retailers ya bloquea a ChatGPT, Gemini y Muse — y un test de Visa a 22 asistentes mostró que el 42,8% falló en completar sus tareas.
+Por qué te lo digo:
+• Agencias digitales uruguayas que gestionan e-commerce para pymes: la pregunta que nadie le hace todavía a sus clientes es si el feed de producto está optimizado para ser elegido por un agente de IA, no solo para buscadores humanos. Un distribuidor que depende de Google Shopping puede empezar a ver el impacto en 12 meses — quien lo vea antes puede cobrar por resolverlo.
+Link: https://thenextweb.com/news/ai-shopping-agents-black-friday-retailers-trust
+
+*4. Montevideo fue el centro de IA regional esta semana. Y el gobierno quiere llevar la tecnología a 1.100 empresas.*
+Lo nuevo: El gobierno está probando un programa para llevar IA a pymes en la región este del país, con capacitación, herramientas y acompañamiento a empresas de entre 10 y 50 empleados, enmarcado en el acuerdo ANDE-Amazon. En paralelo, Visionaria LatAm 2026 tuvo su edición en Montevideo. Un estudio regional publicó que el 82,5% de pymes latam quiere automatizar pero solo el 11% usa modelos predictivos — la brecha es de oferta, no de demanda.
+Por qué te lo digo:
+• Si trabajás con pymes uruguayas en proyectos de IA, este programa es una puerta de entrada — puede ser fuente de referidos o el contexto que justifica una propuesta. Las empresas que entren van a necesitar alguien que les haga algo útil de verdad, no solo capacitación.
+Link: https://news.google.com/rss/articles/CBMi8gFBVV95cUxNVXlwaUEzNWZxZDdmLUtVODZsR0JJaFFDb2VNcndUXzU2SFhBQXplaGxZOEYyaEt6NVU5c2RZSnhpZ3ZrX0RienBrMDFtOWlnSUR4bjA5QUVFUWRCWklPS1BPWm1zVnFLNTh2R3BiNnUyNmtUeXEyZFgzYmtuYnNfNnYzdHBXWVRiMG5hVmtKVjdpNE95Y2ZQYUhNWDJVQVI3VnJfejBSLTJaLURWdHNtVl84bHliOXpFQUpJdXFrb2habElMdjN4anU1SnpkY1FqbmJ3YTRra3Rmc3lNVUxjVDBRSXFyMl9XdmNTaUVkc0wxdw
+
+*Oportunidad del día*
+La señal: Los agentes de IA compraron el 0,4% del Black Friday 2026 y el 60% de los compradores llegó sin marca elegida, pidiéndole al agente que eligiera. El feed de producto se convirtió en el nuevo SEO — y la mayoría de las pymes uruguayas no lo saben todavía.
+La puerta: Agencias de marketing digital o diseñadoras de e-commerce uruguayas de 3 a 15 personas que gestionan tiendas online para pymes de ropa, electrónica u hogar. El que lo siente es el dueño de la agencia que ve caer el tráfico orgánico mientras el cliente sigue gastando en ads.
+La frase para abrir: "¿Cuánto del tráfico que traés a tus clientes viene de búsquedas clásicas, y cuánto viene de asistentes de IA que recomiendan productos?"
+
+Informe completo: https://roraag.github.io/daily-ia-news/archive/2026-11-28.html

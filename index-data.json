@@ -224,14 +224,10 @@
     "2026-11-24",
     "2026-11-25",
     "2026-11-26",
-    "2026-11-27"
+    "2026-11-27",
+    "2026-11-28"
   ],
   "recent_titles": [
-    "GPT-6 de OpenAI diseñó proteínas que funcionaron en un laboratorio real",
-    "SAP anuncia 10.000 despidos y los llama AI restructuring",
-    "Claude trabaja sola en la nube: Scheduled Cloud Tasks disponibles en Ultra",
-    "Mozilla y Mistral en Firefox: open-weight AI sin datos en el servidor",
-    "El agente de Meta leyó tus mensajes de Signal. Sin que lo habilitaras.",
     "Nvidia le cierra las puertas a China: USD 2.400 millones por trimestre que ya no van",
     "Nadella en Ignite: Copilot ya no es asistente, es el sistema operativo del trabajo",
     "Epic bajo presión antimonopolio: prometió abrir sus datos a la IA. HIPAA también se moderniza.",
@@ -271,7 +267,12 @@
     "OpenAI les ofrece a las empresas un modelo que no espía: Private Inference en alfa",
     "Amazon y Meta negocian dejarle entrar a Muse: el agente que mueve el 51% del e-commerce con IA",
     "La IA redacta el informe y el radiólogo aprueba el 97% de sus errores",
-    "S&P le pone nota negativa a Nvidia: el precio crediticio del 'hombre imprescindible'"
+    "S&P le pone nota negativa a Nvidia: el precio crediticio del 'hombre imprescindible'",
+    "Claude convierte artefactos en apps instalables de Windows y Mac",
+    "Los labs de IA guardan avances de criptografía que podrían leer el tráfico bancario",
+    "OpenAI contrademanda a Apple: secretos industriales y bloqueo de proveedores de hardware",
+    "Agentes de IA compraron el 0,4% del Black Friday y ya rediseñan la publicidad digital",
+    "SpaceX le arrienda 110.000 GPUs a Google por 920 millones de dólares por mes"
   ],
   "days": {
     "2026-04-17": {
@@ -2772,6 +2773,18 @@
       ],
       "main_authors": [],
       "tesis": "SAP elimina 10.000 puestos por IA, OpenAI diseña proteínas que funcionan en laboratorio real, y Claude trabaja sola en la nube: la IA dejó de ser una apuesta y se convirtió en consecuencia."
+    },
+    "2026-11-28": {
+      "count": 5,
+      "sources": [
+        "winbuzzer.com",
+        "theguardian.com",
+        "cnn.com",
+        "thenextweb.com",
+        "gurufocus.com"
+      ],
+      "main_authors": [],
+      "tesis": "Los labs están sentados sobre bombshells de criptografía y eligieron no decirlo, mientras Claude convierte artefactos en apps instalables y los agentes compraron el 0,4% del Black Friday."
     }
   }
 }
